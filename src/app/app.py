@@ -12,6 +12,15 @@ from pathlib import Path
 from datetime import datetime
 from io import BytesIO
 
+# Módulos de gamificación
+from gamification import (
+    render_sidebar_stats, render_onboarding,
+    registrar_generacion, registrar_mejora, registrar_exportacion,
+    check_and_celebrate, celebrar_badges,
+    get_mensaje_generacion, get_mensaje_mejora,
+)
+from styles import get_gamification_css
+
 # Cargar variables de entorno desde .env si existe
 try:
     from dotenv import load_dotenv
@@ -29,6 +38,9 @@ st.set_page_config(page_title="Generador Educativo AI", page_icon="🤖", layout
 # Inicializar variables de estado
 DOCX_OK = False
 SERVICES_OK = False
+
+# Inyectar CSS de gamificación
+st.markdown(get_gamification_css(), unsafe_allow_html=True)
 
 # Título principal
 st.title("Generador de contenido educativo AI 🤖")
@@ -1239,7 +1251,7 @@ def formatear_sesion_aprendizaje(contenido_raw, titulo_unidad, titulo_sesion, ni
         if not texto_celda:
             return resultado
         # Puede haber dos bloques (uno por competencia) separados por la segunda competencia
-        bloques = re.split(re.escape(comp2), texto_celda, 1)
+        bloques = re.split(re.escape(comp2), texto_celda, maxsplit=1)
         for i, bloque in enumerate([bloques[0]] if len(bloques) == 1 else bloques):
             if i == 1 and len(bloques) > 1:
                 bloque = comp2 + bloque
@@ -2283,7 +2295,7 @@ def crear_documento_sesion_aprendizaje(contenido, titulo_unidad, titulo_sesion, 
                 while partes and not partes[-1]: partes.pop()
                 if len(partes) >= 2:
                     texto = partes[1].replace('**', '')
-                    bloques = re.split(re.escape(comp2), texto, 1)
+                    bloques = re.split(re.escape(comp2), texto, maxsplit=1)
                     for i, bloque in enumerate([bloques[0]] if len(bloques) == 1 else bloques):
                         if i == 1 and len(bloques) > 1: bloque = comp2 + bloque
                         if "Capacidad transversal:" in bloque:
@@ -2479,6 +2491,9 @@ def crear_documento_sesion_aprendizaje(contenido, titulo_unidad, titulo_sesion, 
 
 # Solo mostrar tabs si todo está OK
 if SERVICES_OK:
+    # Renderizar sidebar de gamificación y onboarding
+    render_sidebar_stats()
+    render_onboarding()
     st.success("🎉 ¡Sistema listo! Genera tu contenido educativo.")
     
     # Crear tabs
@@ -2646,7 +2661,8 @@ if SERVICES_OK:
             elif grado_vacio:
                 st.warning("⚠️ Por favor selecciona un grado")
             else:
-                with st.spinner('🔄 Generando unidad didáctica...'):
+                msg_motiv = get_mensaje_generacion(area_curricular)
+                with st.spinner(msg_motiv):
                     try:
                         # Pasar las competencias seleccionadas si existen y están disponibles
                         competencia_para_generar = None
@@ -2704,6 +2720,10 @@ if SERVICES_OK:
                         st.session_state['chat_mensajes_unidad'] = []
                         
                         st.success("✅ ¡Unidad didáctica generada exitosamente!")
+                        # Gamificación: registrar generación y verificar badges
+                        registrar_generacion("unidad", area=area_curricular, grado=grado)
+                        nuevos_badges = check_and_celebrate()
+                        celebrar_badges(nuevos_badges)
                         if ruta_txt:
                             st.info(f"📁 Archivos guardados en: {ruta_txt.rsplit('/', 1)[0]}")
                                 
@@ -2852,6 +2872,10 @@ if SERVICES_OK:
                         if nuevo_doc and not nuevo_doc.startswith("[Error"):
                             st.session_state['documento_editable_unidad'] = nuevo_doc
                             st.session_state['documento_raw_unidad'] = nuevo_doc
+                            # Gamificación: registrar mejora
+                            registrar_mejora()
+                            nuevos = check_and_celebrate()
+                            celebrar_badges(nuevos)
                             # Mensaje de éxito más claro
                             st.session_state['chat_mensajes_unidad'].append({
                                 "role": "assistant",
@@ -3053,7 +3077,8 @@ if SERVICES_OK:
             elif not duracion.strip():
                 st.warning("⚠️ Por favor ingresa la duración")
             else:
-                with st.spinner('🔄 Generando sesión de aprendizaje...'):
+                msg_motiv_ses = get_mensaje_generacion()
+                with st.spinner(msg_motiv_ses):
                     try:
                         resultado_raw = generar_sesion_aprendizaje(
                             titulo_unidad,
@@ -3119,6 +3144,11 @@ if SERVICES_OK:
                         }
                         
                         st.success("✅ ¡Sesión de aprendizaje generada exitosamente!")
+                        # Gamificación: registrar generación de sesión
+                        area_ses = st.session_state.get('unidad_generada', {}).get('area_curricular', '')
+                        registrar_generacion("sesion", area=area_ses, grado=grado_actual)
+                        nuevos_badges_ses = check_and_celebrate()
+                        celebrar_badges(nuevos_badges_ses)
                         if ruta_txt:
                             st.info(f"📁 Archivos guardados en: {ruta_txt.rsplit('/', 1)[0]}")
                                 
@@ -3246,6 +3276,10 @@ if SERVICES_OK:
                         if nuevo_doc_sesion and not nuevo_doc_sesion.startswith("[Error"):
                             st.session_state['documento_editable_sesion'] = nuevo_doc_sesion
                             st.session_state['documento_raw_sesion'] = nuevo_doc_sesion
+                            # Gamificación: registrar mejora de sesión
+                            registrar_mejora()
+                            nuevos_ses = check_and_celebrate()
+                            celebrar_badges(nuevos_ses)
                             # Mensaje de éxito más claro
                             st.session_state['chat_mensajes_sesion'].append({
                                 "role": "assistant",

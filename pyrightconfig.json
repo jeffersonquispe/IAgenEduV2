@@ -2,6 +2,10 @@
   "include": [
     "src"
   ],
+  "extraPaths": [
+    "src",
+    "src/app"
+  ],
   "exclude": [
     "**/node_modules",
     "**/__pycache__",

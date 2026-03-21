@@ -1,0 +1,25 @@
+
+> frontend@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v4.5.3[39m  [2mready in [0m[1m395[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m  [32mΓ₧£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh[22m[2m to show help[22m
+node:internal/process/promises:279
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Failed to load PostCSS config: Failed to load PostCSS config (searchPath: C:/Users/Jeff/Desktop/Tesis 2/ia-gen-edu/frontend): [Failed to load PostCSS config] Failed to load PostCSS config (searchPath: C:/Users/Jeff/Desktop/Tesis 2/ia-gen-edu/frontend): [ReferenceError] module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\Jeff\Desktop\Tesis 2\ia-gen-edu\frontend\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'C:\Users\Jeff\Desktop\Tesis 2\ia-gen-edu\frontend\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///C:/Users/Jeff/Desktop/Tesis%202/ia-gen-edu/frontend/postcss.config.js:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:530:24)
+    at async importDefault (file:///C:/Users/Jeff/Desktop/Tesis%202/ia-gen-edu/frontend/node_modules/vite/dist/node/chunks/dep-41cf5ffd.js:36556:18)
+    at async Object.search (file:///C:/Users/Jeff/Desktop/Tesis%202/ia-gen-edu/frontend/node_modules/vite/dist/node/chunks/dep-41cf5ffd.js:28992:38)
+]

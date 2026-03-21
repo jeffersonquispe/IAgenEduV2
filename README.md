@@ -1,118 +1,201 @@
-# 📘 Proyecto: IAGen para Contenido Curricular  
+# 📘 IA-GEN-EDU — Generador de Planificación Curricular con IA
 
-Este proyecto es una solución diseñada para **acelerar la generación y organización de contenidos curriculares educativos**, tomando como base documentos oficiales (ej. Currículo Nacional del Perú del MINEDU). Utiliza **Inteligencia Artificial Generativa (IAGen)** para automatizar el análisis de documentos, la extracción de competencias, capacidades y desempeños, así como la creación de recursos educativos complementarios (tablas, descripciones, actividades sugeridas).  
-
----
-
-## 📌 Contexto : Revolucionando la Educación con IAGen  
-
-El uso de **IA Generativa en educación** está transformando la manera en que los docentes preparan materiales y planificaciones.  
-Actualmente, la carga de trabajo docente incluye la lectura de documentos normativos extensos, la adaptación de competencias a actividades de aula y la producción de material pedagógico. Con IAGen:  
-
-- ✅ Se acelera la **lectura y extracción de información clave** de documentos oficiales.  
-- ✅ Se generan **formatos estandarizados** de programación curricular.  
-- ✅ Se adaptan los contenidos a **diferentes grados y niveles** de manera automatizada.  
-
-Un reto central es la **percepción de legitimidad y confiabilidad**: los materiales deben mantener coherencia con los documentos oficiales. Para resolverlo, se aplican técnicas de **Mejora Recursiva con Auto-Crítica (RSIP)**, que permiten a la IA revisar y ajustar sus propias salidas para alinearlas con criterios de autenticidad y pertinencia pedagógica.  
+Plataforma web que permite a docentes peruanos generar **Unidades Didácticas** y **Sesiones de Aprendizaje** alineadas al Currículo Nacional (CNEB/MINEDU) utilizando Inteligencia Artificial Generativa.
 
 ---
 
-## ✨ Características Principales  
+## 🎯 ¿Qué hace?
 
-- 📄 **Extracción Automática de Contenidos:** A partir de documentos del MINEDU (Currículo Nacional, Programaciones, Rutas de Aprendizaje).  
-- 📊 **Generación de Tablas Curriculares:** Competencias, capacidades, desempeños y criterios de evaluación por grado y área.  
-- 📈 **Dashboard Interactivo:** Visualización de la información curricular procesada y organizada por nivel, grado y competencia.  
-- 🔄 **Soporte Multi-Formato:** Exportación de resultados en **Word, Excel o PDF** para su uso en la planificación docente.  
-- 🎯 **Expansión de Recursos:** Creación de ejemplos de actividades, rúbricas y preguntas de evaluación formativa.  
+| Documento | Qué genera |
+|---|---|
+| **Unidad Didáctica** | Título motivador, Situación Significativa, Propósitos de Aprendizaje, Secuencia de Sesiones, Rúbrica Analítica (C/B/A/AD) vinculada al Producto Final |
+| **Sesión de Aprendizaje** | Secuencia Didáctica adaptada a la metodología elegida (ERCA / ABP / Aula Invertida), Rúbrica Simplificada, Materiales, Reflexión docente |
 
----
-
-## 🏗️ Arquitectura Técnica  
-
-La solución se basa en un flujo **serverless y modular** en AWS:  
-
-1. **Ingesta de Documentos:**  
-   Se cargan documentos oficiales (PDF/Word/JSON) a un bucket de **Amazon S3**.  
-
-2. **Procesamiento Automático:**  
-   - Un trigger de S3 activa una función **AWS Lambda**.  
-   - La función usa **Amazon Comprehend** para extracción de entidades y resúmenes.  
-   - Se conecta con **Amazon Bedrock** para la generación de tablas curriculares y recursos didácticos.  
-
-3. **Base de Datos:**  
-   Los resultados se almacenan en **Amazon DynamoDB**, permitiendo consultas rápidas por grado, competencia o área curricular.  
-
-4. **Frontend:**  
-   Una aplicación en **Streamlit** muestra dashboards con los datos procesados y ofrece la descarga en múltiples formatos.  
-
-![Diagrama de la Arquitectura](imagenes/arquitectura.png)  
+Todos los documentos se exportan como **`.docx`** o **`.pdf`** listos para uso administrativo.
 
 ---
 
-## 📋 Requisitos Previos  
+## ✨ Características clave
 
-En **Windows** se necesita:  
-- Python 3.8+  
-- Visual Studio Code  
-- Git  
-- Credenciales de AWS  
+- 🧠 **Pipeline de Agentes IA**: Generador → Validador → Formateador, con autocorrección de errores estructurales.
+- 📐 **Reglas de negocio pedagógicas**: el Producto Final gobierna la rúbrica; la Metodología cambia la estructura de la sesión.
+- 📚 **RAG curricular**: las generaciones se enriquecen con documentos oficiales del MINEDU indexados en Amazon Bedrock Knowledge Bases.
+- ✏️ **Editor interactivo por sección**: cada campo del documento es editable y refinable con IA mediante instrucción libre.
+- 💾 **Historial persistente**: los documentos generados se guardan en base de datos por usuario.
+- 🔐 **Autenticación JWT**: sistema de usuarios con roles y estadísticas de uso.
 
 ---
 
-## ⚙️ Instalación y Ejecución  
+## 🏗️ Arquitectura
 
-### 1. Clonar el Repositorio  
+```
+┌─────────────────────────────────────────────┐
+│              Frontend (React + Vite)         │
+│  GenerationWizard → Editor → Export Buttons  │
+└────────────────┬────────────────────────────┘
+                 │ REST API (FastAPI)
+┌────────────────▼────────────────────────────┐
+│           Backend (Python / FastAPI)         │
+│                                             │
+│  AgentCoordinator                           │
+│  ├── GeneratorAgent  ←── PromptManager      │
+│  │     └── RAGService (Bedrock KB)          │
+│  ├── ValidatorAgent                         │
+│  │     ├── StructureValidator               │
+│  │     └── ContentValidator (LLM)           │
+│  └── FormatterAgent                         │
+│                                             │
+│  LLM Provider: Amazon Bedrock (Claude 3)    │
+│  Fallback: Azure OpenAI → AWS Bedrock       │
+└────────────────┬────────────────────────────┘
+                 │
+┌────────────────▼────────────────────────────┐
+│           SQLite (edu_gen.db)                │
+│  Users · Documents · Stats                  │
+└─────────────────────────────────────────────┘
+```
 
-git clone https://github.com/jeffersonquispe/content_curricular_ia.git
-cd content_curricular
+---
 
-## 2. Configurar Variables de Entorno (.env)
+## 📂 Estructura del proyecto
 
-Crear un archivo .env en la raíz del proyecto con el siguiente contenido:
-AWS_ACCESS_KEY_ID=your_aws_access_key_id
-AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+```
+ia-gen-edu/
+├── frontend/               # React + Vite + TailwindCSS
+│   └── src/
+│       ├── components/     # GenerationWizard, Sidebar
+│       └── pages/          # Dashboard, Editor, Login
+├── src/
+│   ├── agents/             # coordinator, generator, validator, formatter
+│   ├── api/                # FastAPI routes (auth, generation, export, data)
+│   ├── core/               # bedrock_client, prompt_manager, rag_service, pdf_generator
+│   ├── prompts/            # Plantillas de prompt en Markdown
+│   ├── utils/              # Helpers
+│   └── validators/         # structure_validator, content_validator
+├── data/                   # Documentos curriculares MINEDU
+├── .env                    # Variables de entorno (no se versiona)
+├── requirements.txt
+└── run.py                  # Punto de entrada del servidor
+```
+
+---
+
+## ⚙️ Instalación
+
+### Prerrequisitos
+
+- Python 3.10+
+- Node.js 18+
+- Credenciales de AWS (para Amazon Bedrock)
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/jeffersonquispe/ia-gen-edu.git
+cd ia-gen-edu
+```
+
+### 2. Configurar variables de entorno
+
+Crea un archivo `.env` en la raíz del proyecto:
+
+```env
+# AWS Bedrock
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=us-east-1
 
-## 3. Instalar Dependencias
+# Base de datos
+DATABASE_URL=sqlite:///./edu_gen.db
+
+# JWT
+SECRET_KEY=your_secret_key_here
+
+# Opcional: Azure OpenAI (fallback)
+AZURE_OPENAI_ENDPOINT=https://...
+AZURE_OPENAI_KEY=...
+AZURE_OPENAI_DEPLOYMENT=...
+```
+
+### 3. Instalar dependencias del backend
+
+```bash
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate          # Windows
 pip install -r requirements.txt
+```
 
-## 4. Ejecutar la Aplicación
+### 4. Instalar dependencias del frontend
 
-$env:AWS_REGION = "us-east-1"; $env:PYTHONPATH = "...\content_curricular\src"; streamlit run src/app/app.py
+```bash
+cd frontend
+npm install
+```
 
-## 5. Cargar Documentos al Bucket S3
+### 5. Ejecutar
 
-aws s3 sync ./documentos_minedu s3://minedu-educacion-peru/
-python upload_data.py
+**Backend** (desde la raíz):
+```bash
+python run.py
+```
 
-## 📂 Organización del Proyecto
+**Frontend** (en otra terminal):
+```bash
+cd frontend
+npm run dev
+```
 
-src/ → Código fuente (procesamiento y dashboard).
+La aplicación estará disponible en `http://localhost:5173`.
 
-documentos_minedu/ → Carpeta con documentos oficiales.
+---
 
-imagenes/ → Diagramas y capturas del proyecto.
+## 🕹️ Flujo de uso
 
-requirements.txt → Dependencias Python.
+1. **Login** → Crear cuenta o ingresar.
+2. **Dashboard** → Botón *Nueva Unidad* o *Nueva Sesión*.
+3. **Wizard (3 pasos)**:
+   - Paso 1: Área Curricular + Grado.
+   - Paso 2 (Unidad): Competencias, Temáticas, **Producto Final**.
+   - Paso 2 (Sesión): Título de Unidad, Tema, **Metodología** (ERCA / ABP / Aula Invertida).
+   - Paso 3: Resumen y confirmación → *Generar Documento*.
+4. **Editor** → Revisar, editar y refinar cada sección con IA.
+5. **Aprobar** → Descargar como `.docx` o `.pdf`.
 
-## 🚀 Próximos Pasos y Escalabilidad
+---
 
-🌐 Integración con APIs Educativas: conexión con repositorios oficiales (MINEDU, UNESCO).
+## 🧠 Metodologías soportadas en Sesión
 
-🔧 Modelos IAGen a la Medida: ajuste fino de modelos en Bedrock con documentos curriculares peruanos.
+| Metodología | Comportamiento del sistema |
+|---|---|
+| **ERCA** | Inicio: actividad vivencial. Desarrollo: reflexión → conceptualización → aplicación |
+| **ABP** | Inicio: planteamiento de problema real. Desarrollo: análisis → diseño → validación |
+| **Aula Invertida** | Inicio: verificar lectura/vídeo previo (sin explicar contenido nuevo). Desarrollo: debate y análisis profundo |
 
-📡 Alertas y Seguimiento: dashboards con indicadores de avance curricular y sugerencias de mejora.
+---
 
-🌍 Expansión Multilingüe: generar contenidos en quechua, aimara y lenguas amazónicas.
+## 🐳 Docker (opcional)
 
-## 📘 Bibliografía
+```bash
+docker-compose up --build
+```
 
-Abdalla, M. J., Ali, F., Alotaibi, S., & Ali, L. (2025). Beyond the hype: Evaluating the impact of generative AI on brand authenticity, image, and consumer behavior in the restaurant industry. International Journal of Hospitality Management, 131, 104318.
+---
 
-Brüns, J. D., & Meißner, M. (2024). Do you create your content yourself? Using generative artificial intelligence for social media content creation diminishes perceived brand authenticity. Journal of Retailing and Consumer Services, 79, 103790.
+## 📋 Tecnologías
 
-Critical-Elephant630. (2024). Advanced Prompt Engineering Techniques for 2025: Beyond Basic Instructions. r/PromptEngineering.
+| Capa | Tecnología |
+|---|---|
+| Frontend | React 18, Vite, TailwindCSS |
+| Backend API | FastAPI, SQLAlchemy, SQLite |
+| IA | Amazon Bedrock (Claude 3 Sonnet), Bedrock Knowledge Bases |
+| Exportación | python-docx, WeasyPrint |
+| Auth | JWT (python-jose) |
+| Contenedores | Docker, Docker Compose |
 
-[Autor no especificado]. (2025). Harnessing generative AI for personalized E-commerce product descriptions: A framework and practical insights. Computer Standards & Interfaces, 94, 104012.
+---
+
+## 📘 Contexto académico
+
+Este proyecto forma parte de una tesis de investigación sobre el uso de **IA Generativa en educación**, con enfoque en la reducción de la carga administrativa docente y la mejora de la calidad pedagógica mediante alineación automática con el Currículo Nacional de Educación Básica (CNEB) del MINEDU Perú.
+
+La arquitectura implementa técnicas de **auto-crítica y corrección iterativa** (RSIP), **Retrieval-Augmented Generation (RAG)** con documentos oficiales, y un **pipeline de agentes** especialistas (Generador, Validador, Formateador) para garantizar la coherencia y calidad de los documentos producidos.

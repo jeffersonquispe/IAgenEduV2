@@ -1,330 +1,470 @@
-# Detalles técnicos del proyecto – Generador Educativo AI
+# 📋 Documentación Técnica — IA-GEN-EDU
 
-Documento que describe la arquitectura técnica, conexión con AWS, RAG, técnicas de prompting y esquema del proyecto.
+**Versión:** 2.0 | **Stack:** FastAPI + React + Amazon Bedrock | **Fecha:** Marzo 2026
 
 ---
 
-## 1. Conexión con AWS
+## 1. Resumen Ejecutivo
 
-### 1.1 Servicios utilizados
+IA-GEN-EDU es una plataforma web que automatiza la generación de planificación curricular para docentes peruanos de educación secundaria, alineada al Currículo Nacional de Educación Básica (CNEB/MINEDU). El sistema combina un pipeline de **agentes de IA especializados** con un backend REST en FastAPI y un frontend en React, produciendo documentos `.docx` y `.pdf` listos para uso administrativo.
 
-| Servicio | Uso en el proyecto |
-|----------|---------------------|
-| **Amazon Bedrock Runtime** | Invocación de modelos de lenguaje (Claude) para generación de texto. |
-| **Amazon Bedrock Agent Runtime** | Recuperación desde Knowledge Bases cuando `BEDROCK_KB_CURRICULO_ID` está configurado. |
-| **Amazon S3** | Carga de currículo y comentarios (opcional; usado por `data_ingestion` y por KB). |
+---
 
-### 1.2 Credenciales y configuración
+## 2. Arquitectura del Sistema
 
-- **Origen de credenciales** (en orden de prioridad):
-  1. **Variables de entorno**  
-     `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION`. Opcional: `AWS_SESSION_TOKEN`, `AWS_PROFILE`.
-  2. **Archivo `.env`**  
-     Cargado con `python-dotenv` desde la raíz del proyecto (`pathlib` hacia `src/core/../../.env`). Solo se carga si el archivo existe.
-  3. **Perfil AWS**  
-     Si se define `AWS_PROFILE`, se usa `boto3.Session(profile_name=...)`.
-  4. **Credenciales por defecto**  
-     `~/.aws/credentials` o rol IAM (por ejemplo en EC2/Lambda).
+### 2.1 Diagrama de componentes
 
-- **Región por defecto:** `us-east-1` si no se define `AWS_REGION`.
-
-- **Creación del cliente Bedrock:**  
-  En `src/core/bedrock_services.py`, la función `crear_cliente_bedrock()` construye un cliente `bedrock-runtime` con `boto3.client(service_name='bedrock-runtime', region_name=...)`. Si se usan variables de entorno, se pasan explícitamente `aws_access_key_id` y `aws_secret_access_key` (y `aws_session_token` si existe).
-
-### 1.3 Variables de entorno relevantes
-
-```env
-AWS_REGION=us-east-1
-AWS_ACCESS_KEY_ID=...
-AWS_SECRET_ACCESS_KEY=...
-# Opcionales:
-AWS_PROFILE=default
-AWS_SESSION_TOKEN=...
-BEDROCK_KB_CURRICULO_ID=...   # Si se usa RAG con Knowledge Base
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                     FRONTEND  (React + Vite + TailwindCSS)            │
+│                                                                       │
+│  Login.jsx → Dashboard.jsx → GenerationWizard.jsx → Editor.jsx       │
+│                                                                       │
+│  Puerto: 5173  |  Proxy /api/* → http://localhost:8000                │
+└──────────────────────────────────┬──────────────────────────────────-┘
+                                   │ HTTP/REST (JSON)
+┌──────────────────────────────────▼───────────────────────────────────┐
+│                     BACKEND (FastAPI + Uvicorn)                        │
+│                          Puerto: 8000                                  │
+│                                                                       │
+│  /auth/*  /generate/*  /export/*  /data/*                            │
+│                                                                       │
+│  ┌─────────────────────────────────────────────────────────────────┐  │
+│  │                    AgentCoordinator                              │  │
+│  │                                                                 │  │
+│  │  1. GeneratorAgent ←── PromptManager (plantillas .md)          │  │
+│  │       └── RAGEducativoService (Bedrock Knowledge Bases)         │  │
+│  │  2. ValidatorAgent                                              │  │
+│  │       ├── StructureValidator  (regex + heurísticas)             │  │
+│  │       └── ContentValidator    (LLM como juez)                   │  │
+│  │  3. FormatterAgent            (limpieza de tablas Markdown)     │  │
+│  └─────────────────────────────────────────────────────────────────┘  │
+│                         │                                              │
+│     LLM: Amazon Bedrock (Claude 3 Sonnet)                             │
+│     Fallback: Azure OpenAI → AWS Bedrock directo                      │
+│                                                                       │
+│  SQLite (edu_gen.db)                                                  │
+│   users · user_stats · documents                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1.4 Docker
+### 2.2 Flujo de generación end-to-end
 
-- `docker-compose.yml` define el servicio `streamlit-app` con `env_file: .env` y reenvío de `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_PROFILE`.
-- La aplicación dentro del contenedor usa esas variables; no depende de un `.env` montado si se inyectan por `environment`.
-
-### 1.5 Permisos IAM (referencia)
-
-El archivo `bedrock-policy.json` incluye permisos de ejemplo para Bedrock Knowledge Base (crear KB, data source, iniciar ingestion) y `iam:PassRole` para el rol de la KB. Para invocar modelos y, si aplica, S3 y Bedrock Agent Runtime, la política en uso debe incluir:
-
-- `bedrock:InvokeModel` (o `bedrock:InvokeModelWithResponseStream`) sobre los modelos utilizados.
-- Si se usa Knowledge Base: permisos sobre `bedrock-agent-runtime` (por ejemplo `bedrock:Retrieve` según la API).
-- Si se usa S3: `s3:PutObject`, `s3:GetObject` sobre los buckets correspondientes.
+```
+Docente llena Wizard
+       │
+       ▼
+POST /api/generate/unidad  (o /sesion)
+       │
+       ▼
+bedrock_services.generar_unidad_didactica(
+    area, grado, competencias, temas,
+    num_sesiones, producto_final          ← nuevo
+)
+       │
+       ├─ _USE_AGENT_PIPELINE = True?
+       │     │
+       │     ▼
+       │  AgentCoordinator.generar_unidad_didactica()
+       │     │
+       │     ├─ GeneratorAgent.generar()
+       │     │     ├─ RAGService.buscar_contexto_curricular()
+       │     │     └─ BedrockClient.invocar(prompt)
+       │     │
+       │     ├─ ValidatorAgent.validar_unidad()
+       │     │     ├─ StructureValidator (rápido, programático)
+       │     │     └─ ContentValidator (LLM, si no hay errores críticos)
+       │     │
+       │     ├─ (Si errores críticos) GeneratorAgent.corregir()
+       │     │
+       │     └─ FormatterAgent.formatear()
+       │
+       └─ Fallback: prompt directo a Bedrock
+       │
+       ▼
+Parsers extraen secciones del texto crudo
+(situacion_significativa, propositos, secuencia_sesiones, rubrica_unidad)
+       │
+       ▼
+DB: Document guardado con content JSON
+       │
+       ▼
+Response JSON → Editor.jsx muestra secciones editables
+       │
+       ▼
+Docente aprueba → POST /api/export/docx  o  /api/export/pdf
+```
 
 ---
 
-## 2. Esquema del proyecto
+## 3. Estructura de Directorios
 
 ```
 ia-gen-edu/
+│
+├── run.py                      # Entry point: levanta Uvicorn/FastAPI en :8000
+│
 ├── src/
-│   ├── app/
-│   │   └── app.py              # UI Streamlit (tabs: unidad didáctica y sesión de aprendizaje)
-│   └── core/
-│       ├── bedrock_services.py # Lógica principal: Bedrock, programación, unidades, sesiones, análisis de comentarios
-│       ├── bedrock_summarization.py  # Resumen de comentarios (Claude v2)
-│       ├── competencias_curriculares.py # 31 competencias CNEB, áreas, grados
-│       ├── data_ingestion.py   # Subida a S3: comentarios y currículo
-│       ├── rag_service.py      # RAG: KB o fallback local, búsqueda y generación con contexto
-│       ├── database_management.py
-│       ├── lambda_handler.py
-│       └── sentiment_analysis.py
-├── data/
-│   ├── curriculo_secundaria_peru_2016.json   # Currículo en chunks para RAG local
-│   ├── orientaciones_pedagogicas_cneb.json  # Orientaciones CNEB para RAG local
-│   └── README.md
-├── .env                        # Credenciales (no versionado; ver env.example)
-├── env.example
-├── docker-compose.yml
-├── Dockerfile
-├── bedrock-policy.json
-├── run.py                      # Punto de entrada: streamlit run src/app/app.py
-├── upload_curriculo.py         # Sube currículo JSON a S3 para KB
-└── requirements.txt
-```
-
-- **Entrada de usuario:** `app.py` (Streamlit) → llamadas a `core` (bedrock_services, rag_service, competencias_curriculares, etc.).
-- **Salida:** archivos TXT/DOCX en `~/Desktop/content_edu_outputs/` (o ruta configurada).
-
----
-
-## 3. RAG (Retrieval Augmented Generation)
-
-### 3.1 Flujo general
-
-1. **Recuperación:** según configuración, se usa **Bedrock Knowledge Base** o **fallback local** (JSON en `data/`).
-2. **Búsqueda:** con query enriquecida (grado, área, texto de búsqueda).
-3. **Construcción de contexto:** se toman los documentos/chunks más relevantes y se concatenan en un bloque de “CONTEXTO OFICIAL”.
-4. **Generación:** se invoca el modelo con un prompt que incluye rol, contexto oficial e instrucciones, pidiendo basarse solo en ese contexto.
-
-### 3.2 Bedrock Knowledge Base (opcional)
-
-- Si `BEDROCK_KB_CURRICULO_ID` está definido y no es el placeholder `KB-CURRICULO-ID-HERE`, `RAGEducativoService` usa:
-  - Cliente `bedrock-agent-runtime`.
-  - `retrieve(knowledgeBaseId=..., retrievalQuery={'text': query_enriquecida}, retrievalConfiguration={ 'vectorSearchConfiguration': { 'numberOfResults': 10, 'overrideSearchType': 'HYBRID' } })`.
-- Los documentos se esperan en S3; el currículo se puede subir con `upload_curriculo.py` al bucket configurado (por defecto `minedu-educacion-peru` con prefijo `curriculo/`).
-
-### 3.3 Fallback RAG local
-
-- **Fuentes:**  
-  - `data/curriculo_secundaria_peru_2016.json`  
-  - `data/orientaciones_pedagogicas_cneb.json`
-
-- **Estructura de cada JSON:**
-  - `metadata`: documento, país, año, etc.
-  - `keywords`: lista global de palabras clave.
-  - `chunks`: lista de fragmentos con `id`, `section`, `text`, `keywords`.
-
-- **Búsqueda local** (`_buscar_contexto_local` en `rag_service.py`):
-  - Se añaden a la query tokens de grado y área.
-  - Por cada chunk se calcula un score con:
-    - Coincidencias con `keywords` del chunk y con la query.
-    - Coincidencias de tokens de la query en `text` y `section`.
-    - Coincidencias con `keywords` globales del documento.
-  - Se ordenan por score y se devuelven hasta `top_k` (8 para currículo, 6 para orientaciones; luego se unifican y se toman hasta 10).
-
-- **Construcción del contexto:**  
-  `_construir_contexto_educativo` toma hasta 5 documentos y forma un texto con número de documento, fuente, relevancia (score) y contenido.
-
-### 3.4 Generación con RAG
-
-- Método `generar_con_contexto_rag(prompt, contexto_documentos)`:
-  - Prompt tipo: *“Eres un experto en educación peruana… CONTEXTO OFICIAL DEL MINEDU: {contexto_rag} INSTRUCCIONES: {prompt} Basa tu respuesta EXCLUSIVAMENTE en el contexto oficial…”*.
-  - Modelo usado en RAG: `anthropic.claude-opus-4-6-v1` (formato Messages API), `temperature=0.3`, `max_tokens=2000`.
-
-- Función de alto nivel `generar_programacion_curricular_rag(grado, competencia, capacidades, contenidos)`:
-  - Arma una query de búsqueda con grado, área, competencia y contenidos.
-  - Llama a `buscar_contexto_curricular` y luego a `generar_con_contexto_rag` con un prompt de programación curricular.
-  - Añade al final un bloque “FUENTES OFICIALES CONSULTADAS”.
-
----
-
-## 4. Técnicas de prompting
-
-### 4.1 Programación curricular (`generar_programacion_curricular`)
-
-- **Rol:** “Actúa como especialista en programación curricular”.
-- **Restricción de formato:** “CRÍTICO: Debes generar SOLO tablas… TODO el contenido debe estar DENTRO de las celdas… NO generes nada fuera de la estructura de tabla.”
-- **Datos estructurados:** bloque INFORMACIÓN BASE con GRADO, COMPETENCIA, CAPACIDADES, CONTENIDOS.
-- **Instrucciones numeradas:** transcribir competencia/capacidades, organizar contenidos, generar desempeños (12–15), criterios (2–3 por desempeño), instrumentos variados, tabla principal de 6 columnas, secciones adicionales (competencias transversales, enfoques, secuencia de 6 sesiones).
-- **Formato explícito:** ejemplos de tabla en markdown (`| COMPETENCIA | CAPACIDADES | ... |`, `| ITEM | CONTENIDO |`) y reglas (no HTML, no viñetas, solo texto plano en celdas).
-- **Documento de referencia opcional:** si el usuario sube un DOCX, su contenido (recortado a 3000 caracteres) se inyecta en un bloque “DOCUMENTO DE REFERENCIA” para adaptar la programación.
-- **Auto-crítica iterativa:** tras la primera generación se hacen hasta `num_iteraciones` (por defecto 3) llamadas de “mejora” con criterios rotativos (especificidad de desempeños, coherencia contenidos–desempeños–criterios, instrumentos de evaluación). Cada prompt de mejora incluye la programación anterior y pide mantener el mismo formato de tablas.
-
-### 4.2 RAG (programación con contexto oficial)
-
-- **Rol:** “Eres un experto en educación peruana especializado en el Currículo Nacional de Educación Básica.”
-- **Estructura:** CONTEXTO OFICIAL DEL MINEDU (documentos recuperados) + INSTRUCCIONES (prompt de tarea).
-- **Restricción:** “Basa tu respuesta EXCLUSIVAMENTE en el contexto oficial… Si no encuentras información suficiente, menciona qué información faltaría.”
-- **Tono:** “Estructura tu respuesta de manera profesional y alineada con los documentos oficiales del MINEDU.”
-
-### 4.3 Análisis de comentarios
-
-- **En `bedrock_services.generar_resumen_comentarios`:**  
-  Rol “especialista de educación, experto en calidad educativa”; bloque “— Comentarios —” y “Resumen:”. Formato de mensajes Claude 3.
-- **En `bedrock_summarization.generate_summary_bedrock`:**  
-  Rol “analista de mercado experto”; mismo esquema Comentarios / Resumen. Uso de API legacy (prompt/completion).
-
-### 4.4 Mejora de documento (`mejorar_documento_con_instruccion`)
-
-- **Rol:** “Eres un editor experto en documentos educativos del MINEDU Perú.”
-- **Documento:** contenido entre triple comillas.
-- **Instrucciones:** bloque “INSTRUCCIONES DEL USUARIO” y “TAREA” (aplicar lo pedido, conservar estructura y formato de tablas, no añadir explicaciones, devolver solo el documento modificado).
-- **Temperature:** 0.4 para cambios controlados.
-
-### 4.5 Unidad didáctica y sesión de aprendizaje
-
-- Prompts largos con área, grado, competencia de referencia, y formato de tabla `| ITEM | CONTENIDO |` para secciones (similar a programación). Se pide coherencia con el currículo y estructura de unidad/sesión.
-
----
-
-## 5. Modelos de Bedrock utilizados
-
-| Modelo | Uso |
-|--------|-----|
-| `anthropic.claude-opus-4-6-v1` | Programación curricular (inicial + iteraciones), unidad didáctica, sesión de aprendizaje, resumen de comentarios, mejora de documento, generación con RAG. |
-
-- **Claude Opus 4.6:** cuerpo con `anthropic_version: bedrock-2023-05-31`, `messages` (role `user`, `content`), `max_tokens`, `temperature`, `top_p`. Respuesta en `response_body['content'][0]['text']`.
-
----
-
-## 6. Ingesta de datos y S3
-
-- **`data_ingestion.upload_curriculo_to_s3`:**  
-  Sube `data/curriculo_secundaria_peru_2016.json` al bucket (por defecto `minedu-educacion-peru`) bajo la clave `curriculo/curriculo_secundaria_peru_2016.json`, para que una Bedrock Knowledge Base pueda ingerirlo.
-
-- **`data_ingestion.upload_comments_to_s3`:**  
-  Escribe un JSON de comentarios en `s3://{bucket}/comments/comments_{timestamp}.json` (útil para flujos tipo Lambda o procesamiento asíncrono).
-
-- **Cliente S3:**  
-  `boto3.client('s3', region_name=os.environ['AWS_REGION'])`; la región suele tomarse de `AWS_REGION` (por defecto `us-east-1`).
-
----
-
-## 7. Resumen de flujos principales
-
-1. **Programación curricular (sin RAG):**  
-   Formulario → `generar_programacion_curricular()` → prompt inicial + hasta 3 iteraciones de mejora → postprocesado (limpieza HTML, validación de tablas) → TXT/DOCX.
-
-2. **Programación curricular (con RAG):**  
-   Formulario → `generar_programacion_curricular_rag()` → `buscar_contexto_curricular()` (KB o local) → `generar_con_contexto_rag()` → resultado + fuentes consultadas.
-
-3. **Análisis de comentarios:**  
-   Lista de comentarios → `generar_resumen_comentarios()` (o `generate_summary_bedrock`) → resumen → TXT/DOCX.
-
-4. **Unidad / sesión:**  
-   Parámetros (área, grado, competencia) → `generar_unidad_didactica()` o `generar_sesion_aprendizaje()` → contenido en formato tabla → exportación.
-
----
-
-## 8. Diagrama de flujo del proyecto (Mermaid)
-
-```mermaid
-flowchart TB
-    subgraph Usuario
-        U[Usuario / Docente]
-    end
-
-    subgraph Interfaz["src/app"]
-        A[app.py - Streamlit]
-        A --> T1[Tab: Unidad Didáctica]
-        A --> T2[Tab: Sesión de Aprendizaje]
-        T1 --> Chat1[Chat: mejorar documento]
-        T2 --> Chat2[Chat: mejorar sesión]
-    end
-
-    subgraph Core["src/core"]
-        B[bedrock_services]
-        R[rag_service]
-        C[competencias_curriculares]
-        D[data_ingestion]
-        B --> B1[crear_cliente_bedrock]
-        B --> B2[generar_unidad_didactica]
-        B --> B3[generar_sesion_aprendizaje]
-        B --> B4[mejorar_documento_con_instruccion]
-        B --> B5[generar_programacion_curricular]
-        B --> B7[generar_resumen_comentarios]
-        R --> R1[buscar_contexto_curricular]
-        R --> R2[generar_con_contexto_rag]
-    end
-
-    subgraph AWS["AWS"]
-        BR[Bedrock Runtime\nModelos Claude]
-        KB[Bedrock Agent Runtime\nKnowledge Base]
-        S3[(S3)]
-    end
-
-    subgraph Datos["Datos locales"]
-        J1[(curriculo_secundaria_peru_2016.json)]
-        J2[(orientaciones_pedagogicas_cneb.json)]
-    end
-
-    subgraph Salida["Salidas"]
-        OUT1[TXT / DOCX]
-    end
-
-    U --> A
-    T1 --> B2
-    T2 --> B3
-    Chat1 --> B4
-    Chat2 --> B4
-    T1 --> C
-    T2 --> C
-
-    B --> BR
-    R1 --> KB
-    R1 --> J1
-    R1 --> J2
-    R2 --> BR
-    B1 --> BR
-    B2 --> BR
-    B3 --> BR
-    B4 --> BR
-    B5 --> BR
-    B6 --> BR
-    B7 --> BR
-    D --> S3
-    KB -.-> S3
-
-    B2 --> OUT1
-    B3 --> OUT1
-    B5 --> OUT1
-    B7 --> OUT1
-```
-
-**Versión simplificada (flujo de alto nivel):**
-
-```mermaid
-flowchart LR
-    subgraph Entrada
-        U[Usuario]
-    end
-
-    subgraph App["Generador Educativo AI"]
-        UI[Streamlit UI]
-        UI --> Core[Core: bedrock_services\nrag_service\ncompetencias]
-    end
-
-    subgraph Externos
-        AWS[Amazon Bedrock]
-        Data[Data/ JSON\nRAG local]
-    end
-
-    subgraph Resultado
-        DOC[TXT / DOCX]
-    end
-
-    U --> UI
-    Core --> AWS
-    Core --> Data
-    Core --> DOC
+│   ├── api/
+│   │   ├── main.py             # FastAPI app, CORS, registro de routers
+│   │   ├── database.py         # SQLAlchemy engine (SQLite: edu_gen.db)
+│   │   ├── models.py           # ORM: User, UserStats, Document
+│   │   ├── schemas.py          # Pydantic schemas de entrada/salida
+│   │   ├── auth_utils.py       # Hash de contraseñas, JWT
+│   │   ├── gamification_logic.py  # Cálculo de puntos, badges, racha
+│   │   └── routes/
+│   │       ├── auth.py         # POST /auth/login, /auth/register, GET /auth/me
+│   │       ├── generation.py   # POST /generate/unidad, /generate/sesion, /generate/refine
+│   │       ├── export.py       # POST /export/pdf, /export/docx
+│   │       └── data.py         # GET /data/options, /data/documents
+│   │
+│   ├── agents/
+│   │   ├── coordinator.py      # Orquesta pipeline: Generator→Validator→Formatter
+│   │   ├── generator_agent.py  # Genera contenido con RAG + prompts
+│   │   ├── validator_agent.py  # Valida estructura y calidad
+│   │   └── formatter_agent.py  # Limpia y normaliza tablas Markdown
+│   │
+│   ├── core/
+│   │   ├── bedrock_client.py   # Wrapper de Amazon Bedrock con fallback
+│   │   ├── bedrock_services.py # Funciones públicas de generación (bridge viejo→nuevo)
+│   │   ├── prompt_manager.py   # Carga y renderiza plantillas .md con {variables}
+│   │   ├── rag_service.py      # Consulta Bedrock Knowledge Bases
+│   │   ├── pdf_generator.py    # Genera PDF con WeasyPrint
+│   │   └── competencias_curriculares.py  # Catálogo CNEB (áreas, grados, competencias)
+│   │
+│   ├── prompts/
+│   │   ├── unidad_didactica.md     # Prompt de generación de unidad
+│   │   ├── sesion_aprendizaje.md   # Prompt de generación de sesión
+│   │   ├── mejora_documento.md     # Prompt de refinamiento por campo
+│   │   └── validacion.md           # Prompt para ContentValidator (LLM-as-judge)
+│   │
+│   ├── validators/
+│   │   ├── structure_validator.py  # Valida secciones, formato, HTML residual
+│   │   ├── content_validator.py    # Validación semántica con LLM
+│   │   └── format_cleaner.py       # Limpieza de caracteres extraños
+│   │
+│   └── utils/
+│       └── ...
+│
+├── frontend/
+│   ├── vite.config.js          # Proxy: /api/* → http://localhost:8000
+│   └── src/
+│       ├── App.jsx             # Router (Login / Dashboard / Editor)
+│       ├── pages/
+│       │   ├── Login.jsx       # Formulario auth + registro
+│       │   ├── Dashboard.jsx   # Lista de documentos + botones de nuevo doc
+│       │   └── Editor.jsx      # Visualización editable + refinamiento IA + export
+│       └── components/
+│           ├── GenerationWizard.jsx  # Modal 3 pasos para crear doc
+│           └── Sidebar.jsx           # Navegación + stats del usuario
+│
+└── data/
+    ├── curriculo_nacional_secundaria.json
+    └── orientaciones_pedagogicas_cneb.json
 ```
 
 ---
 
-*Última actualización: febrero 2026*
+## 4. Base de Datos
+
+### 4.1 Esquema (SQLite — `edu_gen.db`)
+
+```
+┌────────────────────────────────┐
+│           users                │
+├────────────────────────────────┤
+│ id          INTEGER PK         │
+│ email       STRING UNIQUE      │
+│ hashed_password STRING         │
+│ full_name   STRING             │
+│ is_active   BOOLEAN            │
+│ created_at  DATETIME           │
+└────────────┬───────────────────┘
+             │ 1:1
+┌────────────▼───────────────────┐
+│         user_stats             │
+├────────────────────────────────┤
+│ id          INTEGER PK         │
+│ user_id     FK → users         │
+│ docs_generados   INTEGER       │
+│ unidades_generadas INTEGER     │
+│ sesiones_generadas INTEGER     │
+│ mejoras_realizadas INTEGER     │
+│ exportaciones_docx INTEGER     │
+│ exportaciones_pdf  INTEGER     │
+│ nivel        INTEGER           │
+│ puntos       INTEGER           │
+│ racha_manual INTEGER           │
+│ badges_desbloqueados JSON[]    │
+│ areas_usadas JSON[]            │
+│ grados_usados    JSON[]        │
+│ dias_uso     JSON[]  (YYYY-MM-DD) │
+│ ultima_conexion  DATETIME      │
+│ primera_visita   BOOLEAN       │
+└────────────────────────────────┘
+
+┌────────────────────────────────┐
+│          documents             │
+├────────────────────────────────┤
+│ id         STRING PK (UUID)    │
+│ user_id    FK → users          │
+│ type       STRING  (unidad|sesion) │
+│ title      STRING              │
+│ content    JSON                │
+│ created_at DATETIME            │
+└────────────────────────────────┘
+```
+
+### 4.2 Estructura del campo `content` (JSON)
+
+**Unidad Didáctica:**
+```json
+{
+  "titulo": "Unidad Didáctica - Comunicación",
+  "situacion_significativa": "...",
+  "propositos_de_aprendizaje": "...",
+  "valores_y_enfoques_transversales": "...",
+  "secuencia_de_sesiones": "...",
+  "rubrica_unidad": "..."
+}
+```
+
+**Sesión de Aprendizaje:**
+```json
+{
+  "titulo": "Sesión - El ecosistema",
+  "datos_informativos": "...",
+  "propositos_de_aprendizaje": "...",
+  "secuencia_didactica": "...",
+  "reflexion_sobre_la_actividad": "...",
+  "rubrica_sesion": "..."
+}
+```
+
+---
+
+## 5. API REST — Endpoints
+
+### Autenticación
+
+| Método | Ruta | Descripción | Auth |
+|---|---|---|---|
+| `POST` | `/auth/register` | Registrar usuario nuevo | No |
+| `POST` | `/auth/login` | Login, retorna JWT | No |
+| `GET` | `/auth/me` | Datos del usuario actual | Bearer |
+| `GET` | `/auth/stats` | Stats + badges + nivel | Bearer |
+
+### Generación
+
+| Método | Ruta | Descripción | Body clave |
+|---|---|---|---|
+| `POST` | `/generate/unidad` | Genera Unidad Didáctica completa | `area`, `grado`, `competencias[]`, `temas`, `num_sesiones`, **`producto_final`** |
+| `POST` | `/generate/sesion` | Genera Sesión de Aprendizaje | `area`, `grado`, `titulo_unidad`, `tema`, **`metodologia`** |
+| `POST` | `/generate/refine` | Refina un campo con IA | `content`, `instruction` |
+
+### Exportación
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| `POST` | `/export/pdf` | Genera PDF del documento |
+| `POST` | `/export/docx` | Genera DOCX del documento |
+
+### Datos Curriculares
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| `GET` | `/data/options` | Áreas, grados, competencias, temas del CNEB |
+| `GET` | `/data/documents` | Últimos 10 documentos del usuario |
+
+---
+
+## 6. Pipeline de Agentes IA
+
+### 6.1 Descripción de cada agente
+
+| Agente | Archivo | Responsabilidad |
+|---|---|---|
+| **GeneratorAgent** | `agents/generator_agent.py` | Genera el contenido educativo usando el prompt cargado desde `prompts/*.md`, enriquecido con RAG. Tiene método `corregir()` para auto-corrección. |
+| **ValidatorAgent** | `agents/validator_agent.py` | Orquesta dos tipos de validación: estructural (programática, rápida) y semántica (LLM como juez, opcional). Retorna `ValidationReport`. |
+| **FormatterAgent** | `agents/formatter_agent.py` | Limpia el texto Markdown: normaliza tablas, elimina HTML residual, corrige viñetas. |
+| **AgentCoordinator** | `agents/coordinator.py` | Orquesta el pipeline. Si el validador detecta errores críticos, solicita al generador 1 ciclo de corrección antes de formatear. |
+
+### 6.2 ValidationReport
+
+```python
+@dataclass
+class ValidationReport:
+    errores: List[ValidationError]  # tipo: CRITICO | ADVERTENCIA | INFO
+                                    # categoria: ESTRUCTURA | FORMATO | CONTENIDO
+    puntaje: int          # 0-100 (CRITICO: -25, ADVERTENCIA: -10)
+    tiene_errores_criticos: bool
+    es_valido: bool
+```
+
+### 6.3 Secciones requeridas por documento
+
+| Documento | Secciones obligatorias |
+|---|---|
+| Unidad Didáctica | TÍTULO, SITUACIÓN SIGNIFICATIVA, PROPÓSITOS, EVIDENCIAS, INSTRUMENTOS, VALORES, SECUENCIA |
+| Sesión | DATOS INFORMATIVOS, SITUACIÓN SIGNIFICATIVA, PROPÓSITOS, SECUENCIA DIDÁCTICA, MATERIALES |
+
+---
+
+## 7. Prompts y Plantillas
+
+Los prompts viven en `src/prompts/*.md` como plantillas con variables `{nombre_variable}`.
+
+### 7.1 Variables de `unidad_didactica.md`
+
+| Variable | Fuente | Propósito |
+|---|---|---|
+| `{area_curricular}` | Wizard | Filtro maestro del contenido |
+| `{grado}` | Wizard | Nivel de desempeños CNEB |
+| `{contexto_competencia}` | `_construir_contexto_competencia()` | Competencias obligatorias |
+| `{contexto_temas}` | Wizard | Temas a incluir (índice) |
+| `{contexto_sesiones}` | Wizard | Nº de sesiones exacto |
+| `{contexto_producto}` | **Nuevo** — Wizard | Gobierna la rúbrica analítica |
+| `{num_sesiones}` | Wizard | Repetido para regla de cardinalidad |
+| `{valores_texto}` | Hardcoded | 13 valores institucionales permitidos |
+| `{enfoques_texto}` | Hardcoded | 8 enfoques transversales MINEDU |
+
+### 7.2 Variables de `sesion_aprendizaje.md`
+
+| Variable | Fuente | Propósito |
+|---|---|---|
+| `{titulo_unidad}` | Wizard | Vincula con la unidad padre |
+| `{titulo_sesion}` | Wizard | Título de la sesión |
+| `{nivel}` / `{grado}` / `{seccion}` | Wizard | Datos informativos |
+| `{duracion}` | Wizard / default 90 min | Distribuye tiempos por momento |
+| `{texto_competencias}` | Unidad padre | Competencias a reutilizar |
+| `{contexto_tema}` | Wizard | Tema específico de la sesión |
+| `{contexto_metodologia}` | **`_construir_contexto_metodologia()`** | Instrucción de estilo por metodología |
+
+### 7.3 Metodologías soportadas
+
+| Metodología | Instrucción de estilo |
+|---|---|
+| **ERCA** | Inicio = vivencia concreta; Desarrollo = reflexión→conceptualización→aplicación |
+| **ABP** | Inicio = problema real; Desarrollo = análisis→investigación→diseño→validación |
+| **Aula Invertida** | Inicio = verificar tarea previa (NO explicar); Desarrollo = debate + análisis |
+| *(sin especificar)* | Secuencia estándar MINEDU: motivación→saberes previos→conflicto→cierre |
+
+---
+
+## 8. Seguridad y Autenticación
+
+- **Hash de contraseñas:** `bcrypt` via `passlib`.
+- **Tokens:** JWT (HS256) via `python-jose`. Expiración configurable en `auth_utils.py`.
+- **Protección de endpoints:** Dependency `get_current_user` en todos los routes de generación, exportación y datos del usuario.
+- **CORS:** Configurado explícitamente para `http://localhost:5173` (Vite dev server).
+
+---
+
+## 9. Gamificación
+
+El módulo `gamification_logic.py` calcula automáticamente en cada login:
+
+| Elemento | Lógica |
+|---|---|
+| **Puntos** | +10 por documento generado, +5 por mejora, +15 por exportación |
+| **Nivel** | Calculado por umbrales de puntos acumulados |
+| **Racha** | Días consecutivos de uso (lista `dias_uso` en `UserStats`) |
+| **Badges** | Desbloqueados al alcanzar hitos (primer doc, 10 docs, etc.) |
+
+---
+
+## 10. Exportación de Documentos
+
+| Formato | Implementación | Estado |
+|---|---|---|
+| **PDF** | `core/pdf_generator.py` (WeasyPrint) | ✅ Funcional |
+| **DOCX** | `export.py` → `python-docx` | ⚠️ Simplificado (sin estilos institucionales) |
+
+El PDF distingue automáticamente entre Unidad y Sesión por las claves presentes en el JSON.
+
+---
+
+## 11. RAG (Retrieval-Augmented Generation)
+
+- **Servicio:** `core/rag_service.py` → consulta **Amazon Bedrock Knowledge Bases**.
+- **Query tipo:** `"programación curricular {área} {grado} grado secundaria {temas}"`.
+- **Integración:** El `GeneratorAgent` prepende el contexto RAG al prompt principal: `"CONTEXTO OFICIAL DEL MINEDU:\n{rag}\n\n{prompt}"`.
+- **Fallo silencioso:** Si el RAG no responde, la generación continúa sin él (no bloquea el flujo).
+
+---
+
+## 12. Variables de Entorno (`.env`)
+
+| Variable | Requerida | Descripción |
+|---|---|---|
+| `AWS_ACCESS_KEY_ID` | Sí | Acceso a Bedrock |
+| `AWS_SECRET_ACCESS_KEY` | Sí | Acceso a Bedrock |
+| `AWS_REGION` | Sí (default: `us-east-1`) | Región de Bedrock |
+| `DATABASE_URL` | No (default: SQLite local) | URL de base de datos |
+| `SECRET_KEY` | Sí | Clave para firmar JWT |
+| `AZURE_OPENAI_ENDPOINT` | No | Fallback LLM |
+| `AZURE_OPENAI_KEY` | No | Fallback LLM |
+| `AZURE_OPENAI_DEPLOYMENT` | No | Nombre del deployment Azure |
+
+---
+
+## 13. Instalación y Ejecución
+
+```bash
+# 1. Clonar y entrar al proyecto
+git clone https://github.com/jeffersonquispe/ia-gen-edu.git
+cd ia-gen-edu
+
+# 2. Backend
+python -m venv venv
+venv\Scripts\activate       # Windows
+pip install -r requirements.txt
+python run.py               # Levanta FastAPI en :8000
+
+# 3. Frontend (otra terminal)
+cd frontend
+npm install
+npm run dev                 # Levanta React en :5173
+```
+
+URL del sistema: `http://localhost:5173`
+URL de la API (docs): `http://localhost:8000/docs`
+
+---
+
+## 14. Dependencias Principales
+
+### Backend
+| Paquete | Versión | Uso |
+|---|---|---|
+| `fastapi` | latest | Framework API REST |
+| `uvicorn` | latest | Servidor ASGI |
+| `sqlalchemy` | latest | ORM base de datos |
+| `boto3` | latest | Cliente AWS (Bedrock) |
+| `python-jose` | latest | JWT |
+| `passlib[bcrypt]` | latest | Hash de contraseñas |
+| `python-docx` | latest | Generación DOCX |
+| `weasyprint` | latest | Generación PDF |
+| `pydantic` | v2 | Validación de schemas |
+
+### Frontend
+| Paquete | Versión | Uso |
+|---|---|---|
+| `react` | 18 | UI |
+| `vite` | latest | Build tool + dev server |
+| `tailwindcss` | 3 | Estilos utilitarios |
+| `axios` | latest | HTTP client |
+| `react-router-dom` | 6 | Navegación SPA |
+| `lucide-react` | latest | Iconografía |
+
+---
+
+## 15. Limitaciones Conocidas
+
+| Limitación | Impacto | Solución futura |
+|---|---|---|
+| Exportación DOCX simplificada | No aplica estilos institucionales del MINEDU | Integrar `docx_generator.py` (versión Streamlit) |
+| RAG depende de KB en Bedrock | Sin KB activo, genera sin contexto oficial | Continúa funcionando con prompts internos |
+| SQLite no escala en producción | No apto para múltiples usuarios concurrentes en servidor | Migrar a PostgreSQL |
+| Max 1 ciclo de autocorrección | Puede no resolver todos los errores estructurales | Aumentar `max_correcciones` o implementar retry exponencial |
+| Sesión no recuerda la unidad padre automáticamente | El docente debe copiar el título de unidad manualmente | Implementar selector de unidades guardadas en el wizard |
