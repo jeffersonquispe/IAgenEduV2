@@ -41,7 +41,7 @@ class BedrockClient:
     """
 
     # Modelos disponibles
-    CLAUDE_SONNET = "anthropic.claude-3-sonnet-20240229-v1:0"
+    CLAUDE_SONNET = os.environ.get("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-6")
     CLAUDE_HAIKU = "anthropic.claude-3-haiku-20240307-v1:0"
 
     def __init__(self, max_reintentos: int = 3):
@@ -62,7 +62,6 @@ class BedrockClient:
         modelo: str = None,
         max_tokens: int = 4000,
         temperature: float = 0.7,
-        top_p: float = 0.9,
         min_longitud_respuesta: int = 50,
     ) -> str:
         """
@@ -73,7 +72,6 @@ class BedrockClient:
             modelo: ID del modelo (default: Claude Sonnet)
             max_tokens: Máximo de tokens en la respuesta
             temperature: Temperatura de generación
-            top_p: Top-p sampling
             min_longitud_respuesta: Longitud mínima aceptable (en chars)
 
         Returns:
@@ -90,12 +88,14 @@ class BedrockClient:
 
         for intento in range(1, self.max_reintentos + 1):
             try:
+                # No enviar top_p junto con temperature: algunos modelos Claude en
+                # Bedrock (incl. el configurado en BEDROCK_MODEL_ID) rechazan la
+                # petición con ValidationException si se especifican ambos.
                 body = json.dumps({
                     "anthropic_version": "bedrock-2023-05-31",
                     "max_tokens": max_tokens,
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": temperature,
-                    "top_p": top_p,
                 })
 
                 response = self.client.invoke_model(
@@ -173,7 +173,6 @@ class BedrockClient:
             modelo=self.CLAUDE_HAIKU,
             max_tokens=max_tokens,
             temperature=0.2,
-            top_p=0.9,
             min_longitud_respuesta=10,
         )
 

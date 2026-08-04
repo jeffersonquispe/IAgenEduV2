@@ -221,6 +221,9 @@ Basa tu respuesta EXCLUSIVAMENTE en el contexto oficial proporcionado. Si no enc
 
 Estructura tu respuesta de manera profesional y alineada con los documentos oficiales del MINEDU."""
             
+            # No enviar top_p junto con temperature: algunos modelos Claude en
+            # Bedrock rechazan la petición con ValidationException si se
+            # especifican ambos (ver bedrock_client.py).
             body = json.dumps({
                 "anthropic_version": "bedrock-2023-05-31",
                 "max_tokens": 2000,
@@ -231,7 +234,6 @@ Estructura tu respuesta de manera profesional y alineada con los documentos ofic
                     }
                 ],
                 "temperature": 0.3,  # Más conservador para contenido educativo oficial
-                "top_p": 0.9
             })
             
             response = self.bedrock_runtime.invoke_model(

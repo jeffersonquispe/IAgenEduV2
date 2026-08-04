@@ -1,5 +1,5 @@
 
-mark_venv/
+venv/
 
 # Variables de entorno
 .env
@@ -10,3 +10,12 @@ __pycache__/
 
 # Caché de Streamlit
 .streamlit/
+
+# Dependencias Node
+node_modules/
+
+# Base de datos local (contiene datos reales de usuarios)
+*.db
+
+# Editor
+.vscode/
