@@ -4,6 +4,24 @@ import { Save, FileText, Download, Sparkles, Wand2, ArrowLeft, Loader2 } from 'l
 import Sidebar from '../components/Sidebar'
 import axios from 'axios'
 
+// Normaliza todos los campos para que sean strings
+const normalizeDocument = (doc) => {
+  if (!doc) return null
+  const normalized = {}
+  for (const [key, value] of Object.entries(doc)) {
+    if (typeof value === 'string') {
+      normalized[key] = value
+    } else if (value === null || value === undefined) {
+      normalized[key] = ''
+    } else if (typeof value === 'object') {
+      normalized[key] = JSON.stringify(value, null, 2)
+    } else {
+      normalized[key] = String(value)
+    }
+  }
+  return normalized
+}
+
 export default function Editor({ user }) {
   const location = useLocation()
   const navigate = useNavigate()
@@ -14,7 +32,7 @@ export default function Editor({ user }) {
 
   useEffect(() => {
     if (location.state?.content) {
-      setDocument(location.state.content)
+      setDocument(normalizeDocument(location.state.content))
     } else {
       navigate('/')
     }
@@ -185,12 +203,12 @@ function EditableSection({ label, value, onChange, onRefine, isRefining, disable
       )}
 
       <div className="relative">
-        <textarea 
-          value={value}
+        <textarea
+          value={value || ''}
           onChange={(e) => onChange(e.target.value)}
           disabled={disabled}
           className={`w-full bg-transparent border-none focus:ring-1 focus:ring-indigo-500/30 rounded-xl p-4 text-slate-300 resize-none min-h-[100px] leading-relaxed transition-all ${!disabled ? 'hover:bg-white/5' : 'cursor-default opacity-80'}`}
-          rows={Math.max(3, value.split('\n').length)}
+          rows={Math.max(3, (typeof value === 'string' ? value : '').split('\n').length)}
         />
         {isRefining && (
           <div className="absolute inset-0 bg-dark/40 backdrop-blur-[1px] flex items-center justify-center rounded-xl">
