@@ -127,8 +127,21 @@ export default function Editor({ user }) {
 
             <div className="p-8 space-y-12">
               {Object.entries(document).map(([key, value]) => {
-                if (key === 'id' || key === 'contenido_crudo' || key === 'titulo') return null
-                
+                // Filtrar campos que no son contenido editable
+                const editableFields = [
+                  'situacion_significativa',
+                  'propositos_de_aprendizaje',
+                  'valores_y_enfoques_transversales',
+                  'secuencia_de_sesiones',
+                  'rubrica_unidad',
+                  'datos_informativos',
+                  'secuencia_didactica',
+                  'reflexion_sobre_la_actividad',
+                  'rubrica_sesion'
+                ]
+
+                if (!editableFields.includes(key)) return null
+
                 const labels = {
                     situacion_significativa: "I. SITUACIÓN SIGNIFICATIVA",
                     propositos_de_aprendizaje: "II. PROPÓSITOS DE APRENDIZAJE",
