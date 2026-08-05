@@ -124,6 +124,17 @@ class GenerationService:
                 contenido_final = full_text
 
             doc_content = self._unidad_parser.parsear(contenido_final, area=area)
+
+            # Fallback: si el parser retorna campos vacíos, use contenido_final directamente
+            if not any([doc_content.get(k, '').strip() for k in ['situacion_significativa', 'propositos_de_aprendizaje', 'secuencia_de_sesiones']]):
+                print(f"[WARNING] Parser retornó campos vacíos para Unidad, usando fallback")
+                doc_content = {
+                    "titulo": f"Unidad Didáctica - {area}",
+                    "situacion_significativa": contenido_final[:500] if contenido_final else "",
+                    "propositos_de_aprendizaje": contenido_final[500:1500] if len(contenido_final) > 500 else "",
+                    "secuencia_de_sesiones": contenido_final[1500:] if len(contenido_final) > 1500 else "",
+                    "rubrica_unidad": "",
+                }
             new_doc = models.Document(
                 id=doc_id, user_id=current_user.id, type="unidad",
                 title=f"Unidad Didáctica - {area}", content=doc_content, current_version=1,
