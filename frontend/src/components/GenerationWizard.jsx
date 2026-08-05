@@ -97,6 +97,31 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     setStreamText('')
     let fullText = ''
     let docData = null
+    let docError = null
+
+    const processLine = (line) => {
+      if (!line.startsWith('data: ')) return
+      const jsonStr = line.slice(6)
+      if (!jsonStr.trim()) return
+      try {
+        const data = JSON.parse(jsonStr)
+        if (data.chunk) {
+          fullText += data.chunk
+          setStreamText(stripMarkdownForPreview(fullText))
+        }
+        if (data.validando) {
+          setValidando(true)
+        }
+        if (data.error) {
+          docError = data.error
+        }
+        if (data.done && data.id) {
+          docData = { ...data }
+        }
+      } catch (parseErr) {
+        console.error('[streamGenerate] Error parseando evento SSE:', parseErr, 'línea:', jsonStr.slice(0, 300))
+      }
+    }
 
     try {
       const response = await fetch(endpoint, {
@@ -105,42 +130,47 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
         body: JSON.stringify(payload),
       })
 
+      if (!response.ok) {
+        const errText = await response.text().catch(() => response.statusText)
+        throw new Error(`HTTP ${response.status}: ${errText}`)
+      }
+
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
       let buffer = ''
 
       while (true) {
         const { done, value } = await reader.read()
-        if (done) break
 
-        buffer += decoder.decode(value, { stream: true })
-        const lines = buffer.split('\n\n')
-        buffer = lines.pop() || ''
+        if (value) {
+          buffer += decoder.decode(value, { stream: true })
+          const lines = buffer.split('\n\n')
+          buffer = lines.pop() || ''
+          for (const line of lines) processLine(line)
+        }
 
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            try {
-              const data = JSON.parse(line.slice(6))
-              if (data.chunk) {
-                fullText += data.chunk
-                setStreamText(stripMarkdownForPreview(fullText))
-              }
-              if (data.validando) {
-                setValidando(true)
-              }
-              if (data.done && data.id) {
-                docData = { ...data }
-              }
-            } catch {}
+        if (done) {
+          // Procesar cualquier resto sin terminador \n\n final
+          buffer += decoder.decode()
+          if (buffer.trim()) {
+            for (const line of buffer.split('\n\n')) processLine(line)
           }
+          break
         }
       }
 
-      if (docData) {
+      console.log('[streamGenerate] Stream finalizado. docData:', docData, 'docError:', docError)
+
+      if (docError) {
+        alert('Error en generación: ' + docError)
+      } else if (docData) {
         onComplete(docData)
         onClose()
+      } else {
+        alert('La generación terminó sin devolver un documento. Revisa la consola para más detalles.')
       }
     } catch (err) {
+      console.error('[streamGenerate] Error:', err)
       alert('Error en generación: ' + err.message)
     } finally {
       setIsStreaming(false)

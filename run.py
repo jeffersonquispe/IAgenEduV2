@@ -23,14 +23,14 @@ os.environ.setdefault("AWS_REGION", "us-east-1")
 try:
     import uvicorn
 except ImportError:
-    print("❌ Error: uvicorn no está instalado.")
-    print("💡 Ejecuta: pip install uvicorn")
+    print("[ERROR] uvicorn no esta instalado.")
+    print("[INFO] Ejecuta: pip install uvicorn")
     sys.exit(1)
 
-print("🚀 Iniciando servidor FastAPI (EduGen AI)...")
-print(f"📁 Directorio: {os.getcwd()}")
-print(f"🌐 API disponible en: http://localhost:8000")
-print(f"📖 Docs interactivos: http://localhost:8000/docs")
+print("[INFO] Iniciando servidor FastAPI (EduGen AI)...")
+print(f"[INFO] Directorio: {os.getcwd()}")
+print(f"[INFO] API disponible en: http://localhost:8000")
+print(f"[INFO] Docs interactivos: http://localhost:8000/docs")
 print("")
 
 if __name__ == "__main__":
