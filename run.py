@@ -29,15 +29,15 @@ except ImportError:
 
 print("[INFO] Iniciando servidor FastAPI (EduGen AI)...")
 print(f"[INFO] Directorio: {os.getcwd()}")
-print(f"[INFO] API disponible en: http://localhost:8000")
-print(f"[INFO] Docs interactivos: http://localhost:8000/docs")
+print(f"[INFO] API disponible en: http://localhost:5000")
+print(f"[INFO] Docs interactivos: http://localhost:5000/docs")
 print("")
 
 if __name__ == "__main__":
     uvicorn.run(
         "src.api.main:app",
         host="0.0.0.0",
-        port=8000,
+        port=5000,
         reload=True,
         reload_dirs=["src"],
     )
