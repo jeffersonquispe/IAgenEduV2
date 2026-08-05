@@ -1,21 +1,34 @@
-import { useState, useEffect, useCallback } from 'react'
-import { Wand2, Loader2, CheckCircle2, ChevronLeft, ChevronRight, X, Zap } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import { Wand2, Loader2, CheckCircle2, ChevronLeft, ChevronRight, X } from 'lucide-react'
 import axios from 'axios'
 
 const authHeader = () => ({ Authorization: `Bearer ${localStorage.getItem('token')}` })
 
+const stripMarkdownForPreview = (text) => {
+  if (!text) return ''
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/__(.+?)__/g, '$1')
+    .replace(/^#+\s+/gm, '')
+    .replace(/^(---+|===+)$/gm, '')
+    .replace(/^\s*[-*•]\s+/gm, '')
+    .replace(/\|.+?\|/g, match => {
+      const cells = match.split('|').map(c => c.trim()).filter(c => c)
+      return cells.join(' — ')
+    })
+}
+
 export default function GenerationWizard({ isOpen, onClose, type, onComplete }) {
   const [step, setStep] = useState(1)
   const [loading, setLoading] = useState(false)
-  const [streamText, setStreamText] = useState('')  // SSE preview text
+  const [validando, setValidando] = useState(false)
+  const [streamText, setStreamText] = useState('')
   const [isStreaming, setIsStreaming] = useState(false)
 
   const [dataOptions, setDataOptions] = useState({
     areas: [], grados: [], temas_por_area: {}
   })
-  // Competencias filtered by selected area
   const [competenciasPorArea, setCompetenciasPorArea] = useState([])
-  // Temas filtered by area + grado
   const [temasDisponibles, setTemasDisponibles] = useState([])
 
   const [formData, setFormData] = useState({
@@ -30,7 +43,6 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     metodologia: 'ERCA',
   })
 
-  // Base options
   useEffect(() => {
     if (!isOpen) return
     axios.get('/api/data/options').then(res => {
@@ -38,7 +50,6 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     }).catch(console.error)
   }, [isOpen])
 
-  // When area changes → fetch competencias for that area
   useEffect(() => {
     if (!formData.area) { setCompetenciasPorArea([]); return }
     axios.get(`/api/data/competencias?area=${encodeURIComponent(formData.area)}`)
@@ -48,7 +59,6 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     setTemasDisponibles([])
   }, [formData.area])
 
-  // When area + grado change → fetch temas
   useEffect(() => {
     if (!formData.area || !formData.grado) { setTemasDisponibles([]); return }
     axios.get(`/api/data/temas?area=${encodeURIComponent(formData.area)}&grado=${encodeURIComponent(formData.grado)}`)
@@ -81,56 +91,15 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
   const handleNext = () => setStep(s => Math.min(s + 1, totalSteps))
   const handleBack = () => setStep(s => Math.max(s - 1, 1))
 
-  // Standard generation
-  const handleGenerate = async () => {
-    setLoading(true)
-    try {
-      const endpoint = type === 'unidad' ? '/api/generate/unidad' : '/api/generate/sesion'
-      const competenciasTexto = competenciasPorArea
-        .filter(c => formData.competencias.includes(String(c.numero)))
-        .map(c => `COMPETENCIA ${c.numero}. ${c.nombre}`)
-
-      const payload = type === 'unidad'
-        ? {
-            area: formData.area, grado: formData.grado,
-            competencias: competenciasTexto,
-            temas: formData.temas, num_sesiones: formData.num_sesiones,
-            producto_final: formData.producto_final,
-          }
-        : {
-            area: formData.area, grado: formData.grado,
-            titulo_unidad: formData.titulo_unidad,
-            tema: formData.tema, metodologia: formData.metodologia,
-          }
-
-      const res = await axios.post(endpoint, payload, { headers: authHeader() })
-      onComplete(res.data)
-      onClose()
-    } catch (err) {
-      if (err.response?.status === 401) alert("Tu sesión ha expirado. Por favor, inicia sesión de nuevo.")
-      else alert("Error en la generación: " + (err.response?.data?.detail || err.message))
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  // Streaming generation (only for unidad)
-  const handleGenerateStream = async () => {
+  const streamGenerate = async (endpoint, payload) => {
     setIsStreaming(true)
+    setValidando(false)
     setStreamText('')
-    const competenciasTexto = competenciasPorArea
-      .filter(c => formData.competencias.includes(String(c.numero)))
-      .map(c => `COMPETENCIA ${c.numero}. ${c.nombre}`)
-
-    const payload = {
-      area: formData.area, grado: formData.grado,
-      competencias: competenciasTexto,
-      temas: formData.temas, num_sesiones: formData.num_sesiones,
-      producto_final: formData.producto_final,
-    }
+    let fullText = ''
+    let docData = null
 
     try {
-      const response = await fetch('/api/generate/unidad/stream', {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...authHeader() },
         body: JSON.stringify(payload),
@@ -138,47 +107,84 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
 
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
-      let fullText = ''
-      let docId = null
+      let buffer = ''
 
       while (true) {
         const { done, value } = await reader.read()
         if (done) break
-        const text = decoder.decode(value)
-        // Parse SSE lines
-        for (const line of text.split('\n')) {
+
+        buffer += decoder.decode(value, { stream: true })
+        const lines = buffer.split('\n\n')
+        buffer = lines.pop() || ''
+
+        for (const line of lines) {
           if (line.startsWith('data: ')) {
             try {
               const data = JSON.parse(line.slice(6))
               if (data.chunk) {
                 fullText += data.chunk
-                setStreamText(fullText)
+                setStreamText(stripMarkdownForPreview(fullText))
+              }
+              if (data.validando) {
+                setValidando(true)
               }
               if (data.done && data.id) {
-                docId = data.id
+                docData = { ...data }
               }
             } catch {}
           }
         }
       }
 
-      if (docId) {
-        onComplete({ id: docId, contenido_crudo: fullText, titulo: `Unidad Didáctica - ${formData.area}` })
+      if (docData) {
+        onComplete(docData)
         onClose()
       }
     } catch (err) {
-      alert('Error en streaming: ' + err.message)
+      alert('Error en generación: ' + err.message)
     } finally {
       setIsStreaming(false)
+      setValidando(false)
     }
   }
 
+  const handleGenerateUnidad = async () => {
+    const competenciasTexto = competenciasPorArea
+      .filter(c => formData.competencias.includes(String(c.numero)))
+      .map(c => `COMPETENCIA ${c.numero}. ${c.nombre}`)
+
+    const payload = {
+      area: formData.area,
+      grado: formData.grado,
+      competencias: competenciasTexto,
+      temas: formData.temas,
+      num_sesiones: formData.num_sesiones,
+      producto_final: formData.producto_final,
+      modo: 'completo',
+    }
+
+    await streamGenerate('/api/generate/unidad/stream', payload)
+  }
+
+  const handleGenerateSesion = async () => {
+    const payload = {
+      area: formData.area,
+      grado: formData.grado,
+      titulo_unidad: formData.titulo_unidad,
+      tema: formData.tema,
+      metodologia: formData.metodologia,
+      modo: 'completo',
+    }
+
+    await streamGenerate('/api/generate/sesion/stream', payload)
+  }
+
   const isStep1Valid = formData.area && formData.grado
+  const statusMessage = validando ? 'Validando y estructurando...' : 'Generando con IA...'
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
       <div className="w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl relative overflow-hidden">
-        {/* Progress bar */}
         <div className="absolute top-0 left-0 h-1 bg-indigo-500 transition-all duration-500" style={{ width: `${(step / totalSteps) * 100}%` }} />
 
         <div className="p-8">
@@ -194,17 +200,15 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
             {(loading || isStreaming) ? (
               <div className="flex flex-col items-center justify-center h-full pt-6 gap-4">
                 <Loader2 className="w-12 h-12 text-indigo-500 animate-spin" />
-                <p className="text-lg font-medium animate-pulse">Generando con IA...</p>
+                <p className="text-lg font-medium animate-pulse">{statusMessage}</p>
                 {isStreaming && streamText && (
-                  <div className="w-full bg-slate-800 rounded-xl p-4 max-h-48 overflow-y-auto text-xs text-slate-300 font-mono whitespace-pre-wrap">
+                  <div className="w-full bg-slate-800 rounded-xl p-4 max-h-48 overflow-y-auto text-xs text-slate-300 font-mono whitespace-pre-wrap break-words">
                     {streamText}
                   </div>
                 )}
-                {!isStreaming && <p className="text-slate-500 text-sm">Esto puede tomar hasta 30 segundos</p>}
               </div>
             ) : (
               <div className="space-y-6">
-                {/* Step 1: Area + Grado */}
                 {step === 1 && (
                   <div className="grid grid-cols-2 gap-6">
                     <SelectField label="Área Curricular" name="area" value={formData.area}
@@ -219,7 +223,6 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
                   </div>
                 )}
 
-                {/* Step 2: Competencias (Unidad) or Tema+Metodología (Sesión) */}
                 {step === 2 && type === 'unidad' && (
                   <div className="space-y-5">
                     <div className="space-y-2">
@@ -303,7 +306,6 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
                   </div>
                 )}
 
-                {/* Step 3: Summary */}
                 {step === 3 && (
                   <div className="bg-indigo-500/10 border border-indigo-500/20 p-6 rounded-2xl space-y-5">
                     <div className="flex items-start gap-3">
@@ -334,21 +336,14 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
                         <PreviewItem label="Metodología" value={formData.metodologia} />
                       </div>
                     )}
-                    {type === 'unidad' && (
-                      <div className="bg-indigo-900/30 rounded-xl px-4 py-3 flex items-center gap-2 text-sm text-indigo-300">
-                        <Zap size={16} />
-                        <span>Puedes generar con <strong>streaming</strong> para ver el texto aparecer en tiempo real.</span>
-                      </div>
-                    )}
                   </div>
                 )}
               </div>
             )}
           </div>
 
-          {/* Navigation */}
           <div className="flex justify-between pt-6 border-t border-slate-800">
-            <button onClick={handleBack} disabled={step === 1 || loading || isStreaming}
+            <button onClick={handleBack} disabled={step === 1 || isStreaming}
               className="flex items-center gap-2 text-slate-400 hover:text-white disabled:opacity-30 transition-colors font-bold">
               <ChevronLeft size={20} /> Atrás
             </button>
@@ -356,23 +351,17 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
             <div className="flex gap-3">
               {step < totalSteps ? (
                 <button onClick={handleNext}
-                  disabled={loading || isStreaming || (step === 1 && !isStep1Valid)}
+                  disabled={isStreaming || (step === 1 && !isStep1Valid)}
                   className="bg-slate-800 hover:bg-slate-700 px-6 py-2 rounded-xl transition-all flex items-center gap-2 font-bold disabled:opacity-50">
                   Siguiente <ChevronRight size={20} />
                 </button>
               ) : (
-                <>
-                  {type === 'unidad' && (
-                    <button onClick={handleGenerateStream} disabled={loading || isStreaming}
-                      className="border border-indigo-500 text-indigo-400 hover:bg-indigo-500/10 px-5 py-2 rounded-xl transition-all flex items-center gap-2 font-bold disabled:opacity-50">
-                      <Zap size={16} /> Streaming
-                    </button>
-                  )}
-                  <button onClick={handleGenerate} disabled={loading || isStreaming}
-                    className="bg-indigo-600 hover:bg-indigo-500 px-7 py-2 rounded-xl transition-all flex items-center gap-2 font-bold shadow-lg shadow-indigo-500/20">
-                    {loading ? 'Generando...' : 'Generar'} <Wand2 size={18} />
-                  </button>
-                </>
+                <button
+                  onClick={type === 'unidad' ? handleGenerateUnidad : handleGenerateSesion}
+                  disabled={isStreaming}
+                  className="bg-indigo-600 hover:bg-indigo-500 px-7 py-2 rounded-xl transition-all flex items-center gap-2 font-bold shadow-lg shadow-indigo-500/20">
+                  {isStreaming ? 'Generando...' : 'Generar'} <Wand2 size={18} />
+                </button>
               )}
             </div>
           </div>

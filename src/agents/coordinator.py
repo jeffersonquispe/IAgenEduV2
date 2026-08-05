@@ -48,36 +48,12 @@ class AgentCoordinator:
         self.formatter = FormatterAgent()
         self.max_correcciones = 1
 
-    def generar_unidad_didactica(
-        self,
-        area_curricular: str,
-        grado,
-        competencia_referencia: str = None,
-        temas: str = None,
-        num_sesiones: int = 6,
-        producto_final: str = None,
-    ) -> Tuple[str, PipelineMetrics]:
+    def validar_y_formatear_unidad(self, contenido: str, area_curricular: str, grado) -> Tuple[str, PipelineMetrics]:
         """
-        Genera una unidad didáctica con el pipeline completo.
-        Returns: (contenido_final, métricas)
+        Valida, corrige si es necesario, y formatea una unidad didáctica.
+        Extrae los Pasos 2-4 del pipeline (usado por streaming y por generar_unidad_didactica).
         """
-        t0 = time.monotonic()
         metricas = PipelineMetrics(tipo="unidad", area_curricular=area_curricular, grado=str(grado))
-
-        logger.info(
-            f"[Coordinator] Iniciando pipeline: unidad didáctica "
-            f"{area_curricular} {grado}° ({num_sesiones} sesiones)"
-        )
-
-        # Paso 1: Generar
-        contenido = self.generator.generar_unidad_didactica(
-            area_curricular=area_curricular,
-            grado=grado,
-            competencia_referencia=competencia_referencia,
-            temas=temas,
-            num_sesiones=num_sesiones,
-            producto_final=producto_final,
-        )
 
         # Paso 2: Validar
         reporte = self.validator.validar_unidad(
@@ -113,6 +89,46 @@ class AgentCoordinator:
         # Paso 4: Formatear
         contenido_final = self.formatter.formatear(contenido)
         metricas.tokens_aprox = len(contenido_final) // 4
+
+        return contenido_final, metricas
+
+    def generar_unidad_didactica(
+        self,
+        area_curricular: str,
+        grado,
+        competencia_referencia: str = None,
+        temas: str = None,
+        num_sesiones: int = 6,
+        producto_final: str = None,
+    ) -> Tuple[str, PipelineMetrics]:
+        """
+        Genera una unidad didáctica con el pipeline completo.
+        Returns: (contenido_final, métricas)
+        """
+        t0 = time.monotonic()
+
+        logger.info(
+            f"[Coordinator] Iniciando pipeline: unidad didáctica "
+            f"{area_curricular} {grado}° ({num_sesiones} sesiones)"
+        )
+
+        # Paso 1: Generar
+        contenido = self.generator.generar_unidad_didactica(
+            area_curricular=area_curricular,
+            grado=grado,
+            competencia_referencia=competencia_referencia,
+            temas=temas,
+            num_sesiones=num_sesiones,
+            producto_final=producto_final,
+        )
+
+        # Pasos 2-4: Validar, corregir, formatear
+        contenido_final, metricas = self.validar_y_formatear_unidad(
+            contenido=contenido,
+            area_curricular=area_curricular,
+            grado=grado,
+        )
+
         metricas.duracion_ms = int((time.monotonic() - t0) * 1000)
 
         logger.info(
@@ -120,6 +136,30 @@ class AgentCoordinator:
             f"Validación: {metricas.puntaje_validacion}/100, "
             f"Duración: {metricas.duracion_ms}ms"
         )
+        return contenido_final, metricas
+
+    def validar_y_formatear_sesion(self, contenido: str, grado: str, metodologia: str = None) -> Tuple[str, PipelineMetrics]:
+        """
+        Valida, corrige si es necesario, y formatea una sesión de aprendizaje.
+        Extrae los Pasos 2-4 del pipeline (usado por streaming y por generar_sesion_aprendizaje).
+        """
+        metricas = PipelineMetrics(tipo="sesion", grado=grado, metodologia=metodologia or "")
+
+        reporte = self.validator.validar_sesion(contenido)
+        metricas.puntaje_validacion = reporte.puntaje
+        metricas.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
+        metricas.errores_advertencia = sum(1 for e in reporte.errores if e.tipo == "ADVERTENCIA")
+
+        if reporte.tiene_errores_criticos:
+            logger.warning("[Coordinator] Sesión: corrigiendo errores críticos...")
+            errores = [{"tipo": e.tipo, "mensaje": e.mensaje}
+                       for e in reporte.errores if e.tipo == "CRITICO"]
+            contenido = self.generator.corregir(contenido, errores)
+            metricas.correcciones_aplicadas += 1
+
+        contenido_final = self.formatter.formatear(contenido)
+        metricas.tokens_aprox = len(contenido_final) // 4
+
         return contenido_final, metricas
 
     def generar_sesion_aprendizaje(
@@ -139,7 +179,6 @@ class AgentCoordinator:
         Returns: (contenido_final, métricas)
         """
         t0 = time.monotonic()
-        metricas = PipelineMetrics(tipo="sesion", grado=grado, metodologia=metodologia or "")
 
         logger.info(f"[Coordinator] Iniciando pipeline: sesión '{titulo_sesion}'")
 
@@ -155,20 +194,13 @@ class AgentCoordinator:
             metodologia=metodologia,
         )
 
-        reporte = self.validator.validar_sesion(contenido)
-        metricas.puntaje_validacion = reporte.puntaje
-        metricas.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
-        metricas.errores_advertencia = sum(1 for e in reporte.errores if e.tipo == "ADVERTENCIA")
+        # Pasos 2-4: Validar, corregir, formatear
+        contenido_final, metricas = self.validar_y_formatear_sesion(
+            contenido=contenido,
+            grado=grado,
+            metodologia=metodologia,
+        )
 
-        if reporte.tiene_errores_criticos:
-            logger.warning("[Coordinator] Sesión: corrigiendo errores críticos...")
-            errores = [{"tipo": e.tipo, "mensaje": e.mensaje}
-                       for e in reporte.errores if e.tipo == "CRITICO"]
-            contenido = self.generator.corregir(contenido, errores)
-            metricas.correcciones_aplicadas += 1
-
-        contenido_final = self.formatter.formatear(contenido)
-        metricas.tokens_aprox = len(contenido_final) // 4
         metricas.duracion_ms = int((time.monotonic() - t0) * 1000)
 
         logger.info(

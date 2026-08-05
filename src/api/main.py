@@ -1,3 +1,7 @@
+import platform
+platform._wmi = None  # type: ignore[attr-defined]  # WMI queries hang indefinitely on this machine; sqlalchemy's import-time
+# platform.win32_ver() call would otherwise block forever. Falls back to sys.getwindowsversion().
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .database import engine, Base

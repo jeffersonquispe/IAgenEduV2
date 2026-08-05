@@ -67,45 +67,6 @@ class GenerationService:
             db.rollback()
 
     # ------------------------------------------------------------------
-    # Unidad (async, no-streaming)
-    # ------------------------------------------------------------------
-
-    def crear_unidad(self, params: Dict[str, Any], current_user: models.User, db: Session) -> Dict[str, Any]:
-        from ...agents.coordinator import get_coordinator
-
-        area = params.get("area", "")
-        grado = params.get("grado", "")
-        competencias = params.get("competencias", [])
-        competencias_texto = ", ".join(competencias) if isinstance(competencias, list) else competencias
-        producto_final = params.get("producto_final", "")
-
-        coordinator = get_coordinator(usar_validacion_llm=True)
-        contenido, metricas = coordinator.generar_unidad_didactica(
-            area_curricular=area, grado=grado,
-            competencia_referencia=competencias_texto, temas=params.get("temas", ""),
-            num_sesiones=int(params.get("num_sesiones", 6)), producto_final=producto_final,
-        )
-
-        doc_content = self._unidad_parser.parsear(contenido, area=area)
-
-        doc_id = str(uuid.uuid4())
-        new_doc = models.Document(
-            id=doc_id, user_id=current_user.id, type="unidad",
-            title=f"Unidad Didáctica - {area}", content=doc_content, current_version=1,
-        )
-        db.add(new_doc)
-
-        if current_user.stats:
-            current_user.stats.docs_generados = (current_user.stats.docs_generados or 0) + 1
-            current_user.stats.unidades_generadas = (current_user.stats.unidades_generadas or 0) + 1
-        db.commit()
-
-        self._save_version(db, doc_id, doc_content, "Generación inicial", 1)
-        self._save_pipeline_run(db, doc_id, metricas, area=area, grado=str(grado))
-
-        return {**doc_content, "id": doc_id, "contenido_crudo": contenido}
-
-    # ------------------------------------------------------------------
     # Unidad (streaming SSE)
     # ------------------------------------------------------------------
 
@@ -113,15 +74,14 @@ class GenerationService:
                                       db: Session) -> Generator[str, None, None]:
         """
         Genera una unidad didáctica con streaming SSE.
-        Yields líneas `data: {...}\n\n` — chunks de texto y, al final, el id del documento.
+        Yields líneas `data: {...}\n\n` — chunks de texto, validación, y resultado final con secciones.
 
-        Nota: a diferencia de crear_unidad(), este camino no pasa por
-        ValidatorAgent/FormatterAgent (llama directo a Bedrock en streaming) y el
-        documento se guarda solo con contenido_crudo, sin secciones parseadas.
+        Parámetro `modo`:
+        - "solo_generador": rápido, solo GeneratorAgent, sin validación
+        - "completo" (default): GeneratorAgent + ValidatorAgent + FormatterAgent
         """
-        from ...core.bedrock_client import get_bedrock_client
-        from ...core.prompt_manager import get_prompt_manager
-        from ...agents.generator_agent import GeneratorAgent, VALORES_PERMITIDOS, ENFOQUES_TRANSVERSALES_PERMITIDOS
+        from ...agents.generator_agent import GeneratorAgent
+        from ...agents.coordinator import get_coordinator
 
         area = params.get("area", "")
         grado = params.get("grado", "")
@@ -130,90 +90,138 @@ class GenerationService:
         producto_final = params.get("producto_final", "")
         num_sesiones = int(params.get("num_sesiones", 6))
         temas = params.get("temas", "")
+        modo = params.get("modo", "completo")
 
         gen = GeneratorAgent()
-        contexto_competencia = gen._construir_contexto_competencia(competencias_texto, area, grado)
-        contexto_temas = f"\nTEMAS ESPECÍFICOS A INCLUIR:\n{temas}\n" if temas else ""
-        contexto_sesiones = (
-            f"\nNÚMERO DE SESIONES: EXACTAMENTE {num_sesiones} sesiones, "
-            f"numeradas del 1 al {num_sesiones}.\n"
-        )
-        contexto_producto = (
-            f"\nPRODUCTO FINAL DE UNIDAD (OBLIGATORIO):\n{producto_final}\n"
-            f"La rúbrica DEBE evaluar dimensiones de este producto.\n"
-        ) if producto_final else ""
-
-        pm = get_prompt_manager()
-        prompt = pm.cargar(
-            "unidad_didactica",
-            area_curricular=area, grado=grado,
-            contexto_competencia=contexto_competencia,
-            contexto_temas=contexto_temas, contexto_sesiones=contexto_sesiones,
-            contexto_producto=contexto_producto, num_sesiones=num_sesiones,
-            valores_texto=", ".join(VALORES_PERMITIDOS),
-            enfoques_texto="; ".join(ENFOQUES_TRANSVERSALES_PERMITIDOS),
+        prompt = gen.construir_prompt_unidad(
+            area_curricular=area,
+            grado=grado,
+            competencia_referencia=competencias_texto,
+            temas=temas,
+            num_sesiones=num_sesiones,
+            producto_final=producto_final,
         )
 
         doc_id = str(uuid.uuid4())
-        bedrock = get_bedrock_client()
+        bedrock = gen.bedrock
 
         full_text = ""
+        metricas = None
         try:
             for chunk in bedrock.invocar_stream(prompt):
                 full_text += chunk
                 yield f"data: {json.dumps({'chunk': chunk, 'done': False})}\n\n"
 
-            doc_content = {"titulo": f"Unidad Didáctica - {area}", "contenido_crudo": full_text}
+            if modo == "completo":
+                yield f"data: {json.dumps({'validando': True})}\n\n"
+                coordinator = get_coordinator(usar_validacion_llm=True)
+                contenido_final, metricas = coordinator.validar_y_formatear_unidad(
+                    contenido=full_text,
+                    area_curricular=area,
+                    grado=grado,
+                )
+            else:
+                contenido_final = full_text
+
+            doc_content = self._unidad_parser.parsear(contenido_final, area=area)
             new_doc = models.Document(
                 id=doc_id, user_id=current_user.id, type="unidad",
                 title=f"Unidad Didáctica - {area}", content=doc_content, current_version=1,
             )
             db.add(new_doc)
+
+            if current_user.stats:
+                current_user.stats.docs_generados = (current_user.stats.docs_generados or 0) + 1
+                current_user.stats.unidades_generadas = (current_user.stats.unidades_generadas or 0) + 1
             db.commit()
 
-            yield f"data: {json.dumps({'done': True, 'id': doc_id})}\n\n"
+            self._save_version(db, doc_id, doc_content, f"Generación inicial (streaming, modo={modo})", 1)
+            if metricas:
+                self._save_pipeline_run(db, doc_id, metricas, area=area, grado=str(grado))
+
+            yield f"data: {json.dumps({'done': True, 'id': doc_id, **doc_content})}\n\n"
         except Exception as e:
             yield f"data: {json.dumps({'done': True, 'error': str(e)})}\n\n"
 
     # ------------------------------------------------------------------
-    # Sesión (async)
+    # Sesión (streaming SSE)
     # ------------------------------------------------------------------
 
-    def crear_sesion(self, params: Dict[str, Any], current_user: models.User, db: Session) -> Dict[str, Any]:
+    def generar_sesion_stream_events(self, params: Dict[str, Any], current_user: models.User,
+                                      db: Session) -> Generator[str, None, None]:
+        """
+        Genera una sesión de aprendizaje con streaming SSE.
+        Yields líneas `data: {...}\n\n` — chunks de texto, validación, y resultado final con secciones.
+
+        Parámetro `modo`:
+        - "solo_generador": rápido, solo GeneratorAgent, sin validación
+        - "completo" (default): GeneratorAgent + ValidatorAgent + FormatterAgent
+        """
+        from ...agents.generator_agent import GeneratorAgent
         from ...agents.coordinator import get_coordinator
 
         area = params.get("area", "")
         grado = params.get("grado", "")
+        titulo_unidad = params.get("titulo_unidad", "")
         tema_sesion = params.get("tema", "")
         metodologia = params.get("metodologia", "")
         nivel_educativo = params.get("nivel", "Secundaria")
+        modo = params.get("modo", "completo")
 
-        coordinator = get_coordinator(usar_validacion_llm=True)
-        contenido, metricas = coordinator.generar_sesion_aprendizaje(
-            titulo_unidad=params.get("titulo_unidad", ""), titulo_sesion=tema_sesion,
-            nivel=nivel_educativo, grado=str(grado), seccion=params.get("seccion", "A"),
+        gen = GeneratorAgent()
+        prompt = gen.construir_prompt_sesion(
+            titulo_unidad=titulo_unidad,
+            titulo_sesion=tema_sesion,
+            nivel=nivel_educativo,
+            grado=str(grado),
+            seccion=params.get("seccion", "A"),
             duracion=params.get("duracion", "90 min"),
-            competencias_unidad=params.get("propositos", ""), tema=tema_sesion, metodologia=metodologia,
+            competencias_unidad=params.get("propositos", ""),
+            tema=tema_sesion,
+            metodologia=metodologia,
         )
-
-        doc_content = self._sesion_parser.parsear(contenido, tema_sesion=tema_sesion)
 
         doc_id = str(uuid.uuid4())
-        new_doc = models.Document(
-            id=doc_id, user_id=current_user.id, type="sesion",
-            title=f"Sesión - {tema_sesion}", content=doc_content, current_version=1,
-        )
-        db.add(new_doc)
+        bedrock = gen.bedrock
 
-        if current_user.stats:
-            current_user.stats.docs_generados = (current_user.stats.docs_generados or 0) + 1
-            current_user.stats.sesiones_generadas = (current_user.stats.sesiones_generadas or 0) + 1
-        db.commit()
+        full_text = ""
+        metricas = None
+        try:
+            for chunk in bedrock.invocar_stream(prompt):
+                full_text += chunk
+                yield f"data: {json.dumps({'chunk': chunk, 'done': False})}\n\n"
 
-        self._save_version(db, doc_id, doc_content, "Generación inicial", 1)
-        self._save_pipeline_run(db, doc_id, metricas, area=area, grado=str(grado), metod=metodologia)
+            if modo == "completo":
+                yield f"data: {json.dumps({'validando': True})}\n\n"
+                coordinator = get_coordinator(usar_validacion_llm=True)
+                contenido_final, metricas = coordinator.validar_y_formatear_sesion(
+                    contenido=full_text,
+                    grado=str(grado),
+                    metodologia=metodologia,
+                )
+            else:
+                contenido_final = full_text
 
-        return {**doc_content, "id": doc_id}
+            doc_content = self._sesion_parser.parsear(contenido_final, tema_sesion=tema_sesion)
+
+            new_doc = models.Document(
+                id=doc_id, user_id=current_user.id, type="sesion",
+                title=f"Sesión - {tema_sesion}", content=doc_content, current_version=1,
+            )
+            db.add(new_doc)
+
+            if current_user.stats:
+                current_user.stats.docs_generados = (current_user.stats.docs_generados or 0) + 1
+                current_user.stats.sesiones_generadas = (current_user.stats.sesiones_generadas or 0) + 1
+            db.commit()
+
+            self._save_version(db, doc_id, doc_content, f"Generación inicial (streaming, modo={modo})", 1)
+            if metricas:
+                self._save_pipeline_run(db, doc_id, metricas, area=area, grado=str(grado), metod=metodologia)
+
+            yield f"data: {json.dumps({'done': True, 'id': doc_id, **doc_content})}\n\n"
+        except Exception as e:
+            yield f"data: {json.dumps({'done': True, 'error': str(e)})}\n\n"
 
     # ------------------------------------------------------------------
     # Refinamiento de un campo

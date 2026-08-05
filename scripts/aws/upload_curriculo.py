@@ -3,12 +3,12 @@
 Sube el Programa Curricular Educación Secundaria Perú 2016 (data/curriculo_secundaria_peru_2016.json)
 al bucket S3 configurado para Bedrock Knowledge Base (RAG).
 
-Uso:
+Uso (desde la raíz del proyecto):
   cp env.example .env   # configurar AWS_REGION, credenciales
-  python upload_curriculo.py
+  python scripts/aws/upload_curriculo.py
 
 El bucket por defecto es minedu-educacion-peru con prefijo curriculo/
-(data-source-config.json: inclusionPrefixes ["curriculo/"]).
+(scripts/aws/data-source-config.json: inclusionPrefixes ["curriculo/"]).
 Después de subir, sincroniza la Knowledge Base en la consola de Bedrock.
 """
 import os
@@ -22,8 +22,8 @@ try:
 except ImportError:
     pass
 
-# Añadir src al path para importar core
-sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+# Añadir src al path para importar core (repo_root/src, dos niveles arriba de scripts/aws/)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 from core.data_ingestion import upload_curriculo_to_s3
 
 if __name__ == "__main__":

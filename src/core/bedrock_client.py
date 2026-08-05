@@ -10,6 +10,7 @@ import os
 import asyncio
 from typing import Optional, Iterator
 from botocore.exceptions import NoCredentialsError, ClientError
+from botocore.config import Config
 
 logger = logging.getLogger(__name__)
 
@@ -237,6 +238,12 @@ class BedrockClient:
         aws_session_token = (os.environ.get('AWS_SESSION_TOKEN') or '').strip() or None
         aws_profile = (os.environ.get('AWS_PROFILE') or '').strip() or None
 
+        config = Config(
+            read_timeout=180,
+            connect_timeout=10,
+            retries={'max_attempts': 2}
+        )
+
         try:
             if aws_access_key and aws_secret_key:
                 kwargs = {
@@ -244,6 +251,7 @@ class BedrockClient:
                     'region_name': self._region,
                     'aws_access_key_id': aws_access_key,
                     'aws_secret_access_key': aws_secret_key,
+                    'config': config,
                 }
                 if aws_session_token:
                     kwargs['aws_session_token'] = aws_session_token
@@ -258,7 +266,7 @@ class BedrockClient:
             if not creds:
                 raise Exception("No se encontraron credenciales de AWS")
 
-            return session.client('bedrock-runtime', region_name=self._region)
+            return session.client('bedrock-runtime', region_name=self._region, config=config)
 
         except NoCredentialsError:
             raise Exception(self._mensaje_error_credenciales())

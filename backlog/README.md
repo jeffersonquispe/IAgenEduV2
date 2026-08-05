@@ -1,6 +1,6 @@
 # Backlog — IA-GEN-EDU
 
-Historias de usuario **pendientes de implementar**, derivadas de limitaciones conocidas del proyecto (ver `docs/DETALLES_TECNICOS.md` §15 y las notas finales de `USER_STORIES.md`), de una revisión del código activo (`src/api/`, `frontend/`), y de contrastar `docs/FLUJO_APLICATIVO(2).md` (documento funcional/reglas de negocio) contra lo que el código realmente hace hoy. Continúan la numeración de `USER_STORIES.md` (que documenta lo ya implementado).
+Historias de usuario **pendientes de implementar**, derivadas de limitaciones conocidas del proyecto (ver `docs/DETALLES_TECNICOS.md` §15 y las notas finales de `USER_STORIES.md`), de una revisión del código activo (`src/api/`, `frontend/`), de contrastar `docs/FLUJO_APLICATIVO(2).md` (documento funcional/reglas de negocio) contra lo que el código realmente hace hoy, y de `docs/REGLAS_DE_NEGOCIO.md` (reglas de negocio verificadas directamente contra el código). Continúan la numeración de `USER_STORIES.md` (que documenta lo ya implementado).
 
 Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Trello/GitHub Projects) sin reformatear. Formato: narrativa `Como/quiero/para`, criterios de aceptación, prioridad, esfuerzo estimado y archivos relevantes.
 
@@ -24,8 +24,20 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 | [HU-32](HU-32-contexto-institucional-en-generacion.md) | Inyectar el contexto institucional en el pipeline de generación | Generación | Media | S-M |
 | [HU-33](HU-33-generacion-como-job-asincrono.md) | Generación de documentos como job asíncrono | Infraestructura | Media | L |
 | [HU-34](HU-34-limite-concurrencia-bedrock.md) | Límite de concurrencia para llamadas a Bedrock | Infraestructura | Media | S |
+| [HU-35](HU-35-fix-join-competencias-multiples.md) | Corregir el ensamblado de competencias múltiples en el prompt | Calidad del contenido | Media | S |
+| [HU-36](HU-36-valores-institucionales-configurables.md) | Hacer configurables los valores y enfoques transversales institucionales | Generación | Alta | S-M |
+| [HU-37](HU-37-fix-registro-areas-grados-usados.md) | Registrar áreas y grados usados en la app activa (insignias rotas) | Gamificación | Media | S |
+| [HU-38](HU-38-definir-puntos-por-accion.md) | Definir e implementar (o retirar de la documentación) los puntos por acción directa | Gamificación | Baja | S |
 
 Prioridad y esfuerzo son una primera estimación para ordenar el trabajo; ajústalos según el alcance real de la tesis.
+
+## Hallazgos de `docs/REGLAS_DE_NEGOCIO.md` (HU-35 a HU-38)
+
+Al documentar las reglas de negocio verificándolas contra el código (no contra otra documentación), aparecieron 3 discrepancias reales no detectadas antes:
+
+- **HU-35:** el backend une competencias múltiples con `", "` pero el generador espera separarlas por `"\n"` — con 2+ competencias, el prompt no aplica la instrucción reforzada que debería.
+- **HU-36:** los "valores institucionales" del generador están hardcodeados a un colegio católico específico (incluye "Encuentro personal con Jesucristo", "Caridad"), no son los valores genéricos del CNEB — el sistema no es neutral institucionalmente hoy. Se relaciona directamente con HU-31/HU-32.
+- **HU-37 y HU-38:** dos huecos en gamificación — dos insignias inalcanzables en la app activa (HU-37, bug real) y una regla de puntos documentada pero nunca implementada (HU-38, más una decisión de producto que un bug).
 
 ## Contexto institucional (HU-31, HU-32) y escalabilidad (HU-33, HU-34)
 

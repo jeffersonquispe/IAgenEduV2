@@ -56,6 +56,66 @@ class GeneratorAgent:
                 logger.warning(f"[Generator] No se pudo inicializar RAG: {e}")
         return self.rag_service
 
+    def construir_prompt_unidad(
+        self,
+        area_curricular: str,
+        grado: int,
+        competencia_referencia: str = None,
+        temas: str = None,
+        num_sesiones: int = 6,
+        producto_final: str = None,
+    ) -> str:
+        """
+        Construye el prompt para generar una unidad didáctica.
+        Extrae la lógica de armado del prompt del método generar_unidad_didactica().
+        """
+        contexto_competencia = self._construir_contexto_competencia(
+            competencia_referencia, area_curricular, grado
+        )
+        contexto_temas = ""
+        if temas and temas.strip():
+            contexto_temas = f"\nTEMAS ESPECÍFICOS A INCLUIR:\n{temas}\n"
+
+        contexto_sesiones = (
+            f"\nNÚMERO DE SESIONES: EXACTAMENTE {num_sesiones} sesiones, "
+            f"numeradas del 1 al {num_sesiones}.\n"
+        )
+
+        contexto_producto = ""
+        if producto_final and producto_final.strip():
+            contexto_producto = (
+                f"\nPRODUCTO FINAL DE UNIDAD (OBLIGATORIO):\n"
+                f"{producto_final}\n"
+                f"REGLA CRÍTICA: La rúbrica analítica DEBE evaluar dimensiones de este producto. "
+                f"La situación significativa DEBE mencionar este producto como meta de los estudiantes.\n"
+            )
+        else:
+            contexto_producto = (
+                "\nPRODUCTO FINAL: Define un producto tangible apropiado para el área y los temas "
+                "(ej. ensayo, maqueta, infografía, prototipo, exposición). "
+                "La rúbrica evaluará ese producto.\n"
+            )
+
+        contexto_rag = self._buscar_contexto_rag(area_curricular, grado, temas or "")
+
+        prompt = self.prompt_manager.cargar(
+            "unidad_didactica",
+            area_curricular=area_curricular,
+            grado=grado,
+            contexto_competencia=contexto_competencia,
+            contexto_temas=contexto_temas,
+            contexto_sesiones=contexto_sesiones,
+            contexto_producto=contexto_producto,
+            num_sesiones=num_sesiones,
+            valores_texto=', '.join(VALORES_PERMITIDOS),
+            enfoques_texto='; '.join(ENFOQUES_TRANSVERSALES_PERMITIDOS),
+        )
+
+        if contexto_rag:
+            prompt = f"CONTEXTO OFICIAL DEL MINEDU:\n{contexto_rag}\n\n{prompt}"
+
+        return prompt
+
     def generar_unidad_didactica(
         self,
         area_curricular: str,
@@ -72,55 +132,14 @@ class GeneratorAgent:
             Contenido generado (puede tener problemas de formato;
             el FormatterAgent lo limpia después).
         """
-        # Construir contexto de competencia
-        contexto_competencia = self._construir_contexto_competencia(
-            competencia_referencia, area_curricular, grado
-        )
-        contexto_temas = ""
-        if temas and temas.strip():
-            contexto_temas = f"\nTEMAS ESPECÍFICOS A INCLUIR:\n{temas}\n"
-
-        contexto_sesiones = (
-            f"\nNÚMERO DE SESIONES: EXACTAMENTE {num_sesiones} sesiones, "
-            f"numeradas del 1 al {num_sesiones}.\n"
-        )
-
-        # Construir contexto de producto final (gobierna la rúbrica)
-        contexto_producto = ""
-        if producto_final and producto_final.strip():
-            contexto_producto = (
-                f"\nPRODUCTO FINAL DE UNIDAD (OBLIGATORIO):\n"
-                f"{producto_final}\n"
-                f"REGLA CRÍTICA: La rúbrica analítica DEBE evaluar dimensiones de este producto. "
-                f"La situación significativa DEBE mencionar este producto como meta de los estudiantes.\n"
-            )
-        else:
-            contexto_producto = (
-                "\nPRODUCTO FINAL: Define un producto tangible apropiado para el área y los temas "
-                "(ej. ensayo, maqueta, infografía, prototipo, exposición). "
-                "La rúbrica evaluará ese producto.\n"
-            )
-
-        # Enriquecer con RAG
-        contexto_rag = self._buscar_contexto_rag(area_curricular, grado, temas or "")
-
-        # Cargar y renderizar prompt
-        prompt = self.prompt_manager.cargar(
-            "unidad_didactica",
+        prompt = self.construir_prompt_unidad(
             area_curricular=area_curricular,
             grado=grado,
-            contexto_competencia=contexto_competencia,
-            contexto_temas=contexto_temas,
-            contexto_sesiones=contexto_sesiones,
-            contexto_producto=contexto_producto,
+            competencia_referencia=competencia_referencia,
+            temas=temas,
             num_sesiones=num_sesiones,
-            valores_texto=', '.join(VALORES_PERMITIDOS),
-            enfoques_texto='; '.join(ENFOQUES_TRANSVERSALES_PERMITIDOS),
+            producto_final=producto_final,
         )
-
-        # Si hay contexto RAG, agregarlo al prompt
-        if contexto_rag:
-            prompt = f"CONTEXTO OFICIAL DEL MINEDU:\n{contexto_rag}\n\n{prompt}"
 
         logger.info(
             f"[Generator] Generando unidad didáctica: {area_curricular}, "
@@ -136,7 +155,7 @@ class GeneratorAgent:
         logger.info(f"[Generator] Unidad generada, longitud: {len(contenido)}")
         return contenido
 
-    def generar_sesion_aprendizaje(
+    def construir_prompt_sesion(
         self,
         titulo_unidad: str,
         titulo_sesion: str,
@@ -148,7 +167,10 @@ class GeneratorAgent:
         tema: str = None,
         metodologia: str = None,
     ) -> str:
-        """Genera una sesión de aprendizaje completa."""
+        """
+        Construye el prompt para generar una sesión de aprendizaje.
+        Extrae la lógica de armado del prompt del método generar_sesion_aprendizaje().
+        """
         # Truncar títulos a 255 chars (restricción de API)
         LIMITE = 255
         if titulo_unidad and len(titulo_unidad) > LIMITE:
@@ -181,6 +203,33 @@ class GeneratorAgent:
             texto_competencias=texto_competencias,
             contexto_tema=contexto_tema,
             contexto_metodologia=contexto_metodologia,
+        )
+
+        return prompt
+
+    def generar_sesion_aprendizaje(
+        self,
+        titulo_unidad: str,
+        titulo_sesion: str,
+        nivel: str,
+        grado: str,
+        seccion: str,
+        duracion: str,
+        competencias_unidad: str = None,
+        tema: str = None,
+        metodologia: str = None,
+    ) -> str:
+        """Genera una sesión de aprendizaje completa."""
+        prompt = self.construir_prompt_sesion(
+            titulo_unidad=titulo_unidad,
+            titulo_sesion=titulo_sesion,
+            nivel=nivel,
+            grado=grado,
+            seccion=seccion,
+            duracion=duracion,
+            competencias_unidad=competencias_unidad,
+            tema=tema,
+            metodologia=metodologia,
         )
 
         logger.info(f"[Generator] Generando sesión: {titulo_sesion}")
