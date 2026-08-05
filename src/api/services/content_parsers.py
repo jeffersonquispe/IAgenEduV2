@@ -85,18 +85,30 @@ class SesionContentParser:
 
     def parsear(self, contenido: str, *, tema_sesion: str, **_: Any) -> Dict[str, Any]:
         datos_informativos = propositos_ap = secuencia_didactica = reflexion = ""
-        current_section = "datos"
+        current_section = None
+
         for line in contenido.split("\n"):
-            lu = line.upper()
-            if "DATOS INFORMATIVOS" in lu:
+            lu = line.upper().strip()
+
+            # Detectar cambios de sección (más flexible)
+            if any(x in lu for x in ["DATOS INFORMATIVOS", "DATOS INFORMATBOS"]):
                 current_section = "datos"
-            elif "PROPÓSITOS DE APRENDIZAJE" in lu or "II. PROP" in lu:
+                continue
+            elif any(x in lu for x in ["PROPÓSITOS", "PROPOSITOS", "PROPÓSITO DE APRENDIZAJE"]):
                 current_section = "propositos"
-            elif "SECUENCIA DIDÁCTICA" in lu or "III. SECU" in lu:
+                continue
+            elif any(x in lu for x in ["SECUENCIA DIDÁCTICA", "SECUENCIA DIDACTICA", "SECUENCIA DE ACTIVIDADES"]):
                 current_section = "secuencia"
-            elif "REFLEXIÓN" in lu or "IV. REFLEX" in lu:
+                continue
+            elif any(x in lu for x in ["REFLEXIÓN", "REFLEXION SOBRE LA ACTIVIDAD", "METACOGNICIÓN"]):
                 current_section = "reflexion"
-            else:
+                continue
+            elif any(x in lu for x in ["RÚBRICA", "RUBRICA"]):
+                # Cambio a rúbrica
+                continue
+
+            # Acumular contenido en la sección actual
+            if current_section and line.strip():  # Solo si no es línea vacía
                 if current_section == "datos":
                     datos_informativos += line + "\n"
                 elif current_section == "propositos":
