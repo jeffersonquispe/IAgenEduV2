@@ -30,6 +30,7 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
   })
   const [competenciasPorArea, setCompetenciasPorArea] = useState([])
   const [temasDisponibles, setTemasDisponibles] = useState([])
+  const [unidadesDisponibles, setUnidadesDisponibles] = useState([])
 
   const [formData, setFormData] = useState({
     area: '',
@@ -38,6 +39,7 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     temas: '',
     num_sesiones: 6,
     producto_final: '',
+    unidad_id: '',
     titulo_unidad: '',
     tema: '',
     metodologia: 'ERCA',
@@ -49,6 +51,14 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
       setDataOptions({ areas: res.data.areas, grados: res.data.grados, temas_por_area: res.data.temas_por_area || {} })
     }).catch(console.error)
   }, [isOpen])
+
+  // HU-22: unidades ya generadas por el docente, para elegir en vez de retipear el título.
+  useEffect(() => {
+    if (!isOpen || type !== 'sesion') return
+    axios.get('/api/data/unidades', { headers: authHeader() })
+      .then(res => setUnidadesDisponibles(res.data || []))
+      .catch(() => setUnidadesDisponibles([]))
+  }, [isOpen, type])
 
   useEffect(() => {
     if (!formData.area) { setCompetenciasPorArea([]); return }
@@ -82,6 +92,12 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
   const totalSteps = steps.length
 
   const handleChange = e => setFormData({ ...formData, [e.target.name]: e.target.value })
+
+  const handleUnidadSelect = e => {
+    const unidadId = e.target.value
+    const unidad = unidadesDisponibles.find(u => u.id === unidadId)
+    setFormData(f => ({ ...f, unidad_id: unidadId, titulo_unidad: unidad ? unidad.title : f.titulo_unidad }))
+  }
 
   const handleMultiSelect = e => {
     const values = [...e.target.options].filter(o => o.selected).map(o => o.value)
@@ -200,6 +216,7 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     const payload = {
       area: formData.area,
       grado: formData.grado,
+      unidad_id: formData.unidad_id || undefined,
       titulo_unidad: formData.titulo_unidad,
       tema: formData.tema,
       metodologia: formData.metodologia,
@@ -317,9 +334,29 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
 
                 {step === 2 && type === 'sesion' && (
                   <div className="space-y-5">
-                    <InputField label="Título de la Unidad" name="titulo_unidad"
-                      value={formData.titulo_unidad} onChange={handleChange}
-                      placeholder="Ej. Cuidamos el medio ambiente" />
+                    <div className="space-y-2">
+                      <label className="text-sm font-bold text-slate-400">Unidad Didáctica a la que pertenece</label>
+                      <select
+                        name="unidad_id"
+                        value={formData.unidad_id}
+                        onChange={handleUnidadSelect}
+                        className="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 focus:outline-none focus:border-indigo-500 transition-colors"
+                      >
+                        <option value="">— Sin unidad asociada —</option>
+                        {unidadesDisponibles.map(u => (
+                          <option key={u.id} value={u.id}>{u.title}</option>
+                        ))}
+                      </select>
+                      {formData.unidad_id ? (
+                        <p className="text-xs text-slate-500">
+                          Las competencias de esta unidad se reutilizarán automáticamente.
+                        </p>
+                      ) : (
+                        <InputField label="Título de la Unidad (si no está en la lista)" name="titulo_unidad"
+                          value={formData.titulo_unidad} onChange={handleChange}
+                          placeholder="Ej. Cuidamos el medio ambiente" />
+                      )}
+                    </div>
                     {temasDisponibles.length > 0 ? (
                       <SelectField label={`Tema sugerido para ${formData.area} - ${formData.grado}`}
                         name="tema" value={formData.tema} onChange={handleChange}

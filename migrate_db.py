@@ -27,9 +27,16 @@ def run():
     # --- documents: agregar current_version ---
     if not column_exists(cur, "documents", "current_version"):
         cur.execute("ALTER TABLE documents ADD COLUMN current_version INTEGER DEFAULT 1")
-        print("✅ documents.current_version añadida")
+        print("[OK] documents.current_version anadida")
     else:
-        print("⏩ documents.current_version ya existe")
+        print("[--] documents.current_version ya existe")
+
+    # --- documents: agregar parent_document_id (HU-22) ---
+    if not column_exists(cur, "documents", "parent_document_id"):
+        cur.execute("ALTER TABLE documents ADD COLUMN parent_document_id TEXT REFERENCES documents(id)")
+        print("[OK] documents.parent_document_id anadida")
+    else:
+        print("[--] documents.parent_document_id ya existe")
 
     # --- document_versions ---
     if not table_exists(cur, "document_versions"):
@@ -43,9 +50,9 @@ def run():
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         """)
-        print("✅ Tabla document_versions creada")
+        print("[OK] Tabla document_versions creada")
     else:
-        print("⏩ Tabla document_versions ya existe")
+        print("[--] Tabla document_versions ya existe")
 
     # --- pipeline_runs ---
     if not table_exists(cur, "pipeline_runs"):
@@ -67,13 +74,13 @@ def run():
                 timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         """)
-        print("✅ Tabla pipeline_runs creada")
+        print("[OK] Tabla pipeline_runs creada")
     else:
-        print("⏩ Tabla pipeline_runs ya existe")
+        print("[--] Tabla pipeline_runs ya existe")
 
     conn.commit()
     conn.close()
-    print("\n🎉 Migración completa. Puedes arrancar el servidor.")
+    print("\nMigracion completa. Puedes arrancar el servidor.")
 
 if __name__ == "__main__":
     run()

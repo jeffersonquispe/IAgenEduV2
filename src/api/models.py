@@ -52,9 +52,14 @@ class Document(Base):
     title = Column(String)
     content = Column(JSON) # The structured object (Situacion, Propositos, etc.)
     current_version = Column(Integer, default=1)
+    # HU-22: vínculo explícito de una Sesión con la Unidad Didáctica de la que
+    # proviene, elegida por el docente en el wizard (en vez de retipear el
+    # título a mano). Nulo si la Sesión se creó sin unidad asociada.
+    parent_document_id = Column(String, ForeignKey("documents.id"), nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     owner = relationship("User")
+    parent_document = relationship("Document", remote_side=[id])
     versions = relationship("DocumentVersion", back_populates="document", order_by="DocumentVersion.version_num")
     pipeline_run = relationship("PipelineRun", back_populates="document", uselist=False)
 

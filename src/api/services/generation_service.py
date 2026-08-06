@@ -173,11 +173,31 @@ class GenerationService:
 
         area = params.get("area", "")
         grado = params.get("grado", "")
-        titulo_unidad = params.get("titulo_unidad", "")
         tema_sesion = params.get("tema", "")
         metodologia = params.get("metodologia", "")
         nivel_educativo = params.get("nivel", "Secundaria")
         modo = params.get("modo", "completo")
+
+        # HU-22: si el docente eligió una Unidad ya generada (en vez de
+        # retipear el título a mano), resolvemos título y competencias desde
+        # esa Unidad — el servidor es la fuente de verdad, no lo que mande el
+        # cliente, para que la vinculación no dependa de que el frontend haya
+        # copiado bien los datos.
+        unidad_id = params.get("unidad_id")
+        unidad_padre = None
+        if unidad_id:
+            unidad_padre = db.query(models.Document).filter(
+                models.Document.id == unidad_id,
+                models.Document.user_id == current_user.id,
+                models.Document.type == "unidad",
+            ).first()
+
+        if unidad_padre:
+            titulo_unidad = unidad_padre.title or ""
+            competencias_unidad = (unidad_padre.content or {}).get("propositos_de_aprendizaje", "")
+        else:
+            titulo_unidad = params.get("titulo_unidad", "")
+            competencias_unidad = params.get("propositos", "")
 
         gen = GeneratorAgent()
         prompt = gen.construir_prompt_sesion(
@@ -187,7 +207,7 @@ class GenerationService:
             grado=str(grado),
             seccion=params.get("seccion", "A"),
             duracion=params.get("duracion", "90 min"),
-            competencias_unidad=params.get("propositos", ""),
+            competencias_unidad=competencias_unidad,
             tema=tema_sesion,
             metodologia=metodologia,
         )
@@ -218,6 +238,7 @@ class GenerationService:
             new_doc = models.Document(
                 id=doc_id, user_id=current_user.id, type="sesion",
                 title=f"Sesión - {tema_sesion}", content=doc_content, current_version=1,
+                parent_document_id=unidad_padre.id if unidad_padre else None,
             )
             db.add(new_doc)
 

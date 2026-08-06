@@ -68,3 +68,29 @@ async def get_user_documents(
         }
         for d in docs
     ]
+
+
+@router.get("/unidades")
+async def get_user_unidades(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(get_current_user),
+):
+    """
+    Unidades Didácticas del usuario, para el selector de "unidad padre" al
+    crear una Sesión (HU-22) — reemplaza el campo de texto libre donde el
+    docente retipeaba el título a mano.
+    """
+    unidades = db.query(models.Document).filter(
+        models.Document.user_id == current_user.id,
+        models.Document.type == "unidad",
+    ).order_by(models.Document.created_at.desc()).all()
+
+    return [
+        {
+            "id": u.id,
+            "title": u.title,
+            "propositos_de_aprendizaje": (u.content or {}).get("propositos_de_aprendizaje", ""),
+            "created_at": u.created_at,
+        }
+        for u in unidades
+    ]
