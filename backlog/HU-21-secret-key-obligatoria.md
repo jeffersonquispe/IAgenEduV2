@@ -1,5 +1,7 @@
 # HU-21: `SECRET_KEY` obligatoria por entorno
 
+> ✅ **Implementado.** `src/api/auth_utils.py` ya no tiene valor por defecto: `SECRET_KEY = os.getenv("SECRET_KEY")` + `RuntimeError` explícito si falta, con `load_dotenv()` en el propio módulo (no depende de que `run.py` lo haya cargado antes). Documentada en `.env.example` (nuevo archivo). El valor hardcodeado que estaba expuesto en el repo fue rotado — sesiones/tokens emitidos antes de este cambio quedaron invalidados.
+
 **Épica:** Seguridad | **Prioridad:** Alta | **Esfuerzo:** S
 
 **Como** administrador del sistema, **quiero** que la aplicación exija una `SECRET_KEY` propia por entorno, **para** que los tokens JWT no puedan falsificarse usando un valor por defecto conocido y público (presente en el propio repositorio).

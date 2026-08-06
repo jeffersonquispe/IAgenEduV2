@@ -10,12 +10,12 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 |---|---|---|---|---|
 | [HU-19](HU-19-recuperar-contrasena.md) | Recuperar contraseña olvidada | Autenticación | Alta | M |
 | [HU-20](HU-20-verificacion-email.md) | Verificación de correo al registrarse | Autenticación | Media | M |
-| [HU-21](HU-21-secret-key-obligatoria.md) | `SECRET_KEY` obligatoria por entorno | Seguridad | Alta | S |
+| ~~[HU-21](HU-21-secret-key-obligatoria.md)~~ | ✅ `SECRET_KEY` obligatoria por entorno | Seguridad | Alta | S |
 | [HU-22](HU-22-selector-unidad-padre.md) | Selector de unidad padre al crear una Sesión | Generación | Alta | S |
 | [HU-23](HU-23-exportacion-docx-institucional.md) | Exportación DOCX con estilos institucionales | Exportación | Media | M |
 | [HU-24](HU-24-busqueda-filtrado-documentos.md) | Búsqueda y filtrado de documentos | Historial | Media | S |
-| [HU-25](HU-25-tests-automatizados.md) | Suite de tests automatizados | Calidad técnica | Alta | L |
-| [HU-26](HU-26-actualizar-requirements.md) | `requirements.txt` fiel a las dependencias reales | Calidad técnica | Alta | S |
+| ~~[HU-25](HU-25-tests-automatizados.md)~~ | ✅ Suite de tests automatizados | Calidad técnica | Alta | L |
+| ~~[HU-26](HU-26-actualizar-requirements.md)~~ | ✅ `requirements.txt` fiel a las dependencias reales | Calidad técnica | Alta | S |
 | [HU-27](HU-27-migracion-postgresql.md) | Migración de SQLite a PostgreSQL | Infraestructura | Baja | L |
 | [HU-28](HU-28-campo-institucion-educativa.md) | ~~Campo "Institución Educativa" en la generación~~ → ver HU-31/HU-32 | Generación | — | — |
 | [HU-29](HU-29-validar-temas-no-repetidos.md) | Validar que no haya temas repetidos entre sesiones | Calidad del contenido | Media | M |

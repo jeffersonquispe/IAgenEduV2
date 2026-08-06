@@ -1,5 +1,7 @@
 # HU-26: `requirements.txt` fiel a las dependencias reales
 
+> ✅ **Implementado.** `requirements.txt` ahora incluye las dependencias directas de ambas apps (fastapi, uvicorn, sqlalchemy, pydantic, python-jose, passlib, bcrypt, fpdf2, además de las ya listadas). `bcrypt` queda fijado a `4.0.1` explícitamente — `passlib==1.7.4` es incompatible con `bcrypt>=4.1` (bug real descubierto y resuelto en esta sesión: rompía login/registro con 500). Verificado con `pip install --dry-run -r requirements.txt` sin errores. `CLAUDE.md` actualizado para quitar la nota de la discrepancia. `weasyprint` (mencionado en `docs/DETALLES_TECNICOS.md`) se confirmó que no está instalado ni se usa en el código — no se agregó.
+
 **Épica:** Calidad técnica | **Prioridad:** Alta | **Esfuerzo:** S
 
 **Como** desarrollador que clona el proyecto por primera vez, **quiero** que `requirements.txt` instale todo lo necesario para correr la app activa (FastAPI + React), **para** no descubrir en pleno arranque que faltan `fastapi`, `sqlalchemy`, `uvicorn`, etc.

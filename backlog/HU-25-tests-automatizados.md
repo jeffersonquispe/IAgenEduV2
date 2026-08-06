@@ -1,5 +1,7 @@
 # HU-25: Suite de tests automatizados
 
+> ✅ **Implementado.** `src/tests/` con pytest: `test_generation_service.py` (16 tests unitarios sobre estructura del servicio, formato de eventos SSE, parámetro `modo`) y `test_streaming_integration.py` (tests de integración contra un servidor corriendo, se saltan si no hay uno disponible). Runners `run_tests.ps1`/`run_tests.sh`. Ver `TESTS_QUICK_START.md` en la raíz del proyecto.
+
 **Épica:** Calidad técnica | **Prioridad:** Alta | **Esfuerzo:** L
 
 **Como** desarrollador del proyecto, **quiero** contar con una suite de tests automatizados, **para** detectar regresiones al modificar el pipeline de agentes o las rutas de la API sin depender solo de pruebas manuales.
