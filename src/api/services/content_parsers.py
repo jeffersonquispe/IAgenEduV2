@@ -18,26 +18,52 @@ class DocumentContentParser(Protocol):
         ...
 
 
+_NIVELES_RUBRICA = ("INICIO", "PROCESO", "LOGRADO", "DESTACADO", " AD", " A ", " B ", " C ")
+
+
 def extraer_rubrica(contenido: str) -> str:
-    """Extrae la tabla de rúbrica del contenido generado."""
+    """Extrae la tabla de rúbrica del contenido generado.
+
+    El disparador original ("aparece 'criterio' + un nivel en la línea") daba
+    falsos positivos: "Criterio de evaluación: ..." también aparece como
+    prosa dentro de la fila de "Secuencia de Sesiones" (que menciona el
+    criterio de cada sesión), arrastrando el resto del documento entero como
+    si fuera la rúbrica. Ahora exige que la PRIMERA celda de la fila sea el
+    encabezado ("Criterio") y que las demás celdas sean cortas (nombres de
+    nivel como "Logrado", no párrafos narrativos), y una vez dentro, solo
+    continúa mientras las filas mantengan la misma cantidad de columnas que
+    el encabezado real de la rúbrica.
+    """
     if not contenido:
         return ""
     lineas = contenido.split("\n")
     rubrica_lineas = []
     en_rubrica = False
+    columnas_esperadas = None
+
     for linea in lineas:
-        l_upper = linea.upper()
-        if (("| CRITERIO" in l_upper or "CRITERIO DE EVALUACI" in l_upper)
-                and ("INICIO" in l_upper or " AD " in l_upper or "DESTACADO" in l_upper
-                     or "LOGRADO" in l_upper or "PROCESO" in l_upper)):
-            en_rubrica = True
-        if en_rubrica:
-            if linea.strip().startswith("|"):
-                rubrica_lineas.append(linea)
-            elif rubrica_lineas and not linea.strip():
-                rubrica_lineas.append(linea)
-            elif rubrica_lineas and not linea.strip().startswith("|"):
+        stripped = linea.strip()
+        if not stripped.startswith("|"):
+            if en_rubrica:
                 break
+            continue
+
+        celdas = [c.strip() for c in stripped.strip("|").split("|")]
+
+        if not en_rubrica:
+            primera = celdas[0].upper() if celdas else ""
+            demas_cortas = len(celdas) > 2 and all(len(c) < 60 for c in celdas[1:])
+            if "CRITERIO" in primera and demas_cortas and any(
+                nivel in linea.upper() for nivel in _NIVELES_RUBRICA
+            ):
+                en_rubrica = True
+                columnas_esperadas = len(celdas)
+
+        if en_rubrica:
+            if columnas_esperadas is not None and len(celdas) != columnas_esperadas:
+                break
+            rubrica_lineas.append(linea)
+
     return "\n".join(rubrica_lineas).strip()
 
 
@@ -81,51 +107,81 @@ class UnidadContentParser:
 
 
 class SesionContentParser:
-    """Parsea el contenido crudo de una Sesión de Aprendizaje (secciones por encabezado)."""
+    """Parsea el contenido crudo de una Sesión de Aprendizaje.
+
+    El FormatterAgent normaliza el documento como una tabla Markdown de una
+    sola fila por sección (`| **ENCABEZADO** | contenido... |`), no como texto
+    plano con encabezados en su propia línea. Por eso cada fila se procesa de
+    forma independiente: la sección se identifica por la primera celda y el
+    contenido es el resto de esa MISMA fila — nunca se descarta contenido por
+    aparecer junto a su encabezado (el bug anterior perdía la sección
+    completa de "SECUENCIA DIDÁCTICA" por esto, y una mención incidental de
+    "reflexión" dentro de "MATERIALES Y RECURSOS" activaba la sección
+    equivocada).
+
+    El LLM produce más subsecciones (situación significativa, enfoque
+    transversal, materiales y recursos) que los campos que expone el editor;
+    se agrupan en el campo relacionado más cercano.
+    """
+
+    _SECTION_KEYWORDS = [
+        (("DATOS INFORMATIVOS", "SITUACIÓN SIGNIFICATIVA", "SITUACION SIGNIFICATIVA"), "datos"),
+        (("PROPÓSITOS", "PROPOSITOS", "ENFOQUE TRANSVERSAL"), "propositos"),
+        (("SECUENCIA DIDÁCTICA", "SECUENCIA DIDACTICA", "SECUENCIA DE ACTIVIDADES", "MATERIALES Y RECURSOS"), "secuencia"),
+        (("REFLEXIÓN DOCENTE", "REFLEXION DOCENTE", "METACOGNICIÓN", "METACOGNICION"), "reflexion"),
+    ]
 
     def parsear(self, contenido: str, *, tema_sesion: str, **_: Any) -> Dict[str, Any]:
-        datos_informativos = propositos_ap = secuencia_didactica = reflexion = ""
+        secciones: Dict[str, list] = {"datos": [], "propositos": [], "secuencia": [], "reflexion": []}
         current_section = None
 
         for line in contenido.split("\n"):
-            lu = line.upper().strip()
+            stripped = line.strip()
 
-            # Detectar cambios de sección (más flexible)
-            if any(x in lu for x in ["DATOS INFORMATIVOS", "DATOS INFORMATBOS"]):
-                current_section = "datos"
-                continue
-            elif any(x in lu for x in ["PROPÓSITOS", "PROPOSITOS", "PROPÓSITO DE APRENDIZAJE"]):
-                current_section = "propositos"
-                continue
-            elif any(x in lu for x in ["SECUENCIA DIDÁCTICA", "SECUENCIA DIDACTICA", "SECUENCIA DE ACTIVIDADES"]):
-                current_section = "secuencia"
-                continue
-            elif any(x in lu for x in ["REFLEXIÓN", "REFLEXION SOBRE LA ACTIVIDAD", "METACOGNICIÓN"]):
-                current_section = "reflexion"
-                continue
-            elif any(x in lu for x in ["RÚBRICA", "RUBRICA"]):
-                # Cambio a rúbrica
+            if stripped.startswith("|"):
+                # Fila de tabla: [encabezado, contenido, ...] — clasificar por la
+                # primera celda, nunca por texto que aparezca dentro del resto.
+                celdas = [c.strip() for c in stripped.strip("|").split("|")]
+                if not celdas or not celdas[0]:
+                    continue
+                encabezado = celdas[0].upper()
+                resto = " ".join(c for c in celdas[1:] if c)
+
+                bucket = next(
+                    (target for keywords, target in self._SECTION_KEYWORDS
+                     if any(kw in encabezado for kw in keywords)),
+                    None,
+                )
+                if bucket:
+                    current_section = bucket
+                    if resto:
+                        secciones[bucket].append(resto)
+                # Filas de tabla sin encabezado reconocido (ej. la rúbrica final)
+                # no se acumulan en ninguna sección — extraer_rubrica() las maneja aparte.
                 continue
 
-            # Acumular contenido en la sección actual
-            if current_section and line.strip():  # Solo si no es línea vacía
-                if current_section == "datos":
-                    datos_informativos += line + "\n"
-                elif current_section == "propositos":
-                    propositos_ap += line + "\n"
-                elif current_section == "secuencia":
-                    secuencia_didactica += line + "\n"
-                elif current_section == "reflexion":
-                    reflexion += line + "\n"
+            # Texto plano (formato sin tabla): encabezado en su propia línea.
+            lu = stripped.upper()
+            bucket = next(
+                (target for keywords, target in self._SECTION_KEYWORDS
+                 if any(kw in lu for kw in keywords)),
+                None,
+            )
+            if bucket:
+                current_section = bucket
+                continue
+
+            if current_section and stripped:
+                secciones[current_section].append(stripped)
 
         rubrica_sesion = extraer_rubrica(contenido)
 
         return {
             "titulo": f"Sesión - {tema_sesion}",
-            "datos_informativos": datos_informativos.strip(),
-            "propositos_de_aprendizaje": propositos_ap.strip(),
-            "secuencia_didactica": secuencia_didactica.strip(),
-            "reflexion_sobre_la_actividad": reflexion.strip(),
+            "datos_informativos": "\n\n".join(secciones["datos"]).strip(),
+            "propositos_de_aprendizaje": "\n\n".join(secciones["propositos"]).strip(),
+            "secuencia_didactica": "\n\n".join(secciones["secuencia"]).strip(),
+            "reflexion_sobre_la_actividad": "\n\n".join(secciones["reflexion"]).strip(),
             "rubrica_sesion": rubrica_sesion,
             "contenido_crudo": contenido,
         }
