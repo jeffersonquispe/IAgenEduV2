@@ -4,8 +4,11 @@ from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from ..database import get_db
 from .. import models, schemas, auth_utils, gamification_logic
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, Any
+import logging
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -74,6 +77,66 @@ def login(user_credentials: schemas.UserLogin, db: Session = Depends(get_db)):
     
     access_token = auth_utils.create_access_token(data={"sub": user.email})
     return {"access_token": access_token, "token_type": "bearer"}
+
+@router.post("/forgot-password")
+def forgot_password(payload: schemas.ForgotPasswordRequest, db: Session = Depends(get_db)):
+    """
+    HU-19: inicia el reseteo de contraseña. La respuesta es siempre el mismo
+    mensaje genérico, exista o no el correo — evita que alguien use este
+    endpoint para enumerar cuentas registradas.
+
+    El proyecto no tiene un servicio de envío de email configurado (ver nota
+    de implementación en el backlog). Como alternativa mínima para el
+    alcance de tesis, el link de reseteo se registra en el log del servidor
+    en vez de enviarse por correo real.
+    """
+    user = db.query(models.User).filter(models.User.email == payload.email).first()
+    if user:
+        raw_token = auth_utils.generar_token_reseteo()
+        reset_token = models.PasswordResetToken(
+            user_id=user.id,
+            token_hash=auth_utils.hash_token_reseteo(raw_token),
+            expires_at=datetime.utcnow() + timedelta(minutes=auth_utils.PASSWORD_RESET_EXPIRE_MINUTES),
+        )
+        db.add(reset_token)
+        db.commit()
+
+        # Sin SMTP: se registra en el log en vez de enviarse por correo.
+        # En un despliegue real, reemplazar este log por un envío de email real.
+        logger.warning(
+            f"[PasswordReset] Link de reseteo para {user.email} "
+            f"(expira en {auth_utils.PASSWORD_RESET_EXPIRE_MINUTES} min): "
+            f"/reset-password?token={raw_token}"
+        )
+
+    return {"message": "Si el correo existe en el sistema, se generó un enlace de recuperación."}
+
+
+@router.post("/reset-password")
+def reset_password(payload: schemas.ResetPasswordRequest, db: Session = Depends(get_db)):
+    """HU-19: completa el reseteo — token de un solo uso, no reutiliza el JWT de sesión."""
+    token_hash = auth_utils.hash_token_reseteo(payload.token)
+    reset_token = db.query(models.PasswordResetToken).filter(
+        models.PasswordResetToken.token_hash == token_hash,
+        models.PasswordResetToken.used == False,  # noqa: E712
+    ).first()
+
+    if not reset_token or reset_token.expires_at < datetime.utcnow():
+        raise HTTPException(status_code=400, detail="Token inválido o expirado")
+
+    if len(payload.new_password) < 8:
+        raise HTTPException(status_code=400, detail="La contraseña debe tener al menos 8 caracteres")
+
+    user = db.query(models.User).filter(models.User.id == reset_token.user_id).first()
+    if not user:
+        raise HTTPException(status_code=400, detail="Token inválido o expirado")
+
+    user.hashed_password = auth_utils.get_password_hash(payload.new_password)
+    reset_token.used = True
+    db.commit()
+
+    return {"message": "Contraseña actualizada correctamente. Ya puedes iniciar sesión."}
+
 
 @router.get("/me", response_model=schemas.User)
 def get_me(current_user: models.User = Depends(get_current_user)):

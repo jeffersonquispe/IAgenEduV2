@@ -14,6 +14,14 @@ class UserLogin(BaseModel):
     email: EmailStr
     password: str
 
+# Password reset schemas (HU-19)
+class ForgotPasswordRequest(BaseModel):
+    email: EmailStr
+
+class ResetPasswordRequest(BaseModel):
+    token: str
+    new_password: str
+
 class User(UserBase):
     id: int
     is_active: bool

@@ -78,6 +78,22 @@ def run():
     else:
         print("[--] Tabla pipeline_runs ya existe")
 
+    # --- password_reset_tokens (HU-19) ---
+    if not table_exists(cur, "password_reset_tokens"):
+        cur.execute("""
+            CREATE TABLE password_reset_tokens (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL REFERENCES users(id),
+                token_hash TEXT UNIQUE NOT NULL,
+                expires_at DATETIME NOT NULL,
+                used BOOLEAN DEFAULT 0,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        print("[OK] Tabla password_reset_tokens creada")
+    else:
+        print("[--] Tabla password_reset_tokens ya existe")
+
     conn.commit()
     conn.close()
     print("\nMigracion completa. Puedes arrancar el servidor.")

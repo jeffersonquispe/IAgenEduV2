@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import axios from 'axios'
 import Login from './pages/Login'
+import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
 import Editor from './pages/Editor'
 
@@ -41,6 +42,7 @@ function App() {
       <div className="min-h-screen bg-dark">
         <Routes>
           <Route path="/login" element={user ? <Navigate to="/" /> : <Login setUser={setUser} />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/" element={user ? <Dashboard user={user} setUser={setUser} /> : <Navigate to="/login" />} />
           <Route path="/editor" element={user ? <Editor user={user} /> : <Navigate to="/login" />} />
         </Routes>

@@ -15,6 +15,27 @@ class User(Base):
 
     stats = relationship("UserStats", back_populates="owner", uselist=False)
 
+
+class PasswordResetToken(Base):
+    """HU-19: token de un solo uso para recuperar contraseña olvidada.
+
+    Se guarda el hash del token (SHA-256), nunca el valor en texto plano —
+    igual criterio que las contraseñas, aunque no requiere un hash lento
+    como bcrypt: es un token aleatorio de alta entropía, no algo que un
+    usuario memoriza y reutiliza, así que no hay superficie de ataque de
+    fuerza bruta offline que un hash lento mitigue aquí.
+    """
+    __tablename__ = "password_reset_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    token_hash = Column(String, unique=True, index=True)
+    expires_at = Column(DateTime)
+    used = Column(Boolean, default=False)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    user = relationship("User")
+
 class UserStats(Base):
     __tablename__ = "user_stats"
 
