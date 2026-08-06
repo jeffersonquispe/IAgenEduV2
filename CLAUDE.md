@@ -11,7 +11,9 @@ Repo layout: root has the app entry points (`run.py`, `frontend/`, `src/`) plus 
 **There are two separate applications in this repo — know which one you're working on:**
 
 1. **Active app (v2.0): FastAPI + React**, in `src/api/` and `frontend/`. This is where new work happens: JWT auth, a multi-agent generation pipeline, per-section editing/refinement, document history, gamification.
-2. **Legacy app (v1.0): Streamlit**, in `src/app/app.py`. Single-file UI with tabs for Unidad/Sesión and a chat-style refinement box. Only `requirements.txt` and the Dockerfile target this app — the FastAPI/React stack's dependencies (fastapi, sqlalchemy, uvicorn, pydantic, python-jose, passlib, python-docx, fpdf2, weasyprint) are installed in the venv but **not** listed in `requirements.txt`.
+2. **Legacy app (v1.0): Streamlit**, in `src/app/app.py`. Single-file UI with tabs for Unidad/Sesión and a chat-style refinement box.
+
+`requirements.txt` covers both apps' direct dependencies (Streamlit legacy + FastAPI/React active stack). `bcrypt` is pinned to `4.0.1` deliberately — `passlib==1.7.4` breaks against `bcrypt>=4.1` (it dropped the `__about__` attribute passlib uses for backend detection), which fails login/register with an opaque 500.
 
 Both apps ultimately call into the same `src/core/` and `src/agents/` generation logic, but through different entry points (`bedrock_services.py` for the API, direct calls for Streamlit's `legacy_generator.py` path).
 
@@ -21,13 +23,15 @@ Both apps ultimately call into the same `src/core/` and `src/agents/` generation
 
 ```bash
 # Backend — from repo root, venv already has the needed packages
-python run.py                    # Uvicorn on :8000, reload=True, docs at /docs
+python run.py                    # Uvicorn on :5000, reload=True, docs at /docs
 
 # Frontend — separate terminal
 cd frontend
 npm install
-npm run dev                      # Vite on :5173, proxies /api/* -> http://localhost:8000
+npm run dev                      # Vite on :5001, proxies /api/* -> http://localhost:5000
 ```
+
+`SECRET_KEY` is a required env var (see `.env.example`) — the app raises `RuntimeError` at import time in `auth_utils.py` if it's unset, rather than falling back to a hardcoded default (HU-21: a hardcoded fallback would be exposed in git history and let anyone forge valid JWTs on a misconfigured deployment).
 
 Run `python migrate_db.py` once after pulling schema changes and before starting the server — `Base.metadata.create_all()` in `main.py` only creates missing tables, it does not add columns to existing ones (e.g. `documents.current_version`, or new tables like `document_versions`/`pipeline_runs`) or alter them. Add new incremental migrations to `migrate_db.py` following the existing `column_exists`/`table_exists` pattern rather than relying on `models.py` alone.
 
@@ -43,7 +47,7 @@ streamlit run src/app/app.py     # or ./run_streamlit.sh — :8501
 
 ### Tests
 
-There is no test runner/framework configured. `src/test_docx.py` is a standalone manual script (`python src/test_docx.py`), not part of a pytest suite.
+`pytest src/tests -v` runs the automated suite (`src/tests/`) — unit tests for the streaming generation service against mocked SSE events, plus integration tests that hit a running server on `:5000` when available (skipped otherwise). `src/test_docx.py` is a separate standalone manual script (`python src/test_docx.py`), not part of the pytest suite.
 
 ### Windows-specific gotcha
 

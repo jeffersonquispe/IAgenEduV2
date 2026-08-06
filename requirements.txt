@@ -1,6 +1,22 @@
+# Dependencias compartidas por ambas apps (legacy Streamlit y API activa FastAPI+React)
+boto3==1.43.63
+python-dotenv==1.2.2
+python-docx==1.2.0
+
+# --- App legacy (Streamlit) ---
 streamlit
-boto3
 pyngrok
-python-dotenv
-python-docx
 debugpy
+
+# --- App activa (FastAPI + React) ---
+fastapi==0.135.1
+uvicorn==0.41.0
+sqlalchemy==2.0.48
+pydantic==2.12.5
+python-jose==3.5.0
+passlib==1.7.4
+# Pin exacto obligatorio: passlib 1.7.4 es incompatible con bcrypt>=4.1
+# (bcrypt 5.x eliminó el atributo `__about__` que passlib usa para detectar
+# el backend), lo que rompe login/registro con un 500 sin ningún error claro.
+bcrypt==4.0.1
+fpdf2==2.8.7
