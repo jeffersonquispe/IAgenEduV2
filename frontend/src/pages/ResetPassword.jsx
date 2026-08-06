@@ -1,18 +1,31 @@
-import { useState } from 'react'
-import { useNavigate, useSearchParams, Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { useNavigate, Link } from 'react-router-dom'
 import { Rocket, Lock, ArrowLeft } from 'lucide-react'
-import axios from 'axios'
+import { supabase } from '../lib/supabaseClient'
 
 export default function ResetPassword() {
-  const [searchParams] = useSearchParams()
-  const token = searchParams.get('token') || ''
   const navigate = useNavigate()
 
+  const [hasRecoverySession, setHasRecoverySession] = useState(null) // null = aún verificando
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [error, setError] = useState('')
   const [success, setSuccess] = useState(false)
   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    // El link de recuperación de Supabase llega con el token en la URL; el
+    // cliente lo detecta automáticamente (detectSessionInUrl) y dispara
+    // PASSWORD_RECOVERY. Si el usuario entra a esta página sin pasar por ese
+    // link, no hay sesión de recuperación activa.
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') setHasRecoverySession(true)
+    })
+    supabase.auth.getSession().then(({ data }) => {
+      setHasRecoverySession((prev) => prev ?? !!data.session)
+    })
+    return () => subscription.unsubscribe()
+  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -28,15 +41,15 @@ export default function ResetPassword() {
     }
 
     setLoading(true)
-    try {
-      await axios.post('/api/auth/reset-password', { token, new_password: newPassword })
-      setSuccess(true)
-      setTimeout(() => navigate('/login'), 2500)
-    } catch (err) {
-      setError(err.response?.data?.detail || 'No se pudo restablecer la contraseña')
-    } finally {
-      setLoading(false)
+    const { error: err } = await supabase.auth.updateUser({ password: newPassword })
+    setLoading(false)
+
+    if (err) {
+      setError(err.message || 'No se pudo restablecer la contraseña')
+      return
     }
+    setSuccess(true)
+    setTimeout(() => navigate('/login'), 2500)
   }
 
   return (
@@ -50,9 +63,9 @@ export default function ResetPassword() {
           <p className="text-slate-400 mt-2 text-center">Ingresa tu nueva contraseña para completar la recuperación.</p>
         </div>
 
-        {!token && (
+        {hasRecoverySession === false && (
           <p className="text-red-400 text-sm text-center mb-4">
-            Falta el token de recuperación en el enlace. Solicita uno nuevo desde la pantalla de inicio de sesión.
+            Este enlace no es válido o ya expiró. Solicita uno nuevo desde la pantalla de inicio de sesión.
           </p>
         )}
 
@@ -89,7 +102,7 @@ export default function ResetPassword() {
 
             <button
               type="submit"
-              disabled={!token || loading}
+              disabled={!hasRecoverySession || loading}
               className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 rounded-xl font-bold shadow-lg shadow-indigo-500/20 transition-all disabled:opacity-50"
             >
               {loading ? 'Actualizando...' : 'Actualizar contraseña'}

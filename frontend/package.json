@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
     "@vitejs/plugin-react": "^4.2.1",
     "axios": "^1.13.6",
     "framer-motion": "^12.36.0",

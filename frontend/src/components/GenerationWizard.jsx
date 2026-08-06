@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Wand2, Loader2, CheckCircle2, ChevronLeft, ChevronRight, X } from 'lucide-react'
-import axios from 'axios'
-
-const authHeader = () => ({ Authorization: `Bearer ${localStorage.getItem('token')}` })
+import { api } from '../lib/api'
+import { supabase } from '../lib/supabaseClient'
 
 const stripMarkdownForPreview = (text) => {
   if (!text) return ''
@@ -47,7 +46,7 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
 
   useEffect(() => {
     if (!isOpen) return
-    axios.get('/api/data/options').then(res => {
+    api.get('/data/options').then(res => {
       setDataOptions({ areas: res.data.areas, grados: res.data.grados, temas_por_area: res.data.temas_por_area || {} })
     }).catch(console.error)
   }, [isOpen])
@@ -55,14 +54,14 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
   // HU-22: unidades ya generadas por el docente, para elegir en vez de retipear el título.
   useEffect(() => {
     if (!isOpen || type !== 'sesion') return
-    axios.get('/api/data/unidades', { headers: authHeader() })
+    api.get('/data/unidades')
       .then(res => setUnidadesDisponibles(res.data || []))
       .catch(() => setUnidadesDisponibles([]))
   }, [isOpen, type])
 
   useEffect(() => {
     if (!formData.area) { setCompetenciasPorArea([]); return }
-    axios.get(`/api/data/competencias?area=${encodeURIComponent(formData.area)}`)
+    api.get(`/data/competencias?area=${encodeURIComponent(formData.area)}`)
       .then(res => setCompetenciasPorArea(res.data || []))
       .catch(() => setCompetenciasPorArea([]))
     setFormData(f => ({ ...f, competencias: [], tema: '' }))
@@ -71,7 +70,7 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
 
   useEffect(() => {
     if (!formData.area || !formData.grado) { setTemasDisponibles([]); return }
-    axios.get(`/api/data/temas?area=${encodeURIComponent(formData.area)}&grado=${encodeURIComponent(formData.grado)}`)
+    api.get(`/data/temas?area=${encodeURIComponent(formData.area)}&grado=${encodeURIComponent(formData.grado)}`)
       .then(res => setTemasDisponibles(res.data.temas || []))
       .catch(() => setTemasDisponibles([]))
   }, [formData.area, formData.grado])
@@ -140,9 +139,15 @@ export default function GenerationWizard({ isOpen, onClose, type, onComplete }) 
     }
 
     try {
+      // fetch() nativo (no axios): la respuesta es un stream SSE leído
+      // manualmente con reader/decoder más abajo, axios no expone eso.
+      const { data: { session } } = await supabase.auth.getSession()
       const response = await fetch(endpoint, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...authHeader() },
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${session?.access_token}`,
+        },
         body: JSON.stringify(payload),
       })
 

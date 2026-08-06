@@ -1,64 +1,55 @@
 from sqlalchemy import Column, Integer, String, JSON, DateTime, ForeignKey, Boolean, Float
+from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from .database import Base
 
-class User(Base):
-    __tablename__ = "users"
+# as_uuid=False: el valor en Python queda como str plano (no uuid.UUID),
+# igual que lo que ya devuelve supabase-py — minimiza fricción en el resto
+# del código (f-strings con current_user.id, comparaciones, JSON, etc).
+UserUUID = UUID(as_uuid=False)
 
-    id = Column(Integer, primary_key=True, index=True)
+
+class User(Base):
+    """Perfil de aplicación, 1:1 con auth.users de Supabase (id compartido).
+
+    __tablename__ = "profiles" (no "users") para no confundirse con la tabla
+    interna de Supabase Auth. id/email/full_name reflejan lo que ya existe en
+    auth.users; hashed_password ya no aplica — Supabase es dueño de las
+    credenciales.
+    """
+    __tablename__ = "profiles"
+
+    id = Column(UserUUID, primary_key=True, index=True)  # UUID de auth.users.id
     email = Column(String, unique=True, index=True)
-    hashed_password = Column(String)
     full_name = Column(String)
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     stats = relationship("UserStats", back_populates="owner", uselist=False)
 
-
-class PasswordResetToken(Base):
-    """HU-19: token de un solo uso para recuperar contraseña olvidada.
-
-    Se guarda el hash del token (SHA-256), nunca el valor en texto plano —
-    igual criterio que las contraseñas, aunque no requiere un hash lento
-    como bcrypt: es un token aleatorio de alta entropía, no algo que un
-    usuario memoriza y reutiliza, así que no hay superficie de ataque de
-    fuerza bruta offline que un hash lento mitigue aquí.
-    """
-    __tablename__ = "password_reset_tokens"
-
-    id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"))
-    token_hash = Column(String, unique=True, index=True)
-    expires_at = Column(DateTime)
-    used = Column(Boolean, default=False)
-    created_at = Column(DateTime, default=datetime.utcnow)
-
-    user = relationship("User")
-
 class UserStats(Base):
     __tablename__ = "user_stats"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"), unique=True)
-    
+    user_id = Column(UserUUID, ForeignKey("profiles.id"), unique=True)
+
     docs_generados = Column(Integer, default=0)
     unidades_generadas = Column(Integer, default=0)
     sesiones_generadas = Column(Integer, default=0)
     mejoras_realizadas = Column(Integer, default=0)
     exportaciones_docx = Column(Integer, default=0)
     exportaciones_pdf = Column(Integer, default=0)
-    
+
     nivel = Column(Integer, default=1)
     puntos = Column(Integer, default=0)
     racha_manual = Column(Integer, default=0)
-    
-    # Almacenamos listas como JSON en SQLite
+
     badges_desbloqueados = Column(JSON, default=list) # List of badge IDs
     areas_usadas = Column(JSON, default=list)
     grados_usados = Column(JSON, default=list)
     dias_uso = Column(JSON, default=list) # List of date strings YYYY-MM-DD
-    
+
     ultima_conexion = Column(DateTime, default=datetime.utcnow)
     primera_visita = Column(Boolean, default=True)
 
@@ -67,8 +58,8 @@ class UserStats(Base):
 class Document(Base):
     __tablename__ = "documents"
 
-    id = Column(String, primary_key=True, index=True) # UUID
-    user_id = Column(Integer, ForeignKey("users.id"))
+    id = Column(String, primary_key=True, index=True) # UUID de aplicación (no de auth)
+    user_id = Column(UserUUID, ForeignKey("profiles.id"))
     type = Column(String) # 'unidad' or 'sesion'
     title = Column(String)
     content = Column(JSON) # The structured object (Situacion, Propositos, etc.)

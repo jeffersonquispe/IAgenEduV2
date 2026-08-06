@@ -1,6 +1,6 @@
 # HU-21: `SECRET_KEY` obligatoria por entorno
 
-> ✅ **Implementado.** `src/api/auth_utils.py` ya no tiene valor por defecto: `SECRET_KEY = os.getenv("SECRET_KEY")` + `RuntimeError` explícito si falta, con `load_dotenv()` en el propio módulo (no depende de que `run.py` lo haya cargado antes). Documentada en `.env.example` (nuevo archivo). El valor hardcodeado que estaba expuesto en el repo fue rotado — sesiones/tokens emitidos antes de este cambio quedaron invalidados.
+> ✅ **Implementado, y luego superado por una migración mayor.** Se arregló primero como está descrito abajo (`SECRET_KEY` sin default, `RuntimeError` si falta). Después, al migrar la autenticación completa a Supabase Auth (ver HU-19/HU-27), `SECRET_KEY` y todo `src/api/auth_utils.py` se eliminaron por completo — Supabase firma y verifica sus propios tokens, no hay secreto propio que gestionar. El *principio* que motivó esta historia (fallar explícito en vez de usar un default silencioso) se preservó y se aplicó igual a las nuevas variables obligatorias (`DATABASE_URL`, `SUPABASE_URL`, `SUPABASE_ANON_KEY` en `database.py`/`routes/auth.py`).
 
 **Épica:** Seguridad | **Prioridad:** Alta | **Esfuerzo:** S
 

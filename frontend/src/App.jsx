@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import axios from 'axios'
+import { supabase } from './lib/supabaseClient'
+import { api } from './lib/api'
 import Login from './pages/Login'
 import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
@@ -11,27 +12,31 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Axios interceptor to handle 401 Unauthorized errors globally
-    const interceptor = axios.interceptors.response.use(
+    // Interceptor de respuesta: cierra sesión globalmente ante cualquier 401.
+    const interceptor = api.interceptors.response.use(
       (response) => response,
-      (error) => {
+      async (error) => {
         if (error.response?.status === 401) {
-          localStorage.removeItem('token')
-          setUser(null)
+          await supabase.auth.signOut()
           window.location.href = '/login'
         }
         return Promise.reject(error)
       }
     )
 
-    const token = localStorage.getItem('token')
-    if (token) {
-      setUser({ token })
-    }
-    setLoading(false)
+    // Estado inicial de sesión + reactividad (refresco de token, logout entre pestañas).
+    supabase.auth.getSession().then(({ data }) => {
+      setUser(data.session?.user ?? null)
+      setLoading(false)
+    })
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null)
+    })
 
     return () => {
-      axios.interceptors.response.eject(interceptor)
+      api.interceptors.response.eject(interceptor)
+      subscription.unsubscribe()
     }
   }, [])
 
@@ -41,9 +46,9 @@ function App() {
     <Router>
       <div className="min-h-screen bg-dark">
         <Routes>
-          <Route path="/login" element={user ? <Navigate to="/" /> : <Login setUser={setUser} />} />
+          <Route path="/login" element={user ? <Navigate to="/" /> : <Login />} />
           <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="/" element={user ? <Dashboard user={user} setUser={setUser} /> : <Navigate to="/login" />} />
+          <Route path="/" element={user ? <Dashboard user={user} /> : <Navigate to="/login" />} />
           <Route path="/editor" element={user ? <Editor user={user} /> : <Navigate to="/login" />} />
         </Routes>
       </div>

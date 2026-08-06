@@ -16,7 +16,7 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 | [HU-24](HU-24-busqueda-filtrado-documentos.md) | Búsqueda y filtrado de documentos | Historial | Media | S |
 | ~~[HU-25](HU-25-tests-automatizados.md)~~ | ✅ Suite de tests automatizados | Calidad técnica | Alta | L |
 | ~~[HU-26](HU-26-actualizar-requirements.md)~~ | ✅ `requirements.txt` fiel a las dependencias reales | Calidad técnica | Alta | S |
-| [HU-27](HU-27-migracion-postgresql.md) | Migración de SQLite a PostgreSQL | Infraestructura | Baja | L |
+| ~~[HU-27](HU-27-migracion-postgresql.md)~~ | ✅ Migración de SQLite a PostgreSQL | Infraestructura | Baja | L |
 | [HU-28](HU-28-campo-institucion-educativa.md) | ~~Campo "Institución Educativa" en la generación~~ → ver HU-31/HU-32 | Generación | — | — |
 | [HU-29](HU-29-validar-temas-no-repetidos.md) | Validar que no haya temas repetidos entre sesiones | Calidad del contenido | Media | M |
 | [HU-30](HU-30-gating-exportacion-por-validacion.md) | Bloquear exportación si el documento no pasa validación | Calidad / Exportación | Media | M |

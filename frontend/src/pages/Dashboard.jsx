@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom'
 import Sidebar from '../components/Sidebar'
 import GenerationWizard from '../components/GenerationWizard'
 import { Sparkles, ArrowRight, BookOpen, Clock, Download, FileText } from 'lucide-react'
-import axios from 'axios'
+import { api } from '../lib/api'
 
-export default function Dashboard({ user, setUser }) {
+export default function Dashboard({ user }) {
   const navigate = useNavigate()
   const [wizard, setWizard] = useState({ open: false, type: 'unidad' })
   const [recentDocs, setRecentDocs] = useState([])
@@ -13,9 +13,7 @@ export default function Dashboard({ user, setUser }) {
 
   const fetchRecentDocs = async () => {
     try {
-      const res = await axios.get('/api/data/documents', {
-        headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
-      })
+      const res = await api.get('/data/documents')
       setRecentDocs(res.data)
     } catch (err) {
       console.error("Error fetching docs", err)
@@ -34,7 +32,7 @@ export default function Dashboard({ user, setUser }) {
 
   return (
     <div className="flex h-screen bg-dark">
-      <Sidebar setUser={setUser} />
+      <Sidebar />
       
       <main className="flex-1 overflow-y-auto p-10">
         <header className="mb-12 flex justify-between items-end">

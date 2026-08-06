@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Save, FileText, Download, Sparkles, Wand2, ArrowLeft, Loader2, Table2, AlignLeft } from 'lucide-react'
 import Sidebar from '../components/Sidebar'
-import axios from 'axios'
+import { api } from '../lib/api'
 
 // Campos de contenido real; todo lo demás (done, id, type, contenido_crudo, ...) es metadata del evento SSE
 const CONTENT_FIELDS = [
@@ -204,10 +204,10 @@ export default function Editor({ user }) {
     if (!instruction) return
     setRefining(key)
     try {
-      const res = await axios.post('/api/generate/refine', {
+      const res = await api.post('/generate/refine', {
         content: document[key],
         instruction: instruction
-      }, { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } })
+      })
       
       handleFieldChange(key, res.data.refined_content)
     } catch (err) {
@@ -220,8 +220,7 @@ export default function Editor({ user }) {
   const handleExport = async (format) => {
     try {
       const exportData = pickExportableFields(document)
-      const res = await axios.post(`/api/export/${format}`, exportData, {
-        headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
+      const res = await api.post(`/export/${format}`, exportData, {
         responseType: 'blob'
       })
       

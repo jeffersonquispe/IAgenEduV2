@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Rocket, Mail, Lock, User } from 'lucide-react'
-import axios from 'axios'
+import { supabase } from '../lib/supabaseClient'
 
-export default function Login({ setUser }) {
+export default function Login() {
   const [isLogin, setIsLogin] = useState(true)
   const [showForgotPassword, setShowForgotPassword] = useState(false)
   const [email, setEmail] = useState('')
@@ -18,30 +18,38 @@ export default function Login({ setUser }) {
     setError('')
     try {
       if (isLogin) {
-        const res = await axios.post('/api/auth/login', { email, password })
-        const token = res.data.access_token
-        localStorage.setItem('token', token)
-        setUser({ token })
+        const { error: err } = await supabase.auth.signInWithPassword({ email, password })
+        if (err) throw err
+        // App.jsx escucha onAuthStateChange y actualiza la sesión — solo navegamos.
         navigate('/')
       } else {
-        await axios.post('/api/auth/register', { email, password, full_name: fullName })
+        const { data, error: err } = await supabase.auth.signUp({
+          email,
+          password,
+          options: { data: { full_name: fullName } },
+        })
+        if (err) throw err
         setIsLogin(true)
-        alert('Registro exitoso. Ahora puedes iniciar sesión.')
+        if (data.session) {
+          navigate('/')
+        } else {
+          alert('Registro exitoso. Revisa tu correo para confirmar la cuenta antes de iniciar sesión.')
+        }
       }
     } catch (err) {
-      setError(err.response?.data?.detail || 'Algo salió mal')
+      setError(err.message || 'Algo salió mal')
     }
   }
 
   const handleForgotPassword = async (e) => {
     e.preventDefault()
     setForgotPasswordMessage('')
-    try {
-      const res = await axios.post('/api/auth/forgot-password', { email })
-      setForgotPasswordMessage(res.data.message)
-    } catch (err) {
-      setForgotPasswordMessage(err.response?.data?.detail || 'Algo salió mal')
-    }
+    const { error: err } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/reset-password`,
+    })
+    setForgotPasswordMessage(
+      err ? err.message : 'Si el correo existe en el sistema, se envió un enlace de recuperación.'
+    )
   }
 
   return (

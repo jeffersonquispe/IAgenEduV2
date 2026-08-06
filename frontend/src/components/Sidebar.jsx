@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { Trophy, Flame, Target, Award, LogOut, ChevronRight, LayoutDashboard, FilePlus, Settings } from 'lucide-react'
-import axios from 'axios'
+import { api } from '../lib/api'
+import { supabase } from '../lib/supabaseClient'
 
-export default function Sidebar({ setUser }) {
+export default function Sidebar() {
   const [stats, setStats] = useState(null)
-  
+
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get('/api/auth/stats', {
-          headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
-        })
+        const res = await api.get('/auth/stats')
         setStats(res.data)
       } catch (err) {
         console.error("Error fetching stats", err)
@@ -19,9 +18,8 @@ export default function Sidebar({ setUser }) {
     fetchStats()
   }, [])
 
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    setUser(null)
+  const handleLogout = async () => {
+    await supabase.auth.signOut()
   }
 
   if (!stats) return <div className="w-72 h-screen bg-slate-900 border-r border-slate-800 animate-pulse" />

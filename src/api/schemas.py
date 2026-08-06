@@ -2,28 +2,15 @@ from pydantic import BaseModel, EmailStr
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 
-# User Schemas
+# User Schemas — el registro/login ahora los maneja Supabase Auth
+# directamente desde el frontend; estos schemas solo describen el perfil
+# de aplicación (public.profiles), no crean cuentas.
 class UserBase(BaseModel):
     email: EmailStr
     full_name: Optional[str] = None
 
-class UserCreate(UserBase):
-    password: str
-
-class UserLogin(BaseModel):
-    email: EmailStr
-    password: str
-
-# Password reset schemas (HU-19)
-class ForgotPasswordRequest(BaseModel):
-    email: EmailStr
-
-class ResetPasswordRequest(BaseModel):
-    token: str
-    new_password: str
-
 class User(UserBase):
-    id: int
+    id: str  # UUID de Supabase (auth.users.id)
     is_active: bool
     created_at: datetime
 
@@ -49,19 +36,11 @@ class UserStatsBase(BaseModel):
 
 class UserStats(UserStatsBase):
     id: int
-    user_id: int
+    user_id: str
     ultima_conexion: datetime
 
     class Config:
         from_attributes = True
-
-# Token Schemas
-class Token(BaseModel):
-    access_token: str
-    token_type: str
-
-class TokenData(BaseModel):
-    email: Optional[str] = None
 
 # Document Schemas
 class DocumentBase(BaseModel):
@@ -74,7 +53,7 @@ class DocumentCreate(DocumentBase):
 
 class Document(DocumentBase):
     id: str
-    user_id: int
+    user_id: str
     created_at: datetime
 
     class Config:

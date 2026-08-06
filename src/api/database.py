@@ -1,13 +1,24 @@
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./edu_gen.db"
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
-engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
-)
+# Sin valor por defecto: la app corre contra Supabase Postgres, no SQLite —
+# un fallback silencioso aquí sería el mismo footgun que SECRET_KEY tenía
+# antes de HU-21.
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise RuntimeError(
+        "DATABASE_URL no está configurada. Define la cadena de conexión de "
+        "Supabase Postgres (ver .env.example — usar el 'Session pooler')."
+    )
+
+engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
