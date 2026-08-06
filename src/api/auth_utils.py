@@ -4,8 +4,24 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 import os
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # Configuration
-SECRET_KEY = os.getenv("SECRET_KEY", "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7")
+# Sin valor por defecto (HU-21): un fallback hardcodeado quedaría expuesto en
+# el historial de git y permitiría firmar tokens JWT válidos para cualquier
+# usuario en cualquier despliegue que arranque sin configurar esta variable.
+SECRET_KEY = os.getenv("SECRET_KEY")
+if not SECRET_KEY:
+    raise RuntimeError(
+        "SECRET_KEY no está configurada. Define esta variable de entorno antes de "
+        "arrancar la aplicación (ver .env.example). Generar una con: "
+        "python -c \"import secrets; print(secrets.token_hex(32))\""
+    )
+
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 # 1 day
 
