@@ -9,28 +9,12 @@ from typing import Optional
 from ..core.bedrock_client import get_bedrock_client, BedrockClient
 from ..core.prompt_manager import get_prompt_manager, PromptManager
 from ..core.rag_service import RAGEducativoService
+from ..core.valores_institucionales import (
+    resolver_valores_institucionales,
+    resolver_enfoques_transversales,
+)
 
 logger = logging.getLogger(__name__)
-
-# Valores institucionales y enfoques transversales
-VALORES_PERMITIDOS = [
-    "Participación", "Respeto", "Solidaridad", "Conciencia crítica",
-    "Compromiso ambiental", "Apertura y acogida", "Gratitud y donación",
-    "Compasión y misericordia", "Cuidado y promoción de la vida",
-    "Discernimiento y compromiso", "Encuentro personal con Jesucristo",
-    "Caridad", "Experiencia comunitaria de la fe",
-]
-
-ENFOQUES_TRANSVERSALES_PERMITIDOS = [
-    "Búsqueda de la excelencia: Superación personal.",
-    "Enfoque ambiental: justicia y solidaridad.",
-    "Enfoque de derecho: conciencia de derechos.",
-    "Atención a la diversidad: respeto por las diferencias.",
-    "Enfoque orientación al bien común: empatía y solidaridad.",
-    "Enfoque de derecho: libertad y responsabilidad.",
-    "Enfoque Ambiental: respeto a toda forma de vida, solidaridad planetaria y equidad intergeneracional.",
-    "Enfoque intercultural: respeto a la identidad cultural y diálogo intercultural.",
-]
 
 
 class GeneratorAgent:
@@ -107,8 +91,8 @@ class GeneratorAgent:
             contexto_sesiones=contexto_sesiones,
             contexto_producto=contexto_producto,
             num_sesiones=num_sesiones,
-            valores_texto=', '.join(VALORES_PERMITIDOS),
-            enfoques_texto='; '.join(ENFOQUES_TRANSVERSALES_PERMITIDOS),
+            valores_texto=', '.join(resolver_valores_institucionales()),
+            enfoques_texto='; '.join(resolver_enfoques_transversales()),
         )
 
         if contexto_rag:
