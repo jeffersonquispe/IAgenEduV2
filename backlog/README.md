@@ -11,7 +11,7 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 | [HU-19](HU-19-recuperar-contrasena.md) | Recuperar contraseña olvidada | Autenticación | Alta | M |
 | [HU-20](HU-20-verificacion-email.md) | Verificación de correo al registrarse | Autenticación | Media | M |
 | ~~[HU-21](HU-21-secret-key-obligatoria.md)~~ | ✅ `SECRET_KEY` obligatoria por entorno | Seguridad | Alta | S |
-| [HU-22](HU-22-selector-unidad-padre.md) | Selector de unidad padre al crear una Sesión | Generación | Alta | S |
+| ~~[HU-22](HU-22-selector-unidad-padre.md)~~ | ✅ Selector de unidad padre al crear una Sesión | Generación | Alta | S |
 | [HU-23](HU-23-exportacion-docx-institucional.md) | Exportación DOCX con estilos institucionales | Exportación | Media | M |
 | [HU-24](HU-24-busqueda-filtrado-documentos.md) | Búsqueda y filtrado de documentos | Historial | Media | S |
 | ~~[HU-25](HU-25-tests-automatizados.md)~~ | ✅ Suite de tests automatizados | Calidad técnica | Alta | L |
@@ -25,7 +25,7 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 | [HU-33](HU-33-generacion-como-job-asincrono.md) | Generación de documentos como job asíncrono | Infraestructura | Media | L |
 | [HU-34](HU-34-limite-concurrencia-bedrock.md) | Límite de concurrencia para llamadas a Bedrock | Infraestructura | Media | S |
 | [HU-35](HU-35-fix-join-competencias-multiples.md) | Corregir el ensamblado de competencias múltiples en el prompt | Calidad del contenido | Media | S |
-| [HU-36](HU-36-valores-institucionales-configurables.md) | Hacer configurables los valores y enfoques transversales institucionales | Generación | Alta | S-M |
+| ~~[HU-36](HU-36-valores-institucionales-configurables.md)~~ | ✅ (parcial) Hacer configurables los valores y enfoques transversales institucionales | Generación | Alta | S-M |
 | [HU-37](HU-37-fix-registro-areas-grados-usados.md) | Registrar áreas y grados usados en la app activa (insignias rotas) | Gamificación | Media | S |
 | [HU-38](HU-38-definir-puntos-por-accion.md) | Definir e implementar (o retirar de la documentación) los puntos por acción directa | Gamificación | Baja | S |
 

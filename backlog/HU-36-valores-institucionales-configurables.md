@@ -1,5 +1,7 @@
 # HU-36: Hacer configurables los valores y enfoques transversales institucionales
 
+> ✅ **Implementada la parte urgente** (default neutral), pendiente la parte que depende de HU-31. Nuevo módulo `src/core/valores_institucionales.py`: `VALORES_CNEB_DEFAULT` (genérico, sin contenido confesional) es ahora el default real usado por `generator_agent.py` y `legacy_generator.py` — ambos importaban la constante hardcodeada por separado (duplicada), ahora ambos llaman a `resolver_valores_institucionales()`/`resolver_enfoques_transversales()`. El listado católico original se conserva como `VALORES_CATOLICO_PRESET`, disponible pero ya no es el comportamiento por defecto. Verificado que el prompt real generado ya no contiene "Jesucristo". Las funciones `resolver_*` ya aceptan un `institution_profile` opcional — es el punto de extensión listo para que HU-31/HU-32 lo conecten cuando exista perfil institucional persistente; **sin HU-31 implementada, ese caso sigue pendiente**.
+
 **Épica:** Generación / Personalización institucional | **Prioridad:** Alta | **Esfuerzo:** S-M
 
 **Como** docente de cualquier institución (no solo confesional/católica), **quiero** que los valores y enfoques transversales que aparecen en mis documentos correspondan a mi propia institución, **para** no recibir documentos con valores religiosos específicos que no representan a mi colegio.
