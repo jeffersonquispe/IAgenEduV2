@@ -1,6 +1,6 @@
 # HU-20: Verificación de correo al registrarse
 
-> ⚠️ **Parcialmente cubierta por la migración a Supabase Auth** (ver HU-19/HU-21/HU-27) — no cerrada del todo. Supabase tiene un toggle nativo "Confirm email" (Authentication → Providers → Email en su dashboard) que, si se activa, exige confirmar el correo antes del primer login, sin código adicional. **No verificado en esta sesión** si ese toggle está activo ni si hay un proveedor SMTP configurado en el proyecto para que el correo de confirmación realmente salga (mismo prerrequisito que el email de reseteo de HU-19). Revisar esa configuración en el dashboard antes de dar esta historia por cerrada.
+> ❌ **Decisión de producto: desactivada, no implementada.** Supabase tiene un toggle nativo (`mailer_autoconfirm`) que exige confirmar el correo antes del primer login, sin código adicional — pero se desactivó deliberadamente (`mailer_autoconfirm=true`, vía Management API) para simplificar el flujo de registro en demos de tesis, ya que el proyecto tampoco tiene un proveedor SMTP configurado (mismo prerrequisito que bloqueaba el email de reseteo en HU-19). El registro ahora entrega sesión inmediata sin confirmar correo (verificado con `sign_up()` real). Si en el futuro se quiere retomar esta historia, es literalmente un `PATCH /v1/projects/{ref}/config/auth {"mailer_autoconfirm": false}` — pero requiere resolver el envío de email real primero, o los usuarios quedarán bloqueados sin poder confirmar.
 
 **Épica:** Autenticación | **Prioridad:** Media | **Esfuerzo:** M
 
