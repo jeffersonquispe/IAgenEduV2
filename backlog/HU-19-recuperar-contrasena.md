@@ -1,5 +1,7 @@
 # HU-19: Recuperar contraseña olvidada
 
+> ✅ **Implementado.** Nueva tabla `password_reset_tokens` (`src/api/models.py` + `migrate_db.py`) guarda el hash SHA-256 del token (nunca el valor en texto plano), con expiración de 30 min y bandera `used`. `POST /auth/forgot-password` responde siempre el mismo mensaje genérico exista o no el correo (verificado: respuestas idénticas para email real vs. inexistente). Sin servicio de email configurado en el proyecto, el link de reseteo se registra en el log del servidor (`logger.warning`) en vez de enviarse por correo — alternativa mínima documentada en la propia historia; reemplazar por envío real de email en un despliegue de producción. `POST /auth/reset-password` valida token no usado + no expirado + contraseña ≥ 8 caracteres, y marca el token como usado (no reutilizable). El token de reseteo es independiente del JWT de sesión. Frontend: `Login.jsx` tiene un enlace "¿Olvidaste tu contraseña?" con formulario inline, y `ResetPassword.jsx` (ruta `/reset-password?token=...`) para completar el cambio. Verificado end-to-end: token inválido → 400, contraseña corta → 400, reset válido → 200 + login exitoso con la nueva contraseña, reintento del mismo token → 400.
+
 **Épica:** Autenticación | **Prioridad:** Alta | **Esfuerzo:** M
 
 **Como** docente, **quiero** poder recuperar el acceso a mi cuenta si olvido mi contraseña, **para** no quedar bloqueado y depender de que alguien la resetee manualmente en la base de datos.

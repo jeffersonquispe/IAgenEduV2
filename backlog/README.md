@@ -8,7 +8,7 @@ Cada historia vive en su propio archivo para poder moverse a un tablero (Jira/Tr
 
 | # | Historia | Épica | Prioridad | Esfuerzo |
 |---|---|---|---|---|
-| [HU-19](HU-19-recuperar-contrasena.md) | Recuperar contraseña olvidada | Autenticación | Alta | M |
+| ~~[HU-19](HU-19-recuperar-contrasena.md)~~ | ✅ Recuperar contraseña olvidada | Autenticación | Alta | M |
 | [HU-20](HU-20-verificacion-email.md) | Verificación de correo al registrarse | Autenticación | Media | M |
 | ~~[HU-21](HU-21-secret-key-obligatoria.md)~~ | ✅ `SECRET_KEY` obligatoria por entorno | Seguridad | Alta | S |
 | ~~[HU-22](HU-22-selector-unidad-padre.md)~~ | ✅ Selector de unidad padre al crear una Sesión | Generación | Alta | S |
