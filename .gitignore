@@ -19,3 +19,6 @@ node_modules/
 
 # Editor
 .vscode/
+
+# Estado local del CLI de Supabase (project ref, connection info cacheada)
+supabase/.temp/
