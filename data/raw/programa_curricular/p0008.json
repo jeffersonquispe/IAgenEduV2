@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 8,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "responsabilidades como jóvenes y ciudadanos.\n\nEl adolescente asume conscientemente los resultados de su creatividad y muestra interés por las experiencias científicas. Además, se comunica de manera libre y autónoma en los diversos contextos donde interactúa.\n\n¿Qué intereses y habilidades van surgiendo?\n\nEn esta etapa, el adolescente afianza su identidad y personalidad respecto de sus gustos e intereses. Toma conciencia de que está por entrar a un mundo adulto y donde debe tomar decisiones respecto de su futuro, ya sea educativo o laboral. Empieza a cuestionarse sobre diversos aspectos de su vida: personal, familiar, social, escolar. El adolescente, a nivel cognitivo, afianza su pensamiento crítico y su metacognición a partir de sus niveles de pensamiento abstracto y contextual, lo que le permite reflexionar sobre las implicancias y consecuencias de sus acciones y desarrollar un sentido de la ética.\n\nDesde el punto de vista socioafectivo, el adolescente está en una constante búsqueda de aceptación y pertenencia en la que debe enfrentar diversos escenarios y tomar decisiones. Asimismo, redescubre el tipo de relaciones que mantenga con los otros, cuestiona la autoridad y vive con intensidad su vida afectiva.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 8,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 453,
+  "totalTokens": 2542,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 234,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "un estímulo. Puede ser individual o grupal.\n\nKinestético\nSe denomina así a lo que percibimos o sentimos en relación con el movimiento en el cuerpo o el entorno. Etimológicamente, significa 'sensación o percepción del movimiento'.\n\nLenguajes artísticos\nSon aquellas disciplinas artísticas con sus propios códigos, formas o símbolos para comunicar e interpretar de manera visual, sonora o kinestética. Incluyen las artes visuales, la danza, la música y el teatro.\n\nManifestaciones artístico-culturales\nSon todas aquellas creaciones o actos creativos de una persona o cultura que responden a sus necesidades de expresión o comunicación estética.\n\nMateriales\nSon las sustancias de las que algo está hecho o puede hacerse. Incluye los medios (crayones, arcilla, tinta), las superficies (papel, madera, cartón) y objetos encontrados (como hojas, chapitas, ramas) con los que pueden hacerse objetos o instrumentos.\n\nMedias audiovisuales\nSon herramientas, dispositivos y tecnología usada para realizar una obra o una producción donde intervienen imagen, vídeo, texto, animación y sonido. Incluyen cámaras, vídeo o equipos de edición digital, televisores, grabadoras de audio, proyectores, computadoras y cualquier software requerido para usarlos.\n\nPatrimonio material e inmaterial\nSon elementos culturales hereditarios, reconocidos principalmente por su valor excepcional dentro de sus propias comunidades, desde un punto de vista no solo histórico, sino artístico, científico y tecnológico. El patrimonio cultural material abarca monumentos (obras arquitectónicas, esculturas, pinturas y obras de carácter arqueológico), conjuntos (construcciones aisladas o reunidas), lugares (obras del hombre y la naturaleza) y artefactos culturales. El inmaterial se refiere al conjunto de conocimientos de las tradiciones, técnicas y costumbres que se practica y aprende de una generación a otra, manteniendo vivas las expresiones y la identidad de una comunidad (prácticas orales, artes del espectáculo, tradiciones, rituales, festividades, técnicas artesanales, conocimientos y prácticas relativos a la naturaleza y al universo).\n\nPerformance\nEs una muestra escénica en vivo, usualmente ligada al arte conceptual, donde el objeto de arte ya no es central, sino el sujeto que ejecuta. También se le conoce como \"arte performativo\".\n\nPrincipios del arte o del diseño\nSon las ideas aceptadas de manera general sobre las cualidades que contribuyen a la efectividad de un trabajo artístico. Se usan como orientaciones para componer una imagen (usualmente una imagen visual) y analizarla. Estas cualidades incluyen balance o equilibrio, énfasis, armonía, movimiento, proporción, ritmo, unidad y variedad.\n\nSimbólico",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 234,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 878,
+  "totalTokens": 2967,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

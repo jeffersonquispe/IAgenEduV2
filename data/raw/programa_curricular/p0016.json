@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 16,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "3.4 ¿Cómo planificar?\n\nSin importar los esquemas o las estructuras de la planificación, es importante concebir una lógica al planificar, la cual describimos a continuación organizada en tres procesos:\n\n• Determinar el propósito de aprendizaje sobre la base de las necesidades de aprendizaje identificadas.\n\n• Establecer los criterios para recoger evidencias de aprendizajes sobre el progreso.\n\n• Diseñar y organizar situaciones, estrategias y condiciones pertinentes al propósito de aprendizaje.\n\nComo muestra el siguiente gráfico, estos procesos se pueden dar de forma simultánea, recurrente o iterativa. Estos procesos se desarrollan con mayor o menor medida según el tipo de planificación que se realice.\n\nProcesos de la planificación\n\n[Gráfico circular con tres procesos interconectados]\n\nDeterminar el propósito de aprendizaje sobre la base de las necesidades de aprendizaje identificadas.\n\nEstablecer los criterios para recoger evidencias de aprendizajes sobre el progreso.\n\nDiseñar y organizar situaciones, estrategias y condiciones pertinentes al propósito de aprendizaje.\n\nA continuación, se explica en qué consiste cada proceso considerando las orientaciones pedagógicas para el desarrollo de competencias y para la evaluación formativa contenidas en el Currículo Nacional.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 16,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 485,
+  "totalTokens": 2574,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

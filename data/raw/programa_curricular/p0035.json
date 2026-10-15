@@ -1,0 +1,106 @@
+{
+ "numero_pagina_impreso": 35,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Construye su identidad",
+ "ciclo": "VI",
+ "capacidades": [
+  "Se valora a sí mismo.",
+  "Autorregula sus emociones.",
+  "Reflexiona y argumenta éticamente.",
+  "Vive su sexualidad de manera plena y responsable."
+ ],
+ "descripcion_nivel": "Construye su identidad al tomar conciencia de los aspectos que lo hacen único, cuando se reconoce a sí mismo a partir de sus características personales, culturales y sociales, y de sus logros, valorando el aporte de las familias en su formación personal. Se desenvuelve con agrado y confianza en diversos grupos. Selecciona y utiliza las estrategias más adecuadas para regular sus emociones y comportamiento, y comprende las razones de los comportamientos propios y de los otros. Argumenta su posición frente a situaciones de conflicto moral, considerando las intenciones de las personas involucradas, los principios éticos y las normas establecidas. Analiza las consecuencias de sus decisiones y se propone comportamientos en los que estén presentes criterios éticos.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica los cambios propios de su etapa de desarrollo valorando sus características personales y culturales, y reconociendo la importancia de evitar y prevenir situaciones de riesgo (adicciones, delincuencia, pandillaje, desórdenes alimenticios, entre otros)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe las principales prácticas culturales de los diversos grupos culturales y sociales a los que pertenece y explica cómo estas prácticas culturales lo ayudan a enriquecer su identidad personal."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe las causas y consecuencias de sus emociones, sentimientos y comportamientos, y las de sus compañeros en situaciones de convivencia en la escuela. Utiliza estrategias de autorregulación emocional de acuerdo con la situación que se presenta."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Argumenta su posición sobre dilemas morales que involucran situaciones de convivencia en su familia y en el aula tomando en cuenta las normas y las intenciones de las personas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica las consecuencias de sus decisiones y propone acciones a partir de principios éticos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Se relaciona con sus compañeros y compañeras con equidad, reflexiona sobre los efectos de las normas sociales en la vida de mujeres y varones, y muestra rechazo frente a aquellas que generan desigualdad. Expresa argumentos a favor del respeto y cuidado mutuo en las relaciones de amistad y enamoramiento."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Dialoga sobre la importancia del cuidado de sí mismo en relación con la salud sexual y reproductiva, e identifica situaciones que la ponen en riesgo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica sus características personales, culturales y sociales, y sus logros. Valora la participación de su familia en su formación y reconoce la importancia de usar estrategias de protección frente a situaciones de riesgo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica la importancia de participar, con seguridad y confianza, en diferentes grupos culturales y sociales (religiosos, ambientales, animalistas, de género, organizaciones juveniles, etc.) para enriquecer su identidad y sentirse parte de su comunidad."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica las causas y consecuencias de sus emociones, sentimientos y comportamientos, y las de los demás en diversas situaciones. Utiliza estrategias de autorregulación emocional de acuerdo con la situación que se presenta, y explica la importancia de expresar y autorregular sus emociones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Argumenta su posición sobre dilemas morales que involucran situaciones de convivencia en la escuela y la comunidad tomando en cuenta las intenciones de las personas involucradas, los principios éticos y las normas establecidas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica las consecuencias de sus decisiones y propone acciones en las que estén presentes criterios éticos para mejorar su comportamiento."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Se relaciona con sus compañeros y compañeras con equidad o igualdad, y analiza críticamente situaciones de desigualdad de género y violencia familiar, sexual y contra la mujer. Promueve el cuidado del otro y la reciprocidad en las relaciones de amistad y pareja."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Plantea pautas de prevención y protección ante situaciones que afecten su integridad sexual y reproductiva reconociendo la importancia del autocuidado."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 35,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1840,
+  "totalTokens": 4062,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 4
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

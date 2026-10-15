@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 30,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Sobre las competencias\n\n• Es importante señalar que las competencias están vinculadas entre sí y no pertenecen de manera exclusiva al área curricular en la que se enfatiza su desarrollo. De esta manera, los estudiantes harán uso de ellas de acuerdo a su pertenencia para poder enfrentar los retos y situaciones de aprendizaje, reforzando lo aprendido de acuerdo a su pertenencia y vinculando diferentes competencias que posee. Por ejemplo, los estudiantes harán uso de la competencia \"Resuelve problemas de gestión de datos\" cada vez que investiguen su entorno para identificar el problema o necesidad planteado. Para luego \"Diseñar prototipos tecnológicos\" o \"Gestionar proyectos de emprendimiento\", que cubran esa necesidad, ya que en ambos casos, con propósitos similares. Estas vinculaciones pueden hacerse evidentes de manera espontánea y también a través de la planificación colegiada entre docentes de diferentes áreas curriculares para aprovechar al máximo las oportunidades de vinculación y aplicación de competencias.\n\n• El desarrollo y el aprendizaje de los niños y niñas menores de seis años es más integrador y holístico, en ese sentido las competencias identificadas en este nivel responden a las características de este desarrollo. Asimismo, estas competencias constituyen la base para el desarrollo de otras competencias de su formación escolar.\n\nAl interior de cada una de las áreas, se encontrará:\n\n• Una presentación de las competencias que se desarrollarán en cada área curricular.\n\n• El enfoque del área como el marco teórico y metodológico que tiene como finalidad orientar el proceso de enseñanza y aprendizaje de las competencias por desarrollar.\n\n• Las definiciones de las competencias y sus capacidades.\n\n• Los estándares de aprendizaje nacionales que describen en ocho niveles el desarrollo de cada competencia a lo largo de la trayectoria escolar y definen niveles esperados al finalizar cada ciclo escolar.\n\n• Los desempeños por grado, que son descripciones específicas de lo que hacen los estudiantes respecto de los niveles de desarrollo de las competencias (estándares de aprendizaje). Estos desempeños, en algunas ocasiones, son iguales en dos grados sucesivos debido a que éstos requieren de mayor tiempo para un desarrollo más complejo.\n\nSe recomienda revisar las definiciones clave que sustentan el Perfil de egreso del Currículo Nacional de la Educación Básica, capítulo III.\n\nA continuación, se presentan las áreas curriculares del nivel de Educación Secundaria.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 30,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 788,
+  "totalTokens": 2877,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

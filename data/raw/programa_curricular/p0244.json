@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 244,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Se desenvuelve en entornos virtuales generados por las TIC\n\nAprovechamiento de las TIC\nConsiste en la adquisición de estrategias y su aplicación para generar experiencias que permitan a las personas consolidar aprendizajes significativos y duraderos.\n\nComunidad virtual\nEs el conjunto de personas y colectivos que viven su ciudadanía ejerciendo derechos y responsabilidades, y compartiendo información, actividades e intereses en los entornos virtuales.\n\nConexiones\nSe orientan al intercambio de datos. Implica tanto el alcance de la conectividad como la calidad de esta.\n\nCuración de contenido\nEs la búsqueda, comparación y análisis de tipos y fuentes diversas para sintetizarlas en un material digital nuevo, que comparte y presenta con una explicación o comentario respetando las buenas prácticas de autoría.\n\nDiseño de espacios virtuales\nEs la creación de un espacio virtual navegable, estructurado y coherente para presentar contenidos y comunicarse, por ejemplo, con sitios web, wikis, blogs, entre otros.\n\nDispositivo\nEs la pieza o conjunto de piezas que sirven para realizar una función determinada y que, generalmente, forman parte de un conjunto más complejo. Se orienta al control de los procesos que realiza la persona con el dispositivo. Contempla aspectos como la capacidad de procesamiento y la capacidad de almacenamiento de datos.\n\nEntorno virtual\nSon escenarios, espacios u objetos constituidos por Tecnologías de Información y Comunicación (TIC). Se caracterizan por ser interactivos (permiten comunicación con el entorno), virtualizados (proponen representaciones de la realidad), ubicuos (se puede acceder a ellos desde cualquier lugar con o sin conexión a Internet) e híbridos (se integran en diversos medios de tecnologías y comunicación).\n\nGamificación\nEs la participación en juegos en entornos virtuales manipulando aplicaciones y conduciendo los procesos dirigidos a comportamientos deseados, acercando la predisposición psicológica a participar en juegos para desarrollar persistencia, anticipación a los resultados, atención a los detalles y resolución de problemas.\n\nIdentidad digital\nEs una actividad que desarrolla una persona según su sistema de valores, su cultura y su personalidad. Esta personalización se manifiesta a través de un conjunto de rasgos particulares que identifican a una persona (o grupo) y definen su identidad digital en los entornos virtuales.\n\nInteractivo\nEs la relación de participación entre los usuarios y los sistemas informáticos. Es un proceso de comunicación que permite un diálogo.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 244,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 794,
+  "totalTokens": 2883,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

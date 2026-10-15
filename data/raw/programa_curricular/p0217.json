@@ -1,0 +1,80 @@
+{
+ "numero_pagina_impreso": 217,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se desenvuelve en entornos virtuales generados por las TIC",
+ "ciclo": "VI",
+ "capacidades": [
+  "Personaliza entornos virtuales.",
+  "Gestiona información del entorno virtual.",
+  "Interactúa en entornos virtuales.",
+  "Crea objetos virtuales en diversos formatos."
+ ],
+ "descripcion_nivel": "Se desenvuelve en los entornos virtuales cuando integra distintas actividades, actitudes y conocimientos de diversos contextos socioculturales en su entorno virtual personal. Crea materiales digitales (presentaciones, videos, documentos, diseños, entre otros) que responde a necesidades concretas de acuerdo sus procesos cognitivos y la manifestación de su individualidad.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Navega en diversos entornos virtuales recomendados adaptando funcionalidades básicas de acuerdo con sus necesidades de manera pertinente y responsable."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Clasifica información de diversas fuentes y entornos teniendo en cuenta la pertinencia y exactitud del contenido reconociendo los derechos de autor. Ejemplo: Accede a múltiples libros digitales obteniendo información de cada uno de ellos en un documento y citando la fuente."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Registra datos mediante hoja de cálculo que le permita ordenar y secuenciar información relevante."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Participa en actividades interactivas y comunicativas de manera pertinente cuando expresa su identidad personal y sociocultural en entornos virtuales determinados, como redes virtuales, portales educativos y grupos en red. Ejemplo: Participa en un proyecto colaborativo virtual de educación ambiental y tecnología, y recopila evidencias (fotos, videos y propuestas) utilizando foros y grupos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Utiliza herramientas multimedia e interactivas cuando desarrolla capacidades relacionadas con diversas áreas del conocimiento. Ejemplo: Resuelve problemas de cantidad con un software interactivo mediante videos, audios y evaluación."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Elabora proyectos escolares de su comunidad y localidad utilizando documentos y presentaciones digitales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMERO DE SECUNDARIA",
+   "texto": "Desarrolla procedimientos lógicos y secuenciales para plantear soluciones a enunciados concretos con lenguajes de programación de código escrito bloques gráficos. Ejemplo: Elabora un diagrama de flujo para explicar la preparación de un pastel."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Organiza aplicaciones y materiales digitales según su utilidad y propósitos variados en un entorno virtual determinado, como televisor, computadora personal, dispositivo móvil, aula virtual, entre otros, para uso personal y necesidades educativas. Ejemplo: Abre más de dos aplicaciones a la vez, abre una aplicación de video y otra de procesador de texto para generar el resumen del video."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Contrasta información recopilada de diversas fuentes y entornos que respondan a consignas y necesidades de investigación o tareas escolares, y resume la información en un documento con pertinencia y considerando la autoría."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Procesa datos mediante hojas de cálculo y base de datos cuando representa gráficamente información con criterios e indicaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Participa en actividades colaborativas en comunidades y redes virtuales para intercambiar y compartir información de manera individual o en grupos de trabajo desde perspectivas multiculturales y de acuerdo con su contexto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Elabora animaciones, videos y material interactivo en distintos formatos con creatividad e iniciativa, con aplicaciones de modelado y multimedia."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO DE SECUNDARIA",
+   "texto": "Resuelve situaciones problemáticas mediante la programación de código con procedimientos y secuencias lógicas estructuradas planteando soluciones creativas."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 217,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1433,
+  "totalTokens": 3587,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

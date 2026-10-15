@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 13,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Organizar espacios, tiempos y rutinas para la discusión, el trabajo cooperativo y el acceso responsable a los materiales del grupo, entre otros. Implica asegurar un ambiente seguro, motivador y de soporte. Las rutinas protegen el tiempo de aprendizaje de los estudiantes.\n\nEl abordaje planificado de conflictos o dilemas morales es muy importante para fortalecer la construcción autónoma de valores y la posición ética de los estudiantes a través de unidades y sesiones de aprendizaje. Para ello es importante considerar la complejidad del conflicto o dilema moral para planificar los tiempos y recursos necesarios para abordarlos. Tanto la unidad como las posibles sesiones deberían considerar las siguientes fases para fortalecer la construcción crítica de valores y el fortalecimiento de principios:\n\nPresentar el dilema o conflicto: presentar la situación, recoger saberes previos y sensibilizar a los estudiantes.\n\nRecojo de información: dar a conocer a los estudiantes qué enfoques transversales y qué competencias están en juego. A partir de ello diseñar en conjunto estrategias para abordarlos y para trabajar con argumentos y contraargumentos.\n\nAnalizar el dilema o conflicto con argumentos: observar, clasificar, comparar y contrastar diferentes argumentos o perspectivas en grupos de trabajo a partir del diálogo. El docente provoca conflictos cognitivos apropiados.\n\nConstruir y presentar posiciones argumentadas: propiciar espacios para que, en grupo o individualmente, los estudiantes compartan su posición y argumentos, y para, a partir de ellos, generar reflexiones abiertas con toda la clase.\n\nDifundir conclusiones y adoptar compromisos: diseñar estrategias en conjunto con los estudiantes para compartir las reflexiones con la comunidad educativa, y para construir iniciativas de mejora o transformación de la comunidad.\n\nc. La organización de espacios educativos\n\nLa organización de los espacios educativos también debe ser vista como oportunidades para desarrollar los enfoques transversales y poderlos vivenciar. Esta organización puede responder a diversos criterios como a continuación ejemplificamos:\n\nReflejan y respetan la diversidad cultural propia de las comunidades al organizar sus espacios sin imponer criterios ajenos a la zona que generen nuevas barreras. Representan la identidad colectiva de la escuela, generando sentido de pertenencia y favoreciendo una convivencia democrática.\n\nInclusivos, es decir, los espacios pueden propiciar la participación de todos los estudiantes sin exclusión, permitiéndoles desplegar, de la mejor manera, todas sus potencialidades.\n\nPromueve estilos de vida ambientalmente responsables mediante acciones y medidas concretas. Por ejemplo, la recuperación de áreas verdes en desuso o áreas baldías de la institución educativa para utilizarlas como recursos pedagógicos y espacios de socialización, el uso de tachos diferenciados para residuos sólidos, la aplicación de las 3R (reducir, reusar y reciclar), el consumo responsable, el uso adecuado de los recursos hídricos, del suelo, en otros.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 13,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 930,
+  "totalTokens": 3019,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

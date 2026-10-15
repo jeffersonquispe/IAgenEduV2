@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 25,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "4.4 ¿Cómo trabajamos la tutoría en el nivel de Educación Secundaria?\n\nLa tutoría en el nivel de Educación Secundaria se trabaja a través de dos modalidades: la tutoría grupal y la tutoría individual. Estas se complementan con la orientación a las familias. Todo lo cual se define en un plan de tutoría.\n\na) La tutoría grupal\n\nEs una modalidad mediante la cual se brinda acompañamiento socioafectivo al grupo de estudiantes en forma simultánea. Se atienden sus necesidades e intereses a partir del encuentro con su tutor, en un clima de confianza y respeto que propicie el diálogo abierto y democrático, la reflexión crítica, la participación, la formación integral en valores, el interés por el otro, la solidaridad en el grupo, el trabajo colaborativo, entre otros. Si bien el estudiante tiene un rol protagónico y puede expresarse con libertad, le corresponde al tutor canalizar sus reflexiones y brindarles la orientación pertinente en un marco de derechos y deberes.\n\nSe realiza en las dos horas de tutoría semanales consideradas en el cuadro de horas, a través de asambleas, proyectos y otras actividades. También se lleva a cabo a través de la realización de jornadas deportivas, actividades de inicio de la semana escolar, visitas de campo, entre otros.\n\nLa planificación de la tutoría es flexible y abierta, y podrá modificarse cuando así lo exijan las necesidades del grupo. Esta planificación debe responder a las características de los adolescentes.\n\nEs importante aprovechar otros espacios y momentos para acompañar y orientar a los adolescentes: el ingreso, la salida, el recreo, la formación, las actividades extracurriculares, entre otros.\n\nb) La tutoría individual\n\nEn esta modalidad, se abordan aspectos de índole personal que no pueden ser atendidos grupalmente de manera adecuada o que van más allá de las necesidades de orientación del grupo. En ese sentido, el tutor se constituye en un soporte esencial para el estudiante.\n\nPara ello, se implementa un espacio de diálogo en el que el tutor puede conocer y orientar al estudiante en forma confidencial, y mostrando empatía, capacidad de escucha, interés, ética y otras características que favorezcan la construcción de vínculos afectivos. Posibilita que el estudiante sepa y sienta que cuenta con una persona dispuesta a apoyarlo, y a reforzar su autoestima y seguridad personal. Requiere, por tanto, que los tutores desarrollen habilidades básicas referidas a consejería y apoyo emocional.\n\nPara realizar la tutoría individual, se deben tener en cuenta los siguientes elementos:\n\n• Intención orientadora: es la disposición, deseo y voluntad que tiene el tutor para atender las necesidades, intereses o expectativas de los estudiantes. La intención orientadora fortalece los vínculos afectivos.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 25,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 893,
+  "totalTokens": 2982,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

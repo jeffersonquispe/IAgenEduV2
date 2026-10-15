@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 231,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Es una actividad física ejercida como juego o competición, cuya práctica supone entrenamiento y sujeción a normas (Blázquez, 1999). Según el propósito que se persiga, se clasifica en:\n\n• Deporte recreativo: aquel que es practicado por placer, disfrute o goce, sin ninguna intención de competir o superar un adversario.\n• Deporte competitivo: aquel que es practicado con la intención de vencer a un adversario o de superarse a sí mismo.\n• Deporte educativo, formativo o escolar: cuyo objetivo fundamental es la educación integral del niño y el desarrollo armónico de su personalidad. El deporte educativo debe permitir el desarrollo de las aptitudes motrices y psicomotrices en relación con los aspectos afectivos, cognitivos y sociales de su personalidad, respetando los estadios del desarrollo humano.\n\nDesarrollo psicomotor\n\nCorresponde al desarrollo de los aspectos psicológicos, motores y afectivos que condicionan la construcción de la personalidad del niño, la niña y el adolescente. La evolución psicológica, el desarrollo de habilidades motrices y la afectividad son causa-efecto de la corporeidad del individuo.\n\nEducación física\n\nLa educación física es un área pedagógica que contribuye al desarrollo integral de la persona a través de la construcción de la corporeidad, la generación de una conciencia sociocrítica hacia el cuidado de la salud y el desarrollo de habilidades sociomotrices.\n\nEjercicio físico\n\nEs una variedad de actividad física voluntaria, sistemática, planificada, estructurada y repetitiva cuyo objetivo es mantener, desarrollar y perfeccionar todas las cualidades psicológicas y físicas de las personas.\n\nEsquema corporal\n\nPara Ballesteros (2002): \"El esquema corporal puede definirse como la intuición global o el conocimiento inmediato de nuestro cuerpo, tanto en estado de reposo como en movimiento en función de la interacción de sus partes y, sobre todo, de su relación con el espacio que le rodea\".\n\nEs un proceso de construcción complejo en el que intervienen la maduración neurológica y sensitiva, la interacción social, y el desarrollo del lenguaje. El esquema corporal está íntimamente ligado a aspectos cognitivos, perceptivos y motores que tienen inicio en el nacimiento y que, en condiciones normales, finalizan en la pubertad.\n\nExpresión corporal\n\nEs una forma única y particular de cada ser humano de expresión, comunicación, exteriorización de sentimientos y sensaciones a través del cuerpo.\n\nHabilidades motrices\n\nSegún Durand (1988), es la capacidad para dar una respuesta ante una situación de manera eficiente y económica, con la finalidad de alcanzar un objetivo preciso. Es el resultado de un aprendizaje adquirido por el individuo en relación con el medio. Las habilidades motrices se clasifican en:\n\n• Básicas: son movimientos elementales básicos que desarrolla el niño en forma natural. Algunos de estas implican el desplazamiento del cuerpo, como andar, correr, saltar, reptar,",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 231,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 952,
+  "totalTokens": 3041,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

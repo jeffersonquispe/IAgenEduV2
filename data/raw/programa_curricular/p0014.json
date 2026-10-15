@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 14,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "III. ORIENTACIONES PARA PLANIFICAR EL PROCESO DE ENSEÑANZA, APRENDIZAJE Y EVALUACIÓN FORMATIVA\n\n3.1 ¿Qué entendemos por planificar el proceso de enseñanza y aprendizaje, y por su relación con la evaluación formativa?\n\nPlanificar es el arte de imaginar y diseñar procesos para que los estudiantes aprendan. Parte por determinar claramente el propósito del aprendizaje (competencias y enfoques transversales). En este proceso es importante considerar las aptitudes, las necesidades, los intereses, las experiencias, los contextos, entre otros factores, de estudiantes, así como prever, organizar, reflexionar y decidir sobre: recursos y materiales, procesos pedagógicos y didácticos, interacciones, estrategias diferenciadas, clima de aula, contextos socioambientales, entre otros que hagan posible el proceso de enseñanza, aprendizaje y evaluación para alcanzar dicho propósito.\n\nEvaluar es un proceso sistemático en el que se recoge y valora información relevante acerca del nivel de desarrollo de las competencias en cada estudiante, con el fin de mejorar oportunamente su aprendizaje o mejorar los procesos de enseñanza. En este sentido, la planificación es flexible, porque se trata de una hipótesis de trabajo que puede considerar situaciones previstas o emergentes. No debe ser rígida, sino que debe posibilitar los cambios que se requieran. Puede entrar en revisión y modificación cada vez que sea necesario en función de la evaluación que se haga del proceso de enseñanza y aprendizaje, con la finalidad de que sea más pertinente y eficaz al propósito de aprendizaje establecido. Es por eso que se dice que la planificación y la evaluación son caras de una misma moneda.\n\nPlanificar y evaluar son procesos estrechamente relacionados y se desarrollan de manera intrínseca al proceso de enseñanza y aprendizaje. Esto se puede apreciar, por ejemplo, cuando se definen los propósitos de aprendizaje con base en las necesidades de aprendizaje diagnosticadas del grupo de estudiantes con el que se va a trabajar; o cuando estudiantes y docentes se involucran en la identificación de avances y dificultades del proceso de enseñanza y aprendizaje con el fin de retroalimentar y reorientar este proceso para alcanzar los propósitos planteados.\n\nDesde esta perspectiva, el proceso de planificación debe ser reflexivo, flexible y centrado en los propósitos de aprendizaje que deben desarrollar los estudiantes. Para ello, se debe generar y usar, desde el inicio y en todo momento, información para tomar decisiones oportunas y pertinentes que permitan atender las necesidades de aprendizaje de los estudiantes y ayudarlos a progresar. Así, la evaluación se considera como un proceso previo, permanente y al servicio del aprendizaje y no solo debe ser vista al final para certificar qué sabe un estudiante.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 14,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 884,
+  "totalTokens": 2973,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 255,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Instituto Latinoamericano de la comunidad educativa ILCE. (s/f). Las habilidades científicas. Recuperado de http://bibliotecadigital.ilce.edu.mx/libros/texto/cn6/u04t07.html.\n\nJiménez, M. (2010). 10 ideas clave. Competencias en argumentación y uso de pruebas. Barcelona, España: Graó.\n\nJiménez, M. y otros (2007). Enseñar ciencias. Barcelona, España: Graó.\n\nLópez Cubano, R. (2001). El área de tecnología en secundaria. Recuperado de http://books.google.com.pe/books?id=aRadEU1ArpAC&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false\n\nMaguregi, M. (2010). La toma de decisiones en la educación ambiental. Un estudio de casos en la enseñanza universitaria. (Tesis doctoral). Universidad del País Vasco.\n\nMinner, D., Levy, A. & Century, J. (2009). Inquiry- Based Science Instruction- What is it and does it matter? Results from a research synthesis years 1984 to 2002. Journal of Research in Science Teaching. Recuperado de https://www.ntnu.no/wiki/download/attachments/824914/JRST-inquiry-based+science+instruction+-+what+is+it+and+does+it+matter-+Results+from+a+research+synthesis+years+1984+to+2002.pdf\n\nNational Research Council (2000). Inquiry and the National Science Education Standards. A Guide for Teaching and Learning. Washington D. C., EEUU: National Academy Press.\n\nNational Science Digital Library-NSDL. (2007). NSDL Science literacy maps. Recuperado de http://strandmaps.nsdl.org/\n\nOrganización del Bachillerato Internacional (2007). Programa del Diploma. Guía de Física. Organization for Economic Cooperation and Development-OECD.\n\nPedrinaci, E. y otros (2012). 11 ideas claves. El desarrollo de la competencia científica. Barcelona, España: Graó.\n\nPerkins, D. (1995). La escuela inteligente: del adiestramiento de la memoria a la educación de la mente. Barcelona, España: Gedisa.\n\nProgramme for International Student Assessment – PISA (2015) Draft science framework. Recuperado de:https://www.oecd.org/pisa/pisaproducts/Draft%20PISA%202015%20Science%20Framework%20.pdf\n\nRodríguez Acevedo, G. (1998). Ciencia, Tecnología y Sociedad: una mirada desde la educación en tecnología. Revista Iberoamericana de Educación, 18. Recuperado de http://www.rieoei.org/oeivirt/rie18a05.pdf\n\nSánchez, H., y Reyes, C. (2006). Metodología y diseños en la investigación científica. Lima, Perú: Editorial Visión Universitaria.\n\nSoto Sarmiento, A. (2008). Educación en tecnología: un reto y una exigencia social. Recuperado de http://books.google.com.pe/books?id=DT7mKhANCWMC&printsec=frontcover&dq=educacion+en+tecnologia&hl=es&sa=X&ei=LNTkU7vmHqnMsQSwilK4DA&ved=0CB4Q6AEwAQ#v=onepage&q=educacion%20en%20tecnologia&f=false\n\nStone, M. (1999). La enseñanza para la comprensión: vinculación entre la investigación y la práctica. Buenos Aires, Argentina: Paidós.\n\nTamayo, O. (2011). La argumentación como constituyente del pensamiento crítico en niños. Recuperado de http://revistas.usantotomas.edu.co/index.php/hallazgos/article/view/738\n\nVázquez, A. y Alarcón, M. (2010). Didáctica de la tecnología. Madrid, España: Síntesis.\n\nEducación para el Trabajo\n\nArellano, M. y otros (2012). (EM)PRENDE en red: Material didáctico para el desarrollo del espíritu emprendedor. Chile: Fundación Chile.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 255,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1282,
+  "totalTokens": 3371,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

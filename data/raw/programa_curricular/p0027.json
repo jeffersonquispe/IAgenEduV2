@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 27,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "V. ESPACIOS EDUCATIVOS, MATERIALES Y ROL DEL ADULTO EN EL NIVEL DE EDUCACIÓN SECUNDARIA\n\nLa organización de los espacios educativos, el uso adecuado y pertinente de los materiales y recursos educativos, así como el rol docente, brindan entornos e interacciones que permiten tener un clima favorable para el aprendizaje. Estas son condiciones clave que favorecen y garantizan el desarrollo del potencial de los estudiantes. A continuación brindamos algunas recomendaciones:\n\n5.1 Sobre los espacios educativos\n\nLos espacios educativos deben organizarse de manera que:\n\n- Facilite la libre interacción de los estudiantes, así como la posibilidad de realizar actividades individuales y colaborativas, de forma cómoda y segura.\n- El docente pueda tener un registro amplio de lo que sucede en el espacio, permitiéndole acompañar las actividades que realizan los estudiantes.\n- Sean seguros para evitar accidentes y resguardar la salud, protegiendo elementos u objetos que puedan generar peligro (enchufes, escaleras, armarios u otros elementos que no estén bien asegurados).\n- Estén acorde a las diferentes edades y características de los estudiantes. Por ejemplo, tener mobiliario acorde al tamaño de los estudiantes, espacios para la socialización, entre otros.\n- Estén iluminados y ventilados naturalmente, que se puedan abrir y cerrar las ventanas y/o puertas, y evitar cubrirlas con carteles u otros objetos que impidan el paso de la luz y el aire.\n- Permanezcan limpios y bien mantenidos para garantizar un espacio acogedor y saludable. Esto significa que las superficies con las que se tenga contacto directo, estén libres de polvo, residuos de comida u otros que contaminen el espacio.\n- Cuenten con superficies para organizar los materiales, trabajos, carteles u otros que contribuyan al propósito de aprendizaje. Evitar recargar las paredes con colores llamativos, imágenes u otros que no contribuyan a mantener la armonía y la calma en los espacios.\n- Promuevan el sentido de pertenencia al incentivar la personalización de los espacios con las producciones de los estudiantes.\n\n5.2 Sobre los materiales y recursos educativos\n\n- Éstos deben ser diseñados y/o seleccionados teniendo en cuenta las características madurativas de los estudiantes, sus necesidades y estilos de aprendizaje. Deben responder a su contexto, promover la diversidad cultural, así como la ecoeficiencia en la cual se refuerza la aplicación de las 3R. No ser tóxicos, permanecer limpios y almacenados en adecuadas condiciones higiénicas que les permitan conservarse en buen estado.\n- Ser de fácil manipulación para favorecer la exploración y el aprendizaje.\n- Ser variados –materiales estructurados y no estructurados–, de manera que ofrezcan diversas posibilidades de uso a los estudiantes.\n- Estar organizados y ubicados al alcance de los estudiantes, de modo que puedan usarlos con autonomía, transportarlos, sacarlos y guardarlos con facilidad.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 27,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 970,
+  "totalTokens": 3059,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

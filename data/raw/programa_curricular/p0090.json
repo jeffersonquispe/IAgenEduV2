@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 90,
+ "tipo": "narrativa",
+ "area": "Comunicación",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.5. Área de Comunicación\n\nEl área de Comunicación tiene por finalidad que los estudiantes desarrollen competencias comunicativas para interactuar con otras personas, comprender y construir la realidad, y representar el mundo de forma real o imaginaria. Este desarrollo se da mediante el uso del lenguaje, una herramienta fundamental para la formación de las personas pues permite tomar conciencia de nosotros mismos al organizar y dar sentido a nuestras vivencias y saberes. Los aprendizajes que propicia el área de Comunicación contribuyen a comprender el mundo contemporáneo, tomar decisiones y actuar éticamente en diferentes ámbitos de la vida.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. A través del enfoque comunicativo, el área de Comunicación promueve y facilita que los estudiantes desarrollen las siguientes competencias:\n\n• Se comunica oralmente en su lengua materna.\n\n• Lee diversos tipos de textos escritos en lengua materna.\n\n• Escribe diversos tipos de textos en lengua materna.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 90,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 394,
+  "totalTokens": 2616,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

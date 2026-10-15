@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 250,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Gómez, J. R. (2007). La Educación Física en el patio. Una nueva mirada. Buenos Aires: Stadium.\n\nGrasso, A. (2005). Construyendo Identidad Corporal. Buenos Aires: Centro de publicaciones educativas y material didáctico.\n\nGrasso, A. (2009). La Educación Física cambia. Buenos Aires: Centro de publicaciones educativas y material didáctico.\n\nHurtado, D. (2008). Corporeidad y motricidad. Una forma de mirar los saberes del cuerpo. Educ. Soc., Campinas, 29(102), 119-133.\n\nKlein, G. (2004). La calidad de la Educación Física en Europa: tres desafíos para el futuro. Revista de Educación Física y Deporte, 307, 7-10.\n\nLagardera, F. (2003). Introducción a la proxiología motriz. Barcelona: Paidotribo.\n\nLavega, P. (2000). Juegos y deportes populares tradicionales. Barcelona: Inde.\n\nLe Betron, D. (2002). Antropología del cuerpo y Modernidad. Buenos Aires: Nueva Visión.\n\nLe Boulch, J. (1992). La educación por el movimiento en la edad escolar. México D.F.: Paidós Ibérica.\n\nMonereo, C., & Pozo, J. I. (2001). Competencias para sobrevivir en el siglo XXI. Cuadernos de pedagogía 298, pp. 50-55.\n\nMoreno, C. (1992). Juegos y deportes tradicionales en España. Madrid: Alianza Editorial.\n\nParlebas, P. (2001). Juegos, deportes y sociedad. Léxico de Praxiología motriz. Barcelona: Paidotribo.\n\nParlebas, P. (2003). Elementos de sociología del deporte. Málaga: Unisport.\n\nSlade, P. (Jun, 1994). What is body image? Behaviour Research and Therapy, 32(5), 497-502.\n\nTrigo, A. E. (1999). Creatividad y Motricidad. Barcelona: Inde.\n\nWallon, H. (1979). Los orígenes del carácter del niño. Buenos Aires: Nueva Visión.\n\nZapatero, J., González, M., & Campos, A. (2013). La evaluación por competencia en educación física: modelos e instrumentos de evaluación utilizados por el profesorado. Ágora para la educación física y el deporte, 3(15), 180-196.\n\nArte y Cultura\n\nAguirre, I. (2005). Teorías y prácticas en educación artística. Ideas para una revisión pragmática de la experiencia estética. Barcelona, España: Ediciones Octaedro/EUB-Universidad Pública de Navarra.\n\nAUSVELS (s/f). Victorian Curriculum and Assessment Authority. Standards and progression point examples. The Arts. Recuperado de http://ausvels.vcaa.vic.edu.au/\n\nEisner, E. (2002). The Arts and the Creation of Mind. New Haven, EEUU: Yale University Press.\n\nGardner, H. (1993). Estructuras de la mente. La teoría de las inteligencias múltiples. Bogotá, Colombia: Fondo de Cultura Económica.\n\nHernández, F. (2000). Educación y cultura visual. Barcelona, España: Ediciones Octaedro.\n\nMinisterio de Educación del Perú (2003). Ley 28044. Ley General de Educación. Recuperado de http://www.minedu.gob.pe/p/ley_general_de_educacion_28044.pdf/\n\nMinisterio de Educación del Perú (2014). Aprendizaje Fundamental Interactúa con el Arte. Segunda Versión para el diálogo. Recuperado de http://curriculoperu.blogspot.com/2014/10/propuesta-de-aprendizaje-fundamental_31.html\n\nMinistry of Education (2000). The Arts in the New Zealand Curriculum. Recuperado de www.learningmedia.co.nz",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 250,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1236,
+  "totalTokens": 3325,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

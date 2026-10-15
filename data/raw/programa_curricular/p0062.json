@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 62,
+ "tipo": "narrativa",
+ "area": "Educación Física",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.3.1. Enfoque que sustenta el desarrollo de las competencias en el área de Educación Física\n\nEl área se sustenta en el enfoque de la corporeidad, que entiende al cuerpo en construcción de su ser más allá de su realidad biológica porque implica hacer, pensar, sentir, saber, comunicar y querer. Se refiere a la valoración de la condición del estudiante para moverse de forma intencionada, guiado por sus necesidades e intereses particulares, y tomando en cuenta sus posibilidades de acción en la interacción permanente con su entorno. Es un proceso dinámico y que se desarrolla a lo largo de la vida a partir del hacer autónomo de los estudiantes, y se manifiesta en la modificación o reafirmación progresiva de su imagen corporal, la cual se integra con otros elementos de su personalidad en la construcción de su identidad personal y social.\n\nEl área pone énfasis, además, en la adquisición de aprendizajes relacionados con la generación de hábitos de vida saludables y de consumo responsable, no solo en la práctica de actividad física, sino también en el desarrollo de una conciencia sociocrítica hacia el cuidado de la salud que empieza desde la valoración de la calidad de vida. Es decir, estos aprendizajes implican un conjunto de conocimientos relacionados con el cuidado de la salud y el bienestar personal, los cuales permitirán llevar a la práctica dichos aprendizajes. Otro eje central es la relación que establecen los estudiantes en interacción con otros, a través de la práctica de actividad física y a partir de los roles asumidos y adjudicados en diferentes contextos. El niño, la niña y el adolescente interactúan ejercitando su práctica social; establecen normas de convivencia; incorporan reglas, pautas de conducta, acuerdos y consensos; y asumen actitudes frente a los desafíos que se les presentan, ya sean sociales, ambientales, emocionales, personales, interpersonales o corporales.\n\nAdemás, el área utiliza conocimientos acordes y relacionados con ciencias aplicadas a la educación, que desarrollan no solo las capacidades físicas en nuestros estudiantes, sino, también, la identidad, la autoestima, el pensamiento crítico y creativo, la toma de decisiones, y la resolución de problemas en contextos de la actividad física y de la vida cotidiana. Es decir, se busca contribuir al proceso de formación y desarrollo humano de los estudiantes para su bienestar y el de su entorno.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 62,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 766,
+  "totalTokens": 2855,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

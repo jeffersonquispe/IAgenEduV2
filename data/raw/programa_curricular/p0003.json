@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 3,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "VI. ÁREAS CURRICULARES\n\n6.1 Área de Desarrollo Personal, Ciudadanía y Cívica\n\n6.2 Área de Ciencias Sociales\n\n6.3 Área de Educación Física\n\n6.4 Área de Arte y Cultura\n\n6.5 Área de Comunicación\n\n6.6 Área de Castellano como Segunda Lengua\n\n6.7 Área de Inglés como Lengua Extranjera\n\n6.8 Área de Matemática\n\n6.9 Área de Ciencia y Tecnología\n\n6.10 Área de Educación para el Trabajo\n\n6.11 Área de Educación Religiosa\n\n\nVII. COMPETENCIAS TRANSVERSALES\n\n7.1 Se desenvuelve en los entornos virtuales generados por las TIC\n\n7.2 Gestiona su aprendizaje de manera autónoma\n\n\nGLOSARIO\n\nBIBLIOGRAFÍA CONSULTADA",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 3,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 407,
+  "totalTokens": 2496,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

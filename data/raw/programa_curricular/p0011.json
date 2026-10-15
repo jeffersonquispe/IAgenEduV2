@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 11,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "2.1 ¿Cómo se abordan los enfoques transversales en la vida escolar?\n\nLos enfoques transversales se abordan tanto desde situaciones no planificadas o emergentes como desde situaciones planificadas o previstas y desde la organización de los espacios educativos. En estas situaciones, se movilizan algunas competencias y valores de los estudiantes para atender problemas, necesidades o intereses.\n\na. Las situaciones no planificadas o emergentes:\n\nSon aquellas que surgen en el día a día en la convivencia dentro de la institución educativa o fuera de ella, y pueden ocurrir en cualquier momento de la vida escolar. Abordar estas situaciones implica promover un análisis y una reflexión individual o colectiva que permita afianzar los valores y las actitudes. Estas situaciones pueden ocurrir, por ejemplo, entre dos estudiantes, entre grupos de estudiantes, entre un docente y sus estudiantes, entre el personal administrativo y los padres de familia, etc.\n\nAsí planteadas, estas situaciones proponen desafíos o demandas que podrían ser abordados en el momento en que se producen o requerir información adicional para su tratamiento.\n\nA continuación, se presentan algunas consideraciones que deberían tener en cuenta los miembros de la institución educativa al abordar estas situaciones emergentes:\n\n• Estar atento a las situaciones que emergen en el día a día: en esos momentos, se ponen de manifiesto los valores y las actitudes relacionados con los enfoques transversales.\n• Considerar las situaciones emergentes: todas pueden ser una oportunidad para aprender.\n• Valorar a todos los estudiantes tratándolos con dignidad y respeto, y dándoles la oportunidad de expresar su punto de vista o su versión de los hechos.\n• Ser empático con los estudiantes, buscar entender sus sentimientos y responder apropiadamente a ellos.\n• Dialogar y reflexionar sobre lo ocurrido, sobre los valores y actitudes puestos en juego, de qué otra manera se debió actuar, cuáles son las consecuencias de lo ocurrido, cuáles son los acuerdos para resolverlos, entre otros.\n• Ser personas genuinas, consciente de sí misma y capaz de comportarse de acuerdo con los valores y actitudes que se promueven en las instituciones educativas. Sobre todo en el momento en que reconocemos que hemos cometido un error o un exceso como docentes. Rectificarse y reflexionar sobre el hecho es un testimonio de integridad.\n\nEl abordaje de los dilemas morales y conflictos emergentes es de gran importancia en el plano de los enfoques transversales. En estos casos, se recomienda lo siguiente:\n\n• El docente debe suspender su juicio en un primer momento y generar condiciones de soporte para las personas afectadas o vulneradas sin tener que esperar a resolver dicho problema.\n• Para tomar decisiones, el docente debe establecer previamente condiciones para un diálogo entre los actores educativos pertinentes (estudiantes, padres de familia o comunidad), en coherencia con los valores propuestos en los enfoques transversales.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 11,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 920,
+  "totalTokens": 3009,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

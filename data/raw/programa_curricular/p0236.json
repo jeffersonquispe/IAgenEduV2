@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 236,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "o múltiple si incluye dos textos provenientes de dos fuentes o autores diferentes que se enmarcan en una misma situación comunicativa. El soporte es el medio en el que se presentan los textos; puede ser físico (papel, cartón, tabla, mantos) o virtual-digital.\n\nGénero discursivo\nEs cada forma diversa que puede adoptar un texto, como el cuento, el debate, la infografía, entre otras. Estas formas presentan un conjunto de rasgos característicos relativamente estables; por ejemplo, el género cuento suele estar compuesto de un inicio, nudo y desenlace. Las personas utilizan las características de los géneros discursivos como elementos compartidos entre lectores y escritores, lo que contribuye a la comunicación. Estas características también permiten subdividir y clasificar los textos, por ejemplo, cuento fantástico, cuento policial, debate político, debate académico, etc.\n\nHipótesis de escritura\nSon ideas o conceptualizaciones para construir el sistema de escritura en un proceso de asimilación y acomodación constructivista. Estas hipótesis han sido descritas por el enfoque psicogenético de la escritura sostenido por Emilia Ferreiro. Por ejemplo, hipótesis de cantidad: no se puede leer algo si no hay un mínimo de cantidad de letras (por lo menos tres).\n\nIdeología\nEs un sistema de ideas, creencias y valores que permiten la comprensión de la realidad y que interviene en la lectura, la escritura y la comunicación oral.\n\nInformación ambigua\nUn texto contiene información ambigua cuando su autor –de manera involuntaria o voluntaria– no utiliza los elementos necesarios para resguardar el sentido del texto (por ejemplo, al prescindir de conectores). Ello problematiza la labor de interpretación del lector, quien puede realizar diversas interpretaciones sobre un mismo hecho, lugar, estado.\n\nInformación contrapuesta\nSe refiere a las informaciones opuestas o contrarias sobre un mismo tema, presentes en uno o más textos. Por ejemplo, dos textos pueden referirse a un mismo tema –como los transgénicos– y mantener posiciones contrarias, a favor o en contra de este.\n\nInformación poco evidente\nEs aquella información explícita que se ubica al interior del texto; es decir, no se encuentra al inicio del texto ni al inicio de los párrafos.\n\nInformación relevante y complementaria\nLa información relevante es aquella que resulta imprescindible para la comprensión del texto; la complementaria, por su parte, precisa, amplía o explica la idea o ideas principales a lo largo del texto.\n\nModos de cortesía\nEs el conjunto de mecanismos verbales, no verbales y paraverbales utilizados para regular el comportamiento de los interlocutores en la conversación y así establecer una relación basada en la cordialidad y la cooperación mutua. Pueden variar según las distintas culturas, por lo que suelen depender del contexto.\n\nNiveles de sentido\nSe refiere a la capacidad de algunos textos de presentar diversos significados o niveles de significación. Por ejemplo, una primera lectura de La metamorfosis de Franz Kafka revela la",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 236,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 916,
+  "totalTokens": 3005,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

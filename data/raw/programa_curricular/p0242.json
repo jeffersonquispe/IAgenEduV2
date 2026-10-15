@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 242,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Explorar\nConsiste en averiguar o examinar con detenimiento un lugar o una cosa para conocerlo o descubrir lo que se halla en él.\n\nFundamentar\nEs dar razones para justificar una proposición, una decisión o una acción. Estas razones plantean una relación de causa-efecto.\n\nHerramientas\nSon objetos elaborados para facilitar la realización de una tarea cualquiera que requiera la aplicación de una fuerza física. Las herramientas manuales usan la fuerza muscular humana (palanca, pinza, martillo) y las herramientas mecánicas usan otras fuentes de energía, como la eléctrica.\n\nInstrumentos\nEs el conjunto de aparatos o dispositivos específicamente diseñados y construidos para ayudar en la búsqueda y recolección de datos que tengan un grado de exactitud y precisión.\n\nMétodos científicos\nEs el conjunto de procedimientos usados durante la indagación que permiten construir el conocimiento. En los métodos científicos, están presentes la observación, el pensamiento lógico, la imaginación, la búsqueda de evidencias, el análisis y la socialización del conocimiento producido.\n\nMundo físico\nEs el espacio que comprende aspectos relacionados con lo natural (elementos que brinda la naturaleza sin intervención del ser humano) y con lo artificial (resultado de la acción del ser humano).\n\nPrecisión\nEs la variación que se tiene como resultado de diferentes medidas utilizando las mismas condiciones y se expresa numéricamente mediante medidas de dispersión. Describe la concordancia entre los resultados de todas las medidas realizadas. No necesariamente se relaciona con el valor real o verdadero.\n\nSolución tecnológica\nEs la respuesta que pone en juego los recursos disponibles y que cumple con los requerimientos establecidos para alcanzar la mayor eficiencia al responder a un problema tecnológico.\n\nTecnología\nEs el conjunto de técnicas fundamentadas científicamente que buscan transformar la realidad para satisfacer necesidades en un contexto específico.\n\nEducación para el Trabajo\n\nCapacidad de agencia\nEs la capacidad de la persona de reconocerse y ejercer acciones transformativas en un contexto. La capacidad de agencia le permite al ciudadano enfrentarse exitosamente a las distintas formas de desigualdad, exclusión social y pobreza. Asimismo, le permite participar efectivamente en las elecciones y decisiones políticas que gobiernan su propia vida; intervenir, junto con sus conciudadanos, en las decisiones acerca del qué, cómo y para quién se produce;",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 242,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 793,
+  "totalTokens": 2882,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 22,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "IV. TUTORÍA Y ORIENTACIÓN EDUCATIVA EN EL NIVEL DE EDUCACIÓN SECUNDARIA\n\nEn el nivel de Educación Secundaria, se desarrolla la tutoría de manera permanente y planificada, garantizando el acompañamiento socioafectivo de los adolescentes a lo largo del año escolar. Este acompañamiento se define como la interacción entre el docente y el estudiante, la que se sustenta en la construcción de un vínculo afectivo.\n\nA través de este acompañamiento, el docente busca el bienestar de los estudiantes orientándolos a la toma de decisiones autónomas, a la construcción de su proyecto de vida, al desarrollo de competencias socioafectivas y cognitivas, entre otros.\n\nEs importante destacar que, durante la secundaria, los adolescentes se encuentran en un proceso de cambios físicos, psicológicos y sociales. Esta etapa está llena de posibilidades, retos y sueños, pero también de situaciones de riesgo (bullying, abuso sexual, embarazo adolescente, consumo de drogas, etc.) que pueden afectar su bienestar. Por ello, es necesario que el adolescente encuentre en la escuela una figura adulta que le brinde seguridad y afecto, y lo oriente en los diferentes aspectos de su vida.\n\n4.1 ¿Cómo se relaciona la Tutoría y Orientación Educativa con los enfoques transversales?\n\nLos enfoques transversales se traducen en formas específicas de actuar, las cuales, en tanto se consideren valiosas y deseables para todos, constituyen valores y actitudes que tanto estudiantes como maestros y autoridades deben esforzarse por demostrar en la dinámica diaria de la escuela.\n\nEn el gráfico anterior, puede observarse cómo los enfoques transversales se impregnan en las competencias que se busca que desarrollen los estudiantes, orientan en todo momento el trabajo del tutor en el aula e imprimen características a los diversos procesos pedagógicos.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 22,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 633,
+  "totalTokens": 2722,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

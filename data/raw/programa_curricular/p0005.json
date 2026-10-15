@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 5,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "PERFIL DE EGRESO DE LA EDUCACIÓN BÁSICA\n\nEl Currículo Nacional plantea el Perfil de Egreso¹ como la visión común e integral de los aprendizajes que deben lograr los estudiantes al término de la Educación Básica. Esta visión permite unificar criterios y establecer una ruta hacia resultados comunes que respeten nuestra diversidad social, cultural, biológica y geográfica. Se espera que desde el inicio de la escolaridad y de manera progresiva a lo largo de la Educación Básica se desarrollen y pongan en práctica los aprendizajes del perfil, en diversas situaciones vinculadas a las prácticas sociales.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 5,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 282,
+  "totalTokens": 2371,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,35 @@
+{
+ "numero_pagina_impreso": 197,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "GESTIONA PROYECTOS DE EMPRENDIMIENTO ECONÓMICO O SOCIAL",
+ "ciclo": null,
+ "capacidades": [
+  "Crea propuestas de valor: genera alternativas de solución creativas e innovadoras a través de un bien o servicio que resuelva una necesidad no satisfecha o un problema social que investiga en su entorno; evalúa la pertinencia de sus alternativas de solución validando sus ideas con las personas que busca beneficiar o impactar, y la viabilidad de las alternativas de solución en base a criterios para seleccionar una de ellas y diseña una estrategia que le permita poner en marcha su idea definiendo objetivos y metas y dimensionando los recursos y tareas.",
+  "Aplica habilidades técnicas: es operar herramientas, máquinas o programas de software, y desarrollar métodos y estrategias para ejecutar los procesos de producción de un bien o la prestación de un servicio aplicando principios técnicos; implica seleccionar o combinar aquellas herramientas, métodos o técnicas en función de requerimientos específicos aplicando criterios de calidad y eficiencia.",
+  "Trabaja cooperativamente para lograr objetivos y metas: es integrar esfuerzos individuales para el logro de un objetivo en común, organizar el trabajo en equipo en función de las habilidades diferentes que puede aportar cada miembro, asumir con responsabilidad su rol y las tareas que implica desempeñándose con eficacia y eficiencia. Es también reflexionar sobre su experiencia de trabajo y la de los miembros del equipo para generar un clima favorable, mostrando tolerancia a la frustración, aceptando distintos puntos de vista y consensuando ideas.",
+  "Evalúa los resultados del proyecto de emprendimiento: es determinar en qué medida los resultados parciales o finales generaron los cambios esperados en la atención del problema o necesidad identificada; emplea la información para tomar decisiones e incorporar mejoras al diseño del proyecto. Es además analizar los posibles impactos en el ambiente y la sociedad, y formular estrategias que permitan la sostenibilidad del proyecto en el tiempo."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.10.2. Competencia, capacidades, estándares de aprendizaje y sus desempeños por grado\n\nCompetencia GESTIONA PROYECTOS DE EMPRENDIMIENTO ECONÓMICO O SOCIAL. Es cuando el estudiante lleva a la acción una idea creativa movilizando con eficiencia y eficacia los recursos y acciones necesarias para alcanzar objetivos y metas individuales o colectivas en atención de resolver una necesidad no satisfecha o un problema económico o social.\n\nComprende que el estudiante trabaje cooperativamente para crear una alternativa de solución a una necesidad o problema de su entorno a través de una propuesta de valor de bien o servicio, valide sus ideas con posibles usuarios y seleccione, en función de la pertinencia y viabilidad, una de ellas ; diseñe la estrategia que le permita implementar su alternativa de solución definiendo los recursos y tareas necesarios, aplique habilidades técnicas para producir o prestar el bien o servicio ideado y evalúe los procesos y resultados con el fin de tomar decisiones para mejorar o innovar. Durante estos procesos actúa permanentemente con ética, iniciativa, adaptabilidad y perseverancia.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 197,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 961,
+  "totalTokens": 3183,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

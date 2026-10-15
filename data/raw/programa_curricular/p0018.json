@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 18,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "lo cual se toman como referencia los estándares de aprendizaje o desempeños de grado, con la finalidad de determinar cuán cerca o lejos se encuentran los estudiantes de ellos.\n\n• A inicio de año, las evidencias disponibles pueden ser el reporte de los informes de progreso del año anterior o la información que pueda ofrecer el docente que estuvo a cargo de los estudiantes.\n\n• Cada unidad didáctica genera evidencia de aprendizaje que sirve como diagnóstico para la siguiente.\n\n• Obtener la evidencia de aprendizaje a través de diversas técnicas e instrumentos, como observación directa o indirecta, anecdotarios, entrevistas, pruebas escritas, portafolios, experimentos, debates, exposiciones, entre otros.\n\nA continuación, se presenta una evidencia de aprendizaje de un estudiante de segundo de secundaria como producto de leer dos ensayos: \"¿Qué es Mistura?\", publicado en el blog Mistura Apega-2011, y \"Mistura: el poder de la cocina\", un fragmento del discurso inaugural de Gastón Acurio para la feria gastronómica Mistura. Esta evidencia viene acompañada de un comentario que interpreta lo que es capaz de hacer el estudiante:\n\n1. ¿Qué relación tiene la gastronomía peruana y su feria Mistura con los conceptos de colonización emocional e independencia emocional de la sociedad peruana?\n\n[Respuesta manuscrita del estudiante]\n\nEl estudiante interpreta el texto a partir de la relación entre los conceptos de colonización e independencia emocional con el tema principal del texto: la gastronomía peruana. Esto lo conduce a afirmar que la gastronomía peruana nos ha permitido tener una independencia emocional, es decir, una enseña a valorar lo nuestro, a creer que sí podemos, [lo que ha permitido la desaparición del] sentimiento de inferioridad (colonización emocional). Así mismo, enlaza las ideas anteriores con el significado de la feria Mistura; fiesta para celebrar nuestra comida, para valorar nuestra cultura y [para celebrar] la independencia emocional. Además, apoya su fundamentación al integrar información complementaria del texto y su conocimiento previo: con tantos logros y reconocimientos que ha tenido [la feria]; ha podido unirse para ogredecer y celebrar a la gastronomía que nos ha abierto los ojos y nos enseñó a valorarnos y que tenemos las mismas posibilidades (o más) que cualquier persona, para poder triunfar.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 18,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 784,
+  "totalTokens": 2873,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

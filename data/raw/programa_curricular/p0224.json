@@ -1,0 +1,75 @@
+{
+ "numero_pagina_impreso": 224,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": "VI",
+ "capacidades": [
+  "Define metas de aprendizaje.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje."
+ ],
+ "descripcion_nivel": "Gestiona su aprendizaje de manera autónoma al darse cuenta lo que debe aprender al distinguir lo sencillo o complejo de una tarea, y por ende define metas personales respaldándose en sus potencialidades. Comprende que debe organizarse lo más específicamente posible y que lo planteado incluya las mejores estrategias, procedimientos, recursos que le permitan realizar una tarea basado en sus experiencias. Monitorea de manera permanente sus avances respecto a las metas de aprendizaje y evalúa el proceso, resultados, aportes de sus pares, su disposición a los cambios y ajustes de las tareas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Determina metas de aprendizaje viables asociadas a sus conocimientos, estilos de aprendizaje, habilidades y actitudes para el logro de la tarea, formulándose preguntas de manera reflexiva."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Organiza un conjunto de estrategias y procedimientos en función del tiempo y de los recursos de que dispone para lograr las metas de aprendizaje de acuerdo con sus posibilidades."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Revisa la aplicación de estrategias, procedimientos, recursos y aportes de sus pares para realizar ajustes o cambios en sus acciones que permitan llegar a los resultados esperados."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica las acciones realizadas y los recursos movilizados en función de su pertinencia al logro de las metas de aprendizaje."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Determina metas de aprendizaje viables asociadas a sus potencialidades, conocimientos, estilos de aprendizaje, habilidades, limitaciones personales y actitudes para el logro de la tarea, formulándose preguntas de manera reflexiva."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Organiza un conjunto de estrategias y acciones en función del tiempo y de los recursos de que dispone, para lo cual establece un orden y una prioridad para alcanzar las metas de aprendizaje."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Revisa los avances de las acciones propuestas, la elección de las estrategias y considera la opinión de sus pares para llegar a los resultados esperados."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica los resultados obtenidos de acuerdo con sus posibilidades y en función de su pertinencia para el logro de las metas de aprendizaje."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 224,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1110,
+  "totalTokens": 3332,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

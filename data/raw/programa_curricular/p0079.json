@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 79,
+ "tipo": "narrativa",
+ "area": "Arte y Cultura",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.4.1. Enfoque que sustenta el desarrollo de las competencias en el área de Arte y Cultura\n\nEn esta área, el marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde a un enfoque multicultural e interdisciplinario que reconoce las características sociales y culturales de la producción artística. Reconoce que todas las personas tienen un potencial creativo que deben desarrollar plenamente, y busca reafirmar el derecho de todo estudiante a participar en la vida artística y cultural de su país (Unesco, 2006), como herramienta de identidad personal y territorial.\n\nDefinimos como manifestaciones artístico-culturales a todas las prácticas que responden a las necesidades y expresiones estéticas de una sociedad. En este enfoque, cualquier manifestación, incluyendo aquella generada o difundida en un espacio popular o virtual, puede ser materia de estudio en la escuela y es valorada por su propia existencia y por la experiencia estética que supone.\n\nEste enfoque ha dado origen a experiencias curriculares más inclusivas y cercanas a la realidad multicultural que caracteriza a nuestro país, donde se revaloran manifestaciones artístico-culturales de la localidad. De esta forma, el estudiante conoce y se sensibiliza con el mundo a partir de su realidad cercana pero en relación con el mundo global. Incorpora manifestaciones artístico-culturales indígenas, urbanas, rurales, migrantes o juveniles, entre otras, y la transmisión de sus saberes en la enseñanza. Desarrolla actitudes de autoconocimiento, apertura y reconocimiento de nuestros propios códigos culturales y de los códigos culturales de otros, lo cual refuerza las identidades y los valores personales y colectivos, y, consecuentemente, el diálogo intercultural que nos permitirá una mejor convivencia. Asimismo, busca apoyar en la salvaguarda del patrimonio material e inmaterial de las culturas que se pueden estar perdiendo porque no se valoran en el sistema educativo. Estas ideas son especialmente relevantes en el contexto de los países latinoamericanos que se han encontrado atados al discurso hegemónico de las grandes potencias occidentales.\n\nA su vez, promueve la construcción de discursos propios o colectivos que se comunican a través de los diferentes modos de creación artística —entre ellos, la danza, el teatro, la música, la literatura, la poesía, la narración oral, la artesanía, el patrimonio, las artes visuales, el cine, la fotografía y los medios. Dado que hay modos de creación que no se pueden limitar a un solo lenguaje artístico, el enfoque resalta el carácter interdisciplinario de las artes. Esta perspectiva, conduce, por un lado, a un uso integrado y simultáneo de distintos lenguajes artísticos. Por otro lado, también conduce a la integración del arte con otras disciplinas y saberes para el tratamiento de temáticas o cuestiones locales o globales.\n\nSituar el proceso de enseñanza y aprendizaje en entornos culturales y naturales del estudiante favorece la formación integral de ciudadanos creativos, críticos y participativos del desarrollo local, e incrementa la posibilidad de construir personas con sensibilidad frente a la realidad que las rodea.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 79,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 957,
+  "totalTokens": 3046,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

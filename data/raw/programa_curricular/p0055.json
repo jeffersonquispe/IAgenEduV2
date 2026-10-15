@@ -1,0 +1,60 @@
+{
+ "numero_pagina_impreso": 55,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona responsablemente el espacio y el ambiente",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos naturales y sociales.",
+  "Maneja fuentes de información para comprender el espacio geográfico y el ambiente.",
+  "Genera acciones para conservar el ambiente local y global."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente el espacio y ambiente al proponer alternativas y promover la sostenibilidad del ambiente, la mitigación y adaptación al cambio climático y la prevención de riesgo de desastre, considerando las múltiples dimensiones. Explica las diferentes formas en las que se organiza el espacio geográfico y el ambiente como resultado de las decisiones (acciones o intervención) de los actores sociales. Utiliza fuentes de información y herramientas digitales para representar e interpretar el espacio geográfico y el ambiente.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica las formas de organizar el territorio peruano, y los espacios en África y la Antártida sobre la base de los cambios realizados por los actores sociales y su impacto en las condiciones de vida de la población."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza información y herramientas cartográficas y digitales para representar e interpretar el espacio geográfico y el ambiente."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica el impacto de las problemáticas ambientales, territoriales y de la condición de cambio climático (patrones de consumo de la sociedad, transporte en las grandes ciudades, emanaciones de gases, derrames de petróleo, manejo de cuencas, entre otras) en la calidad de vida de la población y cómo estas problemáticas pueden derivar en un conflicto socioambiental."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Realiza acciones concretas para el aprovechamiento sostenible del ambiente, y para la mitigación y adaptación al cambio climático, basadas en la legislación ambiental vigente en el Perú y el mundo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Propone alternativas de mejora al plan de gestión de riesgos de desastres de escuela y comunidad considerando las dimensiones sociales, económicas, políticas y culturales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 55,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 854,
+  "totalTokens": 3076,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

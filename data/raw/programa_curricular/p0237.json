@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 237,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "historia de un hombre que se convierte en insecto. Pero también puede interpretarse como una representación de las complejas relaciones familiares o de alienación del ser humano en la época moderna.\n\nRecursos cohesivos\nSon palabras o grupos de palabras usadas para relacionar ideas. Estas relaciones pueden ser de adición, de oposición, de distribución, entre otras. Los recursos cohesivos pueden ser distintos tipos de palabras y expresiones, tales como conectores (sin embargo, además, etc.) o referentes (pronombres personales, relativos, etc.).\n\nRecursos no verbales y paraverbales\nSon elementos que contribuyen a construir el sentido de los textos orales. Los recursos no verbales son aquellos que están relacionados con los gestos y movimientos (kinésica), o con la forma en que nos desenvuelemos en el espacio (proxémica). Los recursos paraverbales están relacionados con todo aquello que acompaña a lo verbal y lo regula, como el volumen, la entonación o el ritmo de la voz.\n\nRecursos textuales\nSon elementos utilizados para construir, reforzar o atenuar el sentido del texto. Estos son aceptados de manera convencional por lectores y escritores, e incluyen el uso de paratextos (subrayado, negritas, tipo y tamaño de letra) y de estructuras sintácticas, así como de figuras retóricas o de ciertas fórmulas léxicas como \"Érase una vez\" para iniciar un cuento.\n\nRegistro\nEs el uso del lenguaje determinado por el contexto en el que se produce un texto. El registro puede ser formal o informal según el tema abordado, los interlocutores o el destinatario, y el propósito comunicativo.\n\nSesgo\nSe da cuando en un texto la información se presenta de forma interesada hacia una tendencia o postura marcada.\n\nValidez y efectividad de la información\nLa efectividad se refiere a la cualidad de la información de lograr el propósito planteado o de producir efectos deseados en el público. La validez se refiere a si la información es verdica o tiene lógica. Es posible determinar la validez tomando en cuenta los planteamientos del texto, la experiencia y conocimientos del lector, otros textos o fuentes de información, y el contexto sociocultural del propio texto o del autor.\n\nVocabulario de uso frecuente\nEs un conjunto de palabras cotidianas que el estudiante utiliza oralmente o por escrito como producto de su interacción en el ámbito escolar, familiar y local. Por ende, está vinculado a su variedad dialectal. Por ejemplo, en el norte del país, se utiliza la palabra \"churre\" para referirse a los niños.\n\nVocabulario especializado\nEs el conjunto de términos técnicos propios de una disciplina o una ciencia. Estos aparecen en textos académicos o textos de divulgación científica.\n\nVocabulario preciso\nEs un conjunto de palabras que usa el estudiante para transmitir sus ideas de manera exacta y puntual; es decir, elige la aceptación más adecuada a la situación comunicativa y el tema. Por",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 237,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 922,
+  "totalTokens": 3011,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

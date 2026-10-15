@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 148,
+ "tipo": "narrativa",
+ "area": "Matemática",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.8.1. Enfoque que sustenta el desarrollo de las competencias en el área de Matemática\n\nEn esta área, el marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde al enfoque Centrado en la Resolución de Problemas, el cual tiene las siguientes características:\n\n• La matemática es un producto cultural dinámico, cambiante, en constante desarrollo y reajuste.\n\n• Toda actividad matemática tiene como escenario la resolución de problemas planteados a partir de situaciones, las cuales se conciben como acontecimientos significativos que se dan en diversos contextos. Las situaciones se organizan en cuatro grupos: situaciones de cantidad; situaciones de regularidad, equivalencia y cambio; situaciones de forma, movimiento y localización; y situaciones de gestión de datos e incertidumbre.\n\n• Al plantear y resolver problemas, los estudiantes se enfrentan a retos para los cuales no conocen de antemano las estrategias de solución. Esta situación les demanda desarrollar un proceso de indagación y reflexión social e individual que les permite superar las dificultades u obstáculos que surjan en la búsqueda de la solución. En este proceso, el estudiante construye y reconstruye sus conocimientos al relacionar, y reorganizar ideas y conceptos matemáticos que emergen como solución óptima a los problemas, que irán aumentando en grado de complejidad.\n\n• Los problemas que resuelven los estudiantes pueden ser planteados por ellos mismos o por el docente para promover, así, la creatividad y la interpretación de nuevas y diversas situaciones.\n\n• Las emociones, actitudes y creencias actúan como fuerzas impulsadoras del aprendizaje.\n\n• Los estudiantes aprenden por sí mismos cuando son capaces de autorregular su proceso de aprendizaje y de reflexionar sobre sus aciertos, errores, avances y dificultades, que surgieron durante el proceso de resolución de problemas.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 148,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 618,
+  "totalTokens": 2707,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

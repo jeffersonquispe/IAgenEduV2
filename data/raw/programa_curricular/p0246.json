@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 246,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Eficacia\nEs la capacidad de alcanzar el efecto que se espera o se desea tras la realización de una acción en función de un tiempo determinado.\n\nEficiencia\nSe trata de la capacidad para el uso racional de los medios a fin de alcanzar un objetivo predeterminado (es decir, cumplir un objetivo con los recursos óptimos disponibles y tiempo).\n\nEstrategias de aprendizaje\nSon procedimientos que se aplican de modo intencional y controlado para enfrentar problemas de complejidad creciente, donde la situación es cambiante y hay que tomar decisiones inteligentes para seleccionar los pasos por seguir según la nueva situación del problema.\n\nLa motivación en el proceso de autorregulación del aprendizaje\nSe refiere a la creencia que el estudiante tiene sobre su capacidad de aprender, el valor que le da a la tarea de aprendizaje, el interés que tiene en ella, y los sentimientos de satisfacción o insatisfacción que surgen después de haber concluido la tarea.\n\nPrecisión\nEs la capacidad para distinguir las diferencias en una y otra cosa, previa a una adecuada identificación.\n\nPrioridad\nEs la ventaja o preferencia que una persona o cosa tiene sobre otra, en función de un criterio o situación determinada.\n\nProcedimiento\nEs el conjunto de acciones ordenadas que se orientan a la consecución de una meta. Han sido valoradas como eficaces dentro de una determinada situación y pueden ser reproducidas en una situación del mismo tipo.\n\nProcesos\nSon los elementos de una estrategia de aprendizaje que ha sido puesta en práctica de manera coyuntural, en función de circunstancias favorables.\n\nSaber preguntar\nEstrategia del proceso de mediación que permite que los alumnos elaboren conscientemente su pensamiento y profundicen en sus respuestas.\n\nSecuenciado\nConjunto de elementos ordenados sucesivamente de tal manera que sus elementos guarden entre sí cierta relación de orden.\n\nTarea\nEs el objeto en el cual debe desembocar la actividad del estudiante. Para poner en marcha de manera eficaz una actividad, la tarea debe ser representada de manera precisa; debe estar acompañada por criterios que tengan en cuenta su éxito funcional (eficacia) y el éxito académico. Debe diferenciarse entre tarea auténtica (retadora, desafiante y en contexto) y tarea rutinaria.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 246,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 759,
+  "totalTokens": 2848,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

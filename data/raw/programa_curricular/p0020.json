@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 20,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "identificar el nivel de progreso del aprendizaje del estudiante en relación con la competencia. Estos instrumentos pueden ser listas de cotejo, escalas de valoración, rúbricas, entre otros.\n\nLas producciones o tareas que realizarán los estudiantes y sus criterios deben ser comunicados a los adolescentes con un lenguaje cercano a ellos. Esta información les permitirá conocer qué se espera de ellos con anticipación y enfrentarse al reto con mejores posibilidades de alcanzar el propósito de aprendizaje.\n\nTener criterios explícitos y consensuados con los estudiantes es importante porque favorece su autonomía y autorregulación en el proceso de aprendizaje. En el caso de los docentes, permite valorar el avance de los estudiantes y ofrecerles retroalimentación oportuna en aspectos clave del aprendizaje, y les permite, también, adecuar las actividades y estrategias para el progreso de los aprendizajes.\n\nSegún el propósito de aprendizaje establecido ¿Cómo establecer las evidencias de aprendizaje?\n\nEn función de los propósitos de aprendizaje y a los criterios establecidos, se determina la evidencia de aprendizaje, es decir, reflexionar sobre qué situación significativa se debe ofrecer a los estudiantes para que pongan en juego determinados niveles de sus competencias y evidencien sus desempeños.\n\nEste análisis permitirá seleccionar o establecer las evidencias de aprendizaje más relevantes o representativas de los adolescentes, de manera que se observe la combinación de las capacidades de una competencia en una situación significativa. También, es posible que una misma evidencia de aprendizaje permita recoger información sobre la combinación de más de una competencia o desempeño de grado. En este sentido, el docente debe determinar previamente qué desea observar.\n\nPor ejemplo, en la evidencia de aprendizaje anterior, la situación significativa estaba en relación con la feria Mistura y sus significados. Recordemos que esa feria es un hecho de la vida real y que moviliza a muchas personas de nuestro país y de otros países en torno a la comida peruana. Y cobra sentido en los chicos pues escuchan y leen noticias sobre ella. En el marco de esta situación, se les plantea a los estudiantes la tarea de leer dos textos: un ensayo sobre la feria publicado en el blog Mistura Apega-2011, cuyo autor es la asociación que organiza la feria; y \"Mistura: el poder de la cocina\", un fragmento del discurso inaugural de Gastón Acurio para la primera feria gastronómica Mistura y responder la siguiente pregunta: ¿Qué relación tiene la gastronomía peruana y su feria Mistura con los conceptos de colonización emocional e independencia emocional de la sociedad peruana?\".",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 20,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 859,
+  "totalTokens": 2948,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

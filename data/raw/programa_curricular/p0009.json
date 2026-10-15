@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 9,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "II. ENFOQUES TRANSVERSALES EN EL NIVEL DE EDUCACIÓN SECUNDARIA\n\nLos enfoques transversales definidos en el Currículo Nacional se basan en los principios establecidos en el Artículo 8 de la Ley General de Educación: calidad, equidad, ética, democracia, conciencia ambiental, interculturalidad, inclusión, creatividad e innovación. Estos enfoques aportan concepciones importantes sobre las personas y sus relaciones con los demás, con el entorno y con el espacio común, y se traducen en formas específicas de actuar (Minedu 2016:22). En ese sentido, los enfoques transversales son la concreción observable de los valores y actitudes que se espera que los maestros, estudiantes, directivos, personal administrativo y de servicio lleguen a demostrar en la dinámica diaria de la institución educativa, y que se extienda a los distintos espacios personales y sociales en que se desenvuelven.\n\nEstos enfoques permiten propiciar las condiciones para la construcción de posiciones éticas y orientar el sentido del ejercicio ciudadano de los actores educativos, donde los valores y actitudes adquieren su sentido más integral. Asimismo, sirven como marco teórico y metodológico que orienta el proceso de educativo. Los enfoques transversales² son los siguientes:\n\n[DIAGRAMA CIRCULAR: Centro \"Enfoques transversales\" rodeado de 7 círculos con los siguientes textos:]\n- INCLUSIVO O DE ATENCIÓN A LA DIVERSIDAD\n- INTERCULTURAL\n- IGUALDAD DE GÉNERO\n- AMBIENTAL\n- BÚSQUEDA DE LA EXCELENCIA\n- ORIENTACIÓN AL BIEN COMÚN\n- DE DERECHOS\n\nEs importante remarcar que los enfoques transversales operan en las distintas interacciones: director-docente, administrativos-padres de familia, docente-estudiante, escuela-comunidad, entre otros. Desde esta perspectiva, debemos considerar estrategias diferenciadas y consensuadas entre los distintos actores educativos según las interacciones.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 9,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 664,
+  "totalTokens": 2753,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,84 @@
+{
+ "numero_pagina_impreso": 58,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona responsablemente los recursos económicos",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos del sistema económico y financiero.",
+  "Toma decisiones económicas y financieras."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente los recursos económicos al promover el ahorro y la inversión de los recursos. Promueve el consumo informado frente a los recursos económicos y los productos y servicios financieros, asumiendo una posición crítica respecto a la publicidad y rechazando toda actividad financiera informal e ilegal. Explica las interrelaciones entre los agentes del sistema económico y financiero nacional (familia, empresa, Estado) teniendo como referencia el mercado. Explica el rol del Estado en el financiamiento del presupuesto nacional.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica los roles que desempeñan la familia, las empresas y el Estado frente a los procesos económicos en el mercado (producción, distribución, consumo e inversión) y en el sistema económico y financiero."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica que los recursos económicos son escasos y que, frente a ello, los agentes económicos deben tomar decisiones sobre cómo utilizarlos (elección y costo de oportunidad)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Propone acciones para el uso responsable del dinero, el incentivo al ahorro y la inversión como una forma de alcanzar metas en la economía familiar."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Propone alternativas de consumo responsable respecto a productos y servicios considerando que la publicidad busca influir en la toma de decisiones de las personas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Argumenta una posición crítica frente a las actividades económicas informales e ilegales que perjudican su bienestar, el de las demás personas y el de las familias."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica que el rol del Estado es la de garantizar el bien común de las personas y asegurar para ello el financiamiento del presupuesto nacional."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica cómo la escasez de los recursos influye en las decisiones que toman los agentes económicos y que, frente a ello, se dan interacciones en el mercado."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Formula presupuestos personales considerando los ingresos y egresos individuales o del hogar para ejecutar acciones de ahorro o de inversión con el fin de mejorar su bienestar y el de su familia."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Toma decisiones como consumidor responsable al ejercer sus derechos y responsabilidades. Reconoce que cada elección implica renunciar a otras necesidades que tienen que ser cubiertas con los mismos recursos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Manifiesta una posición de rechazo frente al riesgo que supone para la sociedad optar por la informalidad y la ilegalidad al momento de tomar decisiones financieras."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 58,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1237,
+  "totalTokens": 3459,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 3
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

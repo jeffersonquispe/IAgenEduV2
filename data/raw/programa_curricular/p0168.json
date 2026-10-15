@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 168,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "semejanza y congruencia entre triángulos, así como las razones trigonométricas. Lee mapas a diferente escala y compara su información para ubicar lugares o determinar rutas.\n• Selecciona y adapta estrategias heurísticas, recursos o procedimientos para determinar la longitud, el área y el volumen de prismas y polígonos, y para establecer relaciones métricas entre lados de un triángulo, así como para determinar el área de formas bidimensionales irregulares empleando unidades convencionales (centímetro, metro y kilómetro) y coordenadas cartesianas.\n• Selecciona y adapta estrategias heurísticas, recursos o procedimientos para describir las diferentes vistas de una forma tridimensional (frente, perfil y base) y reconstruir su desarrollo en el plano sobre la base de estas, empleando unidades convencionales (centímetro, metro y kilómetro) y no convencionales (por ejemplo, pasos).\n• Plantea afirmaciones sobre las relaciones y propiedades que describe entre los objetos, entre objetos y formas geométricas, y entre las formas geométricas, sobre la base de simulaciones y la observación de casos. Comprueba o descarta la validez de la afirmación mediante ejemplos, propiedades geométricas, y razonamiento inductivo o deductivo.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 168,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 449,
+  "totalTokens": 2538,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

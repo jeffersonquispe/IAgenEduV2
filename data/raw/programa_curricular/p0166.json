@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 166,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "tridimensionales, así como de sus transformaciones, para extraer información. Lee planos a escala y los usa para ubicarse en el espacio y determinar rutas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias heurísticas, recursos o procedimientos para determinar la longitud, el perímetro, el área o el volumen de prismas, cuadriláteros y triángulos, así como de áreas bidimensionales compuestas, empleando unidades convencionales (centímetro, metro y kilómetro) y no convencionales (bolitas, panes, botellas, etc.)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias heurísticas, recursos o procedimientos para describir el movimiento, la localización o las perspectivas (vistas) de los objetos, empleando unidades convencionales (centímetro, metro y kilómetro) y no convencionales (por ejemplo, pasos)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones sobre las relaciones y propiedades que descubre entre los objetos, entre objetos y formas geométricas, y entre las formas geométricas, sobre la base de simulaciones y la observación de casos. Las justifica con ejemplos y sus conocimientos geométricos. Reconoce errores en las justificaciones y los corrige."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Reconoce propiedades de la semejanza y congruencia, y la composición de transformaciones (rotación, ampliación y reducción) para extraer información. Lee planos o mapas a escala y los usa para ubicarse en el espacio y determinar rutas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias heurísticas, recursos o procedimientos para determinar la longitud, el perímetro, el área o el volumen de prismas, pirámides, polígonos y círculos, así como de áreas bidimensionales compuestas o irregulares, empleando coordenadas cartesianas y unidades convencionales (centímetro, metro y kilómetro) y no convencionales (bolitas, panes, botellas, etc.)."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias heurísticas, recursos o procedimientos para describir el movimiento, la localización o las perspectivas (vistas) de los objetos en planos a escala, empleando unidades convencionales (centímetro, metro y kilómetro) y no convencionales (por ejemplo, pasos)."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones sobre las relaciones y propiedades que descubre entre los objetos, entre objetos y formas geométricas, y entre las formas geométricas, sobre la base de simulaciones y la observación de casos. Las justifica con ejemplos y sus conocimientos geométricos. Reconoce errores en sus justificaciones y en las de otros, y los corrige."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 166,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1037,
+  "totalTokens": 3259,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

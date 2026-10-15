@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 229,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Ciencias Sociales\n\nAdaptación al cambio climático\nAjustes en sistemas humanos o naturales como respuesta a estímulos climáticos o sus efectos, que pueden moderar el daño o aprovechar los beneficios.\n\nAmbiente\nComprende los elementos físicos, químicos y biológicos de origen natural o antropogénico que, en forma individual o asociada, conforman el medio en el que se desarrolla la vida. Son los factores que aseguran la salud individual y colectiva de las personas y la conservación de los recursos naturales, la diversidad biológica y el patrimonio cultural asociado a ellos, entre otros.\n\nCambio climático\nCambio del clima atribuido directa o indirectamente a la actividad humana, que altera la composición de la atmósfera mundial y que se suma a los cambios naturales del clima.\n\nDesarrollo sostenible\nEs un proceso continuo de cambio orientado a la satisfacción de las necesidades de la generación presente, sin comprometer la capacidad de las generaciones futuras de satisfacer sus propias necesidades. Este proceso contempla cuatro dimensiones: la sociedad, el ambiente, la cultura y la economía, que están interconectadas, no separadas.\n\nMitigación del cambio climático\nConjunto de intervenciones humanas que buscan reducir las fuentes o mejorar los sumideros de gases de efecto invernadero.\n\nSistema económico\nComprende a los agentes que participan en la economía de un país y las actividades que desarrollan, así como sus interrelaciones. Además, es un sistema que distribuye los recursos escasos entre sus posibles usos.\n\nSistema financiero\nEl sistema financiero de un país es el conjunto de organizaciones públicas y privadas a través de las cuales se captan, administran y regulan los recursos financieros que se negocian entre los diversos agentes económicos del país.\n\nTiempo histórico\nEs una construcción cultural que permite ordenar y comprender los cambios y permanencias en el devenir humano. Incluye el uso de un sistema de convenciones (calendarios, décadas, ciclos, milenios, entre otros) y categorías temporales (sucesión, simultaneidad, duración, ritmos, cambios y permanencias) que permiten ordenar y explicar los procesos históricos.\n\nEducación Física\n\nAcción motriz\nEs el conjunto de actividades físicas a través de las cuales el ser humano se manifiesta en un contexto determinado.\n\nActividad física",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 229,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 752,
+  "totalTokens": 2841,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

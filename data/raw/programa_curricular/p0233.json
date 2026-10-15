@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 233,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Es el proceso de creación de la ilusión de movimiento a través de una serie de imágenes (por ejemplo, recortes, dibujos, imágenes digitales, papel, fotografías, marionetas, figuras esculpidas) que muestren ligeros cambios progresivos y secuenciales en el tiempo utilizando diversas técnicas (por ejemplo, arcilla, animación con recortes, stop motion y otros procesos digitales).\n\nArtes visuales\nSon las manifestaciones que incluyen una amplia gama de formas, géneros y estilos de las artes tradicionales como el dibujo, la pintura, la escultura, el grabado, la arquitectura y la fotografía, así como el arte comercial, los oficios tradicionales y plásticos, el diseño industrial, el arte de la performance y los medios de comunicación electrónicos.\n\nCódigos culturales\nSon los modos de hacer y pensar ejecutados por un pueblo o grupo de personas de manera específica (por ejemplo, el ritual de saludarse con la mano o un beso) y que tienen un significado común y distintivo para ese grupo de personas.\n\nComposición\nEs la estructura que combina los elementos de los lenguajes con un sentido, concepto o lógica.\n\nElementos de la danza\nSon el cuerpo, espacio, tiempo, energía, relación.\n\nElementos de la música\nSon la duración, tono, dinámica, timbre, textura/armonía, forma.\n\nElementos de las artes visuales\nSon la línea, figura y forma, espacio, color, textura y valor.\n\nElementos del arte\nSon los componentes fundamentales de los lenguajes artísticos.\n\nElementos del teatro\nSon el personaje o rol, relación, tiempo y lugar, tensión, enfoque, y énfasis.\n\nEstética\nEs la disciplina que contempla la naturaleza del arte y su función en la experiencia humana. Tiene que ver con la necesidad de introducir la noción de belleza y los principios que la sustentan.\n\nEstilo\nEs una forma particular o distintiva en la que se crea o realiza un trabajo artístico (una danza o una pintura). Se asocia a menudo con un artista en particular, grupo de performance, coreógrafo o período de tiempo.\n\nGénero\nEs una categoría que presenta características comunes, y está definido por una tradición y manera de llevarse a cabo (teatro experimental, danza contemporánea, música clásica, etc.).\n\nImprovisación\nEs el acto de crear un movimiento o una representación de manera espontánea en respuesta a",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 233,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 782,
+  "totalTokens": 2871,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

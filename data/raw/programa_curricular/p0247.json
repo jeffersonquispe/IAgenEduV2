@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 247,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "BIBLIOGRAFÍA CONSULTADA\n\nGeneral\n\n• Ministerio de Educación del Perú (2016) Currículo Nacional de la Educación Básica. Lima.\n• Ministerio de Educación del Perú (2003) Ley General de Educación Nº 28044\n\nDesarrollo Personal, Ciudadanía y Cívica\n\n• Bisquerra, R. (2002). La competencia emocional. Barcelona, España: Praxis.\n• Bisquerra, R. (2008). Educación para la ciudadanía y convivencia: el enfoque de la educación emocional. Madrid, España: Wloters Kluwer.\n• Bolívar, A. (2004). Ciudadanía y escuela pública en el contexto de diversidad cultural. Revista Mexicana de Investigación Educativa, 9(20), 15-38.\n• Chaux, E. (2012). Educación, convivencia y agresión escolar. Bogotá, Colombia: Aguilar.\n• Chaux, E. y Ruiz, A. (2005). La formación de competencias ciudadanas. Bogotá, Colombia: Ascofade.\n• Chokler, M. (2005). Los organizadores del desarrollo psicomotor del mecanismo a la psicomotricidad operativa. Buenos Aires, Argentina: Cinco.\n• Cortina, A. (2006). Educar para una ciudadanía activa. Madrid, España: Tribuna El País.\n• Dibós, A. (2004). Propuesta de evaluación de formación ciudadana. Lima: Unidad de Medición de la Calidad Educativa, Minedu.\n• Frisancho, S. (2009). Formación en ciudadanía y desarrollo de la democracia: una nota conceptual. En Formación en ciudadanía en la escuela peruana. Lima: Idehpucp.\n• Giroux, H. (2003). La escuela y la lucha por la ciudadanía. México, D. F.: Siglo XXI.\n• León, E. (2001). Por una perspectiva de educación ciudadana. Lima: Tarea-Asociación de Publicaciones Educativas.\n• Magendzo, A. (2004). Formación ciudadana. Bogotá, Colombia: Cooperativa Editorial Magisterio.\n• Magendzo, A. (2005). Currículo y transversalidad: una reflexión desde la práctica. Revista Internacional Magisterio, Educación y Pedagogía, 16, 28-33.\n• Magendzo, A. (2007). Formación de estudiantes deliberantes para una democracia deliberativa. Revista Electrónica iberoamericana sobre Calidad, Eficacia y Cambio en Educación, 5(4), 70-82.\n• Ministerio de Educación del Perú (2008). Lineamientos educativos y orientaciones pedagógicas para la educación sexual integral: manual para profesores y tutores de Educación Básica Regular. Lima: Autor.\n• Morgado, I. (2010). Emociones e inteligencia social. Barcelona, España: Ariel.\n• Romero, F. (1997). Participando nos enteramos en la democracia. En Espino, G. (compilador): Educación ciudadana: Propuestas y experiencias. Lima, Perú: Tarea.\n• Romero, I. (2013). Educación sexual integral: derecho humano y contribución a la formación integral. Lima: Minedu y Unesco.\n• Schujman, G. y Siede, I. (2008). Ciudadanía para armar. Buenos Aires, Argentina: Aique.\n• Sebastiani, A. (2014). Educar para el bienestar y la autonomía. Lima, Perú: Independiente.\n• Soriano, E. (2004). Identidad y ciudadanía: dos retos de la práctica educativa intercultural. Madrid, España: La Muralla.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 247,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1150,
+  "totalTokens": 3239,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

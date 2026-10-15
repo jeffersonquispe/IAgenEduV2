@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 253,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Ministerio de Educación-DIGEIBIR (2013). Estrategias metodológicas y sesiones sugeridas para el desarrollo oral del castellano como segunda lengua. Rutas del Aprendizaje en educación intercultural bilingüe. Fascículo B, Nivel de dominio Básico. Oralidad. Lima: Corporación Gráfica Navarrete.\n\nMyers Scotton, C. (2006). Multiple voices. An introduction to bilingualism. Oxford: Backwell.\n\nPozzi-Escot, I. (1997). El multilingüismo en el Perú. Cusco: PROEIB Andes-Centro Bartolomé de las Casas.\n\nSaville-Troike, M. (2006). Introducing second language acquisition. Nueva York, EEUU: Cambridge University Press.\n\nZavala, V. y Córdova, G. (2010). Decir y callar. Lenguaje, equidad y poder en la universidad peruana. Lima: Fondo Editorial PUCP.\n\nMatemática\n\nAlsina, A. (2009). El aprendizaje realista: una contribución de la investigación en la educación matemática a la formación del profesorado. Cataluña, España: Universitat de Girona.\n\nBressan A. (1996). Las regularidades, fuente de aprendizajes matemáticos. Buenos Aires, Argentina: Secretaría Técnica de Gestión Curricular de Argentina.\n\nGestión, A. y Gallego, M.F. (2010) El proceso de matematización progresiva en el tratamiento de patrones. Revista Correo del Maestro, Nº 168, mayo de 2010. Recuperado de: http://www.gpdmatematica.org.ar/publicaciones/corre_maestro_matematizacion_progresiva.pdf\n\nBressan, A., Zolkower, B., y Gallego, M. (2004). La Educación matemática realista: principios en que se sustenta. Escuela de Invierno en Didáctica de la Matemática, 1-13.\n\nBrousseau, G. (1986). Fundamentos y métodos de la Didáctica de la Matemática. Investigación en Didáctica de la Matemática. Fundamentos y métodos de la Didáctica de la Matemática. Trabajos de Matemática. Vol 7 Nº 2, pp 33- 115. Universidad de Burdeos. Recuperado de: http://www.uruguayeduca.edu.uy/Userfiles/P0001%5CFile%5CFundamentosBrousseau.pdf\n\nBrousseau, G. (1998). Théorie des situations didactiques. Grenoble, Francia: La Pensée Sauvage.\n\nBrown, S. I. y Walter, M. I. (1983). The art of problem posing. New York, EEUU: Lawrence Erlbaum Associates.\n\nBunge, M. y Ardila, R. (1998). Filosofía de la Psicología. México: Siglo XXI Editores.\n\nChamorro, M. (2003). Didáctica de las Matemáticas. Madrid, España: Pearson Prentice Hall.\n\nChevalliard, Y., Bosch, M. y Gascón, J. (2005). Estudiar matemáticas: el eslabón perdido entre enseñanza y aprendizaje. Lima: Horsori.\n\nD'Amore, B. y Godino, J.D. (2007). El enfoque ontosemiótico como un desarrollo de la teoría antropológica en Didáctica de la Matemática. Revista Latinoamericana de Investigación en Matemática Educativa, 10(2). Recuperado de http://www.ugr.es/~jgodino/funciones-semioticas/D'Amore%20Godino%20_Relime%2010-2.pdf\n\nGodino, J. y Font, V. (2003). Razonamiento Algebraico Para Maestros, Repro Digital, Departamento de Didáctica de la Matemática Facultad de Ciencias de la Educación. Consultado en marzo del 2011 en: www.ugr.es/~jgodino/edumat-maestros/manual/7_Algebra.pdf\n\nGodino, J. (2010). Perspectiva de la didáctica de las matemáticas como disciplina tecnocientífica. Universidad de Granada: Departamento de Didáctica de la Matemática. Recuperado de http://www.ugr.es/local/jgodino",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 253,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1312,
+  "totalTokens": 3401,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

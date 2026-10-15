@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 230,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Se considera actividad física a cualquier movimiento corporal producido por los músculos esqueléticos y que exija gasto de energía, y que supone una experiencia personal para la interacción con los demás y con el entorno, y se puede clasificar en:\n\n• Actividad física utilitaria: actividades laborales y tareas domésticas.\n• Actividades lúdicas: todas las formas de juego: juegos de mesa, juegos de salón, juegos tradicionales, etc.\n• Actividades recreativas: actividades realizadas por el sujeto en su tiempo libre, elegidas libremente y que le proporcionen placer.\n• Actividades en la naturaleza al aire libre: prácticas recreativas en pleno contacto con el medio natural, como caminatas, excursiones, campamentos, acantalonamientos.\n• Actividades deportivas: toda actividad física sujeta a determinadas normas, en la que se prueban, o sin competición, habilidades motrices básicas y específicas.\n\nAlimentación saludable\nEs una alimentación variada, preferentemente en estado natural o con procesamiento mínimo, que aporta energía y todos los nutrientes esenciales que cada persona necesita para mantenerse sana, permitiéndole tener una mejor calidad de vida en todas las edades.\n\nCapacidades físicas\nSon aquellas capacidades cuyo potencial es congénito y genéticamente determinado. Son de carácter interno, se manifiestan a través de las acciones motrices, y se desarrollan y mejoran con la práctica. Existen distintos tipos de capacidades:\n\n• Condicionales: son cualidades funcionales del organismo que dependen de los procesos metabólicos y energéticos. Su presencia es condición indispensable para que el movimiento sea posible en una acción motriz intencional. El individuo posee y desarrolla dichas capacidades, y las mantiene de forma limitada según los factores genéticos, estructurales, fisiológicos, biomecánicos, psicológicos y energéticos. Las capacidades condicionales son fuerza, resistencia y velocidad.\n• Coordinativas: son las capacidades determinadas por los procesos de regulación y control del sistema nervioso. Ellas son ritmo, reacción, acoplamiento, diferenciación, adaptación, orientación espacio-temporal, equilibrio, relajación y regulación del movimiento.\n• De amplitud de movimiento o flexibilidad: es la capacidad para realizar el máximo de recorrido de las articulaciones en posiciones diversas a partir de la movilidad articular y la elasticidad muscular.\n\nCorporeidad\nEs el proceso de constitución de la persona a través de la motricidad como vivencia del hacer, del saber, del pensar, del sentir, del comunicar y del querer en interacción con su entorno. Este proceso reconoce la dimensión integral del ser humano en sus aspectos motor, afectivo y cognitivo.\n\nCuerpo\nEs el conjunto de las partes que forman un ser vivo en todas sus dimensiones: biológica, psicológica, de la especie, de la historia personal, social y de las circunstancias de cada uno, es decir, todo lo que vemos de nosotros mismos.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 230,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 923,
+  "totalTokens": 3012,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,78 @@
+{
+ "numero_pagina_impreso": 132,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se comunica oralmente en inglés como lengua extranjera",
+ "ciclo": "VI",
+ "capacidades": [
+  "Obtiene información de textos orales.",
+  "Infiere e interpreta información de textos orales.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos en inglés. Infiere el tema, propósito, hechos y conclusiones a partir de información explícita e interpreta la intención del interlocutor. Se expresa adecuando el texto a situaciones comunicativas cotidianas usando pronunciación y entonación adecuadas; organiza y desarrolla ideas en torno a un tema central haciendo uso de algunos conectores coordinados y subordinados incluyendo vocabulario cotidiano y construcciones gramaticales determinadas y pertinentes. Utiliza recursos no verbales y paraverbales para dar énfasis a su texto. Opina sobre lo escuchado haciendo uso de sus conocimientos del tema. En un intercambio, participa formulando y respondiendo preguntas sobre actividades diarias, eventos pasados y temas de interés personal.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita y relevante seleccionando datos específicos en los textos orales que escucha en inglés, con vocabulario cotidiano y pertinente. Reconoce el propósito comunicativo apoyándose en el contexto. Integra la información cuando es dicha en distintos momentos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Deduce información señalando características de seres, objetos, lugares y hechos. Deduce el significado de palabras, frases y expresiones de mediana complejidad en contexto. Ejemplo: Verb to be; wh-questions —what, how, where, what, when, what time, how often, whose, how many, how much; possessive adjectives and nouns; personal and object pronouns; demonstrative pronouns; adverbs of frequency; can; present simple and continuous; quantifiers; comparative and superlative adjectives. Deduce, también, el significado de las relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa) y jerárquicas (ideas principales) en textos orales en inglés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Distingue lo relevante de lo complementario vinculando el texto con su experiencia a partir de recursos verbales, no verbales y paraverbales para construir el sentido del texto oral en inglés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Adapta el texto oral a la situación comunicativa manteniendo el registro y los modos culturales, y considerando el tipo de texto, el contexto y el propósito. Ejemplo: Intercambiar información personal; hablar sobre habilidades, posesiones, preferencias, deportes y lugares; hablar acerca de actividades en curso, pasadas y diarias; describir el trabajo, la escuela; identificar accidentes"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita y relevante seleccionando datos específicos en los textos orales que escucha en inglés, con vocabulario cotidiano y pertinente. Reconoce el propósito comunicativo apoyándose en el contexto. Integra la información cuando es dicha en distintos momentos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Deduce información señalando características de seres, objetos, lugares y hechos. Deduce el significado de palabras, frases y expresiones de mediana complejidad en contexto. Ejemplo: Present simple and continuous, past simple and continuous, prepositions of time and place — in, on, at; modals —can, could, should, have to; connectors and, or, so, because; future with going to, adverb clauses of time —after, before, as soon as, when; zero conditional, would like to, want to, like + ing, future with will, first conditional. Deduce, también, el significado de las relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales) de estructura simple en textos orales en inglés."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Distingue lo relevante de lo complementario vinculando el texto con su experiencia a partir de recursos verbales, no verbales y paraverbales para construir el sentido del texto oral en inglés."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Adapta el texto oral a la situación comunicativa manteniendo el registro y los modos culturales, y considerando el tipo de texto, el contexto y el propósito. Ejemplo: Hablar sobre personas, lugares, accidentes; expresar sentimientos y estados de ánimo; describir posibilidades futuras, obligaciones, tecnología, eventos,"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 132,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1665,
+  "totalTokens": 3887,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

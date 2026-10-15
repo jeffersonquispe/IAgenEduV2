@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 19,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "¿En qué nivel de desarrollo de la competencia se encuentran los adolescentes? ¿Cuán cerca o lejos están del estándar de aprendizaje y/o los desempeños de edad o grado?\n\nEsta información se obtiene al comparar el nivel esperado de los estándares de aprendizaje y/o los desempeños de grado en relación con los aprendizajes de los adolescentes. Para ello, se recomienda:\n\n• Contrastar los aprendizajes que tienen los adolescentes con los niveles de los estándares de aprendizaje y/o desempeños de grado o edad para saber qué logran hacer en relación con los niveles esperados.\n\n• Identificar las necesidades de aprendizaje y plantear el propósito de aprendizaje en un determinado tiempo, sin perder de vista el nivel esperado de los estándares de aprendizaje.\n\nESTABLECER LOS CRITERIOS PARA RECOGER EVIDENCIAS DE APRENDIZAJES SOBRE EL PROGRESO\n\nUna vez determinado el propósito de aprendizaje que se quiere alcanzar en un tiempo determinado —en un año, en una unidad, en una sesión o actividad— tomando en cuenta las necesidades de aprendizaje identificadas de los adolescentes, se hace necesario definir con precisión las evidencias de aprendizaje y los criterios que usaremos para recoger información sobre el progreso del aprendizaje de los estudiantes en relación con el propósito definido. Las siguientes preguntas guiarán este proceso:\n\n• ¿Cómo establecer criterios para valorar la evidencia de aprendizaje?\n\n• Según el propósito de aprendizaje establecido ¿Cómo establecer las evidencias de aprendizaje?\n\nA continuación, se detalla en qué consiste este proceso desarrollando las dos preguntas:\n\n¿Cómo establecer criterios para valorar la evidencia de aprendizaje?\n\nEn el ejemplo anterior, la tarea está diseñada sobre la base del nivel esperado al final del VI ciclo descrito en los estándares de aprendizaje, que dice: \"Lee diversos tipos de texto escritos en lengua materna\". Estos criterios permiten, por un lado, elaborar una tarea que exija a los estudiantes poner en evidencia su nivel de aprendizaje y, por otro lado, sirve para interpretar la respuesta del estudiante en relación con lo que se espera que pueda hacer.\n\nPara determinar los criterios de valoración de la evidencia, se toman como referencias los estándares de aprendizaje y/o desempeños de grado o edad porque estos ofrecen descripciones de los aprendizajes en progresión.\n\nValorar la evidencia significa contrastar los aprendizajes que demuestra hacer el adolescente con los criterios establecidos, contenidos en los instrumentos de evaluación, los cuales permitirán",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 19,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 863,
+  "totalTokens": 2952,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

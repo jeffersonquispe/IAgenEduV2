@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 109,
+ "tipo": "narrativa",
+ "area": "Castellano como Segunda Lengua",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Nuestro país tiene una gran diversidad lingüística y cultural; por ello, en nuestras aulas, contamos con estudiantes que, como parte de su herencia cultural y lingüística, hablan una lengua originaria o indígena, la cual suele ser su lengua materna. Según el contexto lingüístico en el que se ubiquen, además de consolidar el aprendizaje de su propia lengua, lo harán en una segunda lengua, el castellano. Esta será el puente de comunicación intercultural entre hablantes de diferentes lenguas, además de una forma de acceder a nuevos conocimientos.\n\nSi bien hay similitudes entre la adquisición de la lengua materna y la segunda lengua, los procesos son diferentes. En el caso de la adquisición de la segunda lengua en la escuela, el estudiante tiene que desarrollar competencias comunicativas en una segunda lengua a partir del logro paulatino de competencias en su lengua materna.\n\nPor ello, con el objetivo de respetar el proceso de adquisición de ambas lenguas, contamos con un área de castellano como segunda lengua. Esta área contribuiría a que los estudiantes establezcan relaciones sociales con otras personas en diferentes ámbitos de sus vidas, se comuniquen, y ejerzan su ciudadanía en contextos públicos y privados, más allá del ámbito escolar.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. En especial, el área de Castellano como Segunda Lengua se ocupa de promover y facilitar a lo largo de la Educación Básica que los estudiantes de instituciones educativas interculturales bilingües que tienen una lengua materna distinta del castellano desarrollen las siguientes competencias:\n\n• Se comunica oralmente en castellano como segunda lengua.\n\n• Escribe diversos tipos de textos en castellano como segunda lengua.\n\n• Lee diversos tipos de textos escritos en castellano como segunda lengua.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 109,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 615,
+  "totalTokens": 2837,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

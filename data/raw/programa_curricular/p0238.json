@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 238,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "ejemplo, cuando hablamos o escribimos, no solo utilizamos diferentes expresiones para comunicar la misma idea (vocabulario variado), sino también términos precisos para marcar los matices de significación que las distinguen según una determinada circunstancia.\n\nVocabulario variado\nSe refiere a la capacidad de alternar una diversidad de palabras con el mismo significado para evitar repeticiones y lograr su propósito comunicativo, por ejemplo, al utilizar sinónimos o una diversidad de adjetivos que modifiquen al sustantivo, como esclavitud norteamericana, hambre ejemplar, etc.\n\nMatemática\n\nAfirmaciones\nSon conceptos que dan por cierto \"algo\" a partir de observaciones. Pueden ser:\n• Predicciones: dadas por la intuición o conjeturas.\n• Supuestos: datos a partir de indicios.\n• Hipótesis: dadas a partir de lo posible o imposible que conlleve afirmar o negar su validez.\n\nAtributos medibles\nSon propiedades observables y medibles de las formas bidimensionales y tridimensionales que se expresan numéricamente, por ejemplo, perímetro, área, volumen, peso, fuerza, velocidad, etc.\n\nContexto\nSe denomina así al espacio de la vida y de las prácticas sociales culturales.\n\nEquivalencia\nEs la igualdad en el valor o estimación de dos expresiones y cuya verificación de una expresión va unida a la verificación de la otra expresión.\n\nEscala\nEs la relación de proporción que existe entre las medidas expresadas en una representación gráfica con sus medidas originales. Por ejemplo, un mapa muestra la escala 1:1000, que significa que 1 cm del plano equivale a 10 m en la realidad.\n\nEstablecer equivalencias en el SND\nEs un proceso que consiste en componer y descomponer un número y que puede llevarse a cabo de dos maneras distintas (Minedu, 2009, p. 5):\n• Expresar un número natural compuesto por unidades de diferente orden del sistema de numeración decimal, como las unidades, decenas y centenas.\n• Expresar un número natural usando múltiples composiciones de una cantidad, además de las unidades convencionales. Por ejemplo, 64 = 50 + 14 se interpreta como 64 es igual que decir 5 decenas y 14 unidades. O, por ejemplo, 7428 = 6M + 14C + 2D + 8U, así también expresar 64 = 2 x 2 x 2 x 2 x 2 x 2.\n\nEstrategias heurísticas\nSon procedimientos sistemáticos que sirven para transformar un problema haciéndolo más sencillo, entendiendo mejor y hacer progresos hacia su solución (Koichu, Berman y More, 2003), haciendo uso de la creatividad, y el pensamiento divergente o lateral. Su ejecución no necesariamente garantiza la consecución de un resultado óptimo. Son ejemplos de estrategias",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 238,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 902,
+  "totalTokens": 2991,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

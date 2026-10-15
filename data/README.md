@@ -85,3 +85,7 @@ Estructura del **Programa Curricular de Educación Secundaria – Perú (2016)**
   python upload_curriculo.py
   ```
   (Configura `S3_CURRICULO_BUCKET` en `.env` si usas otro bucket; por defecto `minedu-educacion-peru`.)
+
+## `programa_curricular_secundaria_2016.json`
+
+**Programa Curricular de Educación Secundaria completo** (MINEDU, RM 649-2016), transcrito del PDF escaneado con `scripts/ingesta/` (no se edita a mano: se regenera con `construir_corpus_curricular.py`). 625 chunks: desempeños por competencia y grado, capacidades por ciclo, estándares (destacado, VI, VII) y texto narrativo, cada uno con `area`, `competencia`, `ciclo`, `grado` y `paginas`. Lo consume `core/retrieval_estructurado.py`. La transcripción tiene un desacuerdo entre modelos de ~1.4% de las palabras; los puntos dudosos están en `docs/TRANSCRIPCION_REVISION_PENDIENTE.md`.

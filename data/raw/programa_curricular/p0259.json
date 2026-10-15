@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 259,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Zimmerman, B. v Martinez-Pons, M. (1990). Student Differences in Self-Regulated Learning: Relating Grade, Sex and Giftedness to Self-Efficacy and Strategy Use. Journal of Educational Psychology, 82(1), pp. 51-59.\n\nZimmerman, B. (2002). Becoming a self-regulated learner: an overview. Theory into practice, 41(2), 64-70.\n\nZimmerman, B. (2008). Investigating Self-Regulation and Motivation: Historical background, methodological developments and future prospects. American Educational Research Journal, 45(1), 166–183.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 259,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 262,
+  "totalTokens": 2351,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

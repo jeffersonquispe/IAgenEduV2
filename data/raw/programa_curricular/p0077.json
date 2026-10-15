@@ -1,0 +1,49 @@
+{
+ "numero_pagina_impreso": 77,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Interactúa a través de sus habilidades sociomotrices",
+ "ciclo": "VII",
+ "capacidades": [
+  "Se relaciona utilizando sus habilidades sociomotrices.",
+  "Crea y aplica estrategias y tácticas de juego."
+ ],
+ "descripcion_nivel": "Interactúa a través de sus habilidades sociomotrices integrando a todas las personas de la comunidad educativa en eventos lúdico - deportivos y promoviendo la práctica de actividad física basada en el disfrute, la tolerancia, equidad de género, inclusión y respeto, asumiendo su responsabilidad durante todo el proceso. Propone sistemas tácticos de juego en la resolución de problemas y los adecúa según las necesidades del entorno, asumiendo y adjudicando roles y funciones bajo un sistema de juego que vincula las habilidades y capacidades de cada uno de los integrantes del equipo en la práctica de diferentes actividades físicas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Organiza eventos deportivos integrando a todas las personas de la comunidad educativa y promueve la práctica de actividad física basada en el disfrute por el juego, la tolerancia y el respeto. Asume su responsabilidad durante todo el proceso. Comparte con sus pares de distinto género e incluye a pares con desarrollos diferentes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Promueve el rechazo a todo tipo de discriminación por género, etnia, capacidades diferentes, condición social y religión durante la práctica de actividades lúdicas, recreativas, predeportivas y deportivas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Elabora y comunica tácticas y estrategias en los juegos y actividades deportivas de interés colectivo. Asume roles y funciones bajo un sistema de juego que vincula las habilidades y capacidades de cada uno de los integrantes del equipo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 77,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 684,
+  "totalTokens": 2906,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

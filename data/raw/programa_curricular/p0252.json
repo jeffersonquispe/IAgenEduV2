@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 252,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Kintsch, W. y Mangalath, P. (2011). The construction of meaning. Topics in Cognitive Science 3, pp. 346-370.\n\nLerner, D. (2001). Leer y escribir en la escuela: lo real, lo posible y lo necesario. México D. F., México: Fondo de Cultura Económica.\n\nLomas, C. (Ed.) (2014). La educación lingüística, entre el deseo y la realidad. Competencias comunicativas y enseñanza del lenguaje. Barcelona, España: Ediciones Octaedro.\n\nRuiz Bikandi, U. (coord.) (2011). Didáctica de la lengua castellana y la literatura. Barcelona, España: Graó.\n\nVan Dijk, T. (2009). Discourse and context. A sociocognitive approach. Cambridge: Cambridge University Press.\n\nVich, V. y Zavala, V. (2004). Oralidad y poder: herramientas metodológicas. Bogotá, Colombia: Grupo Editorial Norma.\n\nCastellano como Segunda Lengua e Inglés como Lengua Extranjera\n\nAmerican Council for the Teaching of Foreign Languages (2012). Standards for Foreign Language Learning. Preparing for the 21st Century. Washington, EEUU: Author\n\nCanale, M. (1980). Theoretical Bases of Communicative Approaches to Second Language Teaching and Testing. Applied Linguistics, 1(1) pp. 1-47.\n\nCanale, M. (1983). De la competencia comunicativa a la pedagogía comunicativa del lenguaje. En Llobera et al. Competencia comunicativa. Documentos básicos en la enseñanza de lenguas extranjeras (pp. 63-83). Madrid, España: Edelsa.\n\nComisión Nacional para el Desarrollo de Pueblos Indígenas (2003). Convenio 169 de la OIT sobre pueblos indígenas y tribales en países independientes. México: Coordinadora editorial de CDI.\n\nConsejo de Europa (2002). Marco común europeo de referencia para las lenguas: aprendizaje, enseñanza, evaluación (MCER). Madrid, España: Artes Gráficas Fernández.\n\nClarke, M. (1980). The Short Circuit Hypothesis of ESL Reading or When Language Competence Interferes with Reading Performance. The Modern Language Journal, 64 (2). 203-209.\n\nCummins, J. (1976). Influence of Bilingualism on Cognitive Growth: A Synthesis of Research Findings and Explanatory. Canada: Ontario Inst. for Studies in Education, Toronto. Bilingual Education Project.\n\nDepartment of Education and Training (2009). ESL/ESD Progress Map English as a Second Language English as a Second Dialect. Australia: NEALS.\n\nDuff, P. (2011). Second Language Socialization. En Alessandro Duranti, Elinor Ochs y Bambi Schieffelin (eds.). Handbook of Language Socialization. Nueva York, EEUU: Blackwell.\n\nEscobar, A. (1984). Variaciones sociolingüísticas del castellano en el Perú. Lima: IEP.\n\nIndepa (2010). Aportes para un enfoque intercultural. Lima, Perú: Autor.\n\nKoda, K. (2005). Insights into second language reading: a cross-linguistic approach. New York, EEUU: Cambridge.\n\nMarco Curricular del Territorio del Norte (MCTN) Australia (1997). English as a Second Language-ESL learners in NT schools. Australia.\n\nMaster, G. y Foster, M. (1996). Progress Maps. Assessment Resource Kit. Victoria, Australia: Allanby Press Printers.\n\nMinisterio de Educación-DIGEIBIR (2013). Hacia una Educación Intercultural Bilingüe de Calidad. Propuesta pedagógica. Lima: Minedu.\n\nMinisterio de Educación-DIGEIBIR (2013). ¿Cómo aprenden los niños y niñas una segunda lengua y cómo identificar el nivel de dominio? Rutas del Aprendizaje en educación intercultural bilingüe. Fascículo A. Lima: Corporación Gráfica Navarrete.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 252,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1210,
+  "totalTokens": 3299,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

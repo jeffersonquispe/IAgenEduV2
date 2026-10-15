@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 6,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": "VI",
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "I. EL NIVEL DE EDUCACIÓN SECUNDARIA\n\nLa Educación Secundaria constituye el tercer nivel de la Educación Básica Regular y tiene una duración regular de cinco años. Ofrece a los estudiantes una formación humanista, científica y tecnológica, cuyos conocimientos se encuentran en permanente cambio. Afianza la identidad personal y social de los estudiantes. En este sentido, se orienta al desarrollo de competencias para la vida, el trabajo, la convivencia democrática y el ejercicio de la ciudadanía, y permitir el acceso a niveles superiores de estudios.\n\nLa Educación Secundaria da continuidad al desarrollo de las competencias de los estudiantes promovidos desde la Educación Inicial y Primaria. Busca, así, que los estudiantes progresen hacia niveles del desarrollo de las competencias más complejos. La atención de los estudiantes considera los ritmos, estilos y niveles de aprendizaje, así como su pluralidad lingüística y cultural. En este nivel, se tienen en cuenta los riesgos a los que los púberes y adolescentes están expuestos y que pueden interrumpir su escolaridad, con la finalidad de tomar medidas preventivas y pertinentes según sus características y necesidades. En este sentido, es vital el trabajo permanente y coordinado entre los estudiantes, las familias, los directivos y los docentes.\n\n1.1 Los ciclos que atiende el nivel de Educación Secundaria\n\nEl nivel de Educación Secundaria atiende los ciclos VI y VII de la Educación Básica Regular. El ciclo VI atiende al primer y segundo grado de Educación Secundaria; y el ciclo VII, al tercer, cuarto y quinto grado de Educación Secundaria.\n\nCICLO VI\n\n¿Qué características tienen los estudiantes en este ciclo?\n\nEn este ciclo, los estudiantes están experimentando cambios corporales significativos de carácter interno y externo propios de la pubertad y adolescencia, que ejercen influencia decisiva en los procesos socioemocionales y cognitivos. Estos cambios exigen a la escuela adaptar el proceso educativo mediante la creación de espacios que permitan a los estudiantes expresar sus necesidades, y comunicarse con libertad, confianza y respeto.\n\nAdemás, los estudiantes se enfrentan a un nuevo entorno educativo, a nuevas metodologías y a la polidocencia, que da lugar a estilos de enseñanza diferentes. Estos factores generan que los estudiantes requieran acompañamiento permanente por parte de los docentes para adaptarse adecuadamente a este nivel educativo, ya que la adolescencia es una etapa de potencialidades que se activan o no en función de los contextos de aprendizaje que se les faciliten a los adolescentes.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 6,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 829,
+  "totalTokens": 2918,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

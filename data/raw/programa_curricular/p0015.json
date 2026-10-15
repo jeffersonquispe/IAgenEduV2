@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 15,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "3.2 ¿Qué considerar al momento de planificar?\n\nAl planificar desde un enfoque por competencias, se considera lo siguiente:\n\nPROP ÓSITOS DE APRENDIZAJE:\n- Competencias, capacidades y estándares de aprendizaje.\n- Desempeños de grado o edad.\n- Enfoques transversales\n\nLo que saben los estudiantes en relación con los propósitos de aprendizaje.\n\nLas necesidades, intereses y características de los estudiantes en relación con los propósitos de aprendizajes.\n\nRecursos y materiales, estrategias, procesos pedagógicos y didácticos pertinentes al propósito de aprendizaje.\n\nEnfoques del currículo y de las áreas curriculares\n\n3.3 ¿Qué tipos de planificación hay?\n\nLa planificación puede ser:\n\n• Planificación anual: Consiste en organizar secuencial y cronológicamente las unidades didácticas que se desarrollarán durante un año escolar para alcanzar los niveles esperados de las competencias. Muestra de manera general lo que se hará durante el año y los grandes propósitos de aprendizaje.\n\n• Unidades didácticas: Consiste en organizar secuencial y cronológicamente las sesiones o actividades de aprendizaje que permitirán el desarrollo de las competencias y capacidades previstas en la planificación anual. En ellas se plantean propósitos de aprendizajes, cómo se lograrán y cómo se evaluarán, el tiempo aproximado que durará ese trabajo y los materiales que se usarán.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 15,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 537,
+  "totalTokens": 2626,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

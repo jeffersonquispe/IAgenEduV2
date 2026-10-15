@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 220,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Actualmente, vivimos en una sociedad donde la información y el conocimiento están en permanente cambio. Los estudiantes están inmersos en esta sociedad y reciben, a través de diversos medios físicos y virtuales, enormes volúmenes de información. Es por ello necesario que las personas desarrollen competencias que permitan tomar conciencia de cómo, qué y para qué debe aprender. En ese sentido, se busca que el estudiante en la educación formal aprenda a aprender por sí mismo y con autonomía, utilizando sus recursos y aplicando estrategias para desarrollar con éxito determinada tarea o situación. De esta manera, facilitará y potenciará el desarrollo de otras competencias.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. A través del enfoque metacognitivo y autorregulado, se promueve y facilita el desarrollo de la competencia \"Gestiona su aprendizaje de manera autónoma\".",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 220,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 371,
+  "totalTokens": 2460,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

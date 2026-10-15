@@ -1,0 +1,86 @@
+{
+ "numero_pagina_impreso": 167,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de forma, movimiento y localización",
+ "ciclo": "VII",
+ "capacidades": [
+  "Modela objetos con formas geométricas y sus transformaciones.",
+  "Comunica su comprensión sobre las formas y relaciones geométricas.",
+  "Usa estrategias y procedimientos para medir y orientarse en el espacio.",
+  "Argumenta afirmaciones sobre relaciones geométricas."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que modela características de objetos con formas geométricas compuestas, cuerpos de revolución, sus elementos y propiedades, líneas, puntos notables, relaciones métricas de triángulos, distancia entre dos puntos, ecuación de la recta y parábola; la ubicación, distancias inaccesibles, movimiento y trayectorias complejas de objetos mediante coordenadas cartesianas, razones trigonométricas, mapas y planos a escala. Expresa su comprensión de la relación entre las medidas de los lados de un triángulo y sus proyecciones, la distinción entre trasformaciones geométricas que conservan la forma de aquellas que conservan las medidas de los objetos, y de cómo se generan cuerpos de revolución, usando construcciones con regla y compás. Clasifica polígonos y cuerpos geométricos según sus propiedades, reconociendo la inclusión de una clase en otra. Selecciona, combina y adapta variadas estrategias, procedimientos y recursos para determinar la longitud, perímetro, área o volumen de formas compuestas, así como construir mapas a escala, homotecias e isometrías. Plantea y compara afirmaciones sobre enunciados opuestos o casos especiales de las propiedades de las formas geométricas; justifica, comprueba o descarta la validez de la afirmación mediante contraejemplos o propiedades geométricas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre las características y los atributos medibles de objetos reales o imaginarios. Asocia estas relaciones y representa, con formas bidimensionales y tridimensionales compuestas, sus elementos y propiedades de volumen, área y perímetro."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Describe la ubicación o el recorrido de un objeto real o imaginario, y los representa utilizando coordenadas cartesianas y planos a escala. También representa la distancia entre dos puntos desde su forma algebraica. Describe las transformaciones de objetos mediante la combinación de ampliaciones, traslaciones, rotaciones o reflexiones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre las propiedades de las razones trigonométricas de un triángulo, los polígonos, los prismas y el cilindro, así como su clasificación, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre la equivalencia entre dos secuencias de transformaciones geométricas a una figura, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Lee textos o gráficos que describen formas geométricas y sus propiedades, y relaciones de"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre las características y los atributos medibles de objetos reales o imaginarios. Representa estas relaciones con formas bidimensionales y tridimensionales compuestas o cuerpos de revolución, los que pueden combinar prismas, pirámides, conos o poliedros regulares, considerando sus elementos y propiedades."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Describe la ubicación o los movimientos de un objeto real o imaginario, y los representa utilizando mapas y planos a escala, así como la ecuación de la recta, razones trigonométricas, ángulos de elevación y depresión. Describe las transformaciones que generan formas que permiten teselar un plano."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre las propiedades de poliedros prismas, cuerpos de revolución y su clasificación, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre las propiedades de la homotecia en figuras planas, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Lee textos o gráficos que describen las propiedades de semejanza y congruencia entre formas geométricas, razones trigonométricas, y ángulos de elevación o depresión. Lee mapas a diferente escala, e integra su información para ubicar lugares,"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 167,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1794,
+  "totalTokens": 4016,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

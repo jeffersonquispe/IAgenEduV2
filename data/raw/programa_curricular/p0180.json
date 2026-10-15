@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 180,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Indaga mediante métodos científicos para construir conocimientos",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Indaga a partir de preguntas sobre una situación y argumenta la influencia de las variables, formula una o más hipótesis con base a conocimientos científicos y observaciones previas. Elabora el plan de indagación con base en principios científicos y los objetivos planteados. Realiza mediciones y comparaciones sistemáticas que evidencian el comportamiento de las variables. Analiza tendencias y relaciones en los datos tomando en cuenta la teoría de errores, reproducibilidad y representatividad de la muestra, los interpreta con principios científicos y formula conclusiones. Evalúa la fiabilidad de los métodos y las interpretaciones. Argumenta sus conclusiones basado en sus resultados y conocimiento científico. A partir de sus resultados formula nuevos cuestionamientos y evalúa el grado de satisfacción que da la respuesta a la pregunta de indagación."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Indaga a partir de preguntas y plantea hipótesis con base en conocimientos científicos y observaciones previas. Elabora el plan de observaciones o experimentos y los argumenta utilizando principios científicos y los objetivos planteados. Realiza mediciones y comparaciones sistemáticas que evidencian la acción de diversos tipos de variables. Analiza tendencias y relaciones en los datos tomando en cuenta el error y reproducibilidad, los interpreta con base en conocimientos científicos y formula conclusiones, las argumenta apoyándose en sus resultados e información confiable. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Indaga a partir de preguntas e hipótesis que son verificables de forma experimental o descriptiva con base en su conocimiento científico para explicar las causas o describir el fenómeno identificado. Diseña un plan de recojo de datos con base en observaciones o experimentos. Colecta datos que contribuyan a comprobar o refutar la hipótesis. Analiza tendencias o relaciones en los datos, los interpreta tomando en cuenta el error y reproducibilidad, los interpreta con base en conocimientos científicos y formula conclusiones. Evalúa si sus conclusiones responden a la pregunta de indagación y las comunica. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Indaga las causas o describe un objeto o fenómeno que identifica para formular preguntas e hipótesis en las que relaciona las variables que intervienen y que se pueden observar. Propone estrategias para observar o generar una situación controlada en la cual registra evidencias de cómo una variable independiente afecta a otra dependiente. Establece relaciones entre los datos, los interpreta y los contrasta con información confiable. Evalúa y comunica sus conclusiones y procedimientos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Indaga al establecer las causas de un hecho o fenómeno para formular preguntas y posibles respuestas sobre estos sobre la base de sus experiencias. Propone estrategias para obtener información sobre el hecho o fenómeno y sus posibles causas, registra datos, los analiza estableciendo relaciones y evidencias de causalidad. Comunica en forma oral, escrita o gráfica sus procedimientos, dificultades, conclusiones y dudas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Indaga al explorar objetos o fenómenos, al hacer preguntas, proponer posibles respuestas y actividades para obtener información sobre las características y relaciones que establece sobre estos. Sigue un procedimiento para observar, manipular, describir y comparar sus ensayos y los utiliza para elaborar conclusiones. Expresa en forma oral, escrita o gráfica lo realizado, aprendido y las dificultades de su indagación."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Explora los objetos, el espacio y hechos que acontecen en su entorno, hace preguntas con base en su curiosidad, propone posibles respuestas, obtiene información al observar, manipular, describir; compara aspectos del objeto o fenómeno para comprobar la respuesta y expresa en forma oral o gráfica lo que hizo y aprendió."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Explora los objetos, el espacio y hechos que acontecen en su entorno, los observa y manipula con todos sus sentidos para obtener información sobre sus características o usos, experimenta y observa los efectos que sus acciones causan sobre ellos."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 180,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1395,
+  "totalTokens": 3617,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

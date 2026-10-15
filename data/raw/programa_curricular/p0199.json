@@ -1,0 +1,106 @@
+{
+ "numero_pagina_impreso": 199,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona proyectos de emprendimiento económico o social",
+ "ciclo": "VI",
+ "capacidades": [
+  "Crea propuestas de valor.",
+  "Aplica habilidades técnicas.",
+  "Trabaja cooperativamente para lograr objetivos y metas.",
+  "Evalúa los resultados del proyecto de emprendimiento."
+ ],
+ "descripcion_nivel": "Gestiona proyectos de emprendimiento económico o social cuando se cuestiona sobre una situación que afecta a un grupo de usuarios y explora sus necesidades y expectativas para crear una alternativa de solución viable y reconoce aspectos éticos y culturales así como los posibles resultados sociales y ambientales que implica. Implementa sus ideas empleando habilidades técnicas, anticipa las acciones y recursos que necesitará y trabaja cooperativamente cumpliendo sus roles y responsabilidades individuales para el logro de una meta común, propone actividades y facilita a la iniciativa y perseverancia colectiva. Evalúa el logro de resultados parciales relacionando la cantidad de insumos empleados con los beneficios sociales y ambientales generados; realiza mejoras considerando además las opiniones de los usuarios y las lecciones aprendidas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Realiza observaciones o entrevistas individuales para explorar en equipo necesidades o problemas de un grupo de usuarios, para satisfacerlos o resolverlos desde su campo de interés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Plantea alternativas de propuesta de valor creativas y las representa a través de prototipos para su validación con posibles usuarios. Selecciona una propuesta de valor en función de su implicancia ética, ambiental y social, y de su resultado económico."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Selecciona los insumos y materiales necesarios, y organiza actividades para su obtención. Planifica las acciones que debe ejecutar para elaborar la propuesta de valor y prevé alternativas de solución ante situaciones imprevistas o accidentes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Emplea habilidades técnicas para producir un bien o brindar servicios siendo responsable con el ambiente y teniendo en cuenta normas de seguridad en el trabajo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Propone acciones que debe realizar el equipo explicando sus puntos de vista y definiendo los roles. Promueve la perseverancia por lograr el objetivo común a pesar de las dificultades y cumple con responsabilidad las tareas asignadas a su rol."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Formula indicadores que le permitan evaluar los procesos de su proyecto y tomar decisiones oportunas para ejecutar las acciones correctivas pertinentes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Formula indicadores para evaluar el impacto social, ambiental y económico generado para incorporar mejoras al proyecto."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Realiza observaciones o entrevistas estructuradas para indagar los posibles factores que originan las necesidades o problemas de un grupo de usuarios, para satisfacerlos o resolverlos desde su campo de interés."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Formula alternativas de propuesta de valor creativas representándolas a través de prototipos para su validación con posibles usuarios. Incorpora sugerencias de mejora y selecciona una propuesta de valor en función de su implicancia ética, ambiental y social, y de su resultado económico."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Selecciona los insumos y materiales necesarios, y organiza actividades para su obtención. Planifica las acciones que debe ejecutar para elaborar la propuesta de valor y prevé alternativas de solución ante situaciones imprevistas o accidentes."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Emplea habilidades técnicas para producir un bien o brindar servicios siendo responsable con el ambiente, usando sosteniblemente los recursos naturales y aplicando normas de seguridad en el trabajo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Propone acciones que debe realizar el equipo explicando cómo integra los distintos puntos de vista y definiendo los roles asociados a sus propuestas. Promueve la perseverancia por lograr el objetivo común a pesar de las dificultades y cumple con responsabilidad las tareas asignadas a su rol."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Formula indicadores que le permitan evaluar los procesos de su proyecto y tomar decisiones oportunas para ejecutar las acciones correctivas pertinentes."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Formula indicadores para evaluar el impacto social, ambiental y económico generado para incorporar mejoras al proyecto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 199,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1772,
+  "totalTokens": 3994,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 3
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

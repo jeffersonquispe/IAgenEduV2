@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 49,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Identifica las ideas, comportamientos y circunstancias que vivieron los personajes históricos o grupos sociales en un contexto histórico comprendido desde el desarrollo del absolutismo (s. XVII y XVIII) hasta las revoluciones liberales (s. XIX) y desde la organización del virreinato (s. XVII) hasta el surgimiento de la República peruana para explicar su importancia en el tiempo que les tocó vivir.\n\nhasta la República Aristocrática así como la influencia de tales ideas y comportamientos en hechos posteriores.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 49,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 239,
+  "totalTokens": 2328,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

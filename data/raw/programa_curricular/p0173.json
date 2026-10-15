@@ -1,0 +1,53 @@
+{
+ "numero_pagina_impreso": 173,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "recursos. Los procesa y organiza en tablas con el propósito de analizarlos y producir información."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea procedimientos para determinar la mediana y la moda de datos discretos, la probabilidad de sucesos simples de una situación aleatoria mediante la regla de Laplace o el cálculo de su frecuencia relativa expresada en porcentaje. Revisa sus procedimientos y resultados."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones o conclusiones sobre la información cualitativa y cuantitativa de una población, o la probabilidad de ocurrencia de sucesos. Las justifica usando la información obtenida y sus conocimientos estadísticos. Reconoce errores en sus justificaciones y los corrige."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "el propósito de analizarlos y producir información. Revisa los procedimientos utilizados y los adecúa a otros contextos de estudio."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea procedimientos para determinar la mediana, la moda y la media de datos discretos, la probabilidad de sucesos de una situación aleatoria mediante la regla de Laplace o el cálculo de su frecuencia relativa expresada como porcentaje. Revisa sus procedimientos y resultados."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones o conclusiones sobre las características, tendencias de los datos de una población o la probabilidad de ocurrencia de sucesos en estudio. Las justifica usando la información obtenida, y sus conocimientos estadísticos y probabilísticos. Reconoce errores en sus justificaciones y en las de otros, y los corrige."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 173,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 677,
+  "totalTokens": 2899,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

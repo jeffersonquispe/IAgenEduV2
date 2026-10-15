@@ -1,0 +1,35 @@
+{
+ "numero_pagina_impreso": 123,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "ESCRIBE DIVERSOS TIPOS DE TEXTOS EN CASTELLANO COMO SEGUNDA LENGUA",
+ "ciclo": null,
+ "capacidades": [
+  "Adecúa el texto a la situación comunicativa: el estudiante considera el propósito, destinatario, tipo de texto, género discursivo y registro que utilizará al escribir los textos, así como los contextos socioculturales que enmarcan la comunicación escrita.",
+  "Organiza y desarrolla las ideas de forma coherente y cohesionada: el estudiante ordena lógicamente las ideas en torno a un tema, ampliándolas y complementándolas, estableciendo relaciones de cohesión entre ellas y utilizando un vocabulario pertinente.",
+  "Utiliza convenciones del lenguaje escrito de forma pertinente: el estudiante usa de forma apropiada recursos textuales para garantizar la claridad, el uso estético del lenguaje y el sentido del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito: el estudiante se distancia del texto que ha escrito para revisar de manera permanente el contenido, la coherencia, cohesión y adecuación a la situación comunicativa con la finalidad de mejorarlo. También implica analizar, comparar y contrastar las características de los usos del lenguaje escrito y sus posibilidades, así como su repercusión en otras personas o su relación con otros textos según el contexto sociocultural."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Esta competencia se define como el uso del lenguaje escrito para construir sentidos en el texto y comunicarlos a otros. Se trata de un proceso reflexivo porque supone la adecuación y organización de los textos considerando los contextos y el propósito comunicativo, así como la revisión permanente de lo escrito con la finalidad de mejorarlo.\n\nEl estudiante pone en juego saberes de distinto tipo y recursos provenientes de su experiencia con el lenguaje escrito y del mundo que lo rodea. Utiliza el sistema alfabético y un conjunto de convenciones de la escritura, así como diferentes estrategias para ampliar ideas, enfatizar o matizar significados en los textos que escribe. Con ello, toma conciencia de las posibilidades y limitaciones que ofrecen el lenguaje y la comunicación. Esto es crucial en una época dominada por nuevas tecnologías que han transformado la naturaleza de la comunicación escrita.\n\nPara construir el sentido de los textos que escribe, es indispensable asumir la escritura como una práctica social que permite participar en distintos grupos o comunidades socioculturales. Además de participar en la vida social, esta competencia supone otros propósitos, como la construcción de conocimientos o el uso estético el lenguaje. Al involucrarse con la escritura, se ofrece la posibilidad de interactuar con otras personas empleando el lenguaje escrito de manera creativa y responsable, teniendo en cuenta su repercusión en los demás.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 123,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 856,
+  "totalTokens": 3078,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

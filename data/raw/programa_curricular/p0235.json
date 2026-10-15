@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 235,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Símbolo\nEs la imagen (por ejemplo, un dibujo) que se usa para representar o expresar otra cosa (una idea, un estado de ánimo, una persona o un animal).\n\nTécnica\nEs el método o procedimiento para usar una herramienta, un medio o un material para producir un trabajo artístico o lograr un efecto expresivo (por ejemplo, usar un lápiz para crear tonos claros u oscuros).\n\nComunicación, Castellano como Segunda Lengua e Inglés como Lengua Extranjera\n\nContexto sociocultural\nSe refiere a las características sociales y culturales (estrato social, político o étnico, roles, lengua, costumbres, moral, creencias, entre otras) en las que se escriben y leen los diversos tipos de textos.\n\nÉnfasis y matices intencionados\nLos énfasis son expresiones que el autor releva deliberadamente a través de reiteraciones, modalizadores, metáforas, entre otros recursos, según la intención comunicativa. El lector reconoce esos énfasis a partir de la comprensión del texto. Los matices son precisiones específicas sobre temas o hechos que otorgan variedad a las descripciones en los textos a través, por ejemplo, del cambio de tonos o giros expresivos.\n\nEstilo\nEs una característica particular presente en los textos literarios a partir de una selección entre las diferentes posibilidades y usos del lenguaje, que tienden a constituirse como rasgos distintivos de determinados autores o movimientos literarios.\n\nEstrategias discursivas\nSe refiere al uso de procedimientos lingüísticos y extralingüísticos para construir el sentido del texto y asegurar su propósito comunicativo. Ejemplo: El diseño de un afiche o el uso de mayúsculas para llamar la atención del lector, o el uso de la ejemplificación en un debate para persuadir a los interlocutores.\n\nEstructura compleja\nEs aquella que rompe con la uniformidad y linealidad en la composición del texto. Las estructuras complejas suelen agrupar los siguientes elementos: a) un número variado de secuencias textuales (un mismo texto describe, narra, explica, etc.); b) una variada gama de estrategias discursivas, por ejemplo, el uso de técnicas como el flashback en los textos literarios, o de preguntas retóricas en textos argumentativos; y c) un formato discontinuo que quiebra la linealidad del texto. Además, el tipo de vocabulario, la cantidad de información o la sintaxis son elementos que pueden añadir complejidad a la estructura de un texto.\n\nEstructura simple\nSe refiere a la conformación uniforme y homogénea de un texto, por ejemplo, cuando se plantea una sola secuencia textual o una de ellas predomina claramente (como cuando el texto describe a un animal). Asimismo, presenta una secuencia lógica, espacial y temporal lineal (por ejemplo, inicio, desarrollo y final, en el caso de los textos literarios narrativos).\n\nFormato y soporte\nEl formato es el modo en que se presenta la información en un texto. Puede ser continuo si respeta la linealidad del texto (oración tras oración, párrafo tras párrafo), discontinuo si la quiebra al introducir imágenes u organizadores gráficos, mixto si el texto conjuga ambos tipos.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 235,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 974,
+  "totalTokens": 3063,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

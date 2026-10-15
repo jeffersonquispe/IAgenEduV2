@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 215,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "cultural, y es importante que queden hacerlo desde la institución educativa y aprovechando las tecnologías de información y comunicación de forma ética y responsable.\n\nEl desarrollo y evaluación de esta competencia por los estudiantes es responsabilidad de los docentes del grado en el caso de todas las áreas de Educación Secundaria.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica puede facilitarse a través del desarrollo de diversas competencias. El modelo de \"Acercamiento de las TIC\" promueve y facilita que los estudiantes desarrollen la competencia transversal \"Se desenvuelve en entornos virtuales generados por las TIC\".\n\n7.1.1 Enfoque de la competencia transversal \"Se desenvuelve en entornos virtuales generados por las TIC\"\n\nDesde una perspectiva curricular, se propone incorporar las TIC como una competencia transversal dentro de un modelo de \"Aprovechamiento de las TIC\", que busca la optimización del aprendizaje y de las actividades educativas en los entornos proporcionados por las TIC. Esta competencia se sustenta, en primer lugar, en la alfabetización digital, cuyo propósito es desarrollar en los individuos habilidades para buscar, interpretar, comunicar y construir la información trabajando con ella de manera eficiente y en forma participativa para desempeñarse conforme con las exigencias de la sociedad actual. En segundo lugar, se basa en la mediación interactiva propia de los entornos virtuales, que comprende la familiaridad con la cultura digital y las interfaces interactivas incluidas en toda tecnología, la adopción de prácticas cotidianas en entornos virtuales, y la selección y producción de conocimiento a partir de la complejidad de datos y grandes volúmenes de información. Esta propuesta reflexiona sobre las TIC a partir de la práctica social y experiencia personal para aprender en los diversos campos del saber, y para crear y vivenciar, desde una experiencia de usuario, con visión creativa e innovadora comprendiendo el mundo actual para tomar decisiones y actuar éticamente.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 215,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 637,
+  "totalTokens": 2726,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

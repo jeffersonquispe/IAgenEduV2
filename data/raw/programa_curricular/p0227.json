@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 227,
+ "tipo": "narrativa",
+ "area": "Desarrollo Personal, Ciudadanía y Cívica",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "GLOSARIO\n\nActores sociales\nSon los protagonistas de las acciones que construyen los distintos espacios o territorios. Se refiere a los sujetos de la vida social; sean estos individuales o colectivos, públicos o privados, comunitarios o institucionales. Estos actores sociales pueden ser: organizaciones sociales de base, sindicatos, partidos políticos, iglesias, instituciones de gobierno, estudiantes entre otros.\n\nAsuntos públicos\nSon cuestiones concernientes a todos los ciudadanos, es decir, que afectan a la comunidad, y por ello se distinguen de aquellos que solo importan a grupos específicos o personas. Son temas que pueden tener un tremendo impacto en la calidad de vida de la población, de modo que deliberar sobre ellos enriquece y profundiza nuestro conocimiento de la realidad.\n\nAutonomía\nEs la facultad de una persona que le permite tomar decisiones y actuar según su criterio personal. Permite a las personas manejar mejor la presión social, regular su comportamiento, clarificar su propósito en la vida y favorecer su crecimiento personal tomando en cuenta a los demás.\n\nEs importante recordar que tanto el bienestar como la autonomía son procesos personales, pero también construcciones culturales. Por ello, la formación desde la escuela debe partir del reconocimiento y valoración de las distintas tradiciones y cosmovisiones en clave de interculturalidad.\n\nCiudadanía\nEs una condición de la persona que se construye de manera permanente, en este proceso la persona se va constituyendo como sujeto de derechos y responsabilidades, por el que va desarrollando sentido de pertenencia a una comunidad política (desde lo local a lo nacional y lo global). El ciudadano y la ciudadana se comprometen, desde una reflexión autónoma y crítica, con la construcción de una sociedad más justa, de respeto y valoración de la diversidad social y cultural. Son capaces, asimismo, de establecer un diálogo intercultural desde el reconocimiento de las diferencias y del conflicto como algo inherente a las relaciones humanas.\n\nConvivencia\nImplica la construcción de una comunidad política. Supone estar atentos a la forma en que se producen y reproducen las distintas maneras de relacionarnos y reconocernos, y, a la vez, a las experiencias de tolerancia, colaboración y manejo de las diferencias, de la diversidad y de los conflictos, consustanciales a cualquier convivencia humana. Esta convivencia debe, además, generar oportunidades para un crecimiento personal que afirme y potencie la individualidad del sujeto (León, 2001), desde la cual se pueda proyectar a participar.\n\nDemocracia\nEs un sistema de gobierno que se enmarca en el respeto del Estado de derecho y se sustenta en la vigencia plena de la Constitución Política y los derechos humanos individuales y colectivos. También es una forma de vida que tiene su origen en la convivencia armónica entre los seres humanos, y supone una auténtica asociación entre las personas para la buena marcha de los asuntos públicos en el marco del diálogo intercultural.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 227,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 934,
+  "totalTokens": 3023,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

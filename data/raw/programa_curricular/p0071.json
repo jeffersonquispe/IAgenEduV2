@@ -1,0 +1,84 @@
+{
+ "numero_pagina_impreso": 71,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Asume una vida saludable",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende las relaciones entre la actividad física, alimentación, postura e higiene personal y del ambiente, y la salud.",
+  "Incorpora prácticas que mejoran su calidad de vida."
+ ],
+ "descripcion_nivel": "Asume una vida saludable cuando evalúa sus necesidades calóricas y toma en cuenta su gasto calórico diario, los alimentos que consume, su origen e inocuidad, y las características de la actividad física que practica. Elabora un programa de actividad física y alimentación saludable, interpretando los resultados de las pruebas de aptitud física, entre otras, para mantener y/o mejorar su bienestar. Participa regularmente en sesiones de actividad física de diferente intensidad y promueve campañas donde se promocione la salud integrada al bienestar colectivo.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Evalúa sus necesidades calóricas diarias en función del gasto energético que le demanda la práctica de actividad física para mantener su salud. Explica las consecuencias que el sedentarismo y los hábitos perjudiciales (consumo de comida rápida, alcohol, tabaco, drogas) producen sobre su salud."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica la repercusión que tiene la práctica de actividad física sobre su estado de ánimo y sus emociones. Dosifica su esfuerzo y aprende a observarlo en sus compañeros al participar en actividades predeportivas y deportivas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Realiza actividad física para mejorar sus capacidades condicionales, que contribuyan al mejoramiento de su rendimiento y su salud según su aptitud física. Ejecuta de manera autónoma ejercicios y movimientos específicos para la activación y relajación explicando su utilidad e identificando la intensidad del esfuerzo antes, durante y después de la práctica de actividad física."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Realiza acciones para la promoción y el cuidado de la salud que ayuden a prevenir hábitos perjudiciales para el organismo, como el consumo de alimentos no saludables, alcohol, tabaco, drogas, entre otros."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Realiza un análisis y reflexión crítica sobre los centros de expendio de alimentos dentro y fuera de la institución educativa, optando por aquellos alimentos beneficiosos para su salud y el ambiente."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica con fundamento la importancia de mantener o mejorar su bienestar (físico, psicológico y emocional) teniendo en cuenta su estado nutricional, su gasto calórico diario, sus prácticas alimentarias y las actividades físicas que practica."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica los efectos negativos que produce el abuso de la actividad física, así como el uso de sustancias utilizadas para evitar el cansancio e incrementar el rendimiento físico, y evita su consumo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Incorpora prácticas saludables (actividades en la naturaleza, actividades recreativas, deportivas, etc.) evitando el sedentarismo y el uso excesivo de las tecnologías, y elaborando en equipo un plan de actividades para la promoción de la salud."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Participa en actividades físicas de diferente intensidad de acuerdo con sus intereses personales, desarrollando sus capacidades condicionales y ejecutando de manera autónoma actividades de activación y relajación."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Participa en actividades de promoción de los hábitos de higiene personal y del ambiente en su comunidad."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 71,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1429,
+  "totalTokens": 3651,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

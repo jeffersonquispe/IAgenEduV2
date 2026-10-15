@@ -1,0 +1,71 @@
+{
+ "numero_pagina_impreso": 219,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se desenvuelve en entornos virtuales generados por las TIC",
+ "ciclo": "VII",
+ "capacidades": [
+  "Personaliza entornos virtuales.",
+  "Gestiona información del entorno virtual.",
+  "Interactúa en entornos virtuales.",
+  "Crea objetos virtuales en diversos formatos."
+ ],
+ "descripcion_nivel": "Se desenvuelve en los entornos virtuales cuando interactúa en diversos espacios (como portales educativos, foros, redes sociales, entre otros) de manera consciente y sistemática administrando información y creando materiales digitales en interacción con sus pares de distintos contextos socioculturales expresando su identidad personal.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Optimiza el desarrollo de proyectos cuando configura diversos entornos virtuales de software y hardware de acuerdo con determinadas necesidades cuando reconoce su identidad digital, con responsabilidad y eficiencia."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Administra bases de datos aplicando filtros, criterios de consultas y organización de información para mostrar reportes e informes que demuestren análisis y capacidad de síntesis."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Desarrolla proyectos productivos y de emprendimiento aplicando de manera idónea herramientas TIC que mejoren los resultados."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Elabora objetos virtuales con aplicaciones de modelado en 3D cuando desarrolla proyectos de innovación y emprendimiento. Ejemplo: Modela en 3D el prototipo de su producto."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Administra comunidades virtuales asumiendo distintos roles, estableciendo vínculos acordes con sus necesidades e intereses, y valorando el trabajo colaborativo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Construye prototipos robóticos que permitan solucionar problemas de su entorno."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO DE SECUNDARIA",
+   "texto": "Publica y comparte, en diversos medios virtuales, proyectos o investigaciones, y genera actividades de colaboración y diálogo en distintas comunidades y redes virtuales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 219,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 870,
+  "totalTokens": 3092,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

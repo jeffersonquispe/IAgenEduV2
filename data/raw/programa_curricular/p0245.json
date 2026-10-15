@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 245,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Interfaz\nEstá orientado a las actividades de la persona con elementos TIC y para que los pueda manipular. Hace referencia al conjunto de elementos de la pantalla que permiten al usuario realizar acciones sobre el entorno virtual donde está navegando. Es lo que permite comunicarse a la persona con cualquier máquina o dispositivo.\n\nMapeo de información\nEs organizar la comprensión de un tema para generar interactivamente una representación gráfica o espacial que se adapta al agregar nueva información o modificar su comprensión.\n\nNarrativa digital\nEs el diseño y construcción de objetos virtuales multimedia e interactivos para describir o registrar eventos o acontecimientos.\n\nPensamiento de diseño\nEs diseñar nuevos patrones, conceptos y propuestas en entornos virtuales para hacer frente a los hechos y problemas, integrando una comprensión y reflexión sobre soluciones nuevas y creativas.\n\nPortafolio virtual\nEs el almacenamiento de evidencias del proceso de enseñanza y aprendizaje en forma de objetos virtuales de manera sistemática y para compartirlas respetando las buenas prácticas de autoría.\n\nProgramación\nEs la generación de secuencias lógicamente organizadas para automatizar tareas o apoyar el desarrollo de actividades en los entornos virtuales.\n\nProyecto colaborativo virtual\nEs un producto o servicio generado a partir de la sistematización de sus interacciones y recursos en un proceso de intercambio colaborativo de información basado en entornos virtuales.\n\nUbicuo\nSignifica que está presente en muchos lugares y situaciones, y da la impresión de que está en todas partes.\n\nVirtual\nEs lo opuesto a lo real. En el ámbito de la informática y la tecnología, se refiere a la realidad construida mediante sistemas o formatos digitales.\n\nGestiona su aprendizaje de manera autónoma\n\nAprendizaje autónomo\nEs la facultad que tiene una persona para dirigir, controlar, regular y evaluar su forma de aprender, de forma consciente e intencionada.\n\nCriterios\nSon elementos que permiten comprobar que se ha realizado con éxito la tarea propuesta y que el producto de su actividad concuerda con el resultado esperado.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 245,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 694,
+  "totalTokens": 2783,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,33 @@
+{
+ "numero_pagina_impreso": 209,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "ASUME LA EXPERIENCIA DEL ENCUENTRO PERSONAL Y COMUNITARIO CON DIOS EN SU PROYECTO DE VIDA EN COHERENCIA CON SU CREENCIA RELIGIOSA",
+ "ciclo": null,
+ "capacidades": [
+  "Transforma su entorno desde el encuentro personal y comunitario con Dios y desde la fe que profesa: el estudiante expresa su fe de manera espontánea y con gratuidad en la construcción de una sociedad justa, solidaria y fraterna, a partir de su proyecto de vida integrador y significativo que favorezca la vida armónica con los demás desde los valores del Evangelio.",
+  "Actúa coherentemente en razón de su fe según los principios de su conciencia moral en situaciones concretas de la vida: el estudiante actúa según los principios de la conciencia ética y moral cristiana en situaciones concretas de la convivencia humana. Toman decisiones razonables en coherencia con los principios evangélicos."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El estudiante busca a Dios de tal modo que exprese la dimensión espiritual y religiosa de manera testimonial en su vida cotidiana para consolidar su proyecto de vida significativo. El estudiante asume a Jesucristo como modelo para el fortalecimiento de su propia fe y la configuración de su vida según los valores y virtudes de la tradición cristiana y los ideales del Evangelio en diálogo crítico con las enseñanzas de otras confesiones.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 209,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 481,
+  "totalTokens": 2703,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "numero_pagina_impreso": 133,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Expresa sus ideas y emociones en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel, organizándolas para establecer relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia y causa) y ampliando la información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Emplea estratégicamente gestos, movimientos corporales y contacto visual para enfatizar lo que dice. Ajusta el volumen y la entonación con pronunciación adecuada apoyándose en material concreto y audiovisual."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Participa en diversas situaciones comunicativas alternando los roles de hablante y oyente para preguntar, responder y explicar, y para complementar ideas y hacer comentarios relevantes en inglés con vocabulario cotidiano y pertinente. Respeta los modos de cortesía según el contexto."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Opina en inglés como hablante y oyente sobre el contenido y el propósito comunicativo del texto oral, y sobre las intenciones de los interlocutores a partir de su experiencia y el contexto en el que se desenvuelve."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "noticias, actividades en curso y pasadas; realizar pedidos, sugerencias y planes; pedir y dar consejo; sugerir y planificar una actividad; expresar causa y efecto; discutir acerca de preferencias propias y de otros; describir y recomendar películas; brindar instrucciones para llegar a algún punto."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Expresa sus ideas y emociones en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel, organizándolas para establecer relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando la información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Emplea estratégicamente gestos, movimientos corporales y contacto visual para enfatizar lo que dice. Ajusta el volumen y la entonación con pronunciación adecuada apoyándose en material concreto y audiovisual."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Participa en diversas situaciones comunicativas alternando los roles de hablante y oyente para preguntar, responder y explicar, y para complementar ideas, hacer comentarios relevantes y adaptar sus respuestas al interlocutor en inglés, con vocabulario cotidiano y pertinente. Respeta las normas y modos de cortesía según el contexto."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Opina en inglés como hablante y oyente sobre el contenido y el propósito comunicativo del texto oral, y sobre las intenciones de los interlocutores a partir de su experiencia y el contexto en el que se desenvuelve."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 133,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1058,
+  "totalTokens": 3280,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

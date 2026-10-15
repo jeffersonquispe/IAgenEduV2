@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 110,
+ "tipo": "narrativa",
+ "area": "Castellano como Segunda Lengua",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.6.1. Enfoque que sustenta el desarrollo de las competencias en el área de Castellano como Segunda Lengua\n\nEn esta área, el marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde al enfoque comunicativo, e incorpora las prácticas sociales del lenguaje y la perspectiva sociocultural.\n\n• El aprendizaje de segundas lenguas se sustenta en el enfoque comunicativo alimentado por el enfoque sociocultural que concibe el discurso escrito u oral como una práctica social, una forma de acción entre las personas que se articula a partir del uso de la lengua en diversas situaciones comunicativas. En este sentido, se basa en el desarrollo de la competencia comunicativa que implica saber adecuar el lenguaje en cualquier contexto o situación comunicativa, usar de forma pertinente el sistema formal —gramatical— de la lengua, usar diversos tipos de textos escritos y orales, y utilizar una serie de recursos y estrategias para lograr sus propósitos comunicativos. Esta competencia comunicativa se logra con la realización de distintas actividades de la lengua, que comprenden la comprensión y producción oral y escrita.\n\n• Incorporar las prácticas sociales del lenguaje porque las situaciones comunicativas no están aisladas, sino que forman parte de las interacciones que las personas realizan cuando participan en la vida social y cultural. A partir de estas prácticas, los estudiantes vivencian de manera permanente los usos y las posibilidades del lenguaje para dominarlo progresivamente.\n\n• Es sociocultural porque estas prácticas del lenguaje se encuentran situadas en contextos sociales y culturales diversos, y generan identidades individuales y colectivas. La oralidad y el lenguaje escrito adoptan características propias en cada uno de esos contextos, lo que implica tomar en cuenta cómo se usa el lenguaje en diversas culturas según su momento histórico y sus características socioculturales.\n\nEsta propuesta contempla la reflexión sobre el lenguaje a partir de su uso no solo como un medio para aprender en los diversos campos del saber, sino también para crear o apreciar distintas manifestaciones literarias, así como para comprender el mundo actual, tomar decisiones y actuar éticamente, lo que demanda el desarrollo del pensamiento crítico.\n\nA partir del desarrollo de las competencias comunicativas, los estudiantes establecen relaciones sociales a través de las cuales construyen sus identidades; reconocen y valoran las diferentes formas de comunicación; y participan en comunidades basadas en el acuerdo y el diálogo, donde se consolida la democracia y se distribuye equitativamente el conocimiento y el poder.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 110,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 788,
+  "totalTokens": 2877,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

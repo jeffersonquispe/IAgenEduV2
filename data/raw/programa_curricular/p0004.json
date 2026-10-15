@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 4,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "PRESENTACIÓN DEL PROGRAMA CURRICULAR DEL NIVEL DE EDUCACIÓN SECUNDARIA\n\nDesde hace algunos años, el Ministerio de Educación emprendió la tarea de actualizar el currículo para responder a las demandas de la sociedad del siglo XXI. En este marco, se realizaron consultas a diversos actores, en diferentes mesas de trabajo y de forma descentralizada. Estos aportes permitieron que el Currículo Nacional vaya tomando forma de manera progresiva y se convierta en un reflejo del deseo de todos los peruanos para que la educación contribuya a la formación de ciudadanos activos y comprometidos con el desarrollo sostenible de su país.\n\nEl Currículo Nacional mantiene, redireciona y fortalece el sentido de los enfoques que formaron parte de los currículos que lo precedieron, principalmente el de competencias, aprendizaje, enseñanza y evaluación. Esta situación plantea una evolución, es decir, un progreso orientado a contribuir en la tarea pedagógica de desarrollar las competencias de los estudiantes de acuerdo con las demandas de la sociedad actual. Estos cambios plantean el reto de articular la gestión institucional, el trabajo del docente, los materiales educativos y la evaluación con lo que se espera que aprendan los estudiantes en la institución educativa.\n\nEn virtud de lo expuesto, se ponen a disposición los programas curriculares de los niveles de Educación Inicial, Primaria y Secundaria. Estos programas tienen como finalidad contribuir con orientaciones específicas, según las características de los estudiantes de cada nivel educativo, en el proceso de concreción del Currículo Nacional en la institución educativa.\n\nEl programa del nivel de Educación Secundaria que a continuación presentamos contiene la caracterización de los estudiantes del nivel según los ciclos educativos, así como orientaciones para el tratamiento de los enfoques transversales, para la planificación, y para la Tutoría y Orientación Educativa. Asimismo, se presentan los marcos teóricos y metodológicos de las competencias organizados en áreas curriculares y los desempeños de grado alineados con las competencias, las capacidades y los estándares de aprendizaje nacionales.\n\nEl Currículo Nacional y sus programas curriculares solo se implementarán en las instituciones educativas si se logra que los docentes los lean, reflexionen críticamente sobre su contenido y los conviertan en instrumentos de su trabajo pedagógico. Para ello, es importante comprender el Perfil de egreso, sus vinculaciones con los enfoques transversales, las competencias, las capacidades, los estándares de aprendizaje y sus desempeños por grado para planificar y evaluar formativamente.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 4,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 807,
+  "totalTokens": 2896,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

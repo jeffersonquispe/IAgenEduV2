@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 44,
+ "tipo": "narrativa",
+ "area": "Ciencias Sociales",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.2.1. Enfoque que sustenta el desarrollo de las competencias en el área de Ciencias Sociales\n\nEl marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde al enfoque de la ciudadanía activa. Este enfoque promueve que todas las personas asuman responsablemente su rol como ciudadanos con derechos y deberes para participar activamente en el mundo social y en las diferentes dimensiones de la ciudadanía, propiciando la vida en democracia, la disposición para el enriquecimiento mutuo y el aprendizaje de otras culturas, así como una relación armónica con el ambiente. Para lograrlo, se promueven procesos de reflexión crítica acerca de la vida en sociedad y del rol de cada persona en esta. Asimismo, promueve la deliberación sobre los asuntos que nos involucran como ciudadanos y la acción sobre el mundo, de modo que éste sea, cada vez más, un mejor lugar de convivencia y respeto de derechos. En el marco de este enfoque, los estudiantes se formarán como ciudadanos conscientes de la sociedad donde viven y de su rol como sujetos históricos, a fin de que asuman compromisos y se constituyan en agentes de cambio de la realidad social, a través de los recursos ambientales y económicos.\n\nEl área de Ciencias Sociales tiene como propósito que los estudiantes puedan comprender la realidad del mundo en que viven, las experiencias colectivas pasadas y presentes, así como el espacio en se desarrolla la vida en sociedad. Además, busca que reconozcan los procesos de cambio en el tiempo histórico y su influencia en el momento presente, es decir, que aprendan a pensar históricamente para poder asumir la mejora de la sociedad donde se desarrollan. Este aprendizaje permite fortalecer el desarrollo de una conciencia crítica, solidaria y respetuosa que les permita participar en sociedad desde el conocimiento de sus derechos y responsabilidades.\n\nPor otro lado, el área pretende que nuestros estudiantes asuman que son parte de un pasado, pero que, desde el presente, están construyendo su futuro. Asimismo implica comprender que el espacio es una construcción social, en donde se relacionan las personas y que se va transformando según sus necesidades. Por esta razón, es importante promover una relación armónica que les permita aprovechar de manera racional y respetuosa lo que ofrece la naturaleza promoviendo el desarrollo sostenible. El área comprende, igualmente, las relaciones entre los elementos del sistema económico y financiero en diferentes niveles para contribuir al desarrollo económico sostenible y construir la ciudadanía económica en los estudiantes.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 44,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 797,
+  "totalTokens": 2886,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

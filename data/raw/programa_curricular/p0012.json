@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 12,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Para tener mayores referencias para actuar en estos casos se recomienda utilizar los diversos materiales de tutoría colgados en el siguiente enlace: tutoría.minedu.gob.pe.\n\nb. Las situaciones planificadas o previstas:\n\nSon aquellas acciones que anticipan los miembros de la institución educativa para abordar los valores y las actitudes relacionados con los enfoques transversales. Como en el caso de las situaciones emergentes, también responden a las necesidades e intereses de los estudiantes, así como a la realidad cotidiana y al contexto sociocultural.\n\nTodo aquello que se genera o planifica desde la institución educativa debe mostrar conexión directa con las actitudes y los valores relacionados con los enfoques transversales. Estos deben verse reflejados en la gestión de la institución; en las relaciones humanas; en tiempos y rutinas; y en la planificación del proceso enseñanza y aprendizaje. A continuación, se explica cada uno de ellos:\n\n• Gestión de la institución educativa: se demandan prácticas democráticas que permitan la participación de toda la comunidad educativa y, en especial, de los estudiantes. Para que los enfoques transversales realmente se vivencien en la comunidad educativa, y estén presentes en todos y cada uno de los espacios que la conforman, estos deben verse reflejados en:\n  - El Proyecto educativo institucional.\n  - El Plan anual de trabajo.\n  - El Proyecto curricular institucional.\n  - El Reglamento interno de la institución educativa.\n\n• Relaciones humanas al interior de la escuela: se requiere que la gestión escolar impulse un clima favorable al aprendizaje y que propicie:\n  - Una convivencia grata, inclusiva y respetuosa.\n  - Un espíritu de integración y colaboración entre las personas que conforman la comunidad educativa.\n  - La solución respetuosa y democrática de los conflictos a través del intercambio de ideas en un clima de respeto.\n  - El respeto por el rol de la familia en el proceso de aprendizaje de sus hijos y la valoración de las experiencias personales y sociales como una oportunidad de aprendizaje.\n\n• La planificación curricular del docente: se parte por definir los propósitos de aprendizaje (competencias y enfoques transversales). Estos se ponen de manifiesto a partir de situaciones significativas. Esto, desde la perspectiva de los enfoques transversales, implica lo siguiente:\n  - Promover una comunicación afectiva en la cual los docentes y alumnos se sientan respetados, y los estudiantes sientan que los docentes se preocupan por ellos y sus aprendizajes. Se ha de procurar un clima de confianza donde se promueva la escucha atenta, la aceptación mutua de las ideas, etc. Para ello, son fundamentales las actitudes del docente por su acción como modelo para los estudiantes.\n  - Brindar espacios a los estudiantes para el diálogo, el debate, la discusión y la toma de decisiones, en relación con la forma de actuar de ellos u otras personas frente a diversas situaciones. En la interacción con los demás, el estudiante aprende a ser tolerante, a aceptar las ideas de otros y a ser responsable de sus acciones en un clima de colaboración.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 12,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 971,
+  "totalTokens": 3060,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

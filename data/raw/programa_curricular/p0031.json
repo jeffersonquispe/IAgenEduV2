@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 31,
+ "tipo": "narrativa",
+ "area": "Área de Desarrollo Personal, Ciudadanía y Cívica",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "La democracia en el siglo XXI demanda a la Escuela un papel importante en la formación ciudadana de nuestros estudiantes, esto con el fin de convertirlos en agentes sociales de cambio, que sean capaces de pensar y actuar de manera propositiva frente a las demandas y desafíos que se presentan en su escuela, localidad y país.\n\nLas demandas y los desafíos sociales son una oportunidad para formar personas seguras de sí mismas e identificadas con su cultura y su país, así como ciudadanos activos y comprometidos, capaces de proponer mejoras en su escuela, comunidad y país. Por ello, a través del área de Desarrollo Personal, Ciudadanía y Cívica, se pretende que los estudiantes desarrollen una identidad personal y una ciudadanía activa y comprometida con los valores cívicos, que aporten en la construcción de una sociedad democrática, institucional y participativa.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. En especial, el área de Desarrollo Personal, Ciudadanía y Cívica se ocupa de promover y facilitar que los estudiantes desarrollen las siguientes competencias:\n\n• Construye su identidad\n\n• Convive y participa democráticamente en la búsqueda del bien común.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 31,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 478,
+  "totalTokens": 2700,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

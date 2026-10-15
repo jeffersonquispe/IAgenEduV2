@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": null,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "EDUCACIÓN BÁSICA REGULAR\n\nPrograma curricular de Educación Secundaria\n\n2016",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 1,
+ "_uso": {
+  "inputTokens": 2068,
+  "outputTokens": 138,
+  "totalTokens": 2206,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

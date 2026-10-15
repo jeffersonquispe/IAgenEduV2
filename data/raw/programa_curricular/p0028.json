@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 28,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "5.3 Sobre el rol del adulto\n\nUn aspecto fundamental para la práctica pedagógica es que el docente construya un vínculo basado en el respeto, cuidado e interés por el bienestar del estudiante. En este sentido brindamos algunas recomendaciones:\n\n- Dirigirse al estudiante con respeto, mirándolo a los ojos y llamándolo por su nombre de manera cálida durante las interacciones.\n- Evitar el uso de diminutivos o palabras que sustituyan su nombre, sin dejar de mantener un trato cordial y horizontal.\n- Estar atento y disponible para responder de forma oportuna y afectuosa a las necesidades de los estudiantes.\n- Acompañar permanentemente a los estudiantes, observándolos y escuchándolos para conocerlos, comprender su desarrollo, identificar sus fortalezas, necesidades e intereses e intervenir de forma pertinente y oportuna.\n- Avisar a los estudiantes con anticipación la acción o actividad que se va a realizar, así como el término de esta y el inicio de una nueva.\n- Permitirle al estudiante decidir y elegir, a partir de la reflexión sobre las consecuencias de sus acciones.\n- Mantener una actitud flexible, cordial y respetuosa para interactuar con los estudiantes. Esta se evidencia a través de la voz, gestos, miradas y disposición corporal.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 28,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 465,
+  "totalTokens": 2554,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 228,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Género\nSe entiende por género el conjunto de características y formas de ser, sentir y actuar que se atribuyen a varones y mujeres en las diversas sociedades y culturas. Éstas se traducen en relaciones de poder que se ejercen de un género sobre el otro. Es decir, las formas de actuar, pensar, sentir y relacionarse que consideramos \"propias\" de las mujeres o de los varones son aprendidas, pueden variar según el contexto histórico y social, y no dependen necesariamente del sexo biológico de las personas.\n\nIdentidad\nAlude al sentido de mismidad y continuidad a través del tiempo y los diversos cambios experimentados. Se desarrolla desde el nacimiento y, por lo general, se consolida hacia el final de la adolescencia y continúa su desarrollo a lo largo del ciclo vital. El logro de la identidad supone la posibilidad de sentir que seguimos siendo \"la misma persona\" frente a diversas situaciones que enfrentamos y que exigen de nosotros comportamientos disímiles.\n\nEs la conciencia de que una persona tiene que ser ella misma y distinta de los demás. Involucrará la noción de singularidad, que hace única y diferente a cada persona, y alude, a la vez, a lo que se comparte con otros, lo que permite ubicar a una persona como parte de un grupo de referencia. La identidad se construye a través de un proceso de diferenciación de la persona con respecto a los otros y de un proceso de integración que permite la pertenencia e identificación con un grupo. La identidad es tanto una construcción personal como una construcción social.\n\nIgualdad de género\nEs la valoración igualitaria de los diferentes comportamientos, aspiraciones y necesidades de los hombres y mujeres. En una situación de igualdad real, los derechos, responsabilidades y oportunidades de hombres y mujeres no dependen de su naturaleza biológica y, por tanto, tienen las mismas condiciones y posibilidades para ejercer sus derechos y ampliar sus capacidades y oportunidades de desarrollo personal. De esta forma, se contribuye al desarrollo social y las mismas personas se benefician de sus resultados.\n\nParticipación ciudadana\nEs la acción coordinada de los ciudadanos y ciudadanas en la búsqueda del bien común desde una perspectiva democrática. Implica tomar acción en los procesos de toma de decisiones públicas que tienen repercusión en sus vidas, a partir del reconocimiento de sus deberes y derechos. Implica no solo respetar la legislación sino hacerla respetar, lo que puede suponer la denuncia de delitos ecológicos. Se busca generar capacidades y disposiciones para una participación activa, tanto individual como colectiva, en el mantenimiento y conservación de los ecosistemas y la toma de decisiones de gestión ambiental para contribuir a la construcción de una cultura ambiental que sirva de base a sociedades sostenibles.\n\nSexualidad\nEs el conjunto de características inherentes a la persona humana que integran las dimensiones biológico-reproductivas, socioafectivas, éticas y morales. Es importante destacar que la sexualidad no es solo biológica. Se trata, más bien, de una construcción social y simbólica que las distintas sociedades han elaborado a partir de la incontrovertible evidencia de las diferencias sexuales entre hombres y mujeres. Las personas somos seres sexuados no solo por las características corporales, sino también por todos los significados sociales, culturales y políticos que las sociedades han construido a lo largo de la historia en torno al sexo.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 228,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1023,
+  "totalTokens": 3112,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 256,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "• Arias, C., Giraldo, D. y Anayá, L. (2013). Competencia creatividad e innovación: conceptualización y abordaje en la educación. En Formando comunidades académicas para el emprendimiento sustentable: VII Workshop (pp. 187-204). Medellín, Colombia: Fondo Editorial Remington.\n• Bastos, M. y Carvalho, M. (2013). Novos modelos de educação humanística e empreendedora: uma realidade possível. En Formando comunidades académicas para el emprendimiento sustentable: VII Workshop (pp.87-102). Medellín, Colombia: Fondo Editorial Remington.\n• Chiova, M. y otros (2011). Aprendiendo de las empresas sociales. Seis casos de emprendimientos sociales en Europa. España: El Tinter.\n• Curto, M. (2012). El emprendimiento social: estructura organizativa, retos y perspectivas de futuro. Cuaderno, 14, 7-19.\n• De Souza, B. (2013). Contribución y elementos para un metamodelo emprendedor brasileño. Medellín, Colombia: Corporación Universitaria Remington.\n• Dolabela, F. (2005). Taller del emprendedor: Un metodología de enseñanza que ayuda a transformar el conocimiento en riqueza para el desarrollo económico y social de los regiones. Rosario, Argentina: Editorial de la Universidad Nacional de Rosario.\n• Dolabela, F. (2006). El secreto de Luisa. Rosario, Argentina: Editorial de la Universidad Nacional de Rosario.\n• Dolabela, F. (2009). A ponte mágica. Río de Janeiro, Brasil: GMT Editores.\n• Dolabela, F. (2009). Quero construir a minha historia. Río de Janeiro, Brasil: GMT Editores.\n• Dolabela, F. (2010). Pedagogía emprendedora: la enseñanza del emprendedurismo en la educación básica, en busca del desarrollo social sustentable. Una experiencia latinoamericana. Santa Fe, Colombia: Ediciones Santa Fe Innova.\n• Dolabela, F. (2014). Empreendedorismo na base da pirámide: A historia de um intraempreendedor. Río de Janeiro, Brasil: Alta Books.\n• Filion, J. (2000). Empreendedorismo e gerenciamento: processos distintos, porém complementares. Revista de Administración de Empresas/EAESP, 7(3), páginas 2-7.\n• Filion, L. y Dolabela, F. (2011). La realización de una revolución en Brasil: la introducción de la pedagogía empresarial en las etapas tempranas de la educación. En Desarrollo, Innovación y Cultura Empresarial. Santiago de Cali, Colombia: Universidad Icesi, Centro de Desarrollo del Espíritu Empresarial.\n• Filion, L. (2002). Entrepreneurs et propriétaires-dirigeants de PME. En Les PME: Bilan et Perspectives (capítulo 9). Québec, Canadá: GREPME Presses Inter-Universitaires.\n• Gibb, A. (2011). Espíritu empresarial: Soluciones únicas para ambientes únicos. ¿Acaso es posible lograr esto con el paradigma existente? En Desarrollo, Innovación y Cultura Empresarial 2da edición. Santiago de Cali, Colombia: Universidad Icesi – Centro de Desarrollo del Espíritu Empresarial, página 11-77.\n• Herrera, C. y Montoya, L. (2013). El emprendedor: una aproximación a su definición y caracterización. Punto de vista, 4(7), 7-30.\n• Kantis, H. (2008). Aportes para el diseño de Programas Nacionales de Desarrollo Emprendedor en América Latina. Washington, EEUU: Banco Interamericano de Desarrollo.\n• Kotler, P. (2003). Los 80 conceptos esenciales del Marketing de la A a la Z. Madrid, España: Prentice Hall.\n• Kurlat, J. (2010). Emprendimientos productivos: herramientas para la gestión de emprendimientos. Buenos Aires, Argentina: Ediciones del INTI.\n• Lores, G., Rivera, M. y Carmona, G. (2013). Propuesta didáctica para desarrollar las habilidades de emprendimiento escolar. En Formando comunidades académicas para el emprendimiento sustentable: VII Workshop. Medellín, Colombia: Fondo editorial Remington.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 256,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1304,
+  "totalTokens": 3393,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

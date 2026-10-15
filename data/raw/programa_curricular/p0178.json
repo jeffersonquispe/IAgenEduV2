@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 178,
+ "tipo": "narrativa",
+ "area": "Ciencia y Tecnología",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.9.1. Enfoques que sustentan el desarrollo de las competencias en el área de Ciencia y Tecnología\n\nEl marco teórico y metodológico que orienta el proceso de enseñanza y aprendizaje en esta área corresponde al enfoque de indagación y alfabetización científica y tecnológica, sustentado en la construcción activa del conocimiento a partir de la curiosidad, la observación y el cuestionamiento que realizan los estudiante al interactuar con el mundo. En este proceso, exploran la realidad; expresan, dialogan e intercambian sus formas de pensar el mundo; y las contrastan con los conocimientos científicos. Estas habilidades les permiten profundizar y construir nuevos conocimientos, resolver situaciones y tomar decisiones con fundamento científico. Asimismo, les permiten reconocer los beneficios y limitaciones de la ciencia y la tecnología y comprender las relaciones que existen entre la ciencia, la tecnología y la sociedad.\n\nLo que se propone a través de este enfoque es que los estudiantes tengan la oportunidad de \"hacer ciencia y tecnología\" desde la escuela, de manera que aprendan a usar procedimientos científicos y tecnológicos que los motiven a explorar, razonar, analizar, imaginar e inventar; a trabajar en equipo; y a incentivar su curiosidad y creatividad; y a desarrollar un pensamiento crítico y reflexivo.\n\nIndagar científicamente es conocer, comprender y usar los procedimientos de la ciencia para construir o reconstruir conocimientos. De esta manera, los estudiantes aprenden a plantear preguntas o problemáticas sobre los fenómenos, la estructura o la dinámica del mundo físico. Movilizan sus ideas para proponer hipótesis y acciones que les permitan obtener, registrar y analizar información que luego comparan con sus explicaciones, y estructuran nuevos conceptos que los conducen a nuevas preguntas e hipótesis. Involucra, también, una reflexión sobre los procesos que se llevan a cabo durante la indagación, a fin de entender la ciencia como proceso y producto humano que se construye en colectivo.\n\nLa alfabetización científica y tecnológica implica que los estudiantes usan el conocimiento científico y tecnológico en su vida cotidiana para comprender el mundo que los rodea, y el modo de hacer y pensar de la comunidad científica. Supone, también, proponer soluciones tecnológicas que satisfagan necesidades en su comunidad y el mundo, y ejercer su derecho a una formación que les permita desenvolverse como ciudadanos responsables, críticos y autónomos frente a situaciones personales o públicas asociadas a la ciencia y la tecnología. Es decir, lo que se busca es formar ciudadanos que influyan en la calidad de vida y del ambiente en su comunidad, país y planeta.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 178,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 823,
+  "totalTokens": 2912,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

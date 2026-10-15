@@ -1,0 +1,81 @@
+{
+ "numero_pagina_impreso": 162,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de regularidad, equivalencia y cambio",
+ "ciclo": "VII",
+ "capacidades": [
+  "Traduce datos y condiciones a expresiones algebraicas y gráficas.",
+  "Comunica su comprensión sobre las relaciones algebraicas.",
+  "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales.",
+  "Argumenta afirmaciones sobre relaciones de cambio y equivalencia."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a analizar cambios continuos o periódicos, o regularidades entre magnitudes, valores o expresiones, traduciéndolas a expresiones algebraicas que pueden contener la regla general de progresiones geométricas, sistema de ecuaciones lineales, ecuaciones y funciones cuadráticas y exponenciales. Evalúa si la expresión algebraica reproduce las condiciones del problema. Expresa su comprensión de la regla de formación de sucesiones y progresiones geométricas; la solución o conjunto solución de sistemas de ecuaciones lineales e inecuaciones; la diferencia entre una función lineal y una función cuadrática y exponencial y sus parámetros; las usa para interpretar enunciados o textos o fuentes de información usando lenguaje matemático y gráficos. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos para determinar términos desconocidos en progresiones geométricas, solucionar ecuaciones lineales o cuadráticas, simplificar expresiones usando identidades algebraicas; evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea afirmaciones sobre enunciados opuestos o casos especiales que se cumplen entre expresiones algebraicas; así como predecir el comportamiento de variables; comprueba o descarta la validez de la afirmación mediante contraejemplos y propiedades matemáticas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos, valores desconocidos, regularidades, y condiciones de equivalencia o de variación entre magnitudes. Transforma esas relaciones a expresiones algebraicas o gráficas (modelos) que incluyen sucesiones crecientes o decrecientes, a sistemas de ecuaciones lineales con dos incógnitas, a inecuaciones, a funciones cuadráticas con coeficientes racionales y a funciones exponenciales.\nEjemplo: El estudiante resuelve la siguiente situación: \"Si al doble de la cantidad de monedas de 5 soles que tengo le sumo 1000 soles, juntaré más de 3700 soles. ¿Cuántas monedas de 5 soles tengo cómo mínimo?\". Para ello, plantea inecuaciones lineales y halla la cantidad mínima de monedas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Realiza ajustes o modificaciones a la expresión algebraica o gráfica (modelos) planteada cuando no cumple con todas las condiciones del problema o, si lo considera necesario, la ajusta a nuevas condiciones en problemas similares."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la regla de formación de una sucesión creciente y decreciente, para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución o soluciones de una ecuación cuadrática y el sentido de sus valores máximos o mínimos e interceptos, en el contexto del problema. Interrelaciona estas representaciones y selecciona la más conveniente."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la dilatación, la contracción, los desplazamientos horizontales y verticales, las intersecciones con los ejes de una función cuadrática, y la función exponencial al variar sus coeficientes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Combina y adapta estrategias heurísticas, recursos, métodos gráficos o procedimientos más óptimos para hallar términos desconocidos de una sucesión creciente o decreciente, y para solucionar sistemas de ecuaciones lineales, ecuaciones cuadráticas y exponenciales, usando identidades algebraicas o propiedades de las desigualdades."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea afirmaciones sobre características de una sucesión creciente y decreciente, u otras relaciones de cambio que descubre. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea afirmaciones sobre la posibilidad o imposibilidad de solucionar una ecuación cuadrática sobre la base del análisis de sus coeficientes o el valor del discriminante. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea afirmaciones sobre relaciones de cambio que observa entre las variables de una función exponencial o funciones cuadráticas. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo. Ejemplo: El estudiante observa el gráfico y describe que, al cabo de 13 o 14 horas, las bacterias habrán superado el número de 10 000 y que el crecimiento es más acelerado cuando pasa el tiempo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 162,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1950,
+  "totalTokens": 4172,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 5
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

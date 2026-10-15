@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 2,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "CONTENIDO\n\nPRESENTACIÓN DEL PROGRAMA CURRICULAR DE EDUCACIÓN SECUNDARIA\n\nPERFIL DE EGRESO DE LA EDUCACIÓN BÁSICA\n\nI. EL NIVEL DE EDUCACIÓN SECUNDARIA\n\n1.1 Los ciclos que atiende el nivel de Educación Secundaria\n\nII. ENFOQUES TRANSVERSALES EN EL NIVEL DE EDUCACIÓN SECUNDARIA\n\n2.1 ¿Cómo se abordan los enfoques transversales?\n\nIII. ORIENTACIONES PARA PLANIFICAR EL PROCESO DE ENSEÑANZA, APRENDIZAJE Y EVALUACIÓN FORMATIVA\n\n3.1 ¿Qué entendemos por planificar el proceso de enseñanza, aprendizaje y su relación con la evaluación formativa?\n\n3.2 ¿Qué considerar al momento de planificar?\n\n3.3 ¿Qué tipos de planificación hay?\n\n3.4 ¿Cómo planificar?\n\nIV. TUTORÍA Y ORIENTACIÓN EDUCATIVA EN EL NIVEL DE EDUCACIÓN SECUNDARIA\n\n4.1 ¿Cómo se relaciona la Tutoría y orientación educativa con los Enfoques transversales?\n\n4.2 ¿Cómo se relaciona la Tutoría y orientación educativa con el desarrollo de competencias?\n\n4.3 ¿Cómo identificar las necesidades de orientación del grupo de estudiantes?\n\n4.4 ¿Cómo trabajamos la Tutoría en Educación Secundaria?\n\n4.5 ¿Cómo trabajar con las familias?\n\nV. ESPACIOS Y MATERIALES EDUCATIVOS Y ROL DEL ADULTO\n\n5.1 En relación a los espacios educativos\n\n5.2 En relación a los materiales educativos\n\n5.3 En relación al rol del adulto",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 2,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 654,
+  "totalTokens": 2743,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

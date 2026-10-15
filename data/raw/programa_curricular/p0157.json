@@ -1,0 +1,70 @@
+{
+ "numero_pagina_impreso": 157,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Resuelve problemas de regularidad, equivalencia y cambio",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Resuelve problemas referidos a analizar cambios discontinuos o regularidades, entre magnitudes, valores o expresiones; traduciéndolas a expresiones algebraicas que pueden incluir la regla de formación de sucesiones convergentes o divergentes, funciones periódicas seno y coseno, o ecuaciones exponenciales que mejor se ajusten al comportamiento. Expresa su comprensión de las propiedades o elementos de los sistemas de inecuaciones lineales, ecuaciones exponenciales y funciones definidas en tramos; usando lenguaje formal y diversas representaciones; y las usa para interpretar información científica, financiera y matemática. Combina e integra un amplio repertorio de recursos, estrategias o procedimientos matemáticos para interpolar, extrapolar valores o calcular el valor máximo o mínimo de sucesiones y sumatorias notables, así como de funciones trigonométricas y evaluar o definir funciones por tramos; optando por los más pertinentes a la situación. Elabora afirmaciones sobre la validez general de relaciones entre conceptos y procedimientos algebraicos, así como predecir el comportamiento de las variables; las sustenta con demostraciones o argumentos que evidencian su solvencia conceptual."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Resuelve problemas referidos a analizar cambios continuos o periódicos, o regularidades entre magnitudes, valores o expresiones, traduciéndolas a expresiones algebraicas que pueden contener la regla general de progresiones geométricas, sistema de ecuaciones lineales, ecuaciones y funciones cuadráticas y exponenciales. Evalúa si la expresión algebraica reproduce las condiciones del problema. Expresa su comprensión de la regla de formación de sucesiones y progresiones geométricas; la solución o conjunto solución de sistemas de ecuaciones lineales e inecuaciones; la diferencia entre una función lineal y una función cuadrática y exponencial y sus parámetros; las usa para interpretar enunciados o textos o fuentes de información usando lenguaje matemático y gráficos. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos para determinar términos desconocidos en progresiones geométricas, solucionar ecuaciones lineales o cuadráticas, simplificar expresiones usando identidades algebraicas; evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea afirmaciones sobre enunciados opuestos o casos especiales que se cumplen entre expresiones algebraicas; así como predecir el comportamiento de variables; comprueba o descarta la validez de la afirmación mediante contraejemplos y propiedades matemáticas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Resuelve problemas referidos a interpretar cambios constantes o regularidades entre magnitudes, valores o entre expresiones; traduciéndolas a patrones numéricos y gráficos, progresiones aritméticas, ecuaciones e inecuaciones con una incógnita, funciones lineales y afín, y relaciones de proporcionalidad directa e inversa. Comprueba si la expresión algebraica usada expresó o reprodujo las condiciones del problema. Expresa su comprensión de: la relación entre función lineal y proporcionalidad directa; las diferencias entre una ecuación e inecuación lineal y sus propiedades; la variable como un valor que cambia; el conjunto de valores que puede tomar un término desconocido para verificar una inecuación; las usa para interpretar enunciados, expresiones algebraicas o textos diversos de contenido matemático. Selecciona, emplea y combina recursos, estrategias, métodos gráficos y procedimientos matemáticos para determinar el valor de términos desconocidos en una progresión aritmética, simplificar expresiones algebraicas y dar solución a ecuaciones e inecuaciones lineales, y evaluar funciones lineales. Plantea afirmaciones sobre propiedades de las progresiones aritméticas, ecuaciones e inecuaciones así como de una función lineal, lineal afín con base a sus experiencias, y las justifica mediante ejemplos y propiedades matemáticas; encuentra errores o vacíos en las argumentaciones propias y las de otros y las corrige."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Resuelve problemas de equivalencias, regularidades o relaciones de cambio entre dos magnitudes o entre expresiones; traduciéndolas a ecuaciones que combinan las cuatro operaciones, a expresiones de desigualdad o a relaciones de proporcionalidad directa, y patrones de repetición que combinan criterios geométricos y cuya regla de formación se asocia a la posición de sus elementos. Expresa su comprensión del término general de un patrón, las condiciones de desigualdad expresadas con los signos > y <, así como de la relación proporcional como un cambio constante; usando lenguaje matemático y diversas representaciones. Emplea recursos, estrategias y propiedades de las igualdades para resolver ecuaciones o hallar valores que cumplen una condición de desigualdad o proporcionalidad; así como procedimientos para crear, continuar o completar patrones. Realiza afirmaciones a partir de sus experiencias concretas, sobre patrones y sus elementos no inmediatos; las justifica con ejemplos, procedimientos, y propiedades de la igualdad y desigualdad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Resuelve problemas que presentan dos equivalencias, regularidades o relación de cambio entre dos magnitudes y expresiones; traduciéndolas a igualdades que contienen operaciones aditivas o multiplicativas, a tablas de valores y a patrones de repetición que combinan criterios aditivos o multiplicativos. Expresa su comprensión de la regla de formación de un patrón y del signo igual para expresar equivalencias. Así también, describe la relación de cambio entre una magnitud y otra; usando lenguaje matemático y diversas representaciones. Emplea estrategias, la descomposición de números, el cálculo mental, para crear, continuar o completar patrones de repetición. Hace afirmaciones sobre patrones, la equivalencia entre expresiones y sus variaciones y las propiedades de la igualdad, las justifica con argumentos y ejemplos concretos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Resuelve problemas que presentan equivalencias o regularidades, traduciéndolas a igualdades que contienen operaciones de adición o de sustracción y a patrones de repetición de dos criterios perceptuales y patrones aditivos. Expresa su comprensión de las equivalencias y de cómo es un patrón, usando material concreto y diversas representaciones. Emplea estrategias, la descomposición de números, cálculos sencillos para encontrar equivalencias, o para continuar y crear patrones. Explica las relaciones que encuentra en los patrones y lo que debe hacer para mantener el \"equilibrio\" o la igualdad, con base en experiencias y ejemplos concretos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de las competencias \"Resuelve problemas de cantidad\" y \"Resuelve problemas de forma, movimiento y localización\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de las competencias \"Resuelve problemas de cantidad\" y \"Resuelve problemas de forma, movimiento y localización\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 157,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 2120,
+  "totalTokens": 4342,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [
+   {
+    "tipo": "conflicto_estandares",
+    "antes_sonnet": "Resuelve problemas referidos a interpretar cambios constantes o regularidades entre magnitudes, valores o entre expresiones; traduciéndolas a patrones numéricos y gráficos, progresiones aritméticas, ecuaciones e inecuaciones con una incógnita, funciones lineales y afín, y relaciones de proporcionalidad directa e inversa. Comprueba si la expresión algebraica usada expresó o reprodujo las condiciones del problema. Expresa su comprensión de: la relación entre función lineal y proporcionalidad directa; las diferencias entre una ecuación e inecuación lineal y sus propiedades; la variable como un valor que cambia; el conjunto de valores que puede tomar un término desconocido para verificar una inecuación; las usa para interpretar enunciados, expresiones algebraicas o textos diversos de contenido matemático. Selecciona, emplea y combina recursos, estrategias, métodos gráficos y procedimientos matemáticos para determinar el valor de términos desconocidos en una progresión aritmética, simplificar expresiones algebraicas y dar solución a ecuaciones e inecuaciones lineales, y evaluar funciones lineales. Plantea afirmaciones sobre propiedades de las progresiones aritméticas, ecuaciones e inecuaciones así como de una función lineal, lineal afín con base a sus experiencias, y las justifica mediante ejemplos y propiedades matemáticas; encuentra errores o vacíos en las argumentaciones propias y las de otros y las corrige.",
+    "haiku": "Resuelve problemas de equivalencias, regularidades o relaciones de cambio entre dos magnitudes o expresiones; traduciéndolas a ecuaciones que combinan las cuatro operaciones, a expresiones de desigualdad o a relaciones de proporcionalidad directa, y patrones de repetición que combinan criterios geométricos y cuya regla de formación se asocia a la posición de sus elementos. Expresa su comprensión del término general de un patrón, las condiciones de desigualdad expresadas con los signos >, <, así como de la relación proporcional como un cociente constante; usando lenguaje matemático y diversas representaciones. Emplea recursos, estrategias y propiedades de las igualdades para resolver ecuaciones o hallar valores que cumplen una condición de desigualdad o proporcionalidad; así como procedimientos para crear, continuar y completar patrones. Plantea afirmaciones a partir de sus experiencias concretas, sobre patrones y sus elementos no inmediatos; las justifica con ejemplos, procedimientos, y propiedades de la igualdad y desigualdad.",
+    "despues": "Resuelve problemas de equivalencias, regularidades o relaciones de cambio entre dos magnitudes o entre expresiones; traduciéndolas a ecuaciones que combinan las cuatro operaciones, a expresiones de desigualdad o a relaciones de proporcionalidad directa, y patrones de repetición que combinan criterios geométricos y cuya regla de formación se asocia a la posición de sus elementos. Expresa su comprensión del término general de un patrón, las condiciones de desigualdad expresadas con los signos > y <, así como de la relación proporcional como un cambio constante; usando lenguaje matemático y diversas representaciones. Emplea recursos, estrategias y propiedades de las igualdades para resolver ecuaciones o hallar valores que cumplen una condición de desigualdad o proporcionalidad; así como procedimientos para crear, continuar o completar patrones. Realiza afirmaciones a partir de sus experiencias concretas, sobre patrones y sus elementos no inmediatos; las justifica con ejemplos, procedimientos, y propiedades de la igualdad y desigualdad."
+   }
+  ],
+  "tercera_lectura": [],
+  "preguntas": 3
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

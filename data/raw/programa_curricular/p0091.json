@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 91,
+ "tipo": "narrativa",
+ "area": "Comunicación",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.5.1. Enfoque que sustenta el desarrollo de las competencias en el área de Comunicación\n\nEl marco teórico y metodológico que orienta la enseñanza y el aprendizaje del área corresponde al enfoque comunicativo. El enfoque orienta el desarrollo de competencias comunicativas a partir de usos y prácticas sociales del lenguaje, situados en contextos socioculturales distintos:\n\n• Es comunicativo porque su punto de partida es el uso de lenguaje para comunicarse con otros. Al comunicarse, los estudiantes comprenden y producen textos orales y escritos de distinto tipo textual, formato y género discursivo, con diferentes propósitos y en variados soportes, como los impresos, los audiovisuales y los digitales, entre otros.\n\n• Considera las prácticas sociales del lenguaje porque la comunicación no es una actividad aislada, sino que se produce cuando las personas interactúan entre sí al participar en la vida social y cultural. En estas interacciones, el lenguaje se usa de diferentes modos para construir sentidos en los textos.\n\n• Enfatiza lo sociocultural porque estos usos y prácticas del lenguaje se sitúan en contextos sociales y culturales específicos. Los lenguajes orales y escritos adoptan características propias en cada uno de esos contextos y generan identidades individuales y colectivas. Por ello, se debe tomar en cuenta cómo se usa el lenguaje en las diversas culturas según su momento histórico y sus características socioculturales, sobre todo en un país como el nuestro donde se hablan 47 lenguas originarias, además del castellano.\n\nAsimismo, el área contempla la reflexión sobre el lenguaje a partir de su uso, no solo como un medio para aprender en los diversos campos del saber, sino también para crear o apreciar distintas manifestaciones literarias, y para desenvolverse en distintas facetas de la vida. Esa reflexión se realiza considerando el impacto de las tecnologías en la comunicación humana. De este modo, se asegura la apropiación integral del lenguaje.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 91,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 638,
+  "totalTokens": 2727,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 221,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "7.2.1 Enfoque que sustenta el desarrollo de la competencia transversal \"Gestiona su aprendizaje de manera autónoma\"\n\nLa competencia se sustenta en el enfoque metacognitivo y autorregulado. Estos dos aspectos son intrínsecos al enfoque, pues no solo se complementan sino que conforman un mismo proceso que la persona realiza al aprender a aprender. Por eso, lo metacognitivo se entiende como la reflexión consciente que debe realizar todo estudiante sobre cómo, qué y para qué aprende, lo cual contribuye a que el aprendizaje se convierta en significativo. Además, implica que, ante una tarea, sea capaz de tomar conciencia de lo que conoce y lo que necesita conocer, de organizar sus recursos, y de aplicar estrategias para resolver la tarea encomendada para el desarrollo del aprendizaje. Pero esto no es suficiente pues se requiere autorregulación, es decir, activar el proceso mental que le permita al estudiante contrastar y ajustar sus conocimientos, y evaluar cómo ha organizado sus recursos y si las estrategias aplicadas son eficientes antes, durante y después del proceso de aprendizaje, para alcanzar de manera autónoma el logro de una tarea.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 221,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 444,
+  "totalTokens": 2533,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

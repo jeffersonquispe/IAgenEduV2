@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 196,
+ "tipo": "narrativa",
+ "area": "Educación para el Trabajo",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.10.1. Enfoque que sustenta el desarrollo de la competencia del área de Educación para el Trabajo\n\nEn esta área, el marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde a un enfoque que recoge los principios teóricos de la pedagogía emprendedora, la educación social y financiera, y la educación para el empleo y la vida práctica. Estos marcos consideran al estudiante un agente social y económico activo que es capaz de crear y gestionar impactos positivos en su entorno diseñando y llevando a la acción una iniciativa colectiva a través de un proyecto de emprendimiento. En este pone en práctica sus capacidades para la empleabilidad.\n\nLos proyectos de emprendimiento comprenden la implementación de alternativas de solución pertinentes y con alto potencial de transformación, las que son plasmadas en una propuesta de valor de un bien o servicio diseñado para resolver una necesidad no satisfecha o problema económico, ambiental o social que afecta a un grupo de personas considerando los marcos éticos y culturales. Un proyecto de emprendimiento puede orientarse a lograr un beneficio puramente social (por ejemplo, iniciar un programa de voluntariado escolar que enseñe danza y teatro a niños más pequeños), un beneficio puramente económico (producir canastas para recojo de café rescatando tecnologías ancestrales de la comunidad y ofrecerlas en venta), o un beneficio puramente ambiental (iniciar un programa de manejo integral de residuos sólidos en la escuela y comunidad, con la participación de la municipalidad y organizaciones de recicladores locales), o beneficios que combinen el valor social, ambiental y el económico (producir estantes para los libros del aula usando cajas de fruta recicladas para generar un ahorro de presupuesto que puede invertirse en más libros o producir filtantes de café usando como materia prima la producción de pequeños agricultores para mejorar sus ingresos). Se considera que el proyecto emprendido busca siempre un impacto positivo y se alinea, desde la ética práctica, al bien común y al desarrollo sostenible al estar pensado para resolver un problema o necesidad real del entorno brindando una solución creativa, y que genere valor y beneficios económicos, sociales o ambientales.\n\nPara lograr los objetivos y metas propuestos en el proyecto de emprendimiento, los estudiantes trabajan cooperativamente, desempeñando con excelencia y responsabilidad un rol al interior del equipo. Valoran los aportes y roles que desempeñan sus compañeros, e integran perfiles y habilidades de los miembros del equipo. Estas interacciones, sumadas al diseño e implementación de las alternativas de solución, exigen el despliegue de habilidades técnicas y habilidades blandas o socioemocionales, las que, puestas en juego en una situación concreta y real, permiten a los estudiantes replicarlas luego en un contexto laboral para afianzar su empleabilidad.\n\nEsta propuesta se construye sobre la base del DCN 2009, integrando al enfoque de desarrollo técnico productivo propuesto un enfoque centrado en el desarrollo de habilidades complejas de diseño, la gestión económica y social, la evaluación e innovación, y las habilidades socioemocionales, con el objetivo de proveer a los estudiantes de la Educación Básica los recursos necesarios para que desplieguen su potencial y logren sus metas profesionales y laborales.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 196,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1015,
+  "totalTokens": 3104,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

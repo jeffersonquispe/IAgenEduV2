@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 202,
+ "tipo": "narrativa",
+ "area": "Educación Religiosa",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El contenido del área de Religión ha sido elaborado por la Oficina Nacional de Educación Católica (ONDEC) y se incorpora en cumplimiento del concordato firmado entre el Estado Peruano y el Vaticano\".\n\nEl ser humano posee, gracias a su condición espiritual, el don de percibir lo sagrado, la capacidad de captar el fundamento de todas las cosas, su raíz y destino trascendentes en cuantas creaturas, es decir, procedentes de un Creador universal. Toda persona busca en su vida la verdad que dé sentido a su existencia para alcanzar la felicidad. Esta dimensión de profundidad espiritual explica el fenómeno religioso en la historia de la humanidad pasada y presente. El hecho religioso forma parte del conjunto de expresiones de lo real como experiencia específica humana, más allá de la limitada realidad disponible para el resto de seres del mundo mineral, vegetal y animal.\n\nPor ello, en la educación, es tan fundamental como necesario que las personas descubran y asuman la existencia de un Ser y una Verdad que nos proporcionen identidad y dignidad humanas; que tomen conciencia de ser hijos de Dios, creados a su imagen y semejanza, reconociéndole como quien actúa providententemente en sus vidas y da sentido a los acontecimientos de la historia humana; y que aprendan a explicar razonablemente su fe y proyecten en plan de vida como respuesta responsable al amor de Dios.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica se basa en el desarrollo de diversas competencias. A través del enfoque espiritual, religioso y trascendente, la Educación Religiosa promueve y facilita que los estudiantes desarrollen las siguientes competencias:\n\n• Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa.\n\n• Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 202,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 678,
+  "totalTokens": 2767,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,36 @@
+{
+ "numero_pagina_impreso": 38,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "CONVIVE Y PARTICIPA DEMOCRÁTICAMENTE EN LA BÚSQUEDA DEL BIEN COMÚN",
+ "ciclo": null,
+ "capacidades": [
+  "Interactúa con todas las personas: es decir, reconoce a todos como personas valiosas y con derechos, muestra preocupación por el otro, respeta las diferencias y se enriquece de ellas. Actúa frente a las distintas formas de discriminación (por género, fenotipo, origen étnico, lengua, discapacidad, orientación sexual, edad, nivel socioeconómico, entre otras) y reflexiona sobre las diversas situaciones que vulneran la convivencia democrática.",
+  "Construye normas y asume acuerdos y leyes: el estudiante participa en la construcción de normas, las respeta y evalúa en relación a los principios que las sustentan, así como cumple los acuerdos y las leyes, reconociendo la importancia de estas para la convivencia; para lo cual, maneja información y conceptos relacionados con la convivencia (como la equidad, el respeto y la libertad) y hace suyos los principios democráticos (la autofundación, la secularidad, la incertidumbre, la ética, la complejidad y lo público).",
+  "Maneja conflictos de manera constructiva: es que el estudiante actúe con empatía y asertividad frente a ellos y ponga en práctica pautas y estrategias para resolverlos de manera pacífica y creativa, contribuyendo a construir comunidades democráticas; para lo cual parte de comprender el conflicto como inherente a las relaciones humanas, así como desarrollar criterios para evaluar situaciones en las que estos ocurren.",
+  "Delibera sobre asuntos públicos: es que participe en un proceso de reflexión y diálogo sobre asuntos que involucran a todos, donde se plantean diversos puntos de vista y se busca llegar a consensos orientados al bien común. Supone construir una posición propia sobre dichos asuntos basándose en argumentos razonados, la institucionalidad, el Estado de derecho y los principios democráticos, así como valorar y contraponer las diversas posiciones.",
+  "Participa en acciones que promueven el bienestar común: es que proponga y gestione iniciativas vinculadas con el interés común y con la promoción y defensa de los derechos humanos, tanto en la escuela como en la comunidad. Para ello, se apropia y utiliza canales y mecanismos de participación democrática."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El estudiante actúa en la sociedad relacionándose con los demás de manera justa y equitativa, reconociendo que todas las personas tienen los mismos derechos y deberes. Muestra disposición por conocer, comprender y enriquecerse con los aportes de las diversas culturas, respetando las diferencias. De igual forma, toma posición frente a aquellos asuntos que lo involucran como ciudadano y contribuye en la construcción del bienestar general, en la consolidación de los procesos democráticos y en la promoción de los derechos humanos.\n\nEsta competencia implica combinar las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 38,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 905,
+  "totalTokens": 3127,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

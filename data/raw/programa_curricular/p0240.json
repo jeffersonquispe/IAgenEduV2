@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 240,
+ "tipo": "narrativa",
+ "area": "Ciencia y Tecnología",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "649-2016-MINEDU\n\nEs un patrón gráfico o numérico en el que dos o varios de sus elementos se presentan en forma periódica (Bressan, 2010). Tienen una estructura de base o núcleo que expresa cómo se construye el patrón. Por ejemplo, 1, 2, 3, 1, 2, 3, 1, 2..., o cuadrado, triángulo, triángulo, cuadrado.\n\nPatrón multiplicativo\nEs un patrón de números cuya regla de formación es la multiplicación o división de un mismo valor a lo largo de toda la sucesión. Esta característica determina que puedan ser ascendentes o descendentes. Por ejemplo, 4, 8, 16, 32, 64, 128...\n\nSituación\nEs un acontecimiento significativo de contexto, dentro del cual se identifican o plantean problemas que permiten construir ideas matemáticas.\n\nSituación aleatoria\nUna situación es aleatoria si no es posible predecir los resultados que tendrá.\n\nSituación determinista\nUna situación es determinista si sabemos de antemano qué resultados tendrá.\n\nVariable\nEs un símbolo, habitualmente una letra, que puede ponerse en lugar de cualquier elemento de un conjunto, sean números u otros objetos. Las variables sirven para expresar, de una manera eficaz, regularidades y relaciones generales entre objeto. Las principales variables en matemática descritas por Godino (2003) son:\n• La variable como incógnita: uso de la variable para representar el valor de un número u objeto desconocido que se manipula como si fuera conocido. Por ejemplo, en la igualdad 4x + 2 = 3x + 5, \"x\" representa el número 3.\n• Las variables como indeterminadas o expresión de patrones generales: uso de la variable para expresar enunciados que son ciertos para un determinado conjunto de números. Por ejemplo, para todos los números reales, se cumple que a.b = b.a.\n• Las variables para expresar valores que varían conjuntamente: uso de la variable para expresar una relación de dependencia entre dos magnitudes. Por ejemplo, en la expresión y = 5x + 6, cuando cambia \"x\" también lo hace \"y\".\n\nVariable estadística\nEs toda característica de los elementos de la población que se investiga que puede asumir uno o más valores. Se divide en dos grupos:\n• Variables cualitativas: aquellas que expresan distintas cualidades, características o modalidad. Pueden ser ordinales (leve, moderado, fuerte) o nominales (blanco, rojo, negro).\n• Variables cuantitativas: aquellas que se expresan mediante cantidades numéricas. Pueden ser discretas porque asumen un número contable de elementos (número de hijos o número de estudiantes de un aula) o continuas porque tienen un número infinito de valores (el peso de una persona).",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 240,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 863,
+  "totalTokens": 2952,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

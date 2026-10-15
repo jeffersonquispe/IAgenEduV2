@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 243,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "y establecer los vínculos sociales requeridos para actuar sobre su entorno y transformarlo con un espíritu de tolerancia, respeto y solución negociada de las diferencias.\n\nEmprendimiento\nEmprendimiento es la capacidad y agencia que tiene una persona de definir y conducir las acciones necesarias para llevar a cabo una propuesta personal o colectiva que transforma una realidad determinada. En ese sentido, el emprendimiento es una forma de ser y de actuar que impulsa cambios positivos en la comunidad al generar valor, ya sea en el contexto personal o social, o de negocios.\n\nExisten proyectos de emprendimiento mixtos, en los que se busca lograr valor social y económico al mismo tiempo.\n\nEmprendimiento económico\nSe refiere a los proyectos de emprendimiento que generan ingresos al enfocarse en atender una necesidad no satisfecha en un entorno específico conocido como mercado.\n\nEmprendimiento social\nSe refiere a los proyectos de emprendimiento que generan valor social al enfocarse en resolver un problema social (contaminación ambiental, violencia de género, pobreza, acceso al deporte o a la cultura, etc.) en un entorno específico.\n\nHabilidad técnica específica\nSon aquellas habilidades propias de una profesión u oficio en particular, y están relacionadas con el manejo de técnicas y herramientas específicas. Estas habilidades, con excepción del manejo y uso de las TIC, suelen ser exclusivas de la profesión u oficio a la que pertenecen. Por ejemplo, las habilidades técnicas específicas de la carpintería son diferentes de las de las industrias alimentarias o las habilidades para desarrollar un emprendimiento de promoción de la lectura serán diferentes a una promoción del deporte.\n\nHabilidades socioemocionales\nSon el conjunto de habilidades y aptitudes necesarias para comprender, expresar y regular de forma apropiada las emociones en la interacción con otros (habilidades interpersonales) y en el desarrollo de uno mismo (habilidades intrapersonales).\n\nInnovación\nSupone generar ideas novedosas y abordajes originales para mejorar el desarrollo de nuevos procesos, métodos, sistemas u otros.\n\nPropuesta de valor\nEs la descripción del producto o servicio que prestamos para cubrir una necesidad de mercado o resolver un problema social para generar un resultado positivo: ingresos o valor social.\n\nPrototipo\nSimulación concreta que materializa las posibles ideas de solución de un problema. Permite interactuar con los posibles usuarios para obtener respuestas que nos acerquen a la solución final. Nos puede servir, también, para evaluar la solución final o comprender mejor a los posibles usuarios.\n\nCompetencias transversales",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 243,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 824,
+  "totalTokens": 2913,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

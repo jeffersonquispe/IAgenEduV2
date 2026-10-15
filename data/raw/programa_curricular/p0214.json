@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 214,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": "Se desenvuelve en entornos virtuales generados por las TIC",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "VIII. COMPETENCIAS TRANSVERSALES A LAS ÁREAS\n\nEn el Currículo Nacional, las competencias transversales son aquellas que pueden ser desarrolladas por los estudiantes a través de diversas situaciones significativas promovidas en las diferentes áreas curriculares.\n\nEl desarrollo y la evaluación formativa de estas competencias son responsabilidad de todos los docentes del grado. Éstos, en conjunto, deben ponerse de acuerdo sobre los propósitos de aprendizaje para el año escolar y las unidades, y deben definir criterios de evaluación comunes, junto con el diseño de actividades pertinentes que se complementen desde el trabajo de los docentes en las áreas curriculares a su cargo.\n\nLa calificación de esta competencia a finales del bimestre o trimestre, o a fin de año, y sus conclusiones descriptivas son producto de una reunión de docentes del grado. El profesor que coordina estas actividades es el docente del aula de innovación conjuntamente con el tutor del grado. Si no hay un profesor del aula de innovación, el responsable de coordinar estas actividades es el tutor.\n\n7.1 Competencia Transversal \"Se desenvuelve en entornos virtuales generados por las TIC\"\n\nHoy en día, es posible acceder a múltiples horizontes culturales, sociales, científicos y laborales. Esta situación es propia de una sociedad globalizada en la que todos los grupos humanos establecen vínculos y son interdependientes. En gran medida, el desarrollo de las tecnologías de información y comunicación lo han hecho posible gracias a entornos virtuales en los cuales las personas interactúan con la información y gestionan su comunicación, lo que se manifiesta en diversas actividades educativas, como investigar épocas anteriores a través de visitas virtuales a museos; comprender fenómenos naturales a través de una simulación interactiva a partir de una historia o un cuento, en el que los estudiantes pueden participar directa o indirectamente; asociar sonidos con imágenes y tener retroalimentación inmediata; utilizar videojuegos para desarrollar asociaciones entre animales y sus cualidades; entre otras muchas.\n\nAsimismo, una de las potencialidades de las TIC es que brinda oportunidades a personas con necesidades diferentes o especiales para acceder a los entornos virtuales, y abre posibilidades de expresión, comunicación e interacción, con igualdad e inclusión.\n\nEn ese sentido, planteamos que los entornos virtuales son escenarios, espacios u objetos constituidos por tecnologías de información y comunicación. Éstos se caracterizan por ser interactivos (porque permiten la comunicación con el entorno), virtualizados (porque proponen representaciones de la realidad), ubicuos (porque se puede acceder a ellos desde cualquier lugar con o sin conexión a internet) e híbridos (porque integran diversos medios comunicativos y tecnologías). Algunos ejemplos de entornos virtuales son el foro virtual, el aula virtual, la computadora con interfaz para escribir en braille, la aplicación de mensajería de un teléfono celular, el panel interactivo y la consola de videojuegos. En este contexto, las personas buscan aprovechar los entornos virtuales en su vida personal, laboral, social y",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 214,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 962,
+  "totalTokens": 3051,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

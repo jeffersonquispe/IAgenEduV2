@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 241,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Ambiente\nComprende los elementos físicos, químicos y biológicos de origen natural o antropogénico que, en forma individual o asociada, conforman el medio en el que se desarrolla la vida, y son los factores que aseguran la salud individual y colectiva de las personas, y la conservación de los recursos naturales, la diversidad biológica y el patrimonio cultural asociado a ellos, entre otros.\n\nArgumentar científicamente\nEmitir un juicio de manera razonada y sustentada en evidencia. La argumentación va dirigida a un interlocutor con el objetivo de convencerlo.\n\nCiencia\nActividad humana que permite generar un tipo de conocimiento, obtenido de una manera metódica, sistematizada y verificable. Se desarrolla como una práctica colectiva que se da a través de diferentes corrientes y técnicas de investigación.\n\nConocimiento científico\nConstrucción teórica que hace referencia al conocimiento de la ciencia. Éste se encuentra sujeto a cambios, producto del avance científico y tecnológico.\n\nCosmovisión\nConjunto de creencias, valores, opiniones y formas de proceder interiorizadas por los miembros de un grupo de personas.\n\nCuestiones sociocientíficas\nSituaciones sociales complejas vinculadas a la ciencia y tecnología que generan controversias y debates. Tienen implicancias en distintos campos, como los sociales (incluyendo los económicos y políticos), éticos y ambientales.\n\nError\nEs la diferencia entre el valor medido y el valor real del objeto que se está midiendo; es decir, hay la probabilidad de que el valor real esté en el rango de esa diferencia. El error está asociado con las limitaciones de los instrumentos, las técnicas, los métodos de medición y al observador.\n\nEvento paradigmático\nEs un acontecimiento de gran relevancia en el que un conocimiento, teoría o método genera una manera de ver y entender el mundo que nos rodea durante un período específico.\n\nEvidencia empírica\nEs la información obtenida por medio de la observación o la experimentación, y que sirve para apoyar u oponerse a una hipótesis o teoría científica.\n\nExactitud\nEs el valor real o verdadero, o el más próximo a él.\n\nExplicar científicamente\nConsiste en comprender leyes y principios científicos sobre hechos y fenómenos naturales que son la base, junto a la evidencia, para construir argumentos, representaciones o modelos, así como predicciones de posibles cambios en situaciones que se puedan presentar en la vida cotidiana.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 241,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 778,
+  "totalTokens": 2867,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

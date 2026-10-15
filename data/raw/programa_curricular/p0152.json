@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 152,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "dos hombres, hay 3 mujeres."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las propiedades de las operaciones con enteros y expresiones decimales y fraccionarias, así como la relación inversa entre las cuatro operaciones. Usa este entendimiento para asociar o secuenciar operaciones, y para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias de cálculo, estimación y procedimientos diversos para realizar operaciones con números enteros, expresiones fraccionarias, decimales y porcentuales, así como para calcular aumentos y descuentos porcentuales, y simplificar procesos usando propiedades de los números y las operaciones, de acuerdo con las condiciones de la situación planteada."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y usa unidades e instrumentos pertinentes para medir o estimar la masa, el tiempo o la temperatura; realizar conversiones entre unidades; y determinar equivalencias entre las unidades y subunidades de medida de masa, de temperatura, de tiempo y monetarias."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y emplea estrategias de cálculo y de estimación, y procedimientos diversos para determinar equivalencias entre expresiones fraccionarias, decimales y porcentuales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones sobre las propiedades de los números y de las operaciones con números enteros y expresiones decimales, y sobre las relaciones inversas entre las operaciones. Las justifica o sustenta con ejemplos y propiedades de los números y de las operaciones. Infiere relaciones entre estas. Reconoce errores en sus justificaciones y en las de otros, y las corrige."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "aumentos o descuentos porcentuales sucesivos y el significado del IGV, para interpretar el problema en el contexto de las transacciones financieras y comerciales, y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las propiedades de la potenciación de exponente entero, la relación inversa entre la radicación y potenciación con números enteros, y las expresiones racionales y fraccionarias y sus propiedades. Usa este entendimiento para asociar o secuenciar operaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona, emplea y combina estrategias de cálculo, estimación y procedimientos diversos para realizar operaciones con números enteros, expresiones fraccionarias, decimales y porcentuales, tasas de interés, el impuesto a la renta, y simplificar procesos usando propiedades de los números y las operaciones, de acuerdo con las condiciones de la situación planteada."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona y usa unidades e instrumentos pertinentes para medir o estimar la masa, el tiempo y la temperatura, y para determinar equivalencias entre las unidades y subunidades de medida de masa, de temperatura, de tiempo y monetarias de diferentes países."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona, emplea y combina estrategias de cálculo y de estimación, y procedimientos diversos para determinar equivalencias entre expresiones fraccionarias, decimales y porcentuales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones sobre las propiedades de la potenciación y la radicación, el orden entre dos números racionales, y las equivalencias entre descuentos porcentuales sucesivos, y sobre las relaciones inversas entre las operaciones, u otras relaciones que descubre. Las justifica o sustenta con ejemplos y propiedades de los números y operaciones. Infiere relaciones entre estas. Reconoce errores o vacíos en sus justificaciones y en las de otros, y las corrige."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 152,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1370,
+  "totalTokens": 3592,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

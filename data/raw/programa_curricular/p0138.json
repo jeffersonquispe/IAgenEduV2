@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 138,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Lee diversos tipos de texto en inglés con estructuras complejas y vocabulario variado y especializado. Integra información ambigua o contrapuesta ubicada en distintas partes del texto. Interpreta el texto para construir su sentido global a partir de información relevante y complementaria. Reflexiona sobre las formas y el contenido del texto asumiendo una posición; evalúa el uso del lenguaje, los recursos textuales, así como el efecto del texto a partir de su conocimiento y del contexto socio cultural en el que fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Lee diversos tipos de texto en inglés con algunas estructuras complejas y vocabulario variado y especializado. Integra información contrapuesta ubicada en distintas partes del texto. Interpreta el texto integrando la idea principal con información específica para construir su sentido global. Reflexiona sobre las formas y contenidos del texto. Evalúa el uso del lenguaje y los recursos textuales así como el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Lee diversos tipos de texto en inglés que presentan estructuras simples y algunos elementos complejos con vocabulario cotidiano. Obtiene información e integra datos que están en distintas partes del texto. Realiza inferencias locales partir de información explícita e implícita e interpreta el texto seleccionando información relevante y complementaria. Reflexiona sobre aspectos variados del texto evaluando el uso del lenguaje y la intención de los recursos textuales más comunes a partir de su conocimiento y experiencia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Lee diversos tipos de texto en inglés que presentan estructura simple con vocabulario de uso frecuente. Obtiene información poco evidente distinguiéndola de otras próximas y semejantes. Realiza inferencias locales a partir de información explícita e implícita interpreta el texto relacionando información relevante para construir su sentido global. Opina sobre sucesos e ideas importantes del texto a partir de su propia experiencia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Lee diversos tipos de texto en inglés que presentan estructura simple en los que predominan expresiones conocidas e ilustraciones que apoyan las ideas centrales. Obtiene información explícita y relevante ubicada en lugares evidentes del texto. Realiza inferencias locales a partir de información explícita e interpreta el texto relacionando información recurrente. Opina sobre lo que más le gustó del texto leído."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Este nivel tiene como base el nivel 3 de la competencia \"Se comunica oralmente en inglés como lengua extranjera\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 138,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1004,
+  "totalTokens": 3226,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

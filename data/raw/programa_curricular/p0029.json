@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 29,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "VI. ÁREAS CURRICULARES\n\nLas áreas curriculares son una forma de organización articuladora e integradora de las competencias que se busca desarrollar en los estudiantes y de las experiencias de aprendizaje afines.\n\nA continuación, presentamos la organización de las competencias según las áreas curriculares del Plan de estudios en el nivel de Educación Secundaria:\n\nEnfoques transversales: De Derechos, Atención a la diversidad, Intercultural, Igualdad de género, Ambiental, Orientación al bien común y Búsqueda de la excelencia.\n\nCompetencias transversales a las áreas: Se desenvuelve en entornos virtuales generados por las TIC y Gestiona su aprendizaje de manera autónoma.\n\nÁreas | Competencias nivel secundario\n\nDesarrollo Personal, Ciudadanía y Cívica | Construye su identidad.\nConvive y participa democráticamente en la búsqueda del bien común.\nConstruye interpretaciones históricas.\n\nCiencias Sociales | Gestiona responsablemente el espacio y el ambiente.\nGestiona responsablemente los recursos económicos.\n\nEducación para el Trabajo | Gestiona proyectos de emprendimiento económico o social.\nSe desenvuelve de manera autónoma a través de su motricidad.\n\nEducación Física | Asume una vida saludable.\nInteractúa a través de sus habilidades sociomotrices.\n\nComunicación | Se comunica oralmente en su lengua materna.\nLee diversos tipos de textos escritos en lengua materna.\nEscribe diversos tipos de textos en lengua materna.\n\nArte y Cultura | Aprecia de manera crítica manifestaciones artístico-culturales.\nCrea proyectos desde los lenguajes artísticos.\n\nCastellano como Segunda Lengua | Se comunica oralmente en castellano como segunda lengua.\nLee diversos tipos de textos escritos en castellano como segunda lengua.\nEscribe diversos tipos de textos en castellano como segunda lengua.\n\nInglés como lengua Extranjera | Se comunica oralmente en inglés como lengua extranjera.\nLee diversos tipos de textos escritos en inglés como lengua extranjera.\nEscribe diversos tipos de textos en inglés como lengua extranjera.\n\nMatemática | Resuelve problemas de cantidad.\nResuelve problemas de regularidad, equivalencia y cambio.\nResuelve problemas de forma, movimiento y localización.\nResuelve problemas de gestión de datos e incertidumbre.\n\nCiencia y Tecnología | Indaga mediante métodos científicos para construir conocimientos.\nExplica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo.\nDiseña y construye soluciones tecnológicas para resolver problemas de su entorno.\n\nEducación Religiosa | Construye su identidad como persona humana, armada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas.\nAsume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa.\n\n11 áreas | 31 competencias",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 29,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 981,
+  "totalTokens": 3070,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

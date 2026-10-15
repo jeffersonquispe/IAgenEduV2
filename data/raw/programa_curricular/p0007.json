@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 7,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": "VII",
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "¿Qué intereses y habilidades van surgiendo?\n\nEn esta etapa, el adolescente va construyendo progresivamente un pensamiento abstracto; es decir, sus preocupaciones, desde el punto de vista cognitivo, están relacionadas con interrogantes que requieren explicaciones racionales de los hechos, fenómenos y procesos de la realidad. Producto de este tipo de pensamiento, es capaz de deducir e interpretar situaciones a partir de la observación, por lo que el adolescente tiene el potencial de autorregular su aprendizaje, y de aprender de sí mismo y de su entorno permanentemente.\n\nDesde el punto de vista socioemocional, se reconoce a sí mismo como persona y sus sentimientos de cooperación son predominantes en sus relaciones con los otros. Evidencia inclinación progresiva hacia el arte y la práctica de actividades físicas y deportivas, debido a la preocupación que tiene por su identidad e imagen corporal y a la necesidad de buscar medios para expresar sus emociones, intereses, ideas, etc. Se inicia un proceso de atracción e interés sexual producto de la maduración de las glándulas sexuales.\n\nCICLO VII\n\n¿Qué características tienen los estudiantes en este ciclo?\n\nLos estudiantes de este ciclo experimentan una serie de transiciones a nivel físico, emocional, psicológico, social y mental que conllevan cambios en la manera de procesar y construir conocimientos e intercatuar con otros.\n\nLos cambios físicos que experimentan los adolescentes van consolidando su identidad e imagen corporal, y generan en ellos más conciencia de su cuerpo y de cómo se ven ante otros. Su pensamiento es más abstracto en relación con la etapa anterior, lo que significa que está en condiciones de desarrollar aprendizajes más profundos y complejos. En lo social y emocional, los adolescentes tienden a la formación de grupos heterogéneos, en los cuales puede expresarse y sentirse bien. También vivencian períodos de inestabilidad emocional y la experiencia de una mayor intensidad en la expresión de los sentimientos. Por ello, esta etapa implica un desfase entre lo físico, lo emocional y lo cognitivo; es decir, los estudiantes cuentan con una madurez biológica que no siempre se corresponde con la madurez emocional y con los cambios cognitivos que no se dominan. Están en proceso de reafirmación de su personalidad, reconocen su necesidad de independencia y de reafirmación de su propio \"Yo\", y sienten la necesidad de aumentar su confianza en sí mismos para asumir",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 7,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 789,
+  "totalTokens": 2878,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

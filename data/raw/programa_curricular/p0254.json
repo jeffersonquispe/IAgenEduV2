@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 254,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Godino, J. y otros (2015). Articulación de la indagación y transmisión de conocimientos en la enseñanza y aprendizaje de las matemáticas. En Didáctica de la Matemática: Una mirada internacional, empírica y teórica. Bogotá: Universidad de la Sabana.\n\nGravemeijer, K. y Teruel, J. (2000). Hans Freudenthal: A mathematician on didactics and curriculum theory. Currículo Studies vol. 32, nº6, pp. 777-796. Traducción: Norma Saggerese, Fernanda Gallego y Ana Bressan(GPDM). Recuperado de: http://gpdmatematica.org.ar/wp-content/uploads/2015/08/hansfreudenthal.pdf\n\nHernandez Fernandez H., Delgado Rubi J.R., Fernandez De Alaiza B., Valverde Ramirez L., Rodriguez Hung T. (1988). Cuestiones de didáctica de la Matemática. Serie Educación. Conceptos y procedimientos en la educación polimodal y superior. Argentina: Homo Sapiens Ediciones: Rosario.\n\nIPEBA (2013). Mapa de progreso del aprendizaje. Matemática. Lima: CEPREDIM\n\nMinisterio De Educación (2009) Guía de análisis para los docentes, evaluación censal de estudiantes 2009 – segundo grado de primaria. Lima: MED: Unidad de Medición de la Calidad Educativa.\n\nKoichu, B. Berman, A., Moore, M. (2003). Changing teachers' beliefs about students' heuristics in problem solving. Artículo presentado en la 3rd. Conference of the European Society for Research in Mathematics Education. Italia. Recuperado de: http://repem.exactas.unlpm.edu.ar/cdrepem08/memorias/comunicaciones/Trabinvst/C36.pdf\n\nMinisterio de Educación del Perú (2013). Matemáticas en educación intercultural bilingüe. Orientaciones Pedagógicas. Lima: Minedu.\n\nOECD (2013). PISA 2012: Assessment and Analytical Framework: Mathematics, Reading, Science, Problem Solving and Financial Literacy. OECD Publishing. Madrid: Ministerio de educación, cultura y deporte.\n\nSadovsky P., Bressan A. y Aliaga H. (2005). Reflexiones teóricas para la Educación Matemática. Buenos Aires, Argentina: Editorial Libros El Zorzal.\n\nSchoenfeld, A. (1985). Mathematical Problem Solving. Orlando: Academic Press. INC. Recuperado de: http://math-dept.talif.sch.ir/pdf/manaba/[Alan_Schoenfeld]_Mathematical_Problem_Solving.pdf\n\nTrigo, L. (2008). La resolución de problemas matemáticos: Avances y perspectivas en la construcción de una agenda de investigación y práctica. Investigación en educación matemática XII (p. 8). Sociedad Española de Investigación en Educación Matemática, SEIEM. Recuperado de: http://www.uv.es/puigl/MSantosTSEIEM08.pdf\n\nCiencia y Tecnología\n\nBlythe, T. (1999). La enseñanza para la comprensión. Guía para el docente. Buenos Aires, Argentina: Paidós.\n\nCarpi, A. y Egger, A. (s/f). Visión learning Métodos de investigación. Recuperado de http://www.visionlearning.com/es/library/Proceso-de-la-Ciencia/49/M%C3%A9todos-deInvestigaci%C3%B3n:-Experimentaci%C3%B3n/150\n\nGonzález, D. (s/f). El método experimental en las clases de Ciencias Naturales. Recuperado de http://educaciones.cubaeducacu/medias/pdf/1181.pdf\n\nGonzález, R., Yil, M. y Curiel, L. (2003). Metodología de la investigación científica para las ciencias técnicas. Recuperado de http://www.bibliociencias.cu/gsdl/collect/libros/index/assoc/HASH0135.dir/doc.pdf.\n\nHarlen, W. (1999). Enseñanza y aprendizaje de las ciencias. España: Editorial Morata.\n\nHarlen, W. (Ed.) (2010). Principios y grandes ideas para la educación en ciencias. Hatfield (UK): Association for Science Education. Recuperado de http://innovec.org.mx/home/pdfs/Grandes_Ideas_de_la_Ciencia_esp.pdf\n\nHernández Sampieri, R. (2006). Metodología de la investigación. México: Mc Graw Hill.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 254,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1388,
+  "totalTokens": 3477,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

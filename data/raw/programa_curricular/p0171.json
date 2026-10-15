@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 171,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Resuelve problemas de gestión de datos e incertidumbre",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Resuelve problemas referidos a situaciones aleatorias y situaciones referidas a caracterizar una población basado en una muestra representativa. Emplea técnicas de muestreo estratificado y recolecta datos, usando diversas estrategias y procedimientos; determina el quintil. Representa el comportamiento de los datos usando gráficos y tablas pertinentes, estadísticos, relaciones entre medidas de tendencia central y el coeficiente de variación, identificando lo más óptimo. Interpreta la información sobre el comportamiento de los datos y la probabilidad condicional. Contrasta conclusiones sobre la relación entre variables."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Resuelve problemas en los que plantea temas de estudio, caracterizando la población y la muestra e identificando las variables a estudiar; empleando el muestreo aleatorio para determinar una muestra representativa. Recolecta datos mediante encuestas y los registra en tablas, determinando terciles, cuartiles y quintiles; la desviación estándar, y el rango de un conjunto de datos; representa el comportamiento de estos usando gráficos y medidas estadísticas más apropiadas a las variables en estudio. Interpreta la información contenida en estos, o la información relacionada a su tema de estudio proveniente de diversas fuentes, haciendo uso del significado de la desviación estándar, las medidas de localización estudiadas y el lenguaje estadístico; basado en esto contrasta y justifica conclusiones sobre las características de la población. Expresa la ocurrencia de sucesos dependientes, independientes, simples o compuestos de una situación aleatoria mediante la probabilidad, y determina su espacio muestral; interpreta las propiedades básicas de la probabilidad de acuerdo a las condiciones de la situación; justifica sus predicciones con base a los resultados de su experimento o propiedades."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Resuelve problemas en los que plantea temas de estudio, identificando la población pertinente y las variables cuantitativas continúas, así como cualitativas nominales y ordinales. Recolecta datos mediante encuestas y los registra en tablas de datos agrupados, así también determina la media aritmética y mediana de datos discretos; representa su comportamiento en histogramas, polígonos de frecuencia, gráficos circulares, tablas de frecuencia y medidas de tendencia central; usa el significado de las medidas de tendencia central para interpretar y comparar la información contenida en estos. Basado en ello, plantea y contrasta conclusiones, sobre las características de una población. Expresa la probabilidad de un evento aleatorio como decimal o fracción, así como su espacio muestral; e interpreta que un suceso seguro, probable e imposible, se asocia a los valores entre 0 y 1. Hace predicciones sobre la ocurrencia de eventos y las justifica."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Resuelve problemas con temas de estudio, en los que reconoce variables cualitativas o cuantitativas discretas, recolecta datos a través de encuestas y de diversas fuentes de información. Selecciona tablas de doble entrada, gráficos de barras dobles y gráficos de líneas, seleccionando el más adecuado para representar los datos. Usa el significado de la moda para interpretar información contenida en gráficos y en diversas fuentes de información. Realiza experimentos aleatorios, reconoce sus posibles resultados y expresa la probabilidad de un evento relacionando el número de casos favorables y el total de casos posibles. Elabora y justifica predicciones, decisiones y conclusiones, basándose en la información obtenida en el análisis de datos o en la probabilidad de un evento."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Resuelve problemas relacionados con datos cualitativos o cuantitativos (discretos) sobre un tema de estudio, recolecta datos a través de encuestas y entrevistas sencillas, registra en tablas de frecuencia simples y los representa en pictogramas, gráficos de barra simple con escala (múltiplos de diez). Interpreta información contenida en gráficos de barras simples y dobles y tablas de doble entrada, comparando frecuencias y usando el significado de la moda de un conjunto de datos; a partir de esta información, elabora algunas conclusiones y toma decisiones. Expresa la ocurrencia de sucesos cotidianos usando las nociones de seguro, más probable, menos probable, y justifica su respuesta."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Resuelve problemas relacionados con datos cualitativos en situaciones de su interés, recolecta datos a través de preguntas sencillas, los registra en listas o tablas de conteo simple (frecuencia) y los organiza en pictogramas horizontales y gráficos de barras simples. Lee la información contenida en estas tablas o gráficos identificando el dato o datos que tuvieron mayor o menor frecuencia y explica sus decisiones basándose en la información producida. Expresa la ocurrencia de sucesos cotidianos usando las nociones de posible o imposible y justifica su respuesta."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de la competencia \"Resuelve problemas de cantidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Resuelve problemas de cantidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 171,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1650,
+  "totalTokens": 3872,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

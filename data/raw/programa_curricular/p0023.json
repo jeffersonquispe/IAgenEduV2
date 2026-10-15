@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 23,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "La tutoría promueve el reconocimiento de los estudiantes como personas con características propias y busca brindarles orientación de manera personalizada de acuerdo con sus necesidades, intereses y expectativas atendiendo la diversidad y promoviendo la inclusión de todos.\n\nContribuye, también, al reconocimiento de las diferentes identidades culturales presentes en la escuela fomentando el respeto y la valoración de estas diferencias, y previniendo todo tipo de discriminación (por etnia, idioma, costumbres, orientación sexual, creencias, etc.).\n\nLa tutoría promueve la construcción de relaciones equitativas y de respeto mutuo entre hombres y mujeres de la comunidad educativa, y fomenta la participación igualitaria de estudiantes. Asimismo, genera espacios de reflexión sobre las causas y consecuencias de la desigualdad de género y realiza acciones para prevenir la violencia y toda forma de discriminación por identidad de género u orientación sexual.\n\nLa tutoría orienta la práctica de conductas responsables y reflexivas sobre la problemática ambiental y la condición del cambio climático, e incentiva en la comunidad educativa la apropiación de estilos de vida saludable y sostenible. Busca, además, el desarrollo de valores en los estudiantes, como solidaridad, empatía, justicia, equidad intergeneracional, respeto a toda forma de vida, entre otros, orientados al bien común. Y, finalmente, promueve la práctica y reflexión de estos valores en su vida diaria.\n\nPara lograr estos fines, se planifica cuidadosamente la acción tutorial en cada aula partiendo del diagnóstico de las necesidades de orientación, intereses y expectativas de los estudiantes. Esta planificación toma en cuenta los aspectos generales de la realidad, así como los específicos de la escuela y del aula.\n\n4.2 ¿Cómo se relaciona Tutoría y Orientación Educativa con el desarrollo de competencias?\n\nLa tutoría es inherente al currículo. A pesar de que la tutoría no es un área curricular ni propone competencias adicionales a las presentadas en el Currículo Nacional, contribuye al desarrollo de estas y de los valores y las actitudes relacionados con los enfoques transversales, al promover una práctica reflexiva en los espacios de orientación.\n\nLa tutoría implica promover y fortalecer las competencias socioafectivas que contribuirán al desarrollo de su autonomía y que potenciarán sus interacciones con los demás y la valoración de sí mismo.\n\nEn educación secundaria, la tutoría se estructura sobre la base de tres dimensiones:\n\nDimensión personal: Está relacionada con el conocimiento y la aceptación de sí mismo; con el fortalecimiento de la expresión de sentimientos, afectos y anhelos; con la vivencia plena y responsable de la sexualidad; con la reflexión ética; con la identificación de sus intereses",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 23,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 863,
+  "totalTokens": 2952,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

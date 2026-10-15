@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 175,
+ "tipo": "otro",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "propósito de analizarlos y producir información. Determina una muestra aleatoria de una población pertinente al objetivo de estudio y las características de la población estudiada.\n\nSelecciona y emplea procedimientos para determinar la media y la desviación estándar de datos discretos, y la probabilidad de sucesos independientes de una situación aleatoria mediante la regla de Laplace y sus propiedades. Revisa sus procedimientos y resultados.\n\nPlantea afirmaciones, conclusiones e inferencias sobre las características o tendencias de una población, o sobre sucesos aleatorios en estudio a partir de sus observaciones o análisis de datos. Las justifica con ejemplos, y usando información estadística y probabilísticos. Reconoce errores o vacíos en sus justificaciones y en las de otros, y los corrige.\n\nRecopila datos de variables cualitativas o cuantitativas mediante encuestas o la observación combinando y adaptando procedimientos, estrategias y recursos. Los procesa y organiza en tablas con el propósito de analizarlos y producir información. Determina una muestra aleatoria de una población pertinente al objetivo de estudio y las características de la población estudiada.\n\nSelecciona, emplea y adapta procedimientos para determinar la media y la desviación estándar de datos continuos, y la probabilidad de sucesos independientes y dependientes de una situación aleatoria. Adecúa los procedimientos utilizados a otros contextos de estudio.\n\nPlantea y contrasta afirmaciones sobre la característica o la tendencia de una población estudiada, así como sobre sucesos aleatorios de una situación aleatoria. Las justifica con ejemplos, y usando información obtenida y sus conocimientos estadísticos. Reconoce errores o vacíos en sus conclusiones o en las de otros estudios, y propone mejoras.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 175,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 563,
+  "totalTokens": 2652,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

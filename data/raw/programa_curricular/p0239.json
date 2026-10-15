@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 239,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "heurísticas los siguientes: (1) ensayo-error; (2) buscar un patrón; (3) hacer un esquema, dibujo o tabla; (4) buscar un problema análogo; (5) empezar desde el final; (6) dividir el problema en partes; (7) descomponer y recomponer el problema; entre otras.\n\nEstimar\nEs pronosticar el orden de magnitud de un valor o de un resultado numérico, así como cuantificar, aproximadamente, alguna característica medible de un objeto o suceso (Ipeba, 2013, p. 43.)\n\nEvaluar estrategias\nEs valorar o determinar el grado de efectividad de un conjunto de estrategias o procedimientos a partir de su coherencia o aplicabilidad en otras situaciones (Ipeba, 2013).\n\nExpresión algebraica\nEs la expresión matemática conformada por números y valores desconocidos expresados por iconos o letras que se encuentran vinculados entre sí por medio de operaciones. Estas representan relaciones de igualdad o desigualdad, relaciones de cambio, o reglas generales. Por ejemplo, la expresión p = 0,50 k + 2 representa la relación entre el precio y la cantidad de kilos que se llevan considerando un precio fijo de 2 soles por la compra.\n\nExpresión numérica\nEs la expresión matemática que relaciona números y operaciones que reproducen las condiciones de un problema. Por ejemplo, la expresión numérica 450-1/4(450) reproduce la situación ganó 450 soles y gastó la cuarta parte en libros.\n\nIgualdad\nEs una expresión que indica que dos expresiones numéricas o algebraicas tienen el mismo valor. Se expresa con el signo igual (=). Son ejemplos de igualdades 2/3 = 4/6; 3 + 4 = 7; L = 2.π.R.\n\nInterpretar\nEs atribuir significado a las expresiones matemáticas, de modo que estas adquieran sentido en función del propio objeto matemático, o del fenómeno o problema real del que se trata. Implica tanto codificar como decodificar un problema (Hernández y otros, 1999, pp. 69-87).\n\nMagnitud\nEs la característica de un objeto o fenómeno que puede ser medida, como la longitud, la superficie, el volumen, la velocidad, el costo, la temperatura, el peso, etc. (Ipeba, 2013, p. 44).\n\nPatrón\nUn patrón es una sucesión de signos (orales, gestuales, gráficos, geométricos, numéricos, etc.) que se construyen siguiendo una regla o algoritmo (Rabino, Bressan y Gallego, 2010).\n\nPatrón aditivo\nEs un patrón de números cuya regla de formación es la suma o resta de un mismo valor a lo largo de toda la sucesión (Bressan, 2010). Esta característica determina que puedan ser crecientes o decrecientes. Por ejemplo, 1, 3, 5, 7, 9, 11...; o también 30, 25, 20, 15, 10..\n\nPatrón de repetición",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 239,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 955,
+  "totalTokens": 3044,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

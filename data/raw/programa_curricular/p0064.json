@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 64,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Se desenvuelve de manera autónoma a través de su motricidad",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando evalúa críticamente los procesos físicos, en relación a aspectos sociales, emocionales, afectivos y cognitivos vinculándolos con las características de su desarrollo y su identidad corporal. Demuestra habilidades en la ejecución de movimientos complejos cuando practica actividad física. Crea, se apropia y evalúa prácticas corporales y expresivas de diferentes contextos, fusionando a través del movimiento características de expresión de su cultura y de otras culturas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando toma conciencia de cómo su imagen corporal contribuye a la construcción de su identidad y autoestima. Organiza su cuerpo en relación a las acciones y habilidades motrices según la práctica de actividad física que quiere realizar. Produce con sus compañeros diálogos corporales que combinan movimientos en los que expresan emociones, sentimientos y pensamientos sobre temas de su interés en un determinado contexto."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando relaciona cómo su imagen corporal y la aceptación de los otros influyen en el concepto de sí mismo. Realiza habilidades motrices específicas, regulando su tono, postura, equilibrio y tomando como referencia la trayectoria de objetos, los otros y sus propios desplazamientos. Produce secuencias de movimientos y gestos corporales para manifestar sus emociones con base en el ritmo y la música y utilizando diferentes materiales."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando acepta sus posibilidades y limitaciones según su desarrollo e imagen corporal. Realiza secuencias de movimientos coordinados aplicando la alternancia de sus lados corporales de acuerdo a su utilidad. Produce con sus pares secuencias de movimientos corporales, expresivos o rítmicos en relación a una intención."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando comprende cómo usar su cuerpo explorando la alternancia de sus lados corporales de acuerdo a su utilidad y ajustando la posición del cuerpo en el espacio y en el tiempo en diferentes etapas de las acciones motrices, con una actitud positiva y una voluntad de experimentar situaciones diversas. Experimenta nuevas posibilidades expresivas de su cuerpo y las utiliza para relacionarse y comunicar ideas, emociones, sentimientos, pensamientos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando comprende cómo usar su cuerpo en las diferentes acciones que realiza utilizando su lado dominante y realiza movimientos coordinados que le ayudan a sentirse seguro en la práctica de actividades físicas. Se orienta espacialmente en relación a sí mismo y a otros puntos de referencia. Se expresa corporalmente con sus pares utilizando el ritmo, gestos y movimientos como recursos para comunicar."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando explora y descubre su lado dominante y sus posibilidades de movimiento por propia iniciativa en situaciones cotidianas. Realiza acciones motrices básicas en las que coordina movimientos para desplazarse con seguridad y utiliza objetos con precisión, orientándose y regulando sus acciones en relación a estos, a las personas, el espacio y el tiempo. Expresa corporalmente sus sensaciones, emociones y sentimientos a través del tono, gesto, posturas, ritmo y movimiento en situaciones de juego."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Se desenvuelve de manera autónoma a través de su motricidad cuando explora y descubre sus posibilidades de movimiento y las partes de su cuerpo. Realiza acciones motrices básicas en las que coordina movimientos para desplazarse y manipular objetos. Expresa corporalmente a través del gesto, el tono, las posturas y movimientos sus sensaciones y emociones en situaciones cotidianas."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 64,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1352,
+  "totalTokens": 3441,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

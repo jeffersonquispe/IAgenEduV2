@@ -1,0 +1,66 @@
+{
+ "numero_pagina_impreso": 201,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona proyectos de emprendimiento económico o social",
+ "ciclo": "VII",
+ "capacidades": [
+  "Crea propuestas de valor.",
+  "Aplica habilidades técnicas.",
+  "Trabaja cooperativamente para lograr objetivos y metas.",
+  "Evalúa los resultados del proyecto de emprendimiento."
+ ],
+ "descripcion_nivel": "Gestiona proyectos de emprendimiento económico o social cuando integra activamente información sobre una situación que afecta a un grupo de usuarios, genera explicaciones y define patrones sobre sus necesidades y expectativas para crear una alternativa de solución viable que considera aspectos éticos y culturales y redefine sus ideas para generar resultados sociales y ambientales positivos. Implementa sus ideas combinando habilidades técnicas, proyecta en función a escenarios las acciones y recursos que necesitará y trabaja cooperativamente recombinando sus roles y responsabilidades individuales para el logro de una meta común, coordina actividades y colabora a la iniciativa y perseverancia colectiva resolviendo los conflictos a través de métodos constructivos. Evalúa los procesos y resultados parciales, analizando el equilibrio entre inversión y beneficio, la satisfacción de usuarios, y los beneficios sociales y ambientales generados. Incorpora mejoras en el proyecto para aumentar la calidad del producto o servicio y la eficiencia de procesos.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Recoge en equipo información sobre necesidades o problemas de un grupo de usuarios de su entorno a partir de su campo de interés empleando técnicas como entrevistas grupales estructuradas y otras. Organiza e integra información reconociendo patrones entre los factores de esas necesidades y problemas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Diseña alternativas de propuesta de valor creativas e innovadoras. Las representa a través de prototipos y las valida con posibles usuarios. Define una de estas integrando sugerencias de mejora y sus implicancias éticas, sociales, ambientales y económicas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Realiza acciones para adquirir los recursos necesarios para elaborar la propuesta de valor. Programa las actividades que debe ejecutar para elaborar la propuesta de valor integrando alternativas de solución ante contingencias o situaciones imprevistas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Selecciona procesos de producción de un bien o servicio pertinentes, y emplea con pericia habilidades técnicas. Es responsable con el ambiente, usando sosteniblemente los recursos naturales y aplica normas de seguridad en el trabajo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Planifica las actividades de su equipo consiguiendo que las personas establezcan, según sus roles, prioridades y objetivos. Acompaña y orienta a sus compañeros para que mejoren sus desempeños asumiendo con responsabilidad distintos roles dentro del equipo y propone alternativas de solución a conflictos inesperados."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Elabora instrumentos de recojo de información para evaluar el proceso y el resultado del proyecto. Clasifica la información que recoge y analiza la relación entre inversión y beneficio, la satisfacción de los usuarios, y los beneficios sociales y ambientales generados, e incorpora mejoras para garantizar la sostenibilidad de su proyecto en el tiempo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 201,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1160,
+  "totalTokens": 3382,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

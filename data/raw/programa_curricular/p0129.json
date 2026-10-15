@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 129,
+ "tipo": "narrativa",
+ "area": "Inglés como Lengua Extranjera",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.7.1. Enfoque que sustenta el desarrollo de las competencias en el área de Inglés como Lengua Extranjera\n\nEl área se sustenta en el enfoque comunicativo incorporando las prácticas sociales del lenguaje y la perspectiva sociocultural.\n\n• Parte de situaciones auténticas para desarrollar competencias comunicativas a través de las cuales los estudiantes comprendan y produzcan textos orales y escritos en inglés de distinto tipo, formato y género textual, con diferentes propósitos y en variados soportes, incluyendo los medios audiovisuales y virtuales.\n\n• Incorpora las prácticas sociales del lenguaje porque las situaciones comunicativas no están aisladas: se producen cuando las personas participan en su vida social y cultural. A partir de estas prácticas, los estudiantes vivencian de manera contextualizada los usos del lenguaje para comprenderlo y dominarlo progresivamente.\n\n• Es sociocultural porque estas prácticas del lenguaje se encuentran situadas en contextos sociales y culturales diversos, y generan identidades individuales y colectivas. Así, la oralidad y el lenguaje escrito adoptan características propias en cada uno de esos contextos, lo que supone tomar en cuenta cómo se usa el lenguaje según las características socioculturales del hablante.\n\nSe propone, así, el tratamiento del idioma inglés como lengua extranjera, cuya situación de enseñanza y aprendizaje difiere de la primera y segunda lengua por no estar presente en todos los ámbitos de actividad social cotidiana. Por ello, se requiere crear ambientes sociales de aprendizaje que compensen su ausencia extraescolar.\n\nEn este sentido, se promueve el uso permanente del idioma inglés en el aula para optimizar el tiempo de exposición de los estudiantes al idioma extranjero considerando las posibilidades limitadas que tienen los estudiantes de interactuar en inglés fuera de la institución educativa.\n\nEste enfoque señala la importancia de comunicarse, y no centrarse en las reglas gramaticales ni en el vocabulario aislado; es decir, resalta el uso que se haga de la lengua y no el conocimiento teórico que se tenga de ella. Los estudiantes desarrollan cuatro habilidades del idioma inglés: comprensión auditiva, expresión oral, comprensión lectora y expresión escrita. Y este desarrollo se lleva a través de actividades comunicativas simuladas y significativas que se inicien en el aula y se trasladen a variados contextos sociales.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 129,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 767,
+  "totalTokens": 2856,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

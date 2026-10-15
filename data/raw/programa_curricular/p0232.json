@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 232,
+ "tipo": "narrativa",
+ "area": "Arte y Cultura",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "trepar, andar en cuadrupedia, efectuar giros y mantener el equilibrio. Otros implican la manipulación de objetos, como coger, lanzar, dibujar y escribir.\n\nEspecíficas: son las habilidades motrices básicas combinadas que buscan la eficacia en los movimientos para resolver una situación motriz determinada, por ejemplo, correr con zancadas amplias y efectuar el salto de longitud.\n\nHabilidades sociomotrices\nSon el resultado de las interacciones que se dan entre las personas en la práctica de actividad física, que contribuye al desarrollo de la personalidad y a la mejora de los factores sociales, emocionales y de comunicación entre los estudiantes.\n\nImagen corporal\nEs la representación mental amplia de nuestro cuerpo, en su forma y tamaño. Dicha representación está influenciada por factores culturales, sociales, individuales y biológicos que se modifican en el tiempo (Slade).\n\nIniciación deportiva\nPara Hernández Moreno (1988), la iniciación deportiva es el proceso de enseñanza y aprendizaje que siguen los estudiantes para la adquisición del conocimiento de la estructura de los deportes, desde que toman contacto con ellos hasta que son capaces de jugarlos.\n\nJuego\nEs una actividad espontánea, placentera, libre y educativa, que favorece las interacciones que se dan en el entorno y guarda un cierto orden dado por reglas. El juego constituye un elemento vital en los estudiantes ya que posibilita las bases del comportamiento social de la persona.\n\nMotricidad\nLa motricidad es una manifestación de la corporeidad puesta en acción de manera pensada, intencional y emocional.\n\nPostura corporal\nEs la alineación simétrica y proporcional de los segmentos corporales alrededor del eje de la gravedad. Es considerada como la actividad refleja del cuerpo con relación al espacio, así como la base de las acciones motrices y de los procesos de aprendizaje relacionados.\n\nSalud\nSegún la definición de \"salud\" propuesta por la Organización Mundial de la Salud (OMS, 1946), la salud no es solamente la ausencia de enfermedad, sino el estado de completo bienestar físico, mental y social del individuo.\n\nTono\nSegún Berrueza (2003), la función tónica es importante en el desarrollo psicomotor, puesto que organiza el esquema corporal, el equilibrio, la posición y la postura, que son las bases de la actuación y el movimiento dirigido e intencional. El tono depende de un proceso de regulación neuromotora, neurosensorial y emocional.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 232,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 817,
+  "totalTokens": 2906,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

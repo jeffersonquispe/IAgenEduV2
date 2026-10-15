@@ -1,0 +1,78 @@
+{
+ "numero_pagina_impreso": 176,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de gestión de datos e incertidumbre",
+ "ciclo": "VII",
+ "capacidades": [
+  "Representa datos con gráficos y medidas estadísticas o probabilísticas.",
+  "Comunica su comprensión de los conceptos estadísticos y probabilísticos.",
+  "Usa estrategias y procedimientos para recopilar y procesar datos.",
+  "Sustenta conclusiones o decisiones con base en la información obtenida."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que plantea temas de estudio, caracterizando la población y la muestra e identificando las variables a estudiar; empleando el muestreo aleatorio para determinar una muestra representativa. Recolecta datos mediante encuestas y los registra en tablas, determina terciles, cuartiles y quintiles; la desviación estándar, y el rango de un conjunto de datos; representa el comportamiento de estos usando gráficos y medidas estadísticas más apropiadas a las variables en estudio. Interpreta la información contenida en estos, o la información relacionada a su tema de estudio proveniente de diversas fuentes, haciendo uso del significado de la desviación estándar, las medidas de localización estudiadas y el lenguaje estadístico; basado en esto contrasta y justifica conclusiones sobre las características de la población. Expresa la ocurrencia de sucesos dependientes, independientes, simples o compuestos de una situación aleatoria mediante la probabilidad, y determina su espacio muestral; interpreta las propiedades básicas de la probabilidad de acuerdo a las condiciones de la situación; justifica sus predicciones con base a los resultados de su experimento o propiedades.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Representa las características de una población mediante el estudio de variables y el comportamiento de los datos de una muestra, mediante medidas de tendencia central, medidas de localización (tercil y quintil), desviación estándar para datos agrupados y gráficos estadísticos. Para ello, selecciona los más apropiados para las variables estudiadas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Determina las condiciones y restricciones de una situación aleatoria, analiza la ocurrencia de sucesos simples y compuestos, y la representa con el valor de su probabilidad expresada como racional de 0 a 1. A partir de este valor, determina la mayor o menor probabilidad de un suceso compuesto en comparación con otro."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje matemático su comprensión sobre el valor de terciles y quintiles de una distribución de datos, así como la pertinencia de las medidas de tendencia central en relación con la desviación estándar, según el contexto de la población en estudio. Asimismo, expresa el valor de la probabilidad de sucesos simples y compuestos de una situación aleatoria y cómo se distinguen los sucesos simples de los compuestos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Lee, interpreta, y explica una variedad de tablas y gráficos, así como diversos textos que contengan valores sobre las medidas estadísticas de una población y medidas probabilísticas en estudio, para deducir nuevos datos y predecir un comportamiento a futuro. Sobre la base de ello, produce nueva información y evalúa el dato o los datos que producen algún sesgo en el comportamiento de otros."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Recopila datos de variables cualitativas o cuantitativas de una población mediante encuestas o la observación. Los recopila con el propósito de analizarlos y producir información sobre el comportamiento de datos. Determina una muestra representativa de una población pertinente para el objetivo de estudio y para las características de la población estudiada."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Adapta y combina procedimientos para determinar medidas de tendencia central, desviación estándar de datos continuos, medidas de localización, y probabilidad de eventos simples o compuestos de una situación aleatoria. Adecúa los procedimientos utilizados a otros contextos de estudio."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea y contrasta afirmaciones o conclusiones sobre las características o tendencias de una población o de eventos aleatorios a partir de sus observaciones o análisis de datos. Las justifica con ejemplos y contraejemplos usando sus conocimientos y la información obtenida en su investigación. Reconoce errores, vacíos o sesgos en sus conclusiones o en las de otros estudios, y propone mejoras."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 176,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1501,
+  "totalTokens": 3723,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [
+   {
+    "tipo": "conflicto",
+    "antes_sonnet": "Recopila datos de variables cualitativos o cuantitativos de una población mediante encuestas o la observación. Los recopila con el propósito de analizarlos y producir información sobre el comportamiento de datos. Determina una muestra representativa de una población pertinente para el objetivo de estudio y para las características de la población estudiada.",
+    "haiku": "Recopila datos de variables cualitativas o cuantitativas de una población mediante encuestas o la observación. Los recopila con el propósito de analizarlos y producir información sobre el comportamiento de datos. Determina una muestra representativa de una población pertinente para el objetivo de estudio y para las características de la población estudiada.",
+    "despues": "Recopila datos de variables cualitativas o cuantitativas de una población mediante encuestas o la observación. Los recopila con el propósito de analizarlos y producir información sobre el comportamiento de datos. Determina una muestra representativa de una población pertinente para el objetivo de estudio y para las características de la población estudiada."
+   }
+  ],
+  "tercera_lectura": [],
+  "preguntas": 3
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

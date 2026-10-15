@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 116,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "diversos recursos cohesivos, como conectores, referentes y recursos textuales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Incorpora un vocabulario variado."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Incluye en su producción oral diversas fuentes de información, tanto orales como escritas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Emplea estratégicamente recursos no verbales (gestos y movimientos corporales) y paraverbales (entonación) para mantener la atención del interlocutor en diversos contextos socioculturales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Participa en intercambios orales con diversos interlocutores en debates y conversaciones aportando información relevante y oportuna, las cuales son desarrolladas en el texto oral."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Respeta los puntos de vista y las necesidades de su interlocutor. Respeta los turnos de la conversación."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Ordena y jerarquiza las ideas relacionándolas mediante diversos recursos cohesivos, como conectores, referentes y recursos textuales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Incorpora un vocabulario variado y especializado."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Incluye en su producción oral diversas fuentes de información, tanto orales como escritas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Emplea estratégicamente recursos no verbales (gestos y movimientos corporales) y paraverbales (entonación) para mantener la atención del interlocutor en diversos contextos socioculturales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Participa en intercambios orales con diversos interlocutores en debates y conversaciones aportando información relevante y oportuna, las cuales son desarrolladas en el texto oral."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Respeta los puntos de vista y las necesidades de su interlocutor. Respeta los turnos de la conversación para presentar oportunamente su posición."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 116,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 877,
+  "totalTokens": 3099,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

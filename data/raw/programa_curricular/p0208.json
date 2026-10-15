@@ -1,0 +1,59 @@
+{
+ "numero_pagina_impreso": 208,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+ "ciclo": "VII",
+ "capacidades": [
+  "Conoce a Dios y asume su identidad religiosa y espiritual como persona digna, libre y trascendente.",
+  "Cultiva y valora las manifestaciones religiosas de su entorno argumentando su fe de manera comprensible y respetuosa."
+ ],
+ "descripcion_nivel": "Fundamenta la presencia de Dios en la creación, en el Plan de Salvación y en la vida de la Iglesia. Asume a Jesucristo como Redentor y modelo de hombre que le enseña a vivir bajo la acción del Espíritu Santo, participando en la misión evangelizadora en coherencia con su creencia religiosa. Argumenta su fe en diálogo crítico con la cultura, la ciencia, otras manifestaciones religiosas y espirituales. Propone alternativas de solución a problemas y necesidades de su comunidad, del país y del mundo, que expresen los valores propios de su tradición cristiana y católica, el bien común, la promoción de la dignidad de la persona y el respeto a la vida humana. Interioriza el mensaje de Jesucristo y las enseñanzas de la Iglesia para actuar en coherencia con su fe.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Fundamenta la presencia de Dios en la historia y vida de la Iglesia y de la humanidad para actuar con responsabilidad frente a todo lo creado."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Interioriza el mensaje de Jesucristo y las enseñanzas de la Iglesia con sus vivencias personales y comunitarias, actuando en coherencia con su fe."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Asume en su vida a Jesucristo como Redentor y modelo de hombre que enseña a vivir bajo la acción del Espíritu Santo en la misión evangelizadora."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Demuestra con convicción su fe en diálogo crítico entre cultura y ciencia frente a otras manifestaciones religiosas y espirituales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Propone alternativas de solución a los problemas locales, nacionales y mundiales a la luz del mensaje del Evangelio y la Tradición de la Iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 208,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 910,
+  "totalTokens": 3132,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ },
+ "_ensamblado": {
+  "umbral_aceptacion": 0.9
+ }
+}

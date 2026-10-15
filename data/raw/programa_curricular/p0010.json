@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 10,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Así pues, específicamente en la relación docente-estudiante, los enfoques transversales operan de manera interrelacionada en las competencias que se busca que los estudiantes desarrollen, orientan en todo momento el trabajo pedagógico, e imprimen características a los diversos procesos de enseñanza y aprendizaje.\n\nPor ejemplo, al plantear el desarrollo de un proyecto referido al cultivo y comercio de productos transgénicos, se puede tener como propósito desarrollar las siguientes competencias: principalmente \"Gestiona responsablemente el espacio y el ambiente\", pero también \"Construye su identidad\"; \"Convive y participa democráticamente en la búsqueda del bien común\"; y, finalmente, \"Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo\". Simultáneamente se promueven los siguientes enfoques transversales: de Derechos, Ambiental, Intercultural, Orientación al bien común, entre otros. Es decir, los valores y las actitudes propios de estos enfoques son el principal referente para abordar el desarrollo de las competencias mencionadas. Con ello, hacemos evidentes los valores y principios que la sociedad defiende o quiere defender al momento de desarrollar las competencias, es decir, cómo se expresan dichos valores y principios en la práctica pedagógica.\n\nLa puesta en práctica de valores y actitudes desde la institución educativa incide en la solución de los desafíos, las problemáticas y las demandas sociales y ambientales que surgen en el entorno de los estudiantes, en el país y en el mundo contemporáneo. Permitirá, así, la construcción de posiciones sólidas frente a problemas éticos y dará sentido al ejercicio ciudadano.\n\nPara integrar los enfoques transversales a la práctica pedagógica, es necesario clarificar algunas ideas:\n\n• El tratamiento de los enfoques transversales demanda una respuesta formativa de la escuela en su conjunto, lo que involucra a todos sus miembros, quienes deben generar condiciones para que la escuela sea promotora de justicia, equidad, inclusión, ambientalmente responsables, entre otros.\n\n• No basta con nombrar los enfoques transversales en los documentos curriculares. El reto es de mayor profundidad: su tratamiento exige reflexionar sobre los valores y las actitudes, puesto que éstos se construyen y fortalecen en las interacciones diarias.\n\n• Es una idea equivocada pensar que los enfoques transversales se desarrollan a través de temas o actividades aisladas. El tratamiento de éstos se realiza a partir del análisis de las necesidades y problemáticas del contexto local y global en el que se desenvuelven los estudiantes, en relación con los valores y las actitudes interrelacionados en las competencias.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 10,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 848,
+  "totalTokens": 2937,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

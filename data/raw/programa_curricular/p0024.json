@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 24,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "vocacionales; entre otros. Estos aspectos contribuirán a lograr estilos de vida saludable y a la construcción de su proyecto de vida.\n\nb) Dimensión social: Considera las relaciones del estudiante con las personas de su entorno y el ambiente para establecer una convivencia armoniosa que promueva la igualdad, el sentido de pertenencia y la participación, buscando el bien común. En forma específica, contempla el desarrollo de habilidades interpersonales, habilidades psoambientales y habilidades para prevenir situaciones de riesgo.\n\nc) Dimensión de los aprendizajes: Está vinculada con el fortalecimiento de la gestión de los aprendizajes y con el desarrollo de los procesos cognitivos de los estudiantes, tomando en cuenta su desarrollo evolutivo. El tutor debe estar atento a los ritmos y estilos de aprendizaje de sus estudiantes para acompañarlos de manera pertinente.\n\n4.3 ¿Cómo identificar las necesidades de orientación del grupo de estudiantes?\n\nEs importante elaborar un diagnóstico de la escuela, el cual debe tomar en cuenta lo siguiente:\n\n• Identificar las dificultades más relevantes que se atenderán en el presente año en la escuela a partir de la revisión de los documentos de gestión en la institución educativa.\n• Identificar, según los indicadores de los planes nacionales, regionales y locales, aquellos relacionados con problemáticas psicosociales y ambientales.\n• Identificar, en el informe de tutoría del grado anterior u otros documentos de la escuela, las características y los nudos críticos que requieran atención.\n\nEs necesario recoger información de las características de nuestros estudiantes del aula a través de:\n\n• Un cuestionario en el que se recojan los intereses, las expectativas y las necesidades de los estudiantes.\n• La revisión de las fichas de matrícula para identificar aspectos relevantes de la vida personal y familiar del estudiante.\n• La revisión de las actas finales de evaluación para identificar los resultados de los logros de aprendizaje del estudiante que necesita mejorar.\n• La observación del estudiante en diferentes momentos y espacios de la jornada escolar para recoger información sobre su comportamiento e interacciones con los demás.\n• Las reuniones de docentes de aula donde recogemos información de los logros de aprendizaje y el desenvolvimiento del estudiante.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 24,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 731,
+  "totalTokens": 2820,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

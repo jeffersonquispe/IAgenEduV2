@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 26,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Observación: es la acción mediante la cual se captan los mensajes verbales y no verbales. Ayuda a percibir los sentimientos que cada estudiante experimenta en un momento determinado.\n\nEspacio y tiempo significativos de orientación: es todo lugar y momento dedicados, dentro de la institución educativa, a atender y acompañar al estudiante. Lo importante es que cada estudiante se sienta acompañado. Este acompañamiento puede darse en el aula, en el patio, en la biblioteca, a la hora de recreo, a la hora de entrada, a la hora de salida, etc.\n\nLa presencia: significa que los estudiantes perciban al tutor como una persona cercana a ellos, no sólo física sino también afectivamente, de forma que se establezca el vínculo socioafectivo entre el docente y el estudiante.\n\n4.5 ¿Cómo trabajar con las familias?\n\nLa orientación a las familias es una estrategia de la tutoría dirigida a padres, madres o apoderados responsables de los estudiantes. La definimos como el proceso de acompañamiento que tiene como objetivo involucrar a las familias en el proceso formativo de sus hijos, y brindar pautas para mejorar su función educativa fortaleciendo su dinámica interna. Esta orientación a las familias se realiza básicamente desde actividades de formación y de participación, que se detallan a continuación:\n\nActividades de formación: son actividades que buscan promover el fortalecimiento de las capacidades de las familias respecto de la educación de sus hijos e hijas, y mejorar su dinámica interna, de modo que se conviertan en un factor idóneo de socialización. Se realizan a través de:\n\n• Reuniones de aula\n• Entrevistas individuales\n• Escuela de familias\n• Otras actividades\n\nActividades de participación: son actividades que surgen de la articulación y coordinación del Comité de Tutoría y Orientación Educativa con las organizaciones de familias que existen en la escuela, con la finalidad de fortalecer el vínculo familia-escuela. Promueven el involucramiento de las familias en las diversas actividades que la institución educativa realiza. Se pueden realizar las siguientes acciones:\n\n• Reuniones con la Apafa (Asociación de Padres de Familia)\n• Reuniones con el Conei (Consejo Educativo Institucional)\n• Reuniones con el comité de aula y otros comités de la institución educativa.\n• Otras actividades.\n\nLa participación de las familias en la escuela, y la buena relación de cooperación y confianza entre ellas y los docentes son factores importantes para el desarrollo integral de nuestros estudiantes. De esta forma, su participación ayuda a que los adolescentes respondan mejor a sus necesidades y a establecer una convivencia armónica en la institución educativa.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 26,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 861,
+  "totalTokens": 2950,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

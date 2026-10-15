@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 21,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "DISEÑAR Y ORGANIZAR SITUACIONES, ESTRATEGIAS Y CONDICIONES PERTINENTES AL PROPÓSITO DE APRENDIZAJE.\n\nTeniendo claro los propósitos de aprendizaje, las necesidades de aprendizaje de los adolescentes, los criterios y las evidencias a recoger se diseñan y organizan las situaciones significativas, recursos y materiales diversos, procesos pedagógicos y didácticos pertinentes, estrategias diferenciadas, e interacciones que permitan tener un clima favorable para el aprendizaje. Así los estudiantes tendrán la oportunidad de desplegar sus capacidades para actuar competentemente en situaciones complejas para alcanzar el propósito de aprendizaje.\n\nDesarrollar competencias plantea un desafío pedagógico que involucra acompañar a los niños y niñas de manera permanente y pertinente, de acuerdo a sus necesidades. Esto implica implementar las orientaciones pedagógicas y de la evaluación formativa del Currículo Nacional. Dichas orientaciones deben ser abordadas de manera recurrente y flexible, por lo tanto, no se deben plantear de forma lineal o como listados estáticos. La implementación de estas orientaciones plantea la realización de las siguientes prácticas pedagógicas:\n\nPrácticas pedagógicas:\n\n- Plantear situaciones significativas que tengan un contexto, destinatario y productos pertinentes al propósito de aprendizaje.\n\n- Preguntar y repreguntar sobre la validez de sus hipótesis, afirmaciones y conclusiones, de manera que puedan reflexionar y evaluar una problemática desde varias perspectivas.\n\n- Brindar espacios de retroalimentación descriptiva y oportuna de manera formal o informal en el proceso de aprendizaje, según criterios establecidos y a través de la coevaluación, la heteroevaluación y la autoevaluación.\n\n- Seleccionar o crear estrategias, materiales o recursos educativos apropiados y pertinentes a los propósitos de aprendizaje.\n\n- Brindar oportunidades diferenciadas a los estudiantes de acuerdo con las necesidades individuales de aprendizaje.\n\n- Generar evidencias de aprendizaje que permitan observar e interpretar los progresos y dificultades de los adolescentes durante el proceso de aprendizaje.\n\n- Considerar diversos espacios educativos, y su organización y reorganización para favorecer el propósito de aprendizaje.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 21,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 749,
+  "totalTokens": 2838,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

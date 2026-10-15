@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 17,
+ "tipo": "narrativa",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "DETERMINAR EL PROPÓSITO DE APRENDIZAJE SOBRE LA BASE DE LAS NECESIDADES DE APRENDIZAJE IDENTIFICADAS\n\nEn una planificación desde el enfoque por competencias, es esencial partir de la identificación de las necesidades de aprendizaje de los adolescentes. Esta identificación requiere comprender las competencias, el nivel esperado de aprendizaje descrito en los estándares de aprendizaje o desempeños de grado, e identificar dónde se encuentran los adolescentes respecto de esos referentes.\n\nEn ese sentido, al planificar a largo o corto plazo, debemos reflexionar a partir de tres preguntas claves:\n\n• ¿Qué aprendizajes se espera que desarrollen los adolescentes en relación con las competencias del currículo?\n• ¿Qué aprendizajes previos tienen los adolescentes?\n• ¿En qué nivel de desarrollo de la competencia se encuentran los adolescentes? ¿Cuán cerca o lejos están del estándar de aprendizaje y/o los desempeños de edad o grado?\n\nSeguidamente se desarrollan las tres preguntas:\n\n¿Qué aprendizajes se espera que desarrollen los adolescentes en relación con las competencias del currículo?\n\nPara comprender qué aprendizajes se espera que alcancen los adolescentes, se recomienda:\n\n• Analizar las competencias y capacidades del Currículo Nacional, y enfoques transversales para comprender el sentido de los aprendizajes.\n• Identificar en los estándares de aprendizaje el nivel esperado y/o los desempeños del grado o edad, para determinar las características y la complejidad de los aprendizajes\n\n¿Qué aprendizajes previos tienen los adolescentes?\n\nDespués de analizar las competencias, las capacidades, los estándares de aprendizaje y los desempeños de grado, es necesario diagnosticar los aprendizajes previos que tienen los adolescentes. Para ello:\n\n• Recopilar la evidencia disponible sobre los aprendizajes de los adolescentes, es decir, las producciones o trabajos de los estudiantes, tangibles o intangibles, a través de los cuales se puede observar o interpretar lo que son capaces de hacer respecto de las competencias. Analizar e interpretar la evidencia de aprendizaje, es decir, describir qué capacidades pone en juego el estudiante para organizar su respuesta, las relaciones que establece, aciertos, estrategias que usa, errores frecuentes que comete y sus posibles causas. Para realizar este análisis e interpretación, es necesario contar con criterios de valoración de la evidencia, para",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 17,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 819,
+  "totalTokens": 2908,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

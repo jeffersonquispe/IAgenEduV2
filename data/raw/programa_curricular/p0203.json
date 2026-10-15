@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 203,
+ "tipo": "narrativa",
+ "area": "Educación Religiosa",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.11.1. Enfoques que sustentan el desarrollo de las competencias en el área de Educación Religiosa\n\nEn esta área, el marco teórico y metodológico que orienta la enseñanza y el aprendizaje corresponde al enfoque humanista cristiano, cristocéntrico y comunitario.\n\n• El enfoque humanista cristiano permite al estudiante comprender y dar razón de su fe aplicándola a la realidad, e integrando la fe y la vida. El estudiante, así, podrá encontrarse profunda y sinceramente consigo mismo, y descubrir su verdadera identidad de ser humano llamado a vivir en el amor, para cristalizar, de esta manera, la visión trascendente de la vida en la educación. Además, le permite comprender que el modelo y horizonte de vida plena es Jesucristo, el cual propone una vivencia desde el Evangelio y sus valores de acuerdo con el proyecto de Dios para toda la humanidad: la dignidad humana, la verdad, la libertad, la paz, la solidaridad, el bien común, la bondad, la justicia, y la primacía de la persona por sobre todas las cosas. Este enfoque contempla la relevancia que tiene la religión en la vida de los estudiantes, y toma en cuenta que una educación centrada en la experiencia y en la formación para la vida debe buscar y aportar instrumentos adecuados para cultivar, interpretar, valorar y actuar desde lo religioso y espiritual, privilegiando la inclusión de todos los estudiantes, tengan o no una opción religiosa. En el contexto de su pertenencia a la sociedad, le aportará también una visión del humanismo cristiano y su vigencia en el mundo actual en relación con la ética, la moral, el respeto y el diálogo con los adeptos a otras religiones, y le aportará, también, la enseñanza social cristiana para comprender la visión del hombre y del mundo.\n\n• El enfoque cristocéntrico está orientado a promover en el estudiante su actuar en el mundo al estilo de Jesucristo. Consideramos que, entre Dios Padre y el estudiante, hay una relación filial que es natural, por haber sido creado a su imagen y semejanza. En este enfoque, se nos presenta la fe como virtud teológal por la que creemos en Dios y todo lo que Él nos ha revelado. Proponemos al estudiante mirar la historia de la humanidad y su historia personal entendidas como Historia de Salvación. La historia es el lugar del diálogo entre Dios y el hombre, y este puede reconocer entonces cuál ha sido y es la actuación de Dios en su propia existencia y en la historia universal. También le permite reconocer que Dios no es un extraño en el mundo ni en su vida, sino que, más bien, tiene un papel protagónico en ella, desde el momento en que es su Creador y sigue acompañando permanentemente a la humanidad mediante Jesucristo y su Iglesia.\n\n• En el enfoque comunitario, la educación religiosa pretende que el estudiante contribuya a crear, en su comunidad familiar, escolar y social, un ambiente de vida fraterna y solidaria, animado por el espíritu evangélico del amor, que lo ayudará en su autorrealización, y poniendo en ejercicio su capacidad innata de relacionarse responsablemente consigo mismo, con el Ser divino, con los otros y con la naturaleza. Asimismo, pretende que ejerza su libertad responsable frente a todas las expresiones de la cultura humana, de modo que el estudiante, iluminado por la fe, convierta los conocimientos que vaya adquiriendo del mundo, de la vida y del hombre —en las diversas situaciones de la vida— en posibilidades de realización humana y espiritual a favor de su comunidad en nombre de Dios.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 203,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1088,
+  "totalTokens": 3177,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

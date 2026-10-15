@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 195,
+ "tipo": "narrativa",
+ "area": "Educación para el Trabajo",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Los cambios tecnológicos, sociales y económicos de las últimas dos décadas han transformado significativamente las características del mundo del trabajo. Así, la forma más de acceder o de generarse un empleo y desempeñarse con éxito en esta esfera de la vida humana es distinta hoy y continuará en constante cambio, reconfigurándose y proponiendo nuevos retos para los egresados de la Educación Básica. En este escenario, el propósito es favorecer el acceso de los estudiantes a la educación superior o al mundo laboral a través de un empleo dependiente, independiente o autogenerado, y a través del desarrollo de las habilidades, conocimientos y actitudes que le permitan al estudiante proponer y llevar a la práctica alternativas de solución frente a necesidades o problemas económicos o sociales. Con este fin, desarrolla la gestión de proyectos de emprendimiento en los que desplieguen competencias generales blandas y técnicas que les permitan afianzar su potencial y aumentar sus posibilidades de empleabilidad en función de sus intereses personales y procurando el desarrollo de su entorno.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. En especial, el área de Educación para el Trabajo se ocupa de promover y facilitar, a lo largo de la Educación Secundaria, que los estudiantes desarrollen la siguiente competencia:\n\n• Gestiona proyectos de emprendimiento económico o social.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 195,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 500,
+  "totalTokens": 2589,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

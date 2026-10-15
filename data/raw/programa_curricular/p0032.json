@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 32,
+ "tipo": "narrativa",
+ "area": "Desarrollo Personal, Ciudadanía y Cívica",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.1.1 Enfoques que sustentan el desarrollo de las competencias en el área de Desarrollo Personal, Ciudadanía y Cívica\n\nEl área de Desarrollo Personal, Ciudadanía y Cívica asume los enfoques de desarrollo personal y de ciudadanía activa. Estos enfoques brindan el marco teórico y metodológico que orientan la enseñanza y el aprendizaje de esta área.\n\n• El desarrollo personal hace énfasis en el proceso que lleva a los seres humanos a construirse como personas, y alcanzar el máximo de sus potencialidades en un proceso continuo de transformaciones biológicas, cognitivas, afectivas, comportamentales y sociales que se da a lo largo de la vida. Este proceso permite a las personas no solamente conocerse a sí mismas y a los demás, sino, también, vincularse con el mundo natural y social de manera más integradora. Igualmente, se enfatizan los procesos de reflexión y la construcción de un punto de vista crítico y ético para relacionarse con el mundo.\n\n• La ciudadanía activa promueve que todas las personas asuman responsablemente su rol como ciudadanos con derechos y deberes para participar activamente en el mundo social y en las diferentes dimensiones de la ciudadanía, propiciando la vida en democracia, la disposición para el enriquecimiento mutuo y el aprendizaje de otras culturas, así como una relación armónica con el ambiente. Para lograrlo, se promueven procesos de reflexión crítica acerca de la vida en sociedad y del rol de cada persona en esta. Asimismo, promueve la deliberación sobre los asuntos que nos involucran como ciudadanos y la acción sobre el mundo, de modo que este sea, cada vez más, un mejor lugar de convivencia y respeto de derechos.\n\nAmbos enfoques son complementarios y resultan fundamentales para la realización plena de la persona en una sociedad cambiante. Así, el desarrollo personal es la base para la ciudadanía activa. La autorregulación de las emociones resulta fundamental para manejar los conflictos de manera no violenta, y para elaborar acuerdos y normas de convivencia. La valoración de nosotros mismos y la consolidación de nuestra identidad, por su parte, nos permiten convivir de manera democrática y participar en nuestra comunidad a partir de la deliberación sobre asuntos públicos que nos involucran.\n\nDe igual forma, la ética, entendida como el compromiso con principios morales y como el cuidado del otro, es indispensable para generar una convivencia armónica que reconozca y respete a los demás y busque el bien común. Por otro lado, la ciudadanía activa enriquece el desarrollo personal a partir del reconocimiento de las personas como sujetos de derecho y de los principios de libertad y dignidad humana, y a través de las oportunidades de crecimiento personal que la participación social ofrece. La búsqueda por fortalecer una sociedad más equitativa en la que los derechos humanos estén en plena vigencia y el cumplimiento de los deberes ciudadanos permitirán que cada persona se desarrolle plenamente.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 32,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 933,
+  "totalTokens": 3022,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}
