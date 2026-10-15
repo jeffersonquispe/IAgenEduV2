@@ -1,9 +1,12 @@
 """
 Módulo para gestionar las competencias del Currículo Nacional de Educación Básica del Perú.
-Contiene las 31 competencias oficiales del MINEDU y la malla curricular de Educación Secundaria.
+Contiene las 31 competencias del CNEB (29 de área + 2 transversales), cada una con su área, y la malla curricular
+de Educación Secundaria. La fuente de verdad es el Programa Curricular (data/programa_curricular_secundaria_2016.json);
+src/tests/test_catalogo_competencias.py verifica que este catálogo coincida con él.
 """
 import os
 import re
+import unicodedata
 
 # Áreas curriculares del Programa Curricular de Educación Secundaria – Perú (2016), sección 5
 AREAS_CURRICULARES_SECUNDARIA = [
@@ -34,161 +37,197 @@ def obtener_grados_secundaria():
     return list(GRADOS_SECUNDARIA)
 
 
+# Competencias transversales: el CNEB las plantea para todas las áreas, no para una sola.
+AREA_TRANSVERSAL = "Competencias transversales"
+
+# `numero` es un identificador estable (valor del selector del wizard y prefijo 'COMPETENCIA N.' del texto que viaja
+# al generador): no se renumera ni se reutiliza. Los huecos (22-29) eran entradas que no son competencias.
 COMPETENCIAS_CURRICULARES = [
     {
         "numero": 1,
         "nombre": "Construye su identidad",
-        "descripcion": "Construye su identidad"
+        "descripcion": "Construye su identidad",
+        "area": "Desarrollo Personal, Ciudadanía y Cívica"
     },
     {
-        "numero": 2,
-        "nombre": "Asume una vida saludable",
-        "descripcion": "Asume una vida saludable"
-    },
-    {
-        "numero": 3,
-        "nombre": "Se desenvuelve de manera autónoma a través de su motricidad",
-        "descripcion": "Se desenvuelve de manera autónoma a través de su motricidad"
-    },
-    {
-        "numero": 4,
-        "nombre": "Se comunica oralmente en su lengua materna",
-        "descripcion": "Se comunica oralmente en su lengua materna"
-    },
-    {
-        "numero": 5,
-        "nombre": "Lee diversos tipos de textos escritos en su lengua materna",
-        "descripcion": "Lee diversos tipos de textos escritos en su lengua materna"
-    },
-    {
-        "numero": 6,
-        "nombre": "Escribe diversos tipos de textos en su lengua materna",
-        "descripcion": "Escribe diversos tipos de textos en su lengua materna"
-    },
-    {
-        "numero": 7,
-        "nombre": "Se comunica en inglés como lengua extranjera",
-        "descripcion": "Se comunica en inglés como lengua extranjera"
-    },
-    {
-        "numero": 8,
-        "nombre": "Resuelve problemas de cantidad",
-        "descripcion": "Resuelve problemas de cantidad"
-    },
-    {
-        "numero": 9,
-        "nombre": "Resuelve problemas de regularidad, equivalencia y cambio",
-        "descripcion": "Resuelve problemas de regularidad, equivalencia y cambio"
-    },
-    {
-        "numero": 10,
-        "nombre": "Resuelve problemas de forma, movimiento y localización",
-        "descripcion": "Resuelve problemas de forma, movimiento y localización"
-    },
-    {
-        "numero": 11,
-        "nombre": "Resuelve problemas de gestión de datos e incertidumbre",
-        "descripcion": "Resuelve problemas de gestión de datos e incertidumbre"
-    },
-    {
-        "numero": 12,
-        "nombre": "Indaga mediante métodos científicos para construir conocimientos",
-        "descripcion": "Indaga mediante métodos científicos para construir conocimientos"
-    },
-    {
-        "numero": 13,
-        "nombre": "Explica el mundo físico basándose en conocimientos sobre los seres vivos; materia y energía; biodiversidad, Tierra y universo",
-        "descripcion": "Explica el mundo físico basándose en conocimientos sobre los seres vivos; materia y energía; biodiversidad, Tierra y universo"
-    },
-    {
-        "numero": 14,
-        "nombre": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
-        "descripcion": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"
-    },
-    {
-        "numero": 15,
-        "nombre": "Gestiona proyectos de emprendimiento económico o social",
-        "descripcion": "Gestiona proyectos de emprendimiento económico o social"
-    },
-    {
-        "numero": 16,
-        "nombre": "Se desenvuelve en entornos virtuales generados por las TIC",
-        "descripcion": "Se desenvuelve en entornos virtuales generados por las TIC"
-    },
-    {
-        "numero": 17,
-        "nombre": "Interpreta la realidad y se integra a través de las manifestaciones artístico-culturales",
-        "descripcion": "Interpreta la realidad y se integra a través de las manifestaciones artístico-culturales"
-    },
-    {
-        "numero": 18,
-        "nombre": "Crea proyectos desde los lenguajes artísticos",
-        "descripcion": "Crea proyectos desde los lenguajes artísticos"
+        "numero": 32,
+        "nombre": "Convive y participa democráticamente en la búsqueda del bien común",
+        "descripcion": "Convive y participa democráticamente en la búsqueda del bien común",
+        "area": "Desarrollo Personal, Ciudadanía y Cívica"
     },
     {
         "numero": 19,
         "nombre": "Construye interpretaciones históricas",
-        "descripcion": "Construye interpretaciones históricas"
+        "descripcion": "Construye interpretaciones históricas",
+        "area": "Ciencias Sociales"
     },
     {
         "numero": 20,
         "nombre": "Gestiona responsablemente el espacio y el ambiente",
-        "descripcion": "Gestiona responsablemente el espacio y el ambiente"
+        "descripcion": "Gestiona responsablemente el espacio y el ambiente",
+        "area": "Ciencias Sociales"
     },
     {
         "numero": 21,
         "nombre": "Gestiona responsablemente los recursos económicos",
-        "descripcion": "Gestiona responsablemente los recursos económicos"
+        "descripcion": "Gestiona responsablemente los recursos económicos",
+        "area": "Ciencias Sociales"
     },
     {
-        "numero": 22,
-        "nombre": "Se valora a sí mismo",
-        "descripcion": "Se valora a sí mismo"
+        "numero": 3,
+        "nombre": "Se desenvuelve de manera autónoma a través de su motricidad",
+        "descripcion": "Se desenvuelve de manera autónoma a través de su motricidad",
+        "area": "Educación Física"
     },
     {
-        "numero": 23,
-        "nombre": "Autorregula sus emociones",
-        "descripcion": "Autorregula sus emociones"
+        "numero": 2,
+        "nombre": "Asume una vida saludable",
+        "descripcion": "Asume una vida saludable",
+        "area": "Educación Física"
     },
     {
-        "numero": 24,
-        "nombre": "Reflexiona y argumenta éticamente",
-        "descripcion": "Reflexiona y argumenta éticamente"
+        "numero": 33,
+        "nombre": "Interactúa a través de sus habilidades sociomotrices",
+        "descripcion": "Interactúa a través de sus habilidades sociomotrices",
+        "area": "Educación Física"
     },
     {
-        "numero": 25,
-        "nombre": "Vive su sexualidad de manera plena y responsable",
-        "descripcion": "Vive su sexualidad de manera plena y responsable"
+        "numero": 17,
+        "nombre": "Aprecia de manera crítica manifestaciones artístico-culturales",
+        "descripcion": "Aprecia de manera crítica manifestaciones artístico-culturales",
+        "area": "Arte y Cultura"
     },
     {
-        "numero": 26,
-        "nombre": "Interactúa con todas las personas",
-        "descripcion": "Interactúa con todas las personas"
+        "numero": 18,
+        "nombre": "Crea proyectos desde los lenguajes artísticos",
+        "descripcion": "Crea proyectos desde los lenguajes artísticos",
+        "area": "Arte y Cultura"
     },
     {
-        "numero": 27,
-        "nombre": "Construye normas y asume acuerdos y leyes",
-        "descripcion": "Construye normas y asume acuerdos y leyes"
+        "numero": 4,
+        "nombre": "Se comunica oralmente en su lengua materna",
+        "descripcion": "Se comunica oralmente en su lengua materna",
+        "area": "Comunicación"
     },
     {
-        "numero": 28,
-        "nombre": "Maneja conflictos de manera constructiva",
-        "descripcion": "Maneja conflictos de manera constructiva"
+        "numero": 5,
+        "nombre": "Lee diversos tipos de textos escritos en su lengua materna",
+        "descripcion": "Lee diversos tipos de textos escritos en su lengua materna",
+        "area": "Comunicación"
     },
     {
-        "numero": 29,
-        "nombre": "Participa en acciones que promueven el bienestar común",
-        "descripcion": "Participa en acciones que promueven el bienestar común"
+        "numero": 6,
+        "nombre": "Escribe diversos tipos de textos en su lengua materna",
+        "descripcion": "Escribe diversos tipos de textos en su lengua materna",
+        "area": "Comunicación"
+    },
+    {
+        "numero": 34,
+        "nombre": "Se comunica oralmente en castellano como segunda lengua",
+        "descripcion": "Se comunica oralmente en castellano como segunda lengua",
+        "area": "Castellano como Segunda Lengua"
+    },
+    {
+        "numero": 35,
+        "nombre": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+        "descripcion": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+        "area": "Castellano como Segunda Lengua"
+    },
+    {
+        "numero": 36,
+        "nombre": "Escribe diversos tipos de textos en castellano como segunda lengua",
+        "descripcion": "Escribe diversos tipos de textos en castellano como segunda lengua",
+        "area": "Castellano como Segunda Lengua"
+    },
+    {
+        "numero": 7,
+        "nombre": "Se comunica oralmente en inglés como lengua extranjera",
+        "descripcion": "Se comunica oralmente en inglés como lengua extranjera",
+        "area": "Inglés como Lengua Extranjera"
+    },
+    {
+        "numero": 37,
+        "nombre": "Lee diversos tipos de textos en inglés como lengua extranjera",
+        "descripcion": "Lee diversos tipos de textos en inglés como lengua extranjera",
+        "area": "Inglés como Lengua Extranjera"
+    },
+    {
+        "numero": 38,
+        "nombre": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+        "descripcion": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+        "area": "Inglés como Lengua Extranjera"
+    },
+    {
+        "numero": 8,
+        "nombre": "Resuelve problemas de cantidad",
+        "descripcion": "Resuelve problemas de cantidad",
+        "area": "Matemática"
+    },
+    {
+        "numero": 9,
+        "nombre": "Resuelve problemas de regularidad, equivalencia y cambio",
+        "descripcion": "Resuelve problemas de regularidad, equivalencia y cambio",
+        "area": "Matemática"
+    },
+    {
+        "numero": 10,
+        "nombre": "Resuelve problemas de forma, movimiento y localización",
+        "descripcion": "Resuelve problemas de forma, movimiento y localización",
+        "area": "Matemática"
+    },
+    {
+        "numero": 11,
+        "nombre": "Resuelve problemas de gestión de datos e incertidumbre",
+        "descripcion": "Resuelve problemas de gestión de datos e incertidumbre",
+        "area": "Matemática"
+    },
+    {
+        "numero": 12,
+        "nombre": "Indaga mediante métodos científicos para construir conocimientos",
+        "descripcion": "Indaga mediante métodos científicos para construir conocimientos",
+        "area": "Ciencia y Tecnología"
+    },
+    {
+        "numero": 13,
+        "nombre": "Explica el mundo físico basándose en conocimientos sobre los seres vivos; materia y energía; biodiversidad, Tierra y universo",
+        "descripcion": "Explica el mundo físico basándose en conocimientos sobre los seres vivos; materia y energía; biodiversidad, Tierra y universo",
+        "area": "Ciencia y Tecnología"
+    },
+    {
+        "numero": 14,
+        "nombre": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
+        "descripcion": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
+        "area": "Ciencia y Tecnología"
+    },
+    {
+        "numero": 15,
+        "nombre": "Gestiona proyectos de emprendimiento económico o social",
+        "descripcion": "Gestiona proyectos de emprendimiento económico o social",
+        "area": "Educación para el Trabajo"
+    },
+    {
+        "numero": 31,
+        "nombre": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+        "descripcion": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+        "area": "Educación Religiosa"
     },
     {
         "numero": 30,
         "nombre": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
-        "descripcion": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa"
+        "descripcion": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+        "area": "Educación Religiosa"
     },
     {
-        "numero": 31,
-        "nombre": "Conoce a Dios y asume su identidad religiosa como persona digna, libre y trascendente, desarrollando su conciencia moral y orientando su vida desde su encuentro personal y comunitario con Dios",
-        "descripcion": "Conoce a Dios y asume su identidad religiosa como persona digna, libre y trascendente, desarrollando su conciencia moral y orientando su vida desde su encuentro personal y comunitario con Dios"
+        "numero": 16,
+        "nombre": "Se desenvuelve en entornos virtuales generados por las TIC",
+        "descripcion": "Se desenvuelve en entornos virtuales generados por las TIC",
+        "area": "Competencias transversales"
+    },
+    {
+        "numero": 39,
+        "nombre": "Gestiona su aprendizaje de manera autónoma",
+        "descripcion": "Gestiona su aprendizaje de manera autónoma",
+        "area": "Competencias transversales"
     }
 ]
 
@@ -247,75 +286,43 @@ def obtener_todas_las_competencias():
         return []
 
 
+_ALIAS_AREAS = {
+    "ciencia": "Ciencia y Tecnología", "tecnologia": "Ciencia y Tecnología",
+    "arte": "Arte y Cultura", "cultura": "Arte y Cultura",
+    "tutoria": "Desarrollo Personal, Ciudadanía y Cívica",
+    "historia": "Ciencias Sociales", "geografia": "Ciencias Sociales", "economia": "Ciencias Sociales",
+}
+
+
+def _sin_tildes(texto):
+    return "".join(c for c in unicodedata.normalize("NFD", str(texto or "").lower()) if unicodedata.category(c) != "Mn").strip()
+
+
+def _area_canonica(area_curricular):
+    """Nombre canónico del área ('Matemática', 'ciencia y tecnologia'...), o None si no se reconoce."""
+    clave = _sin_tildes(area_curricular)
+    for area in AREAS_CURRICULARES_SECUNDARIA:
+        if _sin_tildes(area) == clave:
+            return area
+    return _ALIAS_AREAS.get(clave)
+
+
 def obtener_competencias_por_area(area_curricular):
     """
-    Obtiene competencias relacionadas con un área curricular específica.
-    
+    Competencias de un área curricular: las propias del área más las 2 transversales (aplican a todas).
+    El área sale del campo `area` de cada competencia (fuente: Programa Curricular), no de un mapeo aparte.
+
     Args:
         area_curricular: Nombre del área curricular (ej: "Ciencia y Tecnología", "Matemática")
-        
+
     Returns:
-        Lista de competencias relacionadas con el área
+        Lista de competencias; vacía si el área no se reconoce.
     """
     try:
-        if not area_curricular:
+        area = _area_canonica(area_curricular)
+        if not area:
             return []
-        
-        area_lower = area_curricular.lower()
-        
-        # Mapeo de áreas curriculares a números de competencias (malla secundaria)
-        mapeo_areas = {
-            "desarrollo personal, ciudadanía y cívica": [1, 2, 22, 23, 24, 25, 26, 27, 28, 29],
-            "ciencias sociales": [19, 20, 21],
-            "educación física": [3],
-            "educacion fisica": [3],
-            "arte y cultura": [17, 18],
-            "arte": [17, 18],
-            "cultura": [17, 18],
-            "comunicación": [4, 5, 6, 7],
-            "comunicacion": [4, 5, 6, 7],
-            "castellano como segunda lengua": [4, 5, 6],
-            "inglés como lengua extranjera": [7],
-            "ingles como lengua extranjera": [7],
-            "matemática": [8, 9, 10, 11],
-            "matematica": [8, 9, 10, 11],
-            "ciencia y tecnología": [12, 13, 14],
-            "ciencia": [12, 13, 14],
-            "tecnología": [12, 13, 14],
-            "tecnologia": [12, 13, 14],
-            "educación para el trabajo": [15, 16],
-            "educacion para el trabajo": [15, 16],
-            "educación religiosa": [30, 31],
-            "educacion religiosa": [30, 31],
-            "tutoría": [1, 2, 22, 23, 24, 25, 26, 27, 28, 29],
-            "tutoria": [1, 2, 22, 23, 24, 25, 26, 27, 28, 29],
-            "historia": [19],
-            "geografía": [20],
-            "geografia": [20],
-            "economía": [21],
-            "economia": [21],
-        }
-        
-        # Buscar en el mapeo
-        competencias_numeros = []
-        for area_key, numeros in mapeo_areas.items():
-            if area_key in area_lower or area_lower in area_key:
-                competencias_numeros = numeros
-                break
-        
-        # Si no se encuentra en el mapeo, buscar por palabras clave
-        if not competencias_numeros:
-            if "ciencia" in area_lower or "tecnología" in area_lower or "tecnologia" in area_lower:
-                competencias_numeros = [12, 13, 14]
-            elif "matemática" in area_lower or "matematica" in area_lower:
-                competencias_numeros = [8, 9, 10, 11]
-            elif "comunicación" in area_lower or "comunicacion" in area_lower:
-                competencias_numeros = [4, 5, 6, 7]
-        
-        return [
-            competencia for competencia in COMPETENCIAS_CURRICULARES
-            if competencia["numero"] in competencias_numeros
-        ]
+        return [c for c in COMPETENCIAS_CURRICULARES if c["area"] in (area, AREA_TRANSVERSAL)]
     except Exception:
         return []
 

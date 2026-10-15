@@ -13,7 +13,7 @@ Cambiar el Área Curricular en el wizard invalida y limpia las Competencias y el
 **Origen:** `GenerationWizard.jsx` (`useEffect` sobre `formData.area`).
 
 ### 1.2 Las competencias se filtran por área
-El selector de competencias solo muestra las vinculadas al área curricular elegida.
+El selector de competencias solo muestra las vinculadas al área curricular elegida. Además de las propias del área se ofrecen las 2 competencias transversales del CNEB ("Se desenvuelve en entornos virtuales generados por las TIC" y "Gestiona su aprendizaje de manera autónoma"), que aplican a todas las áreas. El catálogo se verifica contra el Programa Curricular (`src/tests/test_catalogo_competencias.py`).
 **Origen:** `GET /data/competencias?area=`, `src/core/competencias_curriculares.py`.
 
 ### 1.3 Selección múltiple de competencias
