@@ -1,0 +1,955 @@
+{
+ "_nota": "Relevancia derivada de metadatos (area, grado, ciclo, competencia). La competencia objetivo por tema es criterio del autor y debe validarse con un docente. 2 = desempenos de la competencia en ESE grado; 1 = capacidades de la competencia en el ciclo y estandares del ciclo.",
+ "queries": [
+  {
+   "id": "e01",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 3,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vii": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_3": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 3 grado secundaria energía y ecosistemas"
+  },
+  {
+   "id": "t01",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 3,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vii": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_3": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "energía y ecosistemas"
+  },
+  {
+   "id": "e02",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 1,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vi": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_1": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 1 grado secundaria estructura de la célula y biodiversidad"
+  },
+  {
+   "id": "t02",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 1,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vi": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_1": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "estructura de la célula y biodiversidad"
+  },
+  {
+   "id": "e03",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 5,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vii": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_5": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 5 grado secundaria genética y herencia"
+  },
+  {
+   "id": "t03",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 5,
+   "competencia_objetivo": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+   "relevantes": {
+    "programa:comp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_vii": 1,
+    "programa:desemp_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_5": 2,
+    "programa:estandar_explica_el_mundo_fisico_basandose_en_conocimientos_sobre_los_seres_viv_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "genética y herencia"
+  },
+  {
+   "id": "e04",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 2,
+   "competencia_objetivo": "Indaga mediante métodos científicos para construir conocimientos",
+   "relevantes": {
+    "programa:comp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_vi": 1,
+    "programa:desemp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_2": 2,
+    "programa:estandar_indaga_mediante_metodos_cientificos_para_construir_conocimientos_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 2 grado secundaria método científico, hipótesis y experimentos"
+  },
+  {
+   "id": "t04",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 2,
+   "competencia_objetivo": "Indaga mediante métodos científicos para construir conocimientos",
+   "relevantes": {
+    "programa:comp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_vi": 1,
+    "programa:desemp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_2": 2,
+    "programa:estandar_indaga_mediante_metodos_cientificos_para_construir_conocimientos_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "método científico, hipótesis y experimentos"
+  },
+  {
+   "id": "e05",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 3,
+   "competencia_objetivo": "Indaga mediante métodos científicos para construir conocimientos",
+   "relevantes": {
+    "programa:comp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_vii": 1,
+    "programa:desemp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_3": 2,
+    "programa:estandar_indaga_mediante_metodos_cientificos_para_construir_conocimientos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 3 grado secundaria indagación sobre la calidad del agua"
+  },
+  {
+   "id": "t05",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 3,
+   "competencia_objetivo": "Indaga mediante métodos científicos para construir conocimientos",
+   "relevantes": {
+    "programa:comp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_vii": 1,
+    "programa:desemp_indaga_mediante_metodos_cientificos_para_construir_conocimientos_3": 2,
+    "programa:estandar_indaga_mediante_metodos_cientificos_para_construir_conocimientos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "indagación sobre la calidad del agua"
+  },
+  {
+   "id": "e06",
+   "tipo": "estructurado",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 4,
+   "competencia_objetivo": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
+   "relevantes": {
+    "programa:comp_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__vii": 1,
+    "programa:desemp_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__4": 2,
+    "programa:estandar_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencia y Tecnología 4 grado secundaria prototipo de un filtro de agua"
+  },
+  {
+   "id": "t06",
+   "tipo": "tema_solo",
+   "area": "Ciencia y Tecnología",
+   "area_slug": "ciencia_y_tecnología",
+   "grado": 4,
+   "competencia_objetivo": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
+   "relevantes": {
+    "programa:comp_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__vii": 1,
+    "programa:desemp_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__4": 2,
+    "programa:estandar_disena_y_construye_soluciones_tecnologicas_para_resolver_problemas_de__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "prototipo de un filtro de agua"
+  },
+  {
+   "id": "e07",
+   "tipo": "estructurado",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 1,
+   "competencia_objetivo": "Resuelve problemas de cantidad",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_cantidad_vi": 1,
+    "programa:desemp_resuelve_problemas_de_cantidad_1": 2,
+    "programa:estandar_resuelve_problemas_de_cantidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Matemática 1 grado secundaria números racionales y operaciones"
+  },
+  {
+   "id": "t07",
+   "tipo": "tema_solo",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 1,
+   "competencia_objetivo": "Resuelve problemas de cantidad",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_cantidad_vi": 1,
+    "programa:desemp_resuelve_problemas_de_cantidad_1": 2,
+    "programa:estandar_resuelve_problemas_de_cantidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "números racionales y operaciones"
+  },
+  {
+   "id": "e08",
+   "tipo": "estructurado",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 2,
+   "competencia_objetivo": "Resuelve problemas de regularidad, equivalencia y cambio",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_vi": 1,
+    "programa:desemp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_2": 2,
+    "programa:estandar_resuelve_problemas_de_regularidad_equivalencia_y_cambio_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Matemática 2 grado secundaria ecuaciones lineales"
+  },
+  {
+   "id": "t08",
+   "tipo": "tema_solo",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 2,
+   "competencia_objetivo": "Resuelve problemas de regularidad, equivalencia y cambio",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_vi": 1,
+    "programa:desemp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_2": 2,
+    "programa:estandar_resuelve_problemas_de_regularidad_equivalencia_y_cambio_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "ecuaciones lineales"
+  },
+  {
+   "id": "e09",
+   "tipo": "estructurado",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 5,
+   "competencia_objetivo": "Resuelve problemas de regularidad, equivalencia y cambio",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_vii": 1,
+    "programa:desemp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_5": 2,
+    "programa:estandar_resuelve_problemas_de_regularidad_equivalencia_y_cambio_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Matemática 5 grado secundaria funciones y su gráfica"
+  },
+  {
+   "id": "t09",
+   "tipo": "tema_solo",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 5,
+   "competencia_objetivo": "Resuelve problemas de regularidad, equivalencia y cambio",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_vii": 1,
+    "programa:desemp_resuelve_problemas_de_regularidad_equivalencia_y_cambio_5": 2,
+    "programa:estandar_resuelve_problemas_de_regularidad_equivalencia_y_cambio_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "funciones y su gráfica"
+  },
+  {
+   "id": "e10",
+   "tipo": "estructurado",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 3,
+   "competencia_objetivo": "Resuelve problemas de forma, movimiento y localización",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_forma_movimiento_y_localizacion_vii": 1,
+    "programa:desemp_resuelve_problemas_de_forma_movimiento_y_localizacion_3": 2,
+    "programa:estandar_resuelve_problemas_de_forma_movimiento_y_localizacion_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Matemática 3 grado secundaria volumen de prismas y cilindros"
+  },
+  {
+   "id": "t10",
+   "tipo": "tema_solo",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 3,
+   "competencia_objetivo": "Resuelve problemas de forma, movimiento y localización",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_forma_movimiento_y_localizacion_vii": 1,
+    "programa:desemp_resuelve_problemas_de_forma_movimiento_y_localizacion_3": 2,
+    "programa:estandar_resuelve_problemas_de_forma_movimiento_y_localizacion_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "volumen de prismas y cilindros"
+  },
+  {
+   "id": "e11",
+   "tipo": "estructurado",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 4,
+   "competencia_objetivo": "Resuelve problemas de gestión de datos e incertidumbre",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_vii": 1,
+    "programa:desemp_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_4": 2,
+    "programa:estandar_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Matemática 4 grado secundaria medidas de tendencia central y probabilidad"
+  },
+  {
+   "id": "t11",
+   "tipo": "tema_solo",
+   "area": "Matemática",
+   "area_slug": "matemática",
+   "grado": 4,
+   "competencia_objetivo": "Resuelve problemas de gestión de datos e incertidumbre",
+   "relevantes": {
+    "programa:comp_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_vii": 1,
+    "programa:desemp_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_4": 2,
+    "programa:estandar_resuelve_problemas_de_gestion_de_datos_e_incertidumbre_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "medidas de tendencia central y probabilidad"
+  },
+  {
+   "id": "e12",
+   "tipo": "estructurado",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 1,
+   "competencia_objetivo": "Lee diversos tipos de textos escritos en lengua materna",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_vi": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_1": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Comunicación 1 grado secundaria comprensión de textos narrativos"
+  },
+  {
+   "id": "t12",
+   "tipo": "tema_solo",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 1,
+   "competencia_objetivo": "Lee diversos tipos de textos escritos en lengua materna",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_vi": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_1": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "comprensión de textos narrativos"
+  },
+  {
+   "id": "e13",
+   "tipo": "estructurado",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 3,
+   "competencia_objetivo": "Lee diversos tipos de textos escritos en lengua materna",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_vii": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_3": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Comunicación 3 grado secundaria comprensión de textos expositivos"
+  },
+  {
+   "id": "t13",
+   "tipo": "tema_solo",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 3,
+   "competencia_objetivo": "Lee diversos tipos de textos escritos en lengua materna",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_vii": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_3": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_escritos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "comprensión de textos expositivos"
+  },
+  {
+   "id": "e14",
+   "tipo": "estructurado",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 4,
+   "competencia_objetivo": "Escribe diversos tipos de textos en lengua materna",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_lengua_materna_vii": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_lengua_materna_4": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Comunicación 4 grado secundaria textos argumentativos"
+  },
+  {
+   "id": "t14",
+   "tipo": "tema_solo",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 4,
+   "competencia_objetivo": "Escribe diversos tipos de textos en lengua materna",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_lengua_materna_vii": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_lengua_materna_4": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "textos argumentativos"
+  },
+  {
+   "id": "e15",
+   "tipo": "estructurado",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 5,
+   "competencia_objetivo": "Se comunica oralmente en su lengua materna",
+   "relevantes": {
+    "programa:comp_se_comunica_oralmente_en_su_lengua_materna_vii": 1,
+    "programa:desemp_se_comunica_oralmente_en_su_lengua_materna_5": 2,
+    "programa:estandar_se_comunica_oralmente_en_su_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Comunicación 5 grado secundaria debate y exposición oral"
+  },
+  {
+   "id": "t15",
+   "tipo": "tema_solo",
+   "area": "Comunicación",
+   "area_slug": "comunicación",
+   "grado": 5,
+   "competencia_objetivo": "Se comunica oralmente en su lengua materna",
+   "relevantes": {
+    "programa:comp_se_comunica_oralmente_en_su_lengua_materna_vii": 1,
+    "programa:desemp_se_comunica_oralmente_en_su_lengua_materna_5": 2,
+    "programa:estandar_se_comunica_oralmente_en_su_lengua_materna_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "debate y exposición oral"
+  },
+  {
+   "id": "e16",
+   "tipo": "estructurado",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 3,
+   "competencia_objetivo": "Construye interpretaciones históricas",
+   "relevantes": {
+    "programa:comp_construye_interpretaciones_historicas_vii": 1,
+    "programa:desemp_construye_interpretaciones_historicas_3": 2,
+    "programa:estandar_construye_interpretaciones_historicas_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencias Sociales 3 grado secundaria la independencia del Perú"
+  },
+  {
+   "id": "t16",
+   "tipo": "tema_solo",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 3,
+   "competencia_objetivo": "Construye interpretaciones históricas",
+   "relevantes": {
+    "programa:comp_construye_interpretaciones_historicas_vii": 1,
+    "programa:desemp_construye_interpretaciones_historicas_3": 2,
+    "programa:estandar_construye_interpretaciones_historicas_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "la independencia del Perú"
+  },
+  {
+   "id": "e17",
+   "tipo": "estructurado",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 2,
+   "competencia_objetivo": "Gestiona responsablemente el espacio y el ambiente",
+   "relevantes": {
+    "programa:comp_gestiona_responsablemente_el_espacio_y_el_ambiente_vi": 1,
+    "programa:desemp_gestiona_responsablemente_el_espacio_y_el_ambiente_2": 2,
+    "programa:estandar_gestiona_responsablemente_el_espacio_y_el_ambiente_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Ciencias Sociales 2 grado secundaria cuencas hidrográficas y gestión del riesgo de desastres"
+  },
+  {
+   "id": "t17",
+   "tipo": "tema_solo",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 2,
+   "competencia_objetivo": "Gestiona responsablemente el espacio y el ambiente",
+   "relevantes": {
+    "programa:comp_gestiona_responsablemente_el_espacio_y_el_ambiente_vi": 1,
+    "programa:desemp_gestiona_responsablemente_el_espacio_y_el_ambiente_2": 2,
+    "programa:estandar_gestiona_responsablemente_el_espacio_y_el_ambiente_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "cuencas hidrográficas y gestión del riesgo de desastres"
+  },
+  {
+   "id": "e18",
+   "tipo": "estructurado",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 5,
+   "competencia_objetivo": "Gestiona responsablemente los recursos económicos",
+   "relevantes": {
+    "programa:comp_gestiona_responsablemente_los_recursos_economicos_vii": 1,
+    "programa:desemp_gestiona_responsablemente_los_recursos_economicos_5": 2,
+    "programa:estandar_gestiona_responsablemente_los_recursos_economicos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Ciencias Sociales 5 grado secundaria ahorro, inflación y consumo responsable"
+  },
+  {
+   "id": "t18",
+   "tipo": "tema_solo",
+   "area": "Ciencias Sociales",
+   "area_slug": "ciencias_sociales",
+   "grado": 5,
+   "competencia_objetivo": "Gestiona responsablemente los recursos económicos",
+   "relevantes": {
+    "programa:comp_gestiona_responsablemente_los_recursos_economicos_vii": 1,
+    "programa:desemp_gestiona_responsablemente_los_recursos_economicos_5": 2,
+    "programa:estandar_gestiona_responsablemente_los_recursos_economicos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "ahorro, inflación y consumo responsable"
+  },
+  {
+   "id": "e19",
+   "tipo": "estructurado",
+   "area": "Desarrollo Personal, Ciudadanía y Cívica",
+   "area_slug": "desarrollo_personal,_ciudadanía_y_cívica",
+   "grado": 1,
+   "competencia_objetivo": "Construye su identidad",
+   "relevantes": {
+    "programa:comp_construye_su_identidad_vi": 1,
+    "programa:desemp_construye_su_identidad_1": 2,
+    "programa:estandar_construye_su_identidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Desarrollo Personal, Ciudadanía y Cívica 1 grado secundaria autoestima y emociones en la adolescencia"
+  },
+  {
+   "id": "t19",
+   "tipo": "tema_solo",
+   "area": "Desarrollo Personal, Ciudadanía y Cívica",
+   "area_slug": "desarrollo_personal,_ciudadanía_y_cívica",
+   "grado": 1,
+   "competencia_objetivo": "Construye su identidad",
+   "relevantes": {
+    "programa:comp_construye_su_identidad_vi": 1,
+    "programa:desemp_construye_su_identidad_1": 2,
+    "programa:estandar_construye_su_identidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "autoestima y emociones en la adolescencia"
+  },
+  {
+   "id": "e20",
+   "tipo": "estructurado",
+   "area": "Desarrollo Personal, Ciudadanía y Cívica",
+   "area_slug": "desarrollo_personal,_ciudadanía_y_cívica",
+   "grado": 4,
+   "competencia_objetivo": "Convive y participa democráticamente en la búsqueda del bien común",
+   "relevantes": {
+    "programa:comp_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_vii": 1,
+    "programa:desemp_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_4": 2,
+    "programa:estandar_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Desarrollo Personal, Ciudadanía y Cívica 4 grado secundaria participación ciudadana y democracia"
+  },
+  {
+   "id": "t20",
+   "tipo": "tema_solo",
+   "area": "Desarrollo Personal, Ciudadanía y Cívica",
+   "area_slug": "desarrollo_personal,_ciudadanía_y_cívica",
+   "grado": 4,
+   "competencia_objetivo": "Convive y participa democráticamente en la búsqueda del bien común",
+   "relevantes": {
+    "programa:comp_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_vii": 1,
+    "programa:desemp_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_4": 2,
+    "programa:estandar_convive_y_participa_democraticamente_en_la_busqueda_del_bien_comun_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "participación ciudadana y democracia"
+  },
+  {
+   "id": "e21",
+   "tipo": "estructurado",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 3,
+   "competencia_objetivo": "Asume una vida saludable",
+   "relevantes": {
+    "programa:comp_asume_una_vida_saludable_vii": 1,
+    "programa:desemp_asume_una_vida_saludable_3": 2,
+    "programa:estandar_asume_una_vida_saludable_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Educación Física 3 grado secundaria capacidades físicas y condición física"
+  },
+  {
+   "id": "t21",
+   "tipo": "tema_solo",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 3,
+   "competencia_objetivo": "Asume una vida saludable",
+   "relevantes": {
+    "programa:comp_asume_una_vida_saludable_vii": 1,
+    "programa:desemp_asume_una_vida_saludable_3": 2,
+    "programa:estandar_asume_una_vida_saludable_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "capacidades físicas y condición física"
+  },
+  {
+   "id": "e22",
+   "tipo": "estructurado",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 2,
+   "competencia_objetivo": "Interactúa a través de sus habilidades sociomotrices",
+   "relevantes": {
+    "programa:comp_interactua_a_traves_de_sus_habilidades_sociomotrices_vi": 1,
+    "programa:desemp_interactua_a_traves_de_sus_habilidades_sociomotrices_2": 2,
+    "programa:estandar_interactua_a_traves_de_sus_habilidades_sociomotrices_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Educación Física 2 grado secundaria deportes colectivos y cooperación"
+  },
+  {
+   "id": "t22",
+   "tipo": "tema_solo",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 2,
+   "competencia_objetivo": "Interactúa a través de sus habilidades sociomotrices",
+   "relevantes": {
+    "programa:comp_interactua_a_traves_de_sus_habilidades_sociomotrices_vi": 1,
+    "programa:desemp_interactua_a_traves_de_sus_habilidades_sociomotrices_2": 2,
+    "programa:estandar_interactua_a_traves_de_sus_habilidades_sociomotrices_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "deportes colectivos y cooperación"
+  },
+  {
+   "id": "e23",
+   "tipo": "estructurado",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 1,
+   "competencia_objetivo": "Se desenvuelve de manera autónoma a través de su motricidad",
+   "relevantes": {
+    "programa:comp_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_vi": 1,
+    "programa:desemp_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_1": 2,
+    "programa:estandar_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Educación Física 1 grado secundaria coordinación y expresión corporal"
+  },
+  {
+   "id": "t23",
+   "tipo": "tema_solo",
+   "area": "Educación Física",
+   "area_slug": "educación_física",
+   "grado": 1,
+   "competencia_objetivo": "Se desenvuelve de manera autónoma a través de su motricidad",
+   "relevantes": {
+    "programa:comp_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_vi": 1,
+    "programa:desemp_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_1": 2,
+    "programa:estandar_se_desenvuelve_de_manera_autonoma_a_traves_de_su_motricidad_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "coordinación y expresión corporal"
+  },
+  {
+   "id": "e24",
+   "tipo": "estructurado",
+   "area": "Arte y Cultura",
+   "area_slug": "arte_y_cultura",
+   "grado": 2,
+   "competencia_objetivo": "Aprecia de manera crítica manifestaciones artístico-culturales",
+   "relevantes": {
+    "programa:comp_aprecia_de_manera_critica_manifestaciones_artistico_culturales_vi": 1,
+    "programa:desemp_aprecia_de_manera_critica_manifestaciones_artistico_culturales_2": 2,
+    "programa:estandar_aprecia_de_manera_critica_manifestaciones_artistico_culturales_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Arte y Cultura 2 grado secundaria apreciación de manifestaciones artísticas locales"
+  },
+  {
+   "id": "t24",
+   "tipo": "tema_solo",
+   "area": "Arte y Cultura",
+   "area_slug": "arte_y_cultura",
+   "grado": 2,
+   "competencia_objetivo": "Aprecia de manera crítica manifestaciones artístico-culturales",
+   "relevantes": {
+    "programa:comp_aprecia_de_manera_critica_manifestaciones_artistico_culturales_vi": 1,
+    "programa:desemp_aprecia_de_manera_critica_manifestaciones_artistico_culturales_2": 2,
+    "programa:estandar_aprecia_de_manera_critica_manifestaciones_artistico_culturales_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "apreciación de manifestaciones artísticas locales"
+  },
+  {
+   "id": "e25",
+   "tipo": "estructurado",
+   "area": "Arte y Cultura",
+   "area_slug": "arte_y_cultura",
+   "grado": 5,
+   "competencia_objetivo": "Crea proyectos desde los lenguajes artísticos",
+   "relevantes": {
+    "programa:comp_crea_proyectos_desde_los_lenguajes_artisticos_vii": 1,
+    "programa:desemp_crea_proyectos_desde_los_lenguajes_artisticos_5": 2,
+    "programa:estandar_crea_proyectos_desde_los_lenguajes_artisticos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Arte y Cultura 5 grado secundaria proyecto de teatro o danza"
+  },
+  {
+   "id": "t25",
+   "tipo": "tema_solo",
+   "area": "Arte y Cultura",
+   "area_slug": "arte_y_cultura",
+   "grado": 5,
+   "competencia_objetivo": "Crea proyectos desde los lenguajes artísticos",
+   "relevantes": {
+    "programa:comp_crea_proyectos_desde_los_lenguajes_artisticos_vii": 1,
+    "programa:desemp_crea_proyectos_desde_los_lenguajes_artisticos_5": 2,
+    "programa:estandar_crea_proyectos_desde_los_lenguajes_artisticos_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "proyecto de teatro o danza"
+  },
+  {
+   "id": "e26",
+   "tipo": "estructurado",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 1,
+   "competencia_objetivo": "Se comunica oralmente en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_se_comunica_oralmente_en_ingles_como_lengua_extranjera_vi": 1,
+    "programa:desemp_se_comunica_oralmente_en_ingles_como_lengua_extranjera_1": 2,
+    "programa:estandar_se_comunica_oralmente_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Inglés como Lengua Extranjera 1 grado secundaria describir rutinas y hábitos"
+  },
+  {
+   "id": "t26",
+   "tipo": "tema_solo",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 1,
+   "competencia_objetivo": "Se comunica oralmente en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_se_comunica_oralmente_en_ingles_como_lengua_extranjera_vi": 1,
+    "programa:desemp_se_comunica_oralmente_en_ingles_como_lengua_extranjera_1": 2,
+    "programa:estandar_se_comunica_oralmente_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "describir rutinas y hábitos"
+  },
+  {
+   "id": "e27",
+   "tipo": "estructurado",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 4,
+   "competencia_objetivo": "Lee diversos tipos de textos en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_vii": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_4": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Inglés como Lengua Extranjera 4 grado secundaria leer textos cortos"
+  },
+  {
+   "id": "t27",
+   "tipo": "tema_solo",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 4,
+   "competencia_objetivo": "Lee diversos tipos de textos en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_vii": 1,
+    "programa:desemp_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_4": 2,
+    "programa:estandar_lee_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "leer textos cortos"
+  },
+  {
+   "id": "e28",
+   "tipo": "estructurado",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 3,
+   "competencia_objetivo": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_vii": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_3": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Inglés como Lengua Extranjera 3 grado secundaria escribir un correo electrónico"
+  },
+  {
+   "id": "t28",
+   "tipo": "tema_solo",
+   "area": "Inglés como Lengua Extranjera",
+   "area_slug": "inglés_como_lengua_extranjera",
+   "grado": 3,
+   "competencia_objetivo": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_vii": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_3": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_ingles_como_lengua_extranjera_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "escribir un correo electrónico"
+  },
+  {
+   "id": "e29",
+   "tipo": "estructurado",
+   "area": "Castellano como Segunda Lengua",
+   "area_slug": "castellano_como_segunda_lengua",
+   "grado": 2,
+   "competencia_objetivo": "Escribe diversos tipos de textos en castellano como segunda lengua",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_vi": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_2": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "programación curricular Castellano como Segunda Lengua 2 grado secundaria escribir textos narrativos"
+  },
+  {
+   "id": "t29",
+   "tipo": "tema_solo",
+   "area": "Castellano como Segunda Lengua",
+   "area_slug": "castellano_como_segunda_lengua",
+   "grado": 2,
+   "competencia_objetivo": "Escribe diversos tipos de textos en castellano como segunda lengua",
+   "relevantes": {
+    "programa:comp_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_vi": 1,
+    "programa:desemp_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_2": 2,
+    "programa:estandar_escribe_diversos_tipos_de_textos_en_castellano_como_segunda_lengua_nivel_esperado_al_final_del_ciclo_vi": 1
+   },
+   "query": "escribir textos narrativos"
+  },
+  {
+   "id": "e30",
+   "tipo": "estructurado",
+   "area": "Educación para el Trabajo",
+   "area_slug": "educación_para_el_trabajo",
+   "grado": 4,
+   "competencia_objetivo": "Gestiona proyectos de emprendimiento económico o social",
+   "relevantes": {
+    "programa:comp_gestiona_proyectos_de_emprendimiento_economico_o_social_vii": 1,
+    "programa:desemp_gestiona_proyectos_de_emprendimiento_economico_o_social_4": 2,
+    "programa:estandar_gestiona_proyectos_de_emprendimiento_economico_o_social_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Educación para el Trabajo 4 grado secundaria emprendimiento y plan de negocio"
+  },
+  {
+   "id": "t30",
+   "tipo": "tema_solo",
+   "area": "Educación para el Trabajo",
+   "area_slug": "educación_para_el_trabajo",
+   "grado": 4,
+   "competencia_objetivo": "Gestiona proyectos de emprendimiento económico o social",
+   "relevantes": {
+    "programa:comp_gestiona_proyectos_de_emprendimiento_economico_o_social_vii": 1,
+    "programa:desemp_gestiona_proyectos_de_emprendimiento_economico_o_social_4": 2,
+    "programa:estandar_gestiona_proyectos_de_emprendimiento_economico_o_social_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "emprendimiento y plan de negocio"
+  },
+  {
+   "id": "e31",
+   "tipo": "estructurado",
+   "area": "Educación Religiosa",
+   "area_slug": "educación_religiosa",
+   "grado": 3,
+   "competencia_objetivo": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+   "relevantes": {
+    "programa:comp_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__vii": 1,
+    "programa:desemp_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__3": 2,
+    "programa:estandar_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Educación Religiosa 3 grado secundaria dignidad humana y doctrina de la propia religión"
+  },
+  {
+   "id": "t31",
+   "tipo": "tema_solo",
+   "area": "Educación Religiosa",
+   "area_slug": "educación_religiosa",
+   "grado": 3,
+   "competencia_objetivo": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+   "relevantes": {
+    "programa:comp_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__vii": 1,
+    "programa:desemp_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__3": 2,
+    "programa:estandar_construye_su_identidad_como_persona_humana_amada_por_dios_digna_libre__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "dignidad humana y doctrina de la propia religión"
+  },
+  {
+   "id": "e32",
+   "tipo": "estructurado",
+   "area": "Educación Religiosa",
+   "area_slug": "educación_religiosa",
+   "grado": 5,
+   "competencia_objetivo": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+   "relevantes": {
+    "programa:comp_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__vii": 1,
+    "programa:desemp_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__5": 2,
+    "programa:estandar_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Educación Religiosa 5 grado secundaria proyecto de vida y fe"
+  },
+  {
+   "id": "t32",
+   "tipo": "tema_solo",
+   "area": "Educación Religiosa",
+   "area_slug": "educación_religiosa",
+   "grado": 5,
+   "competencia_objetivo": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+   "relevantes": {
+    "programa:comp_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__vii": 1,
+    "programa:desemp_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__5": 2,
+    "programa:estandar_asume_la_experiencia_del_encuentro_personal_y_comunitario_con_dios_en__nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "proyecto de vida y fe"
+  },
+  {
+   "id": "e33",
+   "tipo": "estructurado",
+   "area": "Competencias transversales",
+   "area_slug": "competencias_transversales",
+   "grado": 3,
+   "competencia_objetivo": "Se desenvuelve en entornos virtuales generados por las TIC",
+   "relevantes": {
+    "programa:comp_se_desenvuelve_en_entornos_virtuales_generados_por_las_tic_vii": 1,
+    "programa:desemp_se_desenvuelve_en_entornos_virtuales_generados_por_las_tic_3": 2
+   },
+   "query": "programación curricular Competencias transversales 3 grado secundaria entornos virtuales y herramientas digitales"
+  },
+  {
+   "id": "t33",
+   "tipo": "tema_solo",
+   "area": "Competencias transversales",
+   "area_slug": "competencias_transversales",
+   "grado": 3,
+   "competencia_objetivo": "Se desenvuelve en entornos virtuales generados por las TIC",
+   "relevantes": {
+    "programa:comp_se_desenvuelve_en_entornos_virtuales_generados_por_las_tic_vii": 1,
+    "programa:desemp_se_desenvuelve_en_entornos_virtuales_generados_por_las_tic_3": 2
+   },
+   "query": "entornos virtuales y herramientas digitales"
+  },
+  {
+   "id": "e34",
+   "tipo": "estructurado",
+   "area": "Competencias transversales",
+   "area_slug": "competencias_transversales",
+   "grado": 4,
+   "competencia_objetivo": "Gestiona su aprendizaje de manera autónoma",
+   "relevantes": {
+    "programa:comp_gestiona_su_aprendizaje_de_manera_autonoma_vii": 1,
+    "programa:desemp_gestiona_su_aprendizaje_de_manera_autonoma_4": 2,
+    "programa:estandar_gestiona_su_aprendizaje_de_manera_autonoma_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "programación curricular Competencias transversales 4 grado secundaria metas de aprendizaje y autorregulación"
+  },
+  {
+   "id": "t34",
+   "tipo": "tema_solo",
+   "area": "Competencias transversales",
+   "area_slug": "competencias_transversales",
+   "grado": 4,
+   "competencia_objetivo": "Gestiona su aprendizaje de manera autónoma",
+   "relevantes": {
+    "programa:comp_gestiona_su_aprendizaje_de_manera_autonoma_vii": 1,
+    "programa:desemp_gestiona_su_aprendizaje_de_manera_autonoma_4": 2,
+    "programa:estandar_gestiona_su_aprendizaje_de_manera_autonoma_nivel_esperado_al_final_del_ciclo_vii": 1
+   },
+   "query": "metas de aprendizaje y autorregulación"
+  }
+ ]
+}
