@@ -154,7 +154,8 @@ def test_si_la_recuperacion_estructurada_falla_el_servicio_sigue(servicio, monke
     def falla(*a, **k):
         raise RuntimeError("boom")
     monkeypatch.setattr(servicio._recuperador, "recuperar", falla)
-    res = servicio.buscar_contexto_curricular("programación curricular Matemática 2 grado", 2, "matemática")
+    # con contenido pedagógico en la consulta, el contexto complementario sigue llegando aunque falle la parte estructurada
+    res = servicio.buscar_contexto_curricular("programación curricular Matemática 2 grado evaluación formativa", 2, "matemática")
     assert res["estructurados"] == 0 and res["documentos"]
 
 

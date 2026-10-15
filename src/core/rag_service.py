@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 
-from .retrieval_estructurado import RecuperadorCurricular
+from .retrieval_estructurado import BM25, RecuperadorCurricular, tokens
 
 logger = logging.getLogger(__name__)
 
@@ -22,6 +22,18 @@ _SESION_EF_EPT_JSON = "data/sesion_ef_ept_planificacion_curricular.json"
 _SESION_3_EVAL_JSON = "data/sesion_3_evaluacion_formativa_ef_ept.json"
 _ENFOQUE_MODULO1_JSON = "data/enfoque_por_competencias_modulo1.json"
 _METODOLOGIAS_ACTIVAS_2026_JSON = "data/metodologias_activas_innovacion_educativa_2026.json"
+
+
+# Resúmenes del currículo que el Programa Curricular completo (recuperación estructurada) reemplaza con más detalle:
+# un párrafo por área y por ciclo. Seguir ofreciéndolos como "contexto complementario" solo agrega redundancia (y a
+# veces errores: el resumen del ciclo VII para un alumno de 1.°). Se conserva "estandares_desempenos" porque explica
+# el CONCEPTO (qué es un estándar frente a un desempeño), cosa que los datos estructurados no hacen.
+_CHUNKS_CURRICULO_SUPERADOS = {"ciclo_vi", "ciclo_vii"}
+_PALABRAS_GENERICAS_DE_CONSULTA = {"programacion", "curricular", "grado", "secundaria"}
+
+
+def _chunk_superado(chunk_id: str) -> bool:
+    return chunk_id.startswith("area_") or chunk_id in _CHUNKS_CURRICULO_SUPERADOS
 
 
 def _cargar_json_local(nombre: str) -> Optional[Dict[str, Any]]:
@@ -170,6 +182,49 @@ class RAGEducativoService:
         self._sesion_3_eval_local: Optional[Dict[str, Any]] = _cargar_sesion_3_eval_local()
         self._enfoque_modulo1_local: Optional[Dict[str, Any]] = _cargar_enfoque_modulo1_local()
         self._metodologias_activas_2026_local: Optional[Dict[str, Any]] = _cargar_metodologias_activas_2026_local()
+        # Índice BM25 del contexto complementario. RAG_COMPLEMENTARIO_BM25=0 vuelve al puntaje por palabras clave anterior.
+        self._indice_complementario = None
+        if os.environ.get('RAG_COMPLEMENTARIO_BM25', '1') != '0':
+            try:
+                self._indice_complementario = self._construir_indice_complementario()
+            except Exception as e:
+                logger.warning(f"Índice BM25 del contexto complementario no disponible, se usa el puntaje anterior: {e}")
+
+    def _construir_indice_complementario(self):
+        """BM25 sobre los JSON locales de orientaciones, metodologías, capacitación y resumen del currículo."""
+        chunks = []
+        for datos in (self._curriculo_local, self._orientaciones_local, self._sesion_ef_ept_local,
+                      self._sesion_3_eval_local, self._enfoque_modulo1_local, self._metodologias_activas_2026_local):
+            if not datos:
+                continue
+            meta = datos.get("metadata", {})
+            nombre = meta.get("documento", "Documento MINEDU")
+            for ch in datos.get("chunks", []):
+                if self._recuperador is not None and datos is self._curriculo_local and _chunk_superado(ch.get("id", "")):
+                    continue
+                chunks.append({
+                    "section": ch.get("section", ""), "text": ch.get("text", ""), "keywords": ch.get("keywords", []),
+                    "_fuente": f"{nombre} - {ch.get('section', '')}", "_meta": {"section": ch.get("section"), **meta},
+                })
+        return (chunks, BM25(chunks)) if chunks else None
+
+    def _buscar_complementario_bm25(self, query: str, limite: int = 10) -> List[Dict[str, Any]]:
+        if not self._indice_complementario:
+            return []
+        chunks, bm25 = self._indice_complementario
+        # el prefijo "programación curricular {área} {grado} grado secundaria" no dice nada del contenido pedagógico buscado
+        consulta = " ".join(t for t in tokens(query) if t not in _PALABRAS_GENERICAS_DE_CONSULTA)
+        puntajes = bm25.scores(consulta)
+        mejores = [i for i in sorted(range(len(puntajes)), key=lambda i: -puntajes[i])[:limite] if puntajes[i] > 0]
+        if not mejores:
+            return []
+        maximo = puntajes[mejores[0]]
+        return [{
+            'contenido': f"[{chunks[i]['section']}]\n{chunks[i]['text']}",
+            'fuente': chunks[i]['_fuente'],
+            'score': puntajes[i] / maximo,
+            'metadata': chunks[i]['_meta'],
+        } for i in mejores]
 
     def buscar_contexto_curricular(self, query: str, grado: int, area: str = "ciencia_tecnologia",
                                    competencia: Optional[str] = None) -> Dict:
@@ -245,6 +300,11 @@ class RAGEducativoService:
                 return {'documentos': documentos_relevantes, 'total_encontrados': len(documentos_relevantes)}
             except Exception as e:
                 logger.warning(f"Bedrock KB no disponible, usando curriculo local: {e}")
+
+        # Búsqueda local con BM25 (sin tildes ni stopwords) sobre orientaciones, metodologías y capacitación.
+        if self._indice_complementario:
+            docs = self._buscar_complementario_bm25(query, self.MAX_DOCUMENTOS)
+            return {'documentos': docs, 'total_encontrados': len(docs)}
 
         # Fallback: búsqueda local en curriculo + orientaciones CNEB + sesión EF/EPT (planificación curricular, carisma salesiano)
         todos_docs: List[Dict[str, Any]] = []

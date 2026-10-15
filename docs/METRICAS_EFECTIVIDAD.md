@@ -162,4 +162,19 @@ discriminan**: solo hit_obj@1 y mrr_obj miden si el ordenamiento aporta algo sob
   (circularidad). Para juzgar el grafo usar hit_obj y la calidad del documento generado, no recall.
 - No se midió Bedrock KB ni recuperación por embeddings, y no hay evaluación end-to-end (¿mejora el documento?).
 
+### 5.E Contexto complementario (orientaciones, metodologías, capacitación)
+
+Set `gold_retrieval.json` (19 consultas libres de pedagogía/metodología; relevancia etiquetada a mano por el autor, sin
+validar por un experto). Resultado del servicio completo con el buscador por palabras clave anterior frente a BM25:
+
+| | hit@5 | recall@5 | mrr | ndcg@5 |
+|---|---|---|---|---|
+| puntaje por palabras clave (antes) | 0.47 | 0.35 | 0.46 | 0.36 |
+| BM25 + exclusión de resúmenes redundantes (ahora) | **1.00** | **0.78** | **0.95** | **0.84** |
+
+Notas: se retiraron 6 consultas curriculares de este set porque su relevancia etiquetada eran los resúmenes por área y
+ciclo que el Programa Curricular completo reemplaza (las cubre `gold_estructurado.json`). Con el formato real del
+pipeline ("programación curricular {área} {grado}…") el buscador anterior devolvía sobre todo esos resúmenes, incluido el
+del ciclo VII para un alumno de 1.°; ahora, sin contenido pedagógico en el tema, no se agrega nada.
+
 ---
