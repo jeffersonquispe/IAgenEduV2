@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 187,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "la selección natural.\n• Explica cómo se generaron las condiciones que se consideran favorables para la vida en la Tierra, a partir de la evolución del universo. Describe las modificaciones de la hidrósfera, litósfera y atmósfera hace aproximadamente 4500 millones de años. Ejemplo: El estudiante explica que las plantas hicieron que se incrementara el oxígeno en la atmósfera. El CO2 atmosférico causa efecto invernadero y aumento la temperatura, el efecto invernadero y el vapor de agua en la atmósfera hace que la temperatura sea más regular, es decir, menos cambiante, y, por tanto, se produjo la meteorización de las rocas hasta convertirlos en partículas, lo que dio lugar al suelo que pudo ofrecer soporte y nutrientes para el desarrollo de las plantas.\n• Explica cómo se relacionan los factores y elementos que generan la variedad climática que influye en el desarrollo de la diversidad de la vida en la Tierra.\n• Explica cómo el desarrollo científico y tecnológico ha contribuido a cambiar las ideas sobre el universo y la vida de las personas en distintos momentos históricos.\n• Fundamenta su posición respecto a situaciones donde la ciencia y la tecnología son cuestionadas por su impacto en la sociedad y el ambiente.\n\npluricellulares para la perpetuación de la especie.\n• Establece semejanzas y diferencias entre las estructuras que han desarrollado los diversos seres unicelulares y pluricelulares que les permiten cumplir funciones de coordinación o relación para la supervivencia.\n• Explica cómo la selección natural da lugar a diferentes especies a partir de un ancestro común y cómo la selección artificial aprovecha la diversidad al interior de cada especie para modificar los organismos con diferentes fines.\n• Justifica que la vida en la biósfera depende del flujo de la energía y los ciclos biogeoquímicos. Ejemplo: El estudiante explica que la destrucción de los bosques amazónicos altera el ciclo del carbono al aumentar su concentración en la atmósfera y calentamiento global y a los cambios climáticos que amenazan la sostenibilidad.\n• Justifica cómo las causas del cambio climático pueden ser mitigadas a partir del uso de fuentes de energía limpia en la generación de la energía eléctrica.\n• Explica cómo el desarrollo científico y tecnológico ha contribuido a cambiar las ideas sobre el universo y la vida de las personas en distintos momentos históricos.\n• Fundamenta su posición respecto a situaciones donde la ciencia y la tecnología son cuestionadas por su impacto en la sociedad y el ambiente, y explica cómo son una oportunidad para superar determinadas problemáticas sociales y ambientales.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 187,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 809,
+  "totalTokens": 2898,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

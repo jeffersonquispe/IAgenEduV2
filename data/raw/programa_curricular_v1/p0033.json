@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 33,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "CONSTRUYE SU IDENTIDAD",
+ "ciclo": null,
+ "capacidades": [
+  "Se valora a sí mismo",
+  "Autorregula sus emociones",
+  "Reflexiona y argumenta éticamente",
+  "Vive su sexualidad de manera plena y responsable"
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El estudiante conoce y valora su cuerpo, su forma de sentir, de pensar y de actuar desde el reconocimiento de las distintas identidades que lo definen (histórica, étnica, social, sexual, cultural, de género, ambiental, entre otras) como producto de las interacciones continuas entre los individuos y los diversos contextos en los que se desenvuelven (familia, escuela, comunidad). No se trata de que los estudiantes construyan una identidad \"ideal\", sino que cada estudiante pueda –a su propio ritmo y criterio– ser consciente de las características que lo hacen único y de aquellas que lo hacen semejante a otros. En ese sentido, esta competencia implica la combinación de las siguientes capacidades:\n\nSe valora a sí mismo: es decir, el estudiante reconoce sus características, cualidades, limitaciones y potencialidades que hacen ser quien es, que le permiten aceptarse, sentirse bien consigo mismo y ver capaz de asumir retos y alcanzar sus metas. Además, se reconoce como integrante de una colectividad sociocultural específica y tiene sentido de pertenencia a su familia, escuela, comunidad, país y mundo.\n\nAutorregula sus emociones: significa que el estudiante reconoce y toma conciencia de sus emociones, a fin de poder expresarlas de manera adecuada según el contexto, los patrones culturales diversos y las consecuencias que estas tienen para sí mismo y para los demás. Ello le permite regular su comportamiento, en favor de su bienestar y el de los demás.\n\nReflexiona y argumenta éticamente: significa que el estudiante analice situaciones cotidianas para identificar los valores que están presentes en ellas y asumir una posición sustentada en argumentos razonados y en principios éticos. Implica también tomar conciencia de las propias decisiones y acciones, a partir de reflexionar sobre si estas responden a los principios éticos asumidos, y cómo los resultados y consecuencias influyen en sí mismos y en los demás.\n\nVive su sexualidad de manera plena y responsable: es tomar conciencia de sí mismo como hombre o mujer, a partir del desarrollo de su imagen corporal, de su identidad sexual y de género, y mediante la elaboración y valoración de su cuerpo. Supone establecer relaciones de igualdad entre mujeres y hombres, así como relaciones afectivas armoniosas y libres de violencia. También implica identificar y poner en práctica conductas de autocuidado frente a situaciones que ponen en riesgo su bienestar o que vulneran sus derechos sexuales y reproductivos.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 33,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 851,
+  "totalTokens": 2940,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 177,
+ "tipo": "narrativa",
+ "area": "Ciencia y Tecnología",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.9. Área de Ciencia y Tecnología\n\nLa ciencia y la tecnología están presentes en diversos contextos de la actividad humana, y ocupan un lugar importante en el desarrollo del conocimiento y de la cultura de nuestras sociedades, que han ido transformando nuestras concepciones sobre el universo y nuestras formas de vida. Este contexto exige ciudadanos que sean capaces de cuestionarse, buscar información confiable, sistematizarla, analizarla, explicarla y tomar decisiones fundamentadas en conocimientos científicos, y considerando las implicancias sociales y ambientales. También exige ciudadanos que usen el conocimiento científico para aprender constantemente y tener una forma de comprender los fenómenos que acontecen a su alrededor.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. A través del enfoque de indagación y alfabetización científica y tecnológica, el área de Ciencia y Tecnología promueve y facilita que los estudiantes desarrollen las siguientes competencias:\n\n• Indaga mediante métodos científicos para construir conocimientos.\n\n• Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo.\n\n• Diseña y construye soluciones tecnológicas para resolver problemas de su entorno.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 177,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 478,
+  "totalTokens": 2700,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

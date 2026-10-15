@@ -1,0 +1,71 @@
+{
+ "numero_pagina_impreso": 211,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+ "ciclo": "VI",
+ "capacidades": [
+  "Transforma su entorno desde el encuentro personal y comunitario con Dios y desde la fe que profesa.",
+  "Actúa coherentemente en razón de su fe según los principios de su conciencia moral en situaciones concretas de la vida."
+ ],
+ "descripcion_nivel": "Expresa coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico. Comprende su dimensión espiritual y religiosa que le permita cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio. Reflexiona el encuentro personal y comunitario con Dios en diversos contextos, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo. Asume las enseñanzas de Jesucristo y de la Iglesia desempeñando su rol protagónico en la transformación de la sociedad.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Plantea un proyecto de vida personal y comunitario de acuerdo al plan de Dios."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Reconoce su dimensión espiritual y religiosa que le permita cooperar en la transformación personal, de su familia y de su escuela a la luz del Evangelio."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Cultiva el encuentro personal y comunitario con Dios valorando momentos de oración y celebraciones propias de su Iglesia y comunidad de fe."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Actúa de manera coherente con la fe según las enseñanzas de Jesucristo para la transformación de la sociedad."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa en su proyecto de vida personal y comunitaria coherencia entre lo que cree, dice y hace a la luz del mensaje bíblico."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Comprende su dimensión espiritual y religiosa que le permita cooperar en la transformación personal, de su familia, de su escuela y de su comunidad a la luz del Evangelio."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Interioriza el encuentro personal y comunitario con Dios valorando momentos de silencio, oración y celebraciones propias de su Iglesia y comunidad de fe."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Asume su rol protagónico en la transformación de la sociedad según las enseñanzas de Jesucristo y de la Iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 211,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1058,
+  "totalTokens": 3280,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

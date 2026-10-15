@@ -1,0 +1,31 @@
+{
+ "numero_pagina_impreso": 51,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "GESTIONA RESPONSABLEMENTE EL ESPACIO Y EL AMBIENTE",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende las relaciones entre los elementos naturales y sociales: es explicar las dinámicas y transformaciones del espacio geográfico y el ambiente, a partir del reconocimiento de los elementos naturales y sociales que los componen, así como de las interacciones que se dan entre ambos a escala local, nacional o global.",
+  "Maneja fuentes de información para comprender el espacio geográfico y el ambiente: es usar distintas fuentes: georreferenciadas, cartográficas, fotográficas e imágenes diversas, cuadros y gráficos estadísticos, entre otros, para analizar el espacio geográfico y el ambiente, orientarse, desplazarse y radicar en él.",
+  "Genera acciones para conservar el ambiente local y global: es proponer y poner en práctica acciones orientadas al cuidado del ambiente, a contribuir a la mitigación y adaptación al cambio climático, y a la gestión de riesgos de desastres. Esto supone analizar el impacto de las problemáticas ambientales y territoriales en la vida de las personas."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Competencia GESTIONA RESPONSABLEMENTE EL ESPACIO Y EL AMBIENTE. El estudiante toma decisiones que contribuyen a la satisfacción de las necesidades desde una posición crítica y una perspectiva de desarrollo sostenible -es decir, sin poner en riesgo a las generaciones futuras-, y participa en acciones de mitigación y adaptación al cambio climático y de disminución de la vulnerabilidad de la sociedad frente a distintos desastres. Supone comprender que el espacio es una construcción social dinámica, es decir, un espacio de interacción entre elementos naturales y sociales que se va transformando a lo largo del tiempo y donde el ser humano cumple un rol fundamental.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 51,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 594,
+  "totalTokens": 2816,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

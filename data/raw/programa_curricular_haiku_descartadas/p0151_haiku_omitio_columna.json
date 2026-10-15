@@ -1,0 +1,53 @@
+{
+ "numero_pagina_impreso": 151,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Resuelve problemas de cantidad",
+ "ciclo": "VI",
+ "capacidades": [
+  "Traduce cantidades a expresiones numéricas.",
+  "Comunica su comprensión sobre los números y las operaciones.",
+  "Usa estrategias y procedimientos de estimación y cálculo.",
+  "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a las relaciones entre cantidades o magnitudes, traduciéndolas a expresiones numéricas y operaciones con números naturales, enteros o racionales, aumentos y descuentos porcentuales sucesivos, verificando si estas expresiones cumplen con las condiciones iniciales del problema. Expresa su comprensión de la relación entre los órdenes del sistema de numeración decimal con las potencias de base diez, y entre las operaciones con números enteros y racionales; usa la para interpretar enunciados o textos diversos de contenido matemático. Representa relaciones de equivalencia entre expresiones decimales, fraccionarias y porcentuales, entre unidades de masa, tiempo y monetarias; empleando lenguaje matemático. Selecciona, emplea y combina recursos, estrategias, procedimientos, y propiedades de las operaciones y de los números para estimar o calcular con enteros y racionales; y usa para realizar conversiones entre unidades de masa, tiempo y temperatura; verificando su eficacia. Plantea afirmaciones sobre los números enteros y racionales, sus propiedades y relaciones, y las justifica mediante ejemplos y sus conocimientos de las operaciones, e identifica errores o vacíos en las argumentaciones propias o de otros y las corrige.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos y acciones de ganar, perder, comparar e igualar cantidades, o una combinación de acciones. Las transforma a expresiones numéricas (modelos) que incluyen operaciones de adición, sustracción, multiplicación, división con números enteros, expresiones fraccionarias o decimales; y radicación y potenciación con números enteros, y sus propiedades; y aumentos o descuentos porcentuales. En este grado, el estudiante expresa los datos en unidades de masa, de tiempo, de temperatura o monetarias."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Comprueba si la expresión numérica (modelo) planteada representó las condiciones del problema: datos, acciones y condiciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones y lenguaje numérico, su comprensión del valor posicional de las cifras de un número hasta los millones ordenando, comparando, componiendo y descomponiendo números naturales y enteros, para interpretar un problema según su contexto, y estableciendo relaciones entre representaciones. En el caso de la descomposición, comprende la diferencia entre una descomposición polinómica y otra en factores primos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión de la fracción como medida y del significado del signo positivo y negativo de un número entero para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre la equivalencia entre dos expresiones decimales, fraccionarias o porcentuales, entre unidades de masa, tiempo y monetarias."
+  }
+ ],
+ "estandares": [
+  {
+   "nivel": "Descripción del nivel de la competencia esperado al final del ciclo VI",
+   "texto": "Resuelve problemas referidos a las relaciones entre cantidades o magnitudes, traduciéndolas a expresiones numéricas y operaciones con números naturales, enteros o racionales, aumentos y descuentos porcentuales sucesivos, verificando si estas expresiones cumplen con las condiciones iniciales del problema. Expresa su comprensión de la relación entre los órdenes del sistema de numeración decimal con las potencias de base diez, y entre las operaciones con números enteros y racionales; usa la para interpretar enunciados o textos diversos de contenido matemático. Representa relaciones de equivalencia entre expresiones decimales, fraccionarias y porcentuales, entre unidades de masa, tiempo y monetarias; empleando lenguaje matemático. Selecciona, emplea y combina recursos, estrategias, procedimientos, y propiedades de las operaciones y de los números para estimar o calcular con enteros y racionales; y usa para realizar conversiones entre unidades de masa, tiempo y temperatura; verificando su eficacia. Plantea afirmaciones sobre los números enteros y racionales, sus propiedades y relaciones, y las justifica mediante ejemplos y sus conocimientos de las operaciones, e identifica errores o vacíos en las argumentaciones propias o de otros y las corrige."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 151,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1440,
+  "totalTokens": 3594,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

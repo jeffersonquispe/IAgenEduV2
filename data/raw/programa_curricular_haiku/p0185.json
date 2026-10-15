@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 185,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Explica, con base en evidencia con respaldo científico, las relaciones cualitativas y las cuantificables que establece entre: las cuatro fuerzas fundamentales, las interconversiones de la energía con la organización del universo, entre el ADN, la expresión regulada de los genes con las funciones bioquímicas; los cambios físico-químicos de la Tierra con los cambios en la biodiversidad. Argumenta su posición frente a las implicancias sociales y ambientales de situaciones sociocientíficas o frente a cambios en la cosmovisión suscitados por el desarrollo de la ciencia y tecnología."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Explica, con base en evidencias con respaldo científico, las relaciones cualitativas y las cuantificables entre: la estructura microscópica de un material y su reactividad con otros materiales o con campos y ondas; la información genética, las funciones de las células con las funciones de los sistemas (homeostasis); el origen de la Tierra, su composición, su evolución física, química y biológica con los registros fósiles. Argumenta su posición frente a las implicancias éticas, sociales y ambientales de situaciones sociocientíficas o frente a cambios en la cosmovisión suscitados por el desarrollo de la ciencia y tecnología."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Explica, con base en evidencia con respaldo científico, las relaciones cualitativas y las cuantificables entre: el campo eléctrico con la estructura del átomo, la energía con el trabajo o el movimiento, las funciones de la célula con sus requerimientos de energía y materia, la selección natural o artificial con el origen y evolución de especies, los flujos de materia y energía en la Tierra o los fenómenos meteorológicos con el funcionamiento de la biosfera. Argumenta su posición frente a las implicancias sociales y ambientales de situaciones sociocientíficas o frente a cambios en la cosmovisión suscitados por el desarrollo de la ciencia y tecnología."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Explica, con base en evidencia con respaldo científico, las relaciones entre: propiedades o funciones macroscópicas de los cuerpos, materiales o seres vivos con su estructura y movimiento microscópico; la reproducción sexual con la diversidad genética; los ecosistemas con la diversidad de especies; el relieve con la actividad interna de la Tierra. Relaciona el descubrimiento científico o la innovación tecnológica con sus impactos. Justifica su posición frente a situaciones controversiales sobre el uso de la tecnología y el saber científico."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Explica, con base en evidencias documentadas con respaldo científico, las relaciones que establece entre: las fuentes de energía o sus manifestaciones con los tipos de cambio que producen en los materiales; entre las fuerzas con el movimiento de los cuerpos; la estructura de los sistemas vivos con sus funciones y su agrupación en especies; la radiación del sol con las zonas climáticas de la Tierra y las adaptaciones de los seres vivos. Opina sobre los impactos de diversas tecnologías en la solución de problemas relacionados a necesidades y estilos de vida cotidianos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Explica, con base en sus observaciones y experiencias previas, las relaciones entre: las características de los materiales con los cambios que sufren por acción de la luz, del calor y del movimiento; la estructura de los seres vivos con sus funciones y su desarrollo; la Tierra, sus componentes y movimientos con los seres que lo habitan. Opina sobre los impactos del uso de objetos tecnológicos en relación a sus necesidades y estilo de vida."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de la competencia \"Indaga mediante métodos científicos\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Indaga mediante métodos científicos\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 185,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1316,
+  "totalTokens": 3405,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

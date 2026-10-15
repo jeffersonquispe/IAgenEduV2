@@ -1,0 +1,116 @@
+{
+ "numero_pagina_impreso": 186,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende y usa conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo.",
+  "Evalúa las implicancias del saber y del quehacer científico y tecnológico."
+ ],
+ "descripcion_nivel": "Explica, con base en evidencia con respaldo científico, las relaciones cualitativas y las cuantificables entre: el campo eléctrico con la estructura del átomo, la energía con el trabajo o el movimiento, las funciones de la célula con sus requerimientos de energía y materia, la selección natural o artificial con el origen y evolución de especies, los flujos de materia y energía en la Tierra o los fenómenos meteorológicos con el funcionamiento de la biosfera. Argumenta su posición frente a las implicancias sociales y ambientales de situaciones sociocientíficas o frente a cambios en la cosmovisión suscitados por el desarrollo de la ciencia y tecnología.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe las propiedades de la materia, y explica los cambios físicos y químicos a partir de sus interacciones con transferencia de energía."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Sustenta que la luz visible es una región del espectro electromagnético compuesta por ondas de distinta longitud y frecuencia."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica el modelo actual de la estructura del átomo, a partir de la comparación y evolución de los modelos precedentes. Evalúa el rol de la ciencia y la tecnología en ese proceso."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe cualitativa y cuantitativamente el movimiento de un cuerpo a partir de la aplicación de fuerzas por contacto o a distancia. Ejemplo: El estudiante describe el movimiento de un ciclista sobre una pista horizontal: \"La fuerza de contacto que inicia el movimiento de la bicicleta es aplicada al pedal. La bicicleta se desplaza en línea recta con dirección norte-sur. Recorre 2 m cada segundo\"."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica que las sustancias inorgánicas y biomoléculas que conforman la estructura de la célula le permiten cumplir funciones de nutrición, relación y reproducción para su propia supervivencia o la del organismo del que forma parte. Ejemplo: El estudiante explica que las proteínas del citoesqueleto de la ameba pueden ensamblarse y reorganizarse rápidamente para formar seudópodos que estiran su membrana celular para moverse y atrapar su alimento, rodeándolo y fagocitándolo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica que la dinámica y sostenibilidad de un ecosistema depende del flujo de la materia y la energía a través de las cadenas o redes tróficas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe las áreas naturales protegidas como ecosistemas donde se conserva la biodiversidad y sus interrelaciones, y describe los diversos servicios ecosistémicos que brinda a la sociedad."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica cómo los organismos actuales de los diversos reinos se originan a partir de ancestros comunes mediante"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Explica cualitativa y cuantitativamente el salto cuántico como una manifestación de la interacción entre materia y energía en la nube electrónica del átomo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Explica las propiedades periódicas de los elementos químicos a partir de la organización de sus electrones. Ejemplo: El estudiante explica que los metales como el hierro, cobre y otros conducen el calor y la electricidad debido a que cada átomo del metal cede uno o más de sus electrones de valencia formando un mar de electrones libres que tienen la posibilidad de trasladarse por todo el material ante un estímulo como el voltaje."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Describe cómo se produce la reflexión, la refracción y la dispersión de las ondas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Explica que el calor se puede cuantificar y transferir de un cuerpo con mayor temperatura a otro de menor temperatura. Ejemplo: El estudiante explica que el termómetro clínico al contacto con el cuerpo recibe calor y este provoca la agitación de las moléculas de mercurio, lo que aumenta la fuerza de repulsión entre ellas, y genera que se dilate y ascienda por el capilar del termómetro hasta 39 °C, que es un signo de fiebre."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Describe el movimiento cualitativa y cuantitativamente relacionando la distancia, el tiempo y la velocidad."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Explica cualitativa y cuantitativamente la relación entre energía, trabajo y movimiento. Ejemplo: El estudiante explica que el uso de las máquinas simples (plano inclinado, poleas y palancas) modifica la fuerza aplicada para realizar un trabajo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Describe cómo a través de los procesos de fotosíntesis y respiración se produce la energía que la célula utiliza para producir sustancias orgánicas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Establece semejanzas y diferencias entre las estructuras que han desarrollado los seres unicelulares y pluricelulares para realizar la función de nutrición."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE PRIMARIA",
+   "texto": "Establece semejanzas y diferencias entre las estructuras reproductivas que han desarrollado seres unicelulares y"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 186,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 2194,
+  "totalTokens": 4416,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

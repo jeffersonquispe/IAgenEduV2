@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 137,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Competencia LEE DIVERSOS TIPOS DE TEXTOS EN INGLÉS COMO LENGUA EXTRANJERA",
+ "ciclo": null,
+ "capacidades": [
+  "Obtiene información del texto escrito: el estudiante localiza y selecciona información explícita en textos escritos con un propósito específico.",
+  "Infiere e interpreta información del texto escrito: el estudiante construye el sentido del texto. Para ello, establece relaciones entre la información explícita e implícita de éste para deducir una nueva información o completar los vacíos del texto escrito. A partir de estas deducciones, el estudiante interpreta la relación entre la información implícita y la información explícita, así como los recursos textuales, para construir el sentido global y profundo del texto, y explicar el propósito, el uso estético del lenguaje, las intenciones del autor, así como la relación con el contexto sociocultural del lector y del texto.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito: los procesos de reflexión y evaluación están relacionados porque ambos suponen que el estudiante se distancie de los textos escritos situados en épocas y lugares distintos, y que son presentados en diferentes soportes y formatos. Para ello, compara y contrasta aspectos formales y de contenido del texto con la experiencia, el conocimiento formal del lector y diversas fuentes de información. Asimismo, emite una opinión personal sobre aspectos formales, estéticos, contenidos de los textos considerando los efectos que producen, la relación con otros textos, y el contexto sociocultural del texto y del lector."
+ ],
+ "descripcion_nivel": "Se define como una interacción dinámica entre el lector, el texto y los contextos socioculturales que enmarcan la lectura. Se trata de una comprensión crítica porque supone un proceso activo de construcción del sentido de los diversos tipos de textos que lee a través de procesos de comprensión literal e inferencial, interpretación y reflexión. En tales procesos, el estudiante pone en juego habilidades, saberes y actitudes provenientes de su experiencia lectora y del mundo que lo rodea, tomando conciencia de las posibilidades y limitaciones que ofrece el lenguaje, la comunicación y el sentido.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Esta competencia también implica que el estudiante sea consciente que la lectura de textos cumple propósitos específicos, como disfrutar, resolver un problema o una duda, seguir investigaciones, defender una posición, entre otros.\n\nAsimismo, la competencia considera la lectura de diversos tipos de textos, es decir, estos textos pertenecen a diferentes géneros, épocas y autores, y están situados en espacios y tiempos determinados. Esta diversidad textual se presenta en diferentes formatos y soportes, como el impreso, digital y multimodal, cada cual con sus características y particularidades.\n\nPara construir el sentido de los textos que lee, es indispensable que el estudiante participe en prácticas sociales de lectura en inglés que se presentan en distintos grupos o comunidades socioculturales. Al participar en tales prácticas de lectura, el estudiante contribuye con su desarrollo integral, así como el de su propia comunidad, además de conocer e interactuar con contextos socioculturales distintos al suyo.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 137,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 951,
+  "totalTokens": 3040,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

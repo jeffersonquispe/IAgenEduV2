@@ -1,0 +1,74 @@
+{
+ "numero_pagina_impreso": 96,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se comunica oralmente en su lengua materna",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto oral.",
+  "Infiere e interpreta información del texto oral.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos; infiere información relevante y conclusiones e interpreta la intención del interlocutor y las relaciones de poder en discursos que contienen sesgos, falacias y ambigüedades. Se expresa adecuándose a situaciones comunicativas formales e informales y a los géneros discursivos orales en que participa. Organiza y desarrolla ideas en torno a un tema y las relaciona mediante el uso de recursos no verbales y paraverbales. Reflexiona sobre el texto y evalúa la validez de la información y su efecto en los interlocutores, de acuerdo a sus conocimientos, fuentes de información y al contexto sociocultural. Se interactúa, hace contribuciones relevantes y evalúa las ideas de los otros para contraargumentar, eligiendo estratégicamente cómo y en qué momento participa.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita de los textos orales que escucha seleccionando detalles y datos específicos. Integra esta información cuando es dicha en distintos momentos, o por distintos interlocutores, en textos orales que presentan información contrapuesta y ambigua, sesgos, sinónimos, y expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y propósito comunicativo del texto cuando este presenta información especializada. Distingue lo relevante de lo complementario, clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural de sus interlocutores."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto oral (causa-efecto, semejanza-diferencia, entre otras) a partir de información implícita, contrapuesta o de detalle, y de presuposiciones y sesgos del texto. Señala las características implícitas de seres, objetos, hechos y lugares. Determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica las intenciones de sus interlocutores considerando el uso de algunas estrategias discursivas, y de recursos no verbales y paraverbales. Explica diferentes puntos de vista, contradicciones, sesgos, estereotipos y diversas figuras retóricas, así como la trama, las motivaciones y la evolución de personajes de acuerdo con el sentido global del texto. Adecúa el texto oral a la situación comunicativa considerando el propósito comunicativo, el tipo textual y las características del género discursivo. Mantiene el registro formal o informal adaptándose a los interlocutores y sus contextos socioculturales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa oralmente ideas y emociones de forma coherente y cohesionada. Ordena y jerarquiza las ideas en torno a un tema, y las desarrolla para ampliar o precisar la información."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita de los textos orales que escucha seleccionando detalles y datos específicos. Integra esta información cuando es dicha en distintos momentos, o por distintos interlocutores, en textos orales que presentan información contrapuesta y ambigua, falacias, paradojas, sinónimos, vocabulario especializado, y expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y propósito comunicativo del texto cuando este presenta información especializada o abstracta. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural de sus interlocutores."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto oral (causa-efecto, semejanza-diferencia, entre otras) a partir de información implícita, de detalle, contrapuesta o ambigua, y de presuposiciones y sesgos del texto. Señala las características implícitas de seres, objetos, hechos y lugares. Determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica las intenciones de sus interlocutores considerando el uso de diversas estrategias discursivas, y de recursos no verbales y paraverbales. Explica diferentes puntos de vista, falacias, ambigüedades, contraargumentos y diversas figuras retóricas, así como la trama y la evolución de personajes. También explica las representaciones sociales presentadas de acuerdo con el sentido global del texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando el propósito comunicativo, el tipo textual y las características del género discursivo. Elige estratégicamente el registro formal e informal adaptándose a los interlocutores y sus contextos socioculturales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa oralmente ideas y emociones de forma coherente y cohesionada. Ordena y jerarquiza las ideas en torno a un tema, y las desarrolla para ampliar o precisar la información."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 96,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1872,
+  "totalTokens": 4026,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

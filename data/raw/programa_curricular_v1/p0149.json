@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 149,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "RESUELVE PROBLEMAS DE CANTIDAD",
+ "ciclo": null,
+ "capacidades": [
+  "Traduce cantidades a expresiones numéricas; es transformar las relaciones entre los datos y condiciones de un problema a una expresión numérica (modelo) que reproduzca las relaciones entre éstos; esta expresión se comporta como un sistema compuesto por números, operaciones y sus propiedades. Es plantear problemas a partir de una situación o una expresión numérica dada. También implica evaluar si el resultado obtenido o la expresión numérica formulada (modelo), cumplen las condiciones iniciales del problema.",
+  "Comunica su comprensión sobre los números y las operaciones; es expresar la comprensión de los conceptos numéricos, las operaciones y propiedades, las unidades de medida, las relaciones que establece entre ellos, usando lenguaje numérico y diversas representaciones, así como leer sus representaciones e información con contenido numérico.",
+  "Usa estrategias y procedimientos de estimación y cálculo; es seleccionar, adaptar, combinar o crear una variedad de estrategias, procedimientos como el cálculo mental y escrito, la estimación, la aproximación y medición, comparar cantidades; y emplear diversos recursos.",
+  "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones; es elaborar afirmaciones sobre las posibles relaciones entre números naturales, enteros, racionales, reales, sus operaciones y propiedades; basado en comparaciones y experiencias en las que induce propiedades a partir de casos particulares; así como explicarlas con analogías, justificarlas, validarlas o refutarlas con ejemplos y contraejemplos."
+ ],
+ "descripcion_nivel": "Consiste en que el estudiante solucione problemas o plantee nuevos problemas que le demanden construir y comprender las nociones de cantidad, de número, de sistemas numéricos, sus operaciones y propiedades. Además dotar de significado a estos conocimientos en la situación y usuarios para representar o reproducir las relaciones entre sus datos y condiciones. Implica también discernir si la solución buscada requiere darse como una estimación o cálculo exacto, y para ello selecciona estrategias, procedimientos, unidades de medida y diversos recursos. El razonamiento lógico en esta competencia es usado cuando el estudiante hace comparaciones, explica a través de analogías, induce propiedades a partir de casos particulares o ejemplos, en el proceso de resolución del problema.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 149,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 715,
+  "totalTokens": 2804,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

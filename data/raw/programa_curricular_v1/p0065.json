@@ -1,0 +1,58 @@
+{
+ "numero_pagina_impreso": 65,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se desenvuelve de manera autónoma a través de su motricidad",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende su cuerpo.",
+  "Se expresa corporalmente."
+ ],
+ "descripcion_nivel": "Se desenvuelve de manera autónoma a través de su motricidad cuando relaciona cómo su imagen corporal y la aceptación de los otros influyen en el concepto de sí mismo. Realiza habilidades motrices específicas, regulando su tono, postura, equilibrio y tomando como referencia la trayectoria de objetos, los otros y sus propios desplazamientos. Produce secuencias de movimientos y gestos corporales para manifestar sus emociones con base en el ritmo y la música y utilizando diferentes materiales.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Muestra coordinación (ajuste del cuerpo, fluidez y armonía en los movimientos, entre otros) al realizar actividades lúdicas, recreativas, predeportivas y deportivas para afianzar sus habilidades motrices específicas y mejorar la calidad de respuesta en diferentes acciones."
+  },
+  {
+   "grado": 1,
+   "texto": "Resuelve situaciones motrices a través del dominio y alternancia de sus lados orientándose en el espacio en tiempo determinados, en interacción con los objetos y los otros, tomando conciencia de su cuerpo en la acción."
+  },
+  {
+   "grado": 1,
+   "texto": "Realiza técnicas de expresión motriz (mímica, gestual y postural) para la manifestación de sus emociones en situaciones de juego y actividades físicas diversas. Representa secuencias de movimiento y gestos corporales propios de las manifestaciones culturales de su región."
+  },
+  {
+   "grado": 1,
+   "texto": "Expresa emociones, ideas y sentimientos a través de su cuerpo y el movimiento, utilizando diferentes materiales (cintas, balones, bastones, cuerdas, etc.) para encontrarse consigo mismo y con los demás."
+  },
+  {
+   "grado": 2,
+   "texto": "Regula su tono muscular, postura y equilibrio teniendo como referencia la trayectoria de objetos y de otras personas, y sus propios desplazamientos al realizar habilidades motrices específicas en actividades lúdicas, recreativas, predeportivas y deportivas."
+  },
+  {
+   "grado": 2,
+   "texto": "Coordina su cuerpo con seguridad y confianza al realizar diversos movimientos en diferentes situaciones y entornos."
+  },
+  {
+   "grado": 2,
+   "texto": "Realiza secuencias de movimientos y gestos corporales adaptando su cuerpo para manifestar sus emociones a partir del ritmo y la música de su región."
+  },
+  {
+   "grado": 2,
+   "texto": "Crea acciones motrices o secuencias de movimiento utilizando diferentes materiales (cintas, balones, bastones, cuerdas, etc.) expresándose a través de su cuerpo y sus movimientos para encontrarse consigo mismo y con los demás."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 65,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 917,
+  "totalTokens": 3006,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

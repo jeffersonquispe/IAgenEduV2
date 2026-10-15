@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 165,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de forma, movimiento y localización",
+ "ciclo": "VI",
+ "capacidades": [
+  "Modela objetos con formas geométricas y sus transformaciones.",
+  "Comunica su comprensión sobre las formas y relaciones geométricas.",
+  "Usa estrategias y procedimientos para medir y orientarse en el espacio.",
+  "Argumenta afirmaciones sobre relaciones geométricas."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que modela características de objetos mediante prismas, pirámides y polígonos, sus elementos y propiedades, y la semejanza y congruencia de formas geométricas; así como la ubicación y movimiento mediante coordenadas en el plano cartesiano, mapas y planos a escala, y transformaciones. Expresa su comprensión de las formas congruentes y semejantes, la relación entre una forma geométrica y sus diferentes perspectivas; usando dibujos y construcciones. Clasifica prismas, pirámides y polígonos, según sus propiedades. Selecciona y emplea estrategias, procedimientos y recursos para determinar la longitud, área o volumen de formas geométricas en unidades convencionales y para construir formas geométricas a escala. Plantea afirmaciones sobre la semejanza y congruencia de formas, relaciones entre áreas de formas geométricas; las justifica mediante ejemplos y propiedades geométricas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre las características y los atributos medibles de objetos reales o imaginarios. Asocia estas características y las representa con formas bidimensionales compuestas y tridimensionales. Establece, también, relaciones de semejanza entre triángulos o figuras planas, y entre las propiedades del volumen, área y perímetro."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe la ubicación o el recorrido de un objeto real o imaginario, y los representa utilizando coordenadas cartesianas, planos o mapas a escala. Describe las transformaciones de un objeto en términos de ampliaciones, traslaciones, rotaciones o reflexiones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto y con lenguaje geométrico, su comprensión sobre las propiedades de las rectas paralelas, perpendiculares y secantes, y de los prismas, cuadriláteros, triángulos, y círculos. Los expresa aun cuando estos cambien de posición y vistas, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto y con lenguaje geométrico, su comprensión sobre la relación de semejanza entre formas bidimensionales cuando estas se amplían o reducen, para interpretar las condiciones de un problema y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Lee textos o gráficos que describen características, elementos o propiedades de las formas geométricas bidimensionales y"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre las características y los atributos medibles de objetos reales o imaginarios. Asocia estas características y las representa con formas bidimensionales compuestas y tridimensionales. Establece, también, propiedades de semejanza y congruencia entre formas poligonales, y entre las propiedades del volumen, área y perímetro."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Describe la ubicación o el recorrido de un objeto real o imaginario, y los representa utilizando coordenadas cartesianas, planos o mapas a escala. Describe las transformaciones de un objeto en términos de combinar dos a dos ampliaciones, traslaciones, rotaciones o reflexiones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto y con lenguaje geométrico, su comprensión sobre las propiedades de la semejanza y congruencia de formas bidimensionales (triángulos), y de los prismas, pirámides y polígonos. Los expresa aun cuando estos cambien de posición y vistas, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, construcciones con regla y compás, con material concreto y con lenguaje geométrico, su comprensión sobre las características que distinguen una rotación de una traslación y una traslación de una reflexión. Estas distinciones se hacen de formas bidimensionales para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Lee textos o gráficos que describen características, elementos o propiedades de las formas geométricas bidimensionales y tridimensionales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 165,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1706,
+  "totalTokens": 3928,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ }
+}

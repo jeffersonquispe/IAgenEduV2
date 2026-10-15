@@ -1,0 +1,51 @@
+{
+ "numero_pagina_impreso": 225,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": "VII",
+ "capacidades": [
+  "Define metas de aprendizaje.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje."
+ ],
+ "descripcion_nivel": "Gestiona su aprendizaje de manera autónoma al darse cuenta de lo que debe aprender, al establecer prioridades en la realización de una tarea tomando en cuenta su viabilidad para definir sus metas personales. Comprende que debe organizarlo lo más realista y específicamente posible y que lo planteado sea alcanzable, medible y considere los mejores estrategias, procedimientos, recursos, escenarios basado en sus experiencias y previendo posibles cambios de cursos de acción que le permitan alcanzar la meta. Monitorea de manera permanente sus avances respecto a las metas de aprendizaje previamente establecidas y evalúa el nivel de logro de sus resultados y la viabilidad de la meta respecto de sus acciones; si lo cree conveniente realiza ajustes a los planes basado en el análisis de sus avances y los aportes de los grupos de trabajo y el suyo propio mostrando disposición a los posibles cambios.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Determina metas de aprendizaje viables sobre la base de sus potencialidades, conocimientos, estilos de aprendizaje, habilidades y actitudes para el logro de la tarea simple o compleja, formulándose preguntas de manera reflexiva y de forma constante."
+  },
+  {
+   "grado": 3,
+   "texto": "Organiza un conjunto de acciones en función del tiempo y de los recursos de que dispone para lograr sus metas de aprendizaje, para lo cual establece un orden y una prioridad en las acciones de manera secundaria y articulada."
+  },
+  {
+   "grado": 3,
+   "texto": "Revisa de manera permanente las estrategias, los avances de las acciones propuestas, su experiencia previa y la priorización de sus actividades para llegar a los resultados esperados. Evalúa los resultados y los aportes que le brinden sus pares para el logro de las metas de aprendizaje."
+  },
+  {
+   "grado": 4,
+   "texto": "Determina metas de aprendizaje viables sobre la base de sus experiencias asociadas, necesidades, prioridades de aprendizaje, habilidades y actitudes para el logro de la tarea simple o compleja, formulándose preguntas de manera reflexiva y de forma constante."
+  },
+  {
+   "grado": 4,
+   "texto": "Organiza un conjunto de acciones en función del tiempo y de los recursos de que dispone, para la cual establece un orden y una prioridad que le permitan alcanzar la meta en el tiempo determinado con un considerable grado de calidad en las acciones de manera secuenciada y articulada."
+  },
+  {
+   "grado": 4,
+   "texto": "Revisa de manera permanente la aplicación de estrategias, los avances de las acciones propuestas, su experiencia previa, y la secuencia y la priorización de actividades que hacen posible el logro de la meta de aprendizaje. Evalúa los resultados y los aportes que le brindan los demás para decidir si realizará o no cambios en las estrategias para el éxito de la meta de aprendizaje."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 225,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1012,
+  "totalTokens": 3101,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

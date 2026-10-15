@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 100,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en lengua materna",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Lee diversos tipos textos con estructuras complejas, principalmente de naturaleza analítica y reflexiva, con vocabulario variado y especializado. Interpreta y reinterpreta el texto a partir del análisis de énfasis y matices intencionados, valiéndose de otros textos y reconociendo distintas posturas y sentidos. Reflexiona sobre formas y contenidos del texto y asume una posición sobre las ideologías y relaciones de poder que este presenta. Evalúa el uso del lenguaje, la validez de la información, el estilo del texto, la intención de estrategias discursivas y recursos textuales. Explica el efecto del texto en el lector así como la influencia de los valores y posturas del autor en relación al contexto sociocultural en el que el texto fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Lee diversos tipos de textos con estructuras complejas, vocabulario variado y especializado. Integra información contrapuesta y ambigua que está en distintas partes del texto. Interpreta el texto considerando información relevante y de detalle para construir su sentido global, valiéndose de otros textos y reconociendo distintas posturas y sentidos. Reflexiona sobre formas y contenidos del texto y asume una posición sobre las relaciones de poder que este presenta. Evalúa el uso del lenguaje, la validez de la información, el estilo del texto, la intención de estrategias discursivas y recursos textuales. Explica el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural en el que fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Lee diversos tipos de texto con estructuras complejas y vocabulario variado. Integra información contrapuesta que está en distintas partes del texto. Interpreta el texto considerando información relevante y complementaria para construir su sentido global, valiéndose de otros textos. Reflexiona sobre formas y contenidos del texto a partir de su conocimiento y experiencia. Evalúa el uso del lenguaje, la intención de los recursos textuales y el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Lee diversos tipos de textos con varios elementos complejos en su estructura y con vocabulario variado. Obtiene información integra datos que están en distintas partes del texto. Realiza inferencias locales a partir de información explícita e implícita. Interpreta el texto considerando información relevante y complementaria para construir su sentido global. Reflexiona sobre aspectos variados del texto a partir de su conocimiento y experiencia. Evalúa el uso del lenguaje, la intención de los recursos textuales y el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Lee diversos tipos de textos que presentan estructura simple con algunos elementos complejos en su estructura y con vocabulario variado. Obtiene información poco evidente distinguiéndola de otras próximas y semejantes. Realiza inferencias locales a partir de información explícita e implícita. Interpreta el texto considerando información relevante para construir su sentido global. Reflexiona sobre sucesos e ideas importantes del texto y explica la intención de los recursos textuales más comunes a partir de su conocimiento y experiencia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Lee diversos tipos de textos de estructura simple en los que predominan palabras conocidas e ilustraciones que apoyan las ideas centrales. Obtiene información poco evidente distinguiéndola de otra semejante y realiza inferencias locales a partir de información explícita e implícita. Interpreta el texto considerando información recurrente para construir su sentido global. Opina sobre sucesos e ideas importantes del texto a partir de su propia experiencia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Lee² diversos tipos de textos que tratan temas reales o imaginarios que le son cotidianos, en los que predominan palabras conocidas y que se acompañan con ilustraciones. Construye hipótesis o predicciones sobre la información contenida en los textos y demuestra comprensión de las ilustraciones y de algunos símbolos escritos que transmiten información. Expresa sus gustos y preferencias en relación a los textos leídos a partir de su propia experiencia. Utiliza algunas convenciones básicas de los textos escritos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base principalmente el nivel 1 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 100,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1395,
+  "totalTokens": 3484,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

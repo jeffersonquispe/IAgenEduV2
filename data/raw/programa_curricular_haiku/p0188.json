@@ -1,0 +1,122 @@
+{
+ "numero_pagina_impreso": 188,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende y usa conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo.",
+  "Evalúa las implicancias del saber del quehacer científico y tecnológico."
+ ],
+ "descripcion_nivel": "Explica, con base en evidencias con respaldo científico, las relaciones cualitativas y las cuantificables entre: la estructura microscópica de un material y su reactividad con otros materiales o con campos y ondas; la información genética, las funciones de las células con las funciones de los sistemas (homeostasis); el origen de la Tierra, su composición, su evolución física, química y biológica con los registros fósiles. Argumenta su posición frente a las implicancias éticas, sociales y ambientales de situaciones sociocientíficas o frente a cambios en la cosmovisión suscitados por el desarrollo de la ciencia y tecnología.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica cualitativa y cuantitativamente que las sustancias se generan al formarse o romperse enlaces entre átomos, que absorben o liberan energía conservando su masa."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Evalúa las implicancias ambientales y sociales del uso de las sustancias inorgánicas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica cualitativa y cuantitativamente la degradación de los materiales depende de su composición química y de las condiciones ambientales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica la generación de campos eléctricos a partir de la existencia de cargas positivas o negativas, y de la generación de campos magnéticos a partir del movimiento de estas cargas eléctricas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica cuantitativamente que en las reacciones nucleares de fisión y fusión, se producen elementos con intercambio de grandes cantidades de energía. Analiza las implicancias de la energía nuclear en la generación de energía eléctrica."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Sustenta cualitativa y cuantitativamente las propiedades de los gases según la teoría cinética molecular."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica cualitativa y cuantitativamente el comportamiento de los líquidos en reposo por acción de la presión."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Establece semejanzas y diferencias entre las estructuras que han desarrollado los diversos seres unicelulares y pluricelulares para realizar la función de locomoción."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el crecimiento y la reproducción de la célula a partir del ciclo celular."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica la transmisión de caracteres de progenitores a descendientes mediante los genes."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Justifica que el relieve de la Tierra se debe a los movimientos sísmicos, al vulcanismo y a la formación de rocas producidas por la energía interna de la Tierra."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre el desarrollo científico y tecnológico con las demandas de la sociedad en distintos momentos históricos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Fundamenta su posición, empleando evidencia científica, respecto de eventos paradigmáticos y de situaciones donde la ciencia y la tecnología son cuestionadas por su impacto en la sociedad y el ambiente."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica la formación y degradación de las sustancias naturales y sintéticas a partir de las propiedades de tetravalencia y autosaturación del átomo de carbono."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Describe la estructura y las condiciones ambientales que posibilitan la degradación de esas sustancias."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Sustenta cualitativa y cuantitativamente que la energía térmica se conserva, transfiere o degrada en sólidos y fluidos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica cómo la célula, a través de reacciones químicas, transforma los nutrientes y obtiene energía necesaria para realizar las funciones vitales del ser humano."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Justifica los mecanismos de regulación en los sistemas (regulación de temperatura, glucosa, hormonas, líquidos y sales) para conservar la homeostasis del organismo humano."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica que la síntesis de proteínas, que cumplen diversas funciones en el organismo, es producto de la transcripción y traducción de la secuencia de nucleótidos de los ácidos nucleicos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica que la conservación del número de cromosomas haploides de cada especie se mantiene mediante la producción de células sexuales (gametogénesis) y relaciona este proceso con la herencia, la diversidad y las enfermedades genéticas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica que la evolución de las especies fue influenciada por los cambios ambientales ocurridos en el pasado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Sustenta que la especiación de los seres vivos puede estar influenciada por aislamiento geográfico o reducción del flujo génico."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Fundamenta su posición ética, empleando evidencia científica, frente a eventos paradigmáticos y situaciones donde la ciencia y la tecnología son cuestionadas por su impacto en la sociedad y el ambiente."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Fundamenta respeto de situaciones en las que se pone en juego las demandas sociales e intereses particulares sobre el quehacer científico y tecnológico que impactan en la sociedad y el ambiente."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 188,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 2309,
+  "totalTokens": 4463,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

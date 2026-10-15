@@ -1,0 +1,70 @@
+{
+ "numero_pagina_impreso": 136,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se comunica oralmente en inglés como lengua extranjera",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información de textos orales.",
+  "Infiere e interpreta información de textos orales.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos en inglés. Infiere el tema, propósito, hechos y conclusiones a partir de información implícita y explícita e interpreta la intención del interlocutor. Se expresa adecuando el texto a situaciones comunicativas formales e informales usando pronunciación y entonación inteligibles; organiza y desarrolla ideas en torno a un tema y las relaciona haciendo uso de algunos recursos cohesivos, vocabulario variado y construcciones gramaticales determinadas y pertinentes. Utiliza recursos no verbales y paraverbales para garantizar la pertinencia del mensaje. Reflexiona y evalúa sobre lo escuchado haciendo uso de sus conocimientos sobre el tema. En un intercambio, participa formulando y respondiendo preguntas sobre temas que le son conocidos o habituales y evalúa las respuestas escuchadas para dar sus aportes tomando en cuenta los puntos de vista de otros.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita, relevante y complementaria seleccionando datos específicos en los textos orales que escucha en inglés, con vocabulario variado, pertinente y preciso, reconociendo el propósito comunicativo y apoyándose en el contexto. Integra la información cuando es dicha en distintos momentos o por distintos interlocutores."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Deduce información señalando características de seres, objetos, lugares y hechos. Deduce el significado de palabras, frases y expresiones complejas en contexto. Ejemplo: Embedded questions; present perfect continuous; past perfect, connecting words; reported speech —range of tenses; perfect modals —should, might, may, could; conditionals 2nd and 3rd. Deduce, también, el significado de relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias, y conclusiones) en textos orales en inglés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Distingue lo relevante de lo complementario clasificando y sintetizando la información, y vinculando el texto con su experiencia a partir de recursos verbales, no verbales y paraverbales para construir el sentido del texto oral en inglés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Adapta el texto oral a la situación comunicativa manteniendo el registro y los modos culturales, y considerando el tipo de texto, el contexto y el propósito. Ejemplo: Discutir acerca de modales, libros, lenguaje corporal, inventos, competencias para el trabajo, desastres naturales y emergencias; reportar una emergencia; expresar arrepentimiento; reportar noticias."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa sus ideas, emociones y experiencias en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel, jerarquizándolas para establecer diferentes relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando la información de forma pertinente con vocabulario (campos de trabajo, habilidades, verbos frasales, géneros literarios, adjetivos calificativos, secciones del periódico, emergencias, desastres naturales, inventos, y expresiones de empatía, sorpresa e interacción social)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Emplea estratégicamente gestos, movimientos corporales, contacto visual y desplazamiento para enfatizar o atenuar lo que dice y mantener el interés del oyente. Ajusta el ritmo, el volumen y la entonación con pronunciación adecuada apoyándose en material concreto y audiovisual."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Participa en diversas situaciones comunicativas alternando los roles de hablante y oyente para preguntar, responder, aclarar, contrastar, y para complementar ideas, hacer comentarios relevantes, adaptar sus respuestas a las necesidades del interlocutor y persuadir en inglés, con vocabulario variado y pertinente. Respeta las normas y modos de cortesía según el contexto."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Opina en inglés como hablante y oyente sobre el contenido y el propósito comunicativo del texto oral, y sobre las intenciones de los interlocutores y el efecto de lo dicho en ellos. Justifica su posición sobre lo que dice el texto a partir de su experiencia y el contexto en el que se desenvuelve."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 136,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1701,
+  "totalTokens": 3923,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

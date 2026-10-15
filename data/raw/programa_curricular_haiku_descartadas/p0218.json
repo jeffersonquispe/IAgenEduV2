@@ -1,0 +1,84 @@
+{
+ "numero_pagina_impreso": 218,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se desenvuelve en entornos virtuales generados por las TIC",
+ "ciclo": "VII",
+ "capacidades": [
+  "Personaliza entornos virtuales.",
+  "Gestiona información del entorno virtual.",
+  "Interactúa en entornos virtuales.",
+  "Crea objetos virtuales en diversos formatos."
+ ],
+ "descripcion_nivel": "Se desenvuelve en los entornos virtuales cuando interactúa en diversos espacios (como portales educativos, foros, redes sociales, entre otros) de manera consciente y sistemática administrando información y creando materiales digitales en interacción con sus pares de distintos contextos socioculturales expresando su identidad personal.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Construye su perfil personal cuando accede a aplicaciones o plataformas de distintos propósitos, y se integra a comunidades colaborativas virtuales. Ejemplo: Agrega fotos e intereses personales en su perfil del portal Perú Educa."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Establece búsquedas utilizando filtros en diferentes entornos virtuales que respondan a necesidades de información."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Clasifica y organiza la información obtenida de acuerdo con criterios establecidos y cita las fuentes en forma apropiada con eficiencia y efectividad."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Aplica funciones de cálculo cuando resuelve problemas matemáticos utilizando hojas de cálculo o base de datos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Establece diálogos significativos y acuerdos con su edad en el desarrollo de un proyecto o identificación de un problema o una actividad planteada con sus pares en entornos virtuales compartidos. Ejemplo: Participa en un foro."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Diseña objetos virtuales cuando representa ideas u otros elementos mediante el modelado de diseño. Ejemplo: Diseña el logotipo de su proyecto de emprendimiento estudiantil."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCERO DE SECUNDARIA",
+   "texto": "Desarrolla secuencias lógicas o juegos digitales que simulen procesos u objetos que lleven a realizar tareas del mundo real con criterio y creatividad. Ejemplo: Elabora un programa que simule el movimiento de una polea."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Accede a plataformas virtuales para desarrollar aprendizajes de diversas áreas curriculares seleccionando opciones, herramientas y aplicaciones, y realizando configuraciones de manera autónoma y responsable."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Emplea diversas fuentes con criterios de credibilidad, pertinencia y eficacia utilizando herramientas digitales de autor cuando realiza investigación sobre un tema específico."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Aplica diversas funciones de cálculo combinadas para solucionar situaciones diversas cuando sistematiza información en una base de datos y la representa gráficamente."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Comparte y evalúa sus proyectos escolares demostrando habilidades relacionadas con las áreas curriculares cuando plantea soluciones y propuestas creativas en las comunidades virtuales en las que participa. Participa en una comunidad de programación de historias interactivas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Documenta proyectos escolares cuando combina animaciones, videos y material interactivo en distintos formatos con creatividad e iniciativa. Ejemplo: Crea un blog para promocionar y difundir su proyecto de emprendimiento."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Publica proyectos escolares utilizando información diversa según pautas de organización y citación combinando materiales digitales de diferentes formatos. Ejemplo: Crea un álbum virtual como galería de arte con imágenes obtenidas de diversas fuentes, o muestra una galería virtual con texto, videos y fotos de culturas diversas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO DE SECUNDARIA",
+   "texto": "Programa secuencias lógicas estableciendo condiciones de decisión que presenten soluciones acordes con el problema planteado con eficacia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 218,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1492,
+  "totalTokens": 3646,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

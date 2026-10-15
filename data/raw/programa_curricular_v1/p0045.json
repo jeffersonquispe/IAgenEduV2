@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 45,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "CONSTRUYE INTERPRETACIONES HISTÓRICAS",
+ "ciclo": null,
+ "capacidades": [
+  "Interpreta críticamente fuentes diversas: es reconocer la diversidad de fuentes y su importancia y utilidad para abordar un hecho o proceso histórico. Supone ubicarlas en su contexto y comprender, de manera crítica, que estas reflejan una perspectiva particular y tienen diferentes grados de fiabilidad. También implica recurrir a múltiples fuentes.",
+  "Comprende el tiempo histórico: es usar las nociones relativas al tiempo de manera pertinente, reconociendo que los sistemas de medición temporal son convenciones que dependen de distintas tradiciones culturales y que el tiempo histórico tiene diferentes duraciones. Asimismo, implica ordenar los hechos y procesos históricos cronológicamente y explicar los cambios, permanencias y simultaneidades que se dan en ellos.",
+  "Elabora explicaciones sobre procesos históricos: es jerarquizar las causas de los procesos históricos relacionando las motivaciones de sus protagonistas con su cosmovisión y la época en la que vivieron. También es establecer las múltiples consecuencias de los procesos del pasado y sus implicancias en el presente, así como reconocer que este va construyendo nuestro futuro."
+ ],
+ "descripcion_nivel": "El estudiante sustenta una posición crítica sobre hechos y procesos históricos que ayuden a comprender el presente y sus desafíos, articulando el uso de distintas fuentes; la comprensión de los cambios temporales y la explicación de las múltiples causas y consecuencias de estos. Supone reconocerse como sujeto histórico, es decir, como protagonista de los procesos históricos y, como tal, producto de un pasado, pero que, a la vez, participa en la construcción colectiva del futuro de la nación peruana y de la humanidad.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 45,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 559,
+  "totalTokens": 2648,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

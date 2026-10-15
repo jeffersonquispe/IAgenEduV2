@@ -1,0 +1,49 @@
+{
+ "numero_pagina_impreso": 183,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Indaga mediante métodos científicos para construir conocimientos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Problematiza situaciones.",
+  "Diseña estrategias para hacer indagación.",
+  "Genera y registra datos e información.",
+  "Analiza datos e información.",
+  "Evalúa y comunica el proceso y resultados de su indagación."
+ ],
+ "descripcion_nivel": "Indaga a partir de preguntas y plantea hipótesis con base en conocimientos científicos y observaciones previas. Elabora el plan de observaciones o experimentos y los argumenta utilizando principios científicos y los objetivos planteados. Realiza mediciones y comparaciones sistemáticas que evidencian la acción de diversos tipos de variables. Analiza tendencias y relaciones en los datos tomando en cuenta la precisión y reproducibilidad, los interpreta con base en conocimientos científicos y formula conclusiones, los argumenta apoyándose en sus resultados e información confiable. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Formula preguntas sobre el hecho, fenómeno u objeto natural o tecnológico para delimitar el problema por indagar. Observa el comportamiento de las variables. Plantea hipótesis basadas en conocimientos científicos en las que establece relaciones entre las variables que serán investigadas. Considera las variables intervinientes que pueden influir en su indagación y elabora los objetivos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Propone y fundamenta, sobre la base de los objetivos de su indagación e información científica, procedimientos que le permitan observar, manipular y medir las variables; el tiempo por emplear; las medidas de seguridad, herramientas, materiales e instrumentos de recojo de datos cualitativos/cuantitativos; y el margen de error. Estos procedimientos también le permiten prevenir un grupo de control para confirmar o refutar la hipótesis."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Obtiene y organiza datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y de mediciones repetidas de la variable dependiente. Realiza los ajustes en sus procedimientos o instrumentos. Controla las variables intervinientes. Realiza cálculos de medidas de tendencia central, proporcionalidad u otros. Obtiene el margen de error y representa sus resultados en gráficas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, pertenencia, similitud, diferencia u otros. Identifica regularidades o tendencias. Predice el comportamiento de las variables y contrasta los resultados con su hipótesis e información científica, para confirmar o refutar su hipótesis. Elabora conclusiones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Sustenta, sobre la base de conocimientos científicos, sus conclusiones, los procedimientos y la reducción del error a través del uso del grupo de control, la repetición de mediciones, los cálculos y los ajustes realizados en la obtención de resultados válidos y fiables para demostrar la hipótesis y lograr el objetivo. Su indagación puede ser reproducida o genera nuevas preguntas que den lugar a otras indagaciones. Comunica su indagación con un informe escrito o a través de otros medios."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 183,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1096,
+  "totalTokens": 3250,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

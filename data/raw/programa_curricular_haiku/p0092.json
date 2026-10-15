@@ -1,0 +1,29 @@
+{
+ "numero_pagina_impreso": 92,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "SE COMUNICA ORALMENTE EN SU LENGUA MATERNA",
+ "ciclo": null,
+ "capacidades": [
+  "Obtiene información del texto oral: el estudiante recupera y extrae información explícita expresada por los interlocutores.",
+  "Infiere e interpreta información del texto oral: el estudiante construye el sentido del texto. Para ello, infiere estableciendo diversas relaciones entre la información explícita e implícita con el fin de deducir nueva información y completar los vacíos del texto oral. A partir de estas inferencias, el estudiante interpreta integrando la información explícita e implícita, los recursos verbales, no verbales y paraverbales para construir el sentido global y profundo del texto oral, y explicar el propósito, el uso estético del lenguaje, las intenciones e ideologías de los interlocutores, así como su relación con el contexto sociocultural.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada: el estudiante expresa sus ideas adaptándose al propósito, destinatario, características del tipo de texto, género discursivo y registro, considerando las normas y modos de cortesía, así como los contextos socioculturales que enmarcan la comunicación. Asimismo, expresa las ideas en torno a un tema de forma lógica, relacionándolas mediante diversos recursos cohesivos para construir el sentido de distintos tipos de textos y géneros discursivos.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica: el estudiante emplea variados recursos no verbales (como gestos o movimientos corporales) o paraverbales (como el tono de la voz o silencios) según la situación comunicativa para enfatizar o matizar significados y producir determinados efectos en los interlocutores.",
+  "Interactúa estratégicamente con distintos interlocutores: el estudiante intercambia los roles de hablante y oyente alternada y dinámicamente, participando de forma pertinente, oportuna y relevante para lograr su propósito comunicativo.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral: los procesos de reflexión y evaluación están relacionados porque ambos suponen que el estudiante se distancie de los textos orales en los que participa. Para ello, reflexiona como oyente y hablante, que supone distanciarse de los textos orales en que participa de forma presencial o a través de medios audiovisuales, comparando y contrastando aspectos formales y de contenido, con la experiencia, el contexto, el conocimiento formal y diversas fuentes de información. Asimismo, evalúa, que implica analizar y valorar los textos orales producidos para construir una opinión personal o un juicio crítico sobre sus aspectos formales, contenidos e ideologías, y su relación con el contexto sociocultural, considerando los efectos que producen en los interlocutores."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 92,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 840,
+  "totalTokens": 2994,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

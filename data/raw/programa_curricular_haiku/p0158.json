@@ -1,0 +1,64 @@
+{
+ "numero_pagina_impreso": 158,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de regularidad, equivalencia y cambio",
+ "ciclo": "VI",
+ "capacidades": [
+  "Traduce datos y condiciones a expresiones algebraicas y gráficas.",
+  "Comunica su comprensión sobre las relaciones algebraicas.",
+  "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales.",
+  "Argumenta afirmaciones sobre relaciones de cambio y equivalencia."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a interpretar cambios constantes o regularidades entre magnitudes, valores o entre expresiones; traduciéndolas a patrones numéricos y gráficos, progresiones aritméticas, ecuaciones e inecuaciones con una incógnita, funciones lineales y afín, y relaciones de proporcionalidad directa e inversa. Comprueba si la expresión algebraica usada expresó o reprodujo las condiciones del problema. Expresa su comprensión de la relación lineal entre función lineal y proporcionalidad directa; las diferencias entre una ecuación e inecuación lineal y sus propiedades; la variable como un valor que cambia; el conjunto de valores que puede tomar un término desconocido para verificar una inecuación; las usa para interpretar enunciados, expresiones algebraicas o textos diversos de contenido matemático. Selecciona, emplea y combina recursos, estrategias, métodos gráficos y procedimientos matemáticos para determinar el valor de términos desconocidos en una progresión aritmética, simplificar expresiones algebraicas y dar solución a ecuaciones e inecuaciones lineales, y evaluar funciones lineales. Plantea afirmaciones sobre propiedades aritméticas, ecuaciones e inecuaciones así como de una función lineal, lineal afín con base a sus experiencias, y las justifica mediante ejemplos y propiedades matemáticas; encuentra errores o vacíos en las argumentaciones propias y las de otros y las corrige.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos, regularidades, valores desconocidos, o relaciones de equivalencia o variación entre dos magnitudes. Transforma estas relaciones a expresiones algebraicas (modelo) que incluyen la regla de formación de progresiones aritméticas con números enteros, a ecuaciones lineales (ax + b = cx + d, a y c ∈ Q), a desigualdades (x > a o x < b), a funciones lineales, a proporcionalidad directa o a gráficos cartesianos. También las transforma a patrones gráficos (con traslaciones, rotaciones o ampliaciones)."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Comprueba si la expresión algebraica o gráfica (modelo) que planteó le permitió solucionar el problema, y reconoce qué elementos de la expresión representan las condiciones del problema: datos, términos desconocidos, regularidades, relaciones de equivalencia o variación entre dos magnitudes."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, con lenguaje algebraico, su comprensión sobre la formación de un patrón gráfico o una progresión aritmética, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución de una ecuación lineal y sobre la solución del conjunto solución de una condición de desigualdad, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Interrelaciona representaciones gráficas, tabulares y simbólicas que se generan al aplicar reflexiones u giros."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos, regularidades, valores desconocidos, o relaciones de equivalencia o variación entre dos magnitudes. Transforma estas relaciones a expresiones algebraicas o gráficas (modelos) que incluyen la regla de formación de progresiones aritméticas con números enteros, a ecuaciones lineales (ax + b = cx + d, a y c ∈ Q), a inecuaciones de la forma (ax > b, ax < b, ax ≥ b y ax ≤ b ∨ a ≥ 0), a funciones lineales y afines, a proporcionalidad directa e inversa con expresiones fraccionarias o decimales, a gráficos cartesianos. También las transforma a patrones gráficos que combinan traslaciones, rotaciones o ampliaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Comprueba si la expresión algebraica o gráfica (modelo) que planteó le permitió solucionar el problema, y reconoce qué elementos de la expresión representan las condiciones del problema: datos, términos desconocidos, regularidades, relaciones de equivalencia o variación entre dos magnitudes."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, con lenguaje algebraico, su comprensión sobre la regla de formación de patrones gráficos y progresiones aritméticas, y sobre la suma de sus términos, para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución de una ecuación lineal y sobre la solución del conjunto solución de una condición de desigualdad, para interpretar un problema en su contexto y estableciendo relaciones entre representaciones."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 158,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1789,
+  "totalTokens": 3943,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

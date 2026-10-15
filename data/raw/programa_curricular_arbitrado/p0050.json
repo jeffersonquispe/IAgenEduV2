@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 50,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Construye interpretaciones históricas",
+ "ciclo": "VII",
+ "capacidades": [
+  "Interpreta críticamente fuentes diversas.",
+  "Comprende el tiempo histórico.",
+  "Elabora explicaciones sobre procesos históricos."
+ ],
+ "descripcion_nivel": "Construye interpretaciones históricas sobre la base de los problemas históricos del Perú y el mundo en relación a los grandes cambios, permanencias y simultaneidades a lo largo de la historia, empleando conceptos sociales, políticos y económicos abstractos y complejos. Jerarquiza múltiples causas y consecuencias de los hechos o procesos históricos. Establece relaciones entre esos procesos históricos y situaciones o procesos actuales. Explica cómo las acciones humanas, individuales o grupales van configurando el pasado y el presente y pueden configurar el futuro. Explica la perspectiva de los protagonistas, relacionando sus acciones con sus motivaciones. Contrasta diversas interpretaciones del pasado, a partir de distintas fuentes evaluadas en su contexto y perspectiva. Reconoce la validez de las fuentes para comprender variados puntos de vista.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza constantemente una diversidad de fuentes, incluyendo las producidas por él (entrevistas o testimonios a personas que vivieron hechos recientes), para indagar sobre un hecho, proceso o problema histórico comprendido desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI), evaluando la pertinencia y fiabilidad de esas fuentes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Contrasta las interpretaciones que se presentan en diversas fuentes históricas a partir de la evaluación de su confiabilidad (perspectiva del autor, intencionalidad y contexto en que fue producida la fuente), desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica los cambios, las permanencias y las relaciones de simultaneidad de los hechos o procesos históricos a nivel político, social, ambiental, económico y cultural, desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI), y reconoce que estos cambios no necesariamente llevan al progreso y desarrollo sostenible."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Aplica las relaciones existentes entre diversos hechos o procesos históricos, desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI), con hechos de la actualidad, utilizando conceptos sociales, políticos y económicos abstractos y complejos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Elabora explicaciones sobre hechos, procesos o problemas históricos, desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI) en las que establece jerarquías entre sus múltiples causas y reconoce que sus consecuencias desencadenan nuevos hechos o procesos históricos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica las ideas, los comportamientos y las motivaciones de los protagonistas de los hechos o procesos históricos, desde el periodo entre guerras hasta las crisis económicas de inicios del siglo XXI y desde el Oncenio de Leguía hasta la historia reciente en el Perú (s. XXI), para entender las razones de sus acciones u omisiones, y cómo estas han configurado el presente e intervienen en la construcción del futuro."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 50,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1316,
+  "totalTokens": 3538,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

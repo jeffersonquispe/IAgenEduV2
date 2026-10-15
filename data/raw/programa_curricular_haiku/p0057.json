@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 57,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Gestiona responsablemente los recursos económicos",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Gestiona recursos económicos al elaborar presupuestos personales considerando su proyecto de vida y diversos factores económicos. Explica cómo el Estado y las empresas toman decisiones económicas y financieras considerando indicadores microeconómicos y macroeconómicos. Argumenta que la omisión o realización de ciertas prácticas económicas por parte de los diversos agentes económicos pueden afectar las condiciones de desarrollo del país."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Gestiona responsablemente los recursos económicos al promover el ahorro y la inversión de los recursos considerando sus objetivos, riesgos y oportunidades. Asume una posición crítica frente a las actividades económicas y financieras ilícitas e informales, prácticas de producción y consumo que deterioran el ambiente y afectan los derechos humanos, el incumplimiento de las responsabilidades tributarias y las decisiones financieras que no consideran un fin provisional. Analiza las interrelaciones entre los agentes del sistema económico y financiero global teniendo en cuenta el mercado y el comercio mundial. Explica el rol del Estado como agente supervisor del sistema financiero."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Gestiona responsablemente los recursos económicos al promover el ahorro y la inversión de los recursos. Promueve el consumo informado frente a los recursos económicos y los productos y servicios financieros, asumiendo una posición crítica respecto a la publicidad y rechazando toda actividad financiera informal e ilegal. Explica las interrelaciones entre los agentes del sistema económico y financiero nacional (familia, empresa, Estado) teniendo como referencia el mercado. Explica el rol del Estado en el financiamiento del presupuesto nacional."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Gestiona responsablemente los recursos económicos al utilizar el dinero y otros recursos como consumidor informado y al realizar acciones de ahorro, inversión y cuidado de estos. Explica el papel de la publicidad frente a las decisiones de consumo y en la planificación de los presupuestos personales y familiares, así como la importancia de cumplir con el pago de impuestos, tributos y deudas como medio para el bienestar común. Explica los roles que cumplen las empresas y el Estado respecto a la satisfacción de las necesidades económicas y financieras de las personas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Gestiona responsablemente los recursos económicos al diferenciar entre necesidades y deseos, y al usar los servicios públicos de su espacio cotidiano, reconociendo que tienen un costo. Reconoce que los miembros de su comunidad se vinculan al desempeñar distintas actividades económicas y que estas actividades inciden en su bienestar y en el de las otras personas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Gestiona responsablemente los recursos económicos al utilizar los bienes y servicios con los que cuenta en su familia y en la escuela. Reconoce que las personas y las instituciones de su comunidad desarrollan actividades económicas para satisfacer sus necesidades y que contribuyen a su bienestar."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de las competencias \"Convive y participa\" y \"Construye su identidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de las competencias \"Convive y participa\" y \"Construye su identidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 57,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1133,
+  "totalTokens": 3222,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,25 @@
+{
+ "numero_pagina_impreso": 68,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "ASUME UNA VIDA SALUDABLE",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende las relaciones entre la actividad física, alimentación, postura e higiene personal y del ambiente, y la salud: es comprender los procesos vinculados con la alimentación, la postura, la higiene corporal y la práctica de actividad física y cómo estos influyen en el estado de bienestar integral (físico, psicológico y emocional).",
+  "Incorpora prácticas que mejoran su calidad de vida: es asumir una actitud crítica sobre la importancia de hábitos saludables y sus beneficios vinculados con la mejora de la calidad de vida. Esto supone la planificación de rutinas, dietas o planes que pongan en práctica sus conocimientos sobre alimentación, higiene corporal, posturas y actividad física para la salud según sus propias necesidades, recursos y entorno."
+ ],
+ "descripcion_nivel": "El estudiante tiene conciencia reflexiva sobre su bienestar, por lo que incorpora prácticas autónomas que conlleva a una mejora de su calidad de vida. Esto supone que comprende la relación entre vida saludable y bienestar, así como la práctica de actividad física para la salud, posturas corporales adecuadas, alimentación saludable e higiene personal y del ambiente, según sus recursos y entorno sociocultural y ambiental, promoviendo la prevención de enfermedades.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 68,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 456,
+  "totalTokens": 2610,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

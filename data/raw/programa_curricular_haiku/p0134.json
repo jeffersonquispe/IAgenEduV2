@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 134,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se comunica oralmente en inglés como lengua extranjera",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información de textos orales.",
+  "Infiere e interpreta información de textos orales.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos en inglés. Infiere el tema, propósito, hechos y conclusiones a partir de información implícita y explícita e interpreta la intención del interlocutor. Se expresa adecuando el texto a situaciones comunicativas formales e informales usando pronunciación inteligible; organiza y desarrolla ideas en torno a un tema y las relaciona haciendo uso de algunos recursos cohesivos, vocabulario variado y construcciones gramaticales determinadas y pertinentes. Utiliza recursos no verbales y paraverbales para garantizar la pertinencia del mensaje. Reflexiona y evalúa sobre lo escuchado haciendo uso de sus conocimientos sobre el tema. En un intercambio, participa formulando y respondiendo preguntas sobre temas que le son conocidos o habituales y evalúa las respuestas escuchadas para dar sus aportes tomando en cuenta los puntos de vista de otros.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita, relevante y complementaria seleccionando datos específicos en los textos orales que escucha en inglés, con vocabulario variado y pertinente, reconociendo el propósito comunicativo y apoyándose en el contexto. Integra la información cuando es dicha en distintos momentos o por distintos interlocutores."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Deduce información señalando características de seres, objetos, lugares y hechos. Deduce el significado de palabras, frases y expresiones complejas en contexto. Ejemplo: Present simple, past simple; past continuous; subordinating conjunctions; when, while, so, as, because; past particle verbs —regular, irregular; present perfect, past perfect; comparative and superlative adjectives; future with will and going to, adverbs —ever, twice, once, already, yet, just, too, enough, so, such; prepositions —for, since. Deduce, también, el significado de relaciones lógicas (adición, contraste, secuencia, secuencia-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias) en textos orales en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Distingue lo relevante de lo complementario clasificando y sintetizando la información, y vinculando el texto con su experiencia a partir de recursos verbales, no verbales y paraverbales para construir el sentido del texto oral en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Adapta el texto oral a la situación comunicativa manteniendo el registro y los modos culturales, y considerando el tipo de texto, el contexto y el propósito. Ejemplo: Intercambiar información personal al presentar a alguien y a sí mismo; hablar sobre personas, medios de"
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita, relevante y complementaria seleccionando datos específicos en los textos orales que escucha en inglés, con vocabulario variado y pertinente, reconociendo el propósito comunicativo y apoyándose en el contexto. Integra la información cuando es dicha en distintos momentos o por distintos interlocutores."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Deduce información señalando características de seres, objetos, lugares y hechos. Deduce el significado de palabras, frases y expresiones complejas en contexto. Ejemplo: Present continuous, simple present, frequency adverbs, present perfect, simple past, used to, second conditional, phrasal verbs, present simple passive, question tags, modals —must/can't (deduction), might, may (possibility), must/have to (obligation), future continuous. Deduce, también, el significado de relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias) en textos orales en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Distingue lo relevante de lo complementario clasificando y sintetizando la información, y vinculando el texto con su experiencia a partir de recursos verbales, no verbales y paraverbales para construir el sentido del texto oral en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Adapta el texto oral a la situación comunicativa manteniendo el registro y los modos culturales, y considerando el tipo de texto, el contexto y el propósito. Ejemplo: Hablar acerca de actividades en curso, temporales y habituales; discutir acerca de situaciones imaginarias, obligaciones y reglas en la casa, actitudes y comportamientos, preferencias, hábitos pasados,"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 134,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1639,
+  "totalTokens": 3793,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

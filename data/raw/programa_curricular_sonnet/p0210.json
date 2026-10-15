@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 210,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Actúa dando testimonio de su fe en las diversas situaciones de la vida, buscando el bien común en coherencia con su fe y proyecto de vida. Asume un rol protagónico para proponer, organizar y ejecutar acciones que transformen su entorno comunitario y social a la luz del Evangelio y las enseñanzas de la Iglesia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico y los documentos del Magisterio de la Iglesia. Vivencia su dimensión religiosa, espiritual y trascendente, que le permita cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio buscando soluciones a los desafíos actuales. Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la Iglesia. Asume su rol protagónico en la transformación de la sociedad a partir de las enseñanzas de Jesucristo en un marco ético y moral cristiano."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Expresa coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico. Comprende su dimensión espiritual y religiosa que le permita cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio. Reflexiona el encuentro personal y comunitario con Dios en diversos contextos, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo. Asume las enseñanzas de Jesucristo y de la Iglesia desempeñando su rol protagónico en la transformación de la sociedad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Expresa coherencia entre lo que cree, dice y hace en su compromiso personal a la luz de textos bíblicos. Comprende su dimensión religiosa, espiritual y trascendente que le permita asumir cambios de comportamiento en diversos contextos a la luz del Evangelio. Interioriza la presencia de Dios viviendo el encuentro personal y comunitario, para colaborar en la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo. Asume su rol protagónico mediante actitudes concretas a imagen de Jesucristo colaborando en el cambio que necesita la sociedad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Expresa coherencia entre lo que cree, dice y hace en su diario vivir a la luz de las enseñanzas bíblicas y de los santos. Comprende su dimensión religiosa, espiritual y trascendente que le permita establecer propósitos de cambio a la luz del Evangelio. Interioriza la presencia de Dios en su vida personal y en su entorno más cercano, celebrando su fe con gratitud. Asume su rol protagónico respetando y cuidando lo creado."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Expresa coherencia en sus acciones cotidianas descubriendo el amor de Dios. Comprende su dimensión religiosa, espiritual y trascendente que le permite poner en practicar actitudes evangélicas. Interioriza la presencia de Dios en su entorno más cercano desarrollando virtudes evangélicas. Asume actitudes de agradecimiento a Dios respetando lo creado."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Construye su identidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Construye su identidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 210,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1275,
+  "totalTokens": 3497,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

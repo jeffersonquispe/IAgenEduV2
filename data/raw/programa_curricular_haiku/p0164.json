@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 164,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Resuelve problemas de forma, movimiento y localización",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Resuelve problemas en los que modela las características y localización de objetos con propiedades de formas geométricas, así como su localización y desplazamiento usando coordenadas cartesianas, la ecuación de la elipse y la circunferencia, o una composición de transformaciones de formas bidimensionales. Expresa su comprensión de las relaciones entre los elementos de la circunferencia y elementos de los polígonos inscritos; así como la trayectoria de objetos usando la ecuación de la elipse, usando diversas representaciones. Clasifica formas geométricas compuestas, basado en criterios propios y propiedades geométricas. Combina e integra estrategias o procedimientos para determinar las ecuaciones de la recta, parábola y elipse, así como instrumentos y recursos para construir formas geométricas. Plantea afirmaciones sobre relaciones entre conceptos geométricos, deduce propiedades y las sustenta con argumentos que evidencian su coherencia conceptual."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Resuelve problemas en los que modela características de objetos con formas geométricas compuestas, cuerpos de revolución, sus elementos y propiedades, líneas, puntos notables, relaciones métricas de triángulos, distancia entre dos puntos, ecuación de la recta y parábola; la ubicación, distancias inaccesibles, movimientos y trayectorias complejas de objetos mediante coordenadas cartesianas, razones trigonométricas, mapas y planos a escala. Expresa su comprensión de la relación entre las medidas de los lados de un triángulo y sus proyecciones, la distinción entre transformaciones geométricas que conservan las medidas de los objetos, de cómo se generan cuerpos de revolución, usando construcciones con regla y compás. Clasifica polígonos y cuerpos geométricos según sus propiedades, reconociendo la inclusión de una clase en otra. Selecciona, combina y adapta variadas estrategias, procedimientos y recursos para determinar la longitud, perímetro, área o volumen de formas compuestas, así como construir mapas a escala, maquetas e isometrías. Plantea y compara afirmaciones sobre enunciados opuestos o casos especiales de las propiedades de las formas geométricas; justifica, comprueba o descarta la validez de la afirmación mediante contraejemplos o propiedades geométricas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Resuelve problemas en los que modela características de objetos mediante prismas, pirámides y polígonos, sus elementos y propiedades, y la semejanza y congruencia de formas geométricas; la ubicación y movimiento mediante coordenadas en el plano cartesiano, mapas y planos a escala, y transformaciones⁴⁵. Expresa su comprensión de las formas congruentes y semejantes, la relación entre una forma geométrica y sus diferentes perspectivas; usando dibujos y construcciones. Clasifica prismas, pirámides y polígonos, según sus propiedades. Selecciona y emplea estrategias, procedimientos y recursos para determinar la longitud, área o volumen de formas geométricas en unidades convencionales y para construir formas geométricas a escala. Plantea afirmaciones sobre la semejanza y congruencia de formas, relaciones entre áreas de formas geométricas; las justifica mediante ejemplos y propiedades geométricas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Resuelve problemas en los que modela las características y la ubicación de objetos a formas bidimensionales y tridimensionales, sus propiedades, su ampliación, reducción o rotación. Describe y clasifica prismas rectos, cuadriláteros, triángulos, círculos, por sus elementos: vértices, lados, caras, ángulos, y por sus propiedades; usando lenguaje geométrico. Realiza giros en cuartos y medias vueltas, traslaciones, ampliación y reducción de formas bidimensionales, en el plano cartesiano. Describe recorridos y ubicaciones en planos. Emplea procedimientos e instrumentos para ampliar, reducir, girar y construir formas; así como para estimar o medir la longitud, superficie y capacidad de los objetos, seleccionando la unidad de medida convencional apropiada y realizando conversiones. Explora afirmaciones sobre relaciones entre elementos de las formas geométricas y sus atributos medibles, con ejemplos concretos y propiedades."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Resuelve problemas en los que modela características y datos de ubicación de los objetos a formas bidimensionales y tridimensionales, sus elementos, propiedades, su movimiento y ubicación en el plano cartesiano. Describe con lenguaje geométrico, estas formas reconociendo ángulos rectos, número de lados y vértices del polígono, así como líneas paralelas y perpendiculares, identifica formas simétricas y realiza traslaciones, en el en el cuadrícula también elabora croquis, donde traza y describe desplazamientos y posiciones, usando puntos de referencia. Emplea estrategias y procedimientos para trasladar y construir formas a través de la composición y descomposición, y para medir la longitud, superficie y capacidad de los objetos, usando unidades convencionales y no convencionales, recursos e instrumentos de medición. Elabora afirmaciones sobre las figuras compuestas; así como relaciones entre una forma tridimensional y su desarrollo en el plano; la explica con ejemplos concretos y gráficos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Resuelve problemas en los que modela características y datos de ubicación de los objetos del entorno a formas bidimensionales y tridimensionales, sus elementos, posición y desplazamientos. Describe con lenguaje geométrico estas formas mediante sus elementos: esquinas, lados curvas y rectos; número de puntas caras, formas de sus caras, usando representaciones concretas y dibujos. Así también traza y describe desplazamientos y posiciones, en cuadriculados y puntos de referencia usando lenguaje geométrico. Emplea estrategias y procedimientos basados en la manipulación, para construir objetos y medir su longitud (ancho y largo) usando unidades no convencionales. Explica semejanzas y diferencias entre formas geométricas, así como su proceso de resolución."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Resuelve problemas al relacionar los objetos del entorno con formas bidimensionales y tridimensionales. Expresa la ubicación de personas en relación a objetos en el espacio: \"cerca de\", \"lejos de\", \"al lado de\", y de desplazamientos: \"hacia adelante\", \"hacia atrás\", \"hacia un lado\", \"hacia el otro lado\". Así también expresa la comparación de la longitud de dos objetos: \"es más largo que\", \"es más corto que\". Emplea estrategias para resolver problemas, al construir objetos con material concreto o realizar desplazamientos en el espacio."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Explora el espacio en situaciones cotidianas utilizando sus sentidos y sus propias estrategias, se desplaza y reconoce su posición o la ubicación de los objetos y comprende algunas expresiones sencillas relacionadas a su ubicación."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 164,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 2170,
+  "totalTokens": 4259,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

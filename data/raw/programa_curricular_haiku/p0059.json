@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 59,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Gestiona responsablemente los recursos económicos",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos del sistema económico y financiero.",
+  "Toma decisiones económicas y financieras."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente los recursos económicos al promover el ahorro y la inversión de los recursos considerando sus objetivos, riesgos y oportunidades. Asume una posición crítica frente a las actividades económicas y financieras ilícitas e informales, prácticas de producción y consumo que deterioran el ambiente y afectan los derechos humanos, el incumplimiento de las responsabilidades tributarias y de las decisiones financieras que no consideran un fin previsional. Analiza las interrelaciones entre los agentes del sistema económico y financiero global teniendo en cuenta el mercado y el comercio mundial. Explica el rol del Estado como agente supervisor del sistema financiero.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el rol del Estado en materia de política monetaria y política fiscal, y las funciones de los organismos supervisores y reguladores del sistema financiero nacional."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica cómo las empresas y las familias toman decisiones económicas y financieras considerando indicadores económicos, y qué factores influyen en la oferta y la demanda."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Formula presupuestos personales considerando necesidades, deudas y futuros proyectos de ahorro e inversión."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Argumenta una posición de rechazo respecto de las prácticas de producción y consumo que degradan el ambiente y vulneran los derechos humanos. Describe el rol de la ciudadanía económica en la construcción de un modelo de crecimiento económico sostenible."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica los roles que cumplen los agentes del sistema económico y financiero en Latinoamérica, y expresa la importancia que tienen esos agentes para el desarrollo del mercado y el comercio regional."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica que el Estado toma medidas de política económica, y que sanciona los delitos económicos y financieros para garantizar la sostenibilidad y el desarrollo económico del país."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Difunde la importancia de cumplir las obligaciones tributarias y crediticias, y los beneficios de optar por un fondo previsional para garantizar el bienestar económico y social de las personas y el país."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Argumenta a favor de optar por el consumo de productos y bienes cuya producción, distribución y uso preservan el ambiente y los servicios ecosistémicos y respetan los derechos humanos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza el Código de Protección y Defensa del Consumidor para analizar y hacer respetar los derechos de consumidor."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 59,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1103,
+  "totalTokens": 3257,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

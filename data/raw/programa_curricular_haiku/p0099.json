@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 99,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Competencia LEE DIVERSOS TIPOS DE TEXTOS ESCRITOS EN LENGUA MATERNA",
+ "ciclo": null,
+ "capacidades": [
+  "Obtiene información del texto escrito: el estudiante localiza y selecciona información explícita en textos escritos con un propósito específico.",
+  "Infiere e interpreta información del texto: el estudiante construye el sentido del texto. Para ello, infiere estableciendo diversas relaciones entre la información explícita e implícita con el fin de deducir nueva información y completar los vacíos del texto. A partir de estas inferencias, el estudiante interpreta integrando la información explícita e implícita, así como los recursos textuales, para construir el sentido global y profundo del texto, y explicar el propósito, el uso estético del lenguaje, las intenciones del autor, las ideologías de los textos así como su relación con el contexto sociocultural del lector y del texto.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto: los procesos de reflexión y evaluación están relacionados porque ambos suponen que el estudiante se distancie de los textos escritos situados en épocas y lugares distintos, y que son presentados en diferentes soportes y formatos. Reflexionar implica comparar y contrastar aspectos formales y de contenido del texto con la experiencia, el conocimiento formal del lector y diversas fuentes de información. Evaluar implica analizar y valorar los textos escritos para construir una opinión personal o un juicio crítico sobre aspectos formales, estéticos, contenidos e ideologías de los textos considerando los efectos que producen, la relación con otros textos, y el contexto sociocultural del texto y del lector."
+ ],
+ "descripcion_nivel": "Esta competencia se define como una interacción dinámica entre el lector, el texto y los contextos socioculturales que enmarcan la lectura. Supone para el estudiante un proceso activo de construcción del sentido, ya que el estudiante no solo decodifica o comprende la información explícita de los textos que lee sino que es capaz de interpretarlos y establecer una posición sobre ellos.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Cuando el estudiante pone en juego está competencia utiliza saberes de distinto tipo y recursos provenientes de su experiencia lectora y del mundo que lo rodea. Ello implica tomar conciencia de la diversidad de propósitos que tiene la lectura, del uso que se hace de esta en distintos ámbitos de la vida, del papel de la experiencia literaria en la formación de lectores y de las relaciones intertextuales que se establecen entre los textos leídos. Esto es crucial en un mundo donde las nuevas tecnologías y la multimodalidad han transformado los modos de leer.\n\nPara construir el sentido de los textos que lee, es indispensable asumir la lectura como una práctica social situada en distintos grupos o comunidades de lectores. Al involucrarse con la lectura, el estudiante contribuye con su desarrollo personal, así como el de su propia comunidad, además de conocer e interactuar con contextos socioculturales distintos al suyo.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 99,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 878,
+  "totalTokens": 3032,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

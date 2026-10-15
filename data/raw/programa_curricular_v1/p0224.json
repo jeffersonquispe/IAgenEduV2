@@ -1,0 +1,35 @@
+{
+ "numero_pagina_impreso": 224,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": "VI",
+ "capacidades": [
+  "Define metas de aprendizaje.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje."
+ ],
+ "descripcion_nivel": "Gestiona su aprendizaje de manera autónoma al darse cuenta de lo que debe aprender al distinguir lo sencillo o complejo de una tarea, y por ende define metas personales respaldándose en sus potencialidades. Comprende que debe organizarse lo más especialmente posible y que utilizando indaga las mejores estrategias, procedimientos, recursos que le permitan realizar una tarea basado en sus experiencias. Monitorea de manera permanente sus avances respecto a las metas de aprendizaje y evalúa el proceso, resultados, aportes de sus pares, su disposición a los cambios y ajustes de las tareas.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Cuando el estudiante gestiona su aprendizaje de manera autónoma y se encuentra en proceso hacia el nivel esperado del ciclo VI, realiza desempeños como los siguientes:\n• Determina metas de aprendizaje viables asociadas a sus conocimientos, estilos de aprendizaje, habilidades y actitudes para el logro de la tarea, formulándose preguntas de manera reflexiva.\n• Organiza un conjunto de estrategias y procedimientos en función del tiempo y de los recursos de que dispone para lograr las metas de aprendizaje de acuerdo con sus posibilidades.\n• Revisa la aplicación de estrategias, procedimientos, recursos y aportes de sus pares para realizar ajustes o cambios en sus acciones que permitan llegar a los resultados esperados.\n• Explica las acciones realizadas y los recursos movilizados en función de su pertinencia al logro de las metas de aprendizaje."
+  },
+  {
+   "grado": 2,
+   "texto": "Cuando el estudiante gestiona su aprendizaje de manera autónoma y logra el nivel esperado del ciclo VI, realiza desempeños como los siguientes:\n• Determina metas de aprendizaje viables asociadas a sus potencialidades, conocimientos, estilos de aprendizaje, habilidades, limitaciones personales y actitudes para el logro de la tarea, formulándose preguntas de manera reflexiva.\n• Organiza un conjunto de estrategias y acciones en función del tiempo y de los recursos de que dispone, para lo cual establece un orden y prioridad para alcanzar las metas de aprendizaje.\n• Revisa los avances de las acciones propuestas, la elección de las estrategias y considera la opinión de sus pares para llegar a los resultados esperados.\n• Explica los resultados obtenidos de acuerdo con sus posibilidades y en función de su pertinencia para el logro de las metas de aprendizaje."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 224,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 865,
+  "totalTokens": 2954,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

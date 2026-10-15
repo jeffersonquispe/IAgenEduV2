@@ -1,0 +1,70 @@
+{
+ "numero_pagina_impreso": 98,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se comunica oralmente en su lengua materna",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto oral.",
+  "Infiere e interpreta información del texto oral.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos; infiere información relevante y conclusiones e interpreta la intención del interlocutor y las relaciones de poder en el discurso que contienen sesgos, falacias y ambigüedades. Se expresa adecuando a situaciones comunicativas formales e informales y a los géneros discursivos orales en que participa. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de diversos recursos cohesivos; incorpora un vocabulario especializado y enfatiza los significados mediante el uso de recursos no verbales y paraverbales. Reflexiona sobre el texto y lo valida de la información y su efecto en los interlocutores, de acuerdo a sus conocimientos, fuentes de información y al contexto sociocultural. En su interacción, hace contribuciones relevantes y evalúa las ideas de los otros para contraargumentar, eligiendo estratégicamente cómo y en qué momento participa.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita de los textos orales que escucha seleccionando detalles y datos específicos. Integra esta información cuando lo dice en distintos momentos, o por distintos interlocutores, textos orales que presentan información contraexpuesta y ambigua, falacias, paradojas, matices, sinónimos, vocabulario especializado, y expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y propósito comunicativo del texto cuando este presenta información especializada o abstracta. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural de sus interlocutores."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto oral (causa-efecto, semejanza-diferencia, entre otras) a partir de información implicada, de detalle, ambigua y contraexpuesta, y de presuposiciones y sesgos del texto. Señala las características implícitas de seres, objetos, hechos y lugares. Determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica las intenciones de sus interlocutores considerando el uso de diversas estrategias discursivas y recursos no verbales y paraverbales. Explica diferentes puntos de vista, falacias, ambigüedades, paradojas y matices, contraargumentos, y diversas figuras retóricas, así como la ironía y la evolución de personajes. También explica las representaciones sociales y los niveles de sentido de acuerdo con el sentido global del texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando el propósito comunicativo, el tipo textual y las características del género discursivo. Elige estratégicamente el registro formal e informal adaptándose a los interlocutores y sus contextos socioculturales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa oralmente ideas y emociones de forma coherente y cohesionada. Ordena y jerarquiza las ideas en torno a un tema, y las desarrolla para ampliar o precisar la información. Establece diversas relaciones lógicas entre las ideas a través del uso preciso de varios tipos de referentes, conectores y otros marcadores textuales. Incorpora un vocabulario pertinente y preciso que incluye sinónimos y términos especializados."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Emplea estratégicamente gestos y movimientos corporales que enfatizan o atienden lo que dice. Controla la distancia física que guarda con sus interlocutores. Ajusta el volumen, la atención y el ritmo de su voz, así como las pausas y los silencios, para transmitir emociones, caracterizar personajes o producir otros efectos en el público como el suspenso y el entretenimiento."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Participa en diversos intercambios orales alternando los roles de hablante y oyente. Decide estratégicamente cómo y en qué momento participar recurriendo a saberes previos, usando lo dicho por sus interlocutores y aportando nueva información para persuadir, contraargumentar y consensuar. Emplea estrategias discursivas, y normas y modos de cortesía según el contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Opina como hablante y oyente sobre el contenido del texto oral, las representaciones sociales que este plantea, las intenciones de los interlocutores, y el efecto de lo dicho en el hablante y el oyente. Justifica su posición sobre las relaciones de poder e ideologías presentes en los textos considerando su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Emite un juicio crítico sobre la adecuación de textos orales del ámbito escolar y social y de medios de comunicación a la situación comunicativa, así como la coherencia de las ideas y la cohesión entre estas. Evalúa los estilos de los hablantes; la eficacia de recursos verbales, no verbales y paraverbales; y la pertinencia de las estrategias discursivas. Determina la validez de la información contrastándola con otros textos o fuentes de información."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 98,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1885,
+  "totalTokens": 4039,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

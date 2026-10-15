@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 83,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Aprecia de manera crítica manifestaciones artístico-culturales",
+ "ciclo": "VII",
+ "capacidades": [
+  "Percibe manifestaciones artístico-culturales.",
+  "Contextualiza manifestaciones artístico-culturales.",
+  "Reflexiona creativa y críticamente sobre manifestaciones artístico-culturales."
+ ],
+ "descripcion_nivel": "Aprecia de manera crítica manifestaciones artístico-culturales cuando reconoce en estas la función comunicativa de los elementos y códigos de los lenguajes de las artes de diversas épocas y lugares; comprende que generan diferentes reacciones en las personas y que existen diferentes maneras de interpretarlas según los referentes socioculturales de las personas que las aprecian. Investiga el impacto de los medios de comunicación, los cambios sociales y tecnológicos en las manifestaciones artístico-culturales contemporáneas y compara las diversas funciones que ha cumplido el arte en una variedad de contextos sociales, culturales e históricos. Integra la información recogida y describe cómo una manifestación artístico-cultural nos reta a interpretar sus ideas y significados. Evalúa la eficacia del uso de las técnicas utilizadas en comparación con la intención de la obra, de otros trabajos y artistas afines y hace comentarios sobre los impactos que puede tener una manifestación sobre aquellos que las observan o experimentan.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Describe de qué manera los elementos, principios y códigos de una manifestación artístico-cultural son utilizados para comunicar mensajes, ideas y sentimientos. Ejemplo: El estudiante escucha que hay sonidos graves y agudos en la melodía de los sikuris. Identifica tres grupos de músicos: niños, jóvenes y adultos, a los que les corresponden sonidos y tamaños de instrumento diferenciados: cañas chicas para los niños (sonidos agudos), medianas para los jóvenes y grandes para los adultos (sonidos graves). Explica que la melodía se construye a partir de la combinación de los sonidos producidos por los tres grupos, en una especie de diálogo o trenzado."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Compara diversos estilos, modos de producción o tecnologías asociadas a las manifestaciones artístico-culturales de diversos lugares y épocas que observa o experimenta para identificar sus transformaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el significado de una manifestación artístico-cultural a partir de criterios propios e información recabada (en ese sentido, una melodía ejecutada por los sikuris es un diálogo entre tres generaciones de varones). Opina sobre el impacto de esa manifestación en sí mismo y en la audiencia."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el rol que cumplen los elementos, principios y códigos de las manifestaciones artístico-culturales de diversas culturas para transmitir significados."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Compara las manifestaciones artístico-culturales de diversos contextos y épocas, estableciendo similitudes y diferencias en los estilos, los temas, las intenciones y las cualidades estéticas. Opina sobre la contribución de las artes y los artistas a la sociedad. Ejemplo: El estudiante establece comparaciones entre danzantes callejeros de periodos históricos o culturas diversas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el significado de una manifestación artístico-cultural y lo justifica utilizando el lenguaje propio de las artes. Contrasta su postura personal con las opiniones de sus pares."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 83,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1227,
+  "totalTokens": 3449,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 80,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "APRECIA DE MANERA CRÍTICA MANIFESTACIONES ARTÍSTICO-CULTURALES",
+ "ciclo": null,
+ "capacidades": [
+  "Percibe manifestaciones artístico-culturales: consiste en usar los sentidos para observar, escuchar, describir y analizar las cualidades visuales, táctiles, sonoras y kinestésicas de diversas manifestaciones artístico-culturales.",
+  "Contextualiza manifestaciones artístico-culturales: es informarse acerca de la cultura en que se origina una manifestación artística para entender cómo el contexto social, cultural e histórico de esta influye en su creación y la manera en que transmite sus significados.",
+  "Reflexiona creativa y críticamente sobre manifestaciones artístico-culturales: supone interpretar las intenciones y significados de manifestaciones artístico-culturales que hayan visto o experimentado y emitir juicios de valor, entrelazando información obtenida a través de la percepción, el análisis y la comprensión de los contextos."
+ ],
+ "descripcion_nivel": "Se define como la interacción entre el estudiante y las manifestaciones artístico-culturales, para que puedan observarlas, investigarlas, comprenderlas y reflexionar sobre ellas. Permite al estudiante desarrollar habilidades para percibir, describir y analizar sus cualidades estéticas, para ayudarlo a apreciar y entender el arte que observa y experimenta. Supone comprender y apreciar los contextos específicos en que se originan estas manifestaciones, y entender que tener conocimiento sobre estos contextos mejora nuestra capacidad de apreciar, producir y entendernos a nosotros mismos, a otros y al entorno. También implica emitir juicios de valor cada vez más informados, basándose en los conocimientos obtenidos en el proceso de apreciación crítica.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 80,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 553,
+  "totalTokens": 2707,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

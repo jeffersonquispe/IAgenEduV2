@@ -1,0 +1,42 @@
+{
+ "numero_pagina_impreso": 213,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Asuma la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+ "ciclo": "VIII",
+ "capacidades": [
+  "Transforma su entorno desde el encuentro personal y comunitario con Dios y desde la fe que profesa.",
+  "Actúa coherentemente en razón de su fe según los principios de su conciencia moral en situaciones concretas de la vida."
+ ],
+ "descripcion_nivel": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico y los documentos del Magisterio de la iglesia. Vivencia su dimensión religiosa, espiritual y trascendente, que le permite cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio buscando soluciones a los desafíos actuales. Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la iglesia. Asume su rol protagónico en la transformación de la sociedad a partir de las enseñanzas de Jesucristo en un marco ético y moral cristiano.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal y comunitario, respondiendo a los desafíos de la realidad a la luz del mensaje bíblico y los documentos del Magisterio de la iglesia."
+  },
+  {
+   "grado": 5,
+   "texto": "Vive su dimensión religiosa, espiritual y trascendente a partir de la celebración comunitaria de su fe, que le permite cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio y de las enseñanzas de la iglesia proponiendo soluciones a los desafíos actuales."
+  },
+  {
+   "grado": 5,
+   "texto": "Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la iglesia."
+  },
+  {
+   "grado": 5,
+   "texto": "Asume su rol protagónico comprometiéndose ética y moralmente en la transformación de una sociedad pacífica, justa, fraterna y solidaria, a partir de las enseñanzas de Jesucristo y de la iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 213,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 783,
+  "totalTokens": 2872,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

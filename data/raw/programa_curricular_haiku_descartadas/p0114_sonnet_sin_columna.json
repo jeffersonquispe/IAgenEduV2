@@ -1,0 +1,39 @@
+{
+ "numero_pagina_impreso": 114,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "encabezado_columna": null,
+   "texto": "movimientos corporales) y paraverbales (entonación) para enfatizar información en diversos contextos socioculturales."
+  },
+  {
+   "encabezado_columna": null,
+   "texto": "Participa en intercambios orales con hablantes nativos de castellano respetando sus puntos de vista y necesidades, los turnos de conversación, y agregando información pertinente y relevante al tema."
+  },
+  {
+   "encabezado_columna": null,
+   "texto": "movimientos corporales) y paraverbales (entonación) para enfatizar o matizar información en diversos contextos socioculturales."
+  },
+  {
+   "encabezado_columna": null,
+   "texto": "Participa en intercambios orales con hablantes nativos de castellano respetando sus puntos de vista y necesidades, los turnos de conversación, y agregando información pertinente y relevante al tema."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 114,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 376,
+  "totalTokens": 2530,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

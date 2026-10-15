@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 163,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "RESUELVE PROBLEMAS DE FORMA, MOVIMIENTO Y LOCALIZACIÓN",
+ "ciclo": null,
+ "capacidades": [
+  "Modela objetos con formas geométricas y sus transformaciones: es construir un modelo que reproduzca las características de los objetos, su localización y movimiento, mediante formas geométricas, sus elementos y propiedades; la ubicación y transformaciones en el plano. Es también evaluar si el modelo cumple con las condiciones dadas en el problema.",
+  "Comunica su comprensión sobre las formas y relaciones geométricas: es comunicar su comprensión de las propiedades de las formas geométricas, sus transformaciones y la ubicación en un sistema de referencia; es también establecer relaciones entre estas formas, usando lenguaje geométrico y representaciones gráficas o simbólicas.",
+  "Usa estrategias y procedimientos para orientarse en el espacio: es seleccionar, adaptar, combinar o crear, una variedad de estrategias, procedimientos y recursos para construir formas geométricas, trazar rutas, medir o estimar distancias y superficies, y transformar las formas bidimensionales y tridimensionales.",
+  "Argumenta afirmaciones sobre relaciones geométricas: es elaborar afirmaciones sobre las posibles relaciones entre los elementos y las propiedades de las formas geométricas a partir de su exploración o visualización. Asimismo, justificarlas, validarlas o refutarlas, basado en su experiencia, ejemplos o contraejemplos, y conocimientos sobre propiedades geométricas; usando el razonamiento inductivo o deductivo."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Competencia RESUELVE PROBLEMAS DE FORMA, MOVIMIENTO Y LOCALIZACIÓN. Consiste en que el estudiante se oriente y describa la posición y el movimiento de objetos y de sí mismo en el espacio, visualizando, interpretando y relacionando las características de los objetos con formas geométricas bidimensionales y tridimensionales. Implica que realice mediciones directas o indirectas de la superficie, del perímetro, del volumen y de la capacidad de los objetos, y que logre construir representaciones de las formas geométricas para diseñar objetos, planos y maquetas, usando instrumentos, estrategias y procedimientos de construcción y medida. Además describa trayectorias y rutas, usando sistemas de referencia y lenguaje geométrico.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 163,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 724,
+  "totalTokens": 2946,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

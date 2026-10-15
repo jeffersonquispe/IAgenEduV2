@@ -1,0 +1,84 @@
+{
+ "numero_pagina_impreso": 182,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Indaga mediante métodos científicos para construir conocimientos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Problematiza situaciones.",
+  "Diseña estrategias para hacer indagación.",
+  "Genera y registra datos e información.",
+  "Analiza datos e información.",
+  "Evalúa y comunica el proceso y resultados de su indagación."
+ ],
+ "descripcion_nivel": "Indaga a partir de preguntas y plantea hipótesis con base en conocimientos científicos y observaciones previas. Elabora el plan de observaciones o experimentos y los argumenta utilizando principios científicos y los objetivos planteados. Realiza mediciones y comparaciones sistemáticas que evidencian la acción de diversos tipos de variables. Analiza tendencias y relaciones en los datos tomando en cuenta el error y reproducibilidad, los interpreta con base en conocimientos científicos y formula conclusiones, las argumenta apoyándose en sus resultados e información confiable. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Formula preguntas sobre el hecho, fenómeno u objeto natural o tecnológico para delimitar el problema por indagar. Determina el comportamiento de las variables, y plantea hipótesis basadas en conocimientos científicos, en las que establece relaciones de causalidad entre las variables que serán investigadas. Considera las variables intervinientes que pueden influir en su indagación y elabora los objetivos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Propone y fundamenta, sobre la base de los objetivos de su indagación e información científica, procedimientos que le permitan observar, manipular y medir las variables y el tiempo por emplear, las medidas de seguridad, y las herramientas, materiales e instrumentos de recojo de datos cualitativos/cuantitativos para confirmar o refutar la hipótesis."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Obtiene datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Realiza los ajustes en sus procedimientos y controla las variables intervinientes. Organiza los datos y hace cálculos de medidas de tendencia central, proporcionalidad u otros, y los representa en gráficas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud diferencia u otros. Identifica regularidades o tendencias. Contrasta los resultados con su hipótesis e información para confirmar o refutar su hipótesis, y elabora conclusiones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Sustenta, sobre la base de conocimientos científicos, sus conclusiones, procedimientos, mediciones, cálculos y ajustes realizados, y si permitieron demostrar su hipótesis y lograr el objetivo. Comunica su indagación a través de medios virtuales o presenciales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Formula preguntas sobre el hecho, fenómeno u objeto natural o tecnológico que indaga para delimitar el problema. Determina el comportamiento de las variables, y plantea hipótesis basadas en conocimientos científicos, en las que establece relaciones de causalidad entre las variables que serán investigadas. Considera las variables intervinientes que pueden influir en su indagación y elabora los objetivos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Propone y fundamenta, sobre la base de los objetivos de su indagación e información científica, procedimientos que le permitan observar, manipular y medir las variables; el tiempo por emplear; las medidas de seguridad; las herramientas, materiales e instrumentos de recojo de datos cualitativos/cuantitativos; y el margen de error. Estos procedimientos también le permitirán prever un grupo de control para confirmar o refutar la hipótesis."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Obtiene y organiza datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Realiza ajustes en sus procedimientos o instrumentos y controla las variables intervinientes; hace cálculos de medidas de tendencia central, proporcionalidad u otros, obtiene el margen de error, y representa sus resultados en gráficas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud, diferencia u otros. Identifica regularidades o tendencias. Contrasta los resultados con su hipótesis e información científica para confirmar o refutar su hipótesis, y elabora conclusiones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Sustenta, sobre la base de conocimientos científicos, sus conclusiones, procedimientos y la reducción del error a través del uso del grupo de control, repetición de mediciones, cálculos y ajustes realizados en la obtención de resultados válidos y fiables para demostrar la hipótesis y lograr el objetivo. Comunica su indagación a través de medios virtuales o presenciales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 182,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1785,
+  "totalTokens": 4007,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 3
+ }
+}

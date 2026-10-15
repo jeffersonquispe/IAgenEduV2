@@ -1,0 +1,73 @@
+{
+ "numero_pagina_impreso": 155,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de cantidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Traduce cantidades a expresiones numéricas.",
+  "Comunica su comprensión sobre los números y las operaciones.",
+  "Usa estrategias y procedimientos de estimación y cálculo.",
+  "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a las relaciones entre cantidades muy grandes o muy pequeñas, magnitudes o intercambios financieros, traduciéndolas a expresiones numéricas y operativas con números irracionales o racionales, notación científica, intervalos, y tasas de interés simple y compuesto. Evalúa si estas expresiones cumplen con las condiciones iniciales del problema. Expresa su comprensión de los números racionales e irracionales, de sus operaciones y propiedades, así como de la notación científica; establece relaciones de equivalencia entre múltiplos y submúltiplos de unidades de masa, y tiempo, y entre escalas de temperatura, empleando lenguaje matemático y diversas representaciones; basado en esto interpreta e integra información contenida en varias fuentes de información. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos de cálculo y estimación para resolver problemas, los evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea y compara afirmaciones sobre números racionales y sus propiedades, formula enunciados opuestos o casos especiales que se cumplen entre expresiones numéricas; justifica, comprueba o descarta la validez de la afirmación mediante contraejemplos o propiedades matemáticas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos y acciones de comparar e igualar cantidades o trabajar con tasas de interés compuesto. Las transforma a expresiones numéricas (modelos) que incluyen operaciones con números racionales y algunos números irracionales, como π, e, φ, o raíces inexactas; notación científica; e interés compuesto u otros modelos a su alcance."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa si la expresión numérica (modelo) planteada reprodujo las condiciones de la situación, y la modifica y ajusta para solucionar problemas similares y sus variantes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión de los órdenes del sistema de numeración decimal al expresar una cantidad muy grande o muy pequeña en notación científica, así como al comparar cantidades expresadas en notación científica y hacer equivalencias entre números irracionales usando aproximaciones o redondeos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión de la expresión fraccionaria como una forma general de expresar un número racional y de la noción de densidad en los números racionales al asociar los puntos de una recta con números racionales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las tasas de interés y de términos financieros (capital, monto, tiempo, gastos de operación, impuesto a la renta, índice per cápita) para interpretar el problema en su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las operaciones con números racionales e irracionales usando redondeos o aproximaciones, así como sobre las operaciones entre cantidades expresadas en notación exponencial. Usa este entendimiento para interpretar las condiciones de un problema en su contexto. Establece relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Selecciona, combina y adapta estrategias de cálculo, estimación, recursos y procedimientos diversos para realizar operaciones con racionales y raíces inexactas aproximadas, tasas de interés, cantidades en notación científica e intervalos, y para simplificar procesos usando las propiedades de los números y las operaciones, optando por los más idóneos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Selecciona y usa unidades y subunidades e instrumentos pertinentes para estimar o expresar el valor de una magnitud derivada (velocidad, aceleración, etc.) según el nivel de exactitud exigido en el problema."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea y compara afirmaciones sobre las propiedades de las operaciones con raíces inexactas aproximadas, y sobre la conveniencia o no de determinadas tasas de interés u otras relaciones numéricas que descubre, y las justifica con ejemplos, contraejemplos, y propiedades de los números y las operaciones. Comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, sus conocimientos, y el razonamiento inductivo y deductivo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 155,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1690,
+  "totalTokens": 3912,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

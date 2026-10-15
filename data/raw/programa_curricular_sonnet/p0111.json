@@ -1,0 +1,29 @@
+{
+ "numero_pagina_impreso": 111,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "SE COMUNICA ORALMENTE EN CASTELLANO COMO SEGUNDA LENGUA",
+ "ciclo": null,
+ "capacidades": [
+  "Obtiene información del texto oral: el estudiante recupera y extrae información explícita expresada por los interlocutores.",
+  "Infiere e interpreta información del texto oral: el estudiante construye el sentido del texto a partir de relacionar información explícita e implícita para deducir una nueva información o completar los vacíos del texto oral. A partir de estas inferencias, el estudiante interpreta el sentido del texto, los recursos verbales, no verbales y gestos, el uso estético del lenguaje y las intenciones de los interlocutores con los que se relaciona en un contexto sociocultural determinado.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada: el estudiante expresa sus ideas adaptándose al propósito, destinatario, características del tipo de texto, género discursivo y registro, considerando las normas y modos de cortesía, así como los contextos socioculturales que enmarcan la comunicación. Asimismo, expresa las ideas en torno a un tema de forma lógica, relacionándolas mediante diversos recursos cohesivos para construir el sentido de distintos tipos de textos y géneros discursivos.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica: el estudiante emplea variados recursos no verbales (como gestos o movimientos corporales) o paraverbales (como el tono de la voz o silencios) según la situación comunicativa para enfatizar o matizar significados y producir determinados efectos en los interlocutores.",
+  "Interactúa estratégicamente con distintos interlocutores: el estudiante intercambia los roles de hablante y oyente alternada y dinámicamente, participando de forma pertinente, oportuna y relevante para lograr su propósito comunicativo.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral: los procesos de reflexión y evaluación están relacionados porque ambos suponen que el estudiante se distancie de los textos orales en los que participa. Para ello, compara y contrasta los aspectos formales y de contenido con su experiencia, el contexto donde se encuentra y diversas fuentes de información. Asimismo, emite una opinión personal sobre los aspectos formales, el contenido y las intenciones de los interlocutores con los que interactúa, en relación al contexto sociocultural donde se encuentran."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.6.2. Competencias, capacidades, estándares de aprendizaje y sus desempeños por grado\n\nCompetencia SE COMUNICA ORALMENTE EN CASTELLANO COMO SEGUNDA LENGUA. Se define como una interacción dinámica entre uno o más interlocutores para expresar y comprender ideas y emociones. Supone un proceso activo de construcción del sentido de los diversos tipos de textos orales, ya que el estudiante alterna los roles de hablante y oyente con el fin de lograr su propósito comunicativo. El estudiante pone en juego saberes de distinto tipo y recursos provenientes del lenguaje oral y del mundo que lo rodea. Esto significa considerar los modos de cortesía de acuerdo al contexto sociocultural, así como los recursos no verbales y paraverbales y las diversas estrategias de manera pertinente para expresarse, intercambiar información, persuadir, consensuar, entre otros fines. De igual forma, supone tomar conciencia del impacto de las nuevas tecnologías en la oralidad.\nLa comunicación oral es una herramienta fundamental para la constitución de las identidades y el desarrollo personal. Esta competencia se asume como una práctica social en la que el estudiante interactúa con distintos individuos o comunidades socioculturales, ya sea de forma presencial o virtual. Al hacerlo, tiene la posibilidad de usar el lenguaje oral de manera creativa y responsable, considerando la repercusión de lo expresado o escuchado, y estableciendo una posición crítica frente a los medios de comunicación audiovisuales. Esta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 111,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1142,
+  "totalTokens": 3364,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,42 @@
+{
+ "numero_pagina_impreso": 72,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Asume una vida saludable",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende las relaciones entre la actividad física, alimentación, postura e higiene personal y del ambiente, y la salud.",
+  "Incorpora prácticas que mejoren su calidad de vida."
+ ],
+ "descripcion_nivel": "Asume una vida saludable cuando evalúa sus necesidades calóricas y toma en cuenta su gasto calórico diario, los alimentos que consume, su origen e inocuidad, y las características de la actividad física que practica. Toma un programa de saludabilidad física y alimentación saludable, interpretando los resultados de las pruebas de aptitud física, entre otras, para mantener y/o mejorar su bienestar. Participa regularmente en sesiones de actividad física de diferente intensidad y promueve campañas donde se promocione la salud integrada al bienestar colectivo.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Argumenta la importancia de la actividad física que debe realizar según sus características individuales para la mejora de la calidad de vida."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Organiza y ejecuta campañas en donde se promocione la salud (física, psicológica y emocional) integrada al bienestar colectivo y participa regularmente en sesiones de actividad física que vaya de acuerdo con sus necesidades e intereses."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Elabora un plan de actividades para mantener o mejorar su bienestar (físico, psicológico y emocional) tomando en cuenta su estado nutricional, su gasto calórico diario, sus prácticas alimentarias y las características de la actividad física que practica, e interpreta los resultados de las pruebas que miden su aptitud física."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Participa en actividades de promoción de hábitos alimenticios saludables y sostenibles, consumiendo y combinando de forma óptima alimentos locales y disponibles, evaluando sus características y necesidades calóricas, e incluyendo hábitos de higiene integral, de actividad física diaria y prácticas amigables con el ambiente, para su óptimo desempeño diario."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 72,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 765,
+  "totalTokens": 2919,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

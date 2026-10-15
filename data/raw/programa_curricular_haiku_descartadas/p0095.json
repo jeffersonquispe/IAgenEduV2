@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 95,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "encabezado_columna": "Columna izquierda",
+   "texto": "Establece relaciones lógicas entre las ideas, como comparación, simultaneidad y disyunción, a través de diversos referentes y conectores. Incorpora un vocabulario pertinente que incluye sinónimos y términos propios de los campos del saber."
+  },
+  {
+   "encabezado_columna": "Columna izquierda",
+   "texto": "Emplea gestos y movimientos corporales que enfatizan lo que dice. Mantiene la distancia física que guarda con sus interlocutores. Ajusta el volumen, la entonación y el ritmo de su voz para transmitir emociones, caracterizar personajes o producir efectos en el público, como el suspenso, el entretenimiento, entre otros."
+  },
+  {
+   "encabezado_columna": "Columna izquierda",
+   "texto": "Participa en diversos intercambios orales alternando los roles de hablante y oyente. Recurre a saberes previos y aporta nueva información para argumentar, aclarar y contrastar ideas considerando normas y modos de cortesía según el contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Columna izquierda",
+   "texto": "Opina como hablante y oyente sobre el contenido del texto oral; los estereotipos y valores que este plantea, las intenciones de los interlocutores, y el efecto de lo dicho en el hablante y el oyente. Justifica su posición sobre lo que dice el texto considerando su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "Columna izquierda",
+   "texto": "Evalúa la adecuación de textos orales del ámbito escolar y social y de medios de comunicación a la situación comunicativa, así como la coherencia de las ideas y la cohesión entre estas. Evalúa la eficacia de recursos verbales, no verbales y paraverbales. Determina si la información es confiable contrastándola con otros textos o fuentes de información."
+  },
+  {
+   "encabezado_columna": "Columna derecha",
+   "texto": "Establece relaciones lógicas entre las ideas, como comparación, simultaneidad y disyunción, entre otras, a través de varios tipos de referentes y conectores. Incorpora un vocabulario pertinente que incluye sinónimos y términos propios de los campos del saber."
+  },
+  {
+   "encabezado_columna": "Columna derecha",
+   "texto": "Emplea gestos y movimientos corporales que enfatizan o atenúan lo que dice. Regula la distancia física que guarda con sus interlocutores. Ajusta el volumen, la entonación y el ritmo de su voz para transmitir emociones, caracterizar personajes o producir efectos en el público, como el suspenso, el entretenimiento, entre otros."
+  },
+  {
+   "encabezado_columna": "Columna derecha",
+   "texto": "Participa en diversos intercambios orales alternando los roles de hablante y oyente. Recurre a saberes previos y aporta nueva información para argumentar, persuadir y contrastar ideas considerando normas y modos de cortesía según el contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Columna derecha",
+   "texto": "Opina como hablante y oyente sobre el contenido del texto oral; sobre los estereotipos, creencias y valores que este plantea; y sobre las intenciones de los interlocutores y el efecto de lo dicho en el hablante y oyente. Justifica su posición sobre lo que dice el texto considerando su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "Columna derecha",
+   "texto": "Evalúa la adecuación de textos orales del ámbito escolar y social y de medios de comunicación a la situación comunicativa, así como la coherencia de las ideas y la cohesión entre estas. Evalúa la eficacia de recursos verbales, no verbales y paraverbales, así como la pertinencia de las estrategias discursivas más comunes. Determina si la información es confiable contrastándola con otros textos o fuentes de información."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 95,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1269,
+  "totalTokens": 3423,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

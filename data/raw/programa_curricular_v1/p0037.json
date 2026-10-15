@@ -1,0 +1,60 @@
+{
+ "numero_pagina_impreso": 37,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Construye su identidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Se valora a sí mismo.",
+  "Autorregula sus emociones.",
+  "Reflexiona y argumenta éticamente.",
+  "Vive su sexualidad de manera plena y responsable."
+ ],
+ "descripcion_nivel": "Construye su identidad al tomar conciencia de los aspectos que lo hacen único, cuando se reconoce a sí mismo y valora sus identidades7, sus logros y los cambios que se dan en su desarrollo. Se reconoce como parte de un mundo globalizado. Manifiesta de manera regulada sus emociones, sentimientos, logros e ideas distinguiendo el contexto y las personas, y comprendiendo sus causas y consecuencias. Asume una postura ética frente a una situación de conflicto moral, integrando en su argumentación principios éticos, los derechos fundamentales, la dignidad de todas las personas. Reflexiona sobre las consecuencias de sus decisiones. Se plantea comportamientos que incluyen elementos éticos de respeto a los derechos de los demás y de búsqueda de justicia teniendo en cuenta la responsabilidad de cada quién por sus acciones. Se relaciona con los demás bajo un marco de derechos, sin discriminar por género u orientación sexual y violencia. Desarrolla relaciones afectivas, de amistad o de pareja, basadas en la reciprocidad y el respeto. Identifica situaciones que vulneran los derechos sexuales y reproductivos y propone pautas para prevenirlas y protegerse frente a ellas.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Explica las características personales, culturales, sociales y físicas que lo hacen único considerando su proyecto y sentido de vida. Describe sus logros, potencialidades y limitaciones. Muestra disposición para utilizar sus potencialidades en situaciones de riesgo (por ejemplo, la drogadicción)."
+  },
+  {
+   "grado": 5,
+   "texto": "Expresa una postura crítica sobre sus prácticas culturales, las del país y las del mundo, valora su herencia cultural y natural y explica cómo la pertenencia a diversos grupos (culturales, religiosos, ambientales, de género, étnicos, políticos, etc.) influye en la construcción de su identidad."
+  },
+  {
+   "grado": 5,
+   "texto": "Manifiesta sus emociones, sentimientos y comportamientos según el contexto y las personas. Explica sus causas y consecuencias, y utiliza estrategias de autorregulación que le permiten relaciones justas."
+  },
+  {
+   "grado": 5,
+   "texto": "Sustenta, con argumentos razonados, una posición ética frente a situaciones de conflicto moral considerando principios éticos, los derechos humanos y la dignidad humana."
+  },
+  {
+   "grado": 5,
+   "texto": "Expresa puntos de vista razonados sobre las consecuencias de sus decisiones, y, para mejorar su comportamiento, propone acciones basadas en principios éticos, en la responsabilidad y en la justicia."
+  },
+  {
+   "grado": 5,
+   "texto": "Interactúa con los demás mostrando respeto por las formas de vivir y pensar la sexualidad de mujeres y varones en un marco de derechos. Explica la importancia de aceptar y comprender su sexualidad para su desarrollo personal, y de tomar decisiones responsables en su proyecto de vida. Rechaza toda expresión de discriminación por identidad de género u orientación sexual que vulnere la dignidad de las personas."
+  },
+  {
+   "grado": 5,
+   "texto": "Evalúa los vínculos de amistad o de pareja que establecen las personas como expresión de su sexualidad."
+  },
+  {
+   "grado": 5,
+   "texto": "Realiza acciones de prevención y protección frente a situaciones que puedan vulnerar los derechos sexuales y reproductivos en su escuela y comunidad."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 37,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1148,
+  "totalTokens": 3237,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

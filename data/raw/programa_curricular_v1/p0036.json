@@ -1,0 +1,84 @@
+{
+ "numero_pagina_impreso": 36,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Construye su identidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Se valora a sí mismo.",
+  "Autorregula sus emociones.",
+  "Reflexiona y argumenta éticamente.",
+  "Vive su sexualidad de manera plena y responsable."
+ ],
+ "descripcion_nivel": "Construye su identidad al tomar conciencia de los aspectos que lo hacen único, cuando se reconoce a sí mismo y valora sus identidades*, sus logos y los cambios que se dan en su desarrollo y responde con una postura ética frente a una situación de conflicto moral, integrando en un mundo globalizado. Manifiesta de manera regulada sus emociones, sentimientos, logros e ideas distinguiendo el contexto y las personas, y comprendiendo sus causas y consecuencias. Asume una postura ética frente a una situación de conflicto moral, integrando en su argumentación principios éticos, los derechos fundamentales y la dignidad de todas las personas. Reflexiona sobre las consecuencias de sus decisiones. Plantea comportamientos que incluyen elementos éticos de respeto a los derechos de los demás y de búsqueda de justicia teniendo en cuenta la responsabilidad de cada quien por sus acciones. Se relaciona con los demás bajo un marco de derechos, discriminar por género u orientación sexual y la violencia. Desarrolla relaciones efectivas, amistoso de pareja, basadas en la reciprocidad y el respeto. Identifica situaciones que vulneran los derechos sexuales y reproductivos y propone pautas para prevenirlas y protegerse frente a ellas.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Explica y valora sus características personales, culturales y sociales, y sus logros y sus potencialidades. Explica que cada persona tiene un proceso propio de desarrollo y reconoce sus habilidades para superar la adversidad y afrontar situaciones de riesgo y oportunidad."
+  },
+  {
+   "grado": 3,
+   "texto": "Opina reflexivamente sobre las prácticas culturales de su pueblo, reconoce el aporte de su herencia cultural y la del país sintiéndose parte de él."
+  },
+  {
+   "grado": 3,
+   "texto": "Expresa sus emociones, sentimientos y comportamiento de acuerdo con la situación que se presenta. Explica sus causas y consecuencias, y utiliza estrategias de autorregulación que permiten establecer relaciones asertivas."
+  },
+  {
+   "grado": 3,
+   "texto": "Sustenta, con argumentos razonados, una posición ética ante una situación de conflicto moral que involucra los derechos humanos."
+  },
+  {
+   "grado": 3,
+   "texto": "Expresa opiniones sobre las consecuencias de sus decisiones y propone acciones basadas en principios éticos y en los derechos humanos."
+  },
+  {
+   "grado": 3,
+   "texto": "Se relaciona con mujeres y varones con equidad. Analiza críticamente los estereotipos relacionados con la sexualidad y aquellos que son fuente de discriminación. Reconoce conductas violentas en las relaciones familiares o de amistad o pareja, y muestra rechazo frente a ellas. Explica la importancia del respeto, consentimiento, el cuidado del otro y la reciprocidad."
+  },
+  {
+   "grado": 3,
+   "texto": "Propone pautas para prevenir y protegerse de situaciones que vulneren sus derechos sexuales y reproductivos considerando la dignidad de las personas."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica las características personales, culturales y sociales que lo hacen único. Describe sus potencialidades y limitaciones, y muestra disposición para utilizarlas en situaciones de riesgo."
+  },
+  {
+   "grado": 4,
+   "texto": "Opina reflexivamente sobre las prácticas culturales de su país y se identifica con ellas. Explica la importancia de identificarse con los grupos sociales (familia, escuela, asociaciones religiosas, ambientales, ecologistas, etc.) que configuran su identidad y que contribuyen a su desarrollo y al de los demás."
+  },
+  {
+   "grado": 4,
+   "texto": "Expresa sus emociones, sentimientos y comportamientos, y analiza sus causas y consecuencias. Utiliza estrategias de autorregulación que le permiten establecer relaciones empáticas."
+  },
+  {
+   "grado": 4,
+   "texto": "Sustenta, con argumentos razonados, una posición ética ante una situación de conflicto moral considerando principios éticos y la dignidad humana."
+  },
+  {
+   "grado": 4,
+   "texto": "Expresa opiniones razonadas sobre las consecuencias de sus decisiones, y propone acciones basadas en principios éticos y en la dignidad de las personas."
+  },
+  {
+   "grado": 4,
+   "texto": "Se relaciona con mujeres y varones con equidad y respeto rechazando toda forma de discriminación por identidad de género u orientación sexual. Explica la importancia de establecer vínculos afectivos positivos basados en la reciprocidad, el cuidado del otro y el consentimiento. Rechaza la violencia familiar, sexual y contra la mujer, u otra forma de obediencia."
+  },
+  {
+   "grado": 4,
+   "texto": "Realiza acciones para prevenir y protegerse de situaciones que puedan afectar su integridad sexual y la de los demás. Ejemplo: Frente a una situación de acoso callejero, con la ayuda de un adulto de confianza, denuncia al agresor a la policía."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 36,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1604,
+  "totalTokens": 3693,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

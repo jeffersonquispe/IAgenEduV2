@@ -1,0 +1,51 @@
+{
+ "numero_pagina_impreso": 82,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Aprecia de manera crítica manifestaciones artístico-culturales",
+ "ciclo": "VI",
+ "capacidades": [
+  "Percibe manifestaciones artístico-culturales.",
+  "Contextualiza manifestaciones artístico-culturales.",
+  "Reflexiona creativa y críticamente sobre manifestaciones artístico-culturales."
+ ],
+ "descripcion_nivel": "Aprecia de manera crítica manifestaciones artístico-culturales cuando describe las características fundamentales de los diversos lenguajes del arte y las culturas que los producen, y las asocia a experiencias, mensajes, emociones e ideas, siendo consciente de que generan diferentes reacciones e interpretaciones en las personas. Investiga las creencias, cosmovisiones, tradiciones y la función social de manifestaciones artístico-culturales de diversos tiempos y lugares y distingue las diferentes maneras en que se usa el arte para representar o reflejar la identidad de un grupo de personas. Integra la información recogida para describir la complejidad y la riqueza de la obra, así como para generar hipótesis sobre el significado y la intención del artista. Evalúa la eficacia del uso de las técnicas utilizadas en relación a las intenciones esperadas.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Describe las cualidades estéticas de manifestaciones artístico-culturales diversas. Ejemplo: lo textil de un tejido, los contrastes de colores de una pintura o el timbre de un instrumento musical) asociándolas a emociones, sensaciones e ideas propias, y recomiendo que pueden generar diferentes reacciones en otras personas."
+  },
+  {
+   "grado": 1,
+   "texto": "Obtiene información sobre los contextos en que se producen o presentan las manifestaciones artístico-culturales, y los asocia a las cualidades estéticas que observa."
+  },
+  {
+   "grado": 1,
+   "texto": "Genera hipótesis sobre los posibles significados e intenciones a partir de la información y las relaciones que estableció entre las manifestaciones artístico-culturales y los contextos en los que se producen o presentan."
+  },
+  {
+   "grado": 2,
+   "texto": "Describe las cualidades estéticas de manifestaciones artístico-culturales diversas empleando el lenguaje propio de las artes (elementos, principios y códigos) y la vincula con los individuos, contextos y épocas en las que fueron producidas. Ejemplo: El estudiante describe los símbolos que aparecen en un manto, perteneciente a la comunidad nativa asháninka Marankiari Bajo - Perené, y explica cómo estos se vinculan con el lugar y la comunidad donde fue creado el manto."
+  },
+  {
+   "grado": 2,
+   "texto": "Establece relaciones de correspondencia entre las manifestaciones artístico-culturales y sus cosmovisiones. Señala las intenciones y funciones que cumplen en un determinado contexto. Ejemplo: El estudiante señala que, en la parte superior de una Tabla de Sarhua, aparecen representados los apus (divinidades andinas) y, en la parte inferior, un santo católico. Explica que, en la actualidad, en la comunidad de Sarhua (Ayacucho), se honra a ambas deidades. Explica que las tablas de Sarhua tienen la función de servir como un registro de la historia de las familias."
+  },
+  {
+   "grado": 2,
+   "texto": "Genera hipótesis sobre el significado de una manifestación artístico-cultural a partir de la información recogida y explica la relación entre los elementos que la componen y las ideas que comunica. Evalúa la eficacia de las técnicas aplicadas en función de su impacto en sí mismo o en la audiencia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 82,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1061,
+  "totalTokens": 3150,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

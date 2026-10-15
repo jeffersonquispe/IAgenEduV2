@@ -1,0 +1,39 @@
+{
+ "numero_pagina_impreso": 89,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Crea proyectos desde los lenguajes artísticos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Explora y experimenta los lenguajes artísticos.",
+  "Aplica procesos creativos.",
+  "Evalúa y comunica sus procesos y proyectos."
+ ],
+ "descripcion_nivel": "Crea proyectos artísticos que comunican de manera efectiva ideas o asuntos pertinentes a su realidad y a audiencias en particular. Selecciona y prueba nuevas maneras de combinar elementos de los diversos lenguajes artísticos para lograr sus propósitos comunicativos y expresivos. Experimenta con medios convencionales y no convencionales, materiales y técnicas de acuerdo a sus intenciones y muestra dominio en su uso y el desarrollo inicial de un estilo personal. Innova y toma riesgos para concretar sus ideas y modificarlas sin acuerdo a descubrimientos que surgen en el proceso de creación artística. Genera ideas de manera interdisciplinaria y planifica proyectos artísticos de manera individual o colaborativa. Utiliza una variedad de referentes culturales, tomando en cuenta tanto prácticas tradicionales como nuevas tecnologías. Toma decisiones al combinar y manipular los elementos del arte para encontrar la manera más efectiva de comunicar mensajes, experiencias, ideas y sentimientos. Registra de manera visual y escrita los procesos usados en el desarrollo de sus propios trabajos. Planifica y adecúa sus presentaciones de acuerdo al público. Evalúa la efectividad de su proyecto, describiendo el impacto del proyecto para él mismo y para la comunidad.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Propone nuevas maneras de combinar elementos del arte, y practica con una variedad de medios, materiales y técnicas para seguir desarrollando y potenciando sus habilidades comunicativas y expresivas, con lo cual empieza a desarrollar un estilo personal."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Desarrolla ideas que reflejan conocimiento de los lenguajes artísticos que va a utilizar, y selecciona referentes artísticos y culturales particulares de acuerdo con sus intenciones. Realiza proyectos artísticos interdisciplinarios donde combina elementos y principios del arte para lograr sus intenciones, y los va mejorando en respuesta a la autoevaluación y retroalimentación que recibe durante el proceso de creación."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Mantiene un registro visual o escrito de los procesos demostrando cómo ha seleccionado elementos, medios, materiales y técnicas para desarrollar sus ideas. Selecciona los formatos de presentación de sus proyectos tomando en cuenta sus propósitos, el público al que se dirige y el contexto, para potenciar el efecto que espera generar. Evalúa el impacto de sus proyectos en él mismo y en los demás. Registra el aprendido en el proceso y en la presentación de sus proyectos para aplicarlo en nuevos emprendimientos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 89,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 937,
+  "totalTokens": 3091,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

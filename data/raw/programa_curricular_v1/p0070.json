@@ -1,0 +1,70 @@
+{
+ "numero_pagina_impreso": 70,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Asume una vida saludable",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende las relaciones entre la actividad física, alimentación, postura e higiene personal y del ambiente, y la salud.",
+  "Incorpora prácticas que mejoran su calidad de vida."
+ ],
+ "descripcion_nivel": "Asume una vida saludable cuando comprende los beneficios que la práctica de actividad física produce sobre su salud, para mejorar su calidad de vida. Conoce su estado nutricional e identifica los beneficios nutritivos y el origen de los alimentos, promueve el consumo de alimentos de su región, analiza la proporción adecuada de ingesta para mejorar su rendimiento físico y mental. Analiza los hábitos perjudiciales para su organismo. Realiza prácticas de higiene personal y del ambiente. Adopta posturas adecuadas para evitar lesiones y accidentes en la práctica de actividad física y en la vida cotidiana. Realiza prácticas que ayudan a mejorar sus capacidades físicas con las que regula su esfuerzo controlando su frecuencia cardiaca y respiratoria, al participar en sesiones de actividad física de diferente intensidad.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Explica acerca del bienestar (predisposición, disponibilidad y motivación) que produce la práctica de actividad física en relación con la salud (física, emocional, psicológica, etc.) antes, durante y después de la práctica."
+  },
+  {
+   "grado": 1,
+   "texto": "Explica la importancia de realizar ejercicios y movimientos específicos para la activación y relajación semanal su utilidad antes, durante y después de la práctica de actividad física y establece relaciones de causa-efecto entre los principales trastornos posturales, desplazamiento y alimentos para prevenirlos."
+  },
+  {
+   "grado": 1,
+   "texto": "Realiza ejercicios o movimientos que no dañen su salud en la práctica de actividad física y utiliza los resultados obtenidos en las pruebas que evalúan su aptitud física para mejorar su calidad de vida y en relación con sus características personales. Ejemplo: Los estudiantes se hidratarán antes, durante y después de la práctica de actividad física."
+  },
+  {
+   "grado": 1,
+   "texto": "Incorpora prácticas de higiene personal y ambiental al tomar conciencia de los cambios (físicos, orgánicos y psicológicos) que experimenta su cuerpo en la práctica de actividad física y en las actividades de la vida cotidiana dentro y fuera de la escuela."
+  },
+  {
+   "grado": 1,
+   "texto": "Reconoce su estado nutricional y sus hábitos alimenticios, y cómo impactan en su salud integral, y propone mejorar para potenciar su bienestar físico y mental."
+  },
+  {
+   "grado": 2,
+   "texto": "Explica los beneficios que la práctica de actividad física de su preferencia produce sobre su salud (física, emocional, psicológica, etc.) para mejorar su aptitud física y calidad de vida."
+  },
+  {
+   "grado": 2,
+   "texto": "Reconoce las prácticas alimenticias culturales y sociales de su comunidad, y reflexiona sobre su impacto en la salud, el ambiente y la agrobiodiversidad local y nacional."
+  },
+  {
+   "grado": 2,
+   "texto": "Explica la cantidad de carbohidratos, proteínas, grasas, vitaminas y minerales que son necesarios para mantenerse saludables y para la práctica de actividad física de su preferencia y que ayudan a la mejora de su rendimiento físico y mental. Evita hábitos perjudiciales para su organismo, como el consumo de alimentos no saludables, alcohol, tabaco, drogas, entre otros."
+  },
+  {
+   "grado": 2,
+   "texto": "Adopta posturas adecuadas en desplazamientos, saltos y lanzamientos para evitar lesiones y accidentes en la práctica de actividad física y en actividades de su vida cotidiana."
+  },
+  {
+   "grado": 2,
+   "texto": "Realiza actividad física para mejorar sus capacidades condicionales (fuerza, resistencia y velocidad) controlando su frecuencia cardiaca y respiratoria antes, durante y después de la actividad física. Realiza ejercicios y movimientos específicos para la activación y relajación explicando su utilidad e identificando la intensidad del esfuerzo requerido."
+  },
+  {
+   "grado": 2,
+   "texto": "Promueve actividades de promoción de los hábitos de higiene personal y del ambiente (lavado de manos, limpieza bucal, higiene corporal, limpieza de los espacios educativos, entre otros) entre sus compañeros y compañeras de la escuela."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 70,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1398,
+  "totalTokens": 3487,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

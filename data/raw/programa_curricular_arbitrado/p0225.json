@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 225,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": "VII",
+ "capacidades": [
+  "Define metas de aprendizaje.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje."
+ ],
+ "descripcion_nivel": "Gestiona su aprendizaje de manera autónoma al darse cuenta de lo que debe aprender, al establecer prioridades en la realización de una tarea tomando en cuenta su viabilidad para definir sus metas personales. Comprende que debe organizarse lo más realista y específicamente posible y que lo planteado sea alcanzable, medible y considere las mejores estrategias, procedimientos, recursos, escenarios basado en sus experiencias y previendo posibles cambios de cursos de acción que le permitan alcanzar la meta. Monitorea de manera permanente sus avances respecto a las metas de aprendizaje previamente establecidas al evaluar el nivel de logro de sus resultados y la viabilidad de la meta respecto de sus acciones; si lo cree conveniente realiza ajustes a los planes basado en el análisis de sus avances y los aportes de los grupos de trabajo y el suyo propio mostrando disposición a los posibles cambios.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Determina metas de aprendizaje viables sobre la base de sus potencialidades, conocimientos, estilos de aprendizaje, habilidades y actitudes para el logro de la tarea simple o compleja, formulándose preguntas de manera reflexiva y de forma constante."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Organiza un conjunto de acciones en función del tiempo y de los recursos de que dispone para lograr las metas de aprendizaje, para lo cual establece un orden y una prioridad en las acciones de manera secuenciada y articulada."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Revisa de manera permanente las estrategias, los avances de las acciones propuestas, su experiencia previa y la priorización de sus actividades para llegar a los resultados esperados. Evalúa los resultados y los aportes que le brindan sus pares para el logro de las metas de aprendizaje."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Determina metas de aprendizaje viables sobre la base de sus experiencias asociadas, necesidades, prioridades de aprendizaje, habilidades y actitudes para el logro de la tarea simple o compleja, formulándose preguntas de manera reflexiva y de forma constante."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Organiza un conjunto de acciones en función del tiempo y de los recursos de que dispone, para lo cual establece un orden y una prioridad que le permitan alcanzar la meta en el tiempo determinado con un considerable grado de calidad en las acciones de manera secuenciada y articulada."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Revisa de manera permanente la aplicación de estrategias, los avances de las acciones propuestas, su experiencia previa, y la secuencia y la priorización de actividades que hacen posible el logro de la meta de aprendizaje. Evalúa los resultados y los aportes que le brindan los demás para decidir si realizará o no cambios en las estrategias para el éxito de la meta de aprendizaje."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 225,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1180,
+  "totalTokens": 3402,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

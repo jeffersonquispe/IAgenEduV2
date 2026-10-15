@@ -1,0 +1,82 @@
+{
+ "numero_pagina_impreso": 53,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona responsablemente el espacio y el ambiente",
+ "ciclo": "VI",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos naturales y sociales.",
+  "Maneja fuentes de información para comprender el espacio geográfico y el ambiente.",
+  "Genera acciones para conservar el ambiente local y global."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente el espacio y ambiente al realizar actividades orientadas al cuidado de su localidad, considerando el cuidado del planeta. Compara las causas y consecuencias de diversas situaciones a diversas escalas para proponer medidas de gestión de riesgos. Explica cambios y permanencias en el espacio geográfico a diferentes escalas. Explica conflictos socioambientales y territoriales reconociendo sus múltiples dimensiones. Utiliza información y diversas herramientas cartográficas y socioculturales para ubicar y orientar distintos elementos del espacio geográfico y el ambiente, incluyéndose.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe los elementos naturales y sociales de los grandes espacios en el Perú: mar, costa, sierra y selva, considerando las actividades económicas realizadas por los actores sociales y sus características demográficas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Utiliza información y herramientas cartográficas para ubicar diversos elementos naturales y sociales de los espacios geográficos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Reconoce las causas y consecuencias, de las problemáticas ambientales, territoriales y de la condición de cambio climático (contaminación del agua, del aire y del suelo, uso inadecuado de los espacios públicos barriales en zonas urbanas y rurales, entre otras)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Propone actividades orientadas al cuidado de su ambiente escolar y uso sostenible de los recursos naturales en su escuela y hogar, considerando el cuidado del planeta y el desarrollo sostenible."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Identifica situaciones de vulnerabilidad ante desastres ocurridas en un determinado espacio geográfico a diferentes escalas (local, nacional o mundial) para proponer un plan de contingencia."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica los cambios y permanencias en las ocho regiones naturales del Perú y los grandes espacios en América considerando la influencia de las actividades económicas en la conservación del ambiente y en las condiciones de vida de la población."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Utiliza información y herramientas cartográficas para ubicar y orientar diversos elementos naturales y sociales del espacio geográfico incluyéndose en este."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica las causas y consecuencias de los conflictos socioambientales relacionados con la gestión de los recursos naturales, calidad ambiental y contaminación, manejo de los recursos forestales de las áreas agrícolas, gestión de cuencas hidrográficas, entre otros; y reconoce sus dimensiones políticas, económicas y sociales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Participa en actividades orientadas al cuidado del ambiente, y a la mitigación y adaptación al cambio climático de su localidad, desde la escuela, considerando el cuidado del planeta y el desarrollo sostenible."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Compara las causas y consecuencias de diversas situaciones de riesgo de desastre ocurridas a diferentes escalas (local, nacional o mundial), y propone alternativas mejorar la gestión de riesgos escolar."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 53,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1372,
+  "totalTokens": 3594,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 4
+ }
+}

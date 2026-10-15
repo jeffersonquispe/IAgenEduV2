@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 119,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Lee diversos tipos de textos con estructuras complejas, vocabulario variado y especializado. Interpreta el sentido global del texto. Evalúa la efectividad del contenido del texto y explica la intención de los elementos formales. Reflexiona críticamente sobre el texto y lo relaciona con el contexto sociocultural e ideológico en el que fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Lee diversos tipos de textos complejos que tienen vocabulario variado y especializado. Interpreta integrando información para construir el sentido global de un texto contrastándolo con otros textos que presentan ideas diferentes y su contexto sociocultural. Evalúa la efectividad del contenido del texto y explica la intención de diversos elementos formales. Reflexiona sobre distintos sucesos e ideas del texto, y lo relaciona con el contexto sociocultural e ideológico en el que fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Lee diversos tipos de textos complejos que tienen vocabulario variado. Relaciona información ubicada en distintas partes del texto, infiere el propósito comunicativo, el tema central y las ideas principales. Interpreta integrando información para construir el sentido de un texto relacionándolo con otros textos y su contexto sociocultural. Explica la intención de elementos formales del texto. Opina sobre sucesos e ideas del texto, y lo relaciona con el contexto sociocultural en el que fue escrito."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Lee diversos tipos de textos con algunos elementos complejos que presentan vocabulario variado. Relaciona información ubicada en distintas partes del texto. Infiere el propósito comunicativo, el tema central y las ideas principales. Interpreta integrando información explícita e implícita para construir el sentido de un texto relacionándolo con su contexto sociocultural. Reconoce la utilidad de elementos formales. Opina sobre sucesos e ideas del texto justificando su posición."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Lee diversos tipos de textos de estructura simple que presentan vocabulario variado. Identifica y relaciona información ubicada en distintas partes del texto (semejanzas y diferencias), infiere el propósito y el tema central e interpreta el sentido de un texto relacionándolo con alguna situación de su contexto sociocultural. Reconoce la utilidad de elementos formales básicos en el texto. Opina de forma breve sobre las ideas del texto."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Lee diversos tipos de textos breves de estructura simple que tratan sobre temas cotidianos, en los que predomina vocabulario conocido e ilustraciones. Identifica y relaciona información ubicada en distintas partes del texto. Expresa sus gustos y preferencias sobre el contenido de un texto en su lengua materna."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 2 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 119,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1033,
+  "totalTokens": 3122,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

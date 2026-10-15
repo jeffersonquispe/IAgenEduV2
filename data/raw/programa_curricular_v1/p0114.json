@@ -1,0 +1,22 @@
+{
+ "numero_pagina_impreso": 114,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "movimientos corporales) y paraverbales (entonación) para enfatizar información en diversos contextos socioculturales.\n• Participa en intercambios orales con hablantes nativos de castellano respetando sus puntos de vista y necesidades, los turnos de conversación, y agregando información pertinente y relevante al tema.\n\nmovimientos corporales) y paraverbales (entonación) para enfatizar o matizar información en diversos contextos socioculturales.\n• Participa en intercambios orales con hablantes nativos de castellano respetando sus puntos de vista y necesidades, los turnos de conversación, y agregando información pertinente y relevante al tema.",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 114,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 279,
+  "totalTokens": 2368,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,67 @@
+{
+ "numero_pagina_impreso": 54,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Gestiona responsablemente el espacio y el ambiente",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos naturales y sociales.",
+  "Maneja fuentes de información para comprender el espacio geográfico y el ambiente.",
+  "Genera acciones para conservar el ambiente local y global."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente el espacio y ambiente al proponer alternativas y promover la sostenibilidad del ambiente, la mitigación y adaptación al cambio climático y la prevención de riesgo de desastre, considerando las múltiples dimensiones. Explica las diferentes formas en las que se organiza el espacio geográfico y el ambiente como resultado de las decisiones (acciones e intervención) de los actores sociales. Utiliza fuentes de información y herramientas digitales para representar e interpretar el espacio geográfico y el ambiente.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Explica la influencia de los actores sociales en la configuración de las corregiones del Perú y de los grandes espacios en Europa, y su impacto en la calidad de vida de la población."
+  },
+  {
+   "grado": 3,
+   "texto": "Utiliza información y herramientas cartográficas para describir espacios geográficos y sus recursos naturales."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica cómo las acciones de los actores sociales pueden generar problemáticas ambientales, de territoriales y de la condición de cambio climático (degradación o agotamiento del suelo, del agua y los recursos naturales, patrones de consumo de la sociedad, desertificación y fragmentación del territorio, entre otras) que vulneran y afectan las condiciones de vida de la población y el desarrollo sostenible."
+  },
+  {
+   "grado": 3,
+   "texto": "Propone alternativas para mitigar o prevenir problemas ambientales a fin de mejorar la calidad de vida de las personas y alcanzar el desarrollo sostenible."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica cómo las acciones u omisiones de los actores sociales incrementan la vulnerabilidad ante situaciones de riesgo de desastres."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica cómo intervienen los actores sociales en la configuración de las áreas naturales protegidas y fronteras del Perú y de los grandes espacios en Asia, Oceanía, y señala las potencialidades que estos ofrecen."
+  },
+  {
+   "grado": 4,
+   "texto": "Utiliza información y herramientas cartográficas para representar el espacio geográfico y el ambiente."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica las dimensiones políticas, económicas, sociales y culturales de problemáticas ambientales, territoriales, y de la condición de cambio climático (pérdida de la biodiversidad, retroceso de los glaciares, depredación territorial, transporte en las grandes ciudades, entre otras) y sus consecuencias en las condiciones de vida de la población."
+  },
+  {
+   "grado": 4,
+   "texto": "Propone acciones concretas para el aprovechamiento sostenible del ambiente, y para la adaptación y mitigación del cambio climático, basadas en la legislación ambiental vigente en el Perú."
+  },
+  {
+   "grado": 4,
+   "texto": "Plantea medidas de prevención o mitigación ante situaciones de riesgo de desastre considerando las dimensiones sociales, económicas, políticas y culturales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 54,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1054,
+  "totalTokens": 3143,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

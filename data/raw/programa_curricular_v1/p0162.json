@@ -1,0 +1,64 @@
+{
+ "numero_pagina_impreso": 162,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Resuelve problemas de regularidad, equivalencia y cambio",
+ "ciclo": "VII",
+ "capacidades": [
+  "Traduce datos y condiciones a expresiones algebraicas y gráficas.",
+  "Comunica su comprensión sobre las relaciones algebraicas.",
+  "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales.",
+  "Argumenta afirmaciones sobre relaciones de cambio y equivalencia."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a analizar cambios continuos o periódicos, o regularidades entre magnitudes, valores o expresiones, traduciéndolas a expresiones algebraicas que pueden contener la regla general de progresiones geométricas, sistema de ecuaciones lineales, ecuaciones y funciones cuadráticas y exponenciales. Evalúa si la expresión algebraica reproduce las condiciones del problema. Expresa su comprensión de la regla de formación de sucesiones y progresiones geométricas; la solución o conjunto solución de sistemas de ecuaciones lineales e inecuaciones; la diferencia entre una función lineal y una función cuadrática y exponencial y sus parámetros; usa para interpretar enunciados o textos o fuentes de información usando lenguaje matemático y gráficos. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos para determinar términos desconocidos en progresiones geométricas, solucionar ecuaciones lineales o cuadráticas, simplificar expresiones usando identidades algebraicas; evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea afirmaciones sobre números especiales que se cumplen entre expresiones algebraicas; así como predecir el comportamiento de variables; comprueba o descarta la validez de la afirmación mediante contraejemplos y propiedades matemáticas.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Establece relaciones entre datos, valores desconocidos, regularidades, y condiciones de equivalencia o de variación entre magnitudes. Transforma esas relaciones a expresiones algebraicas o a tablas (modelos) que incluyen sucesiones crecientes o decrecientes, a sistemas de ecuaciones lineales con dos incógnitas, a inecuaciones, a funciones cuadráticas con coeficientes racionales y a funciones exponenciales."
+  },
+  {
+   "grado": 5,
+   "texto": "Realiza ajustes o modificaciones a la expresión algebraica o gráfica (modelos) planteada cuando no cumple con todas las condiciones del problema o, si lo considera necesario, la ajusta a nuevas condiciones en problemas similares."
+  },
+  {
+   "grado": 5,
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la regla de formación de una sucesión creciente, decreciente, para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones."
+  },
+  {
+   "grado": 5,
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución o soluciones de una ecuación cuadrática y el sentido de los valores máximos o mínimos e interceptos, en el contexto del problema. Interrelaciona estas representaciones y selecciona la más conveniente."
+  },
+  {
+   "grado": 5,
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la dilatación, contracción, desplazamientos horizontales y verticales, las intersecciones con los ejes de una función cuadrática, y la función exponencial al variar sus coeficientes."
+  },
+  {
+   "grado": 5,
+   "texto": "Combina y adapta estrategias heurísticas, recursos, métodos gráficos o procedimientos más óptimos para hallar términos desconocidos de una sucesión creciente o decreciente, y para solucionar sistemas de ecuaciones lineales, ecuaciones cuadráticas y exponenciales, usando identidades algebraicas o propiedades de las desigualdades."
+  },
+  {
+   "grado": 5,
+   "texto": "Plantea afirmaciones sobre características de una sucesión creciente y decreciente, u otras relaciones de cambio que descubre. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo."
+  },
+  {
+   "grado": 5,
+   "texto": "Plantea afirmaciones sobre la posibilidad o imposibilidad de solucionar una ecuación cuadrática sobre la base del análisis de sus coeficientes o el valor del discriminante. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo."
+  },
+  {
+   "grado": 5,
+   "texto": "Plantea afirmaciones sobre relaciones de cambio que observa entre las variables de una función exponencial o funciones cuadráticas. Justifica y comprueba la validez de una afirmación opuesta a otra o de un caso especial mediante ejemplos, contraejemplos, conocimientos geométricos, o razonamiento inductivo y deductivo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 162,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1515,
+  "totalTokens": 3604,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

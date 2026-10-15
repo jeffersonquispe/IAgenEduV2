@@ -1,0 +1,88 @@
+{
+ "numero_pagina_impreso": 125,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Escribe diversos tipos de textos en castellano como segunda lengua",
+ "ciclo": "VI",
+ "capacidades": [
+  "Adecúa el texto a la situación comunicativa.",
+  "Organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza convenciones del lenguaje escrito de forma pertinente.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Escribe diversos tipos de textos de forma reflexiva sobre temas variados. Adecúa su texto al destinatario, propósito y registro, utiliza diversas fuentes de información complementaria y/o divergente entre sí, que provienen de diversos contextos socioculturales. Organiza y desarrolla sus ideas en párrafos en torno a diversos temas y usa vocabulario variado y especializado. Relaciona ideas del texto mediante el uso de diversos referentes gramaticales, usando diferentes recursos ortográficos para darle claridad al texto. Reflexiona sobre el contenido del texto, la organización y el contexto donde se desarrolla, y evalúa comparando su texto con otros textos similares.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Adecúa su texto al destinatario, el registro formal e informal, y el propósito comunicativo sobre temas variados considerando diversas fuentes de información, complementarias a la idea que se desea defender en el texto, o divergentes, es decir, contrarias a la idea que se debe defender."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Escribe textos en torno a un tema. Ordena las ideas mediante el uso de diferentes conectores y referentes gramaticales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Organiza su texto en párrafos en torno a diversos temas y presenta eventualmente alguna digresión."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Utiliza diferentes recursos ortográficos, expresiones formulaicas y vocabulario variado para que su texto sea claro."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Evalúa si el texto que escribe se adecúa, en lo que respecta tanto a su contenido como a su forma, a la situación comunicativa."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Evalúa el efecto de su texto en los lectores. Compara su texto producido con otros para ver la eficacia de los recursos empleados en cada uno de los textos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Adecúa su texto al destinatario, el registro formal e informal, y el propósito comunicativo sobre temas variados considerando diversas fuentes de información, complementarias a la idea que se desea defender en el texto, o divergentes, es decir, contrarias a la idea que se debe defender."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Escribe textos en torno a un tema. Ordena las ideas mediante el uso variado de conectores y referentes gramaticales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Organiza su texto en párrafos en torno a diversos temas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Utiliza diferentes recursos ortográficos, expresiones formulaicas, y vocabulario variado y especializado para que su texto sea claro."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Evalúa si el texto que escribe se adecúa, en lo que respecta tanto a su contenido como a su organización, a la situación comunicativa."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Evalúa el efecto de su texto en los lectores. Compara su texto producido con otros para ver la eficacia de los recursos empleados en cada uno de los textos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 125,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1432,
+  "totalTokens": 3654,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

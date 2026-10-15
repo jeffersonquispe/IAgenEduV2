@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 43,
+ "tipo": "narrativa",
+ "area": "Ciencias Sociales",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [
+  "Construye interpretaciones históricas.",
+  "Gestiona responsablemente el espacio y el ambiente.",
+  "Gestiona responsablemente los recursos económicos."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Vivimos en un mundo en el que los cambios son continuos, y donde constantemente se plantean nuevos desafíos y se brindan nuevas oportunidades para el desarrollo personal y social. Las demandas sociales para formar ciudadanos críticos y proactivos frente a los problemas sociales, ambientales y económicos de su comunidad han generado que el área haya tomado cada vez más importancia en los currículos escolares.\n\nPor ello, a través del área de Ciencias Sociales, se pretende que los estudiantes se formen como ciudadanos conscientes de la sociedad donde viven y de su rol como sujetos históricos a fin de que asuman compromisos y se constituyan en agentes de cambio de la realidad social a través de la gestión de los recursos ambientales y económicos.\n\nAsimismo, el área promueve que los estudiantes se identifiquen con su país; es decir, busca que tomen conciencia de que forman parte de una colectividad que, siendo diversa, comparten una misma historia y participen en la construcción de un futuro común.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. El área de Ciencias Sociales se ocupa de promover y facilitar que los estudiantes desarrollen las siguientes competencias:",
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 43,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 497,
+  "totalTokens": 2586,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,61 @@
+{
+ "numero_pagina_impreso": 144,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": "VI",
+ "capacidades": [
+  "Adecúa el texto a la situación comunicativa.",
+  "Organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza convenciones del lenguaje escrito de forma pertinente.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Escribe diversos tipos de textos de mediana extensión en inglés. Adecúa su texto al destinatario, propósito y registro a partir de su experiencia previa y fuentes de información básica. Organiza y desarrolla sus ideas en torno a un tema central y los estructura en uno o dos párrafos. Relaciona sus ideas a través del uso de algunos recursos cohesivos (sinónimos, pronombres y conectores aditivos, adversativos, temporales y causales) con vocabulario cotidiano y pertinente y construcciones gramaticales simples y de mediana complejidad. Utiliza recursos ortográficos que permiten claridad en sus textos. Reflexiona sobre el contenido del texto y evalúa el uso de algunos recursos formales.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Adecúa el texto que escribe en inglés a la situación comunicativa considerando el tipo textual, algunas características del género discursivo, el formato, el soporte y el propósito. Ejemplo: Intercambiar información personal; hablar sobre habilidades, posesiones, preferencias, deportes y lugares; hablar acerca de actividades en curso, pasadas y diarias; describir el trabajo, la escuela; identificar accidentes geográficos y comparar comida."
+  },
+  {
+   "grado": 1,
+   "texto": "Produce textos escritos en inglés en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel. Los organiza estableciendo relaciones lógicas (orden, contraste, secuencia, semejanza-diferencia y causal) y ampliando información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "grado": 1,
+   "texto": "Emplea convenciones del lenguaje escrito como recursos ortográficos y gramaticales de mediana complejidad que le dan claridad y sentido al texto. Ejemplo: Verb to be, wh- questions —what, how, where, what, when, what time, how often, whose, how many, how much; possessive adjectives and nouns; personal and object pronouns; demonstrative pronouns; adverbs of frequency; can; present simple and continuous; quantifiers; comparative and superlative adjectives. Usa recursos textuales para aclarar y reforzar sentidos en el texto."
+  },
+  {
+   "grado": 1,
+   "texto": "Evalúa su texto en inglés para mejorarlo considerando aspectos gramaticales y ortográficos, y las características de tipos textuales y géneros discursivos, así como otras convenciones vinculadas con el lenguaje escrito."
+  }
+ ],
+ "estandares": [
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Cuando el estudiante escribe diversos tipos de textos en inglés como lengua extranjera y logra el nivel esperado del ciclo VI, realiza desempeños como los siguientes: Adecúa el texto que escribe en inglés a la situación comunicativa considerando el tipo textual, algunas características del género discursivo, el formato, el soporte y el propósito. Ejemplo: Hablar sobre personas, lugares, accidentes; expresar sentimientos y estados de ánimo; describir posibilidades futuras, obligaciones, tecnología, eventos, noticias, actividades en curso y pasadas; realizar pedidos, sugerencias y planes; pedir y dar consejo; sugerir y planificar una actividad; expresar causa y efecto; discutir acerca de preferencias propias y de otros; describir y recomendar películas; brindar instrucciones para llegar a algún punto."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Produce textos escritos en inglés en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel. Los organiza estableciendo relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Emplea convenciones del lenguaje escrito como recursos ortográficos y gramaticales de mediana complejidad que le dan claridad y sentido al texto. Ejemplo: Present simple and continuous, past simple and continuous, prepositions of time and place —in, on, at; modals —can, could, should, have to; connectors and, or, so, because; future with going to, adverb clauses of time —after, before, as soon as, when; zero conditional, would like to, want to, like + ing, future with will, first conditional. Usa recursos textuales para aclarar y reforzar sentidos en el texto."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Evalúa su texto en inglés para mejorarlo considerando aspectos gramaticales y ortográficos, y las características de tipos textuales y géneros discursivos, así como otras convenciones vinculadas con el lenguaje escrito."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 144,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1514,
+  "totalTokens": 3603,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

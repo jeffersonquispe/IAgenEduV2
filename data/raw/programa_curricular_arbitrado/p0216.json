@@ -1,0 +1,32 @@
+{
+ "numero_pagina_impreso": 216,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "SE DESENVUELVE EN ENTORNOS VIRTUALES GENERADOS POR LAS TIC",
+ "ciclo": null,
+ "capacidades": [
+  "Personaliza entornos virtuales: consiste en adecuar la apariencia y funcionalidad de los entornos virtuales de acuerdo con las actividades, valores, cultura y personalidad.",
+  "Gestiona información del entorno virtual: consiste en organizar y sistematizar la información del entorno virtual de manera ética y pertinente tomando en cuenta sus tipos y niveles así como la relevancia para sus actividades.",
+  "Interactúa en entornos virtuales: consiste en organizar e interpretar las interacciones con otros para realizar actividades en conjunto y construir vínculos coherentes según la edad, valores y contexto socio-cultural.",
+  "Crea objetos virtuales en diversos formatos: es construir materiales digitales con diversos propósitos. Es el resultado de un proceso de mejoras sucesivas y retroalimentación desde el contexto escolar y en su vida cotidiana."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Consiste en que el estudiante interprete, modifique y optimice entornos virtuales durante el desarrollo de actividades de aprendizaje y en prácticas sociales. Esto involucra la articulación de los procesos de búsqueda, selección y evaluación de información; de modificación y creación de materiales digitales, de comunicación y participación en comunidades virtuales, así como la adaptación de los entornos virtuales de acuerdo a sus necesidades e intereses de manera sistemática.\n\nEsta competencia implica la combinación por parte del estudiante de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 216,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 501,
+  "totalTokens": 2723,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

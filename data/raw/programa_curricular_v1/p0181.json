@@ -1,0 +1,37 @@
+{
+ "numero_pagina_impreso": 181,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Indaga mediante métodos científicos para construir conocimientos",
+ "ciclo": "VI",
+ "capacidades": [
+  "Problematiza situaciones.",
+  "Diseña estrategias para hacer indagación.",
+  "Genera y registra datos e información.",
+  "Analiza datos e información.",
+  "Evalúa y comunica el proceso y resultados de su indagación."
+ ],
+ "descripcion_nivel": "Indaga a partir de preguntas e hipótesis que son verificables de forma experimental o descriptiva con base en su conocimiento científico para explicar las causas o describir el fenómeno identificado. Diseña un plan de recojo de datos con base en experimentos. Obtiene datos que contribuyan a comprobar o refutar la hipótesis. Analiza tendencias o patrones en los datos, los interpreta tomando en cuenta el error y reproducibilidad, los interpreta con base en conocimientos científicos y formula conclusiones. Evalúa si sus conclusiones responden a la pregunta de indagación y las comunica. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación.",
+ "desempenos": [
+  {
+   "grado": 1,
+   "texto": "Formula preguntas acerca de las variables que influyen en un hecho, fenómeno u objeto natural o tecnológico, y selecciona aquella que puede ser indagada científicamente. Plantea hipótesis en las que establece relaciones de causalidad entre las variables. Propone procedimientos para observar, manipular la variable independiente, medir la variable dependiente y controlar aspectos que modifican la experimentación. Selecciona herramientas, materiales e instrumentos para recoger datos cualitativos/cuantitativos. Prevé el tiempo y las medidas de seguridad personal y del lugar de trabajo. Obtiene datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Controla aspectos que modifican la experimentación. Organiza los datos y hace cálculos de la moda, mediana, proporcionalidad u otros, y los representa en gráficas. Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud, diferencia u otros; contrasta los resultados con su hipótesis e información científica para confirmar o refutar su hipótesis, y elabora conclusiones. Sustenta si sus conclusiones responden a la pregunta de indagación, y si los procedimientos, mediciones y ajustes realizados contribuyeron a demostrar su hipótesis. Comunica su indagación a través de medios virtuales o presenciales."
+  },
+  {
+   "grado": 2,
+   "texto": "Formula preguntas acerca de las variables que influyen en un hecho, fenómeno u objeto natural o tecnológico y selecciona aquella que puede ser indagada científicamente. Plantea hipótesis en las que establece relaciones de causalidad entre las variables. Considera las variables intervinientes en su indagación. Propone procedimientos para observar, manipular la variable independiente, medir la variable dependiente y controlar la variable interviniente. Selecciona herramientas, materiales e instrumentos para recoger datos cualitativos/cuantitativos. Prevé el tiempo y las medidas de seguridad personal y del lugar de trabajo. Obtiene datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Realiza los ajustes en sus procedimientos y controla las variables intervinientes. Organiza los datos y hace cálculos de medidas de tendencia central, proporcionalidad u otros, y los representa en gráficas. Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud, diferencia u otros; contrasta los resultados con su hipótesis e información científica para confirmar o refutar su hipótesis, y elabora conclusiones. Sustenta si sus conclusiones responden a la pregunta de indagación, y si los procedimientos, mediciones, cálculos y ajustes realizados contribuyeron a demostrar su hipótesis. Comunica su indagación a través de medios virtuales o presenciales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 181,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1186,
+  "totalTokens": 3275,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

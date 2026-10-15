@@ -1,0 +1,68 @@
+{
+ "numero_pagina_impreso": 169,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de forma, movimiento y localización",
+ "ciclo": "VII",
+ "capacidades": [
+  "Modela objetos con formas geométricas y sus transformaciones.",
+  "Comunica su comprensión sobre las formas y relaciones geométricas.",
+  "Usa estrategias y procedimientos para medir y orientarse en el espacio.",
+  "Argumenta afirmaciones sobre relaciones geométricas."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que modela características de objetos con formas geométricas compuestas, cuerpos de revolución, sus elementos y propiedades, líneas, puntos notables, relaciones métricas de triángulos, distancia entre dos puntos, ecuación de la recta y parábola; la ubicación, distancias inaccesibles, movimiento y trayectorias complejas de objetos mediante coordenadas cartesianas, razones trigonométricas, mapas y planos a escala. Expresa su comprensión de la relación entre las medidas de los lados de un triángulo y sus proyecciones, la distinción entre trasformaciones geométricas que conservan la forma de aquellas que conservan las medidas de los objetos, y de cómo se generan cuerpos de revolución, usando construcciones con regla y compás. Clasifica polígonos y cuerpos geométricos según sus propiedades, reconociendo la inclusión de una clase en otra. Selecciona, combina y adapta variadas estrategias, procedimientos y recursos para determinar la longitud, perímetro, área o volumen de formas compuestas, así como construir mapas a escala, homotecías e isometrías. Plantea y compara afirmaciones sobre enunciados opuestos o casos especiales de las propiedades de las formas geométricas; justifica, comprueba o descarta la validez de la afirmación mediante contraejemplos o propiedades geométricas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre las características y atributos medibles de objetos reales o imaginarios. Representa estas relaciones con formas bidimensionales, tridimensionales o compuestas, y con cuerpos de revolución, los que pueden combinar formas geométricas tridimensionales. También establece relaciones métricas entre triángulos y circunferencias."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Describe la ubicación o los movimientos de un objeto real o imaginario, y los representa utilizando mapas y planos a escala, razones trigonométricas, y la ecuación de la parábola y circunferencia. Describe las posibles secuencias de transformaciones sucesivas que dieron origen a una forma bidimensional."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, con construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre las propiedades de los cuerpos de revolución o formas tridimensionales compuestas, así como su clasificación, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con dibujos, con construcciones con regla y compás, con material concreto, y con lenguaje geométrico, su comprensión sobre las transformaciones geométricas y la clasificación de las formas geométricas por sus características y propiedades, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Lee textos o gráficos que describen las propiedades de los cuerpos de revolución, compuestos y truncados, así como la clasificación de las formas geométricas por sus características y propiedades comunes o distintivas. Lee mapas a diferente escala, e integra la información que contienen para ubicar lugares, profundidades, alturas o determinar rutas óptimas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Combina y adapta estrategias heurísticas, recursos o procedimientos para determinar la longitud, el área y el volumen de cuerpos geométricos compuestos y de revolución, así como áreas irregulares expresadas en planos o mapas, empleando coordenadas cartesianas y unidades convencionales (centímetro, metro y kilómetro)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Combina y adapta estrategias heurísticas, recursos o procedimientos para describir las diferentes vistas de un forma tridimensional compuesta (frente, perfil y base) y reconstruir su desarrollo en el plano sobre la base de estas, empleando unidades convencionales (centímetro, metro y kilómetro) y no convencionales (por ejemplo, pasos)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Plantea y contrasta afirmaciones sobre las relaciones y propiedades que descubre entre los objetos, entre objetos y formas geométricas, y entre las formas geométricas, sobre la base de experiencias directas o simulaciones. Comprueba la validez de una afirmación opuesta a otra, o de un caso especial mediante contraejemplos, conocimientos geométricos, y razonamiento inductivo o deductivo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 169,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1692,
+  "totalTokens": 3914,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

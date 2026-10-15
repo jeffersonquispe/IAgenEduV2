@@ -1,0 +1,51 @@
+{
+ "numero_pagina_impreso": 213,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+ "ciclo": "VII",
+ "capacidades": [
+  "Transforma su entorno desde el encuentro personal y comunitario con Dios y desde la fe que profesa.",
+  "Actúa coherentemente en razón de su fe según los principios de su conciencia moral en situaciones concretas de la vida."
+ ],
+ "descripcion_nivel": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico y los documentos del Magisterio de la Iglesia. Vivencia su dimensión religiosa, espiritual y trascendente, que le permita cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio buscando soluciones a los desafíos actuales. Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la Iglesia. Asume su rol protagónico en la transformación de la sociedad a partir de las enseñanzas de Jesucristo en un marco ético y moral cristiano.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal y comunitario, respondiendo a los desafíos de la realidad a la luz del mensaje bíblico y los documentos del Magisterio de la Iglesia."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Vive su dimensión religiosa, espiritual y trascendente a partir de la celebración comunitaria de su fe, que le permita cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio y de las enseñanzas de la Iglesia proponiendo soluciones a los desafíos actuales."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la Iglesia."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Asume su rol protagónico comprometiéndose ética y moralmente en la transformación de una sociedad pacífica, justa, fraterna y solidaria, a partir de las enseñanzas de Jesucristo y de la Iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 213,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 901,
+  "totalTokens": 3123,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

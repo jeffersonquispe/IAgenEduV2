@@ -1,0 +1,99 @@
+{
+ "numero_pagina_impreso": 40,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Convive y participa democráticamente en la búsqueda del bien común",
+ "ciclo": "VI",
+ "capacidades": [
+  "Interactúa con todas las personas.",
+  "Construye normas y asume acuerdos y leyes.",
+  "Maneja conflictos de manera constructiva.",
+  "Delibera sobre asuntos públicos.",
+  "Participa en acciones que promueven el bienestar común."
+ ],
+ "descripcion_nivel": "Convive y participa democráticamente cuando se relaciona con los demás, respetando las diferencias y los derechos de cada uno, cumpliendo sus deberes y buscando que otros también las cumplan. Se relaciona con personas de culturas distintas, respetando sus costumbres. Construye y evalúa de manera colectiva las normas de convivencia en el aula y en la escuela con base en principios democráticos. Ejerce el rol de mediador en su grupo haciendo uso de la negociación y el diálogo para el manejo de conflictos. Propone, planifica y ejecuta acciones de manera cooperativa, dirigidas a promover el bien común, la defensa de sus derechos y el cumplimiento de sus deberes como miembro de una comunidad. Delibera sobre asuntos públicos formulando preguntas sobre sus causas y consecuencias, analizando argumentos contrarios a los propios y argumentando su postura basándose en fuentes y en otras opiniones.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante convive y participa democráticamente en la búsqueda del bien común, y se encuentra en proceso hacia el nivel esperado del ciclo VI, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones basadas en el respeto y el diálogo con sus compañeros y compañeras, cuestiona los prejuicios y estereotipos más comunes que se dan en su entorno, y cumple sus deberes en la escuela."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Intercambia costumbres mostrando respeto por las diferencias."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Evalúa los acuerdos y las normas que regulan la convivencia en su escuela en función de si se basan en los derechos y deberes del niño y del adolescente."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Interviene ante conflictos cercanos a él utilizando el diálogo y la negociación."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Delibera sobre asuntos públicos cuando obtiene información de diversas fuentes, sustenta su posición sobre la base de argumentos y aporta a la construcción de consensos que contribuyan al bien común."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Propone acciones colectivas en la escuela en apoyo a grupos vulnerables en situación de desventaja social y económica tomando como base los derechos del niño."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante convive y participa democráticamente en la búsqueda del bien común, y logra el nivel esperado del ciclo VI, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Demuestra actitudes de respeto por sus compañeros, defiende sus derechos ante situaciones de vulneración, y cuestiona los prejuicios y estereotipos por etnia, género, ciclo vital o discapacidad más comunes de su entorno. Cumple sus deberes en la escuela y localidad, y promueve que los demás también los cumplan."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Intercambia costumbres mostrando respeto por las diferencias."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Propone normas que regulan la convivencia en la escuela y el uso responsable de las vías públicas de su localidad. Evalúa esas normas críticamente a partir de los principios democráticos y las modifica cuando se contraponen con sus derechos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Actúa como mediador en conflictos de sus compañeros haciendo uso de habilidades sociales, el diálogo y la negociación."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Delibera sobre asuntos públicos cuando indaga sus causas y consecuencias, examina argumentos contrarios a los propios, y sustenta su posición basándose en principios democráticos y valores cívicos. Aporta a la construcción de consensos que contribuyan al bien común."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Participa cooperativamente en la planeación y ejecución de acciones en defensa de los derechos de la niñez. Asimismo, cumple responsablemente sus deberes y responsabilidades."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 40,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1797,
+  "totalTokens": 4019,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

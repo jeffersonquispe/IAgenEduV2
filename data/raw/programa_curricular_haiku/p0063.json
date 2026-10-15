@@ -1,0 +1,25 @@
+{
+ "numero_pagina_impreso": 63,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "SE DESENVUELVE DE MANERA AUTÓNOMA A TRAVÉS DE SU MOTRICIDAD",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende su cuerpo: es decir, interioriza su cuerpo en estado estático o en movimiento en relación al espacio, el tiempo, los objetos y demás personas de su entorno.",
+  "Se expresa corporalmente: usa el lenguaje corporal para comunicar emociones, sentimientos y pensamientos. Implica utilizar el tono, los gestos, mímica, posturas y movimientos para expresarse, desarrollando la creatividad al usar todos los recursos que ofrece el cuerpo y el movimiento."
+ ],
+ "descripcion_nivel": "El estudiante comprende y toma conciencia de sí mismo en interacción con el espacio y las personas de su entorno, lo que contribuye a construir su identidad y autoestima. Interioriza y organiza movimientos eficazmente según sus posibilidades, en la práctica de actividades físicas como el juego, el deporte y aquellas que se desarrollan en la vida cotidiana. Asimismo, es capaz de expresar y comunicar a través de su cuerpo: ideas, emociones y sentimientos con gestos, posturas, tono muscular, entre otros.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 63,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 411,
+  "totalTokens": 2565,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

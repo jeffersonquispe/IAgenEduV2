@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 128,
+ "tipo": "narrativa",
+ "area": "Inglés como Lengua Extranjera",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [
+  "Se comunica oralmente en inglés como lengua extranjera.",
+  "Lee diversos tipos de textos escritos en inglés como lengua extranjera.",
+  "Escribe diversos tipos de textos en inglés como lengua extranjera."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.7. Área de Inglés como Lengua Extranjera\n\nEl idioma inglés es uno de los más hablados en el mundo y ha logrado convertirse en una lengua internacional utilizada en diversos ámbitos. Es llamada lengua franca debido a su uso como vehículo de comunicación entre un gran número de hablantes de otras lenguas, lo que ha acortado brechas entre países a nivel mundial.\n\nLa importancia del aprendizaje del idioma inglés es reconocida ya que se lo considera una herramienta de comunicación global que facilita el acceso a la información y a las tecnologías de vanguardia. El dominio del idioma inglés permite conectarse con diversas realidades y contextos ampliando el acceso a mejores oportunidades académicas, tecnológicas, científicas, culturales y laborales.\n\nDebido a las características del contexto, el Currículo Nacional plantea el aprendizaje de inglés como lengua extranjera pues no es el idioma que se utiliza como medio de comunicación entre los peruanos. Esta situación implica que los estudiantes no están expuestos a su uso frecuente fuera de la institución educativa. Por ello, se propone el uso del idioma inglés en un contexto comunicativo y activo para el estudiante en el aula. Su enseñanza se alinea no solo al nuevo enfoque por competencias, sino también a estándares internacionales como el Marco Común Europeo de Referencia para las Lenguas.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. En el área de Inglés como Lengua Extranjera, se incorporan las prácticas sociales del lenguaje y la perspectiva sociocultural al promover y facilitar que los estudiantes desarrollen las siguientes competencias:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 128,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 644,
+  "totalTokens": 2733,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,75 @@
+{
+ "numero_pagina_impreso": 102,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en lengua materna",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos con estructuras complejas, vocabulario variado y especializado. Integra información contrapuesta y ambigua que está en distintas partes del texto. Interpreta el texto considerando información relevante y de detalle para construir su sentido global, validándose de otros textos y reconociendo distintas posturas y sentidos. Reflexiona sobre formas y contenidos del texto y asume una posición sobre las relaciones de poder que este presenta. Evalúa el uso del lenguaje, la validez de la información, el estilo del texto, la intención de estrategias discursivas y retóricas. Explica el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural en el que se escribe.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Identifica información explícita, relevante y complementaria seleccionando datos específicos y detalles en diversos tipos de texto de estructura compleja y con información contrapuesta y vocabulario especializado. Integra información explícita cuando se encuentra en distintas partes del texto, o en distintos textos al realizar una lectura intertextual."
+  },
+  {
+   "grado": 3,
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto escrito (causa-efecto, semejanza-diferencia, entre otras) a partir de información contrapuesta o de detalle del texto, o al realizar una lectura intertextual. Señala las características implícitas de seres, objetos, hechos y lugares, y determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica el tema, los subtemas y el propósito comunicativo del texto cuando este presenta información especializada. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural del texto."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica la intención del autor considerando algunas estrategias discursivas utilizadas, y las características del tipo textual y género discursivo. Explica diferentes puntos de vista, algunos sesgos, contradicciones, el uso de la información estadística, las representaciones sociales presentes en el texto, y el modo en que diversas figuras retóricas junto con la trama y la evolución de personajes construyen el sentido del texto."
+  },
+  {
+   "grado": 3,
+   "texto": "Opina sobre el contenido, la organización textual, las estrategias discursivas y la intención del autor. Emite un juicio crítico sobre la eficacia y validez de la información considerando los efectos del texto en los lectores, contrastando su experiencia y conocimiento con el contexto sociocultural del texto."
+  },
+  {
+   "grado": 3,
+   "texto": "Justifica la elección o recomendación de textos de su preferencia cuando los comparte con otros. Sustenta su posición sobre estereotipos y relaciones de poder presentes en los textos. Contrasta textos entre sí, y determina las características de los autores, los tipos textuales y los géneros discursivos."
+  },
+  {
+   "grado": 4,
+   "texto": "Identifica información explícita, relevante y complementaria seleccionando datos específicos y detalles en diversos tipos de texto de estructura compleja y con información contrapuesta y vocabulario especializado. Integra información explícita cuando se encuentra en distintas partes del texto, o en distintos textos al realizar una lectura intertextual."
+  },
+  {
+   "grado": 4,
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto escrito (causa-efecto, semejanza-diferencia, entre otras) a partir de información de detalle, contrapuesta o ambigua del texto, o al realizar una lectura intertextual. Señala las características implícitas de seres, objetos, hechos y lugares, y determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica el tema, los subtemas y el propósito comunicativo del texto cuando este presenta información especializada o abstracta. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural del texto."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica la intención del autor considerando diversas estrategias discursivas utilizadas, y las características del tipo textual y género discursivo. Explica diferentes puntos de vista, sesgos, contradicciones, falacias, contraargumentos, el uso de la información estadística, las representaciones sociales presentes en el texto, y el modo en que diversas figuras retóricas junto con la trama y la evolución de personajes construyen el sentido del texto."
+  },
+  {
+   "grado": 4,
+   "texto": "Opina sobre el contenido, la organización textual, las representaciones sociales y la intención del autor. Emite un juicio crítico sobre la eficacia y validez de la información considerando los efectos del texto en los lectores, y contrastando su experiencia y conocimiento con el contexto sociocultural del texto."
+  },
+  {
+   "grado": 4,
+   "texto": "Justifica la elección o recomendación de textos de su preferencia cuando los comparte con otros. Sustenta su posición sobre las relaciones de poder e ideologías de los textos. Contrasta textos entre sí, y determina las características de tipos textuales y géneros discursivos, o de movimientos literarios."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 102,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1658,
+  "totalTokens": 3747,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

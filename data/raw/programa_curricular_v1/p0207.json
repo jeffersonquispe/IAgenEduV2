@@ -1,0 +1,66 @@
+{
+ "numero_pagina_impreso": 207,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+ "ciclo": "VII",
+ "capacidades": [
+  "Conoce a Dios y asume su identidad religiosa y espiritual como persona digna, libre y trascendente.",
+  "Cultiva y valora las manifestaciones religiosas de su entorno argumentando su fe de manera comprensible y respetuosa."
+ ],
+ "descripcion_nivel": "Fundamenta la presencia de Dios en la creación, en el Plan de Salvación y en la vida de la iglesia. Asume a Jesucristo como Redentor y modelo de hombre que enseña a vivir bajo la acción del Espíritu Santo, participando en la misión evangelizadora en coherencia con su creencia religiosa. Argumenta su fe en diálogo crítico con la cultura, la ciencia, otras manifestaciones religiosas y espirituales. Propone alternativas de solución a problemas y necesidades de su comunidad, del país y del mundo, que expresen los valores propios de su tradición cristiana y católica, el bien común, la promoción de la dignidad de la persona y el respeto a la vida humana. Interioriza el mensaje de Jesucristo y las enseñanzas de la Iglesia para actuar en coherencia con su fe.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Analiza la intervención de Dios en el Plan de Salvación y en la historia de la iglesia y su presencia en la creación con lo cual encuentra sentido a su vida y a la humanidad."
+  },
+  {
+   "grado": 3,
+   "texto": "Reflexiona sobre el mensaje de Jesucristo y las enseñanzas de la Iglesia para un cambio de vida personal."
+  },
+  {
+   "grado": 3,
+   "texto": "Acepta a Jesucristo como Redentor y modelo de hombre para vivir coherentemente con los principios cristianos."
+  },
+  {
+   "grado": 3,
+   "texto": "Da razones de su fe en gestos y acciones que demuestran una convivencia crítica con la cultura, la ciencia y otras manifestaciones religiosas y espirituales."
+  },
+  {
+   "grado": 3,
+   "texto": "Analiza la realidad de su entorno a la luz del mensaje del Evangelio que lo lleve a plantear alternativas de cambio coherentes con los valores propios de la tradición religiosa."
+  },
+  {
+   "grado": 4,
+   "texto": "Argumenta la acción de Dios en la historia y en la vida de la Iglesia y de la humanidad confrontando hechos y acontecimientos presentes en su entorno que permitan su participación en la misión de la Iglesia."
+  },
+  {
+   "grado": 4,
+   "texto": "Confronta el mensaje de Jesucristo y las enseñanzas de la Iglesia con sus vivencias personales y comunitarias demostrando una actitud de permanente conversión."
+  },
+  {
+   "grado": 4,
+   "texto": "Acoge a Jesucristo como Redentor y modelo de hombre que enseña a vivir bajo la acción del Espíritu Santo, para expresar en su vida diaria los principios y las enseñanzas de la Iglesia."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica, con argumentos coherentes, su fe en relación armónica entre cultura y ciencia, y valorando las diversas manifestaciones religiosas más cercanas a su entorno."
+  },
+  {
+   "grado": 4,
+   "texto": "Interpreta la realidad de su entorno local y nacional a la luz del mensaje del Evangelio y la Tradición de la Iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 207,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1104,
+  "totalTokens": 3193,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

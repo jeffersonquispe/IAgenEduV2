@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 184,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "EXPLICA EL MUNDO FÍSICO BASÁNDOSE EN CONOCIMIENTOS SOBRE LOS SERES VIVOS, MATERIA Y ENERGÍA, BIODIVERSIDAD, TIERRA Y UNIVERSO",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende y usa conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo: establece relaciones entre varios conceptos y los transfiere a nuevas situaciones. Esto le permite construir representaciones del mundo natural y artificial, que se evidencian cuando el estudiante explica, ejemplifica, aplica, justifica, compara, contextualiza y generaliza sus conocimientos.",
+  "Evalúa las implicancias del saber y del quehacer científico y tecnológico: cuando identifica los cambios generados en la sociedad por el conocimiento científico o desarrollo tecnológico, con el fin de asumir una postura crítica o tomar decisiones, considerando saberes locales, evidencia empírica y científica, con la finalidad de mejorar su calidad de vida y conservar el ambiente local y global."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El estudiante es capaz de comprender conocimientos científicos relacionados a hechos o fenómenos naturales, sus causas y relaciones con otros fenómenos, construyendo representaciones del mundo natural y artificial. Esta representación del mundo le permite evaluar situaciones donde la aplicación de la ciencia y la tecnología se encuentran en debate, para construir argumentos que lo llevan a participar, deliberar y tomar decisiones en asuntos personales y públicos, mejorando su calidad de vida, así como conservar el ambiente.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 184,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 514,
+  "totalTokens": 2736,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

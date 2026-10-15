@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 222,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "GESTIONA SU APRENDIZAJE DE MANERA AUTÓNOMA",
+ "ciclo": null,
+ "capacidades": [
+  "Define metas de aprendizaje: es darse cuenta y comprender aquello que se necesita aprender para resolver una tarea dada. Es reconocer los saberes, las habilidades y los recursos que están a su alcance y si estos le permitirán lograr la tarea, para que a partir de ello pueda plantear metas viables.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje: implica que debe pensar y proyectarse en cómo organizarse mirando el todo y las partes de su organización y determinar hasta dónde debe llegar para ser eficiente, así como establecer qué hacer para fijar los mecanismos que le permitan alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje: es hacer seguimiento de su propio grado de avance con relación a las metas de aprendizaje que se ha propuesto, mostrando confianza en sí mismo y capacidad para autorregularse. Evalúa si las acciones seleccionadas y su planificación son las más pertinentes para alcanzar sus metas de aprendizaje. Implica la disposición e iniciativa para hacer ajustes oportunos a sus acciones con el fin de lograr los resultados previstos."
+ ],
+ "descripcion_nivel": "El estudiante es consciente del proceso que realiza para aprender. Esto le permite participar de manera autónoma en el proceso de su aprendizaje, gestionar ordenada y sistemáticamente las acciones a realizar, evaluar sus avances y dificultades, así como asumir gradualmente el control de esta gestión.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 222,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 537,
+  "totalTokens": 2691,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

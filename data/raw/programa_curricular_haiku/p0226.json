@@ -1,0 +1,39 @@
+{
+ "numero_pagina_impreso": 226,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Gestiona su aprendizaje de manera autónoma",
+ "ciclo": "VII",
+ "capacidades": [
+  "Define metas de aprendizaje.",
+  "Organiza acciones estratégicas para alcanzar sus metas de aprendizaje.",
+  "Monitorea y ajusta su desempeño durante el proceso de aprendizaje."
+ ],
+ "descripcion_nivel": "Gestiona su aprendizaje de manera autónoma al darse cuenta de lo que debe aprender, al establecer prioridades en la realización de una tarea tomando en cuenta su viabilidad para definir sus metas personales. Comprende que debe organizarse lo más realista y específicamente posible y que la planificada sea alcanzable, medible y considere los posibles estrategias, procedimientos, recursos, escenarios basados en sus experiencias y previendo posibles cambios de cursos de acción que le permitirán alcanzar la meta. Monitorea de manera permanente sus avances respecto a las metas de aprendizaje previamente establecidas al evaluar el nivel de logro de sus resultados y la viabilidad de la meta respecto de sus acciones; si lo cree conveniente realiza ajustes a los planes basado en el análisis de sus avances y los aportes de los grupos de trabajo y el suyo propio demostrando disposición a los posibles cambios.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Determina metas de aprendizaje viables sobre la base de sus potencialidades, conocimientos, estilos de aprendizaje, habilidades, limitaciones personales y actitudes para el logro de la tarea simple o compleja con destreza, formulándose preguntas de manera reflexiva de forma constante."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Organiza un conjunto de acciones en función del tiempo y de los recursos de que dispone, para la cual establece una elevada precisión en el orden y prioridad, y considera las deficiencias que enfrenta en sus acciones de manera secuenciada y articulada."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa de manera permanente los avances de las acciones propuestas en relación con su eficacia y la eficiencia de las estrategias usadas para alcanzar la meta de aprendizaje, en función de los resultados, el tiempo y el uso de los recursos. Evalúa con precisión y rapidez los resultados y si los aportes que le brinden los demás ayudarán a decidir si realizará o no cambios en las estrategias para el éxito de la meta de aprendizaje."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 226,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 817,
+  "totalTokens": 2971,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

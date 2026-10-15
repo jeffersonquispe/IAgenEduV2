@@ -1,0 +1,57 @@
+{
+ "numero_pagina_impreso": 103,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en lengua materna",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos con estructuras complejas, vocabulario variado y especializado. Integra información contrapuesta y ambigua que está en distintas partes del texto. Interpreta el texto considerando información relevante y de detalle para construir su sentido global, valiéndose de otros textos y reconociendo distintas posturas y sentidos. Reflexiona sobre formas y contenidos del texto y asume una posición sobre las relaciones de poder que este presenta. Evalúa el uso del lenguaje, la validez de la información, el estilo del texto, la intención de estrategias discursivas y recursos textuales. Explica el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural en el que fue escrito.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Identifica información explícita, relevante y complementaria seleccionando datos específicos y detalles en diversos tipos de texto de estructura compleja y con información contrapuesta y ambigua, así como falacias, paradojas, matices y vocabulario especializado. Integra información explícita cuando se encuentra en distintas partes del texto, o en distintos textos al realizar una lectura intertextual."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema, los subtemas y el propósito comunicativo del texto cuando este presenta información especializada o abstracta. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido contrastando su experiencia y conocimiento con el contexto sociocultural del texto y del autor."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto escrito (causa-efecto, semejanza-diferencia, entre otras) a partir de información de detalle, contrapuesta y ambigua del texto, o al realizar una lectura intertextual. Señala las características implícitas de seres, objetos, hechos y lugares, y determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica la intención del autor considerando diversas estrategias discursivas utilizadas, y las características del tipo textual y género discursivo. Explica diferentes puntos de vista, sesgos, falacias, ambigüedades, paradojas, matices, y contrargumentos, y el uso de la información estadística, así como las representaciones sociales presentes en el texto. Asimismo, explica el modo en que el texto construye diferentes sentidos o interpretaciones considerando la trama, diversas figuras retóricas utilizadas o la evolución de personajes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Opina sobre el contenido, la organización textual, las estrategias discursivas, las representaciones sociales y la intención del autor. Emite un juicio crítico sobre la eficacia y validez de la información, y sobre el estilo de un autor, considerando los efectos del texto en los lectores, y contrastando su experiencia y conocimiento con el contexto sociocultural del texto y del autor."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Justifica la elección o recomendación de textos de su preferencia cuando los comparte con otros. Sustenta su posición sobre las relaciones de poder e ideologías de los textos. Contrasta textos entre sí, y determina las características de tipos textuales y géneros discursivos, o de movimientos literarios."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 103,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1250,
+  "totalTokens": 3472,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

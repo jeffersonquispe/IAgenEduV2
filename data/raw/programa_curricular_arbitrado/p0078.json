@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 78,
+ "tipo": "narrativa",
+ "area": "Arte y Cultura",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Desde los inicios de la humanidad y a lo largo de la historia, hombres y mujeres han representado simbólicamente su realidad mediante la palabra, el sonido, la imagen, las acciones y los objetos manifestando ideas sobre su entorno, sus formas de vida, sus valores, sus cosmovisiones y sus identidades. Las artes son parte integral de la vida cotidiana y están presentes en todas las culturas y sociedades. Abarcan desde las formas más tradicionales incorporadas a la vida de una comunidad, como los rituales, las celebraciones, la música, los ornamentos y las artes utilitarias, hasta las formas más emergentes y contemporáneas como las animaciones digitales, el arte involucrado con la ecología, las performances, etc.\n\nA través de las artes, las personas hemos podido expresarnos, desarrollar nuestra creatividad, comprender nuestra realidad y desenvolvernos en ella, imaginando nuevas posibilidades. Asimismo, hemos podido reconocer las influencias culturales que nos rodean, e indagar acerca de quiénes somos y cómo nos relacionamos con los demás. También son un registro importante del pasado y de la manera en que nuestras sociedades han evolucionado a través del tiempo, y un vehículo para comprender cómo las personas se han enfrentado \"con ideas, necesidades y valores que pueden encontrarse en todos los tiempos y lugares\" (Chalmers 2003: 32).\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. El área de Arte y Cultura se ocupa de promover y facilitar, a lo largo de la Educación Básica, que los estudiantes desarrollen e interrelacionen las siguientes competencias:\n\n• Aprecia de manera crítica manifestaciones artístico-culturales.\n\n• Crea proyectos desde los lenguajes artísticos.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 78,
+ "_uso": {
+  "inputTokens": 2272,
+  "outputTokens": 593,
+  "totalTokens": 2865,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

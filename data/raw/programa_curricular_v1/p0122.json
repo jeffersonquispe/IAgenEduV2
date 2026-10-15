@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 122,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos complejos que tienen vocabulario variado y especializado. Interpreta integrando información para construir el sentido global de un texto contrastándolo con otros textos que presentan ideas diferentes y su contexto sociocultural. Evalúa la efectividad del contenido del texto y explica la intención de diversos elementos formales. Reflexiona sobre distintos sucesos e ideas del texto, y la relaciona con el contexto sociocultural e ideológico en el que fue escrito.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado y especializado (por ejemplo, textos que contengan ambigüedades, humor e ironía)."
+  },
+  {
+   "grado": 5,
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "grado": 5,
+   "texto": "Deduce información en textos complejos y temas de diversos campos del saber, en los que predomina el vocabulario variado y especializado."
+  },
+  {
+   "grado": 5,
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural y contrastando la información con otras fuentes de información escritas, a fin de presentar su propia posición."
+  },
+  {
+   "grado": 5,
+   "texto": "Opina sobre ideas, hechos y personajes argumentando su posición respecto del texto, e identificando el contexto social e histórico donde se ha producido."
+  },
+  {
+   "grado": 5,
+   "texto": "Explica los diferentes puntos de vista, estereotipos y sesgos de diversos tipos de texto al contrastarlos."
+  },
+  {
+   "grado": 5,
+   "texto": "Explica la intención del autor considerando el tipo de texto, el género discursivo y las estrategias discursivas empleadas en el texto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 122,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 696,
+  "totalTokens": 2785,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,75 @@
+{
+ "numero_pagina_impreso": 120,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+ "ciclo": "VI",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos complejos que tienen vocabulario variado. Relaciona información ubicada en distintas partes del texto, infiere el propósito comunicativo, el tema central y las ideas principales. Interpreta integrando información para construir el sentido de un texto relacionándolo con otros textos y su contexto sociocultural. Explica la intención de elementos formales del texto. Opina sobre sucesos e ideas del texto, y lo relaciona con el contexto sociocultural en el que fue escrito.",
+ "desempenos": [
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado. Ejemplo: textos con expresiones de sentido figurado."
+  },
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Deduce información en textos complejos (por ejemplo, en textos continuos y discontinuos) y temas de diversos campos del saber, en los que predomina el vocabulario variado."
+  },
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Opina sobre ideas, hechos y personajes, y los relaciona con su contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Desempeños de PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica la intención del autor considerando las características de los tipos textuales y la estructura del texto."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado. Ejemplo: textos con expresiones de sentido figurado."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Deduce información en textos complejos (por ejemplo, en textos continuos y discontinuos) y temas de diversos campos del saber, en los que predomina el vocabulario variado."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Opina sobre ideas, hechos y personajes, y los relaciona y contrasta con su contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "Desempeños de SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica la intención del autor considerando las características de los tipos textuales, la estructura del texto y el género usado."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 120,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1135,
+  "totalTokens": 3289,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

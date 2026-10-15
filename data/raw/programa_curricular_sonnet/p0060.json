@@ -1,0 +1,56 @@
+{
+ "numero_pagina_impreso": 60,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Gestiona responsablemente los recursos económicos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende las relaciones entre los elementos del sistema económico y financiero.",
+  "Toma decisiones económicas y financieras."
+ ],
+ "descripcion_nivel": "Gestiona responsablemente los recursos económicos al promover el ahorro y la inversión de los recursos considerando sus objetivos, riesgos y oportunidades. Asume una posición crítica frente a las actividades económicas y financieras ilícitas e informales, prácticas de producción y consumo que deterioran el ambiente y afectan los derechos humanos, el incumplimiento de las responsabilidades tributarias y de las decisiones financieras que no consideran un fin previsional. Analiza las interrelaciones entre los agentes del sistema económico y financiero global teniendo en cuenta el mercado y el comercio mundial. Explica el rol del Estado como agente supervisor del sistema financiero.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica las relaciones entre los agentes del sistema económico y financiero global (organismos financieros y organismos de cooperación internacional) reconociendo los desafíos y las oportunidades que ofrecen para el desarrollo del Perú en el marco de la globalización económica."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Describe la dinámica de los bloques económicos mundiales y el papel de los organismos financieros internacionales. Explica la importancia del mercado y el comercio internacional en esta dinámica."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Explica cómo el Estado cumple un rol regulador y supervisor dentro del sistema financiero nacional, y define la política fiscal y monetaria del país."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Propone alternativas para el uso responsable de los recursos económicos y financieros del país teniendo en cuenta los riesgos y oportunidades que ofrece el contexto económico global."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza las normas que protegen los derechos de los consumidores para tomar decisiones económicas y financieras informadas y responsables."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Sustenta una posición crítica ante prácticas económicas y financieras ilícitas e informales, y ante prácticas de producción y consumo que afectan el ambiente y los derechos humanos, así como ante el incumplimiento de responsabilidades tributarias y decisiones financieras que no tengan en cuenta un fin previsional."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 60,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 935,
+  "totalTokens": 3157,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

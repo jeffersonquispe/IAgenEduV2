@@ -1,0 +1,78 @@
+{
+ "numero_pagina_impreso": 94,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se comunica oralmente en su lengua materna",
+ "ciclo": "VI",
+ "capacidades": [
+  "Obtiene información del texto oral.",
+  "Infiere e interpreta información del texto oral.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos; infiere el tema, propósito, hechos y conclusiones a partir de información explícita e implícita, e interpreta la intención del interlocutor en discursos que contienen ironías y sesgos. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de diversos conectores y referentes, así como de un vocabulario variado y pertinente. Enfatiza significados mediante el uso de recursos no verbales y paraverbales. Reflexiona sobre el texto y evalúa su fiabilidad de acuerdo a sus conocimientos y al contexto sociocultural. Se expresa adecuándose a situaciones comunicativas formales e informales. En un intercambio, hace preguntas y utiliza las respuestas escuchadas para desarrollar sus ideas, y sus contribuciones tomando en cuenta los puntos de vista de otros.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita de los textos orales que escucha seleccionando datos específicos. Integra esta información cuando es dicha en distintos momentos, por distintos interlocutores, en textos orales que presentan sinónimos y expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y propósito comunicado del texto. Distingue lo relevante de lo complementario clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido vinculando el texto con su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto oral (causa-efecto, semejanza-diferencia, entre otras) a partir de la información explícita y presupuesiciones del texto. Señala las características implícitas de seres, objetos, hechos y lugares. Determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica las intenciones de sus interlocutores considerando el uso de recursos verbales, no verbales y paraverbales. Explica diferentes puntos de vista, contradicciones y estereotipos, así como la trama y las motivaciones de personajes en textos literarios, y algunas figuras retóricas (como la hipérbole)."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando el propósito comunicativo, el tipo textual y algunas características del género discursivo. Mantiene el registro formal o informal adaptándose a los interlocutores y sus contextos socioculturales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa oralmente ideas y emociones de forma coherente y cohesionada. Ordena y jerarquiza las ideas en torno a un tema, y las desarrolla para ampliar o precisar la información."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Recupera información explícita de los textos orales que escucha seleccionando datos específicos y algunos detalles. Integra esta información cuando es dicha en distintos momentos, o por distintos interlocutores, en textos orales que presentan información contrapuesta, sesgos, sinónimos, y expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y propósito comunicativo del texto. Distingue lo relevante de lo complementario, clasificando y sintetizando la información. Establece conclusiones sobre lo comprendido, vinculando el texto con su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas entre las ideas del texto oral (causa-efecto, semejanza-diferencia, entre otras) a partir de información contrapuesta, presupuesiciones y sesgos del texto. Señala las características implícitas de seres, objetos, hechos y lugares. Determina el significado de palabras en contexto y de expresiones con sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica las intenciones de sus interlocutores considerando el uso de algunas estrategias discursivas y recursos no verbales y paraverbales. Explica diferentes puntos de vista, contradicciones, sesgos, estereotipos, algunas figuras retóricas (como el símil, entre otras), la trama, y las motivaciones y la evolución de personajes de acuerdo con el sentido global del texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando el propósito comunicativo, el tipo textual y algunas características del género discursivo. Mantiene el registro formal o informal adaptándose a los interlocutores y sus contextos socioculturales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa oralmente ideas y emociones de forma coherente y cohesionada. Ordena y jerarquiza las ideas en torno a un tema, y las desarrolla para ampliar o precisar la información."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 94,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1820,
+  "totalTokens": 3974,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

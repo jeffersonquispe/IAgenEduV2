@@ -1,0 +1,68 @@
+{
+ "numero_pagina_impreso": 192,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno",
+ "ciclo": "VI",
+ "capacidades": [
+  "Determina una alternativa de solución tecnológica.",
+  "Diseña la alternativa de solución tecnológica.",
+  "Implementa y valida la alternativa de solución tecnológica.",
+  "Evalúa y comunica el funcionamiento y los impactos de su alternativa de solución tecnológica."
+ ],
+ "descripcion_nivel": "Diseña y construye soluciones tecnológicas al delimitar el alcance del problema tecnológico y las causas que lo generan, y propone alternativas de solución basado en conocimientos científicos. Representa la alternativa de solución, a través de esquemas o dibujos incluyendo sus partes o etapas. Establece características de forma, estructura, función y explica el procedimiento, los recursos para implementarlas, así como las herramientas y materiales seleccionados; verifica el funcionamiento de la solución tecnológica, considerando los requerimientos, detecta errores en la selección de materiales, imprecisiones en las dimensiones, procedimientos y realiza ajustes. Explica el procedimiento, conocimiento científico aplicado, así como las dificultades en el diseño e implementación, evalúa el alcance de su funcionamiento a través de pruebas considerando los requerimientos establecidos y propone mejoras. Infiere impactos de la solución tecnológica.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Describe el problema tecnológico y las causas que lo generan. Explica su alternativa de solución tecnológica sobre la base de conocimientos científicos o prácticas locales. Da a conocer los requerimientos que debe cumplir esa alternativa de solución y los recursos disponibles para construirla."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Representa su alternativa de solución con dibujos estructurados. Describe sus partes o etapas, la secuencia de pasos, sus características de forma y estructura, y su función. Selecciona instrumentos, herramientas, recursos y materiales considerando su impacto ambiental y seguridad. Prevé posibles costos y tiempo de ejecución."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Ejecuta la secuencia de pasos de su alternativa de solución manipulando materiales, herramientas e instrumentos, considerando normas de seguridad. Verifica el funcionamiento de cada parte o etapa de la solución tecnológica, detecta errores en los procedimientos o en la selección de materiales, y realiza ajustes o cambios según los requerimientos establecidos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Comprueba el funcionamiento de su solución tecnológica según los requerimientos establecidos. Explica su construcción, y los cambios o ajustes realizados sobre la base de conocimientos científicos o en prácticas locales, y determina el impacto ambiental durante su implementación y uso."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Describe el problema tecnológico y las causas que lo generan. Explica su alternativa de solución tecnológica sobre la base de conocimientos científicos o prácticas locales. Da a conocer los requerimientos que debe cumplir esa alternativa de solución, los recursos disponibles para construirla, y sus beneficios directos e indirectos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Representa su alternativa de solución con dibujos estructurados. Describe sus partes o etapas, la secuencia de pasos, sus características de forma y estructura, y su función. Selecciona instrumentos, herramientas, recursos y materiales considerando su impacto ambiental y seguridad. Prevé posibles costos y tiempo de ejecución."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Ejecuta la secuencia de pasos de su alternativa de solución manipulando materiales, herramientas e instrumentos, considerando normas de seguridad. Verifica el funcionamiento de cada parte o etapa de la solución tecnológica, detecta errores en los procedimientos o en la selección de materiales, y realiza ajustes o cambios según los requerimientos establecidos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Comprueba el funcionamiento de su solución tecnológica según los requerimientos establecidos y propone mejoras. Explica su construcción y los cambios o ajustes realizados sobre la base de conocimientos científicos o en prácticas locales, y determina el impacto ambiental durante su implementación y uso."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 192,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1513,
+  "totalTokens": 3735,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

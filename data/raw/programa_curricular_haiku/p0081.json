@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 81,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Aprecia de manera crítica manifestaciones artístico-culturales",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales al interpretar los códigos, principios y elementos de los lenguajes del arte, al participar vivencialmente de experiencias estéticas ampliando sus parámetros valorativos y lo vinculen a referentes culturales de su comunidad y de otros contextos. Investiga las interrelaciones entre las manifestaciones artístico-culturales y otros campos del conocimiento. Genera hipótesis sobre las repercusiones y legado de la obra. Evalúa la experiencia e interpreta las intenciones y significados de manifestaciones artístico-culturales y reconoce el impacto que un artista o un grupo de artistas puede tener sobre las creencias, valores y actitudes de un grupo de personas o una sociedad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales cuando reconoce en estas la función comunicativa de los elementos y códigos de los lenguajes de las artes de diversas épocas y lugares; comprende que generan diferentes reacciones en las personas y que existen diferentes maneras de interpretarlas según los referentes socioculturales de las personas que las aprecian. Investiga el impacto de los medios de comunicación, los cambios sociales y tecnológicos en las manifestaciones artístico-culturales contemporáneas y compara las diversas funciones que ha cumplido el arte en una variedad de contextos sociales, culturales e históricos. Integra la información recogida y describe cómo una manifestación artístico-cultural nos reta a interpretar sus ideas y significados. Evalúa la eficacia del uso de las técnicas utilizadas en comparación con la intención de la obra, de otros trabajos y artistas afines y hace comentarios sobre los impactos que puede tener una manifestación sobre aquellos que la observan o experimentan."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales cuando describe las características fundamentales de los diversos lenguajes del arte y las culturas que los producen, y las experimenta, manifiesta emociones e ideas, siendo consciente de que generan diferentes reacciones e interpretaciones en las personas. Investiga las creencias, cosmovisiones, tradiciones y la función social de manifestaciones artístico-culturales de diversos tiempos y lugares y distingue las diferentes maneras en que su arte para representar y reflejar la identidad de un grupo de personas. Integra la información recogida para describir la complejidad y la riqueza de la obra, así como para generar hipótesis sobre el significado y la intención del artista. Evalúa la eficacia del uso de las técnicas utilizadas en relación a las intenciones específicas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales al interpretar las cualidades expresivas de los elementos del arte, la estructura y los medios utilizados en una manifestación artístico-cultural y explica cómo transmite mensajes, ideas y sentimientos. Investiga los contextos donde se originan manifestaciones artístico-culturales tradicionales y contemporáneas e identifica cómo los cambios, las tradiciones, las creencias y los valores revelan la manera en que una determinada persona o sociedad ha vivido. Genera hipótesis sobre el significado y las diversas intenciones que puede tener una manifestación creada en contextos históricos y culturales diferentes."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales al observar, escuchar y describir las características claves de una manifestación artístico-cultural, su forma, los medios que utiliza, su contexto; describe las ideas o sentimientos que comunica. Investiga los contextos donde se origina e infiere información acerca del lugar, la época y la cultura donde fue creada. Integra la información recogida y describe de qué manera una manifestación artístico-cultural comunica ideas, sentimientos e intenciones."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Aprecia de manera crítica manifestaciones artístico-culturales al observar, escuchar y describir las características visuales, táctiles, sonoras y kinestésicas de estas manifestaciones, describiendo las sensaciones que le transmiten. Participa de conversaciones sobre los contextos donde se originan manifestaciones artístico-culturales y reconoce que responden a características propias de un grupo de personas, de tiempos y lugares diferentes. Expresa sus preferencias sobre manifestaciones artísticas que observa o experimenta y conversa sobre los temas, las ideas y sentimientos que comunican."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene principalmente como base el nivel 2 de la competencia \"Crea proyectos desde los lenguajes artísticos\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene principalmente como base el nivel 1 de la competencia \"Crea proyectos desde los lenguajes artísticos\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 81,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1483,
+  "totalTokens": 3572,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

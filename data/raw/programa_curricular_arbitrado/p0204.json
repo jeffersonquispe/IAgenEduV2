@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 204,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "CONSTRUYE SU IDENTIDAD COMO PERSONA HUMANA, AMADA POR DIOS, DIGNA, LIBRE Y TRASCENDENTE, COMPRENDIENDO LA DOCTRINA DE SU PROPIA RELIGIÓN, ABIERTO AL DIÁLOGO CON LAS QUE LE SON CERCANAS.",
+ "ciclo": null,
+ "capacidades": [
+  "Conoce a Dios y asume su identidad religiosa y espiritual como persona digna, libre y trascendente: el estudiante comprende las distintas manifestaciones de Dios en su vida a partir del encuentro con Él, basado en la tradición cristiana, para construir un plan de vida significativo y pleno.",
+  "Cultiva y valora las manifestaciones religiosas de su entorno argumentando su fe de manera comprensible y respetuosa: el estudiante conoce, valora y celebra su fe participando de las diferentes manifestaciones religiosas presentes en su comunidad. Asimismo, difunde el patrimonio religioso y cultural dando razones de su fe, y respetando las diversas creencias y expresiones religiosas de los demás."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.11.2. Competencias, capacidades, estándares de aprendizaje y sus desempeños por grado\n\nEl estudiante descubre y asume que existe un Ser y una Verdad trascendentes, que le dan una identidad y una dignidad humanas y toma conciencia de que es hijo de Dios, creado a su imagen y semejanza, reconociendo su acción providente en la propia vida a través de la búsqueda reflexiva del sentido de la existencia. Desde esta conciencia, el estudiante, como persona digna, libre y trascendente, aprenderá a relacionarse consigo mismo, con los demás, con la naturaleza y con Dios como origen y fin último de todo lo creado.\n\nEsta competencia permite al estudiante comprender la doctrina cristiana en su dimensión espiritual, religiosa y trascendente, estableciendo un diálogo interdisciplinar entre fe y cultura, fe y ciencia, fe y vida, y fe y otras cosmovisiones para actuar con libertad, autonomía y responsabilidad frente a la vida. Le permite el respeto y diálogo con otras creencias presentes en la sociedad. Con ello, se propicia el desarrollo moral, ético, espiritual, religioso, psicológico y cultural del estudiante.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 204,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 717,
+  "totalTokens": 2939,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

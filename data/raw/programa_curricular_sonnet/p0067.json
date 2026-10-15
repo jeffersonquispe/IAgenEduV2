@@ -1,0 +1,41 @@
+{
+ "numero_pagina_impreso": 67,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se desenvuelve de manera autónoma a través de su motricidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende su cuerpo.",
+  "Se expresa corporalmente."
+ ],
+ "descripcion_nivel": "Se desenvuelve de manera autónoma a través de su motricidad cuando toma conciencia de cómo su imagen corporal contribuye a la construcción de su identidad y autoestima. Organiza su cuerpo en relación a las acciones y habilidades motrices según la práctica de actividad física que quiere realizar. Produce con sus compañeros diálogos corporales que combinan movimientos en los que expresan emociones, sentimientos y pensamientos sobre temas de su interés en un determinado contexto.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Coordina su cuerpo y da respuestas motrices eficaces durante la práctica de diversas actividades físicas, monitoreando las mejoras en el control de su cuerpo en donde se aplique la comprensión de las fases de movimiento, y la preparación y ejecución de las acciones, con seguridad y confianza."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Se adapta a los cambios que experimenta su cuerpo en relación con su imagen corporal en la adolescencia durante la práctica de actividades lúdicas, recreativas, predeportivas y deportivas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Elabora con sus compañeros diálogos corporales con seguridad y confianza (secuencias rítmicas de movimiento, gestos, coreografías, imágenes, figuras corporales expresivas, etc.), que combinen movimiento y representación de expresiones emocionales y afectivas, en un determinado contexto histórico y cultural."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 67,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 647,
+  "totalTokens": 2869,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

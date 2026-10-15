@@ -1,0 +1,58 @@
+{
+ "numero_pagina_impreso": 212,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Asume la experiencia del encuentro personal y comunitario con Dios en su proyecto de vida en coherencia con su creencia religiosa",
+ "ciclo": "VII",
+ "capacidades": [
+  "Transforma su entorno desde el encuentro personal y comunitario con Dios y desde la fe que profesa.",
+  "Actúa coherentemente en razón de su fe según los principios de su conciencia moral en situaciones concretas de la vida."
+ ],
+ "descripcion_nivel": "Demuestra coherencia entre lo que cree, dice y hace en su proyecto de vida personal, a la luz del mensaje bíblico y los documentos del Magisterio de la iglesia. Vivencia la dimensión religiosa, espiritual y trascendente, que le permite cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio buscando soluciones a los desafíos actuales. Promueve el encuentro personal y comunitario con Dios en diversos contextos desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por la enseñanza de discípulo y de la iglesia. Asume su protagonismo en la transformación de la sociedad a partir de las enseñanzas de Jesucristo en marco ético y moral cristiano.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa en su proyecto de vida personal coherencia entre lo que cree y hace a la luz del mensaje bíblico y los documentos del Magisterio de la iglesia."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Cultiva su dimensión religiosa, espiritual y trascendente que le permite cooperar en la transformación de sí mismo y de su entorno a la luz del evangelio."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Discierne los acontecimientos de la vida desde el encuentro personal con Dios en su familia y en su escuela, con acciones orientadas a la construcción de una comunidad de fe, inspirada en Jesucristo."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Acepta su rol en la transformación de la sociedad a partir de las enseñanzas de Jesucristo."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa en su proyecto de vida personal y comunitario coherencia entre lo que cree, dice y hace, contrastándolo con la realidad a la luz del mensaje bíblico y los documentos del Magisterio de la iglesia."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Cultiva su dimensión religiosa, espiritual y trascendente a partir de la celebración de su fe, que le permite cooperar en la transformación de sí mismo y de su entorno a la luz del Evangelio buscando soluciones a los desafíos actuales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Propone situaciones de encuentro personal con Dios, en su familia, en su escuela y en su comunidad desde un discernimiento espiritual, con acciones orientadas a la construcción de una comunidad de fe guiada por las enseñanzas de Jesucristo y de la iglesia."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Ejerce, desde la ética y la moral cristiana, su rol protagónico en la transformación de la sociedad a partir de las enseñanzas de Jesucristo y de la iglesia."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 212,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1150,
+  "totalTokens": 3304,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

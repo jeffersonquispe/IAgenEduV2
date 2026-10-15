@@ -1,0 +1,51 @@
+{
+ "numero_pagina_impreso": 46,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Construye interpretaciones históricas",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Construye interpretaciones históricas en las que reconoce que el presente es consecuencia de un conjunto de dinámicas sociales que se desarrollaron simultáneamente en el pasado y que las acciones de los diversos actores sociales tienen consecuencias en el futuro. Argumenta que la percepción del tiempo depende de la perspectiva de los grupos culturales, tanto en el pasado como en el presente. Justifica y valora la utilidad de las fuentes para la construcción del conocimiento histórico."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Construye interpretaciones históricas sobre la base de los problemas históricos del Perú y el mundo en relación a los grandes cambios, permanencias y simultaneidades a lo largo de la historia, empleando conceptos sociales, políticos y económicos abstractos y complejos. Jerarquiza múltiples causas y consecuencias de los hechos o procesos históricos. Establece relaciones entre estos procesos históricos y situaciones o procesos actuales. Explica cómo las acciones humanas, individuales o grupales van configurando el pasado y el presente y pueden configurar el futuro. Explica la perspectiva de los protagonistas, relacionando sus acciones con sus motivaciones. Contrasta diversas interpretaciones del pasado, a partir de distintas fuentes evaluadas en su contexto y perspectiva. Reconoce la validez de las fuentes para comprender variados puntos de vista."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Construye interpretaciones históricas sobre hechos o procesos del Perú y el mundo, en los que explica hechos o procesos históricos, a partir de la clasificación de las causas y consecuencias, reconociendo sus cambios y permanencias, usando términos históricos. Explica su relevancia a partir de los cambios y permanencias que generan en el tiempo, identificando similitudes y diferencias. Emplea distintos referentes y convenciones temporales, así como conceptos relacionados a instituciones sociopolíticas y la economía. Compara e integra información de diversas fuentes, estableciendo diferencias entre las narraciones de los hechos y las interpretaciones de los autores de las fuentes."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Construye interpretaciones históricas en las que narra hechos y procesos relacionados a la historia de su región, en los que incorpora más de una dimensión y reconoce diversas causas y consecuencias. Utiliza información de diversas fuentes a partir de identificar las más pertinentes para responder sus preguntas. Organiza secuencias para comprender cambios ocurridos a través del tiempo, aplicando términos relacionados al tiempo."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Construye interpretaciones históricas en las que describe los cambios ocurridos en su familia y comunidad a partir de comparar el presente y el pasado, y de reconocer algunas causas y consecuencias de estos cambios. Obtiene información sobre el pasado de diversos tipos de fuentes, así como expresiones temporales propias de la vida cotidiana. Secuencia hechos y acciones cotidianas ocurridos en períodos de tiempo cortos e identifica acciones simultáneas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Este nivel tiene como base el nivel 2 de las competencias \"Convive y participa\" y \"Resuelve problemas de cantidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene como base el nivel 1 de las competencias \"Convive y participa\" y \"Resuelve problemas de cantidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 46,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1114,
+  "totalTokens": 3203,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

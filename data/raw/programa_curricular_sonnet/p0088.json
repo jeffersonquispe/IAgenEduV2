@@ -1,0 +1,67 @@
+{
+ "numero_pagina_impreso": 88,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Crea proyectos desde los lenguajes artísticos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Explora y experimenta los lenguajes artísticos.",
+  "Aplica procesos creativos.",
+  "Evalúa y comunica sus procesos y proyectos."
+ ],
+ "descripcion_nivel": "Crea proyectos artísticos que comunican de manera efectiva ideas o asuntos pertinentes a su realidad y a audiencias en particular. Selecciona y prueba nuevas maneras de combinar elementos de los diversos lenguajes artísticos para lograr sus propósitos comunicativos y expresivos. Experimenta con medios convencionales y no convencionales, materiales y técnicas de acuerdo a sus intenciones y muestra dominio en su uso y el desarrollo inicial de un estilo personal. Innova y toma riesgos para concretizar sus ideas y va modificando sus trabajos de acuerdo a descubrimientos que surgen en el proceso de creación artística. Genera ideas de manera interdisciplinaria y planifica proyectos artísticos de manera individual o colaborativa. Utiliza una variedad de referentes culturales, tomando en cuenta tanto prácticas tradicionales como nuevas tecnologías. Toma decisiones al combinar y manipular los elementos del arte para encontrar la manera más efectiva de comunicar mensajes, experiencias, ideas y sentimientos. Registra de manera visual y escrita los procesos usados en el desarrollo de sus propios trabajos. Planifica y adecúa sus presentaciones de acuerdo al público. Evalúa la efectividad de su proyecto, describiendo el impacto del proyecto para él mismo y para la comunidad.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante crea proyectos desde los lenguajes artísticos y se encuentra en proceso hacia el nivel esperado del ciclo VII, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Utiliza y combina de diferentes maneras elementos de los lenguajes artísticos para potenciar sus intenciones comunicativas o expresivas. Ensaya las posibilidades expresivas de los medios, las técnicas y las tecnologías, y practica con aquellos que no le son familiares, con el fin de aplicarlos en sus creaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Elabora y ejecuta un plan para desarrollar un proyecto artístico con un propósito específico (por ejemplo, para resolver un problema de violencia de género). Obtiene, selecciona y usa información que le es significativa de diversos referentes artístico-culturales, o de otros tipos. Aplica técnicas y medios para comunicar de manera efectiva el mensaje o idea."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Registra las diversas fuentes de información que ha usado para generar ideas, así como las imágenes y documentos que ilustran el proceso de desarrollo de su proyecto artístico. Asume diversos roles en la presentación de sus proyectos y participa de algunas estrategias de difusión para convocar al público al que se dirige."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante crea proyectos desde los lenguajes artísticos y se encuentra en proceso hacia el nivel esperado del ciclo VII, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza y combina de diferentes maneras elementos, medios, herramientas y técnicas convencionales y no convencionales para potenciar sus intenciones comunicativas o expresivas y para enriquecer sus formas de representación. Ejemplo: El estudiante experimenta formas de manipular fotografías y combinarlas con técnicas de pintura que usará para crear un paisaje con técnica mixta."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Elabora y ejecuta un plan para desarrollar un proyecto artístico interdisciplinario que brinde soluciones innovadoras para resolver problemas planteados colectivamente. Recoge información relevante y de diversas fuentes con un propósito específico. Aplica técnicas y medios tradicionales y no tradicionales para comunicar de manera efectiva el mensaje o la idea."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Mantiene un registro visual o escrito de los procesos usados para crear sus proyectos a lo largo del año. Asume diferentes roles en la organización y la presentación de su proyectos tomando en cuenta sus propósitos, el público al que se dirige y el contexto, para potenciar el efecto que espera generar. Evalúa el impacto de sus proyectos en él mismo y en los demás."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 88,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1518,
+  "totalTokens": 3740,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 63,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "SE DESENVUELVE DE MANERA AUTÓNOMA A TRAVÉS DE SU MOTRICIDAD",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende su cuerpo: es decir, interioriza su cuerpo en estado estático o en movimiento en relación al espacio, el tiempo, los objetos y demás personas de su entorno.",
+  "Se expresa corporalmente: usa el lenguaje corporal para comunicar emociones, sentimientos y pensamientos. Implica utilizar el tono, los gestos, mímicas, posturas y movimientos para expresarse, desarrollando la creatividad al usar todos los recursos que ofrece el cuerpo y el movimiento."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "6.3.2. Competencias, capacidades, estándares de aprendizaje y sus desempeños por grado\n\nCompetencia SE DESENVUELVE DE MANERA AUTÓNOMA A TRAVÉS DE SU MOTRICIDAD. El estudiante comprende y toma conciencia de sí mismo en interacción con el espacio y las personas de su entorno, lo que contribuye a construir su identidad y autoestima. Interioriza y organiza sus movimientos eficazmente según sus posibilidades, en la práctica de actividades físicas como el juego, el deporte y aquellas que se desarrollan en la vida cotidiana. Asimismo, es capaz de expresar y comunicar a través de su cuerpo: ideas, emociones y sentimientos con gestos, posturas, tono muscular, entre otros.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 63,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 493,
+  "totalTokens": 2715,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

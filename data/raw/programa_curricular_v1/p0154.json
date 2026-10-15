@@ -1,0 +1,28 @@
+{
+ "numero_pagina_impreso": 154,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [
+  "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las propiedades de las operaciones con raíces inexactas al deducir propiedades especiales. Usa este entendimiento para interpretar las condiciones de un problema en su contexto. Establece relaciones entre representaciones.",
+  "Selecciona, emplea y combina estrategias de cálculo y estimación, recursos y procedimientos diversos para realizar operaciones con números racionales; para determinar tasas de interés y el valor de impuesto a las transacciones financieras (ITF); y para simplificar procesos usando las propiedades de los números y las operaciones, según se adecúen a las condiciones de la situación.",
+  "Selecciona y usa unidades e instrumentos pertinentes para medir o estimar la masa, el tiempo o la temperatura; y realizar conversiones entre unidades y subunidades, de acuerdo con las condiciones de la situación planteada.",
+  "Selecciona, emplea y combina estrategias de cálculo y estimación, recursos y procedimientos diversos para determinar equivalencias entre expresiones fraccionarias y decimales, y viceversa.",
+  "Plantea afirmaciones sobre las propiedades de las operaciones con números racionales, las equivalencias entre tasas de interés, u otras relaciones que descubre, así como las relaciones numéricas entre las operaciones. Justifica dichas afirmaciones usando ejemplos y propiedades de los números y las operaciones, y comprueba la validez de sus afirmaciones."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 154,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 493,
+  "totalTokens": 2582,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,66 @@
+{
+ "numero_pagina_impreso": 206,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+ "ciclo": "VI",
+ "capacidades": [
+  "Conoce a Dios y asume su identidad religiosa y spiritual como persona digna, libre y trascendente.",
+  "Cultiva y valora las manifestaciones religiosas de su entorno argumentando su fe de manera comprensible y respetuosa."
+ ],
+ "descripcion_nivel": "Argumenta la presencia de Dios en la creación y su manifestación en el Plan de Salvación descritos en la Biblia, como alguien cercano al ser humano, que lo busca, interpela y acoge. Comprende el cumplimiento de la promesa de salvación y la plenitud de la revelación desde las enseñanzas del Evangelio. Propone acciones que favorecen el respeto por la vida humana y la práctica del bien común en la sociedad. Participa en las diferentes manifestaciones de fe propias de su comunidad en diálogo con otras creencias religiosas. Demuestra sensibilidad ante las necesidades del prójimo desde las enseñanzas del Evangelio y de la Iglesia.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica que Dios se revela en la Historia de la Salvación descrita en la Biblia comprendiendo que la dignidad de la persona humana reside en el conocimiento y amor a Dios, a sí mismo, a los demás y a la naturaleza."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Analiza en las enseñanzas de Jesucristo el cumplimiento de la promesa de salvación y la plenitud de la revelación."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Promueve la práctica de acciones que fomenten el respeto por la vida humana y el bien común."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Acoge expresiones de fe propias de su identidad cristiana y católica presentes en su comunidad y respetando las diversas creencias religiosas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Toma conciencia de las necesidades del prójimo para actuar de acuerdo con las enseñanzas del Evangelio y de la Iglesia."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGÚN GRADO DE SECUNDARIA",
+   "texto": "Argumenta que Dios se revela en la Historia de la Salvación descrita en la Biblia y en su historia personal comprendiendo que la dignidad de la persona humana reside en el conocimiento y amor a Dios, a sí mismo, a los demás y a la naturaleza."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGÚN GRADO DE SECUNDARIA",
+   "texto": "Comprende que Jesucristo es la plenitud de la revelación y el cumplimiento de las promesas de salvación, a la luz del Evangelio."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGÚN GRADO DE SECUNDARIA",
+   "texto": "Propone alternativas de solución a los diferentes problemas y necesidades que afectan la vida y el bien común."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGÚN GRADO DE SECUNDARIA",
+   "texto": "Expresa su fe participando en las celebraciones propias de su comunidad con una actitud de diálogo y respeto mutuo entre las diversas creencias religiosas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGÚN GRADO DE SECUNDARIA",
+   "texto": "Actúa de acuerdo con las enseñanzas del Evangelio y de la Iglesia ante las necesidades del prójimo y de su entorno."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 206,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1226,
+  "totalTokens": 3380,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

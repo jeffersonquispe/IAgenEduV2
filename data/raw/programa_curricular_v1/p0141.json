@@ -1,0 +1,31 @@
+{
+ "numero_pagina_impreso": 141,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de texto en inglés con algunas estructuras complejas y vocabulario variado y especializado. Integra información contrapuesta ubicada en distintas partes del texto. Interpreta el texto integrando la idea principal con información específica para construir su sentido global. Reflexiona sobre las formas y contenidos del texto. Evalúa el uso del lenguaje y los recursos textuales, así como el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural.",
+ "desempenos": [
+  {
+   "grado": null,
+   "texto": "Cuando el estudiante lee diversos tipos de textos en inglés como lengua extranjera y logra el nivel esperado del ciclo VII, realiza desempeños como los siguientes:\n• Identifica información explícita, relevante, complementaria y contrapuesta integrando datos que se encuentran en distintas partes del texto o en distintos textos al realizar una lectura intertextual, que contienen elementos complejos en su estructura y vocabulario especializado, en diversos tipos de textos escritos en inglés.\n• Deduce diversas relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerarquías (ideas principales y complementarias, y conclusiones) en textos escritos en inglés a partir de información explícita e implícita. Señala las características de seres, objetos, lugares y hechos, y el significado de palabras, frases y expresiones en contexto.\n• Explica el tema y el propósito comunicativo. Ejemplo: Discutir acerca de modales, libros, lenguaje corporal, inventos, competencias para el trabajo, desastres naturales y emergencias; reportar una emergencia; expresar arrepentimiento; reportar noticias. Distingue lo relevante de lo complementario clasificando y sintetizando la información, vinculando el texto con su experiencia para construir el sentido del texto escrito en inglés, y relacionándolo con su experiencia y sus conocimientos, y con otros textos, lenguajes y contextos.\n• Opina en inglés de manera oral o escrita sobre el contenido, recursos textuales y organización del texto escrito en inglés, así como sobre el propósito comunicativo y la intención del autor a partir de su experiencia y contexto. Compara textos entre sí para señalar características comunes de los tipos textuales y géneros discursivos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 141,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 784,
+  "totalTokens": 2873,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

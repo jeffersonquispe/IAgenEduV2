@@ -1,0 +1,69 @@
+{
+ "numero_pagina_impreso": 182,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Indaga mediante métodos científicos para construir conocimientos",
+ "ciclo": "VII",
+ "capacidades": [
+  "Problematiza situaciones.",
+  "Diseña estrategias para hacer indagación.",
+  "Genera y registra datos e información.",
+  "Analiza datos e información.",
+  "Evalúa y comunica el proceso y resultados de su indagación."
+ ],
+ "descripcion_nivel": "Indaga a partir de preguntas y plantea hipótesis sobre base en conocimientos científicos y observaciones previas. Elabora el plan de observaciones o experimentos y los argumenta utilizando principios científicos y los objetivos planteados. Realiza mediciones y comparaciones sistemáticas que evidencian la acción de diversos tipos de variables. Analiza tendencias y relaciones en los datos tomando en cuenta el error y reproducibilidad, los interpreta en base en conocimientos científicos e formula conclusiones, las argumenta apoyándose en sus resultados e información confiable. Evalúa la fiabilidad de los métodos y las interpretaciones de los resultados de su indagación.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Formula preguntas sobre el hecho, fenómeno u objeto natural o tecnológico para delimitar el problema por indagar. Determina el comportamiento de las variables, y plantea hipótesis basadas en conocimientos científicos, en las que establece relaciones de causalidad entre las variables que serán investigadas. Considera las variables intervinientes que pueden influir en su indagación y elabora los objetivos."
+  },
+  {
+   "grado": 3,
+   "texto": "Propone y fundamenta, sobre la base de los objetivos de su indagación e información científica, procedimientos que le permitan observar, manipular y medir variables y el tiempo por emplear, las medidas de seguridad, y las herramientas, materiales e instrumentos de recojo de datos cualitativos/cuantitativos para confirmar o refutar la hipótesis."
+  },
+  {
+   "grado": 3,
+   "texto": "Obtiene datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Realiza los ajustes en sus procedimientos y controla las variables intervinientes. Organiza los datos y hace cálculos de medidas de tendencia central, proporcionalidad u otros, y los representa en gráficas."
+  },
+  {
+   "grado": 3,
+   "texto": "Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud diferencia u otros. Identifica regularidades y tendencias. Contrasta los resultados con su hipótesis e información para confirmar o refutar su hipótesis, y elabora conclusiones."
+  },
+  {
+   "grado": 3,
+   "texto": "Sustenta, sobre la base de conocimientos científicos, sus conclusiones, procedimientos, mediciones, cálculos y ajustes realizados, y si permitieron demostrar su hipótesis y lograr el objetivo. Comunica su indagación a través de medios virtuales o presenciales."
+  },
+  {
+   "grado": 4,
+   "texto": "Formula preguntas sobre el hecho, fenómeno u objeto natural o tecnológico que indaga para delimitar el problema. Determina el comportamiento de las variables, y plantea hipótesis basadas en conocimientos científicos, en las que establece relaciones de causalidad entre las variables que serán investigadas. Considera las variables intervinientes que influirán en su indagación y elabora los objetivos."
+  },
+  {
+   "grado": 4,
+   "texto": "Propone y fundamenta, sobre la base de los objetivos de su indagación e información científica, procedimientos que le permitan observar, manipular y medir variables; el tiempo por emplear; las medidas de seguridad; las herramientas, materiales e instrumentos de recojo de datos cualitativos/cuantitativos; y el margen de error. Estos procedimientos también le permitirán prever un grupo de control para confirmar o refutar la hipótesis."
+  },
+  {
+   "grado": 4,
+   "texto": "Obtiene y organiza datos cualitativos/cuantitativos a partir de la manipulación de la variable independiente y mediciones repetidas de la variable dependiente. Realiza ajustes en sus procedimientos o instrumentos y controla las variables intervinientes; hace cálculos de medidas de tendencia central, proporcionalidad u otros, obtiene el margen de error, y representa sus resultados en gráficas."
+  },
+  {
+   "grado": 4,
+   "texto": "Compara los datos obtenidos (cualitativos y cuantitativos) para establecer relaciones de causalidad, correspondencia, equivalencia, pertenencia, similitud diferencia u otros. Identifica regularidades y tendencias. Contrasta los resultados con su hipótesis e información científica para confirmar o refutar su hipótesis, y elabora conclusiones."
+  },
+  {
+   "grado": 4,
+   "texto": "Sustenta, sobre la base de conocimientos científicos, sus conclusiones, procedimientos y la reducción del error a través del uso del grupo de control, repetición de mediciones, cálculos y ajustes realizados en la obtención de resultados válidos y fiables para demostrar la hipótesis y lograr el objetivo. Comunica su indagación a través de medios virtuales o presenciales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 182,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1504,
+  "totalTokens": 3593,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

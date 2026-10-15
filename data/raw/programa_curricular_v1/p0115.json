@@ -1,0 +1,118 @@
+{
+ "numero_pagina_impreso": 115,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se comunica oralmente en castellano como segunda lengua",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto oral.",
+  "Infiere e interpreta información del texto oral.",
+  "Adecúa, organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza recursos no verbales y paraverbales de forma estratégica.",
+  "Interactúa estratégicamente con distintos interlocutores.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto oral."
+ ],
+ "descripcion_nivel": "Se comunica oralmente mediante diversos tipos de textos. Interpreta las intenciones del interlocutor. Se expresa adecuándose al propósito, a su interlocutor, al género discursivo y a los registros; usa vocabulario especializado. Organiza y desarrolla ideas en torno a un tema y las presenta mediante recursos cohesivos. Utiliza recursos no verbales y paraverbales para producir efecto en el interlocutor. Reflexiona y evalúa sobre lo que escucha de acuerdo a sus conocimientos del tema y del contexto sociocultural. En un intercambio, participa sustentando sus ideas.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Recupera información explícita de textos orales seleccionando datos específicos del texto que escucha. Integra información dicha por distintos interlocutores."
+  },
+  {
+   "grado": 3,
+   "texto": "Deduce relaciones lógicas entre las ideas del texto oral, como las secuencias temporales, las relaciones de semejanza y diferencia y de causa-efecto, entre otras."
+  },
+  {
+   "grado": 3,
+   "texto": "Señala las características implícitas de personas, personajes, animales, objetos, lugares, así como el significado de las palabras a partir de información explícita en el texto oral."
+  },
+  {
+   "grado": 3,
+   "texto": "Deduce información implícita en el texto al relacionar información explícita y sus saberes de su contexto sociocultural."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica el tema y el propósito comunicativo del texto oral a partir de su contexto sociocultural distinguiendo lo relevante de lo complementario y sintetizando la información."
+  },
+  {
+   "grado": 3,
+   "texto": "Opina sobre el contenido, el propósito comunicativo del texto oral y las intenciones de los interlocutores a partir de su experiencia y los contextos socioculturales de los interlocutores."
+  },
+  {
+   "grado": 3,
+   "texto": "Justifica su posición sobre lo que escucha, su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "grado": 3,
+   "texto": "Determina si es confiable la información proporcionada considerando los recursos no verbales (gestos y expresión corporal) y paraverbales (ritmo, entonación, volumen de voz, pausas)."
+  },
+  {
+   "grado": 3,
+   "texto": "Evalúa la adecuación del texto a la situación comunicativa a partir de su experiencia, de la relación con otros textos y de los contextos socioculturales."
+  },
+  {
+   "grado": 3,
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando a sus interlocutores y el propósito. Mantiene un registro formal o informal de acuerdo con la situación."
+  },
+  {
+   "grado": 3,
+   "texto": "Expresa ideas manteniéndose dentro del tema. Ordena y jerarquiza las ideas relacionándolas mediante"
+  },
+  {
+   "grado": 4,
+   "texto": "Recupera información explícita de textos orales seleccionando datos específicos del texto que escucha. Integra información dicha por distintos interlocutores."
+  },
+  {
+   "grado": 4,
+   "texto": "Deduce relaciones lógicas entre las ideas del texto oral, como las secuencias temporales, las relaciones de semejanza y diferencia y de causa-efecto, entre otras."
+  },
+  {
+   "grado": 4,
+   "texto": "Señala las características implícitas de personas, personajes, animales, objetos, lugares, así como el significado de las palabras a partir de información explícita en el texto oral."
+  },
+  {
+   "grado": 4,
+   "texto": "Deduce información implícita en el texto al relacionar información explícita y sus saberes de su contexto sociocultural."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica el tema y el propósito comunicativo del texto oral a partir de su contexto sociocultural distinguiendo lo relevante de lo complementario y sintetizando la información."
+  },
+  {
+   "grado": 4,
+   "texto": "Opina sobre el contenido, el propósito comunicativo del texto oral y las intenciones de los interlocutores a partir de su experiencia y los contextos socioculturales de los interlocutores."
+  },
+  {
+   "grado": 4,
+   "texto": "Justifica su posición sobre lo que escucha, su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "grado": 4,
+   "texto": "Determina si es confiable la información proporcionada considerando los recursos no verbales (gestos y expresión corporal) y paraverbales (ritmo, entonación, volumen de voz, pausas)."
+  },
+  {
+   "grado": 4,
+   "texto": "Evalúa la adecuación del texto a la situación comunicativa a partir de su experiencia, de la relación con otros textos y de los contextos socioculturales."
+  },
+  {
+   "grado": 4,
+   "texto": "Adecúa el texto oral a la situación comunicativa considerando a sus interlocutores, el propósito y las características del género discursivo. Mantiene un registro formal o informal de acuerdo con la situación."
+  },
+  {
+   "grado": 4,
+   "texto": "Expresa ideas manteniéndose dentro del tema."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 115,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1744,
+  "totalTokens": 3833,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

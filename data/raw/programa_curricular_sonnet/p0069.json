@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 69,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Asume una vida saludable",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Asume una vida saludable cuando investiga sobre las causas que generan los principales problemas y trastornos posturales del aparato locomotor y comprende cómo los desórdenes alimenticios, los malos hábitos y la ingesta de sustancias perjudiciales, influyen sobre su salud y su bienestar. Organiza eventos con el fin de promover la actividad física y la salud en la comunidad educativa; elabora planes de actividad física orientados a la mejora de su calidad de vida incluyendo prácticas de alimentación saludable y consumo responsable."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Asume una vida saludable cuando evalúa sus necesidades calóricas y toma en cuenta su gasto calórico diario, los alimentos que consume, su origen e inocuidad, y las características de la actividad física que practica. Elabora un programa de actividad física y alimentación saludable, interpretando los resultados de las pruebas de aptitud física, entre otras, para mantener y/o mejorar su bienestar. Participa regularmente en sesiones de actividad física de diferente intensidad y promueve campañas donde se promocione la salud integrada al bienestar colectivo."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Asume una vida saludable cuando comprende los beneficios que la práctica de actividad física produce sobre su salud, para mejorar su calidad de vida. Conoce su estado nutricional e identifica los beneficios nutritivos y el origen de los alimentos, promueve el consumo de alimentos de su región, analiza la proporción adecuada de ingesta para mejorar su rendimiento físico y mental. Analiza los hábitos perjudiciales para su organismo. Realiza prácticas de higiene personal y del ambiente. Adopta posturas adecuadas para evitar lesiones y accidentes en la práctica de actividad física y en la vida cotidiana. Realiza prácticas que ayuden a mejorar sus capacidades físicas con las que regula su esfuerzo controlando su frecuencia cardiaca y respiratoria, al participar en sesiones de actividad física de diferente intensidad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Asume una vida saludable cuando utiliza instrumentos que miden la aptitud física y estado nutricional e interpreta la información de los resultados obtenidos para mejorar su calidad de vida. Replantea sus hábitos saludables, higiénicos y alimenticios tomando en cuenta los cambios físicos propios de la edad, evita la realización de ejercicios y posturas contraindicadas para la salud en la práctica de actividad física. Incorpora prácticas saludables para su organismo consumiendo alimentos adecuados a las características personales y evitando el consumo de drogas. Propone ejercicios de activación y relajación antes, durante y después de la práctica y participa en actividad física de distinta intensidad regulando su esfuerzo."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Asume una vida saludable cuando diferencia los alimentos de su dieta personal, familiar y de su región que son saludables de los que no lo son. Previene riesgos relacionados con la postura e higiene conociendo aquellas que favorecen y no favorecen su salud e identifica su fuerza, resistencia y velocidad en la práctica de actividades lúdicas. Adapta su esfuerzo en la práctica de actividad física de acuerdo a las características de la actividad y a sus posibilidades, aplicando conocimientos relacionados con el ritmo cardiaco, la respiración y la sudoración. Realiza prácticas de activación corporal y psicológica, e incorpora el autocuidado relacionado con los ritmos de actividad y descanso para mejorar el funcionamiento de su organismo."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Asume una vida saludable cuando diferencia los alimentos saludables de su dieta personal y familiar, los momentos adecuados para ingerirlos y las posturas que lo ayudan al buen desempeño en la práctica de actividades físicas, recreativas y de la vida cotidiana, reconociendo la importancia del autocuidado. Participa regularmente en la práctica de actividades lúdicas identificando su ritmo cardiaco, respiración y sudoración; utiliza prácticas de activación corporal y psicológica antes de la actividad lúdica."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene principalmente como base el nivel 2 de la competencia \"Se desenvuelve de manera autónoma a través de su motricidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene principalmente como base el nivel 1 de la competencia \"Se desenvuelve de manera autónoma a través de su motricidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 69,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1466,
+  "totalTokens": 3688,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

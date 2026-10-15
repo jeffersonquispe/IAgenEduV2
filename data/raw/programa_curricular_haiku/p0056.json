@@ -1,0 +1,25 @@
+{
+ "numero_pagina_impreso": 56,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "GESTIONA RESPONSABLEMENTE LOS RECURSOS ECONÓMICOS",
+ "ciclo": null,
+ "capacidades": [
+  "Comprende las relaciones entre los elementos del sistema económico y financiero: supone identificar los roles de los diversos agentes que intervienen en el sistema, analizar las interacciones entre ellos y comprender el rol del Estado en dichas interrelaciones.",
+  "Toma decisiones económicas y financieras: supone planificar el uso de sus recursos económicos de manera sostenible, en función a sus necesidades y posibilidades. También implica entender los sistemas de producción y de consumo, así como ejercer sus derechos y deberes como consumidor informado."
+ ],
+ "descripcion_nivel": "El estudiante es capaz de administrar los recursos, tanto personales como familiares, a partir de asumir una postura crítica sobre el manejo de estos, de manera informada y responsable. Esto supone reconocerse como agente económico, comprender la función de los recursos económicos en la satisfacción de las necesidades y el funcionamiento del sistema económico y financiero.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 56,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 356,
+  "totalTokens": 2510,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

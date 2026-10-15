@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 172,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de gestión de datos e incertidumbre",
+ "ciclo": "VI",
+ "capacidades": [
+  "Representa datos con gráficos y medidas estadísticas o probabilísticas.",
+  "Comunica su comprensión de los conceptos estadísticos y probabilísticos.",
+  "Usa estrategias y procedimientos para recopilar y procesar datos.",
+  "Sustenta conclusiones o decisiones con base en la información obtenida."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que plantea temas de estudio, identificando la población pertinente y las variables cuantitativas continúas, así como cualitativas nominales y ordinales. Recolecta datos mediante encuestas y los registra en tablas de datos agrupados, así también determina la media aritmética y mediana de datos discretos; representa su comportamiento en histogramas, polígonos de frecuencia, gráficos circulares, tablas de frecuencia y medidas de tendencia central; usa el significado de las medidas de tendencia central para interpretar y comparar la información contenida en estos. Basado en ello, plantea y contrasta conclusiones, sobre las características de una población. Expresa la probabilidad de un evento aleatorio como decimal o fracción, así como su espacio muestral; e interpreta que un suceso seguro, probable e imposible, se asocia a los valores entre 0 y 1. Hace predicciones sobre la ocurrencia de eventos y las justifica.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Representa las características de una población en estudio asociándolas a variables cualitativas nominales y ordinales, o cuantitativas discretas, y expresa el comportamiento de los datos de la población a través de gráficos de barras, gráficos circulares y medidas de tendencia central."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Determina las condiciones de una situación aleatoria, compara la frecuencia de sus sucesos y representa su probabilidad a través de la regla de Laplace (valor decimal) o representa su probabilidad mediante su frecuencia dada en porcentajes. A partir de este valor, determina si un suceso es más o menos probable que otro."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje matemático su comprensión sobre la media, la mediana y la moda para datos no agrupados, según el contexto de la población en estudio, así como sobre el valor de la probabilidad para caracterizar como más o menos probable la ocurrencia de sucesos de una situación aleatoria."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Lee tablas y gráficos de barras o circulares, así como diversos textos que contengan valores de medida de tendencia central, o descripciones de situaciones aleatorias, para comparar e interpretar la información que contienen. A partir de ello, produce nueva información. Ejemplo: El estudiante compara datos contenidos en una misma gráfica señalando: \"Hay más niñas que gustan del fútbol en primero de secundaria que en tercero de secundaria\"."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Recopila datos de variables cualitativas o cuantitativas discretas mediante encuestas, seleccionando y empleando procedimientos y"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Representa las características de una población en estudio asociándolas a variables cualitativas nominales y ordinales, o cuantitativas discretas y continuas. Expresa el comportamiento de los datos de la población a través de histogramas, polígonos de frecuencia y medidas de tendencia central."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Determina las condiciones y el espacio muestral de una situación aleatoria, y compara la frecuencia de sus sucesos. Representa la probabilidad de un suceso a través de la regla de Laplace (valor decimal) o representa su probabilidad mediante su frecuencia relativa expresada como decimal o porcentaje. A partir de este valor determina si un suceso es seguro, probable o imposible de suceder."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje matemático su comprensión sobre la pertinencia de usar la media, la mediana o la moda (datos no agrupados) para representar un conjunto de datos según el contexto de la población en estudio, así como sobre el significado del valor de la probabilidad para caracterizar como segura o imposible la ocurrencia de sucesos de una situación aleatoria."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Lee tablas y gráficos como histogramas, polígonos de frecuencia, así como diversos textos que contengan valores de medidas de tendencia central o descripciones de situaciones aleatorias, para comparar e interpretar la información que contienen y deducir nuevos datos. A partir de ello, produce nueva información."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Recopila datos de variables cualitativas nominales u ordinales, y cuantitativas discretas o continuas mediante encuestas, o seleccionando y empleando procedimientos, estrategias y recursos adecuados al tipo de estudio. Los procesa y organiza en tablas con"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 172,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1925,
+  "totalTokens": 4147,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 4
+ }
+}

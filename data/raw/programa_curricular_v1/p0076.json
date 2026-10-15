@@ -1,0 +1,50 @@
+{
+ "numero_pagina_impreso": 76,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Interactúa a través de sus habilidades sociomotrices",
+ "ciclo": "VII",
+ "capacidades": [
+  "Se relaciona utilizando sus habilidades sociomotrices.",
+  "Crea y aplica estrategias y tácticas de juego."
+ ],
+ "descripcion_nivel": "Interactúa a través de sus habilidades sociomotrices integrando a todas las personas de la comunidad educativa en eventos lúdico - deportivos y promoviendo la práctica de actividad física basada en el disfrute, la tolerancia, equidad de género, inclusión y respetando su responsabilidad durante todo el proceso. Propone sistemas tácticos de juego en la resolución de problemas y los adecúa según las necesidades del entorno, asumiendo y adjudicando roles y funciones bajo un sistema de juego que vincula las habilidades y capacidades de cada uno de los integrantes del equipo en la práctica de diferentes actividades físicas.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Participa activa y placenteramente en juegos tradicionales o populares, predeportivos, y deportivos. Muestra en su participación una actitud positiva e integradora al trabajar en equipo, conciliando distintos intereses entre sus compañeros, compartiendo con sus pares de distinto género e incluyendo a pares con desarrollos diferentes."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica la importancia de los acuerdos grupales para la elaboración y construcción de normas democráticas mostrando una actitud crítica ante todo tipo de discriminación por género, etnia, capacidades diferentes, condición social y religión, durante la práctica de actividades lúdicas, predeportivas y deportivas, dentro y fuera de la institución educativa."
+  },
+  {
+   "grado": 3,
+   "texto": "Plantea y ejecuta soluciones en situaciones lúdicas y deportivas al utilizar elementos técnicos y tácticos propios de una estrategia de juego que le permiten mayor eficacia en la práctica deportiva. Toma en cuenta las características de cada integrante, y mejora su sentido de pertenencia e identidad al grupo."
+  },
+  {
+   "grado": 4,
+   "texto": "Trabaja en equipo mostrando actitudes de respeto basadas en la integración de sus compañeros. Comparte con sus pares de distinto género e incluye a pares con desarrollos diferentes."
+  },
+  {
+   "grado": 4,
+   "texto": "Participa activamente con su comunidad en juegos deportivos, tradicionales o populares en la naturaleza. Evita todo tipo de discriminación por género, etnia, capacidades diferentes, condición social y religión."
+  },
+  {
+   "grado": 4,
+   "texto": "Distribuye roles y funciones a los integrantes del equipo de acuerdo con sus fortalezas y características personales de cada uno para mejorar la estrategia de juego y dar soluciones a situaciones problemáticas."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 76,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 872,
+  "totalTokens": 2961,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

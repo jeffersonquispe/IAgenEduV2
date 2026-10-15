@@ -1,0 +1,71 @@
+{
+ "numero_pagina_impreso": 66,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Se desenvuelve de manera autónoma a través de su motricidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende su cuerpo.",
+  "Se expresa corporalmente."
+ ],
+ "descripcion_nivel": "Se desenvuelve de manera autónoma a través de su motricidad cuando toma conciencia de cómo su imagen corporal contribuye a la construcción de su identidad y autoestima. Organiza su cuerpo en relación a las acciones y habilidades motrices según la práctica de actividad física que quiere realizar. Produce con sus compañeros diálogos corporales que combinan movimientos en los que expresan emociones, sentimientos y pensamientos sobre temas de su interés en un determinado contexto.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Combina con eficacia las habilidades motrices específicas y regula su cuerpo en situaciones predeportivas y deportivas. Toma como referencia la trayectoria de objetos y a sus compañeros."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Se adapta a los cambios que experimenta su cuerpo en relación con su imagen corporal en la pubertad durante la práctica de actividades lúdicas, recreativas, predeportivas y deportivas."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Elabora secuencias rítmicas individuales comunicando sus ideas y emociones, y aceptando y valorando sus aportes y el de sus compañeros."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Crea rutinas de movimientos colectivos (drilles, coreografías, etc.) incorporando diferentes materiales (cintas, balones, bastones, cuerdas, etc.)."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Coordina su cuerpo de manera autónoma con precisión en acciones motrices de su preferencia para lograr un objetivo determinado y actúa de acuerdo con sus posibilidades y limitaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Analiza el control y ejecución de sus habilidades motrices específicas para mejorarlas durante la práctica de diferentes actividades físicas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Crea prácticas corporales-expresivas para la producción de secuencias coreográficas individuales relacionadas con historias, mitos, leyendas, cuentos autóctonos, etc."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Crea con sus pares secuencias rítmicas, musicales, lúdicas y deportivas a partir de aquellas propias de su región, de otras regiones y de otras partes del mundo, como medio de comunicación de ideas y emociones."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 66,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1252,
+  "totalTokens": 3474,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

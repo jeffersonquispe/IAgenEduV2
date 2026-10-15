@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 61,
+ "tipo": "narrativa",
+ "area": "Área de Educación Física",
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "La evolución de la Educación Física está determinada actualmente por los avances sociales, científicos y tecnológicos en el mundo. Las demandas sociales respecto de la formación de hábitos relacionados con el logro del bienestar físico, psicológico y emocional han generado que el área haya tomado cada vez más importancia en los currículos escolares. Por ello, a través de la Educación Física, se pretende que los estudiantes desarrollen una conciencia crítica sobre el cuidado de su salud y de la de los demás, buscando que sean autónomos y capaces de asumir sus propias decisiones para la mejora de la calidad de vida.\n\nEl logro del Perfil de egreso de los estudiantes de la Educación Básica requiere el desarrollo de diversas competencias. En especial, el área de Educación Física se ocupa de promover y facilitar que los estudiantes desarrollen las siguientes competencias:\n\n• Se desenvuelve de manera autónoma a través de su motricidad.\n\n• Interactúa a través de sus habilidades sociomotrices.\n\n• Asume una vida saludable.",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 61,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 412,
+  "totalTokens": 2634,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

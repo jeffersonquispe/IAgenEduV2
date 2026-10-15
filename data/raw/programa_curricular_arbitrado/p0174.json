@@ -1,0 +1,78 @@
+{
+ "numero_pagina_impreso": 174,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de gestión de datos e incertidumbre",
+ "ciclo": "VII",
+ "capacidades": [
+  "Representa datos con gráficos y medidas estadísticas o probabilísticas.",
+  "Comunica su comprensión de los conceptos estadísticos y probabilísticos.",
+  "Usa estrategias y procedimientos para recopilar y procesar datos.",
+  "Sustenta conclusiones o decisiones con base en la información obtenida."
+ ],
+ "descripcion_nivel": "Resuelve problemas en los que plantea temas de estudio, caracterizando la población y la muestra e identificando las variables a estudiar; empleando el muestreo aleatorio para determinar una muestra representativa. Recolecta datos mediante encuestas y los registra en tablas, determina terciles, cuartiles y quintiles; la desviación estándar, y el rango de un conjunto de datos; representa el comportamiento de estos usando gráficos y medidas estadísticas más apropiadas a las variables en estudio. Interpreta la información contenida en estos, o la información relacionada a su tema de estudio proveniente de diversas fuentes, haciendo uso del significado de la desviación estándar, las medidas de localización estudiadas y el lenguaje estadístico; basado en esto contrasta y justifica conclusiones sobre las características de la población. Expresa la ocurrencia de sucesos dependientes, independientes, simples o compuestos de una situación aleatoria mediante la probabilidad, y determina su espacio muestral; interpreta las propiedades básicas de la probabilidad de acuerdo a las condiciones de la situación; justifica sus predicciones con base a los resultados de su experimento o propiedades.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Representa las características de una población en estudio mediante variables cualitativas o cuantitativas, selecciona las variables a estudiar, y representa el comportamiento de los datos de una muestra de la población a través de histogramas, polígonos de frecuencia y medidas de tendencia central o desviación estándar."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Determina las condiciones y el espacio muestral de una situación aleatoria, y discrimina entre sucesos independientes y dependientes. Representa la probabilidad de un suceso a través de su valor decimal o fraccionario. A partir de este valor, determina si un suceso es probable o muy probable, o casi seguro de que ocurra."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje matemático su comprensión de la desviación estándar en relación con la media para datos no agrupados y según el contexto de la población en estudio. Expresa, también, el significado del valor de la probabilidad para caracterizar la ocurrencia de sucesos independientes y dependientes de una situación aleatoria."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Lee tablas y gráficos de barras, histogramas, u otros, así como diversos textos que contengan valores sobre medidas estadísticas o descripción de situaciones aleatorias, para deducir e interpretar la información que contienen. Sobre la base de ello, produce nueva información."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Recopila datos de variables cualitativas y cuantitativas mediante encuestas o la observación combinando y adaptando procedimientos, estrategias y recursos. Los procesa y organiza en tablas con el"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Representa las características de una población mediante el estudio de variables cualitativas y cuantitativas, y el comportamiento de los datos de una muestra representativa a través de medidas de tendencia central, medidas de localización (cuartil) la desviación estándar o gráficos estadísticos, seleccionando los más apropiados para las variables estudiadas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Determina las condiciones y restricciones de una situación aleatoria, analiza la ocurrencia de sucesos independientes y dependientes, y representa su probabilidad a través del valor racional de 0 a 1. A partir de este valor, determina la mayor o menor probabilidad de un suceso en comparación con otro."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje matemático su comprensión de la desviación estándar en relación con la media para datos agrupados y el significado de los cuartiles en una distribución de datos según el contexto de la población en estudio. Expresa, también, el significado del valor de la probabilidad para caracterizar la ocurrencia de sucesos dependientes e independientes de una situación aleatoria, y cómo se distinguen entre sí."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Lee, interpreta e infiere tablas y gráficos, así como diversos textos que contengan valores sobre las medidas de tendencia central, de dispersión y de posición, y sobre la probabilidad de sucesos aleatorios, para deducir nuevos datos y predecirlos según la tendencia observada. Sobre la base de ello, produce nueva información y evalúa si los datos tienen algún sesgo en su presentación."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 174,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1696,
+  "totalTokens": 3918,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "numero_pagina_impreso": 47,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Construye interpretaciones históricas",
+ "ciclo": "VI",
+ "capacidades": [
+  "Interpreta críticamente fuentes diversas.",
+  "Comprende el tiempo histórico.",
+  "Elabora explicaciones sobre procesos históricos."
+ ],
+ "descripcion_nivel": "Construye interpretaciones históricas sobre hechos o procesos del Perú y el mundo, en los que explica hechos o procesos históricos, a partir de la clasificación de las causas y consecuencias, reconociendo sus cambios y permanencias, y usando términos históricos. Explica su relevancia a partir de los cambios y permanencias que generan en el tiempo, identificando simultaneidades. Emplea distintos referentes y convenciones temporales, así como conceptos relacionados a instituciones sociopolíticas y la economía. Compara e integra información de diversas fuentes, estableciendo diferencias entre las narraciones de los hechos y las interpretaciones de los autores de las fuentes.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Utiliza fuentes históricas para obtener información sobre un hecho o proceso histórico, desde el origen de la humanidad hasta las civilizaciones del mundo clásico y desde los primeros pobladores hasta los Estados regionales en los Andes centrales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Clasifica diferentes tipos de fuentes históricas y obtiene información de estas respecto de hechos o procesos históricos, desde el origen de la humanidad hasta las civilizaciones del mundo clásico y desde los primeros pobladores hasta los Estados regionales en los Andes centrales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Sitúa en orden sucesivo distintos hechos o procesos históricos comprendidos desde el origen de la humanidad hasta sus civilizaciones del mundo clásico y desde los primeros pobladores hasta los Estados regionales en los Andes centrales. Con este fin, establece la distancia temporal y la simultaneidad que hay entre ellos, utilizando convenciones temporales y periodicaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica hechos o procesos históricos comprendidos desde el origen de la humanidad hasta las civilizaciones del mundo clásico y desde los primeros pobladores hasta los Estados regionales en los Andes centrales sobre la base de sus causas y consecuencias, y de conceptos sociales, políticos y económicos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica las causas y consecuencias de hechos o procesos históricos comprendidos desde el origen de la humanidad hasta las civilizaciones del mundo clásico y desde los primeros pobladores hasta los Estados regionales en los Andes centrales al elaborar sus explicaciones históricas utilizando conceptos sociales, políticos y económicos al elaborar sus explicaciones históricas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica las diferencias entre narraciones e interpretaciones de un hecho o proceso histórico, desde las invasiones bárbaras hasta la expansión europea (ss. XV y XVI) y desde los orígenes del Tahuantinsuyo hasta el inicio del virreinato (s. XVI)."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Utiliza diversas fuentes históricas sobre determinados hechos o procesos históricos, desde las invasiones bárbaras hasta la expansión europea (ss. XV y XVI) desde los orígenes del Tahuantinsuyo hasta el inicio del virreinato (s. XVI), identifica el contexto histórico (características de la época) en el que fueron producidas esas fuentes y complementa una con otra."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Utiliza las convenciones y categorías temporales para explicar la importancia de los hechos o procesos históricos desde las invasiones bárbaras hasta la expansión europea (ss. XV y XVI) y desde los orígenes del Tahuantinsuyo hasta el inicio del virreinato (s. XVI). Toma en cuenta las simultaneidades, los aspectos que cambian y otros que permanecen."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica hechos o procesos históricos desde las invasiones bárbaras hasta la expansión europea (ss. XV y XVI) y desde los orígenes del Tahuantinsuyo hasta el inicio del virreinato (s. XVI) a partir de la clasificación de sus causas y consecuencias (sociales, políticas, económicas, culturales, etc.). Para ello, utiliza conceptos sociopolíticos, diversos y diversos términos históricos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Clasifica las causas y consecuencias de los hechos o procesos históricos desde las invasiones bárbaras hasta la expansión europea (ss. XV y XVI) y desde los orígenes del Tahuantinsuyo hasta el inicio del virreinato (s. XVI) para elaborar explicaciones históricas. Para ello utiliza conceptos sociopolíticos y económicos así como diversos términos históricos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 47,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1573,
+  "totalTokens": 3727,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

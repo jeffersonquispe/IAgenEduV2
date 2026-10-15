@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 121,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos complejos que tienen vocabulario variado y especializado. Interpreta integrando información para construir el sentido global del texto considerando otros textos que presentan ideas diferentes y su contexto sociocultural. Evalúa la efectividad del contenido del texto y explica la intención de diversos elementos formales. Reflexiona sobre distintos sucesos e ideas del texto, y lo relaciona con el contexto sociocultural e ideológico en el que fue escrito.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado. Ejemplo: textos que contengan ambigüedades, humor e ironía, con expresiones de sentido figurado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Deduce información en textos complejos y temas de diversos campos del saber, en los que predomina el vocabulario variado y especializado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Opina sobre ideas, hechos y personajes argumentando su posición respecto del texto, e identificando el contexto social e histórico donde se ha producido."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica los diferentes puntos de vista, estereotipos y sesgos de diversos tipos de texto al contrastarlos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica la intención del autor considerando el tipo de texto, el género discursivo y las estrategias discursivas empleadas en el texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado y especializado. Ejemplo: textos que contengan ambigüedades, humor e ironía."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Deduce información en textos complejos y temas de diversos campos del saber, en los que predomina el vocabulario variado y especializado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural y contrastando la información con otras fuentes de información escritas, a fin de presentar su propia posición."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Opina sobre ideas, hechos y personajes argumentando su posición respecto del texto, e identificando el contexto social e histórico donde se ha producido."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica los diferentes puntos de vista, estereotipos y sesgos de diversos tipos de texto al contrastarlos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica la intención del autor considerando el tipo de texto, el género discursivo y las estrategias discursivas empleadas en el texto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 121,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1328,
+  "totalTokens": 3482,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

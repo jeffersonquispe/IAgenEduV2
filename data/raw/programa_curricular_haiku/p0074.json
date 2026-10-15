@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 74,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Interactúa a través de sus habilidades sociomotrices",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Interactúa a través de sus habilidades sociomotrices cuando organiza y promueve proyectos y eventos lúdicos y deportivos que respondan a las problemáticas de su entorno en espacios alternativos, integrando a todas las personas de la comunidad educativa. Crea, modifica y adapta estrategias tácticas pertinentes, teniendo en cuenta las debilidades y fortalezas del propio equipo y del equipo oponente."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Interactúa a través de sus habilidades sociomotrices integrando a todas las personas de la comunidad educativa en eventos lúdico-deportivos y promoviendo la práctica de actividad física basada en la distancia, la tolerancia, equidad de género, inclusión y respeto, asumiendo su responsabilidad durante todo el proceso. Propone sistemas tácticos de juego en la resolución de problemas y los adecúa según las necesidades del entorno, asumiendo y adjudicando roles y funciones bajo un sistema de juego que vincula las habilidades y capacidades de cada uno de los integrantes del equipo en la práctica de diferentes actividades físicas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Interactúa a través de sus habilidades sociomotrices con autonomía en situaciones que no le son favorables y asume una actitud de liderazgo los desafíos propios de la práctica de actividades físicas, experimentando el placer y disfrute que ellas representan. Formula y aplica estrategias para solucionar problemas individuales y colectivos, incorporando elementos técnicos y tácticos pertinentes y adecuándose a los cambios que se dan en la práctica. Analiza los posibles aciertos y dificultades ocurridos durante la práctica para mejorar la estrategia de juego."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Interactúa a través de sus habilidades sociomotrices proactivamente con un sentido de cooperación teniendo en cuenta las adaptaciones o modificaciones propuestas por el grupo en diferentes actividades físicas. Hace uso de estrategias de cooperación y oposición seleccionando los diferentes elementos técnicos y tácticos que se pueden dar en la práctica de actividades lúdicas y deportivas, para resolver la situación de juego que le dé un mejor resultado y que responda a las variaciones que se presenten en el entorno."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Interactúa a través de sus habilidades sociomotrices al tomar acuerdos sobre la manera de jugar y los posibles cambios o conflictos que se den y propone adaptaciones o modificaciones para favorecer la inclusión de compañeros en actividades lúdicas, aceptando al oponente como compañero de juego. Adapta la estrategia de juego anticipando las intenciones de sus compañeros y oponentes para cumplir con los objetivos planteados. Propone reglas y las modifica de acuerdo a las necesidades del contexto y los intereses del grupo en la práctica de actividades físicas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Interactúa a través de sus habilidades sociomotrices al aceptar al otro como compañero de juego y busca el consenso sobre la manera de jugar para lograr el bienestar común y muestra una actitud de respeto evitando juegos violentos y humillantes; expresa su posición ante un conflicto con intención de resolverlo y escucha la posición de sus compañeros en los diferentes tipos de juegos. Resuelve situaciones motrices a través de estrategias colectivas y participa en la construcción de reglas de juego adaptadas a la situación y al entorno, para lograr un objetivo común en la práctica de actividades lúdicas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Este nivel tiene principalmente como base el nivel 2 de la competencia \"Se desenvuelve de manera autónoma a través de su motricidad\"."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene principalmente como base el nivel 1 de la competencia \"Se desenvuelve de manera autónoma a través de su motricidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 74,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1312,
+  "totalTokens": 3401,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

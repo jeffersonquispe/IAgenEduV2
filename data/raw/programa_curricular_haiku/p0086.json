@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 86,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Crea proyectos desde los lenguajes artísticos",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Crea proyectos que integran las artes o disciplinas para encontrar la manera más efectiva de desarrollar sus ideas y demuestra el desarrollo de un estilo personal. Selecciona y combina elementos y códigos de los diversos lenguajes del arte con la finalidad de potenciar sus recursos comunicativos y expresivos. Investiga y muestra creciente dominio al usar medios, materiales, herramientas, técnicas y procedimientos artísticos tradicionales y contemporáneos. Genera ideas innovadoras y las concretiza en producciones creativas interdisciplinarias que propongan soluciones transformadoras para problemas culturales, sociales y ambientales específicos. Durante el proceso de creación, innova y toma riesgos para comunicar sus ideas de manera más eficaz considerando diferentes perspectivas y contextos. Mantiene un registro de cómo se han formado y desarrollado sus ideas y cómo ha elegido y aplicado medios, materiales y técnicas para lograr sus intenciones. Presenta sus proyectos usando estrategias de circulación y articulando a distintos actores de su comunidad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VIII",
+   "texto": "Crea proyectos artísticos que comunican de manera efectiva ideas o asuntos pertinentes a su realidad y a audiencias en particular. Selecciona y prueba diversas maneras de combinar elementos de los diversos lenguajes artísticos para lograr sus propósitos comunicativos y expresivos. Experimenta con medios convencionales y no convencionales, materiales y técnicas de acuerdo a sus intereses y motivaciones. Toma decisiones en un uso y el desarrollo inicial de un estilo personal. Innova al tomar riesgos para concretizar sus ideas y modificando sus trabajos de acuerdo a descubrimientos que surgen en el proceso de creación artística. Genera ideas de manera interdisciplinaria y planifica proyectos artísticos de manera individual o colaborativa. Utiliza una variedad de referentes culturales, tomando en cuenta tanto prácticas tradicionales como nuevas tecnologías. Toma decisiones al combinar y manipular los elementos del arte para encontrar la manera más efectiva de comunicar mensajes, experiencias, ideas y sentimientos. Registra de manera visual acerca de los procesos usados. Planifica y anticipa sus presentaciones de acuerdo al público. Evalúa la efectividad de su proyecto, describiendo el impacto del proyecto para él mismo y para la comunidad."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Crea proyectos artísticos individuales o colaborativos que representan y comunican ideas e intenciones específicas. Selecciona, experimenta y usa los elementos del arte, los medios, materiales, herramientas, técnicas y procedimientos apropiados para sus necesidades de expresión y comunicación. Genera ideas investigando una serie de recursos asociados a conceptos, técnicas o problemas específicos personales o sociales. Planifica, diseña, improvisa y manipula elementos de los diversos lenguajes del arte para elaborar y potenciar el potencial de sus ideas e incorpora influencias de su propia cultura y de otras. Registra las etapas de sus procesos de creación y reflexiona sobre la efectividad de sus proyectos, modificándolos de manera continua para lograr sus intenciones. Establece estrategias de mejora para que sus proyectos tengan un mayor impacto a futuro. Planifica la presentación de sus proyectos considerando su intención y el público al que se dirige."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Crea proyectos artísticos individuales o colaborativos explorando formas alternativas de combinar y usar elementos, medios, materiales y técnicas artísticas y tecnologías para la resolución de problemas creativos. Genera ideas investigando una variedad de fuentes y manipulando los elementos de los diversos lenguajes de las artes (música, teatro, danza, artes visuales) para explorar cuáles se ajustan mejor a sus intenciones. Planifica y produce trabajos que comunican ideas y experiencias personales y sociales e incorpora influencias de otras culturas. Registra sus procesos, identifica los aspectos especiales de sus trabajos y los va modificando para mejorarlos. Planifica los espacios de presentación considerando sus intenciones y presenta sus descripciones y creaciones ante variedad de audiencias. Evalúa la logra sus intenciones de manera efectiva."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Crea proyectos artísticos en una variedad de lenguajes que comunican experiencias, ideas, sentimientos y observaciones. Explora, selecciona y combina los elementos del arte y utiliza medios, materiales, herramientas y técnicas de los diversos lenguajes del arte para expresar de diferentes maneras sus ideas y resolver problemas creativos. Demuestra habilidad para planificar trabajos usando sus conocimientos del arte y ejecuta sus procesos para ajustarse a diferentes intenciones, que le basan en observaciones o problemas del entorno natural, artístico y cultural. Comunica sus hallazgos, identificando elementos o técnicas o procesos que usó para enriquecer sus creaciones y mejora sus trabajos a partir de retroalimentaciones. Planifica cómo y qué necesita para compartir sus experiencias y descripciones hacia la comunidad educativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Crea proyectos artísticos que demuestran habilidades artísticas iniciales para comunicar ideas, sentimientos, observaciones y experiencias. Experimenta, selecciona y prueba libremente las posibilidades expresivas de los elementos, medios, materiales y técnicas de los diversos lenguajes del arte. Explora ideas que surgen de su imaginación, sus experiencias o de sus observaciones y las concretiza en trabajos de artes, música, teatro o danza. Comparte sus experiencias y creaciones con sus compañeros y su familia. Describe y dialoga sobre las características de sus propios trabajos y los de sus compañeros y responde a preguntas sobre ellos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Crea proyectos artísticos al experimentar y manipular libremente diversos medios y materiales para descubrir sus propiedades expresivas. Explora los elementos básicos de los lenguajes del arte como el sonido, los colores y el movimiento. Explora sus propias ideas imaginativas que construye a partir de sus vivencias y las transforma en algo nuevo mediante el juego simbólico, el dibujo, la pintura, la construcción, la música y el movimiento creativo. Comparte espontáneamente sus experiencias y creaciones."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene principalmente como base el nivel 1 de la competencia de indagación."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 86,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1929,
+  "totalTokens": 4018,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

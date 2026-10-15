@@ -1,0 +1,60 @@
+{
+ "numero_pagina_impreso": 105,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Escribe diversos tipos de textos en lengua materna",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa su texto al destinatario, propósito, el registro y el estilo a partir de su experiencia previa, de fuentes de información complementarias y divergentes, y de su conocimiento del contexto histórico y sociocultural. Organiza y desarrolla lógicamente las ideas en torno a un tema, y las estructura en párrafos, capítulos y apartados, de acuerdo a distintos géneros discursivos. Establece relaciones entre ideas a través del uso preciso de diversos recursos cohesivos. Emplea vocabulario variado, especializado y preciso, así como una variedad de recursos ortográficos y textuales para darle claridad y sentido a su texto. Reflexiona y evalúa de manera permanente la validez de la información, el uso de estructuras sintácticas con fines comunicativos y el estilo en el texto que escribe; controla el lenguaje para analizar críticamente diversas posturas, posicionar ideas, contraargumentar, reforzar, matizar o sugerir sentidos y producir diversos efectos en el lector según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa su texto al destinatario, propósito y el registro a partir de su experiencia previa, de fuentes de información complementarias y divergentes, y de su conocimiento del contexto histórico y sociocultural. Organiza y desarrolla lógicamente las ideas en torno a un tema, y las estructura en párrafos, capítulos o apartados de acuerdo a distintos géneros discursivos. Establece relaciones entre ideas a través del uso preciso de diversos recursos cohesivos. Emplea vocabulario variado, especializado y preciso, así como una variedad de recursos ortográficos y textuales para darle claridad y sentido a su texto. Reflexiona y evalúa de manera permanente la validez de la información, la coherencia y cohesión de las ideas en el texto que escribe; controla el lenguaje para contraargumentar, reforzar o sugerir sentidos y producir diversos efectos en el lector según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa su texto al destinatario, propósito y el registro a partir de su experiencia previa y de fuentes de información complementarias. Organiza y desarrolla lógicamente las ideas en torno a un tema, y las estructura en párrafos y subtítulos de acuerdo a algunos géneros discursivos. Establece relaciones entre ideas a través del uso adecuado de varios tipos de conectores, referentes y emplea vocabulario variado. Utiliza recursos ortográficos y textuales para separar y aclarar expresiones e ideas, así como diferenciar el significado de las palabras con la intención de darle claridad y sentido a su texto. Reflexiona y evalúa de manera permanente la coherencia y cohesión de las ideas en el texto que escribe, así como el uso del lenguaje para argumentar, reforzar o sugerir sentidos y producir diversos efectos en el lector según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa su texto al destinatario, propósito y el registro, a partir de su experiencia previa y de algunas fuentes de información complementarias. Organiza y desarrolla lógicamente las ideas en torno a un tema y las estructura en párrafos. Establece relaciones entre ideas a través del uso adecuado de algunos tipos de conectores y de referentes; emplea vocabulario variado. Utiliza recursos ortográficos para separar expresiones, ideas y párrafos con la intención de darle claridad y sentido a su texto. Reflexiona y evalúa de manera permanente la coherencia y cohesión de las ideas en el texto que escribe, así como el uso del lenguaje para argumentar o reforzar sentidos y producir efectos en el lector según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa su texto al destinatario, propósito y el registro a partir de su experiencia previa y de alguna fuente de información. Organiza y desarrolla lógicamente las ideas en torno a un tema. Establece relaciones entre ideas a través del uso adecuado de algunos tipos de conectores y de referentes; emplea vocabulario variado. Utiliza recursos ortográficos básicos para darle claridad y sentido a su texto. Reflexiona sobre la coherencia y cohesión de las ideas en el texto que escribe, y explica el uso de algunos recursos textuales para reforzar sentidos y producir efectos en el lector según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Escribe diversos tipos de textos de forma reflexiva. Adecúa al propósito y el destinatario a partir de su experiencia previa. Organiza y desarrolla lógicamente las ideas en torno a un tema. Establece relaciones entre ideas a través del uso adecuado de algunos tipos de conectores y emplea vocabulario de uso frecuente. Separa adecuadamente las palabras y utiliza algunos recursos ortográficos básicos para darle claridad y sentido a su texto. Reflexiona sobre las ideas más importantes en el texto que escribe y explica el uso de algunos recursos ortográficos según la situación comunicativa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Escribe a partir de sus hipótesis de escritura diversos tipos de textos sobre temas variados considerando el propósito y el destinatario a partir de su experiencia previa. Desarrolla sus ideas en torno a un tema con la intención de transmitir ideas o emociones. Sigue la linealidad y direccionalidad de la escritura."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base principalmente el nivel 1 de la competencia \"Se comunica oralmente en su lengua materna\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 105,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1759,
+  "totalTokens": 3981,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 3
+ }
+}

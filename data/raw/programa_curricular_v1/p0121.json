@@ -1,0 +1,83 @@
+{
+ "numero_pagina_impreso": 121,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos escritos en castellano como segunda lengua",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de textos complejos que tienen vocabulario variado y especializado. Interpreta integrando información para construir el sentido global del texto considerando contextos con otros textos que presentan ideas diferentes y su contexto sociocultural. Evalúa la efectividad del contenido del texto y explica la intención de diversos elementos formales. Reflexiona sobre distintos sucesos e ideas del texto, y lo relaciona con el contexto sociocultural e ideológico en el que fue escrito.",
+ "desempenos": [
+  {
+   "grado": 3,
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado. Ejemplo: textos que contengan ambigüedades, humor e ironía, con expresiones de sentido figurado."
+  },
+  {
+   "grado": 3,
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "grado": 3,
+   "texto": "Deduce información en textos complejos y temas de diversos campos del saber, en los que predomina el vocabulario variado y especializado."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural."
+  },
+  {
+   "grado": 3,
+   "texto": "Opina sobre ideas, hechos y personajes argumentando su posición respecto del texto, e identificando el contexto social e histórico donde se ha producido."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica los diferentes puntos de vista, estereotipos y sesgos de diversos tipos de texto al contrastarlos."
+  },
+  {
+   "grado": 3,
+   "texto": "Explica la intención del autor considerando el tipo de texto, el género discursivo y las estrategias discursivas empleadas en el texto."
+  },
+  {
+   "grado": 4,
+   "texto": "Identifica información relevante de textos complejos con vocabulario variado y especializado. Ejemplo: textos que contengan ambigüedades, humor e ironía."
+  },
+  {
+   "grado": 4,
+   "texto": "Integra información explícita ubicada en distintas partes del texto."
+  },
+  {
+   "grado": 4,
+   "texto": "Deduce información en textos complejos y temas de diversos campos del saber, en los que predomina el vocabulario variado y especializado."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica el tema y el propósito comunicativo relacionando información del texto con sus saberes de su contexto sociocultural y contrastando la información con otras fuentes de información escritas, a fin de presentar su propia posición."
+  },
+  {
+   "grado": 4,
+   "texto": "Opina sobre ideas, hechos y personajes argumentando su posición respecto del texto, e identificando el contexto social e histórico donde se ha producido."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica los diferentes puntos de vista, estereotipos y sesgos de diversos tipos de texto al contrastarlos."
+  },
+  {
+   "grado": 4,
+   "texto": "Explica la intención del autor considerando el tipo de texto, el género discursivo y las estrategias discursivas empleadas en el texto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 121,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1067,
+  "totalTokens": 3156,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

@@ -1,0 +1,38 @@
+{
+ "numero_pagina_impreso": 67,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se desenvuelve de manera autónoma a través de su motricidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Comprende su cuerpo",
+  "Se expresa corporalmente"
+ ],
+ "descripcion_nivel": "Se desenvuelve de manera autónoma a través de su motricidad cuando toma conciencia de cómo su imagen corporal contribuye a la construcción de su identidad y autoestima. Organiza su cuerpo en relación a las acciones y habilidades motrices según la práctica de actividad física que quiere realizar. Produce con sus compañeros diálogos corporales que combinan movimientos en los que expresan emociones, sentimientos y pensamientos sobre temas de su interés en un determinado contexto.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Coordina su cuerpo a las respuestas motrices eficaces durante la práctica de diversas actividades físicas, monitoreando las mejoras en el control de su cuerpo en donde se aplique la comprensión de las fases de movimiento, y la preparación y ejecución de las acciones, con seguridad y confianza."
+  },
+  {
+   "grado": 5,
+   "texto": "Se adapta a los cambios que experimenta su cuerpo en relación con su imagen corporal en la adolescencia durante la práctica de actividades lúdicas, recreativas, predeportivas y deportivas."
+  },
+  {
+   "grado": 5,
+   "texto": "Elabora con sus compañeros diálogos corporales con seguridad y confianza (secuencias rítmicas de movimiento, gestos, coreografías, imágenes, figuras corporales expresivas, etc.), que combinen movimiento y representación de expresiones emocionales y afectivas, en un determinado contexto histórico y cultural."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 67,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 565,
+  "totalTokens": 2654,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

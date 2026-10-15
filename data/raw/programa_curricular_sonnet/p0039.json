@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 39,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Convive y participa democráticamente en la búsqueda del bien común",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Convive y participa democráticamente, relacionándose con los demás respetando los derechos humanos y reconociendo la ley como garantía de la libertad y la justicia. Valora la diversidad y se relaciona interculturalmente con las personas de diferentes culturas. Utiliza reflexivamente diversos instrumentos legales para proponer normas aplicables a distintas escalas. Maneja adecuadamente los conflictos en diversos escenarios. Asume un papel protagónico para proponer, organizar y ejecutar acciones que promuevan y defiendan los derechos humanos, la justicia y el reconocimiento de la diversidad cultural. Delibera sobre asuntos públicos a partir del análisis multidimensional, sustentando su postura en fuentes confiables y principios democráticos, y estando dispuesto a reajustar su posición a partir de argumentos razonados, para aportar a la construcción de consensos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Convive y participa democráticamente, relacionándose con los demás, respetando las diferencias y promoviendo los derechos de todos, así como cumpliendo sus deberes y evaluando sus consecuencias. Se relaciona con personas de diferentes culturas respetando sus costumbres y creencias. Evalúa y propone normas para la convivencia social basadas en los principios democráticos y en la legislación vigente. Utiliza estrategias de negociación y diálogo para el manejo de conflictos. Asume deberes en la organización y ejecución de acciones colectivas para promover sus derechos y deberes frente a situaciones que involucran a su comunidad. Delibera sobre asuntos públicos con argumentos basados en fuentes confiables, los principios democráticos y la institucionalidad, y aporta a la construcción de consensos. Rechaza posiciones que legitiman la violencia o la vulneración de derechos."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Convive y participa democráticamente cuando se relaciona con los demás, respetando las diferencias y los derechos de cada uno, cumpliendo sus deberes y buscando que otros también las cumplan. Se relaciona con personas de culturas distintas, respetando sus costumbres. Construye y evalúa de manera colectiva las normas de convivencia en el aula y en la escuela con base en principios democráticos. Ejerce el rol de mediador en su grupo haciendo uso de la negociación y el diálogo para el manejo de conflictos. Propone, planifica y ejecuta acciones de manera cooperativa, dirigidas a promover el bien común, la defensa de sus derechos y el cumplimiento de sus deberes como miembro de una comunidad. Delibera sobre asuntos públicos formulando preguntas sobre sus causas y consecuencias, analizando argumentos contrarios a los propios y argumentando su postura basándose en fuentes y en otras opiniones."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Convive y participa democráticamente cuando se relaciona con los demás, respetando las diferencias, los derechos de cada uno, cumpliendo y evaluando sus deberes. Se interesa por relacionarse con personas de culturas distintas y conocer sus costumbres. Construye y evalúa normas de convivencia tomando en cuenta sus derechos. Maneja conflictos utilizando el diálogo y la mediación con base en criterios de igualdad o equidad. Propone, planifica y realiza acciones colectivas orientadas al bien común, la solidaridad, la protección de las personas vulnerables y la defensa de sus derechos. Delibera sobre asuntos de interés público con argumentos basados en fuentes y toma en cuenta la opinión de los demás."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Convive y participa democráticamente cuando se relaciona con los demás respetando las diferencias, expresando su desacuerdo frente a situaciones que vulneran la convivencia y cumpliendo con sus deberes. Conoce las manifestaciones culturales de su localidad, región o país. Construye y evalúa acuerdos y normas tomando en cuenta el punto de vista de los demás. Recurre al diálogo para manejar conflictos. Propone y realiza acciones colectivas orientadas al bienestar común a partir de la deliberación sobre asuntos de interés público, en la que se da cuenta que existen opiniones distintas a la suya."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Convive y participa democráticamente cuando se relaciona con los demás respetando las diferencias y cumpliendo con sus deberes. Conoce las costumbres y características de las personas de su localidad o región. Construye de manera colectiva acuerdos y normas. Usa estrategias sencillas para resolver conflictos. Realiza acciones específicas para el beneficio de todos a partir de la deliberación sobre asuntos de interés común tomando como fuente sus experiencias previas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Convive y participa democráticamente cuando interactúa de manera respetuosa con sus compañeros desde su propia iniciativa, cumple con sus deberes y se interesa por conocer más sobre las diferentes costumbres y características de las personas de su entorno inmediato. Participa y propone acuerdos y normas de convivencia para el bien común. Realiza acciones con otros para el buen uso de los espacios, materiales y recursos comunes."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Convive y participa cuando se relaciona con niños y adultos de su espacio cotidiano desde su propia iniciativa. Manifiesta a través de movimientos, gestos o palabras las situaciones que le agradan o le incomodan. Colabora en el cuidado de los materiales y espacios comunes."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 39,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1731,
+  "totalTokens": 3953,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

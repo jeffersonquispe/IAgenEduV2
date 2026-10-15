@@ -1,0 +1,78 @@
+{
+ "numero_pagina_impreso": 153,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Resuelve problemas de cantidad",
+ "ciclo": "VII",
+ "capacidades": [
+  "Traduce cantidades a expresiones numéricas.",
+  "Comunica su comprensión sobre los números y las operaciones.",
+  "Usa estrategias y procedimientos de estimación y cálculo.",
+  "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a las relaciones entre cantidades muy grandes o muy pequeñas, magnitudes o intercambios financieros, traduciéndolas a expresiones numéricas y operativas con números racionales o irracionales, notación científica, intervalos, y tasas de interés simple y compuesto. Evalúa si estas expresiones cumplen con las condiciones iniciales del problema. Expresa su comprensión de los números racionales e irracionales, de sus operaciones y propiedades, así como de la notación científica; establece relaciones de equivalencia entre múltiplos y submúltiplos de unidades de masa, y tiempo, y entre escalas de temperatura, empleando lenguaje matemático y diversas representaciones; basado en esto interpreta e integra información contenida en varias fuentes de información. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos de cálculo y estimación para resolver problemas, los evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea y compara afirmaciones sobre números racionales y sus propiedades, formula enunciados opuestos o casos especiales que se cumplen entre expresiones numéricas; justifica, comprueba o descarta la validez de la afirmación mediante contraejemplos o propiedades matemáticas.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos y acciones de comparar, igualar cantidades o trabajar con tasas de interés simple. Las transforma a expresiones numéricas (modelos) que incluyen operaciones de adición, sustracción, multiplicación, división con expresiones fraccionarias o decimales y la notación exponencial, así como el interés simple. En este grado, el estudiante expresa los datos en unidades de masa, de tiempo, de temperatura o monetarias."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Compara dos expresiones numéricas (modelos) y reconoce cuál de ellas representa todas las condiciones del problema señalando posibles mejoras."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión del valor posicional de las cifras de un número hasta los millones, al ordenar, comparar, componer y descomponer un número racional, así como la utilidad de expresar cantidades muy grandes en notación exponencial y notación científica de exponente positivo."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión del racional como decimal periódico puro o mixto, o equivalente a una fracción, así como de los órdenes del sistema de numeración decimal y cómo este determina el valor posicional de las cifras."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las tasas de interés simple y términos financieros (tasa mensual, tasa anual e impuesto a las transacciones financieras —ITF) para interpretar el"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos y acciones de comparar e igualar cantidades o trabajar con tasas de interés simple y compuesto. Las transforma a expresiones numéricas (modelos) que incluyen operaciones con números racionales, raíces inexactas, notación exponencial y científica, así como modelos financieros de interés simple y compuesto."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa expresiones numéricas (modelos) planteadas para un mismo problema y determina cuál de ellas representó mejor las condiciones del problema."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión de los órdenes del sistema de numeración decimal al expresar una cantidad muy grande o muy pequeña en notación científica, así como al comparar y ordenar cantidades expresadas en notación científica. Expresa su comprensión de las diferencias entre notación científica y notación exponencial."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión del número irracional como decimal no periódico obtenido de raíces inexactas y de la noción de densidad en los números racionales al identificar al menos un nuevo número racional entre otros dos racionales."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre el interés compuesto y sobre términos financieros (impuesto a la renta, tasa de interés simple y compuesto, y capitalización) para interpretar el problema en su contexto y estableciendo relaciones entre representaciones."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 153,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1736,
+  "totalTokens": 3958,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,59 @@
+{
+ "numero_pagina_impreso": 139,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": "VI",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de texto en inglés que presentan estructuras simples y algunos elementos complejos con vocabulario cotidiano. Obtiene información e integra datos que están en distintas partes del texto. Realiza inferencias locales partir de la información explícita e implícita e interpreta el texto seleccionando información relevante y complementaria. Reflexiona sobre aspectos variados del texto evaluando el uso del lenguaje y la intención de los recursos textuales más comunes a partir de su conocimiento y experiencia.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Identifica información explícita, relevante y complementaria distinguiendo detalles dispersos en el texto que contienen algunos elementos complejos en su estructura y vocabulario cotidiano, en diversos tipos de textos escritos en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia y causales) y jerárquicas (ideas principales y complementarias) en textos escritos en inglés a partir de información explícita e implícita. Señala las características de seres, objetos, lugares y hechos, y el significado de palabras, frases y expresiones en contexto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Ejemplo: intercambiar información personal; hablar sobre habilidades, posesiones, preferencias, deportes y lugares; hablar acerca de actividades en curso, pasadas y diarias; describir trabajo, la escuela, identidades accidentes geográficos y comparar comida. Distingue lo relevante de lo complementario vinculando el texto con su experiencia para construir el sentido del texto escrito en inglés relacionándolo con su experiencia y sus conocimientos, y con otros textos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Opina de manera oral o escrita sobre el contenido y organización del texto escrito en inglés, así como sobre el propósito comunicativo y la intención del autor a partir de su experiencia y contexto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Identifica información explícita, relevante y complementaria distinguiendo detalles dispersos en el texto que contiene algunos elementos complejos en su estructura y vocabulario cotidiano, en diversos tipos de textos escritos en inglés."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias) en textos escritos en inglés a partir de la información explícita e implícita. Señala las características de seres, objetos, lugares y hechos, y el significado de palabras, frases y expresiones en contexto."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Ejemplo: Hablar sobre personas, lugares, accidentes; expresar sentimientos y estados de ánimo; describir posibilidades futuras, obligaciones, tecnología, eventos, noticias, actividades en curso y pasadas, realizar pedidos, sugerencias y planes; pedir y dar consejo; sugerir y planificar una actividad; expresar causa y efecto; discutir acerca de preferencias propias y de otros; describir y recomendar películas y brindad recomendaciones para llegar a algún punto. Distingue lo relevante de lo complementario vinculando el texto con su experiencia para construir el sentido del texto escrito en inglés y relacionándolo con su experiencia y sus conocimientos, y con otros textos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Opina en inglés de manera oral o escrita sobre el contenido y organización del texto escrito en inglés, así como sobre el propósito comunicativo y la intención del autor a partir de su experiencia y contexto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 139,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1346,
+  "totalTokens": 3500,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

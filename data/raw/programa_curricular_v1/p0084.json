@@ -1,0 +1,39 @@
+{
+ "numero_pagina_impreso": 84,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Aprecia de manera crítica manifestaciones artístico-culturales",
+ "ciclo": "VII",
+ "capacidades": [
+  "Percibe manifestaciones artístico-culturales.",
+  "Contextualiza manifestaciones artístico-culturales.",
+  "Reflexiona creativa y críticamente sobre manifestaciones artístico-culturales."
+ ],
+ "descripcion_nivel": "Aprecia de manera crítica manifestaciones artístico-culturales cuando reconoce en estas la función comunicativa de los elementos y códigos de los lenguajes de las artes de diversas épocas y lugares; comprende que generan diferentes reacciones en las personas y que existen diferentes maneras de interpretarlas según los diferentes sociocultureles de las personas que las aprecian. Investiga el impacto de los medios de comunicación, los cambios sociales y tecnológicos en las manifestaciones artístico-culturales contemporáneas y compara las diversas funciones que ha cumplido el arte en una variedad de contextos sociales, culturales e históricos. Integra la información artístico-cultural nos resta a interpretar sus ideas y significados. Evalúa la eficacia del uso de las técnicas utilizadas en comparación con la intención de la obra, de otros trabajos y artistas afines y hace comentarios sobre los impactos que puede tener una manifestación sobre aquellos que las observan o experimentan.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Describe los efectos que tienen los elementos, principios y códigos asociados a cada lenguaje artístico sobre la audiencia. Ejemplo: los estudiantes observan una serie de afiches sobre el bullying y analizan cómo se usan los principios de contraste (colores y textura) reconociendo las peculiaridades del mensaje."
+  },
+  {
+   "grado": 5,
+   "texto": "Obtiene y selecciona información sobre cómo los cambios sociales y tecnológicos afectan la producción, la difusión y el consumo de manifestaciones artístico-culturales a lo largo de la historia. Opina sobre la manera en que estas reflejan los contextos en los que fue fueron creadas. Ejemplo: El estudiante explica cómo y por qué los retablos en el siglo XVII representaban escenas católicas, mientras que, en la actualidad, los artistas creadores de retablos representan testimonios y narrativas relacionados con temas sociales actuales."
+  },
+  {
+   "grado": 5,
+   "texto": "Emite un juicio de valor utilizando argumentos sobre la efectividad de una manifestación artístico-cultural, de acuerdo con la influencia o impacto que puede tener sobre el público. Explica las intenciones del artista basándose en los elementos, los principios y el contexto en que fue creada su obra."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 84,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 792,
+  "totalTokens": 2881,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

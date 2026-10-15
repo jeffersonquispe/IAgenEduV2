@@ -1,0 +1,56 @@
+{
+ "numero_pagina_impreso": 75,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Interactúa a través de sus habilidades sociomotrices",
+ "ciclo": "VI",
+ "capacidades": [
+  "Se relaciona utilizando sus habilidades sociomotrices.",
+  "Crea y aplica estrategias y tácticas de juego."
+ ],
+ "descripcion_nivel": "Interactúa a través de sus habilidades sociomotrices con autonomía en situaciones que no le son favorables y asume con una actitud de liderazgo los desafíos propios de la práctica de actividades físicas, experimentando el placer y disfrute que ellas representan. Formula y aplica estrategias para solucionar problemas individuales y colectivos, incorporando elementos técnicos y tácticos pertinentes y adecuándose a los cambios que se dan en la práctica. Analiza los posibles aciertos y dificultades ocurridos durante la práctica para mejorar la estrategia de juego.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Se relaciona con sus compañeros en diversos entornos interactuando de manera asertiva. Valora el juego como manifestación social y cultural de los pueblos, y evita todo tipo de discriminación en la práctica de actividades físicas (lúdicas, deportivas y otras)."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Muestra actitudes de responsabilidad, solidaridad, respeto, cuidado de sí mismo y de los otros teniendo en cuenta la no discriminación en la práctica de diferentes actividades físicas (lúdicas, deportivas y otras), y promueve la integración de sus pares de distinto género y con desarrollo diferente."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Aplica de manera colectiva estrategias ofensivas y defensivas en juegos predeportivos y deportivos utilizando los fundamentos tácticos y técnicos adecuados a las variaciones del entorno y las reglas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Actúa asertivamente en situaciones motrices que no le son favorables asumiendo las dificultades y desafíos. Asimismo, participa con entusiasmo en juegos tradicionales o populares, y deportivos, así como en la organización colectiva de actividades físicas en la naturaleza mostrando una actitud de cuidado hacia el medio ambiente desde su propia iniciativa."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Construye juegos y actividades físicas que se adecúen a las necesidades y posibilidades del grupo, integrando a pares de distinto género o con desarrollo diferente, con una actitud crítica ante todo tipo de discriminación dentro y fuera de la institución educativa."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Plantea junto con sus pares soluciones estratégicas incorporando elementos técnicos y tácticos, adecuándose a los cambios que se dan en el entorno y las reglas de juego propuestas, y evaluando el desempeño del grupo a través de posibles aciertos y dificultades que le sirvan para ofrecer alternativas de solución y mejora de sus desempeños en la práctica de los juegos predeportivos y deportivos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 75,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1093,
+  "totalTokens": 3315,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

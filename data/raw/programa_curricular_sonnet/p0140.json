@@ -1,0 +1,77 @@
+{
+ "numero_pagina_impreso": 140,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Lee diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": "VII",
+ "capacidades": [
+  "Obtiene información del texto escrito.",
+  "Infiere e interpreta información del texto escrito.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Lee diversos tipos de texto en inglés con algunas estructuras complejas y vocabulario variado y especializado. Integra información contrapuesta ubicada en distintas partes del texto. Interpreta el texto integrando la idea principal con información específica para construir su sentido global. Reflexiona sobre las formas y contenidos del texto. Evalúa el uso del lenguaje y los recursos textuales, así como el efecto del texto en el lector a partir de su conocimiento y del contexto sociocultural.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante lee diversos tipos de textos en inglés como lengua extranjera y se encuentra en proceso hacia el nivel esperado del ciclo VII, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Identifica información explícita, relevante y complementaria integrando datos que se encuentran en distintas partes del texto que contienen varios elementos complejos en su estructura y vocabulario variado, en diversos tipos de textos escritos en inglés."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias) en textos escritos en inglés a partir de información explícita e implícita. Señala las características de seres, objetos, lugares y hechos, y el significado de palabras, frases y expresiones en contexto."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Ejemplo: Intercambiar información personal al presentar a alguien y a sí mismo; hablar sobre personas, medios de transporte, deportes, entretenimiento; discutir acerca de costumbres, hábitos, noticias, viajes y experiencias; describir acontecimientos históricos, accidentes vehiculares, condiciones de viaje, noticias; intercambiar información personal; comparar estilos de vida; hacer planes; quejarse y disculparse. Distingue lo relevante de lo complementario clasificando y sintetizando la información, vinculando el texto con su experiencia para construir el sentido del texto escrito en inglés, y relacionándolo con su experiencia y sus conocimientos, y con otros textos y lenguajes."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Opina en inglés de manera oral o escrita sobre el contenido y organización del texto escrito en inglés, así como sobre el propósito comunicativo y la intención del autor a partir de su experiencia y contexto. Compara textos entre sí para señalar características comunes de tipos textuales y géneros discursivos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Cuando el estudiante lee diversos tipos de textos en inglés como lengua extranjera y se encuentra en proceso hacia el nivel esperado del ciclo VII, realiza desempeños como los siguientes:"
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Identifica información explícita, relevante y complementaria integrando datos que se encuentran en distintas partes del texto o en distintos textos al realizar una lectura intertextual, que contienen varios elementos complejos en su estructura y vocabulario variado, en diversos tipos de textos escritos en inglés."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Deduce diversas relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y jerárquicas (ideas principales y complementarias, y conclusiones) en textos escritos en inglés a partir de información explícita e implícita. Señala las características de seres, objetos, lugares y hechos, y el significado de palabras, frases y expresiones en contexto."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Explica el tema y el propósito comunicativo. Ejemplo: Hablar acerca de actividades en curso, temporales y habituales; discutir acerca de situaciones imaginarias, obligaciones y reglas en la casa, actitudes y comportamientos, preferencias, hábitos pasados, problemas y soluciones, productos fabricados, inventos, planes y predicciones; expresar deducción, imposibilidad, posibilidad, obligación y necesidad; secuenciar eventos y compartir intereses personales. Distingue lo relevante de lo complementario clasificando y sintetizando la información vinculando el texto con su experiencia para construir el sentido del texto escrito en inglés, y relacionándolo con su experiencia y sus conocimientos, y con otros textos, lenguajes y contextos."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Opina en inglés de manera oral o escrita sobre el contenido y organización del texto escrito en inglés, así como sobre el propósito comunicativo y la intención del autor a partir de su experiencia y contexto. Compara textos entre sí para señalar características comunes de tipos textuales y géneros discursivos."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 140,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1761,
+  "totalTokens": 3983,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,52 @@
+{
+ "numero_pagina_impreso": 127,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Escribe diversos tipos de textos en castellano como segunda lengua",
+ "ciclo": "VII",
+ "capacidades": [
+  "Adecúa el texto a la situación comunicativa.",
+  "Organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza convenciones del lenguaje escrito de forma pertinente.",
+  "Reflexiona y evalúa la forma, el contenido y contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Escribe diversos tipos de textos de forma reflexiva sobre temas variados. Adecúa su texto a su destinatario, propósito y registro; utiliza diversas fuentes de información complementaria y/o divergente entre sí, que provienen de diversos contextos socioculturales e históricos. Organiza y desarrolla sus ideas en torno al género discursivo y al tema, usando vocabulario variado y especializado. Relaciona ideas del texto a través del uso de recursos gramaticales y recursos ortográficos para darle claridad y sentido. Reflexiona sobre el contenido del texto, la organización y el contexto donde se desarrolla, evalúa los usos del lenguaje justificando su posición.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Adecúa su texto al destinatario, el registro formal e informal, y el propósito comunicativo sobre temas variados, utilizando estratégicamente diversas fuentes con información opuesta oral o escrita, que provenien de diversos contextos socioculturales e históricos."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Escribe textos en torno a un tema. Ordena las ideas mediante el uso variado de conectores y referentes gramaticales."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Organiza su texto en párrafos en torno a diversos temas."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Utiliza diferentes recursos gramaticales y ortográficos para darle claridad y sentido al texto que escribe."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa si el texto que escribe se adecúa, en lo que respecta tanto a su contenido como a su organización, a la situación comunicativa."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa los usos del lenguaje del texto al comparar y contrastar aspectos gramaticales y ortográficos, además de las características de los tipos textuales y géneros discursivos usados."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 127,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 862,
+  "totalTokens": 3016,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

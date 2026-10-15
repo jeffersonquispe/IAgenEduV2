@@ -1,0 +1,44 @@
+{
+ "numero_pagina_impreso": 146,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Escribe diversos tipos de textos en inglés como lengua extranjera",
+ "ciclo": "VII",
+ "capacidades": [
+  "Adecúa el texto a la situación comunicativa.",
+  "Organiza y desarrolla las ideas de forma coherente y cohesionada.",
+  "Utiliza convenciones del lenguaje escrito de forma pertinente.",
+  "Reflexiona y evalúa la forma, el contenido y el contexto del texto escrito."
+ ],
+ "descripcion_nivel": "Escribe diversos tipos de textos de amplia extensión de forma reflexiva en inglés. Adecúa su texto al destinatario, propósito y registro a partir de su experiencia previa y fuentes de información variada. Organiza y desarrolla sus ideas alrededor de un tema central y las estructura en párrafos y subtítulos. Relaciona sus ideas a través del uso de algunos recursos cohesivos (sinónimos, antónimos, pronominalización y conectores aditivos, adversativos, temporales, condicionales, disjuntivos y causales) con vocabulario variado y pertinente a la temática tratada y construcciones gramaticales de mediana complejidad. Utiliza recursos ortográficos que permiten claridad en sus textos. Reflexiona sobre el texto que escribe y evalúa los usos del lenguaje con la finalidad de mejorar el texto que escribe en inglés.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Adecúa el texto que escribe en inglés a la situación comunicativa considerando el tipo textual, algunas características del género discursivo, el formato, el soporte y el propósito. Ejemplo: Discutir acerca de modales, libros, lenguaje corporal, inventos, competencias para el trabajo, desastres naturales y emergencias; reportar una emergencia; expresar arrepentimiento; reportar noticias."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Produce textos escritos en inglés en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel. Los jerarquiza estableciendo diferentes relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Emplea convenciones del lenguaje escrito como recursos complejos que le dan claridad y sentido al texto. Ejemplo: Embedded questions; present perfect continuous; past perfect, connecting words; reported speech —range of tenses; perfect modals —should, might, may, could; conditionals 2nd and 3rd. Usa recursos textuales para aclarar y reforzar sentidos en el texto con el fin de producir efectos en el lector."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS QUINTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa su texto en inglés para mejorar considerando aspectos gramaticales y ortográficos, y las características de tipos textuales y géneros discursivos, así como otras convenciones vinculadas con el lenguaje escrito usadas con pertinencia y precisión para dar sentido al texto."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 146,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 975,
+  "totalTokens": 3129,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

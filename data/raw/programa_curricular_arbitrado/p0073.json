@@ -1,0 +1,30 @@
+{
+ "numero_pagina_impreso": 73,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "INTERACTÚA A TRAVÉS DE SUS HABILIDADES SOCIOMOTRICES",
+ "ciclo": null,
+ "capacidades": [
+  "Se relaciona utilizando sus habilidades sociomotrices: supone interactuar de manera asertiva con los demás en la práctica lúdica y deportiva experimentando el placer y disfrute que ella representa. Por otro lado, desarrolla habilidades como el respeto a las normas de juego, liderazgo, tolerancia, actitud proactiva, la resolución de conflictos interpersonales, la pertenencia positiva a un grupo, entre otras.",
+  "Crea y aplica estrategias y tácticas de juego: supone emplear los recursos personales y las potencialidades de cada miembro del equipo para el logro de un objetivo común, desarrollando y aplicando reglas y soluciones tácticas de juego en actividades físicas de colaboración, cooperación y oposición."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Competencia INTERACTÚA A TRAVÉS DE SUS HABILIDADES SOCIOMOTRICES en la práctica de diferentes actividades físicas (juegos, deportes, actividades predeportivas, etc.). Implica poner en juego los recursos personales para una apropiada interacción social, inclusión y convivencia, insertándose adecuadamente en el grupo y resolviendo conflictos de manera asertiva, empática y pertinente a cada situación. De igual manera, aplica estrategias y tácticas para el logro de un objetivo común en la práctica de diferentes actividades físicas, mostrando una actitud proactiva en la organización de eventos lúdicos y deportivos.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 73,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 519,
+  "totalTokens": 2741,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 1
+ }
+}

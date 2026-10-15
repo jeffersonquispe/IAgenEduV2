@@ -1,0 +1,62 @@
+{
+ "numero_pagina_impreso": 87,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": "Crea proyectos desde los lenguajes artísticos",
+ "ciclo": "VI",
+ "capacidades": [
+  "Explora y experimenta los lenguajes artísticos.",
+  "Aplica procesos creativos.",
+  "Evalúa y comunica sus procesos y proyectos."
+ ],
+ "descripcion_nivel": "Crea proyectos artísticos individuales o colaborativos que representan y comunican ideas e intenciones específicas. Selecciona, experimenta y usa los elementos del arte, los medios, materiales, herramientas, técnicas y procedimientos apropiados para sus necesidades de expresión y comunicación. Genera o desarrolla ideas investigando una serie de recursos asociados a conceptos, técnicas o problemas específicos personales o sociales. Planifica, diseña, improvisa y manipula elementos de los diversos lenguajes del arte para explorar el potencial de sus ideas e incorpora influencias de su propia cultura y de otras. Registra las etapas de sus procesos de creación y reflexiona sobre la efectividad de sus proyectos, modificándolos de manera continua para lograr sus intenciones. Establece estrategias de mejora para que sus proyectos tengan un mayor impacto a futuro. Planifica la presentación de sus proyectos considerando su intención y el público al que se dirige.",
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Utiliza los elementos de los lenguajes artísticos para explorar sus posibilidades expresivas y ensaya distintas maneras de utilizar materiales, herramientas y técnicas para obtener diversos efectos."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Elabora un plan para desarrollar un proyecto artístico y lo ejecuta incorporando elementos de los lenguajes artísticos para comunicar sus ideas con mayor claridad. Selecciona información de diversos referentes artístico-culturales relacionados con su proyecto e incluye recursos tecnológicos cuando lo considera necesario. Ejemplo: Un grupo de estudiantes crea una cumbia amazónica en la que incorporan elementos constructivos y expresivos propios de la música amazónica del Perú."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "DESEMPEÑOS PRIMER GRADO DE SECUNDARIA",
+   "texto": "Registra las fuentes de sus ideas (por ejemplo, bocetos o imágenes) y comunica cómo fue su proceso creativo reflexionando con sus pares sobre las cualidades estéticas de su proyecto, el manejo de las herramientas y técnicas, y su rol en el proceso creativo."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Utiliza y combina elementos de los lenguajes artísticos, materiales, herramientas, procedimientos y técnicas, para explorar sus posibilidades expresivas y lograr intenciones específicas."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Elabora y ejecuta un plan para desarrollar un proyecto artístico: obtiene y selecciona información de diversos referentes artístico-culturales o de otros tipos. Utiliza elementos, materiales, herramientas y procedimientos para comunicar mensajes e ideas con mayor claridad. Incluye recursos tecnológicos cuando lo considera necesario."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "DESEMPEÑOS SEGUNDO GRADO DE SECUNDARIA",
+   "texto": "Registra de manera visual o escrita las fuentes de sus ideas. Comunica las decisiones que tomó en su proceso creativo en relación con su intención, y reflexionando sobre las cualidades estéticas de su proyecto, el manejo de las herramientas y técnicas, y su rol en el proceso creativo. Explica las posibilidades de mejora para próximas creaciones. Ejemplo: El estudiante describe los movimientos y elementos que ha usado en la creación de una danza. Explica el motivo de sus decisiones, el significado de la danza, e identifica las danzas estudiadas que inspiraron su creación. Explica lo que le gusta de su creación y lo que podría mejorar."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 87,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1421,
+  "totalTokens": 3643,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 2
+ }
+}

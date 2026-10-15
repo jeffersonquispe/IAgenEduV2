@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 170,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "RESUELVE PROBLEMAS DE GESTIÓN DE DATOS E INCERTIDUMBRE",
+ "ciclo": null,
+ "capacidades": [
+  "Representa datos con gráficos y medidas estadísticas o probabilísticas: es representar el comportamiento de un conjunto de datos, seleccionando tablas o gráficos estadísticos, medidas de tendencia central, de localización o dispersión. Reconocer variables de la población o la muestra al plantear un tema de estudio. Así también implica el análisis de situaciones aleatorias y representar la ocurrencia de sucesos mediante el valor de la probabilidad.",
+  "Comunica su comprensión de los conceptos estadísticos y probabilísticos: es comunicar su comprensión de conceptos estadísticos y probabilísticos en relación a la situación. Leer, describir e interpretar información estadística contenida en gráficos o tablas provenientes de diferentes fuentes.",
+  "Usa estrategias y procedimientos para recopilar y procesar datos: es seleccionar, adaptar, combinar o crear una variedad de procedimientos, estrategias y recursos para recopilar, procesar y analizar datos, así como el uso de técnicas de muestreo y el cálculo de las medidas estadísticas y probabilísticas.",
+  "Sustenta conclusiones o decisiones con base en la información obtenida: es tomar decisiones, hacer predicciones o elaborar conclusiones y sustentarlas con base en la información obtenida del procesamiento y análisis de datos, así como de la revisión o valoración de los procesos."
+ ],
+ "descripcion_nivel": "Consiste en que el estudiante analice datos sobre un tema de interés o estudio o de situaciones aleatorias, que le permitan tomar decisiones, elaborar predicciones razonables y conclusiones respaldadas en la información producida. Para ello, el estudiante recopila, organiza y representa datos que le dan insumos para el análisis, interpretación e inferencia del comportamiento determinista o aleatorio de la situación usando medidas estadísticas y probabilísticas.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 170,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 600,
+  "totalTokens": 2754,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

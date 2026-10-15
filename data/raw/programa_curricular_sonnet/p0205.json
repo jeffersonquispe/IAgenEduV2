@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 205,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Construye su identidad como persona humana, amada por Dios, digna, libre y trascendente, comprendiendo la doctrina de su propia religión, abierto al diálogo con las que le son cercanas",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Sustenta con convicción que Dios es el principio y fin de todo lo creado y que da sentido y plenitud a la existencia humana, desarrollando una relación personal con Él. Argumenta su fe de manera comprensible y respetuosa en diálogo crítico con la cultura, la ciencia y otras manifestaciones religiosas. Actúa con libertad, autonomía y responsabilidad, promoviendo la práctica del bien común, el respeto por la vida en todas sus formas y las diferentes expresiones culturales y religiosas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Fundamenta la presencia de Dios en la creación, en el Plan de Salvación y en la vida de la Iglesia. Asume a Jesucristo como Redentor y modelo de hombre que le enseña a vivir bajo la acción del Espíritu Santo, participando en la misión evangelizadora en coherencia con su creencia religiosa. Argumenta su fe en diálogo crítico con la cultura, la ciencia, otras manifestaciones religiosas y espirituales. Propone alternativas de solución a problemas y necesidades de su comunidad, del país y del mundo, que expresen los valores propios de su tradición cristiana y católica, el bien común, la promoción de la dignidad de la persona y el respeto a la vida humana. Interioriza el mensaje de Jesucristo y las enseñanzas de la Iglesia para actuar en coherencia con su fe."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Argumenta la presencia de Dios en la creación y su manifestación en el Plan de Salvación descritos en la Biblia, como alguien cercano al ser humano, que lo busca, interpela y acoge. Comprende el cumplimiento de la promesa de salvación y la plenitud de la revelación desde las enseñanzas del Evangelio. Propone acciones que favorecen el respeto por la vida humana y la práctica del bien común en la sociedad. Participa en las diferentes manifestaciones de fe propias de su comunidad en diálogo con otras creencias religiosas. Demuestra sensibilidad ante las necesidades del prójimo desde las enseñanzas del Evangelio y de la Iglesia."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Comprende el amor de Dios desde la creación respetando la dignidad y la libertad de la persona humana. Explica la acción de Dios presente en el Plan de Salvación. Demuestra su amor a Dios y al prójimo participando en su comunidad y realizando obras de caridad que le ayudan en su crecimiento personal y espiritual. Fomenta una convivencia cristiana basada en el diálogo, el respeto, la tolerancia y el amor fraterno fortaleciendo su identidad como hijo de Dios."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Describe el amor de Dios presente en la creación y en el Plan de Salvación. Construye su identidad como hijo de Dios desde el mensaje de Jesús presente en el Evangelio. Participa en la Iglesia como comunidad de fe y de amor, respetando la dignidad humana y las diversas manifestaciones religiosas. Fomenta una convivencia armónica basada en el diálogo, el respeto, la tolerancia y el amor fraterno."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Descubre el amor de Dios en la creación y lo relaciona con el amor que recibe de las personas que lo rodean. Explica la presencia de Dios en el Plan de Salvación y la relación que Él establece con el ser humano. Convive de manera fraterna con el prójimo respetando las diferentes expresiones religiosas. Asume las consecuencias de sus acciones con responsabilidad, comprometiéndose a ser mejor persona, a ejemplo de Jesucristo."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Experimenta la adhesión y amor a Dios mediante el cuidado de la creación, la bondad hacia su familia y su entorno, de acuerdo a los relatos bíblicos. Se expresa espontáneamente con gestos, palabras, oraciones y otras formas relacionadas con su vivencia religiosa. Agradece espontáneamente a Dios por la vida y por todo lo que recibe de Él. Practica la tolerancia consigo mismo y con el prójimo pidiendo disculpas espontáneamente cuando se equivoca o provoca algún daño a otras personas. Expresa libremente su amor al prójimo a través de acciones concretas."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Este nivel tiene como base el nivel 1 de la competencia \"Construye su identidad\"."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 205,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1483,
+  "totalTokens": 3705,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

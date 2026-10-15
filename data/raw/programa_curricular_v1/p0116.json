@@ -1,0 +1,47 @@
+{
+ "numero_pagina_impreso": 116,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "grado": null,
+   "texto": "Ordena y jerarquiza las ideas relacionándolas mediante diversos recursos cohesivos, como conectores, referentes y recursos textuales."
+  },
+  {
+   "grado": null,
+   "texto": "Incorpora un vocabulario variado y especializado."
+  },
+  {
+   "grado": null,
+   "texto": "Incluye en su producción oral diversas fuentes de información, tanto orales como escritas."
+  },
+  {
+   "grado": null,
+   "texto": "Emplea estratégicamente recursos no verbales (gestos y movimientos corporales) y paraverbales (entonación) para mantener la atención del interlocutor en diversos contextos socioculturales."
+  },
+  {
+   "grado": null,
+   "texto": "Participa en intercambios orales con diversos interlocutores en debates y conversaciones aportando información relevante y oportuna, las cuales son desarrolladas en el texto oral."
+  },
+  {
+   "grado": null,
+   "texto": "Respeta los puntos de vista y las necesidades de su interlocutor. Respeta los turnos de la conversación para presentar oportunamente su posición."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 116,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 431,
+  "totalTokens": 2520,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

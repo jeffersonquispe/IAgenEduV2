@@ -1,0 +1,27 @@
+{
+ "numero_pagina_impreso": 190,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "DISEÑA Y CONSTRUYE SOLUCIONES TECNOLÓGICAS PARA RESOLVER PROBLEMAS DE SU ENTORNO",
+ "ciclo": null,
+ "capacidades": [
+  "Determina una alternativa de solución tecnológica: al detectar un problema y proponer alternativas de solución creativas basadas en conocimientos científico, tecnológico y prácticas locales, evaluando su pertinencia para seleccionar una de ellas.",
+  "Diseña la alternativa de solución tecnológica: es representar de manera gráfica o esquemática la estructura y funcionamiento de la solución tecnológica (especificaciones de diseño), usando conocimiento científico, tecnológico y prácticas locales, teniendo en cuenta los requerimientos del problema y los recursos disponibles.",
+  "Implementa y valida la alternativa de solución tecnológica: es llevar a cabo la alternativa de solución, verificando y poniendo a prueba el cumplimiento de las especificaciones de diseño y el funcionamiento de sus partes o etapas.",
+  "Evalúa y comunica el funcionamiento y los impactos de su alternativa de solución tecnológica: es determinar qué tan bien la solución tecnológica logró responder a los requerimientos del problema, comunicar su funcionamiento y analizar sus posibles impactos, en el ambiente y la sociedad, tanto en su proceso de elaboración como de uso."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "El estudiante es capaz de construir objetos, procesos o sistemas tecnológicos, basándose en conocimientos científicos, tecnológicos y de diversas prácticas locales, para dar respuesta a problemas del contexto, ligados a las necesidades sociales, poniendo en juego la creatividad y perseverancia.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 190,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 534,
+  "totalTokens": 2756,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,60 @@
+{
+ "numero_pagina_impreso": 160,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Resuelve problemas de regularidad, equivalencia y cambio",
+ "ciclo": "VII",
+ "capacidades": [
+  "Traduce datos y condiciones a expresiones algebraicas y gráficas.",
+  "Comunica su comprensión sobre las relaciones algebraicas.",
+  "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales.",
+  "Argumenta afirmaciones sobre relaciones de cambio y equivalencia."
+ ],
+ "descripcion_nivel": "Resuelve problemas referidos a analizar cambios continuos o periódicos, o regularidades entre magnitudes, valores o expresiones, traduciéndolos a expresiones algebraicas que pueden contener la regla general de progresiones geométricas, sistema de ecuaciones lineales, ecuaciones y funciones cuadráticas y exponenciales. Evalúa si la expresión algebraica reproduce las condiciones del problema. Expresa su comprensión de la regla de formación de sucesiones y progresiones geométricas; la solución o conjunto solución de sistemas de ecuaciones lineales e inecuaciones; la diferencia entre una función lineal y una función cuadrática e exponencial y sus parámetros; las usa para interpretar enunciados o textos o fuentes de información usando lenguaje matemático y gráficos. Selecciona, combina y adapta variados recursos, estrategias y procedimientos matemáticos para determinar términos desconocidos en progresiones geométricas, solucionador ecuaciones lineales o cuadráticas, simplificar expresiones usando identidades algebraicas; evalúa y opta por aquellos más idóneos según las condiciones del problema. Plantea afirmaciones sobre enunciados opuestos o casos especiales que se cumplen entre expresiones algebraicas; así como predecir el comportamiento de variables; comprueba o descarta la validez de la afirmación mediante contraejemplos y propiedades matemáticas.",
+ "desempenos": [
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos, valores desconocidos, regularidades, condiciones de equivalencia o variación entre magnitudes. Transforma esas relaciones a expresiones algebraicas o gráficas (modelos) que incluyen la regla de formación de una progresión geométrica, a sistemas de ecuaciones lineales con dos variables, a inecuaciones (ax ± b < c, ax ± b > c, ax ± b ≤ c y ax + b ≥ c, ∀ a ∈ Q y a ≠ 0), a ecuaciones cuadráticas (ax² = c) y a funciones cuadráticas (f(x) = x², f(x) = ax² + c, ∀ a ≠ 0) con coeficientes enteros y proporcionalidad compuesta."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Evalúa si la expresión algebraica o gráfica (modelo) que planteó representó todas las condiciones del problema: datos, términos desconocidos, regularidades, relaciones de equivalencia o variación entre dos magnitudes."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la regla de formación de una progresión geométrica y reconoce la diferencia en crecimiento aritmético y uno geométrico para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS TERCER GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución de un sistema de"
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Establece relaciones entre datos, valores desconocidos, regularidades, y condiciones de equivalencia o variación entre magnitudes. Transforma esas relaciones a expresiones algebraicas o gráficas (modelos) que incluyen la regla de formación de una progresión geométrica, a sistemas de ecuaciones lineales con dos incógnitas, a inecuaciones (ax + b < cx + d, ax + b > cx + d, ax + b ≤ cx + d y ax + b ≥ cx + d, ∀ a y c ∈ Q), a ecuaciones cuadráticas (ax² + bx + c = 0, a ≠ 0 y a, b y c ∈ Q) y funciones cuadráticas (f(x)= ax²+ bx +c, ∀ a ≠ 0 y a ∈ Q)."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Evalúa expresiones algebraicas o gráficas (modelo) planteadas para un mismo problema y determina cuál representó mejor las condiciones del problema."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la suma de términos de una progresión geométrica para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones."
+  },
+  {
+   "encabezado_columna": "DESEMPEÑOS CUARTO GRADO DE SECUNDARIA",
+   "texto": "Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución o soluciones de un sistema de ecuaciones lineales y de una ecuación cuadrática, y sobre el conjunto solución de"
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 160,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 1672,
+  "totalTokens": 3826,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

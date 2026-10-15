@@ -1,0 +1,28 @@
+{
+ "numero_pagina_impreso": 179,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "INDAGA MEDIANTE MÉTODOS CIENTÍFICOS PARA CONSTRUIR CONOCIMIENTOS",
+ "ciclo": null,
+ "capacidades": [
+  "Problematiza situaciones: plantea preguntas sobre hechos y fenómenos naturales, interpreta situaciones y formula hipótesis.",
+  "Diseña estrategias para hacer indagación: propone actividades que permitan construir un procedimiento; selecciona materiales, instrumentos e información para comprobar o refutar las hipótesis.",
+  "Genera y registra datos e información: obtiene, organiza y registra datos fiables en función de las variables, utilizando instrumentos y diversas técnicas que permitan comprobar o refutar las hipótesis.",
+  "Analiza datos e información: interpreta los datos obtenidos en la indagación, contrastándolos con las hipótesis e información relacionada al problema para elaborar conclusiones que comprueben o refuten la hipótesis.",
+  "Evalúa y comunica el proceso y resultados de su indagación: identificar y dar a conocer las dificultades técnicas y los conocimientos logrados para cuestionar el grado de satisfacción que la respuesta da a la pregunta de indagación."
+ ],
+ "descripcion_nivel": "El estudiante es capaz de construir su conocimiento acerca del funcionamiento y estructura del mundo natural y artificial que lo rodea, a través de procedimientos propios de la ciencia, reflexionando acerca de lo que sabe y de cómo ha llegado a saberlo poniendo en juego actitudes como la curiosidad, asombro, escepticismo, entre otras.",
+ "desempenos": [],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 179,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 484,
+  "totalTokens": 2638,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

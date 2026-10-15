@@ -1,0 +1,56 @@
+{
+ "numero_pagina_impreso": 219,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Se desenvuelve en entornos virtuales generados por las TIC",
+ "ciclo": "VII",
+ "capacidades": [
+  "Personaliza entornos virtuales.",
+  "Gestiona información del entorno virtual.",
+  "Interactúa en entornos virtuales.",
+  "Crea objetos virtuales en diversos formatos."
+ ],
+ "descripcion_nivel": "Se desenvuelve en los entornos virtuales cuando interactúa en diversos espacios (como portales educativos, foros, redes sociales, entre otros) de manera consciente y sistemática administrando información y creando materiales digitales en interacción con sus pares de distintos contextos socioculturales expresando su identidad personal.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Optimiza el desarrollo de proyectos cuando configura diversos entornos virtuales de software y hardware de acuerdo con determinadas necesidades cuando reconoce su identidad digital, con responsabilidad y eficiencia de acuerdo con determinadas necesidades cuando reconoce su identidad digital, con responsabilidad y eficiencia."
+  },
+  {
+   "grado": 5,
+   "texto": "Administra bases de datos aplicando filtros, criterios de consultas y organización de información para mostrar reportes e informes que demuestren análisis y capacidad de síntesis."
+  },
+  {
+   "grado": 5,
+   "texto": "Desarrolla proyectos productivos y de emprendimiento aplicando de manera idónea herramientas TIC que mejoren los resultados."
+  },
+  {
+   "grado": 5,
+   "texto": "Elabora objetos virtuales con aplicaciones de modelado en 3D cuando desarrolla proyectos de innovación y emprendimiento. Ejemplo: Modela en 3D el prototipo de su producto."
+  },
+  {
+   "grado": 5,
+   "texto": "Administra comunidades virtuales asumiendo distintos roles, estableciendo vínculos acordes con sus necesidades e intereses, y valorando el trabajo colaborativo."
+  },
+  {
+   "grado": 5,
+   "texto": "Construye prototipos robóticos que permitan solucionar problemas de su entorno."
+  },
+  {
+   "grado": 5,
+   "texto": "Publica y comparte, en diversos medios virtuales, proyectos o investigaciones, y genera actividades de colaboración y diálogo en distintas comunidades y redes virtuales."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 219,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 723,
+  "totalTokens": 2812,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

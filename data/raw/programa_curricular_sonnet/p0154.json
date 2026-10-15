@@ -1,0 +1,73 @@
+{
+ "numero_pagina_impreso": 154,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "problema en su contexto y estableciendo relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las conexiones entre las operaciones con racionales y sus propiedades. Usa este entendimiento para interpretar las condiciones de un problema en su contexto. Establece relaciones entre representaciones."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona, emplea y combina estrategias de cálculo y estimación, recursos y procedimientos diversos para realizar operaciones con números racionales; para determinar tasas de interés y el valor de impuesto a las transacciones financieras (ITF); y para simplificar procesos usando las propiedades de los números y las operaciones, según se adecúen a las condiciones de la situación."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona y usa unidades e instrumentos pertinentes para medir o estimar la masa, el tiempo o la temperatura, y realizar conversiones entre unidades y subunidades, de acuerdo con las condiciones de la situación planteada."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Selecciona, emplea y combina estrategias de cálculo y estimación, recursos, y procedimientos diversos para determinar equivalencias entre expresiones fraccionarias y decimales, y viceversa."
+  },
+  {
+   "columna": 1,
+   "encabezado_columna": "",
+   "texto": "Plantea afirmaciones sobre las propiedades de las operaciones con números racionales, las equivalencias entre tasas de interés, u otras relaciones que descubre, así como las relaciones numéricas entre las operaciones. Justifica dichas afirmaciones usando ejemplos y propiedades de los números y operaciones, y comprueba la validez de sus afirmaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Expresa con diversas representaciones y lenguaje numérico su comprensión sobre las propiedades de las operaciones con raíces inexactas al deducir propiedades especiales. Usa este entendimiento para interpretar las condiciones de un problema en su contexto. Establece relaciones entre representaciones."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona, combina y adapta estrategias de cálculo, estimación, recursos, y procedimientos diversos para realizar operaciones con raíces inexactas, tasas de interés compuesto, cantidades en notación científica e intervalos, y para simplificar procesos usando las propiedades de los números y las operaciones, según se adecúen a las condiciones de la situación."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Selecciona y usa unidades y subunidades e instrumentos pertinentes para estimar y medir magnitudes derivadas (velocidad y aceleración), según el nivel de exactitud exigido en la situación planteada."
+  },
+  {
+   "columna": 2,
+   "encabezado_columna": "",
+   "texto": "Plantea y compara afirmaciones sobre las propiedades de las operaciones con números racionales y raíces inexactas, su noción de densidad en Q, las equivalencias entre tasas de interés compuesto, o de intercambios financieros u otras relaciones numéricas que descubre, y las justifica con ejemplos, contraejemplos y propiedades de los números y las operaciones. Comprueba o descarta la validez de una afirmación mediante un contraejemplo, o el razonamiento inductivo o deductivo."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 154,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1161,
+  "totalTokens": 3383,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

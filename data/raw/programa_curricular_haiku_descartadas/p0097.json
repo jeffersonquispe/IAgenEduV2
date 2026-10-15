@@ -1,0 +1,43 @@
+{
+ "numero_pagina_impreso": 97,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "encabezado_columna": "MINEDU",
+   "texto": "en torno a un tema, y las desarrolla para ampliar o precisar la información. Establece diversas relaciones lógicas entre las ideas mediante el uso preciso de varios tipos de referentes, conectores y otros marcadores textuales. Incorpora un vocabulario pertinente que incluye sinónimos y algunos términos especializados."
+  },
+  {
+   "encabezado_columna": "MINEDU",
+   "texto": "Emplea estratégicamente gestos y movimientos corporales que enfatizan o atenúan lo que dice. Regula la distancia física que guarda con sus interlocutores. Ajusta el volumen, la entonación y el ritmo de su voz para transmitir emociones, caracterizar personajes o producir otros efectos en el público, como el suspenso y el entretenimiento."
+  },
+  {
+   "encabezado_columna": "MINEDU",
+   "texto": "Participa en diversos intercambios orales alternando los roles de hablante y oyente. Decide estratégicamente cómo y en qué momento participar recurriendo a saberes previos, usando lo dicho por sus interlocutores y aportando nueva información para persuadir, contraargumentar y contrastar ideas. Emplea estrategias discursivas, y normas y modos de cortesía según el contexto sociocultural."
+  },
+  {
+   "encabezado_columna": "MINEDU",
+   "texto": "Opina como hablante y oyente sobre el contenido del texto oral, los estereotipos, las creencias y los valores que este plantea, las intenciones de los interlocutores, y el efecto de lo dicho en el hablante y el oyente. Justifica su posición sobre las relaciones de poder e ideologías presentes en los textos considerando su experiencia y los contextos socioculturales en que se desenvuelve."
+  },
+  {
+   "encabezado_columna": "MINEDU",
+   "texto": "Emite un juicio crítico sobre la adecuación de textos orales del ámbito escolar y social y de medios de comunicación a la situación comunicativa, así como la coherencia de las ideas y la cohesión entre estas. Evalúa la eficacia de recursos verbales, no verbales y paraverbales, así como la pertinencia de las estrategias discursivas. Determina la validez de la información contrastándola con otros textos o fuentes de información."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 97,
+ "_uso": {
+  "inputTokens": 2154,
+  "outputTokens": 761,
+  "totalTokens": 2915,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

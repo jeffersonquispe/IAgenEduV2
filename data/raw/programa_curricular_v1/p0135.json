@@ -1,0 +1,63 @@
+{
+ "numero_pagina_impreso": 135,
+ "tipo": "desempenos",
+ "area": null,
+ "competencia": null,
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [
+  {
+   "grado": null,
+   "texto": "transporte, deportes, entretenimiento; discutir acerca de costumbres, hábitos, noticias, viajes y experiencias; describir acontecimientos históricos, accidentes vehiculares, condiciones de viaje, noticias; intercambiar información personal; comparar estilos de vida; hacer planes; quejarse y disculparse."
+  },
+  {
+   "grado": null,
+   "texto": "Expresa sus ideas y emociones en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel, organizándolas para establecer relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando la información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "grado": null,
+   "texto": "Emplea estratégicamente gestos, movimientos corporales y contacto visual para enfatizar lo que dice. Ajusta el volumen y entonación con pronunciación adecuada apoyándose en material concreto y audiovisual."
+  },
+  {
+   "grado": null,
+   "texto": "Participa en diversas situaciones comunicativas alternando los roles de hablante y oyente para preguntar, responder, aclarar, contrastar, y para complementar ideas, hacer comentarios relevantes, adaptar sus respuestas a las necesidades del interlocutor en inglés, con vocabulario variado y pertinente. Respeta las normas y modos de cortesía según el contexto."
+  },
+  {
+   "grado": null,
+   "texto": "Opina en inglés como hablante y oyente sobre el contenido y el propósito comunicativo del texto oral, y sobre las intenciones de los interlocutores y el efecto de lo dicho en ellos a partir de su experiencia y el contexto en el que se desenvuelve."
+  },
+  {
+   "grado": null,
+   "texto": "problemas y soluciones, productos fabricados, inventos, planes y predicciones; expresar deducción, imposibilidad, posibilidad, obligación y necesidad; secuenciar eventos; compartir intereses personales."
+  },
+  {
+   "grado": null,
+   "texto": "Expresa sus ideas, emociones y experiencias en torno a un tema con coherencia, cohesión y fluidez de acuerdo con su nivel, jerarquizándolas para establecer relaciones lógicas (adición, contraste, secuencia, semejanza-diferencia, causa y consecuencia) y ampliando la información de forma pertinente con vocabulario apropiado."
+  },
+  {
+   "grado": null,
+   "texto": "Emplea estratégicamente gestos, movimientos corporales, contacto visual y desplazamiento para enfatizar lo que dice y mantener el interés del oyente. Ajusta el volumen y entonación con pronunciación adecuada apoyándose en material concreto y audiovisual."
+  },
+  {
+   "grado": null,
+   "texto": "Participa en diversas situaciones comunicativas alternando los roles de hablante y oyente para preguntar, responder, aclarar, contrastar, y para complementar ideas, hacer comentarios relevantes, adaptar sus respuestas a las necesidades del interlocutor en inglés, con vocabulario variado y pertinente. Respeta las normas y modos de cortesía según el contexto."
+  },
+  {
+   "grado": null,
+   "texto": "Opina en inglés como hablante y oyente sobre el contenido y el propósito comunicativo del texto oral, y sobre las intenciones de los interlocutores y el efecto de lo dicho en ellos a partir de su experiencia y el contexto en el que se desenvuelve."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 135,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1086,
+  "totalTokens": 3175,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}

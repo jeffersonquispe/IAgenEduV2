@@ -1,0 +1,26 @@
+{
+ "numero_pagina_impreso": 85,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "CREA PROYECTOS DESDE LOS LENGUAJES ARTÍSTICOS",
+ "ciclo": null,
+ "capacidades": [
+  "Explora y experimenta los lenguajes artísticos: significa experimentar, improvisar y desarrollar habilidades en el uso de los medios, materiales, herramientas y técnicas de los diversos lenguajes del arte.",
+  "Aplica procesos creativos: supone generar ideas, investigar, tomar decisiones y poner en práctica sus conocimientos para elaborar un proyecto artístico individual o colaborativo en relación a una intención específica.",
+  "Evalúa y comunica sus procesos y proyectos: significa registrar sus experiencias, comunicar sus descubrimientos y compartir sus creaciones con otros, para profundizar en ellos y reflexionar sobre sus ideas y experiencias."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Competencia CREA PROYECTOS DESDE LOS LENGUAJES ARTÍSTICOS. El estudiante usa los diversos lenguajes artísticos (artes visuales, música, danza, teatro, artes interdisciplinares y otros) para expresar o comunicar mensajes, ideas y sentimientos. Pone en práctica habilidades imaginativas, creativas y reflexivas para generar ideas, planificar, concretar propuestas y evaluarlas de manera continua, para lo cual hace uso de recursos y conocimientos que ha desarrollado en su interacción con el entorno, con manifestaciones artístico-culturales diversas y con los diversos lenguajes artísticos. Experimenta, investiga y aplica los diferentes materiales, técnicas y elementos del arte con una intención específica. Asimismo, reflexiona sobre sus procesos y creaciones y los comunica a otros, con el fin de seguir desarrollando sus capacidades críticas y creativas.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 85,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 547,
+  "totalTokens": 2769,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

@@ -1,0 +1,32 @@
+{
+ "numero_pagina_impreso": 156,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "RESUELVE PROBLEMAS DE REGULARIDAD, EQUIVALENCIA Y CAMBIO",
+ "ciclo": null,
+ "capacidades": [
+  "Traduce datos y condiciones a expresiones algebraicas y gráficas: significa transformar los datos, valores desconocidos, variables y relaciones de un problema a una expresión gráfica o algebraica (modelo) que generalice la interacción entre estos. Implica también evaluar el resultado o la expresión formulada con respecto a las condiciones de la situación; y formular preguntas o problemas a partir de una situación o una expresión.",
+  "Comunica su comprensión sobre las relaciones algebraicas: significa expresar su comprensión de la noción, concepto o propiedades de los patrones, funciones, ecuaciones e inecuaciones estableciendo relaciones entre estas; usando lenguaje algebraico y diversas representaciones. Así como interpretar información que presente contenido algebraico.",
+  "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales: es seleccionar, adaptar, combinar o crear, procedimientos, estrategias y algunas propiedades para simplificar o transformar ecuaciones, inecuaciones y expresiones simbólicas que le permitan resolver ecuaciones, determinar dominios y rangos, representar rectas, parábolas, y diversas funciones.",
+  "Argumenta afirmaciones sobre relaciones de cambio y equivalencia: significa elaborar afirmaciones sobre variables, reglas algebraicas y propiedades algebraicas, razonando de manera inductiva para generalizar una regla y de manera deductiva probando y comprobando propiedades y nuevas relaciones."
+ ],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [],
+ "texto": "Consiste en que el estudiante logre caracterizar equivalencias y generalizar regularidades y el cambio de una magnitud con respecto de otra, a través de reglas generales que le permitan encontrar valores desconocidos, determinar restricciones y hacer predicciones sobre el comportamiento de un fenómeno. Para ello plantea ecuaciones, inecuaciones y funciones, y usa estrategias, procedimientos y propiedades para resolverlas, graficarlas o manipular expresiones simbólicas. Así también razona de manera inductiva y deductiva, para determinar leyes generales mediante varios ejemplos, propiedades y contraejemplos.\n\nEsta competencia implica la combinación de las siguientes capacidades:",
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 156,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 671,
+  "totalTokens": 2893,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6",
+ "_arbitraje": {
+  "cambios": [],
+  "tercera_lectura": [],
+  "preguntas": 0
+ }
+}

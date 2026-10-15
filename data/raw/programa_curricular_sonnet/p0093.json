@@ -1,0 +1,55 @@
+{
+ "numero_pagina_impreso": 93,
+ "tipo": "estandares",
+ "area": null,
+ "competencia": "Se comunica oralmente en su lengua materna",
+ "ciclo": null,
+ "capacidades": [],
+ "descripcion_nivel": null,
+ "desempenos": [],
+ "estandares": [
+  {
+   "nivel": "Nivel destacado",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; interpreta la intención del interlocutor y las relaciones de poder a partir de las inferencias realizadas en discursos que contienen sesgos, falacias y ambigüedades. Se expresa adecuando su estilo a situaciones comunicativas formales e informales y a los géneros discursivos orales en que participa. Organiza y desarrolla ideas en torno a un tema y las relaciona mediante el uso de diversos recursos cohesivos, con un vocabulario especializado y preciso; enfatiza o matiza los significados mediante el uso de recursos no verbales y paraverbales con la intención de producir efectos en los interlocutores. Reflexiona sobre el texto y evalúa la validez de la información y su efecto en los interlocutores, de acuerdo a sus conocimientos, fuentes de información y al contexto sociocultural. En un intercambio, articula y sintetiza las intervenciones de una variedad de discursos; asimismo, evalúa las ideas de los otros para contraargumentar eligiendo estratégicamente cómo y en qué momento participa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VII",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; infiere información relevante y conclusiones e interpreta la intención del interlocutor y las relaciones de poder en discursos que contienen sesgos, falacias y ambigüedades. Se expresa adecuándose a situaciones comunicativas formales e informales y a los géneros discursivos orales en que participa. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de diversos recursos cohesivos; incorpora un vocabulario especializado y enfatiza los significados mediante el uso de recursos no verbales y paraverbales. Reflexiona sobre el texto y evalúa la validez de la información y su efecto en los interlocutores, de acuerdo a sus conocimientos, fuentes de información y al contexto sociocultural. En un intercambio, hace contribuciones relevantes y evalúa las ideas de los otros para contraargumentar, eligiendo estratégicamente cómo y en qué momento participa."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo VI",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; infiere el tema, propósito, hechos y conclusiones a partir de información explícita e implícita, e interpreta la intención del interlocutor en discursos que contienen ironías y sesgos. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de diversos conectores y referentes, así como de un vocabulario variado y pertinente. Enfatiza significados mediante el uso de recursos no verbales y paraverbales. Reflexiona sobre el texto y evalúa su fiabilidad de acuerdo a sus conocimientos y al contexto sociocultural. Se expresa adecuándose a situaciones comunicativas formales e informales. En un intercambio, hace preguntas y utiliza las respuestas escuchadas para desarrollar sus ideas, y sus contribuciones tomando en cuenta los puntos de vista de otros."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo V",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; infiere el tema, propósito, hechos y conclusiones a partir de información explícita, e interpreta la intención del interlocutor en discursos que contienen ironías. Se expresa adecuándose a situaciones comunicativas formales e informales. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de conectores y algunos referentes, así como de un vocabulario variado y pertinente. Usa recursos no verbales y paraverbales para enfatizar lo que dice. Reflexiona y evalúa los textos escuchados a partir de sus conocimientos y el contexto sociocultural. En un intercambio, hace preguntas y contribuciones relevantes que responden a las ideas y puntos de vista de otros, enriqueciendo el tema tratado."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo IV",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; identifica información explícita; infiere e interpreta hechos, tema y propósito. Organiza y desarrolla sus ideas en torno a un tema y las relaciona mediante el uso de algunos conectores y referentes, así como de un vocabulario variado. Se apoya en recursos no verbales y paraverbales para enfatizar lo que dice. Reflexiona sobre textos escuchados a partir de sus conocimientos y experiencia. Se expresa adecuándose a situaciones comunicativas formales e informales. En un intercambio, comienza a adaptar lo que dice a las necesidades y puntos de vista de quien lo escucha, a través de comentarios y preguntas relevantes."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo III",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; identifica información explícita, infiere e interpreta hechos y temas. Desarrolla sus ideas manteniéndose, por lo general, en el tema; utiliza algunos conectores, así como vocabulario de uso frecuente. Su pronunciación es entendible y se apoya en recursos no verbales y paraverbales. Reflexiona sobre textos escuchados a partir de sus conocimientos y experiencia. Se expresa adecuándose a su propósito comunicativo. En un intercambio, participa y responde en forma pertinente a lo que le dicen."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo II",
+   "texto": "Se comunica oralmente mediante diversos tipos de textos; identifica información explícita; realiza inferencias sencillas a partir de esta información e interpreta recursos no verbales y paraverbales de las personas de su entorno. Opina sobre lo que más/menos le gustó del contenido del texto. Se expresa espontáneamente a partir de sus conocimientos previos, con el propósito de interactuar con uno o más interlocutores conocidos en una situación comunicativa. Desarrolla sus ideas manteniéndose por lo general en el tema; utiliza vocabulario de uso frecuente y una pronunciación entendible, se apoya en gestos y lenguaje corporal. En un intercambio, generalmente participa y responde en forma pertinente a lo que le dicen."
+  },
+  {
+   "nivel": "Nivel esperado al final del ciclo I",
+   "texto": "Se comunica oralmente, escucha lo que otros le dicen, pregunta y responde. Se expresa espontáneamente a través del lenguaje verbal apoyándose en gestos y lenguaje corporal, con el propósito de interactuar con otras personas de su entorno."
+  }
+ ],
+ "texto": null,
+ "continua_de_pagina_anterior": false,
+ "_pdf_pagina": 93,
+ "_uso": {
+  "inputTokens": 2222,
+  "outputTokens": 1848,
+  "totalTokens": 4070,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-sonnet-4-6"
+}

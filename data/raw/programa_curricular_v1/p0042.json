@@ -1,0 +1,61 @@
+{
+ "numero_pagina_impreso": 42,
+ "tipo": "competencia_capacidades",
+ "area": null,
+ "competencia": "Convive y participa democráticamente en la búsqueda del bien común",
+ "ciclo": "VII",
+ "capacidades": [
+  "Interactúa con todas las personas.",
+  "Construye normas y asume acuerdos y leyes.",
+  "Maneja conflictos de manera constructiva.",
+  "Delibera sobre asuntos públicos.",
+  "Participa en acciones que promuevan el bienestar común."
+ ],
+ "descripcion_nivel": "Convive y participa democráticamente, relacionándose con los demás, respetando las diferencias y promoviendo los derechos de todos, así como cumpliendo sus deberes y evaluando sus consecuencias. Se relaciona con personas de diferentes culturas respetando sus costumbres y creencias. Evalúa y propone normas para la convivencia basadas en los principios democráticos y en la legislación vigente. Utiliza estrategias de negociación y diálogo para el manejo de conflictos. Asume deberes en la organización y ejecución de acciones colectivas para promover sus derechos y deberes frente a situaciones que involucren a su comunidad. Delibera sobre asuntos públicos con argumentos basados en fuentes confiables, los principios democráticos y la institucionalidad, y aporta a la construcción de consensos. Rechaza posiciones que legitiman la violencia o la vulneración de derechos.",
+ "desempenos": [
+  {
+   "grado": 5,
+   "texto": "Demuestra actitudes de respeto por las personas con necesidades educativas especiales y por personas pertenecientes a culturas distintas de la suya. Rechaza situaciones de discriminación que puedan afectar los derechos de los grupos vulnerables. Cumple sus deberes en la escuela y evalúa sus acciones tomando en cuenta los principios democráticos."
+  },
+  {
+   "grado": 5,
+   "texto": "Intercambia prácticas culturales en relación a las concepciones del mundo y de la vida, mostrando respeto y tolerancia por las diferencias."
+  },
+  {
+   "grado": 5,
+   "texto": "Propone normas que regulan la convivencia y buscan evitar problemas de discriminación, basadas en la normatividad vigente a nivel nacional y mundial."
+  },
+  {
+   "grado": 5,
+   "texto": "Explica que el Estado, para garantizar la convivencia, debe administrar justicia siempre en el marco de la legalidad."
+  },
+  {
+   "grado": 5,
+   "texto": "Explica cómo se desarrolla la dinámica del conflicto y señala las actitudes que son fuente de este. Pone en práctica su rol de mediador para el manejo de conflictos."
+  },
+  {
+   "grado": 5,
+   "texto": "Delibera sobre asuntos públicos que afectan los derechos humanos, la seguridad y la defensa nacional cuando sustenta su posición a partir de la contraposición de puntos de vista distintos del suyo, sobre la base de las posturas y los posibles intereses involucrados. Aporta a la construcción de consensos que contribuyan al bien común basándose en principios democráticos."
+  },
+  {
+   "grado": 5,
+   "texto": "Realiza acciones participativas para promover y defender los derechos humanos y la justicia social y ambiental. Explica las funciones de los organismos e instituciones que velan por los derechos humanos en el Perú y el mundo."
+  },
+  {
+   "grado": 5,
+   "texto": "Evalúa los procedimientos de las instituciones y organismos del Estado considerando el respeto por la dignidad humana, y propone alternativas para su mejora."
+  }
+ ],
+ "estandares": [],
+ "texto": null,
+ "continua_de_pagina_anterior": true,
+ "_pdf_pagina": 42,
+ "_uso": {
+  "inputTokens": 2089,
+  "outputTokens": 1060,
+  "totalTokens": 3149,
+  "cacheReadInputTokens": 0,
+  "cacheWriteInputTokens": 0
+ },
+ "_modelo": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+}
