@@ -6,6 +6,8 @@ import os
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 
+from .retrieval_estructurado import RecuperadorCurricular
+
 logger = logging.getLogger(__name__)
 
 # Rutas a JSON para RAG local
@@ -130,9 +132,32 @@ class RAGEducativoService:
     """
     KB_PLACEHOLDER = "KB-CURRICULO-ID-HERE"
 
+    # Recuperacion estructurada (desempeños por area/grado/competencia). RAG_ESTRUCTURADO=0 la desactiva.
+    MAX_DOCUMENTOS = 10
+    MAX_ESTRUCTURADOS = 5   # el resto de los puestos queda para el contexto complementario (orientaciones, metodologías)
+
+    @property
+    def bedrock_runtime(self):
+        # perezoso: crear el cliente exige region/credenciales y el servicio debe poder usarse sin ellas
+        if self._bedrock_runtime is None:
+            self._bedrock_runtime = boto3.client('bedrock-runtime')
+        return self._bedrock_runtime
+
+    @property
+    def bedrock_agent(self):
+        if self._bedrock_agent is None:
+            self._bedrock_agent = boto3.client('bedrock-agent-runtime')
+        return self._bedrock_agent
+
     def __init__(self):
-        self.bedrock_runtime = boto3.client('bedrock-runtime')
-        self.bedrock_agent = boto3.client('bedrock-agent-runtime')
+        self._bedrock_runtime = None
+        self._bedrock_agent = None
+        self._recuperador: Optional[RecuperadorCurricular] = None
+        if os.environ.get('RAG_ESTRUCTURADO', '1') != '0':
+            try:
+                self._recuperador = RecuperadorCurricular.desde_json()
+            except Exception as e:  # sin el corpus nuevo el servicio sigue como antes
+                logger.warning(f"Recuperación estructurada no disponible: {e}")
         self.knowledge_base_ids = {
             'curriculo_nacional': os.environ.get('BEDROCK_KB_CURRICULO_ID', 'KB-CURRICULO-ID-HERE'),
             'rubricas_evaluacion': 'KB-RUBRICAS-ID-HERE',
@@ -146,10 +171,50 @@ class RAGEducativoService:
         self._enfoque_modulo1_local: Optional[Dict[str, Any]] = _cargar_enfoque_modulo1_local()
         self._metodologias_activas_2026_local: Optional[Dict[str, Any]] = _cargar_metodologias_activas_2026_local()
 
-    def buscar_contexto_curricular(self, query: str, grado: int, area: str = "ciencia_tecnologia") -> Dict:
+    def buscar_contexto_curricular(self, query: str, grado: int, area: str = "ciencia_tecnologia",
+                                   competencia: Optional[str] = None) -> Dict:
         """
-        Busca contexto relevante en la base de conocimiento curricular.
-        Primero intenta Bedrock KB; si no está configurado o falla, usa el curriculo local (JSON).
+        Busca contexto relevante: primero la recuperación estructurada del Programa Curricular (desempeños del
+        grado, capacidades y estándar del ciclo, filtrados por área/grado y, si se conoce, por la competencia
+        elegida) y luego el contexto complementario (Bedrock KB o JSON locales: orientaciones, metodologías...).
+        `competencia`: texto del wizard, una competencia por línea. Si la parte estructurada falla, el resultado
+        es el mismo que antes de existir.
+        """
+        estructurados = self._recuperar_estructurado(query, grado, area, competencia)
+        complementarios = self._buscar_contexto_complementario(query, grado, area).get('documentos', [])
+        vistos = {d['contenido'] for d in estructurados}
+        docs = (estructurados + [d for d in complementarios if d.get('contenido') not in vistos])[:self.MAX_DOCUMENTOS]
+        return {'documentos': docs, 'total_encontrados': len(docs), 'estructurados': min(len(estructurados), len(docs))}
+
+    def _recuperar_estructurado(self, query: str, grado: int, area: str, competencia: Optional[str]) -> List[Dict[str, Any]]:
+        if self._recuperador is None:
+            return []
+        try:
+            competencias = [c for c in (competencia or '').split('\n') if c.strip()]
+            # Sin competencia elegida, Claude debe "seleccionar las más apropiadas del área": necesita ver los
+            # desempeños de todas las competencias del área en ese grado (como máximo 4), no solo los 2 mejores.
+            chunks = self._recuperador.recuperar(query, grado, area, competencias or None,
+                                                 k=self.MAX_ESTRUCTURADOS, m=4, con_resto=False)
+        except Exception as e:  # nunca debe romper la generación
+            logger.warning(f"Recuperación estructurada falló, se continúa sin ella: {e}")
+            return []
+        docs = []
+        for ch in chunks:
+            paginas = ch.get('paginas') or []
+            docs.append({
+                'contenido': f"[{ch.get('section', '')}]\n{ch.get('text', '')}",
+                'fuente': "Programa Curricular de Educación Secundaria (MINEDU, 2016) - "
+                          f"{ch.get('section', '')}" + (f" (p. {', '.join(map(str, paginas))})" if paginas else ""),
+                'score': 1.0,
+                'metadata': {k: ch.get(k) for k in ('tipo', 'area', 'competencia', 'ciclo', 'grado', 'paginas')}
+                            | {'chunk_id': ch.get('id'), 'recuperacion': 'estructurada'},
+            })
+        return docs
+
+    def _buscar_contexto_complementario(self, query: str, grado: int, area: str = "ciencia_tecnologia") -> Dict:
+        """
+        Contexto complementario (orientaciones, metodologías, etc.).
+        Primero intenta Bedrock KB; si no está configurado o falla, usa los JSON locales.
         """
         kb_id = self.knowledge_base_ids.get('curriculo_nacional') or self.KB_PLACEHOLDER
         if kb_id != self.KB_PLACEHOLDER:

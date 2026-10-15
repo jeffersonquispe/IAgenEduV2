@@ -80,7 +80,7 @@ class GeneratorAgent:
                 "La rúbrica evaluará ese producto.\n"
             )
 
-        contexto_rag = self._buscar_contexto_rag(area_curricular, grado, temas or "")
+        contexto_rag = self._buscar_contexto_rag(area_curricular, grado, temas or "", competencia_referencia)
 
         prompt = self.prompt_manager.cargar(
             "unidad_didactica",
@@ -339,8 +339,10 @@ Responde solo con el documento completo corregido."""
                 f"Usa SOLO esta competencia. NO agregues otras.\n"
             )
 
-    def _buscar_contexto_rag(self, area: str, grado: int, temas: str) -> str:
-        """Busca contexto relevante en el RAG para enriquecer la generación."""
+    def _buscar_contexto_rag(self, area: str, grado: int, temas: str, competencia: "str | None" = None) -> str:
+        """Busca contexto relevante en el RAG para enriquecer la generación.
+        `competencia`: la(s) competencia(s) elegida(s) en el wizard; con ella los desempeños se recuperan por
+        búsqueda exacta (área + grado + competencia) en vez de por similitud."""
         rag = self._get_rag()
         if not rag:
             return ""
@@ -348,14 +350,14 @@ Responde solo con el documento completo corregido."""
         try:
             query = f"programación curricular {area} {grado} grado secundaria {temas}"
             resultado = rag.buscar_contexto_curricular(
-                query=query, grado=grado, area=area.replace(" ", "_").lower()
+                query=query, grado=grado, area=area.replace(" ", "_").lower(), competencia=competencia
             )
             docs = resultado.get('documentos', [])
             if not docs:
                 return ""
 
             partes = []
-            for i, doc in enumerate(docs[:5], 1):
+            for i, doc in enumerate(docs[:7], 1):  # hasta 5 estructurados + al menos 2 complementarios
                 fuente = doc.get('fuente', 'MINEDU')
                 contenido = doc.get('contenido', '')
                 partes.append(f"Documento {i} ({fuente}):\n{contenido}")

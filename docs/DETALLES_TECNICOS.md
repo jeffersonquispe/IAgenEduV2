@@ -387,6 +387,9 @@ El PDF distingue automáticamente entre Unidad y Sesión por las claves presente
 ## 11. RAG (Retrieval-Augmented Generation)
 
 - **Servicio:** `core/rag_service.py` → consulta **Amazon Bedrock Knowledge Bases**.
+- **Recuperación estructurada (primera etapa):** `core/retrieval_estructurado.py` sobre `data/programa_curricular_secundaria_2016.json` (Programa Curricular completo, 625 chunks con metadatos `tipo/área/competencia/ciclo/grado/páginas`). Con área y grado conocidos devuelve los desempeños del grado (todas las competencias del área si no se eligió una, la elegida por búsqueda exacta si el wizard la envió), y anexa las capacidades de la competencia y el estándar del ciclo. Cada documento lleva su fuente con páginas del PDF. Se desactiva con `RAG_ESTRUCTURADO=0`.
+- **Contexto complementario (segunda etapa):** Bedrock KB si está configurado; si no, los JSON locales de orientaciones/metodologías. Se agrega después de los estructurados (hasta 10 documentos; el generador usa los 7 primeros).
+- **Origen del corpus:** `scripts/ingesta/` (extracción con Claude visión, arbitraje entre dos lecturas, ensamblado) y `docs/TRANSCRIPCION_REVISION_PENDIENTE.md`.
 - **Query tipo:** `"programación curricular {área} {grado} grado secundaria {temas}"`.
 - **Integración:** El `GeneratorAgent` prepende el contexto RAG al prompt principal: `"CONTEXTO OFICIAL DEL MINEDU:\n{rag}\n\n{prompt}"`.
 - **Fallo silencioso:** Si el RAG no responde, la generación continúa sin él (no bloquea el flujo).
