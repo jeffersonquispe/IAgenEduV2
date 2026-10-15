@@ -1,0 +1,17 @@
+{
+ "caso": "c02",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias pedidas (Resuelve problemas de gestión de datos e incertidumbre y Resuelve problemas de cantidad), ambas oficiales del CNEB para el área de Matemática.",
+  "capacidades": "Las ocho capacidades listadas (cuatro por competencia) coinciden textualmente con las capacidades oficiales de cada competencia según el Programa Curricular de Educación Secundaria MINEDU 2016, sin invenciones ni traslados entre competencias.",
+  "desempenos_grado": "La mayoría de los desempeños precisados guardan relación directa con los desempeños oficiales de 4.° (medidas de tendencia central, desviación estándar, cuartiles, probabilidad de sucesos independientes y dependientes, lectura e inferencia de tablas); sin embargo, el desempeño sobre 'sustenta conclusiones mediante infografía' es una reformulación que añade el producto (infografía) sin base literal en el desempeño oficial, y los desempeños de la Competencia 8 no se concretan en desempeños precisos propios de 4.° (notación científica, raíces inexactas, interés compuesto), quedando esa competencia sin desempeños de grado explícitamente vinculados a los oficiales.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la situación significativa, las competencias, capacidades, desempeños, criterios de evaluación sesión a sesión, contenidos y la evidencia final (infografía estadística), articulando el tema de medidas de tendencia central y probabilidad de forma consistente a lo largo de toda la unidad."
+ }
+}

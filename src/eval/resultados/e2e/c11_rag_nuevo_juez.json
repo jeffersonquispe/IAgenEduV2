@@ -1,0 +1,17 @@
+{
+ "caso": "c11",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Las tres competencias nombradas (oral, lectura y escritura en inglés) son exactamente las competencias oficiales del área de Inglés como Lengua Extranjera del CNEB y resultan pertinentes al tema de rutinas y hábitos.",
+  "capacidades": "Las 13 capacidades listadas (6 de comunicación oral, 3 de lectura y 4 de escritura) coinciden exactamente con las capacidades oficiales de cada competencia según la referencia, sin invenciones ni traslados entre competencias.",
+  "desempenos_grado": "Los seis desempeños precisados guardan correspondencia directa con los desempeños oficiales de 2° de secundaria: recuperar información explícita, deducir significado en contexto con estructuras propias del grado (present simple, modals, connectors), explicar tema y propósito, adecuar texto al tipo textual, producir con coherencia y cohesión, y evaluar para mejorar; los recursos gramaticales citados (present simple, should, have to, and/or/so/because, comparatives) coinciden con los ejemplos del grado.",
+  "coherencia": "Existe coherencia sólida y sostenida entre las competencias, capacidades, desempeños, criterios de evaluación, contenidos, evidencias y secuencia de sesiones, todos articulados alrededor del tema de rutinas y hábitos y materializados en el personal routine booklet como producto integrador."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c12",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Las dos competencias nombradas (C15 y C39) son exactamente las competencias oficiales del CNEB pedidas por el docente para el área y grado.",
+  "capacidades": "Las cuatro capacidades de C15 y dos de C39 son oficiales y correctas, pero se incluye 'Gestiona su motivación para aprender' que no figura como capacidad oficial de C39 en el CNEB (las oficiales son tres: Define metas, Organiza acciones estratégicas y Monitorea y ajusta); además falta 'Organiza acciones estratégicas para alcanzar sus metas de aprendizaje'.",
+  "desempenos_grado": "Los desempeños guardan relación temática con los oficiales de 4° (investigar entorno, diseñar propuesta de valor, validar con usuarios, elaborar instrumentos, analizar inversión-beneficio), pero están reescritos con lenguaje de plan de negocio empresarial (punto de equilibrio, Canvas, estudio de mercado formal) que va más allá o reformula los desempeños oficiales, y no recogen explícitamente elementos clave del grado como la validación con prototipos, la planificación ante contingencias o el análisis de impacto social/ambiental.",
+  "coherencia": "Existe coherencia interna sólida: la situación significativa, las capacidades, los desempeños precisados, los criterios de evaluación sesión a sesión, los contenidos, las evidencias de proceso y la evidencia final (plan de negocio escrito y sustentado) forman una cadena articulada y consistente con el tema de emprendimiento y plan de negocio para 4° de secundaria."
+ }
+}

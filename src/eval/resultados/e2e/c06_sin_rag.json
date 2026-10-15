@@ -1,0 +1,13 @@
+{
+ "caso": "c06",
+ "condicion": "sin_rag",
+ "segundos": 64.9,
+ "tokens_entrada": 3032,
+ "tokens_salida": 6362,
+ "llamadas": 1,
+ "stop_reason": "end_turn",
+ "chars_prompt": 9466,
+ "chars_contexto_rag": 0,
+ "con_contexto": false,
+ "modelo": "us.anthropic.claude-sonnet-4-6"
+}

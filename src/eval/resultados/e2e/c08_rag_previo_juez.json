@@ -1,0 +1,17 @@
+{
+ "caso": "c08",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del área DPCC pertinentes al tema: 'Construye su identidad' y 'Convive y participa democráticamente en la búsqueda del bien común'.",
+  "capacidades": "Las cuatro capacidades listadas ('Se valora a sí mismo', 'Autorregula sus emociones', 'Reflexiona y argumenta éticamente', 'Interactúa con todas las personas') son capacidades oficiales exactas de sus respectivas competencias, sin invenciones ni mezclas.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los desempeños oficiales de 1° (especialmente los de 'Se valora a sí mismo' y 'Autorregula sus emociones'), pero están redactados como desempeños propios no literales; el desempeño sobre elaborar la infografía no tiene base en ningún desempeño oficial del grado y funciona más como evidencia de aprendizaje que como desempeño curricular.",
+  "coherencia": "Existe coherencia sólida y sostenida entre competencias, capacidades, desempeños precisados, criterios de evaluación, contenidos, evidencias y secuencia de sesiones, todos articulados alrededor del tema de autoestima y emociones en la adolescencia."
+ }
+}

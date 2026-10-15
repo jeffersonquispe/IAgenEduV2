@@ -1,0 +1,17 @@
+{
+ "caso": "c04",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del área pertinentes al tema (Indaga y Explica el mundo físico), omitiendo correctamente la tercera (Diseña y construye) que no aplica al tema.",
+  "capacidades": "Todas las capacidades listadas para ambas competencias coinciden literalmente con las capacidades oficiales del CNEB; no hay capacidades inventadas ni de otra área.",
+  "desempenos_grado": "Los desempeños sobre célula y biodiversidad guardan relación con los desempeños oficiales de 1° (especialmente 'explica sustancias inorgánicas y biomoléculas en la célula' y 'describe áreas naturales protegidas/biodiversidad'), pero están reformulados con un nivel de concreción curricular que los aleja del lenguaje oficial; además, desempeños como 'distingue procariota vs eucariota' y 'clasifica seres vivos por reino' no tienen correspondencia directa con ningún desempeño oficial de 1°, lo que constituye una falla parcial.",
+  "coherencia": "Existe coherencia sólida entre competencias, capacidades, desempeños, criterios de evaluación, contenidos, evidencias y sesiones; todo articula de manera consistente alrededor del tema de célula y biodiversidad para 1° de secundaria."
+ }
+}

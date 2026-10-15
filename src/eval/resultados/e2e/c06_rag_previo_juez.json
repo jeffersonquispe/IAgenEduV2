@@ -1,0 +1,17 @@
+{
+ "caso": "c06",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del CNEB pedidas por el docente: Competencia 4 (Se comunica oralmente en su lengua materna) y Competencia 5 (Lee diversos tipos de textos escritos en su lengua materna).",
+  "capacidades": "Todas las capacidades listadas para ambas competencias coinciden literalmente con las capacidades oficiales del CNEB: las seis de la competencia oral y las tres de la competencia lectora, sin inventar ni omitir ninguna.",
+  "desempenos_grado": "Los desempeños precisados integran elementos claramente rastreables a los desempeños oficiales de 5° de secundaria: expresión oral coherente y cohesionada con recursos paraverbales y no verbales, contraargumentación, evaluación crítica del desempeño propio y de pares, lectura inferencial de propósito del autor, identificación de falacias y sesgos, y valoración de la validez de la información, todos correspondientes al grado indicado.",
+  "coherencia": "Existe coherencia sólida y progresiva entre competencias, capacidades, desempeños, criterios de evaluación por sesión, contenidos, evidencias de proceso y la evidencia final (debate académico formal), articulando de manera consistente la comunicación oral argumentativa y la lectura crítica en torno al tema central de la unidad."
+ }
+}

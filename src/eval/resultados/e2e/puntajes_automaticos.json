@@ -1,0 +1,62 @@
+[
+ {
+  "caso": "c01",
+  "condicion": "sin_rag",
+  "n_desempenos": 6,
+  "solape_grado": 0.10749809797035333,
+  "solape_otro": 0.11607055085845984,
+  "margen_grado": -0.008572452888106498,
+  "grado_primero": 0.16666666666666666,
+  "cobertura": 0.1109138715846033,
+  "competencias_nombradas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "competencias_esperadas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "comp_precision": 1.0,
+  "comp_recall": 1.0,
+  "celda_encontrada": true,
+  "desempenos_encontrados": true
+ },
+ {
+  "caso": "c01",
+  "condicion": "rag_previo",
+  "n_desempenos": 6,
+  "solape_grado": 0.06944089502229038,
+  "solape_otro": 0.07650520527079742,
+  "margen_grado": -0.0070643102485070525,
+  "grado_primero": 0.16666666666666666,
+  "cobertura": 0.04065328054298643,
+  "competencias_nombradas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "competencias_esperadas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "comp_precision": 1.0,
+  "comp_recall": 1.0,
+  "celda_encontrada": true,
+  "desempenos_encontrados": true
+ },
+ {
+  "caso": "c01",
+  "condicion": "rag_nuevo",
+  "n_desempenos": 5,
+  "solape_grado": 0.2253943146444087,
+  "solape_otro": 0.2162187323635812,
+  "margen_grado": 0.00917558228082754,
+  "grado_primero": 0.4,
+  "cobertura": 0.26243872415915426,
+  "competencias_nombradas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "competencias_esperadas": [
+   "Resuelve problemas de regularidad, equivalencia y cambio"
+  ],
+  "comp_precision": 1.0,
+  "comp_recall": 1.0,
+  "celda_encontrada": true,
+  "desempenos_encontrados": true
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "caso": "c06",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del CNEB pedidas por el docente: Competencia 4 (Se comunica oralmente en su lengua materna) y Competencia 5 (Lee diversos tipos de textos escritos en su lengua materna).",
+  "capacidades": "Todas las capacidades listadas corresponden literalmente a las capacidades oficiales de ambas competencias según el Programa Curricular de Educación Secundaria MINEDU 2016, sin invenciones ni mezclas con otras competencias.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los desempeños oficiales de 5.° de secundaria (adecuación al género discursivo, uso estratégico de recursos paraverbales y no verbales, contraargumentación con evidencias, identificación de falacias, inferencia del propósito del autor en textos argumentativos), pero están redactados como fusiones o reelaboraciones de varios desempeños oficiales en lugar de citarlos o precisarlos fielmente; además, el desempeño sobre 'reflexión sobre el uso del lenguaje para trasladarlo a la producción oral' mezcla capacidades de lectura con producción oral de forma que no tiene correspondencia directa con un desempeño oficial específico de 5.°.",
+  "coherencia": "Existe coherencia sólida y sostenida entre competencias, capacidades, desempeños precisados, criterios de evaluación, contenidos, evidencias y secuencia de sesiones, todos articulados alrededor del debate académico y la exposición oral argumentativa con soporte en textos escritos, propio del nivel y el tema solicitado."
+ }
+}

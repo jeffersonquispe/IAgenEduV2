@@ -1,0 +1,17 @@
+{
+ "caso": "c01",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Resuelve problemas de regularidad, equivalencia y cambio', coincidiendo con la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas (Traduce, Comunica, Usa estrategias, Argumenta) son exactamente las capacidades oficiales de esa competencia, sin inventadas ni omitidas.",
+  "desempenos_grado": "Los tres primeros desempeños precisos tienen base clara en los desempeños oficiales de 2° (traducción a ax+b=cx+d, comprobación, representaciones múltiples); sin embargo, el cuarto ('Selecciona y aplica procedimientos algebraicos') y el quinto ('Argumenta sobre propiedades... identificando errores') son reformulaciones que mezclan o amplían los desempeños oficiales sin correspondencia literal, y se omite la referencia a progresiones aritméticas, inecuaciones y funciones lineales que forman parte del desempeño oficial del grado.",
+  "coherencia": "Existe coherencia sólida entre la competencia, las cuatro capacidades, los desempeños, los seis criterios de evaluación, los contenidos, la evidencia (Álbum de Problemas) y la secuencia de sesiones, todos articulados alrededor del tema de ecuaciones lineales en contexto real."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c07",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra correctamente la Competencia 19 'Construye interpretaciones históricas' del CNEB, que coincide exactamente con la competencia pedida por el docente.",
+  "capacidades": "Las tres capacidades listadas (Interpreta críticamente fuentes diversas, Comprende el tiempo histórico, Elabora explicaciones sobre procesos históricos) son exactamente las capacidades oficiales de la competencia 19, sin invenciones ni sustituciones.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los desempeños oficiales de 3° (análisis de fuentes con fiabilidad y finalidad, simultaneidad y cambios/permanencias, multicausalidad, interpretaciones historiográficas), y el rango cronológico del virreinato al surgimiento de la República está cubierto; sin embargo, los desempeños del documento están redactados de forma propia y ampliada (p. ej. 'selecciona y contrasta', 'elabora interpretaciones historiográficas') sin ceñirse literalmente a la formulación oficial, y el desempeño sobre 'múltiples versiones/interpretaciones historiográficas' no tiene un correlato textual directo en los desempeños oficiales de 3° listados en la referencia.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las tres capacidades, los desempeños precisados, los seis criterios de evaluación, los contenidos, la evidencia (línea de tiempo historiográfica comentada) y la secuencia de sesiones, todos articulados alrededor del tema de la Independencia del Perú para 3° de secundaria."
+ }
+}

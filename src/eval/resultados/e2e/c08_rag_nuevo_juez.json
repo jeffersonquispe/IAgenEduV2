@@ -1,0 +1,17 @@
+{
+ "caso": "c08",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra correctamente 'Construye su identidad', competencia oficial del área DPCC pertinente al tema de autoestima y emociones en la adolescencia.",
+  "capacidades": "Las cuatro capacidades listadas (Se valora a sí mismo, Autorregula sus emociones, Reflexiona y argumenta éticamente, Vive su sexualidad de manera plena y responsable) son exactamente las capacidades oficiales de 'Construye su identidad' según el Programa Curricular.",
+  "desempenos_grado": "La mayoría de los desempeños precisados tienen base clara en los desempeños oficiales de 1° (cambios de la adolescencia, causas/consecuencias de emociones, autorregulación, dilemas morales, consecuencias de decisiones éticas); sin embargo, el desempeño sobre 'características culturales y sociales valorándose como persona única' fusiona y reformula libremente dos desempeños oficiales distintos, y no se incluye ningún desempeño vinculado a la capacidad 'Vive su sexualidad de manera plena y responsable', que sí figura en las capacidades declaradas, generando una omisión respecto al grado.",
+  "coherencia": "Existe coherencia sólida entre la situación significativa, las competencias, capacidades, desempeños, criterios de evaluación (uno por desempeño), contenidos, evidencia (Diario Emocional Ilustrado) y la secuencia de sesiones, articulándose todos alrededor del tema de autoestima y emociones en la adolescencia."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c03",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 1,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombra exactamente la Competencia 13 del CNEB con su denominación oficial completa, coincidiendo con la competencia pedida por el docente.",
+  "capacidades": "Las dos capacidades listadas reproducen fielmente las capacidades oficiales de la competencia 13 del CNEB, sin inventar ni mezclar capacidades de otras competencias.",
+  "desempenos_grado": "Los seis desempeños precisados son construcciones propias del documento orientadas al tema de energía y ecosistemas; ninguno corresponde literalmente a los desempeños oficiales de 3° de secundaria del CNEB (que en esta competencia abordan enlaces químicos, gases, líquidos, ciclo celular, genética, relieve, entre otros), por lo que se trata de desempeños inventados sin base en los desempeños oficiales del grado, aunque guardan coherencia temática con las capacidades de la competencia.",
+  "coherencia": "Existe coherencia interna sólida entre la situación significativa, la competencia, las capacidades, los desempeños precisados, los criterios de evaluación, los contenidos, la evidencia y la secuencia de sesiones, todos articulados consistentemente en torno al tema de flujo de energía en ecosistemas peruanos."
+ }
+}

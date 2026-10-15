@@ -1,0 +1,17 @@
+{
+ "caso": "c04",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 2
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del área pertinentes al tema (Explica el mundo físico… e Indaga mediante métodos científicos…), ambas presentes en el CNEB para Ciencia y Tecnología secundaria.",
+  "capacidades": "Todas las capacidades listadas (Comprende y usa conocimientos…, Evalúa las implicancias…, Problematiza situaciones, Diseña estrategias, Genera y registra datos, Analiza datos, Evalúa y comunica) coinciden textualmente con las capacidades oficiales de las dos competencias seleccionadas; no hay capacidades inventadas ni de otra área.",
+  "desempenos_grado": "Los desempeños precisados guardan relación temática con los desempeños oficiales de 1° (estructura celular, biodiversidad, clasificación de seres vivos), pero ninguno reproduce fielmente la redacción oficial; además, el desempeño sobre diseño y construcción de maqueta corresponde más a la competencia de Diseño tecnológico —no seleccionada— y no tiene correlato directo en los desempeños oficiales de 1° de las dos competencias declaradas, lo que constituye una falla parcial de correspondencia.",
+  "coherencia": "Existe coherencia general entre competencias, capacidades, criterios de evaluación, contenidos y evidencia (maqueta + ficha sobre célula y biodiversidad), pero la inclusión de desempeños y criterios propios de Diseño tecnológico (criterios 5 y 6, construcción de maqueta) sin declarar esa competencia genera una inconsistencia interna entre los propósitos declarados y las actividades/evidencias de evaluación."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c09",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Asume una vida saludable' del CNEB, coincidiendo con la pedida por el docente.",
+  "capacidades": "Se listan las dos capacidades oficiales de la competencia ('Comprende las relaciones...' e 'Incorpora prácticas...') con su denominación correcta; las 'capacidades específicas' son desagregaciones didácticas, no reemplazos.",
+  "desempenos_grado": "Los desempeños precisados se anclan claramente en los desempeños oficiales de 3.° ('realiza actividad física para mejorar capacidades condicionales', 'ejecuta ejercicios de activación explicando utilidad e intensidad', 'dosifica su esfuerzo') sin mezclar grados ni inventar desempeños sin base oficial.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las capacidades, los desempeños, los criterios de evaluación, los contenidos, la evidencia (Plan Personal de Condición Física) y la secuencia de sesiones, todos articulados al tema de capacidades físicas y condición física."
+ }
+}

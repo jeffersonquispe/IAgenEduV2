@@ -1,0 +1,1429 @@
+{
+ "automaticas": {
+  "sin_rag": {
+   "c01": {
+    "n_desempenos": 6,
+    "solape_grado": 0.10749809797035333,
+    "solape_otro": 0.11607055085845984,
+    "margen_grado": -0.008572452888106498,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.1109138715846033,
+    "competencias_nombradas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c02": {
+    "n_desempenos": 6,
+    "solape_grado": 0.14264209053482999,
+    "solape_otro": 0.15842460752408513,
+    "margen_grado": -0.015782516989255164,
+    "grado_primero": 0.0,
+    "cobertura": 0.05667217264693182,
+    "competencias_nombradas": [
+     "Resuelve problemas de cantidad",
+     "Resuelve problemas de gestión de datos e incertidumbre"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de gestión de datos e incertidumbre",
+     "Resuelve problemas de cantidad"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c03": {
+    "n_desempenos": 6,
+    "solape_grado": 0.08005878013374265,
+    "solape_otro": 0.08911841134877546,
+    "margen_grado": -0.009059631215032808,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.06500919958188173,
+    "competencias_nombradas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "competencias_esperadas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c04": {
+    "n_desempenos": 6,
+    "solape_grado": 0.08913056900673,
+    "solape_otro": 0.09794152069693866,
+    "margen_grado": -0.008810951690208657,
+    "grado_primero": 0.3333333333333333,
+    "cobertura": 0.03297392903338997,
+    "competencias_nombradas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "competencias_esperadas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+     "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c05": {
+    "n_desempenos": 4,
+    "solape_grado": 0.12290257621994968,
+    "solape_otro": 0.12414378464957278,
+    "margen_grado": -0.001241208429623098,
+    "grado_primero": 0.5,
+    "cobertura": 0.07381783041286102,
+    "competencias_nombradas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c06": {
+    "n_desempenos": 6,
+    "solape_grado": 0.1918663774173519,
+    "solape_otro": 0.19953698202299763,
+    "margen_grado": -0.007670604605645695,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.08982268452687904,
+    "competencias_nombradas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c07": {
+    "n_desempenos": 4,
+    "solape_grado": 0.09700738573021181,
+    "solape_otro": 0.10501796299181049,
+    "margen_grado": -0.008010577261598671,
+    "grado_primero": 0.0,
+    "cobertura": 0.022381035183454537,
+    "competencias_nombradas": [
+     "Construye interpretaciones históricas"
+    ],
+    "competencias_esperadas": [
+     "Construye interpretaciones históricas"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c08": {
+    "n_desempenos": 6,
+    "solape_grado": 0.09879281162883313,
+    "solape_otro": 0.10898545313446029,
+    "margen_grado": -0.010192641505627154,
+    "grado_primero": 0.3333333333333333,
+    "cobertura": 0.062385802469135804,
+    "competencias_nombradas": [
+     "Construye su identidad"
+    ],
+    "competencias_esperadas": [
+     "Construye su identidad",
+     "Convive y participa democráticamente en la búsqueda del bien común"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c09": {
+    "n_desempenos": 6,
+    "solape_grado": 0.08013497365137334,
+    "solape_otro": 0.07876209380721831,
+    "margen_grado": 0.0013728798441550426,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.06701151103325016,
+    "competencias_nombradas": [
+     "Asume una vida saludable"
+    ],
+    "competencias_esperadas": [
+     "Asume una vida saludable"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c10": {
+    "n_desempenos": 6,
+    "solape_grado": 0.06373554550025139,
+    "solape_otro": 0.08763940190757114,
+    "margen_grado": -0.023903856407319752,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.06919761338878985,
+    "competencias_nombradas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "competencias_esperadas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c11": {
+    "n_desempenos": 4,
+    "solape_grado": 0.06193158768209478,
+    "solape_otro": 0.05896113140159345,
+    "margen_grado": 0.0029704562805013303,
+    "grado_primero": 0.25,
+    "cobertura": 0.039177471398644574,
+    "competencias_nombradas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c12": {
+    "n_desempenos": 6,
+    "solape_grado": 0.09125966625966625,
+    "solape_otro": 0.09071387105869864,
+    "margen_grado": 0.0005457952009676132,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.06659349674816206,
+    "competencias_nombradas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "competencias_esperadas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   }
+  },
+  "rag_previo": {
+   "c01": {
+    "n_desempenos": 6,
+    "solape_grado": 0.06944089502229038,
+    "solape_otro": 0.07650520527079742,
+    "margen_grado": -0.0070643102485070525,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.04065328054298643,
+    "competencias_nombradas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c02": {
+    "n_desempenos": 6,
+    "solape_grado": 0.1228698384948385,
+    "solape_otro": 0.13529089013942666,
+    "margen_grado": -0.012421051644588172,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.056683300144496816,
+    "competencias_nombradas": [
+     "Resuelve problemas de cantidad",
+     "Resuelve problemas de gestión de datos e incertidumbre"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de gestión de datos e incertidumbre",
+     "Resuelve problemas de cantidad"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c03": {
+    "n_desempenos": 6,
+    "solape_grado": 0.07587118763589352,
+    "solape_otro": 0.08404080339974235,
+    "margen_grado": -0.008169615763848831,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.057738184260740656,
+    "competencias_nombradas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "competencias_esperadas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c04": {
+    "n_desempenos": 6,
+    "solape_grado": 0.07808409913673071,
+    "solape_otro": 0.07702118851948349,
+    "margen_grado": 0.0010629106172472258,
+    "grado_primero": 0.0,
+    "cobertura": 0.034700980918359,
+    "competencias_nombradas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "competencias_esperadas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+     "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c05": {
+    "n_desempenos": 6,
+    "solape_grado": 0.17194224857268336,
+    "solape_otro": 0.17169591481191562,
+    "margen_grado": 0.00024633376076771407,
+    "grado_primero": 0.5,
+    "cobertura": 0.1156614615996767,
+    "competencias_nombradas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c06": {
+    "n_desempenos": 3,
+    "solape_grado": 0.1446886446886447,
+    "solape_otro": 0.14616646656876542,
+    "margen_grado": -0.0014778218801207305,
+    "grado_primero": 0.6666666666666666,
+    "cobertura": 0.049907543669089366,
+    "competencias_nombradas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c07": {
+    "n_desempenos": 6,
+    "solape_grado": 0.09356191856191858,
+    "solape_otro": 0.07879585411166672,
+    "margen_grado": 0.014766064450251845,
+    "grado_primero": 0.6666666666666666,
+    "cobertura": 0.05604178412700029,
+    "competencias_nombradas": [
+     "Construye interpretaciones históricas"
+    ],
+    "competencias_esperadas": [
+     "Construye interpretaciones históricas"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c08": {
+    "n_desempenos": 6,
+    "solape_grado": 0.11887598839858005,
+    "solape_otro": 0.10915588649781827,
+    "margen_grado": 0.009720101900761766,
+    "grado_primero": 0.5,
+    "cobertura": 0.08030372302679317,
+    "competencias_nombradas": [
+     "Construye su identidad",
+     "Convive y participa democráticamente en la búsqueda del bien común"
+    ],
+    "competencias_esperadas": [
+     "Construye su identidad",
+     "Convive y participa democráticamente en la búsqueda del bien común"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c09": {
+    "n_desempenos": 5,
+    "solape_grado": 0.08988599958394008,
+    "solape_otro": 0.08855882333901548,
+    "margen_grado": 0.001327176244924602,
+    "grado_primero": 0.2,
+    "cobertura": 0.05998609607984608,
+    "competencias_nombradas": [
+     "Asume una vida saludable"
+    ],
+    "competencias_esperadas": [
+     "Asume una vida saludable"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c10": {
+    "n_desempenos": 6,
+    "solape_grado": 0.06363899653754726,
+    "solape_otro": 0.06759109816222707,
+    "margen_grado": -0.00395210162467981,
+    "grado_primero": 0.3333333333333333,
+    "cobertura": 0.04877704005140287,
+    "competencias_nombradas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "competencias_esperadas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c11": {
+    "n_desempenos": 6,
+    "solape_grado": 0.09474137931034482,
+    "solape_otro": 0.09107145488611006,
+    "margen_grado": 0.0036699244242347703,
+    "grado_primero": 0.5,
+    "cobertura": 0.048446156792856035,
+    "competencias_nombradas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c12": {
+    "n_desempenos": 6,
+    "solape_grado": 0.07529107649543755,
+    "solape_otro": 0.06482658828112456,
+    "margen_grado": 0.010464488214312992,
+    "grado_primero": 0.16666666666666666,
+    "cobertura": 0.05785349620515647,
+    "competencias_nombradas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "competencias_esperadas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   }
+  },
+  "rag_nuevo": {
+   "c01": {
+    "n_desempenos": 5,
+    "solape_grado": 0.2253943146444087,
+    "solape_otro": 0.2162187323635812,
+    "margen_grado": 0.00917558228082754,
+    "grado_primero": 0.4,
+    "cobertura": 0.26243872415915426,
+    "competencias_nombradas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de regularidad, equivalencia y cambio"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c02": {
+    "n_desempenos": 6,
+    "solape_grado": 0.4126197290998459,
+    "solape_otro": 0.2550339498301037,
+    "margen_grado": 0.1575857792697422,
+    "grado_primero": 0.6666666666666666,
+    "cobertura": 0.18484806154112712,
+    "competencias_nombradas": [
+     "Resuelve problemas de cantidad",
+     "Resuelve problemas de gestión de datos e incertidumbre"
+    ],
+    "competencias_esperadas": [
+     "Resuelve problemas de gestión de datos e incertidumbre",
+     "Resuelve problemas de cantidad"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c03": {
+    "n_desempenos": 6,
+    "solape_grado": 0.1796254399195576,
+    "solape_otro": 0.10513027344035891,
+    "margen_grado": 0.07449516647919867,
+    "grado_primero": 0.5,
+    "cobertura": 0.10547215164739221,
+    "competencias_nombradas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "competencias_esperadas": [
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c04": {
+    "n_desempenos": 6,
+    "solape_grado": 0.5710317460317461,
+    "solape_otro": 0.21006633977182113,
+    "margen_grado": 0.36096540625992485,
+    "grado_primero": 0.8333333333333334,
+    "cobertura": 0.16799110834067435,
+    "competencias_nombradas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+     "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"
+    ],
+    "competencias_esperadas": [
+     "Indaga mediante métodos científicos para construir conocimientos",
+     "Explica el mundo físico basándose en conocimientos sobre los seres vivos, materia y energía, biodiversidad, Tierra y universo",
+     "Diseña y construye soluciones tecnológicas para resolver problemas de su entorno"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c05": {
+    "n_desempenos": 6,
+    "solape_grado": 0.2554083988294515,
+    "solape_otro": 0.24970114965113654,
+    "margen_grado": 0.0057072491783149255,
+    "grado_primero": 0.5,
+    "cobertura": 0.18479134768300406,
+    "competencias_nombradas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Escribe diversos tipos de textos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c06": {
+    "n_desempenos": 6,
+    "solape_grado": 0.36891219538678705,
+    "solape_otro": 0.33017190965920545,
+    "margen_grado": 0.03874028572758156,
+    "grado_primero": 1.0,
+    "cobertura": 0.15558976642579186,
+    "competencias_nombradas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en su lengua materna",
+     "Lee diversos tipos de textos escritos en lengua materna"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c07": {
+    "n_desempenos": 6,
+    "solape_grado": 0.22332451499118164,
+    "solape_otro": 0.11003399634584858,
+    "margen_grado": 0.11329051864533307,
+    "grado_primero": 0.6666666666666666,
+    "cobertura": 0.08202160493827161,
+    "competencias_nombradas": [
+     "Construye interpretaciones históricas"
+    ],
+    "competencias_esperadas": [
+     "Construye interpretaciones históricas"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c08": {
+    "n_desempenos": 6,
+    "solape_grado": 0.29823648573648576,
+    "solape_otro": 0.2275376159510563,
+    "margen_grado": 0.07069886978542946,
+    "grado_primero": 0.5,
+    "cobertura": 0.15295495266759634,
+    "competencias_nombradas": [
+     "Construye su identidad"
+    ],
+    "competencias_esperadas": [
+     "Construye su identidad",
+     "Convive y participa democráticamente en la búsqueda del bien común"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c09": {
+    "n_desempenos": 7,
+    "solape_grado": 0.784640171858217,
+    "solape_otro": 0.1424239836919514,
+    "margen_grado": 0.6422161881662655,
+    "grado_primero": 1.0,
+    "cobertura": 0.6974297155933311,
+    "competencias_nombradas": [
+     "Asume una vida saludable"
+    ],
+    "competencias_esperadas": [
+     "Asume una vida saludable"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c10": {
+    "n_desempenos": 3,
+    "solape_grado": 0.2976190476190476,
+    "solape_otro": 0.10998974486363855,
+    "margen_grado": 0.18762930275540904,
+    "grado_primero": 1.0,
+    "cobertura": 0.20695070695070697,
+    "competencias_nombradas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "competencias_esperadas": [
+     "Crea proyectos desde los lenguajes artísticos"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c11": {
+    "n_desempenos": 6,
+    "solape_grado": 0.2808862433862434,
+    "solape_otro": 0.26663671354531565,
+    "margen_grado": 0.014249529840927694,
+    "grado_primero": 0.8333333333333334,
+    "cobertura": 0.14971180138859358,
+    "competencias_nombradas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "competencias_esperadas": [
+     "Se comunica oralmente en inglés como lengua extranjera",
+     "Lee diversos tipos de textos en inglés como lengua extranjera",
+     "Escribe diversos tipos de textos en inglés como lengua extranjera"
+    ],
+    "comp_precision": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   },
+   "c12": {
+    "n_desempenos": 6,
+    "solape_grado": 0.359472049689441,
+    "solape_otro": 0.23832514995345344,
+    "margen_grado": 0.12114689973598754,
+    "grado_primero": 0.5,
+    "cobertura": 0.2849070542431582,
+    "competencias_nombradas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "competencias_esperadas": [
+     "Gestiona proyectos de emprendimiento económico o social",
+     "Gestiona su aprendizaje de manera autónoma"
+    ],
+    "comp_precision": 1.0,
+    "comp_recall": 1.0,
+    "celda_encontrada": true,
+    "desempenos_encontrados": true
+   }
+  }
+ },
+ "juez": {
+  "sin_rag": {
+   "c01": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c02": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 2,
+    "total": 9
+   },
+   "c03": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 1,
+    "coherencia": 2,
+    "total": 9
+   },
+   "c04": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 2,
+    "total": 10
+   },
+   "c05": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c06": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c07": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c08": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c09": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c10": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c11": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c12": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 10
+   }
+  },
+  "rag_previo": {
+   "c01": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c02": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 1,
+    "coherencia": 2,
+    "total": 9
+   },
+   "c03": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 1,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c04": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c05": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c06": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c07": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c08": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c09": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c10": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c11": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c12": {
+    "competencias": 3,
+    "capacidades": 1,
+    "desempenos_grado": 2,
+    "coherencia": 2,
+    "total": 8
+   }
+  },
+  "rag_nuevo": {
+   "c01": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c02": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c03": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 1,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c04": {
+    "competencias": 3,
+    "capacidades": 2,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 10
+   },
+   "c05": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c06": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c07": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c08": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   },
+   "c09": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c10": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c11": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 3,
+    "coherencia": 3,
+    "total": 12
+   },
+   "c12": {
+    "competencias": 3,
+    "capacidades": 3,
+    "desempenos_grado": 2,
+    "coherencia": 3,
+    "total": 11
+   }
+  }
+ },
+ "meta": {
+  "sin_rag": {
+   "c01": {
+    "caso": "c01",
+    "condicion": "sin_rag",
+    "segundos": 58.7,
+    "tokens_entrada": 3009,
+    "tokens_salida": 5869,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9365,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c02": {
+    "caso": "c02",
+    "condicion": "sin_rag",
+    "segundos": 63.1,
+    "tokens_entrada": 3036,
+    "tokens_salida": 6480,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9452,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c03": {
+    "caso": "c03",
+    "condicion": "sin_rag",
+    "segundos": 64.9,
+    "tokens_entrada": 3067,
+    "tokens_salida": 6787,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9527,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c04": {
+    "caso": "c04",
+    "condicion": "sin_rag",
+    "segundos": 61.7,
+    "tokens_entrada": 3032,
+    "tokens_salida": 6418,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9415,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c05": {
+    "caso": "c05",
+    "condicion": "sin_rag",
+    "segundos": 65.1,
+    "tokens_entrada": 3009,
+    "tokens_salida": 6428,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9382,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c06": {
+    "caso": "c06",
+    "condicion": "sin_rag",
+    "segundos": 64.9,
+    "tokens_entrada": 3032,
+    "tokens_salida": 6362,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9466,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c07": {
+    "caso": "c07",
+    "condicion": "sin_rag",
+    "segundos": 60.0,
+    "tokens_entrada": 3032,
+    "tokens_salida": 6263,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9416,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c08": {
+    "caso": "c08",
+    "condicion": "sin_rag",
+    "segundos": 63.5,
+    "tokens_entrada": 3105,
+    "tokens_salida": 6709,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9617,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c09": {
+    "caso": "c09",
+    "condicion": "sin_rag",
+    "segundos": 56.7,
+    "tokens_entrada": 3024,
+    "tokens_salida": 6288,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9406,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c10": {
+    "caso": "c10",
+    "condicion": "sin_rag",
+    "segundos": 57.1,
+    "tokens_entrada": 3019,
+    "tokens_salida": 5935,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9398,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c11": {
+    "caso": "c11",
+    "condicion": "sin_rag",
+    "segundos": 68.5,
+    "tokens_entrada": 3071,
+    "tokens_salida": 6526,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9493,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c12": {
+    "caso": "c12",
+    "condicion": "sin_rag",
+    "segundos": 65.9,
+    "tokens_entrada": 3074,
+    "tokens_salida": 6792,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 9590,
+    "chars_contexto_rag": 0,
+    "con_contexto": false,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   }
+  },
+  "rag_previo": {
+   "c01": {
+    "caso": "c01",
+    "condicion": "rag_previo",
+    "segundos": 47.1,
+    "tokens_entrada": 4147,
+    "tokens_salida": 4892,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12741,
+    "chars_contexto_rag": 3375,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c02": {
+    "caso": "c02",
+    "condicion": "rag_previo",
+    "segundos": 63.8,
+    "tokens_entrada": 4053,
+    "tokens_salida": 6719,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12465,
+    "chars_contexto_rag": 3012,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c03": {
+    "caso": "c03",
+    "condicion": "rag_previo",
+    "segundos": 58.5,
+    "tokens_entrada": 4070,
+    "tokens_salida": 6540,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12583,
+    "chars_contexto_rag": 3055,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c04": {
+    "caso": "c04",
+    "condicion": "rag_previo",
+    "segundos": 59.7,
+    "tokens_entrada": 4035,
+    "tokens_salida": 6217,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12464,
+    "chars_contexto_rag": 3048,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c05": {
+    "caso": "c05",
+    "condicion": "rag_previo",
+    "segundos": 53.5,
+    "tokens_entrada": 3992,
+    "tokens_salida": 5501,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12341,
+    "chars_contexto_rag": 2958,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c06": {
+    "caso": "c06",
+    "condicion": "rag_previo",
+    "segundos": 73.5,
+    "tokens_entrada": 4036,
+    "tokens_salida": 7177,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12523,
+    "chars_contexto_rag": 3056,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c07": {
+    "caso": "c07",
+    "condicion": "rag_previo",
+    "segundos": 64.8,
+    "tokens_entrada": 4030,
+    "tokens_salida": 6903,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12415,
+    "chars_contexto_rag": 2998,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c08": {
+    "caso": "c08",
+    "condicion": "rag_previo",
+    "segundos": 59.4,
+    "tokens_entrada": 4303,
+    "tokens_salida": 6429,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 13250,
+    "chars_contexto_rag": 3632,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c09": {
+    "caso": "c09",
+    "condicion": "rag_previo",
+    "segundos": 56.9,
+    "tokens_entrada": 3921,
+    "tokens_salida": 5857,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12081,
+    "chars_contexto_rag": 2674,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c10": {
+    "caso": "c10",
+    "condicion": "rag_previo",
+    "segundos": 56.8,
+    "tokens_entrada": 4034,
+    "tokens_salida": 5760,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12470,
+    "chars_contexto_rag": 3071,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c11": {
+    "caso": "c11",
+    "condicion": "rag_previo",
+    "segundos": 65.7,
+    "tokens_entrada": 3899,
+    "tokens_salida": 6876,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 11978,
+    "chars_contexto_rag": 2484,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c12": {
+    "caso": "c12",
+    "condicion": "rag_previo",
+    "segundos": 57.1,
+    "tokens_entrada": 3990,
+    "tokens_salida": 6119,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 12331,
+    "chars_contexto_rag": 2740,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   }
+  },
+  "rag_nuevo": {
+   "c01": {
+    "caso": "c01",
+    "condicion": "rag_nuevo",
+    "segundos": 61.6,
+    "tokens_entrada": 5705,
+    "tokens_salida": 6267,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 19040,
+    "chars_contexto_rag": 2620,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c02": {
+    "caso": "c02",
+    "condicion": "rag_nuevo",
+    "segundos": 66.0,
+    "tokens_entrada": 5934,
+    "tokens_salida": 6978,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 19817,
+    "chars_contexto_rag": 5454,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c03": {
+    "caso": "c03",
+    "condicion": "rag_nuevo",
+    "segundos": 68.6,
+    "tokens_entrada": 5356,
+    "tokens_salida": 7256,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 17429,
+    "chars_contexto_rag": 3162,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c04": {
+    "caso": "c04",
+    "condicion": "rag_nuevo",
+    "segundos": 74.9,
+    "tokens_entrada": 6126,
+    "tokens_salida": 7690,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 20072,
+    "chars_contexto_rag": 6706,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c05": {
+    "caso": "c05",
+    "condicion": "rag_nuevo",
+    "segundos": 59.3,
+    "tokens_entrada": 5737,
+    "tokens_salida": 6112,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 18900,
+    "chars_contexto_rag": 3003,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c06": {
+    "caso": "c06",
+    "condicion": "rag_nuevo",
+    "segundos": 75.8,
+    "tokens_entrada": 6198,
+    "tokens_salida": 7661,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 20979,
+    "chars_contexto_rag": 7391,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c07": {
+    "caso": "c07",
+    "condicion": "rag_nuevo",
+    "segundos": 68.0,
+    "tokens_entrada": 5329,
+    "tokens_salida": 6953,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 17650,
+    "chars_contexto_rag": 2852,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c08": {
+    "caso": "c08",
+    "condicion": "rag_nuevo",
+    "segundos": 56.8,
+    "tokens_entrada": 5598,
+    "tokens_salida": 6185,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 17994,
+    "chars_contexto_rag": 3459,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c09": {
+    "caso": "c09",
+    "condicion": "rag_nuevo",
+    "segundos": 59.9,
+    "tokens_entrada": 4965,
+    "tokens_salida": 6321,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 15791,
+    "chars_contexto_rag": 1955,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c10": {
+    "caso": "c10",
+    "condicion": "rag_nuevo",
+    "segundos": 66.4,
+    "tokens_entrada": 5300,
+    "tokens_salida": 6487,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 17334,
+    "chars_contexto_rag": 1959,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c11": {
+    "caso": "c11",
+    "condicion": "rag_nuevo",
+    "segundos": 60.9,
+    "tokens_entrada": 5838,
+    "tokens_salida": 6258,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 19284,
+    "chars_contexto_rag": 8030,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   },
+   "c12": {
+    "caso": "c12",
+    "condicion": "rag_nuevo",
+    "segundos": 76.9,
+    "tokens_entrada": 5760,
+    "tokens_salida": 7702,
+    "llamadas": 1,
+    "stop_reason": "end_turn",
+    "chars_prompt": 19203,
+    "chars_contexto_rag": 3911,
+    "con_contexto": true,
+    "modelo": "us.anthropic.claude-sonnet-4-6"
+   }
+  }
+ }
+}

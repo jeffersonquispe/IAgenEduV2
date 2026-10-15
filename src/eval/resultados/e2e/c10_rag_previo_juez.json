@@ -1,0 +1,17 @@
+{
+ "caso": "c10",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Crea proyectos desde los lenguajes artísticos', coincidiendo con la pedida por el docente y con la referencia del CNEB.",
+  "capacidades": "Las tres capacidades listadas ('Explora y experimenta los lenguajes del arte', 'Aplica procesos creativos', 'Evalúa y comunica sus procesos y proyectos') son exactamente las oficiales de la competencia, sin invenciones ni sustituciones.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los oficiales de 5° (exploración de medios, desarrollo de proyecto con intención, registro y evaluación del proceso, presentación ante audiencia), pero están reescritos y expandidos en seis ítems que mezclan elementos de distintos desempeños oficiales y añaden especificaciones técnicas (Stanislavski, estructura coreográfica) no presentes en la referencia, sin ser desempeños de otro grado pero sí con reformulación que se aleja de la literalidad oficial.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las tres capacidades, los desempeños precisados, los seis criterios de evaluación, los contenidos, las evidencias y la secuencia de sesiones, todos articulados alrededor del proyecto escénico de teatro o danza con intención artística."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c02",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 1,
+  "coherencia": 2
+ },
+ "total": 9,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del CNEB solicitadas: Competencia 11 (Resuelve problemas de gestión de datos e incertidumbre) y Competencia 8 (Resuelve problemas de cantidad).",
+  "capacidades": "Las seis capacidades listadas (cuatro para Comp. 11 y dos para Comp. 8) coinciden textualmente con las capacidades oficiales del CNEB; no hay capacidades inventadas ni tomadas de otra competencia.",
+  "desempenos_grado": "Los desempeños redactados no corresponden a los desempeños oficiales de 4° de secundaria: omiten elementos clave del grado (desviación estándar, cuartiles, sucesos dependientes e independientes, notación científica, raíces inexactas, interés compuesto) y en su lugar describen contenidos de grados inferiores (media/mediana/moda de datos no agrupados, probabilidad clásica elemental), por lo que son en gran parte inventados o de otro grado sin base en los desempeños oficiales de 4°.",
+  "coherencia": "Existe coherencia interna entre la situación significativa, las capacidades, los criterios de evaluación, los contenidos y la evidencia final (informe estadístico ilustrado), pero la coherencia con el grado se debilita porque los desempeños precisados apuntan a un nivel de menor complejidad que el exigido oficialmente en 4°, lo que arrastra a criterios y contenidos por debajo del estándar esperado."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c05",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente la Competencia 6 'Escribe diversos tipos de textos en su lengua materna', que es la competencia oficial del CNEB y la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas (adecúa, organiza y desarrolla, utiliza convenciones, reflexiona y evalúa) coinciden textualmente con las cuatro capacidades oficiales de la competencia en la referencia del MINEDU 2016.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los oficiales de 4°: adecuación al propósito/destinatario/registro, escritura con tesis-argumentos-conclusión, uso de recursos cohesivos y contraargumentación, y revisión con criterios; sin embargo, omiten elementos específicos de los desempeños oficiales como el uso de figuras retóricas, patrones rítmicos/versos libres, estrategias discursivas (paratextos, diseño visual) y la comparación/contraste de características gramaticales y genéricas al evaluar, lo que los hace parcialmente incompletos respecto al grado.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las cuatro capacidades, los desempeños precisados, los seis criterios de evaluación, los contenidos, las evidencias de proceso y la secuencia de sesiones, todos articulados consistentemente en torno a la producción del ensayo argumentativo como tema central de la unidad."
+ }
+}

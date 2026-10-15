@@ -1,0 +1,17 @@
+{
+ "caso": "c03",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 1,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial del CNEB solicitada por el docente, sin alteraciones.",
+  "capacidades": "Las dos capacidades listadas ('Comprende y usa conocimientos...' y 'Evalúa las implicancias del saber y del quehacer científico y tecnológico') son las capacidades oficiales de esa competencia, transcritas fielmente.",
+  "desempenos_grado": "Los desempeños precisados (flujo de energía, niveles tróficos, pirámides ecológicas, ciclos biogeoquímicos, perturbaciones antrópicas) son pertinentes al tema pero no se corresponden con ninguno de los desempeños oficiales de 3° de secundaria listados en la referencia, que para seres vivos en ese grado apuntan a locomoción unicelular/pluricelular, ciclo celular y transmisión de caracteres genéticos; los desempeños del documento son construidos ad hoc sin base en los desempeños oficiales del grado.",
+  "coherencia": "Existe coherencia interna sólida entre la situación significativa, los desempeños precisados, los criterios de evaluación, los contenidos, la evidencia (infografía) y la secuencia de sesiones, todos articulados consistentemente alrededor del tema de energía y ecosistemas."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c01",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Resuelve problemas de regularidad, equivalencia y cambio' del CNEB, que coincide con la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas corresponden a las oficiales de la competencia, pero la tercera aparece levemente recortada ('para encontrar reglas generales') omitiendo 'equivalencias' del nombre oficial 'Usa estrategias y procedimientos para encontrar equivalencias y reglas generales', lo que constituye una falla menor.",
+  "desempenos_grado": "Los desempeños precisados guardan relación con los desempeños oficiales de 2° (traducción a ecuaciones lineales, propiedades de igualdad, verificación de soluciones, comunicación con diversas representaciones), pero están redactados como secuencia procedimental propia (ax+b=c, luego ambos miembros) y no recogen elementos oficiales del grado como ecuaciones de la forma ax+b=cx+d con a,c∈Q, inecuaciones, funciones lineales ni progresiones aritméticas, lo que los hace parcialmente ajustados al desempeño oficial.",
+  "coherencia": "Existe coherencia sólida entre la competencia, las cuatro capacidades, los desempeños precisados, los seis criterios de evaluación, la evidencia (cartel matemático) y la secuencia de sesiones, todos articulados de manera consistente en torno al tema de ecuaciones lineales."
+ }
+}

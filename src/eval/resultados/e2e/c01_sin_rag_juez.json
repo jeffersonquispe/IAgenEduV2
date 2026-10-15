@@ -1,0 +1,17 @@
+{
+ "caso": "c01",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente la Competencia 9 'Resuelve problemas de regularidad, equivalencia y cambio', que es la competencia oficial del CNEB y la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas (Traduce datos y condiciones a expresiones algebraicas y gráficas; Comunica su comprensión sobre las relaciones algebraicas; Usa estrategias y procedimientos para encontrar equivalencias y reglas generales; Argumenta afirmaciones sobre relaciones de cambio y equivalencia) coinciden textualmente con las capacidades oficiales de la competencia en la referencia.",
+  "desempenos_grado": "Los desempeños precisados guardan relación con los desempeños oficiales de 2° (traducción a ecuaciones lineales, resolución con propiedades de igualdad, representación e interpretación de la solución), pero presentan fallas: omiten la forma canónica oficial ax + b = cx + d con a,c ∈ Q; no mencionan inecuaciones ni funciones lineales/afines que también son desempeños de 2°; el desempeño sobre la infografía no tiene base en los desempeños oficiales del grado y mezcla la evidencia de aprendizaje con el desempeño curricular.",
+  "coherencia": "Existe coherencia sólida entre la competencia, las cuatro capacidades, los desempeños precisados, los criterios de evaluación y el tema de ecuaciones lineales: la situación significativa, las sesiones, los criterios y la evidencia (infografía) se articulan de manera consistente a lo largo de todo el documento."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c11",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Las tres competencias nombradas (comunicación oral, lectura y escritura en inglés) son exactamente las competencias oficiales del área de Inglés como Lengua Extranjera del CNEB y resultan pertinentes al tema de rutinas y hábitos.",
+  "capacidades": "Todas las capacidades listadas para cada competencia coinciden fielmente con las capacidades oficiales del CNEB: las seis de comunicación oral, las tres de lectura y las cuatro de escritura, sin inventar ni mezclar capacidades de otras competencias.",
+  "desempenos_grado": "Los desempeños precisados guardan relación con los desempeños oficiales de 2° (presente simple, vocabulario cotidiano, infografía como texto descriptivo, revisión ortográfica y gramatical), pero están redactados como desempeños propios sin citar literalmente los oficiales y omiten elementos explícitos del grado como los adverbios de tiempo y lugar, modales y conectores mencionados en la referencia; además, la inclusión de oraciones interrogativas en la infografía no tiene respaldo directo en los desempeños oficiales de 2°.",
+  "coherencia": "Existe coherencia sólida y sostenida entre competencias, capacidades, desempeños precisados, criterios de evaluación, contenidos, evidencias y secuencia de sesiones, todos articulados alrededor del tema de describir rutinas y hábitos y del producto final 'My Daily Routine & Habits'."
+ }
+}

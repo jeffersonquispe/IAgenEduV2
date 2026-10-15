@@ -1,0 +1,17 @@
+{
+ "caso": "c12",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 1,
+  "desempenos_grado": 2,
+  "coherencia": 2
+ },
+ "total": 8,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias pedidas (Gestiona proyectos de emprendimiento económico o social y Gestiona su aprendizaje de manera autónoma), ambas oficiales del CNEB para el área.",
+  "capacidades": "Las cuatro capacidades de la Competencia 15 son oficiales y correctas; sin embargo, para la Competencia 39 se incluye 'Gestiona sus motivaciones y emociones' que no es una capacidad oficial de esa competencia en el CNEB (las oficiales son Defines metas, Organiza acciones estratégicas y Monitorea y ajusta), y se omite 'Organiza acciones estratégicas para alcanzar sus metas de aprendizaje'.",
+  "desempenos_grado": "Varios desempeños guardan relación con los oficiales de 4° (identificar necesidades, diseñar propuesta de valor, validar, elaborar plan financiero, evaluar resultados), pero están reescritos con lenguaje de plan de negocio empresarial (análisis de mercado con 4P, punto de equilibrio, Canvas) que no aparece literalmente en los desempeños oficiales de 4°, y ninguno recoge explícitamente elementos clave del grado como el uso de entrevistas grupales estructuradas, la elaboración de instrumentos de recojo de información o el acompañamiento a compañeros en sus roles.",
+  "coherencia": "Existe coherencia general entre competencias, capacidades, criterios de evaluación, evidencias y sesiones en torno al plan de negocio; sin embargo, la capacidad inventada 'Gestiona sus motivaciones y emociones' no tiene reflejo en desempeños ni criterios, y los desempeños de aprendizaje autónomo quedan reducidos a un único criterio de sustentación/reflexión, debilitando la articulación con la segunda competencia a lo largo de la unidad."
+ }
+}

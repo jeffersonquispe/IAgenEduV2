@@ -1,0 +1,17 @@
+{
+ "caso": "c05",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Escribe diversos tipos de textos en su lengua materna', coincidiendo con la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas (adecúa, organiza y desarrolla, utiliza convenciones, reflexiona y evalúa) corresponden textualmente a las capacidades oficiales de la competencia en el CNEB.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los oficiales de 4°: adecuación al propósito/registro, organización con tesis y contraargumentos, uso de recursos ortográficos y evaluación de coherencia; sin embargo, se añaden desempeños sin base directa en la referencia oficial (citar fuentes confiables, reescribir incorporando sugerencias de pares) que no aparecen como desempeños de grado en el Programa Curricular, lo que introduce elementos no respaldados oficialmente.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las cuatro capacidades, los desempeños, los seis criterios de evaluación, los contenidos, las evidencias y la secuencia de sesiones, todos articulados en torno a la producción del ensayo argumentativo."
+ }
+}

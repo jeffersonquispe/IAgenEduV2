@@ -1,0 +1,17 @@
+{
+ "caso": "c07",
+ "condicion": "rag_previo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombra exactamente 'Construye interpretaciones históricas', competencia oficial del CNEB para Ciencias Sociales y coincide con la pedida por el docente.",
+  "capacidades": "Las tres capacidades listadas (Interpreta críticamente fuentes diversas, Comprende el tiempo histórico, Elabora explicaciones históricas sobre procesos) corresponden fielmente a las capacidades oficiales de la competencia, sin inventar ni mezclar capacidades de otras competencias.",
+  "desempenos_grado": "Los desempeños precisados guardan relación clara con los desempeños oficiales de 3° (análisis de fuentes, causalidad estructural/coyuntural, cambios y permanencias, simultaneidad, uso de términos históricos) y el rango cronológico del virreinato al surgimiento de la República; sin embargo, algunos desempeños del documento van más allá de lo estipulado oficialmente —como 'evalúa la relevancia histórica para la identidad nacional' y 'elabora un ensayo argumentativo con tesis propia'— que no tienen correspondencia directa en los desempeños oficiales de 3°, constituyendo adiciones no respaldadas explícitamente por la referencia.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la competencia, las tres capacidades, los desempeños precisados, los criterios de evaluación por sesión, las evidencias de proceso y la evidencia final (ensayo argumentativo), todos articulados de manera consistente en torno al tema de la independencia del Perú."
+ }
+}

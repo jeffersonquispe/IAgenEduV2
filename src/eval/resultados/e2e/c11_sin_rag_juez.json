@@ -1,0 +1,17 @@
+{
+ "caso": "c11",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombran 'Se comunica oralmente en inglés como lengua extranjera' y 'Escribe diversos tipos de textos en inglés como lengua extranjera', ambas competencias oficiales del área y pertinentes al tema de describir rutinas y hábitos.",
+  "capacidades": "Las cinco capacidades listadas son oficiales y pertenecen a las competencias declaradas; sin embargo, se omite 'Adecúa el texto a la situación comunicativa' y 'Organiza y desarrolla las ideas de forma coherente y cohesionada' de la competencia de escritura (se fusionan o se omite la primera), y se incluyen capacidades de la competencia oral mezcladas con las de escritura sin distinguir claramente a cuál competencia pertenece cada una.",
+  "desempenos_grado": "Los cuatro desempeños precisados guardan relación reconocible con los desempeños oficiales de 2° (uso del presente simple, adverbios de frecuencia, producción escrita con cohesión, reflexión sobre producciones), pero están redactados como objetivos de aprendizaje propios y no se anclan explícitamente en la formulación oficial; además, el desempeño de identificación de vocabulario no tiene correlato directo en los desempeños de 2° listados en la referencia.",
+  "coherencia": "Existe coherencia sólida entre las competencias, capacidades, desempeños, criterios de evaluación por sesión, contenidos, evidencias y el tema de rutinas y hábitos: todos los elementos apuntan de forma articulada hacia la elaboración y presentación oral del póster digital."
+ }
+}

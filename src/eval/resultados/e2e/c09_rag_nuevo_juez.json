@@ -1,0 +1,17 @@
+{
+ "caso": "c09",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Asume una vida saludable' del CNEB, coincidiendo con la pedida por el docente y siendo pertinente al área y al tema.",
+  "capacidades": "Se listan las dos capacidades oficiales de la competencia 'Asume una vida saludable' con sus denominaciones exactas, sin inventar ni mezclar capacidades de otras competencias.",
+  "desempenos_grado": "Los siete desempeños precisados corresponden fielmente a los desempeños oficiales de 3° de secundaria de la referencia; ninguno es inventado ni pertenece a otro grado, y se omite solo el desempeño sobre análisis de centros de expendio de alimentos, lo cual es aceptable dado el enfoque temático de la unidad.",
+  "coherencia": "Existe coherencia sólida y sostenida entre la competencia, las capacidades, los desempeños, los criterios de evaluación, los contenidos, la evidencia (Plan Personal de Condición Física) y la situación significativa, todos articulados alrededor del tema de capacidades físicas y condición física para la salud en 3° de secundaria."
+ }
+}

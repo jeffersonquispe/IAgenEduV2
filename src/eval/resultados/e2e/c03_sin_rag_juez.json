@@ -1,0 +1,17 @@
+{
+ "caso": "c03",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 1,
+  "coherencia": 2
+ },
+ "total": 9,
+ "motivos": {
+  "competencias": "Se nombra exactamente la Competencia 13 del CNEB con su denominación oficial completa, coincidiendo con la competencia pedida por el docente.",
+  "capacidades": "Se listan las dos capacidades oficiales de esta competencia con su redacción fiel al Programa Curricular: 'Comprende y usa conocimientos...' y 'Evalúa las implicancias del saber y del quehacer científico y tecnológico'.",
+  "desempenos_grado": "Los desempeños precisados (flujo de energía, niveles tróficos, regla del 10%, ciclos biogeoquímicos, desequilibrio ecológico) no corresponden a ninguno de los desempeños oficiales de 3° de secundaria establecidos en la referencia para esta competencia; son desempeños construidos temáticamente sobre energía y ecosistemas que no tienen base en los desempeños oficiales del grado, los cuales abordan sustancias inorgánicas, campos eléctricos, gases, ciclo celular, genética, relieve terrestre, entre otros.",
+  "coherencia": "Existe coherencia interna sólida entre la situación significativa, los desempeños precisados, los criterios de evaluación, los contenidos y la evidencia (infografía), pero la coherencia con el marco oficial se debilita porque los desempeños de grado no se anclan en los desempeños oficiales de 3°, lo que genera una unidad temáticamente consistente pero desalineada del currículo prescrito."
+ }
+}

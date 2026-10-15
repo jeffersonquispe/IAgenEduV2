@@ -1,0 +1,17 @@
+{
+ "caso": "c10",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Se nombra exactamente la Competencia 18 'Crea proyectos desde los lenguajes artísticos', que es la competencia oficial del CNEB para el área de Arte y Cultura y coincide con la pedida por el docente.",
+  "capacidades": "Las tres capacidades listadas ('Explora y experimenta los lenguajes artísticos', 'Aplica procesos creativos', 'Evalúa y comunica sus procesos y proyectos') corresponden exactamente a las capacidades oficiales de la competencia 18 según la referencia oficial, sin omisiones ni invenciones.",
+  "desempenos_grado": "Los desempeños precisados guardan relación directa con los desempeños oficiales de 5.° de secundaria: investigar y seleccionar referentes artísticos refleja el desempeño de seleccionar referentes culturales particulares; experimentar con elementos expresivos recoge la exploración de medios y técnicas para desarrollar estilo personal; planificar etapas y roles responde al desarrollo de proyectos artísticos interdisciplinarios; ajustar el guion o coreografía incorpora la mejora en respuesta a autoevaluación y retroalimentación; el registro de proceso y la evaluación del impacto corresponden al desempeño de mantener registro y evaluar el impacto en sí mismo y en los demás; todos son contextualizados al lenguaje escénico sin distorsionar la base oficial.",
+  "coherencia": "Existe coherencia plena: la situación significativa plantea un proyecto escénico colectivo vinculado a la identidad cultural; los desempeños, criterios de evaluación, contenidos, evidencias y sesiones se articulan de manera progresiva y consistente entre sí y con la competencia, capacidades y desempeños oficiales de 5.° de secundaria."
+ }
+}

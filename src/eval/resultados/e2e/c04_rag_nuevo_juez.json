@@ -1,0 +1,17 @@
+{
+ "caso": "c04",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Las tres competencias nombradas (Explica el mundo físico, Indaga mediante métodos científicos, Diseña y construye soluciones tecnológicas) son exactamente las competencias oficiales del área de Ciencia y Tecnología del CNEB y resultan pertinentes al tema de célula y biodiversidad.",
+  "capacidades": "La mayoría de capacidades listadas coinciden con las oficiales; sin embargo, 'Determina el alcance del problema tecnológico' no es la denominación oficial (la oficial es 'Determina una alternativa de solución tecnológica'), lo que constituye una falla menor de nomenclatura, y la capacidad 'Problematiza situaciones para hacer indagación' omite la frase completa oficial 'para hacer indagación' aunque es reconocible.",
+  "desempenos_grado": "Los desempeños de Explica y de Indaga corresponden fielmente a los oficiales de 1°; el desempeño de Diseña ('Representa su alternativa de solución con dibujos estructurados…') es el oficial de 1° pero aplicado a una infografía, lo cual es una adaptación aceptable; no obstante, el desempeño de indagación 'Propone procedimientos para observar y registrar datos cualitativos y cuantitativos sobre estructuras celulares' es una reescritura parcial del oficial que omite elementos clave (manipulación de variable independiente, medidas de seguridad), reduciéndolo sin base textual oficial.",
+  "coherencia": "Existe coherencia sólida y sostenida entre las competencias, capacidades, desempeños, criterios de evaluación, contenidos, evidencias y la situación significativa, todos articulados alrededor del tema de estructura celular y biodiversidad peruana con la infografía como producto integrador."
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "caso": "c08",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 10,
+ "motivos": {
+  "competencias": "Se nombra 'Construye su identidad', competencia oficial del área DPCC, pertinente al tema de autoestima y emociones en la adolescencia.",
+  "capacidades": "Las tres capacidades listadas (Se valora a sí mismo, Autorregula sus emociones, Reflexiona y argumenta éticamente) son oficiales de 'Construye su identidad'; sin embargo, se omite 'Vive su sexualidad de manera plena y responsable', que tiene desempeños de 1° directamente vinculados al tema (imagen corporal, autocuidado), y no se incluye ninguna capacidad de la segunda competencia del área ('Convive y participa democráticamente'), cuyo desempeño sobre relaciones de respeto y diálogo también es pertinente al contexto escolar trabajado.",
+  "desempenos_grado": "La mayoría de los desempeños precisados guardan relación directa con los desempeños oficiales de 1° (describir características personales y cambios de la etapa, describir causas y consecuencias de emociones y aplicar estrategias de autorregulación, argumentar posiciones éticas); no obstante, el desempeño 'Explica qué es la autoestima, sus dimensiones y su importancia' y el desempeño integrador del portafolio son construcciones propias del documento sin correspondencia literal en los desempeños oficiales de 1°, y el desempeño oficial sobre situaciones de riesgo (adicciones, desórdenes alimenticios, etc.) no aparece reflejado.",
+  "coherencia": "Existe coherencia sólida y progresiva entre la situación significativa, las competencias/capacidades declaradas, los desempeños precisados, los contenidos sesión a sesión, los criterios de evaluación y la evidencia final (portafolio), todos articulados alrededor del eje autoestima-emociones-identidad adolescente."
+ }
+}

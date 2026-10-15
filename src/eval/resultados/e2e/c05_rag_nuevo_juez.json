@@ -1,0 +1,17 @@
+{
+ "caso": "c05",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 3,
+  "coherencia": 3
+ },
+ "total": 12,
+ "motivos": {
+  "competencias": "Se nombra exactamente la competencia oficial 'Escribe diversos tipos de textos en lengua materna', coincidiendo con la pedida por el docente.",
+  "capacidades": "Las cuatro capacidades listadas (adecúa, organiza y desarrolla, utiliza convenciones, reflexiona y evalúa) son las oficiales de la competencia según el CNEB, sin invenciones ni omisiones.",
+  "desempenos_grado": "Los seis desempeños precisados se corresponden fielmente con los desempeños oficiales de 4° de secundaria: adecuación con fuentes complementarias y divergentes, jerarquización con contraargumentación, uso de conectores y marcadores, recursos retóricos para persuadir, vocabulario especializado y evaluación permanente de cohesión y eficacia persuasiva.",
+  "coherencia": "Existe coherencia plena entre competencia, capacidades, desempeños, criterios de evaluación por sesión, contenidos, evidencias y el tema del ensayo argumentativo: cada elemento se articula progresivamente y responde al propósito de producir un ensayo argumentativo en 4° de secundaria."
+ }
+}

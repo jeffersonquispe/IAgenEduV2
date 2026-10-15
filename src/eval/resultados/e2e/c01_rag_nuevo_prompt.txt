@@ -1,0 +1,152 @@
+CONTEXTO OFICIAL DEL MINEDU:
+Documento 1 (Programa Curricular de Educación Secundaria (MINEDU, 2016) - Resuelve problemas de regularidad, equivalencia y cambio — Desempeños 2° grado de secundaria (p. 158)):
+[Resuelve problemas de regularidad, equivalencia y cambio — Desempeños 2° grado de secundaria]
+Desempeños de 2° grado de secundaria (ciclo VI) — Competencia "Resuelve problemas de regularidad, equivalencia y cambio" (Matemática):
+- Establece relaciones entre datos, regularidades, valores desconocidos, o relaciones de equivalencia o variación entre dos magnitudes. Transforma esas relaciones a expresiones algebraicas o gráficas (modelos) que incluyen la regla de formación de progresiones aritméticas con números enteros, a ecuaciones lineales (ax + b = cx + d, a y c ∈ Q), a inecuaciones de la forma (ax > b, ax < b, ax ≥ b y ax ≤ b ∀ a ≠ 0), a funciones lineales y afines, a proporcionalidad directa e inversa con expresiones fraccionarias o decimales, o a gráficos cartesianos. También las transforma a patrones gráficos que combinan traslaciones, rotaciones o ampliaciones.
+Ejemplo: Un estudiante expresa el sueldo fijo de S/700 y las comisiones de S/30 por cada artículo que vende, mediante la expresión y = 30x + 700. Es decir, modela la situación con una función lineal.
+- Comprueba si la expresión algebraica o gráfica (modelo) que planteó le permitió solucionar el problema, y reconoce qué elementos de la expresión representan las condiciones del problema: datos, términos desconocidos, regularidades, relaciones de equivalencia o variación entre dos magnitudes.
+- Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la regla de formación de patrones gráficos y progresiones aritméticas, y sobre la suma de sus términos, para interpretar un problema en su contexto y estableciendo relaciones entre dichas representaciones.
+- Expresa, con diversas representaciones gráficas, tabulares y simbólicas, y con lenguaje algebraico, su comprensión sobre la solución de una ecuación lineal y sobre la solución del conjunto solución de una condición de desigualdad, para interpretar un problema según su contexto y estableciendo relaciones entre representaciones.
+---
+Documento 2 (Programa Curricular de Educación Secundaria (MINEDU, 2016) - Resuelve problemas de regularidad, equivalencia y cambio — Competencia y capacidades (ciclo VI) (p. 158)):
+[Resuelve problemas de regularidad, equivalencia y cambio — Competencia y capacidades (ciclo VI)]
+Competencia "Resuelve problemas de regularidad, equivalencia y cambio" — Ciclo VI (Matemática)
+
+Capacidades:
+- Traduce datos y condiciones a expresiones algebraicas y gráficas.
+- Comunica su comprensión sobre las relaciones algebraicas.
+- Usa estrategias y procedimientos para encontrar equivalencias y reglas generales.
+- Argumenta afirmaciones sobre relaciones de cambio y equivalencia.
+
+Nivel esperado al final del ciclo:
+Resuelve problemas referidos a interpretar cambios constantes o regularidades entre magnitudes, valores o entre expresiones; traduciéndolas a patrones numéricos y gráficos, progresiones aritméticas, ecuaciones e inecuaciones con una incógnita, funciones lineales y afín, y relaciones de proporcionalidad directa e inversa. Comprueba si la expresión algebraica usada expresó o reprodujo las condiciones del problema. Expresa su comprensión de: la relación entre función lineal y proporcionalidad directa; las diferencias entre una ecuación e inecuación lineal y sus propiedades; la variable como un valor que cambia; el conjunto de valores que puede tomar un término desconocido para verificar una inecuación; las usa para interpretar enunciados, expresiones algebraicas o textos diversos de contenido matemático. Selecciona, emplea y combina recursos, estrategias, métodos gráficos y procedimientos matemáticos para determinar el valor de términos desconocidos en una progresión aritmética, simplificar expresiones algebraicas y dar solución a ecuaciones e inecuaciones lineales, y evaluar funciones lineales. Plantea afirmaciones sobre propiedades de las progresiones aritméticas, ecuaciones e inecuaciones así como de una función lineal, lineal afín con base a sus experiencias, y las justifica mediante ejemplos y propiedades matemáticas; encuentra errores o vacíos en las argumentaciones propias y las de otros y las corrige.
+---
+Documento 3 (Programa Curricular de Educación Secundaria (MINEDU, 2016) - Resuelve problemas de regularidad, equivalencia y cambio — Estándar: Nivel esperado al final del ciclo VI (p. 157)):
+[Resuelve problemas de regularidad, equivalencia y cambio — Estándar: Nivel esperado al final del ciclo VI]
+Estándar de aprendizaje — Nivel esperado al final del ciclo VI — Competencia "Resuelve problemas de regularidad, equivalencia y cambio" (Matemática):
+Resuelve problemas referidos a interpretar cambios constantes o regularidades entre magnitudes, valores o entre expresiones; traduciéndolas a patrones numéricos y gráficos, progresiones aritméticas, ecuaciones e inecuaciones con una incógnita, funciones lineales y afín, y relaciones de proporcionalidad directa e inversa. Comprueba si la expresión algebraica usada expresó o reprodujo las condiciones del problema. Expresa su comprensión de: la relación entre función lineal y proporcionalidad directa; las diferencias entre una ecuación e inecuación lineal y sus propiedades; la variable como un valor que cambia; el conjunto de valores que puede tomar un término desconocido para verificar una inecuación; las usa para interpretar enunciados, expresiones algebraicas o textos diversos de contenido matemático. Selecciona, emplea y combina recursos, estrategias, métodos gráficos y procedimientos matemáticos para determinar el valor de términos desconocidos en una progresión aritmética, simplificar expresiones algebraicas y dar solución a ecuaciones e inecuaciones lineales, y evaluar funciones lineales. Plantea afirmaciones sobre propiedades de las progresiones aritméticas, ecuaciones e inecuaciones así como de una función lineal, lineal afín con base a sus experiencias, y las justifica mediante ejemplos y propiedades matemáticas; encuentra errores o vacíos en las argumentaciones propias y las de otros y las corrige.
+---
+Documento 4 (Programa Curricular de Educación Secundaria (MINEDU, 2016) - Resuelve problemas de regularidad, equivalencia y cambio — Estándar: Nivel destacado (p. 157)):
+[Resuelve problemas de regularidad, equivalencia y cambio — Estándar: Nivel destacado]
+Estándar de aprendizaje — Nivel destacado — Competencia "Resuelve problemas de regularidad, equivalencia y cambio" (Matemática):
+Resuelve problemas referidos a analizar cambios discontinuos o regularidades, entre magnitudes, valores o expresiones; traduciéndolas a expresiones algebraicas que pueden incluir la regla de formación de sucesiones convergentes o divergentes, funciones periódicas seno y coseno, o ecuaciones exponenciales que mejor se ajusten al comportamiento. Expresa su comprensión de las propiedades o elementos de los sistemas de inecuaciones lineales, ecuaciones exponenciales y funciones definidas en tramos; usando lenguaje formal y diversas representaciones; y las usa para interpretar información científica, financiera y matemática. Combina e integra un amplio repertorio de recursos, estrategias o procedimientos matemáticos para interpolar, extrapolar valores o calcular el valor máximo o mínimo de sucesiones y sumatorias notables, así como de funciones trigonométricas y evaluar o definir funciones por tramos; optando por los más pertinentes a la situación. Elabora afirmaciones sobre la validez general de relaciones entre conceptos y procedimientos algebraicos, así como predecir el comportamiento de las variables; las sustenta con demostraciones o argumentos que evidencian su solvencia conceptual.
+---
+Documento 5 (Programa Curricular de Educación Secundaria (MINEDU, 2016) - Resuelve problemas de regularidad, equivalencia y cambio — Competencia y capacidades (p. 156)):
+[Resuelve problemas de regularidad, equivalencia y cambio — Competencia y capacidades]
+Competencia "Resuelve problemas de regularidad, equivalencia y cambio" (Matemática)
+
+Capacidades:
+- Traduce datos y condiciones a expresiones algebraicas y gráficas: significa transformar los datos, valores desconocidos, variables y relaciones de un problema a una expresión gráfica o algebraica (modelo) que generalice la interacción entre estos. Implica también evaluar el resultado o la expresión formulada con respecto a las condiciones de la situación; y formular preguntas o problemas a partir de una situación o una expresión.
+- Comunica su comprensión sobre las relaciones algebraicas: significa expresar su comprensión de la noción, concepto o propiedades de los patrones, funciones, ecuaciones e inecuaciones estableciendo relaciones entre estas; usando lenguaje algebraico y diversas representaciones. Así como interpretar información que presente contenido algebraico.
+- Usa estrategias y procedimientos para encontrar equivalencias y reglas generales: es seleccionar, adaptar, combinar o crear, procedimientos, estrategias y algunas propiedades para simplificar o transformar ecuaciones, inecuaciones y expresiones simbólicas que le permitan resolver ecuaciones, determinar dominios y rangos, representar rectas, parábolas, y diversas funciones.
+- Argumenta afirmaciones sobre relaciones de cambio y equivalencia: significa elaborar afirmaciones sobre variables, reglas algebraicas y propiedades algebraicas, razonando de manera inductiva para generalizar una regla y de manera deductiva probando y comprobando propiedades y nuevas relaciones.
+
+Actúa como especialista en diseño curricular del MINEDU Perú. Tu tarea es crear una unidad didáctica completa para el área de Matemática, grado 2 de SECUNDARIA.
+
+
+COMPETENCIA OBLIGATORIA (USAR SOLO ESTA):
+COMPETENCIA 9. Resuelve problemas de regularidad, equivalencia y cambio
+Usa SOLO esta competencia. NO agregues otras.
+
+
+TEMAS ESPECÍFICOS A INCLUIR:
+ecuaciones lineales
+
+
+NÚMERO DE SESIONES: EXACTAMENTE 6 sesiones, numeradas del 1 al 6.
+
+
+PRODUCTO FINAL: Define un producto tangible apropiado para el área y los temas (ej. ensayo, maqueta, infografía, prototipo, exposición). La rúbrica evaluará ese producto.
+
+
+
+ÁREA CURRICULAR: Matemática
+DEBES generar contenido EXCLUSIVAMENTE apropiado para esta área.
+NO generes contenido de otras áreas. Título, situación significativa, competencias, evidencias y sesiones DEBEN estar relacionados ÚNICAMENTE con Matemática.
+
+## REGLA DE CALIDAD PEDAGÓGICA
+
+- **Progresividad de la rúbrica**: Los niveles C → B → A → AD deben mostrar avance claro en complejidad.
+- **Coherencia horizontal**: El título de cada sesión debe estar directamente relacionado con la competencia elegida.
+- **No repetición**: Cada sesión trata un subtema distinto. Ningún tema puede repetirse entre sesiones.
+- **Rúbrica gobernada por el producto**: Si se especificó un PRODUCTO FINAL, TODOS los criterios de la rúbrica analítica deben medir dimensiones de ESE producto.
+- **Factibilidad**: Las actividades propuestas en la secuencia deben ser realizables en el tiempo de sesión.
+
+## FORMATO REQUERIDO
+
+TU RESPUESTA DEBE COMENZAR INMEDIATAMENTE CON:
+
+| ITEM | CONTENIDO |
+|------|-----------|
+
+ITEM siempre a la IZQUIERDA, CONTENIDO siempre a la DERECHA. NUNCA invertir este orden.
+NO agregues texto antes ni después de las tablas.
+
+## ESTRUCTURA DE TABLAS
+
+Genera las siguientes tablas en este orden exacto, separadas por una línea en blanco:
+
+PRIMERA TABLA — Título:
+| ITEM | CONTENIDO |
+|------|-----------|
+| **TÍTULO DE LA UNIDAD DIDÁCTICA** | [Título motivador: usa pregunta retórica, desafío o frase nominal potente relacionada con Matemática y los temas dados. NO uses génerico "Unidad N°X"] |
+
+SEGUNDA TABLA — Situación significativa:
+| ITEM | CONTENIDO |
+|------|-----------|
+| **II. SITUACIÓN SIGNIFICATIVA** | [Narrativa de 3–4 oraciones que: (1) plantea un reto real de la vida del estudiante de 2° grado, (2) conecta con los temas de Matemática, (3) menciona el producto final que deberán crear, (4) genera curiosidad. Todo dentro de esta celda.] |
+
+TERCERA TABLA — Propósitos de aprendizaje:
+| ITEM | CONTENIDO |
+|------|-----------|
+| **III. PROPÓSITOS DE APRENDIZAJE** | Competencia(s): [exactamente las indicadas, del CNEB para Matemática]. Capacidades: [lista las capacidades correspondientes]. Desempeños precisos (para 2° de secundaria): [desempeños observables y medibles adaptados al grado]. Criterios de evaluación: [EXACTAMENTE 6 criterios, uno por cada sesión de la unidad, alineados a los desempeños]. Contenidos: [temas de la unidad]. Evidencia de aprendizaje: [Verbo de acción + contenido + condición de calidad, referenciando el producto final]. Instrumento de evaluación: Rúbrica analítica. TODO dentro de esta celda. |
+
+CUARTA TABLA — Otras secciones:
+| ITEM | CONTENIDO |
+|------|-----------|
+| **EVIDENCIAS DE APRENDIZAJE** | [Productos o acciones observables que demuestren logro. Si hay producto final, incluirlo como evidencia principal.] |
+| **SECUENCIA DE SESIONES** | Sesión 1: Título: [título distinto y relacionado con competencia]. Criterio de evaluación: [criterio único de esta sesión, sin repetir el de otra sesión]. Principales actividades: [actividades]. [Continuar con EXACTAMENTE 6 sesiones, cada una con tema diferente, en orden progresivo de complejidad, y cada una con su propio Criterio de evaluación distinto — no reutilices el mismo criterio en dos sesiones.] |
+| **MATERIALES BÁSICOS** | Para el docente: [lista de materiales específicos y contextualizados a Matemática y a los temas de la unidad, no genéricos]. Para el estudiante: [lista de materiales específicos]. TODO dentro de esta celda, separado por saltos de línea. |
+
+QUINTA TABLA — Competencias transversales (3 columnas):
+| Competencias transversales | Estándares de aprendizaje | Instrumento |
+|---|---|---|
+| Se desenvuelve en los entornos virtuales generados por las TIC. | [Estándar completo para 2° de secundaria] | [Instrumento específico] |
+| Gestiona su aprendizaje de manera autónoma. | [Estándar completo para 2° de secundaria] | [Instrumento específico] |
+
+SEXTA TABLA — Matriz axiológica: valores y enfoques transversales (tabla separada, 4 columnas, una fila por valor):
+Valores de la institución: Respeto, Solidaridad, Empatía, Justicia, Libertad y responsabilidad, Diálogo y concertación, Conciencia crítica, Compromiso ambiental, Equidad de género, Respeto por las diferencias. Enfoques transversales: Búsqueda de la excelencia: Superación personal.; Enfoque ambiental: justicia y solidaridad.; Enfoque de derecho: conciencia de derechos.; Atención a la diversidad: respeto por las diferencias.; Enfoque orientación al bien común: empatía y solidaridad.; Enfoque de derecho: libertad y responsabilidad.; Enfoque Ambiental: respeto a toda forma de vida, solidaridad planetaria y equidad intergeneracional.; Enfoque intercultural: respeto a la identidad cultural y diálogo intercultural..
+FILAS DE LA MATRIZ AXIOLÓGICA (úsalas exactamente como se indican; completa solo lo que dice [COMPLETAR]):
+1. Valor: Respeto | Enfoque: Búsqueda de la excelencia: Superación personal. | Comportamiento observable: [COMPLETAR: conducta concreta y observable en clase] | Instrumento: [COMPLETAR: lista de cotejo, escala de valoración o rúbrica de actitudes]
+2. Valor: Solidaridad | Enfoque: Enfoque ambiental: justicia y solidaridad. | Comportamiento observable: [COMPLETAR: conducta concreta y observable en clase] | Instrumento: [COMPLETAR: lista de cotejo, escala de valoración o rúbrica de actitudes]
+3. Valor: Empatía | Enfoque: Enfoque de derecho: conciencia de derechos. | Comportamiento observable: [COMPLETAR: conducta concreta y observable en clase] | Instrumento: [COMPLETAR: lista de cotejo, escala de valoración o rúbrica de actitudes]
+4. Valor: Justicia | Enfoque: Atención a la diversidad: respeto por las diferencias. | Comportamiento observable: [COMPLETAR: conducta concreta y observable en clase] | Instrumento: [COMPLETAR: lista de cotejo, escala de valoración o rúbrica de actitudes]
+5. Valor: Libertad y responsabilidad | Enfoque: Enfoque orientación al bien común: empatía y solidaridad. | Comportamiento observable: [COMPLETAR: conducta concreta y observable en clase] | Instrumento: [COMPLETAR: lista de cotejo, escala de valoración o rúbrica de actitudes]
+Listado de enfoques disponibles: Búsqueda de la excelencia: Superación personal.; Enfoque ambiental: justicia y solidaridad.; Enfoque de derecho: conciencia de derechos.; Atención a la diversidad: respeto por las diferencias.; Enfoque orientación al bien común: empatía y solidaridad.; Enfoque de derecho: libertad y responsabilidad.; Enfoque Ambiental: respeto a toda forma de vida, solidaridad planetaria y equidad intergeneracional.; Enfoque intercultural: respeto a la identidad cultural y diálogo intercultural.
+Genera EXACTAMENTE estas filas, en este orden, sin agregar ni quitar ninguna.
+
+| Valor | Enfoques transversales | Comportamientos observables | Instrumento |
+|---|---|---|---|
+| [Valor 1] | [Enfoque transversal que se vincula a este valor] | [Conducta concreta y observable en clase, contextualizada a Matemática] | [Lista de cotejo, escala de valoración o rúbrica de actitudes] |
+| [continuar: una fila por cada fila indicada arriba] |
+
+SÉPTIMA TABLA — Rúbrica analítica de unidad (tabla separada, 5 columnas):
+Genera EXACTAMENTE 6 filas — una por cada criterio de evaluación de PROPÓSITOS DE APRENDIZAJE, en el MISMO ORDEN que las sesiones de SECUENCIA DE SESIONES (fila 1 = criterio de la Sesión 1, fila 2 = criterio de la Sesión 2, y así sucesivamente hasta la Sesión 6). NO generes más ni menos de 6 filas.
+| Criterio | C — Inicio | B — Proceso | A — Logrado | AD — Destacado |
+|---|---|---|---|---|
+| [Criterio de la Sesión 1, vinculado al producto final y competencia] | [Descripción nivel inicio] | [Descripción nivel proceso] | [Descripción nivel logrado] | [Descripción nivel destacado, supera lo esperado] |
+| [Criterio de la Sesión 2, vinculado al producto final] | [C] | [B] | [A] | [AD] |
+| [continuar una fila por cada sesión restante, hasta completar EXACTAMENTE 6 filas] |
+
+## REGLAS ESTRICTAS
+
+1. SOLO genera tablas. TODO el contenido DENTRO de celdas.
+2. NO uses etiquetas HTML.
+3. NO uses viñetas (•, -, *, →). Solo texto plano.
+4. Para separar contenido dentro de una celda, usa saltos de línea reales.
+5. Cada tabla tiene su propio encabezado y separador.
+6. COMPETENCIAS TRANSVERSALES, MATRIZ AXIOLÓGICA y RÚBRICA ANALÍTICA deben ser tablas separadas.
+7. Contenido apropiado para Matemática en 2° de secundaria (Perú, CNEB/MINEDU).
+8. EXACTAMENTE 6 sesiones numeradas del 1 al 6, SIN repetir temas.
+9. Los niveles C→B→A→AD de la rúbrica deben mostrar escalada de complejidad, no solo cantidad.
+10. La cantidad de criterios de evaluación (PROPÓSITOS DE APRENDIZAJE) y de filas de la rúbrica analítica debe ser EXACTAMENTE 6 — uno por cada sesión, sin compartir un mismo criterio entre sesiones distintas.

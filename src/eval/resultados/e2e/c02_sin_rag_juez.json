@@ -1,0 +1,17 @@
+{
+ "caso": "c02",
+ "condicion": "sin_rag",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 2,
+  "desempenos_grado": 2,
+  "coherencia": 2
+ },
+ "total": 9,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias oficiales del CNEB pedidas por el docente: 'Resuelve problemas de gestión de datos e incertidumbre' y 'Resuelve problemas de cantidad', con sus numeraciones correspondientes.",
+  "capacidades": "Las cuatro capacidades de la competencia de gestión de datos están correctamente listadas y corresponden a las oficiales; de la competencia de cantidad se incluyen tres capacidades oficiales ('Traduce cantidades a expresiones numéricas', 'Comunica su comprensión sobre los números y las operaciones', 'Usa estrategias y procedimientos de estimación y cálculo') pero se omite 'Argumenta afirmaciones sobre las relaciones numéricas y las operaciones', quedando incompleta esa competencia.",
+  "desempenos_grado": "Los desempeños precisados guardan relación con los desempeños oficiales de 4.° para gestión de datos (medidas de tendencia central, probabilidad, interpretación de gráficos, sucesos), pero presentan fallas: no se menciona la desviación estándar ni los cuartiles que sí son desempeños explícitos de 4.°; los desempeños vinculados a la competencia de cantidad (expresar probabilidad como fracción/decimal/porcentaje, resolver situaciones combinadas) no tienen correspondencia clara con los desempeños oficiales de 4.° de esa competencia, que apuntan a raíces inexactas, notación científica e interés compuesto.",
+  "coherencia": "Existe coherencia interna sólida entre la situación significativa, las capacidades de gestión de datos, los criterios de evaluación por sesión, las evidencias y la secuencia didáctica; sin embargo, la inclusión de la competencia 'Resuelve problemas de cantidad' resulta forzada porque los contenidos y criterios de evaluación no desarrollan desempeños propios de esa competencia en 4.° (notación científica, raíces inexactas, interés compuesto), debilitando la coherencia global del documento."
+ }
+}

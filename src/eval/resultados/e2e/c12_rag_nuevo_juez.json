@@ -1,0 +1,17 @@
+{
+ "caso": "c12",
+ "condicion": "rag_nuevo",
+ "puntajes": {
+  "competencias": 3,
+  "capacidades": 3,
+  "desempenos_grado": 2,
+  "coherencia": 3
+ },
+ "total": 11,
+ "motivos": {
+  "competencias": "Se nombran exactamente las dos competencias pedidas (Competencia 15 y Competencia 39) con sus denominaciones oficiales del CNEB.",
+  "capacidades": "Las cuatro capacidades de la Competencia 15 y las tres de la Competencia 39 coinciden fielmente con las denominaciones oficiales de la referencia, sin invenciones ni mezclas.",
+  "desempenos_grado": "La mayoría de desempeños guardan relación directa con los oficiales de 4°; sin embargo, el desempeño 'Selecciona y aplica procesos de producción pertinentes con responsabilidad ambiental y aplicando normas básicas de gestión empresarial' sustituye 'normas de seguridad en el trabajo' por 'normas básicas de gestión empresarial', alterando el énfasis oficial, y el desempeño fusionado de la Competencia 39 comprime tres desempeños distintos en uno solo perdiendo matices del grado.",
+  "coherencia": "Existe coherencia sólida y progresiva entre competencias, capacidades, desempeños, criterios de evaluación por sesión, contenidos, evidencias y la situación significativa, todos articulados al tema de emprendimiento y plan de negocio para 4° de secundaria."
+ }
+}
