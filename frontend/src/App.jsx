@@ -6,6 +6,9 @@ import Login from './pages/Login'
 import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
 import Editor from './pages/Editor'
+import Institucion from './pages/Institucion'
+import Ejemplos from './pages/Ejemplos'
+import Toaster from './components/ui/Toaster'
 
 function App() {
   const [user, setUser] = useState(null)
@@ -40,16 +43,19 @@ function App() {
     }
   }, [])
 
-  if (loading) return <div className="h-screen flex items-center justify-center">Cargando...</div>
+  if (loading) return <div role="status" className="h-screen flex items-center justify-center text-fg-muted">Cargando...</div>
 
   return (
     <Router>
-      <div className="min-h-screen bg-dark">
+      <div className="min-h-screen bg-bg">
+        <Toaster />
         <Routes>
           <Route path="/login" element={user ? <Navigate to="/" /> : <Login />} />
           <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/" element={user ? <Dashboard user={user} /> : <Navigate to="/login" />} />
           <Route path="/editor" element={user ? <Editor user={user} /> : <Navigate to="/login" />} />
+          <Route path="/institucion" element={user ? <Institucion /> : <Navigate to="/login" />} />
+          <Route path="/ejemplos" element={user ? <Ejemplos /> : <Navigate to="/login" />} />
         </Routes>
       </div>
     </Router>
