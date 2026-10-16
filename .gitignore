@@ -22,3 +22,8 @@ node_modules/
 
 # Estado local del CLI de Supabase (project ref, connection info cacheada)
 supabase/.temp/
+# caché de embeddings del experimento híbrido (se regenera, cuesta centavos)
+src/eval/resultados/cache_embeddings/
+
+# Salida de build del frontend (se regenera con npm run build)
+frontend/dist/

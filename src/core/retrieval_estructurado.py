@@ -154,6 +154,11 @@ class RecuperadorCurricular:
         return out
 
     # ---------------------------------------------------------------- recuperacion
+    def _puntajes(self, query: str) -> List[float]:
+        """Puntaje de cada chunk para la consulta (BM25). Punto de extension: una subclase puede mezclar otras senales
+        (p. ej. embeddings) sin tocar el filtrado por area/grado ni el armado del resultado."""
+        return self._bm.scores(query)
+
     def recuperar(self, query: str, grado, area: Optional[str] = None, competencias: Optional[Iterable[str]] = None,
                   k: int = 10, m: int = 2, con_vecinos: bool = True, con_resto: bool = True) -> List[dict]:
         """Devuelve chunks (dicts del corpus) en este orden:
@@ -164,7 +169,7 @@ class RecuperadorCurricular:
         if g is None:       # sin grado valido no hay forma de filtrar: mezclaria desempenos de distintos grados
             return []
         area_can = self.area_canonica(area)
-        sc = self._bm.scores(query)
+        sc = self._puntajes(query)
         comps = self.competencias_canonicas(competencias or [], area_can)
 
         if comps:

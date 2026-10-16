@@ -170,7 +170,7 @@ validar por un experto). Resultado del servicio completo con el buscador por pal
 | | hit@5 | recall@5 | mrr | ndcg@5 |
 |---|---|---|---|---|
 | puntaje por palabras clave (antes) | 0.47 | 0.35 | 0.46 | 0.36 |
-| BM25 + exclusión de resúmenes redundantes (ahora) | **1.00** | **0.78** | **0.95** | **0.84** |
+| BM25 + exclusión de resúmenes redundantes (ahora) | **1.00** | **0.78** | **0.95** | **0.83** |
 
 Notas: se retiraron 6 consultas curriculares de este set porque su relevancia etiquetada eran los resúmenes por área y
 ciclo que el Programa Curricular completo reemplaza (las cubre `gold_estructurado.json`). Con el formato real del

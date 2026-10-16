@@ -1,0 +1,81 @@
+Experimento híbrido (2026-10-15). Modelos: titan_v2, titan_v1, cohere_multi. α = 0.5, RRF k = 60 (fijados antes de medir).
+
+== A. Curricular: ordenar los desempeños candidatos (filtro por área y grado activo). hit_obj@1 / mrr_obj; n=34 + 34 ==
+estrategia                         todas h@1    mrr  pipeline h@1  solo tema h@1
+estr_bm25                              0.750  0.863         0.735          0.765
+estr_bm25_tema                         0.765  0.877         0.765          0.765
+estr_denso_titan_v2                    0.853  0.922         0.853          0.853
+estr_rrf_titan_v2                      0.941  0.971         0.941          0.941
+estr_ponderado_titan_v2                0.926  0.963         0.941          0.912
+estr_ponderado_a25_titan_v2            0.941  0.971         0.941          0.941
+estr_ponderado_a75_titan_v2            0.868  0.929         0.853          0.882
+estr_denso_titan_v1                    0.912  0.956         0.912          0.912
+estr_rrf_titan_v1                      0.897  0.946         0.912          0.882
+estr_ponderado_titan_v1                0.912  0.951         0.912          0.912
+estr_ponderado_a25_titan_v1            0.941  0.971         0.941          0.941
+estr_ponderado_a75_titan_v1            0.838  0.914         0.824          0.853
+estr_denso_cohere_multi                0.882  0.941         0.882          0.882
+estr_rrf_cohere_multi                  0.897  0.946         0.912          0.882
+estr_ponderado_cohere_multi            0.941  0.971         0.941          0.941
+estr_ponderado_a25_cohere_multi        0.941  0.971         0.941          0.941
+estr_ponderado_a75_cohere_multi        0.882  0.936         0.882          0.882
+
+== A'. Control SIN filtro de metadatos: ¿los embeddings evitan el desempeño de otro grado? (top-5) ==
+estrategia                         hit_obj@1  grado equivocado  área equivocada
+sinfiltro_bm25                         0.088             0.808            0.133
+sinfiltro_denso_titan_v2               0.000             0.788            0.127
+sinfiltro_rrf_titan_v2                 0.074             0.777            0.106
+sinfiltro_ponderado_titan_v2           0.088             0.792            0.104
+sinfiltro_denso_titan_v1               0.029             0.718            0.163
+sinfiltro_rrf_titan_v1                 0.103             0.763            0.075
+sinfiltro_ponderado_titan_v1           0.088             0.811            0.101
+sinfiltro_denso_cohere_multi           0.059             0.765            0.092
+sinfiltro_rrf_cohere_multi             0.103             0.794            0.093
+sinfiltro_ponderado_cohere_multi       0.088             0.812            0.107
+
+== B. Pedagogía (19 consultas libres) ==
+estrategia                           hit@5  recall@5    mrr  ndcg@5
+ped_bm25                             1.000     0.776  0.947   0.835
+ped_denso_titan_v2                   1.000     0.877  1.000   0.926
+ped_rrf_titan_v2                     1.000     0.855  1.000   0.910
+ped_ponderado_titan_v2               1.000     0.855  1.000   0.917
+ped_denso_titan_v1                   1.000     0.886  0.974   0.910
+ped_rrf_titan_v1                     1.000     0.838  1.000   0.903
+ped_ponderado_titan_v1               1.000     0.860  1.000   0.900
+ped_denso_cohere_multi               1.000     0.838  0.974   0.888
+ped_rrf_cohere_multi                 1.000     0.798  1.000   0.878
+ped_ponderado_cohere_multi           1.000     0.829  0.974   0.874
+
+== Diferencias pareadas frente a estr_bm25 (68 consultas; IC 95 % bootstrap sobre los 34 temas) ==
+estrategia                         Δ hit_obj@1                  IC  mejoran/empeoran  Δ mrr_obj                  IC
+estr_bm25_tema                          +0.015      [-0.03, +0.06]               2/1     +0.015      [-0.01, +0.04]
+estr_denso_titan_v2                     +0.103      [-0.04, +0.25]              11/4     +0.059      [-0.02, +0.14]
+estr_rrf_titan_v2                       +0.191      [+0.07, +0.32]              13/0     +0.108      [+0.04, +0.18]
+estr_ponderado_titan_v2                 +0.176      [+0.07, +0.29]              12/0     +0.100      [+0.04, +0.17]
+estr_ponderado_a25_titan_v2             +0.191      [+0.07, +0.32]              13/0     +0.108      [+0.04, +0.18]
+estr_ponderado_a75_titan_v2             +0.118      [+0.03, +0.22]               8/0     +0.066      [+0.02, +0.12]
+estr_denso_titan_v1                     +0.162      [+0.00, +0.32]              15/4     +0.093      [+0.01, +0.18]
+estr_rrf_titan_v1                       +0.147      [+0.04, +0.26]              11/1     +0.083      [+0.02, +0.15]
+estr_ponderado_titan_v1                 +0.162      [+0.04, +0.29]              12/1     +0.088      [+0.03, +0.16]
+estr_ponderado_a25_titan_v1             +0.191      [+0.04, +0.34]              15/2     +0.108      [+0.03, +0.19]
+estr_ponderado_a75_titan_v1             +0.088      [+0.01, +0.18]               6/0     +0.051      [+0.01, +0.10]
+estr_denso_cohere_multi                 +0.132      [-0.01, +0.28]              13/4     +0.078      [-0.00, +0.16]
+estr_rrf_cohere_multi                   +0.147      [+0.06, +0.26]              10/0     +0.083      [+0.03, +0.15]
+estr_ponderado_cohere_multi             +0.191      [+0.07, +0.32]              13/0     +0.108      [+0.04, +0.18]
+estr_ponderado_a25_cohere_multi         +0.191      [+0.07, +0.32]              13/0     +0.108      [+0.04, +0.18]
+estr_ponderado_a75_cohere_multi         +0.132      [+0.04, +0.25]               9/0     +0.074      [+0.02, +0.13]
+
+== C. ¿Se puede descartar el contexto de apoyo cuando la consulta no tiene contenido pedagógico? (similitud máxima, AUC) ==
+   con contenido = las 19 consultas libres; sin contenido = los 34 temas curriculares (p. ej. «ecuaciones lineales»)
+titan_v2       AUC=1.000 | con contenido: min 0.49, media 0.67 | sin contenido: media 0.21, max 0.43
+titan_v1       AUC=0.992 | con contenido: min 0.57, media 0.75 | sin contenido: media 0.48, max 0.65
+cohere_multi   AUC=0.995 | con contenido: min 0.59, media 0.74 | sin contenido: media 0.49, max 0.61
+
+== D. Consultas donde estr_ponderado_titan_v2 NO pone primero el desempeño correcto ==
+e14 'programación curricular Comunicación 4 grado secundaria textos argumen': esperado «Escribe diversos tipos de textos en lengua», salió «Lee diversos tipos de textos escritos en l»
+t14 'textos argumentativos': esperado «Escribe diversos tipos de textos en lengua», salió «Lee diversos tipos de textos escritos en l»
+e16 'programación curricular Ciencias Sociales 3 grado secundaria la indepe': esperado «Construye interpretaciones históricas», salió «Gestiona responsablemente el espacio y el »
+t16 'la independencia del Perú': esperado «Construye interpretaciones históricas», salió «Gestiona responsablemente el espacio y el »
+t21 'capacidades físicas y condición física': esperado «Asume una vida saludable», salió «Interactúa a través de sus habilidades soc»
+
+Costo de los embeddings en esta ejecución (USD, estimado; 0 si todo salió del cache): {"titan_v2": 0.0, "titan_v1": 0.0, "cohere_multi": 0.0}

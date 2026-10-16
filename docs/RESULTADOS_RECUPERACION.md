@@ -25,15 +25,15 @@ Oro derivado de metadatos (`gold_estructurado.json`). **Azar: hit_obj@1 = 0.38**
 | Estrategia | hit_obj@1 | mrr_obj | recall@5 | grado equivocado |
 |---|---|---|---|---|
 | baseline | 0.00 | 0.00 | 0.00 | — |
-| baseline_prog1o | 0.12 | 0.34 | 0.24 | 80% |
+| baseline_prog1o | 0.15 | 0.36 | 0.23 | 81% |
 | bm25 | 0.12 | 0.28 | 0.31 | 82% |
 | bm25_grafo | 0.15 | 0.31 | 0.25 | 80% |
 | bm25_meta | 0.35 | 0.54 | 0.58 | 0% |
-| bm25_meta_grafo | 0.09 | 0.28 | 0.77 | 0% |
-| **servicio** | **0.74** | **0.85** | 0.78 | **0%** |
+| bm25_meta_grafo | 0.09 | 0.28 | 0.76 | 0% |
+| **servicio** | **0.74** | **0.85** | 0.77 | **0%** |
 | servicio_con_competencia | 1.00 | 1.00 | 1.00 | 0% |
 
-Con solo el tema como consulta (otros 34 casos): `servicio` hit_obj@1 = 0.77; `baseline_prog1o` 0.65 pero con 19% de desempeños de otro grado;
+Con solo el tema como consulta (otros 34 casos): `servicio` hit_obj@1 = 0.76; `baseline_prog1o` 0.65 pero con 19% de desempeños de otro grado;
 `bm25` 0.06 con 79% de otro grado.
 
 ## B. Pedagogía y metodologías — 19 consultas libres
@@ -43,7 +43,7 @@ Con solo el tema como consulta (otros 34 casos): `servicio` hit_obj@1 = 0.77; `b
 | baseline | 0.47 | 0.35 | 0.46 | 0.36 |
 | bm25 | 1.00 | 0.77 | 0.91 | 0.78 |
 | bm25_grafo | 0.79 | 0.60 | 0.71 | 0.57 |
-| **servicio** | **1.00** | **0.78** | **0.95** | **0.84** |
+| **servicio** | **1.00** | **0.78** | **0.95** | **0.83** |
 
 Latencia por consulta: baseline ≈ 21 ms, BM25 ≈ 1 ms, servicio ≈ 1 ms.
 
@@ -59,5 +59,5 @@ Latencia por consulta: baseline ≈ 21 ms, BM25 ≈ 1 ms, servicio ≈ 1 ms.
 
 - Los sets los armó el autor (la competencia objetivo de cada tema y la relevancia en pedagogía), sin validación de un docente.
 - 34 temas × 2 variantes y 19 consultas libres: las diferencias pequeñas no son concluyentes.
-- No se midieron embeddings ni Bedrock KB. El baseline varía ±0.02 entre corridas por un defecto de determinismo de ese código.
+- No se midieron embeddings ni Bedrock KB. El baseline varía ±0.03 entre corridas por un defecto de determinismo de ese código (suma puntajes en orden de `set`): estas cifras son las del JSON guardado, y una corrida anterior dio 0.12 en lugar de 0.15 para `baseline_prog1o`.
 - Esta evaluación mide solo la recuperación; la evaluación de extremo a extremo (documento generado) está en `docs/EVALUACION_E2E.md`.

@@ -274,3 +274,39 @@ def extraer_titulos_sesiones(contenido: str) -> List[str]:
         if t and len(t) > 5:
             titulos.append(t)
     return titulos
+
+
+_CORTES_TITULO_SESION = re.compile(
+    r'\s*(?:criterio(?:s)?(?:\s+de\s+evaluaci[oó]n)?\s*:|principales\s+actividades\s*:'
+    r'|actividades\s*:|desempe[nñ]os?\s*:|tiempo\s*:|recursos\s*:)',
+    re.IGNORECASE,
+)
+
+
+def extraer_sesiones_numeradas(contenido: str) -> dict:
+    """
+    HU-29: devuelve {numero_sesion: titulo} para los patrones "Sesión N: ...".
+
+    A diferencia de extraer_titulos_sesiones(), conserva el número de sesión y
+    se queda con la PRIMERA aparición de cada número (una misma sesión
+    mencionada otra vez, p. ej. en la rúbrica, no cuenta como sesión nueva),
+    quita el prefijo "Título:" y corta antes de "Criterio de evaluación:" /
+    "Principales actividades:" cuando el LLM no separó los campos con salto
+    de línea o punto.
+    """
+    if not contenido:
+        return {}
+    sesiones: dict = {}
+    for m in re.finditer(r'Sesi[oó]n\s+(\d+)\s*[:\-]\s*([^\n]+)', contenido, re.IGNORECASE):
+        numero = int(m.group(1))
+        if numero in sesiones:
+            continue
+        t = re.sub(r'<[^>]+>', '', m.group(2)).replace('**', '').strip()
+        t = re.sub(r'^t[ií]tulo\s*:\s*', '', t, flags=re.IGNORECASE)
+        corte = _CORTES_TITULO_SESION.search(t)
+        if corte:
+            t = t[:corte.start()]
+        t = t.split('. ')[0].strip().rstrip('.,;|').strip()
+        if len(t) > 3:
+            sesiones[numero] = t
+    return sesiones

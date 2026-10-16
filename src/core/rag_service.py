@@ -361,14 +361,16 @@ Estructura tu respuesta de manera profesional y alineada con los documentos ofic
                 "temperature": 0.3,  # Más conservador para contenido educativo oficial
             })
             
-            response = self.bedrock_runtime.invoke_model(
-                body=body,
-                modelId='anthropic.claude-opus-4-6-v1',
-                accept='application/json',
-                contentType='application/json'
-            )
-            
-            response_body = json.loads(response.get('body').read())
+            # HU-34: comparte el límite de concurrencia con BedrockClient.
+            from .bedrock_client import get_limite_concurrencia
+            with get_limite_concurrencia():
+                response = self.bedrock_runtime.invoke_model(
+                    body=body,
+                    modelId='anthropic.claude-opus-4-6-v1',
+                    accept='application/json',
+                    contentType='application/json'
+                )
+                response_body = json.loads(response.get('body').read())
             return response_body.get('content', [{}])[0].get('text', '')
             
         except Exception as e:

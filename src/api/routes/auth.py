@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import IntegrityError
 from supabase import create_client, Client
 from ..database import get_db
 from .. import models, schemas, gamification_logic
@@ -35,15 +36,42 @@ _supabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
 _bearer_scheme = HTTPBearer()
 
 
+def exigir_correo_verificado() -> bool:
+    """HU-20: si REQUIRE_VERIFIED_EMAIL está activo, el backend rechaza (403) a quien no
+    haya confirmado su correo. Se lee en cada llamada (no al importar) para poder
+    cambiarlo sin reiniciar tests.
+
+    Apagado por defecto a propósito: la verificación la hace Supabase Auth (opción
+    "Confirm email" del panel), que ya impide iniciar sesión sin confirmar. Este
+    control es una segunda barrera; activarlo con "Confirm email" desactivado
+    dejaría sin acceso a los usuarios nuevos."""
+    return os.getenv("REQUIRE_VERIFIED_EMAIL", "").strip().lower() in ("1", "true", "yes", "si", "sí")
+
+
 def _bootstrap_profile(db: Session, supa_user) -> models.User:
     """Crea el perfil de aplicación (profiles + user_stats) la primera vez
     que se ve un usuario autenticado por Supabase — no depende de que el
     registro haya llamado a un endpoint aparte (evita que una fila de
-    auth.users quede sin su profiles/user_stats correspondiente)."""
+    auth.users quede sin su profiles/user_stats correspondiente).
+
+    Dos requests concurrentes (p.ej. Sidebar pidiendo /auth/stats y
+    Dashboard pidiendo /data/documents en el primer login del usuario)
+    pueden llegar aquí a la vez para el mismo usuario nuevo, cada una con
+    su propia sesión de DB (ver get_db) — es una carrera de tipo
+    check-then-act. Si perdemos el INSERT, no es un error real: la otra
+    request ya creó el perfil, así que lo re-consultamos en vez de fallar.
+    """
     full_name = (supa_user.user_metadata or {}).get("full_name")
     user = models.User(id=supa_user.id, email=supa_user.email, full_name=full_name)
     db.add(user)
-    db.commit()
+    try:
+        db.commit()
+    except IntegrityError:
+        db.rollback()
+        existing = db.query(models.User).filter(models.User.id == supa_user.id).first()
+        if existing is None:
+            raise
+        return existing
     db.refresh(user)
 
     db.add(models.UserStats(user_id=user.id))
@@ -69,9 +97,21 @@ def get_current_user(
     if not supa_user:
         raise credentials_exception
 
+    verificado = bool(getattr(supa_user, "email_confirmed_at", None))
+    if exigir_correo_verificado() and not verificado:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail={
+                "code": "email_not_verified",
+                "message": "Debes confirmar tu correo electrónico para usar la plataforma.",
+            },
+        )
+
     user = db.query(models.User).filter(models.User.id == supa_user.id).first()
     if user is None:
         user = _bootstrap_profile(db, supa_user)
+    # Atributo transitorio (no es columna): lo lee GET /auth/me vía schemas.User.
+    user.email_verified = verificado
     return user
 
 
@@ -100,7 +140,9 @@ def get_stats(current_user: models.User = Depends(get_current_user), db: Session
     if nuevos_badges:
         current_ids = list(stats.badges_desbloqueados or [])
         stats.badges_desbloqueados = list(set(current_ids + nuevos_badges))
-        stats.puntos += len(nuevos_badges) * 20
+
+    # HU-38: documentos, mejoras, exportaciones e insignias suman puntos.
+    stats.puntos = gamification_logic.calcular_puntos(stats)
 
     db.commit()
     db.refresh(stats)

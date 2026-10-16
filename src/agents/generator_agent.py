@@ -4,11 +4,13 @@ Agente Generador: especializado en crear contenido educativo.
 Solo genera contenido; NO se encarga de formato ni validación.
 """
 import logging
-from typing import Optional
+from typing import Any, Optional
 
 from ..core.bedrock_client import get_bedrock_client, BedrockClient
 from ..core.prompt_manager import get_prompt_manager, PromptManager
 from ..core.rag_service import RAGEducativoService
+from ..core.contexto_institucional import construir_contexto_institucional
+from ..core.matriz_axiologica import construir_filas_matriz, instrucciones_matriz
 from ..core.valores_institucionales import (
     resolver_valores_institucionales,
     resolver_enfoques_transversales,
@@ -48,10 +50,21 @@ class GeneratorAgent:
         temas: str = None,
         num_sesiones: int = 6,
         producto_final: str = None,
+        plantilla_esquema: Optional[dict] = None,
+        institution_profile: Optional[Any] = None,
     ) -> str:
         """
         Construye el prompt para generar una unidad didáctica.
+
+        HU-32: `institution_profile` (HU-31) aporta el contexto institucional y
+        los valores/enfoques propios del colegio; sin perfil el prompt es el de siempre.
         Extrae la lógica de armado del prompt del método generar_unidad_didactica().
+
+        HU-49: si `plantilla_esquema` viene informado (plantilla institucional
+        subida por el docente, HU-48), el prompt se construye dinámicamente a
+        partir de ESA estructura en vez de cargar el template fijo
+        `unidad_didactica.md` — mismas reglas pedagógicas, distinta estructura
+        de tablas/columnas de salida.
         """
         contexto_competencia = self._construir_contexto_competencia(
             competencia_referencia, area_curricular, grado
@@ -81,19 +94,42 @@ class GeneratorAgent:
             )
 
         contexto_rag = self._buscar_contexto_rag(area_curricular, grado, temas or "", competencia_referencia)
+        contexto_institucional = construir_contexto_institucional(institution_profile)
+        valores = resolver_valores_institucionales(institution_profile)
+        enfoques = resolver_enfoques_transversales(institution_profile)
+        # HU-42: filas de la matriz axiológica (las del perfil, o valores/enfoques emparejados).
+        contexto_matriz = instrucciones_matriz(construir_filas_matriz(institution_profile), enfoques)
 
-        prompt = self.prompt_manager.cargar(
-            "unidad_didactica",
-            area_curricular=area_curricular,
-            grado=grado,
-            contexto_competencia=contexto_competencia,
-            contexto_temas=contexto_temas,
-            contexto_sesiones=contexto_sesiones,
-            contexto_producto=contexto_producto,
-            num_sesiones=num_sesiones,
-            valores_texto=', '.join(resolver_valores_institucionales()),
-            enfoques_texto='; '.join(resolver_enfoques_transversales()),
-        )
+        if plantilla_esquema:
+            from ..core.template_parser import construir_prompt_desde_plantilla
+
+            contexto = (
+                f"ÁREA CURRICULAR: {area_curricular}. GRADO: {grado}° de secundaria (Perú, CNEB/MINEDU).\n"
+                f"{contexto_competencia}{contexto_temas}{contexto_sesiones}{contexto_producto}{contexto_institucional}\n"
+                f"Valores institucionales sugeridos: {', '.join(valores)}.\n"
+                f"Enfoques transversales sugeridos: {'; '.join(enfoques)}.\n"
+                f"Genera EXACTAMENTE {num_sesiones} sesiones y {num_sesiones} criterios de evaluación, "
+                f"uno por sesión, sin repetir temas ni criterios entre sesiones."
+            )
+            reglas = self.prompt_manager.cargar_seccion(
+                "unidad_didactica", "REGLA DE CALIDAD PEDAGÓGICA"
+            )
+            prompt = construir_prompt_desde_plantilla(plantilla_esquema, reglas, contexto)
+        else:
+            prompt = self.prompt_manager.cargar(
+                "unidad_didactica",
+                area_curricular=area_curricular,
+                grado=grado,
+                contexto_competencia=contexto_competencia,
+                contexto_temas=contexto_temas,
+                contexto_sesiones=contexto_sesiones,
+                contexto_producto=contexto_producto,
+                contexto_institucional=contexto_institucional,
+                contexto_matriz=contexto_matriz,
+                num_sesiones=num_sesiones,
+                valores_texto=', '.join(valores),
+                enfoques_texto='; '.join(enfoques),
+            )
 
         if contexto_rag:
             prompt = f"CONTEXTO OFICIAL DEL MINEDU:\n{contexto_rag}\n\n{prompt}"
@@ -150,10 +186,18 @@ class GeneratorAgent:
         competencias_unidad: str = None,
         tema: str = None,
         metodologia: str = None,
+        plantilla_esquema: Optional[dict] = None,
+        recurso_previo: Optional[str] = None,
+        institution_profile: Optional[Any] = None,
     ) -> str:
         """
         Construye el prompt para generar una sesión de aprendizaje.
+
+        `recurso_previo` (HU-43): enlace del material que los estudiantes
+        revisan en casa; solo se usa con Aula Invertida.
         Extrae la lógica de armado del prompt del método generar_sesion_aprendizaje().
+
+        HU-49: mismo mecanismo de plantilla dinámica que construir_prompt_unidad.
         """
         # Truncar títulos a 255 chars (restricción de API)
         LIMITE = 255
@@ -174,20 +218,42 @@ class GeneratorAgent:
             )
 
         contexto_tema = f"- Tema de la sesión: {tema}" if tema else ""
-        contexto_metodologia = self._construir_contexto_metodologia(metodologia)
-
-        prompt = self.prompt_manager.cargar(
-            "sesion_aprendizaje",
-            titulo_unidad=titulo_unidad,
-            titulo_sesion=titulo_sesion,
-            nivel=nivel,
-            grado=grado,
-            seccion=seccion,
-            duracion=duracion,
-            texto_competencias=texto_competencias,
-            contexto_tema=contexto_tema,
-            contexto_metodologia=contexto_metodologia,
+        contexto_metodologia = self._construir_contexto_metodologia(metodologia, recurso_previo)
+        contexto_institucional = construir_contexto_institucional(institution_profile)  # HU-32
+        # HU-42: para la sesión se prioriza 1-2 filas de la matriz según el tema.
+        contexto_matriz = instrucciones_matriz(
+            construir_filas_matriz(institution_profile),
+            resolver_enfoques_transversales(institution_profile),
+            por_sesion=True,
         )
+
+        if plantilla_esquema:
+            from ..core.template_parser import construir_prompt_desde_plantilla
+
+            contexto = (
+                f"Título de la Unidad: {titulo_unidad}. Título de la Sesión: {titulo_sesion}.\n"
+                f"Nivel: {nivel}. Grado: {grado}. Sección: {seccion}. Duración: {duracion}.\n"
+                f"{texto_competencias}\n{contexto_tema}\n{contexto_metodologia}{contexto_institucional}"
+            )
+            reglas = self.prompt_manager.cargar_seccion(
+                "sesion_aprendizaje", "INSTRUCCIONES DE METODOLOGÍA"
+            )
+            prompt = construir_prompt_desde_plantilla(plantilla_esquema, reglas, contexto)
+        else:
+            prompt = self.prompt_manager.cargar(
+                "sesion_aprendizaje",
+                titulo_unidad=titulo_unidad,
+                titulo_sesion=titulo_sesion,
+                nivel=nivel,
+                grado=grado,
+                seccion=seccion,
+                duracion=duracion,
+                texto_competencias=texto_competencias,
+                contexto_tema=contexto_tema,
+                contexto_metodologia=contexto_metodologia,
+                contexto_institucional=contexto_institucional,
+                contexto_matriz=contexto_matriz,
+            )
 
         return prompt
 
@@ -280,8 +346,12 @@ Responde solo con el documento completo corregido."""
 
     # --- Métodos auxiliares ---
 
-    def _construir_contexto_metodologia(self, metodologia: str) -> str:
-        """Construye instrucciones de estilo según la metodología elegida."""
+    def _construir_contexto_metodologia(self, metodologia: str, recurso_previo: Optional[str] = None) -> str:
+        """Construye instrucciones de estilo según la metodología elegida.
+
+        HU-43: con Aula Invertida, si el docente indicó el enlace del recurso
+        previo, se le ordena al modelo citarlo textualmente en el INICIO en vez
+        de inventar una referencia genérica. Con otras metodologías se ignora."""
         if not metodologia or not metodologia.strip():
             return ""
 
@@ -302,6 +372,7 @@ Responde solo con el documento completo corregido."""
                 "verifica lo estudiado en casa con 3-4 preguntas. El docente NO expone. "
                 "El DESARROLLO se dedica íntegramente a debates grupales, "
                 "análisis de casos y creación colaborativa."
+                + self._instruccion_recurso_previo(recurso_previo)
             )
         elif "ERCA" in met:
             return (
@@ -313,6 +384,17 @@ Responde solo con el documento completo corregido."""
         else:
             return f"- Metodología: {metodologia}"
 
+
+    @staticmethod
+    def _instruccion_recurso_previo(recurso_previo: Optional[str]) -> str:
+        if not recurso_previo or not recurso_previo.strip():
+            return ""
+        return (
+            "\n  RECURSO PREVIO (enlace que los estudiantes revisan en casa): "
+            f"{recurso_previo.strip()}\n"
+            "  En el INICIO, la verificación de lo estudiado en casa DEBE citar este "
+            "enlace tal cual, completo y sin modificarlo, como el material previo."
+        )
 
     def _construir_contexto_competencia(
         self, competencia: str, area: str, grado: int

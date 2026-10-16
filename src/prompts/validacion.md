@@ -31,4 +31,5 @@ Responde SOLO en este formato JSON exacto:
 }}
 ```
 
+Sé conciso: como máximo 5 errores y 3 sugerencias, cada descripción en una sola frase. Reporta solo problemas reales del contenido que ves; si todos los criterios son CORRECTO, devuelve "errores" vacío.
 No agregues texto fuera del bloque JSON.

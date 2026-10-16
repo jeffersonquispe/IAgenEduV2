@@ -30,6 +30,31 @@ class PipelineMetrics:
     tokens_aprox: int = 0
     duracion_ms: int = 0
     llm_model: str = BedrockClient.CLAUDE_SONNET
+    # HU-30: detalle de lo que sigue fallando tras la corrección, para mostrarlo
+    # al docente: [{"tipo", "categoria", "mensaje", "seccion"}]
+    detalle_validacion: list = field(default_factory=list)
+
+    def aplicar_reporte(self, reporte) -> None:
+        """Copia el estado de un ValidationReport a las métricas. Se llama tras
+        CADA validación (inicial y posteriores a una corrección) para que las
+        métricas reflejen el estado final del contenido, no el previo."""
+        self.puntaje_validacion = reporte.puntaje
+        self.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
+        self.errores_advertencia = sum(1 for e in reporte.errores if e.tipo == "ADVERTENCIA")
+        self.detalle_validacion = [
+            {"tipo": e.tipo, "categoria": e.categoria, "mensaje": e.mensaje, "seccion": e.seccion}
+            for e in reporte.errores if e.tipo in ("CRITICO", "ADVERTENCIA")
+        ]
+
+    def resumen_validacion(self) -> dict:
+        """Forma que viaja al cliente y se guarda en Document.content['validacion']."""
+        return {
+            "es_valido": self.errores_criticos == 0,
+            "puntaje_validacion": self.puntaje_validacion,
+            "errores_criticos": self.errores_criticos,
+            "errores_advertencia": self.errores_advertencia,
+            "detalle": self.detalle_validacion,
+        }
 
 
 class AgentCoordinator:
@@ -48,10 +73,16 @@ class AgentCoordinator:
         self.formatter = FormatterAgent()
         self.max_correcciones = 1
 
-    def validar_y_formatear_unidad(self, contenido: str, area_curricular: str, grado) -> Tuple[str, PipelineMetrics]:
+    def validar_y_formatear_unidad(
+        self, contenido: str, area_curricular: str, grado, num_sesiones: Optional[int] = None,
+        plantilla_esquema: Optional[dict] = None,
+    ) -> Tuple[str, PipelineMetrics]:
         """
         Valida, corrige si es necesario, y formatea una unidad didáctica.
         Extrae los Pasos 2-4 del pipeline (usado por streaming y por generar_unidad_didactica).
+
+        `num_sesiones` habilita la verificación HU-39 (criterios de evaluación
+        alineados 1:1 con la cantidad de sesiones solicitada).
         """
         metricas = PipelineMetrics(tipo="unidad", area_curricular=area_curricular, grado=str(grado))
 
@@ -60,10 +91,10 @@ class AgentCoordinator:
             contenido=contenido,
             area_curricular=area_curricular,
             grado=str(grado),
+            num_sesiones=num_sesiones,
+            plantilla_esquema=plantilla_esquema,
         )
-        metricas.puntaje_validacion = reporte.puntaje
-        metricas.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
-        metricas.errores_advertencia = sum(1 for e in reporte.errores if e.tipo == "ADVERTENCIA")
+        metricas.aplicar_reporte(reporte)
 
         # Paso 3: Corregir si hay errores críticos
         if reporte.tiene_errores_criticos:
@@ -77,10 +108,10 @@ class AgentCoordinator:
                 metricas.correcciones_aplicadas += 1
 
                 reporte = self.validator.validar_unidad(
-                    contenido=contenido, area_curricular=area_curricular, grado=str(grado)
+                    contenido=contenido, area_curricular=area_curricular, grado=str(grado),
+                    num_sesiones=num_sesiones, plantilla_esquema=plantilla_esquema,
                 )
-                metricas.puntaje_validacion = reporte.puntaje
-                metricas.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
+                metricas.aplicar_reporte(reporte)
 
                 if not reporte.tiene_errores_criticos:
                     logger.info(f"[Coordinator] Corrección exitosa en intento {intento + 1}")
@@ -127,6 +158,7 @@ class AgentCoordinator:
             contenido=contenido,
             area_curricular=area_curricular,
             grado=grado,
+            num_sesiones=num_sesiones,
         )
 
         metricas.duracion_ms = int((time.monotonic() - t0) * 1000)
@@ -138,17 +170,18 @@ class AgentCoordinator:
         )
         return contenido_final, metricas
 
-    def validar_y_formatear_sesion(self, contenido: str, grado: str, metodologia: str = None) -> Tuple[str, PipelineMetrics]:
+    def validar_y_formatear_sesion(
+        self, contenido: str, grado: str, metodologia: str = None,
+        plantilla_esquema: Optional[dict] = None,
+    ) -> Tuple[str, PipelineMetrics]:
         """
         Valida, corrige si es necesario, y formatea una sesión de aprendizaje.
         Extrae los Pasos 2-4 del pipeline (usado por streaming y por generar_sesion_aprendizaje).
         """
         metricas = PipelineMetrics(tipo="sesion", grado=grado, metodologia=metodologia or "")
 
-        reporte = self.validator.validar_sesion(contenido)
-        metricas.puntaje_validacion = reporte.puntaje
-        metricas.errores_criticos = sum(1 for e in reporte.errores if e.tipo == "CRITICO")
-        metricas.errores_advertencia = sum(1 for e in reporte.errores if e.tipo == "ADVERTENCIA")
+        reporte = self.validator.validar_sesion(contenido, plantilla_esquema=plantilla_esquema)
+        metricas.aplicar_reporte(reporte)
 
         if reporte.tiene_errores_criticos:
             logger.warning("[Coordinator] Sesión: corrigiendo errores críticos...")
@@ -156,6 +189,12 @@ class AgentCoordinator:
                        for e in reporte.errores if e.tipo == "CRITICO"]
             contenido = self.generator.corregir(contenido, errores)
             metricas.correcciones_aplicadas += 1
+
+            # HU-30: re-validar tras corregir, igual que la Unidad; si no, las
+            # métricas conservarían los errores previos a la corrección y se
+            # bloquearía la exportación de un documento ya arreglado.
+            reporte = self.validator.validar_sesion(contenido, plantilla_esquema=plantilla_esquema)
+            metricas.aplicar_reporte(reporte)
 
         contenido_final = self.formatter.formatear(contenido)
         metricas.tokens_aprox = len(contenido_final) // 4

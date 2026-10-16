@@ -13,6 +13,30 @@ BADGES = [
     {"id": "perfeccionista", "nombre": "Perfeccionista 💎", "descripcion": "Realizaste 10 mejoras de IA.", "emoji": "💎"},
 ]
 
+# HU-38: puntos por acción directa (regla documentada en DETALLES_TECNICOS §9 y
+# ya usada por la app legacy en src/app/gamification.py).
+PUNTOS_POR_DOCUMENTO = 10
+PUNTOS_POR_MEJORA = 5
+PUNTOS_POR_EXPORTACION = 15
+PUNTOS_POR_INSIGNIA = 20
+
+
+def calcular_puntos(stats: Any) -> int:
+    """Puntos totales derivados de los contadores del usuario.
+
+    Se calcula (no se acumula con incrementos sueltos en cada ruta) para que sea
+    idempotente y no se desincronice: GET /auth/stats ya recalcula insignias y
+    nivel en cada llamada, y es el único lugar que persiste `puntos`.
+    """
+    exportaciones = (stats.exportaciones_docx or 0) + (stats.exportaciones_pdf or 0)
+    return (
+        (stats.docs_generados or 0) * PUNTOS_POR_DOCUMENTO
+        + (stats.mejoras_realizadas or 0) * PUNTOS_POR_MEJORA
+        + exportaciones * PUNTOS_POR_EXPORTACION
+        + len(stats.badges_desbloqueados or []) * PUNTOS_POR_INSIGNIA
+    )
+
+
 def calcular_nivel(puntos: int) -> Dict[str, Any]:
     if puntos < 100:
         return {"nombre": "Principiante", "icono": "🌱", "progreso": puntos / 100}

@@ -42,11 +42,14 @@ Solo aplica al generar una Sesión de Aprendizaje:
 El prompt exige "EXACTAMENTE N sesiones, numeradas del 1 al N" — no es una cota superior.
 **Origen:** `contexto_sesiones` en `generator_agent.py`.
 
-### 1.7 Valores y enfoques transversales están fijos en el código, y son de una institución específica
-El sistema no usa los 13 valores genéricos del CNEB/MINEDU: usa una lista hardcodeada que incluye valores explícitamente confesionales — *"Encuentro personal con Jesucristo"*, *"Caridad"*, *"Experiencia comunitaria de la fe"*, *"Compasión y misericordia"* — propios de un colegio católico/parroquial, no de cualquier institución pública.
+### 1.7 Valores y enfoques transversales: del perfil institucional, con default genérico del CNEB
+Los valores y enfoques de la sección "Valores y Enfoques Transversales" se resuelven así (HU-36):
+1. Si el docente configuró **valores propios** en su perfil institucional (HU-31), se usan esos.
+2. Si no hay perfil, o su lista de valores está vacía o en blanco, se usa el **default genérico del CNEB** (`VALORES_CNEB_DEFAULT`, sin contenido confesional). Lo mismo aplica a los enfoques.
+3. La lista de una institución católica (13 valores, incluye *"Encuentro personal con Jesucristo"*, *"Caridad"*) **no es el default**: es un preset que el docente carga de forma explícita desde la pantalla de Institución. Elegirlo solo rellena el campo; se guarda como valores propios cuando pulsa Guardar.
 
-> ⚠️ Esto significa que **hoy el sistema no es neutral institucionalmente**: cualquier docente que lo use, sea cual sea su colegio, recibe documentos con estos valores religiosos específicos en la sección "Valores y Enfoques Transversales". Es exactamente el problema que **HU-31/HU-32** (perfil institucional) del backlog buscan resolver — hoy no hay forma de que un colegio distinto sobrescriba esta lista.
-> **Origen:** `VALORES_PERMITIDOS`, `ENFOQUES_TRANSVERSALES_PERMITIDOS` en `generator_agent.py`.
+> Antes de HU-36 esa lista católica estaba fija en el código (`VALORES_PERMITIDOS`) y se aplicaba a todo documento, sin importar el colegio.
+> **Origen:** `resolver_valores_institucionales()` / `resolver_enfoques_transversales()` en `core/valores_institucionales.py`; presets en `GET /institucion/presets-valores`.
 
 ### 1.8 El contexto RAG enriquece pero nunca bloquea
 Si la consulta a la Knowledge Base de Bedrock falla o no devuelve resultados, la generación continúa igual, solo que sin ese contexto adicional — nunca es un error fatal.
@@ -128,10 +131,20 @@ Si la validación encuentra errores críticos, el sistema le devuelve esos error
 
 ## 6. Gamificación
 
-### 6.1 Los puntos solo vienen de insignias — no de generar o exportar directamente
-La única línea del código que suma `puntos` es al desbloquear una insignia nueva (**+20 puntos por insignia**), dentro de `GET /auth/stats`.
+### 6.1 Puntos por acción directa e insignias
+Los puntos se **calculan** a partir de los contadores del usuario (HU-38), no se acumulan con incrementos sueltos:
 
-> ⚠️ Otra documentación del proyecto (`DETALLES_TECNICOS.md` §9) describe "+10 por documento generado, +5 por mejora, +15 por exportación" — **esa regla no está implementada en la app activa**. Generar, mejorar o exportar un documento no otorga puntos directamente; solo lo hace indirectamente, al cumplir la condición de alguna insignia.
+| Acción | Puntos |
+|---|---|
+| Documento generado | +10 |
+| Mejora con IA | +5 |
+| Exportación (DOCX o PDF) | +15 |
+| Insignia desbloqueada | +20 |
+
+`puntos = docs_generados×10 + mejoras_realizadas×5 + (exportaciones_docx + exportaciones_pdf)×15 + insignias×20`, recalculado y persistido en cada `GET /auth/stats`. Es la misma fórmula que ya usaba la app Streamlit legacy, ampliada con las exportaciones.
+**Origen:** `calcular_puntos()` en `gamification_logic.py`.
+
+> ⚠️ Cada mejora y cada exportación suma, sin tope por documento: repetir una exportación vuelve a sumar +15. Si el balance de niveles se vuelve trivial, el ajuste natural es contar a lo sumo una exportación por documento.
 
 ### 6.2 Nivel por umbral de puntos acumulados
 
@@ -176,8 +189,8 @@ Cuenta días **consecutivos** hacia atrás desde hoy o ayer (si no se usó hoy n
 |---|---|---|
 | La Sesión "recuerda" la Unidad automáticamente | HU-22 | El docente escribe el título de la unidad a mano, sin vínculo real |
 | No debe haber temas repetidos entre sesiones de una unidad | HU-29 | Sin ninguna validación de duplicados |
-| El botón de descarga solo aparece si la validación pasa | HU-30 | Los botones de exportar están siempre habilitados |
-| Datos de la institución (nombre, visión, contexto) | HU-31, HU-32 | No existe ningún perfil institucional — ver también §1.7 |
+| El botón de descarga solo aparece si la validación pasa | HU-30 | Implementado como aviso + confirmación explícita (no bloqueo total); la validación se actualiza al editar o refinar |
+| Datos de la institución (nombre, visión, contexto) | HU-31, HU-32 | Implementado: perfil institucional que contextualiza la generación — ver §1.7 |
 
 ---
 

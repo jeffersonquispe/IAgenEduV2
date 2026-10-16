@@ -5,7 +5,7 @@ platform._wmi = None  # type: ignore[attr-defined]  # WMI queries hang indefinit
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .database import engine, Base
-from .routes import auth, generation, export, data, metrics
+from .routes import auth, generation, export, data, metrics, institution
 
 # Create DB tables (new tables: document_versions, pipeline_runs auto-created)
 Base.metadata.create_all(bind=engine)
@@ -23,6 +23,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["X-Total-Count", "X-Export-Advertencia"],
 )
 
 # Include Routers
@@ -31,6 +32,7 @@ app.include_router(generation.router)
 app.include_router(export.router)
 app.include_router(data.router)
 app.include_router(metrics.router)
+app.include_router(institution.router)
 
 @app.get("/")
 def read_root():

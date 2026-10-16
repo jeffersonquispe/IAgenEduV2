@@ -10,6 +10,7 @@ Actúa como especialista en diseño de sesiones de aprendizaje del MINEDU Perú.
 - Duración: {duracion}
 {contexto_tema}
 {contexto_metodologia}
+{contexto_institucional}
 
 ## INSTRUCCIONES DE METODOLOGÍA
 
@@ -21,7 +22,7 @@ Aplica EXACTAMENTE el siguiente patrón según la metodología indicada:
 - CIERRE: Evaluación de la solución propuesta. Metacognición: ¿Qué aprendimos del proceso? ¿Qué cambiaríamos?
 
 **Si la metodología es Aula Invertida (Flipped Classroom)**:
-- INICIO: NO presentar contenido nuevo. Verificar lo estudiado en casa: lanzar 3-4 preguntas sobre la lectura/vídeo previo asignado. Discusión rápida en pares (2 min). El docente actúa como facilitador, NO expositor.
+- INICIO: NO presentar contenido nuevo. Verificar lo estudiado en casa: lanzar 3-4 preguntas sobre la lectura/vídeo previo asignado. Si la información de la sesión incluye un RECURSO PREVIO (enlace), cítalo textualmente y completo en el INICIO como el material previo; si no lo incluye, redacta una referencia genérica al material previo. Discusión rápida en pares (2 min). El docente actúa como facilitador, NO expositor.
 - DESARROLLO: Dedicar el tiempo íntegramente a: debates grupales, análisis crítico de casos, resolución de ejercicios complejos, creación colaborativa. El docente acompaña y profundiza dudas.
 - CIERRE: Síntesis construida por los alumnos (no el docente). Metacognición: ¿Qué partes del material previo fueron más difíciles? ¿Qué logramos profundizar hoy?
 
@@ -55,14 +56,20 @@ NO agregues texto antes ni después de las tablas.
 | ITEM | CONTENIDO |
 |------|-----------|
 | **DATOS INFORMATIVOS** | Área curricular: [área]. Grado y sección: {grado}° {seccion}. Nivel: {nivel}. Duración: {duracion}. Fecha de aplicación: [fecha]. Metodología: [metodología aplicada]. |
-| **SITUACIÓN SIGNIFICATIVA** | [Contexto real y motivador de 2-3 oraciones que conecte con la vida del estudiante y con el tema de la sesión. Debe generar una pregunta o reto implícito.] |
+| **SITUACIÓN SIGNIFICATIVA** | [Contexto real y motivador de 2-3 oraciones que conecte con la vida del estudiante y con el tema de la sesión.] |
+| **RETO** | [Pregunta directa y desafiante dirigida a los estudiantes, en segunda persona (ej. "¿Cómo podemos...?"), derivada de la situación significativa. Debe ser más concreta y específica que la situación significativa, no una repetición de ella.] |
 | **PROPÓSITOS DE APRENDIZAJE** | {texto_competencias} Evidencia de aprendizaje: [Verbo de acción + contenido + condición de calidad]. Instrumento de evaluación: Rúbrica de sesión. TODO dentro de esta celda. |
-| **ENFOQUE TRANSVERSAL** | Valor priorizado: [valor]. Comportamientos observables del docente: [descripción]. Comportamientos observables del estudiante: [descripción]. |
 | **SECUENCIA DIDÁCTICA** | INICIO [tiempo]: [Actividades de inicio según metodología. Motivación, recojo de saberes previos o verificación de tarea previa según corresponda. Propósito de la sesión y criterios de evaluación.] DESARROLLO [tiempo]: [Actividades de desarrollo aplicando el patrón de la metodología. Detallar pasos concretos, preguntas orientadoras, recursos usados, forma de agrupación. Incluir gestión del docente y acciones del estudiante.] CIERRE [tiempo]: [Conclusiones construidas con los alumnos. Metacognición: ¿Qué aprendí hoy? ¿Cómo lo aprendí? ¿Para qué me sirve? Transferencia a situación cotidiana.] TODO dentro de esta celda, separado por saltos de línea. |
 | **MATERIALES Y RECURSOS** | Para docente: [lista de materiales específicos, no genéricos]. Para estudiantes: [lista]. Recursos digitales o físicos: [lista contextualizada al tema]. |
 | **REFLEXIÓN DOCENTE** | Dificultades previstas: [texto]. Estrategias de ajuste: [texto]. Indicadores de éxito de la sesión: [texto]. |
 
-SEGUNDA TABLA — Rúbrica simplificada de la sesión (3 columnas):
+SEGUNDA TABLA — Matriz axiológica de la sesión: valor priorizado y enfoque transversal (tabla separada, 4 columnas):
+{contexto_matriz}
+| Valor | Enfoques transversales | Comportamientos observables | Instrumento |
+|---|---|---|---|
+| [Valor priorizado en esta sesión] | [Enfoque transversal vinculado] | [Conducta concreta y observable del estudiante en esta sesión] | [Lista de cotejo, escala de valoración o rúbrica de actitudes] |
+
+TERCERA TABLA — Rúbrica simplificada de la sesión (3 columnas):
 | Criterio de evaluación | Logrado | En proceso |
 |---|---|---|
 | [Criterio 1 observable y medible para esta sesión] | [Descripción de desempeño logrado] | [Descripción de desempeño en proceso] |
@@ -77,5 +84,5 @@ SEGUNDA TABLA — Rúbrica simplificada de la sesión (3 columnas):
 5. Secuencia didáctica: Inicio, Desarrollo, Cierre dentro de UNA SOLA celda.
 6. Contenido apropiado para {nivel} - {grado}° grado (MINEDU Perú).
 7. Los tiempos de cada momento deben sumar exactamente {duracion}.
-8. La Rúbrica de sesión debe ser tabla separada con 3 columnas.
+8. La Matriz axiológica (4 columnas) y la Rúbrica de sesión (3 columnas) deben ser tablas separadas.
 9. Los criterios de la rúbrica deben ser observables y medibles, no subjetivos.

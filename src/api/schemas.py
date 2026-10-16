@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, Field
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 
@@ -13,6 +13,9 @@ class User(UserBase):
     id: str  # UUID de Supabase (auth.users.id)
     is_active: bool
     created_at: datetime
+    # HU-20: no es una columna; lo calcula get_current_user desde auth.users
+    # (email_confirmed_at), que es la fuente de verdad en Supabase.
+    email_verified: bool = True
 
     class Config:
         from_attributes = True
@@ -54,6 +57,51 @@ class DocumentCreate(DocumentBase):
 class Document(DocumentBase):
     id: str
     user_id: str
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+# HU-47: encabezado de control documentario (los largos coinciden con core/control_documentario.py)
+class ControlDocumentario(BaseModel):
+    red: Optional[str] = Field(None, max_length=80)
+    version: Optional[str] = Field(None, max_length=20)
+    aprobado_por: Optional[str] = Field(None, max_length=80)
+    fecha_aprobacion: Optional[str] = Field(None, max_length=40)
+    revisado_por: Optional[str] = Field(None, max_length=80)
+    fecha_revision: Optional[str] = Field(None, max_length=40)
+
+# Institution Profile Schemas (HU-31)
+class InstitutionProfileBase(BaseModel):
+    control_documentario: Optional[ControlDocumentario] = None
+    nombre_institucion: Optional[str] = None
+    nivel_modalidad: Optional[str] = None
+    dre_ugel: Optional[str] = None
+    coordinacion_pedagogica: Optional[str] = None
+    vision: Optional[str] = None
+    mision: Optional[str] = None
+    contexto_relevante: Optional[str] = None
+    valores_institucionales: Optional[List[str]] = None
+    enfoques_transversales: Optional[List[str]] = None
+    matriz_axiologica: Optional[List[Dict[str, Any]]] = None
+
+class InstitutionProfileUpdate(InstitutionProfileBase):
+    pass
+
+class InstitutionProfile(InstitutionProfileBase):
+    id: int
+    user_id: str
+
+    class Config:
+        from_attributes = True
+
+# Document Template Schemas (HU-48)
+class DocumentTemplateSummary(BaseModel):
+    id: int
+    tipo: str
+    nombre_archivo: str
+    activa: bool
+    esquema: Dict[str, Any]
     created_at: datetime
 
     class Config:

@@ -8,6 +8,7 @@ import json
 import logging
 import os
 import asyncio
+import threading
 from typing import Optional, Iterator
 from botocore.exceptions import NoCredentialsError, ClientError
 from botocore.config import Config
@@ -30,6 +31,92 @@ class RespuestaIncompleta(Exception):
     pass
 
 
+# HU-34: límite de llamadas a Bedrock en vuelo a la vez. Todas las llamadas son
+# síncronas y corren en hilos (el streaming en el threadpool de FastAPI,
+# invocar_async con to_thread), así que el primitivo es threading, no asyncio.
+# Default 4: conservador a propósito para no requerir tuning antes del primer
+# despliegue — las cuotas on-demand de Claude en una cuenta AWS nueva suelen ser
+# de pocas solicitudes por minuto, y cada generación completa encadena varias
+# llamadas (generar + validar con LLM + posible corrección). Súbelo con
+# BEDROCK_MAX_CONCURRENCY cuando conozcas la cuota real de tu cuenta/modelo.
+DEFAULT_BEDROCK_MAX_CONCURRENCY = 4
+
+
+def _leer_max_concurrencia() -> int:
+    raw = (os.environ.get("BEDROCK_MAX_CONCURRENCY") or "").strip()
+    if not raw:
+        return DEFAULT_BEDROCK_MAX_CONCURRENCY
+    try:
+        valor = int(raw)
+        if valor < 1:
+            raise ValueError
+        return valor
+    except ValueError:
+        logger.warning(
+            f"[Bedrock] BEDROCK_MAX_CONCURRENCY={raw!r} no es un entero >= 1; "
+            f"usando {DEFAULT_BEDROCK_MAX_CONCURRENCY}"
+        )
+        return DEFAULT_BEDROCK_MAX_CONCURRENCY
+
+
+class LimiteConcurrencia:
+    """Semáforo con cola: las llamadas que exceden el límite esperan su turno
+    en vez de dispararse todas a la vez contra AWS."""
+
+    def __init__(self, maximo: int):
+        self.maximo = maximo
+        self._sem = threading.BoundedSemaphore(maximo)
+        self._lock = threading.Lock()
+        self._en_vuelo = 0
+        self._esperando = 0
+
+    @property
+    def en_vuelo(self) -> int:
+        return self._en_vuelo
+
+    @property
+    def esperando(self) -> int:
+        return self._esperando
+
+    def __enter__(self):
+        if not self._sem.acquire(blocking=False):
+            with self._lock:
+                self._esperando += 1
+                esperando = self._esperando
+            logger.info(
+                f"[Bedrock] Límite de concurrencia ({self.maximo}) alcanzado; "
+                f"en cola: {esperando}"
+            )
+            try:
+                self._sem.acquire()
+            finally:
+                with self._lock:
+                    self._esperando -= 1
+        with self._lock:
+            self._en_vuelo += 1
+        return self
+
+    def __exit__(self, *exc):
+        with self._lock:
+            self._en_vuelo -= 1
+        self._sem.release()
+        return False
+
+
+_limite: Optional[LimiteConcurrencia] = None
+_limite_lock = threading.Lock()
+
+
+def get_limite_concurrencia() -> LimiteConcurrencia:
+    """Límite compartido por todo el proceso (lazy, para leer el entorno ya cargado)."""
+    global _limite
+    if _limite is None:
+        with _limite_lock:
+            if _limite is None:
+                _limite = LimiteConcurrencia(_leer_max_concurrencia())
+    return _limite
+
+
 class BedrockClient:
     """
     Cliente unificado para invocar modelos en Amazon Bedrock.
@@ -43,7 +130,10 @@ class BedrockClient:
 
     # Modelos disponibles
     CLAUDE_SONNET = os.environ.get("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-6")
-    CLAUDE_HAIKU = "anthropic.claude-3-haiku-20240307-v1:0"
+    # Modelo económico para la validación de contenido (LLM-as-judge). Configurable porque AWS
+    # retira versiones: el anterior (claude-3-haiku-20240307) ya no existe y la validación fallaba
+    # en silencio. Si cambias de modelo, comprueba que tu cuenta tenga acceso a él en Bedrock.
+    CLAUDE_HAIKU = os.environ.get("BEDROCK_VALIDATION_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
 
     def __init__(self, max_reintentos: int = 3):
         self.max_reintentos = max_reintentos
@@ -99,14 +189,16 @@ class BedrockClient:
                     "temperature": temperature,
                 })
 
-                response = self.client.invoke_model(
-                    body=body,
-                    modelId=modelo,
-                    accept='application/json',
-                    contentType='application/json',
-                )
-
-                response_body = json.loads(response['body'].read())
+                # HU-34: el slot se ocupa solo durante la llamada (no durante el
+                # backoff entre reintentos, para no retener cupo mientras se espera).
+                with get_limite_concurrencia():
+                    response = self.client.invoke_model(
+                        body=body,
+                        modelId=modelo,
+                        accept='application/json',
+                        contentType='application/json',
+                    )
+                    response_body = json.loads(response['body'].read())
                 texto = response_body.get('content', [{}])[0].get('text', '')
 
                 # Validar que la respuesta no esté vacía o truncada
@@ -213,20 +305,24 @@ class BedrockClient:
         })
 
         try:
-            response = self.client.invoke_model_with_response_stream(
-                body=body,
-                modelId=modelo,
-                accept="application/json",
-                contentType="application/json",
-            )
-            for event in response["body"]:
-                chunk = event.get("chunk")
-                if chunk:
-                    data = json.loads(chunk["bytes"])
-                    if data.get("type") == "content_block_delta":
-                        delta = data.get("delta", {})
-                        if delta.get("type") == "text_delta":
-                            yield delta.get("text", "")
+            # HU-34: el slot se mantiene mientras dura el stream (la solicitud
+            # sigue en vuelo en AWS) y se libera en el `with` aunque el cliente
+            # cierre el generador a mitad (GeneratorExit).
+            with get_limite_concurrencia():
+                response = self.client.invoke_model_with_response_stream(
+                    body=body,
+                    modelId=modelo,
+                    accept="application/json",
+                    contentType="application/json",
+                )
+                for event in response["body"]:
+                    chunk = event.get("chunk")
+                    if chunk:
+                        data = json.loads(chunk["bytes"])
+                        if data.get("type") == "content_block_delta":
+                            delta = data.get("delta", {})
+                            if delta.get("type") == "text_delta":
+                                yield delta.get("text", "")
         except Exception as e:
             logger.error(f"[Bedrock] Error en streaming: {e}")
             raise

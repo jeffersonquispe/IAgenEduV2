@@ -1,6 +1,7 @@
 import re
 
-def extraer_secuencia_sesiones(contenido, num_sesiones_esperadas=4):
+def extraer_secuencia_sesiones(contenido, num_sesiones_esperadas=4, *, max_titulo=500, max_criterio=600,
+                               max_actividades=800):
     """
     Extrae por cada sesión: titulo, criterio de evaluación, principales actividades.
     Retorna lista de dicts con keys titulo, criterio, actividades.
@@ -100,9 +101,9 @@ def extraer_secuencia_sesiones(contenido, num_sesiones_esperadas=4):
                 if corte in t:
                     t = t.split(corte)[0].strip()
             return t
-        titulo = _limpiar_celda(titulo[:500] if titulo else "")
-        criterio = _limpiar_celda(criterio[:600] if criterio else "")
-        actividades = _limpiar_celda(actividades[:800] if actividades else "")
+        titulo = _limpiar_celda(titulo[:max_titulo] if titulo else "")
+        criterio = _limpiar_celda(criterio[:max_criterio] if criterio else "")
+        actividades = _limpiar_celda(actividades[:max_actividades] if actividades else "")
         resultado.append({"titulo": titulo, "criterio": criterio, "actividades": actividades})
     
     while len(resultado) < num_sesiones_esperadas:

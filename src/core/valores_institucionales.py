@@ -15,9 +15,10 @@ queda disponible como preset explícito para instituciones confesionales que
 lo elijan, no como comportamiento por defecto.
 
 `resolver_valores_institucionales()` / `resolver_enfoques_transversales()`
-son el punto de extensión: hoy siempre devuelven el default porque no existe
-un perfil institucional persistente (HU-31). Cuando exista, deben recibir ese
-perfil y devolver sus valores propios si el docente los configuró.
+son el punto de extensión: reciben el perfil institucional (HU-31) y devuelven
+los valores propios del docente si los configuró; si no, el default genérico.
+El preset católico se ofrece en la pantalla de Institución (ver `listar_presets`),
+donde el docente lo elige explícitamente y queda como valores propios de su perfil.
 """
 from typing import Any, List, Optional
 
@@ -31,8 +32,7 @@ VALORES_CNEB_DEFAULT = [
 ]
 
 # Preset opcional — comportamiento anterior del sistema, ya no es el default.
-# Una institución confesional puede elegirlo explícitamente cuando exista
-# selección de perfil institucional (HU-31/HU-32).
+# Una institución confesional lo elige explícitamente en la pantalla de Institución.
 VALORES_CATOLICO_PRESET = [
     "Participación", "Respeto", "Solidaridad", "Conciencia crítica",
     "Compromiso ambiental", "Apertura y acogida", "Gratitud y donación",
@@ -45,6 +45,34 @@ PRESETS_VALORES = {
     "cneb": VALORES_CNEB_DEFAULT,
     "catolico": VALORES_CATOLICO_PRESET,
 }
+
+# Textos para mostrar cada preset en la interfaz.
+PRESETS_INFO = {
+    "cneb": {
+        "nombre": "Valores generales (CNEB)",
+        "descripcion": "Valores alineados a los enfoques transversales del CNEB, sin contenido confesional. Es lo que se usa si no configuras nada.",
+    },
+    "catolico": {
+        "nombre": "Institución católica",
+        "descripcion": "Valores de un colegio católico/parroquial (incluye valores explícitamente confesionales). Úsalo solo si tu institución es confesional.",
+    },
+}
+
+
+def listar_presets() -> List[dict]:
+    """Presets de valores para ofrecer en la interfaz: [{id, nombre, descripcion, valores}]."""
+    return [
+        {"id": pid, "nombre": PRESETS_INFO[pid]["nombre"], "descripcion": PRESETS_INFO[pid]["descripcion"],
+         "valores": list(valores)}
+        for pid, valores in PRESETS_VALORES.items()
+    ]
+
+
+def _lista_limpia(valores: Any) -> List[str]:
+    """Solo textos no vacíos y sin espacios sobrantes; cualquier otra cosa se descarta."""
+    if not isinstance(valores, (list, tuple)):
+        return []
+    return [v.strip() for v in valores if isinstance(v, str) and v.strip()]
 
 # Los enfoques transversales del CNEB no fueron señalados como confesionales
 # en la revisión (docs/REGLAS_DE_NEGOCIO.md §1.7) — se mantienen como único
@@ -64,19 +92,18 @@ ENFOQUES_TRANSVERSALES_CNEB_DEFAULT = [
 def resolver_valores_institucionales(institution_profile: Optional[Any] = None) -> List[str]:
     """Decide qué lista de valores usar para un documento generado.
 
-    Sin perfil institucional (hoy, siempre — HU-31 no existe todavía), usa el
-    default genérico CNEB. Cuando exista un perfil con valores propios
-    configurados, este es el único punto que hay que tocar para conectarlo.
+    Con un perfil que tenga valores propios, usa esos; sin perfil (o con una lista
+    vacía o en blanco), usa el default genérico del CNEB.
     """
-    valores_propios = getattr(institution_profile, "valores_institucionales", None)
+    valores_propios = _lista_limpia(getattr(institution_profile, "valores_institucionales", None))
     if institution_profile and valores_propios:
         return valores_propios
-    return VALORES_CNEB_DEFAULT
+    return list(VALORES_CNEB_DEFAULT)        # copia: nadie debe poder mutar la constante
 
 
 def resolver_enfoques_transversales(institution_profile: Optional[Any] = None) -> List[str]:
     """Mismo punto de extensión que `resolver_valores_institucionales`, para enfoques."""
-    enfoques_propios = getattr(institution_profile, "enfoques_transversales", None)
+    enfoques_propios = _lista_limpia(getattr(institution_profile, "enfoques_transversales", None))
     if institution_profile and enfoques_propios:
         return enfoques_propios
-    return ENFOQUES_TRANSVERSALES_CNEB_DEFAULT
+    return list(ENFOQUES_TRANSVERSALES_CNEB_DEFAULT)

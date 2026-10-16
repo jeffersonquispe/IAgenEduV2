@@ -8,6 +8,7 @@ routes/generation.py (una vía src/app/docx_parsers.py, otra con un loop
 if/elif inline). Aquí quedan detrás de la misma interfaz (Strategy) para que
 agregar un tercer tipo de documento no vuelva a tocar los route handlers.
 """
+import re
 from typing import Any, Dict, Protocol
 
 
@@ -67,10 +68,52 @@ def extraer_rubrica(contenido: str) -> str:
     return "\n".join(rubrica_lineas).strip()
 
 
+def extraer_fila_por_encabezado(contenido: str, clave: str) -> str:
+    """Devuelve el contenido de la fila de tabla `| **ENCABEZADO** | contenido |`
+    cuya primera celda empieza por `clave` (sin distinguir mayúsculas ni
+    asteriscos). Si la celda continúa en líneas siguientes que no empiezan
+    con "|" (saltos de línea dentro de la celda), también se incluyen."""
+    if not contenido:
+        return ""
+    clave = clave.upper()
+    partes: list = []
+    dentro = False
+    for linea in contenido.split("\n"):
+        stripped = linea.strip()
+        if stripped.startswith("|"):
+            if dentro:
+                break
+            celdas = [c.strip() for c in stripped.strip("|").split("|")]
+            if celdas and celdas[0].replace("*", "").strip().upper().startswith(clave):
+                dentro = True
+                resto = " ".join(c for c in celdas[1:] if c)
+                if resto:
+                    partes.append(resto)
+        elif dentro:
+            if not stripped:
+                break
+            partes.append(stripped.rstrip("|").strip())
+    return "\n".join(partes).strip()
+
+
+_GUIONES_FINALES = re.compile(r"\s*-{2,}\s*$")
+
+
+def _sin_guiones_finales(texto: str) -> str:
+    """Quita el resto del separador de tabla Markdown (`--`) que a veces queda pegado al final."""
+    return _GUIONES_FINALES.sub("", texto or "").strip()
+
+
+# La Unidad que sirve la API no tiene el límite de celda del DOCX del Streamlit legacy: el texto no se
+# recorta (antes las actividades se cortaban a 800 caracteres, a media palabra).
+_LIMITES_SECUENCIA = {"max_titulo": 500, "max_criterio": 2000, "max_actividades": 6000}
+
+
 class UnidadContentParser:
     """Parsea el contenido crudo de una Unidad Didáctica reutilizando docx_parsers.py."""
 
-    def parsear(self, contenido: str, *, area: str, **_: Any) -> Dict[str, Any]:
+    def parsear(self, contenido: str, *, area: str, num_sesiones: int = 4, **_: Any) -> Dict[str, Any]:
+        from ...core.matriz_axiologica import extraer_matriz  # import local: ver generation_service
         from ...app.docx_parsers import (
             extraer_situacion_significativa_completa,
             extraer_propositos_completo,
@@ -81,7 +124,7 @@ class UnidadContentParser:
         situacion_extr = extraer_situacion_significativa_completa(contenido)
         propositos_extr = extraer_propositos_completo(contenido)
         valores_dict = extraer_valores_enfoques_transversales(contenido)
-        sesiones_list = extraer_secuencia_sesiones(contenido)
+        sesiones_list = extraer_secuencia_sesiones(contenido, num_sesiones, **_LIMITES_SECUENCIA)
         rubrica_unidad = extraer_rubrica(contenido)
 
         secuencia_sesiones_str = ""
@@ -95,13 +138,17 @@ class UnidadContentParser:
 
         return {
             "titulo": f"Unidad Didáctica - {area}",
-            "situacion_significativa": situacion_extr,
-            "propositos_de_aprendizaje": propositos_extr,
-            "valores_y_enfoques_transversales": (
+            "situacion_significativa": _sin_guiones_finales(situacion_extr),
+            "propositos_de_aprendizaje": _sin_guiones_finales(propositos_extr),
+            # HU-42: la matriz axiológica generada como tabla; si el contenido no
+            # la trae (documentos antiguos o plantilla institucional), se conserva
+            # el formato de texto de antes.
+            "valores_y_enfoques_transversales": extraer_matriz(contenido) or (
                 f"Valores: {valores_dict.get('valores')}\n\n"
                 f"Enfoques: {valores_dict.get('enfoques_transversales')}"
             ),
             "secuencia_de_sesiones": secuencia_sesiones_str,
+            "materiales_basicos": _sin_guiones_finales(extraer_fila_por_encabezado(contenido, "MATERIALES")),  # HU-40
             "rubrica_unidad": rubrica_unidad,
         }
 
@@ -132,7 +179,7 @@ class SesionContentParser:
     ]
 
     def parsear(self, contenido: str, *, tema_sesion: str, **_: Any) -> Dict[str, Any]:
-        secciones: Dict[str, list] = {"datos": [], "propositos": [], "secuencia": [], "reflexion": []}
+        secciones: Dict[str, list] = {"datos": [], "reto": [], "propositos": [], "secuencia": [], "reflexion": []}
         current_section = None
 
         for line in contenido.split("\n"):
@@ -146,6 +193,14 @@ class SesionContentParser:
                     continue
                 encabezado = celdas[0].upper()
                 resto = " ".join(c for c in celdas[1:] if c)
+
+                # HU-41: "RETO" se compara contra el INICIO del encabezado; un
+                # `in` lo activaría con cualquier palabra que lo contenga.
+                if encabezado.replace("*", "").strip().startswith("RETO"):
+                    current_section = "reto"
+                    if resto:
+                        secciones["reto"].append(resto)
+                    continue
 
                 bucket = next(
                     (target for keywords, target in self._SECTION_KEYWORDS
@@ -162,6 +217,9 @@ class SesionContentParser:
 
             # Texto plano (formato sin tabla): encabezado en su propia línea.
             lu = stripped.upper()
+            if lu.replace("*", "").strip().rstrip(":") == "RETO":
+                current_section = "reto"
+                continue
             bucket = next(
                 (target for keywords, target in self._SECTION_KEYWORDS
                  if any(kw in lu for kw in keywords)),
@@ -175,11 +233,15 @@ class SesionContentParser:
                 secciones[current_section].append(stripped)
 
         rubrica_sesion = extraer_rubrica(contenido)
+        from ...core.matriz_axiologica import extraer_matriz  # HU-42 (import local: ver generation_service)
+        matriz = extraer_matriz(contenido)
 
         return {
             "titulo": f"Sesión - {tema_sesion}",
             "datos_informativos": "\n\n".join(secciones["datos"]).strip(),
+            "reto": "\n\n".join(secciones["reto"]).strip(),
             "propositos_de_aprendizaje": "\n\n".join(secciones["propositos"]).strip(),
+            **({"valores_y_enfoques_transversales": matriz} if matriz else {}),
             "secuencia_didactica": "\n\n".join(secciones["secuencia"]).strip(),
             "reflexion_sobre_la_actividad": "\n\n".join(secciones["reflexion"]).strip(),
             "rubrica_sesion": rubrica_sesion,

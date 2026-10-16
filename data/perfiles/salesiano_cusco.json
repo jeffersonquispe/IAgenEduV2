@@ -1,0 +1,38 @@
+{
+  "_fuente": "https://www.salesianocusco.edu.pe/ (nosotros/mision-y-vision, nosotros/valores, nosotros/identidad-salesiana/sistema-preventivo, nosotros/identidad-institucional-formativa). Consultado el 2026-10-08. Lo que la web no publica se dejó vacío a propósito: dre_ugel, coordinacion_pedagogica, enfoque e instrumento de la matriz axiológica.",
+
+  "nombre_institucion": "Colegio Salesiano de Cusco",
+  "nivel_modalidad": "Secundaria (la institución atiende estudiantes de 3 a 17 años)",
+  "dre_ugel": null,
+  "coordinacion_pedagogica": null,
+
+  "mision": "Educar, evangelizar y acompañar a los jóvenes, especialmente los más pobres, a través de un enfoque preventivo y pastoral. Promovemos una formación integral que fortalece las competencias intelectuales, emocionales y espirituales de los jóvenes, guiándolos hacia una vida plena en Cristo, en colaboración con las familias, la Iglesia y la sociedad. Nos comprometemos a seguir el carisma salesiano, creando ambientes educativos donde se vivan los valores de la fe, el amor y la ciudadanía.",
+
+  "vision": "Al 2029 ser el Colegio Salesiano del Cusco referente en la educación integral y evangelización de la juventud cusqueña, formando generaciones comprometidas con los valores cristianos, la justicia social y el servicio a los más vulnerables. Inspirados en el carisma salesiano, soñamos con una sociedad donde cada joven encuentre un espacio de desarrollo pleno, siendo buenos cristianos y honrados ciudadanos, capaces de transformar su entorno para vivir los valores de la fe, el amor y la ciudadanía.",
+
+  "contexto_relevante": "Colegio salesiano ubicado en la ciudad del Cusco, parte de la Red Salesiana de Escuelas y de la Inspectoría Santa Rosa de Lima. Atiende niños y jóvenes de 3 a 17 años, hispanohablantes y parte de la cultura y lengua quechua. Su formación es personalizada, basada en el personalismo cristiano y en el Sistema Preventivo de Don Bosco (razón, religión y amor): se previene creando un ambiente positivo, el educador es modelo y guía, y se construyen relaciones de confianza y respeto mutuo con los estudiantes. Aplica un currículo por competencias abierto a metodologías activas, con énfasis en el inglés, la ciudadanía y las competencias digitales, e introducción al emprendimiento. Promueve la justicia y la equidad, con gestos visibles de solidaridad con el más pobre y necesitado. La comunidad educativa se organiza como Comunidad Educativa Pastoral (CEP).",
+
+  "valores_institucionales": ["Fe", "Amor", "Ciudadanía"],
+  "enfoques_transversales": null,
+
+  "matriz_axiologica": [
+    {
+      "valor": "Fe",
+      "enfoque": "",
+      "comportamiento_observable": "Practica la oración personal y comunitaria, la escucha de la Palabra, y la celebración de los sacramentos. Expresa su amor a María, con actos de devoción que lo llevan a Jesús. Practica la caridad cristiana con acciones de servicio y de ayuda al prójimo, especialmente a los más pobres y necesitados.",
+      "instrumento": ""
+    },
+    {
+      "valor": "Amor",
+      "enfoque": "",
+      "comportamiento_observable": "Llama por su nombre a los compañeros, respetando su identidad e integridad. Agradece los bienes y dones recibidos. Se comunica de modo asertivo, siendo empático con las ideas de los demás. Protege la integridad física y emocional de las personas de la CEP.",
+      "instrumento": ""
+    },
+    {
+      "valor": "Ciudadanía",
+      "enfoque": "",
+      "comportamiento_observable": "Integra equipos de trabajo, incluyendo a sus compañeros. Cumple las responsabilidades y tareas asignadas según las consignas y tiempos establecidos. Comparte sus conocimientos y experiencias de manera solidaria generando nuevas ideas entre sus compañeros. Usa de forma razonable todos los recursos de los que dispone (hogar y escuela), implementando estrategias de reducción, reciclaje y reutilización. Promueve la preservación y expansión de áreas verdes mediante de cuidado, recuperación y generación de espacios naturales. Practica rutinas de ejercicios físicos y consume alimentos saludables.",
+      "instrumento": ""
+    }
+  ]
+}

@@ -12,6 +12,22 @@ from ..core.bedrock_client import get_bedrock_client
 
 logger = logging.getLogger(__name__)
 
+# Cuánto del documento se le muestra al modelo y cuánto se le deja responder.
+MAX_CARACTERES_VALIDACION = 40000
+MAX_TOKENS_RESPUESTA = 2000
+
+
+def _resultado_no_disponible(motivo: str) -> dict:
+    """Resultado neutro cuando la revisión con IA no se pudo realizar. `revision_disponible=False`
+    permite que quien lo use lo muestre al docente en vez de tomarlo por una aprobación real."""
+    return {
+        "calificacion_general": "APROBADO",
+        "puntaje": 70,
+        "errores": [],
+        "sugerencias": [motivo],
+        "revision_disponible": False,
+    }
+
 
 class ContentValidator:
     """
@@ -41,13 +57,16 @@ class ContentValidator:
             prompt = self.prompt_manager.cargar(
                 "validacion",
                 tipo_documento=tipo_documento,
-                contenido=contenido[:3000],  # Limitar para no exceder tokens
+                # Un límite bajo hacía que el modelo viera el documento "cortado" y lo reportara como
+                # incompleto. Una Unidad ocupa ~8-30 mil caracteres: con este tope se ve entera.
+                contenido=contenido[:MAX_CARACTERES_VALIDACION],
                 area_curricular=area_curricular,
                 grado=grado,
                 secciones_requeridas=secciones_requeridas or "Ver documento",
             )
 
-            respuesta = self.bedrock.invocar_validacion(prompt, max_tokens=800)
+            # Con 800 tokens la respuesta de Haiku 4.5 se cortaba a mitad del JSON y no se podía leer.
+            respuesta = self.bedrock.invocar_validacion(prompt, max_tokens=MAX_TOKENS_RESPUESTA)
 
             # Intentar parsear JSON de la respuesta
             return self._parsear_respuesta(respuesta)
@@ -55,12 +74,7 @@ class ContentValidator:
         except Exception as e:
             logger.warning(f"[ContentValidator] Error en validación LLM: {e}")
             # Si falla la validación LLM, devolver un reporte neutro
-            return {
-                "calificacion_general": "APROBADO",
-                "puntaje": 70,
-                "errores": [],
-                "sugerencias": [f"No se pudo realizar validación LLM: {e}"],
-            }
+            return _resultado_no_disponible(f"No se pudo realizar validación LLM: {e}")
 
     def _parsear_respuesta(self, respuesta: str) -> dict:
         """Intenta extraer el JSON del reporte de validación."""
@@ -68,7 +82,8 @@ class ContentValidator:
         json_match = None
         # Intentar extraer JSON entre ```json ... ```
         import re
-        match = re.search(r'```json\s*(.*?)\s*```', respuesta, re.DOTALL)
+        # El cierre ``` es opcional: si el modelo no lo escribe, se toma hasta el final.
+        match = re.search(r'```json\s*(.*?)\s*(?:```|\Z)', respuesta, re.DOTALL)
         if match:
             json_match = match.group(1)
         else:
@@ -83,12 +98,8 @@ class ContentValidator:
                 "puntaje": resultado.get("puntaje", 70),
                 "errores": resultado.get("errores", []),
                 "sugerencias": resultado.get("sugerencias", []),
+                "revision_disponible": True,
             }
         except json.JSONDecodeError:
             logger.warning("[ContentValidator] No se pudo parsear JSON de validación")
-            return {
-                "calificacion_general": "APROBADO",
-                "puntaje": 70,
-                "errores": [],
-                "sugerencias": ["La respuesta del validador no fue JSON válido"],
-            }
+            return _resultado_no_disponible("La respuesta del validador no fue JSON válido")
